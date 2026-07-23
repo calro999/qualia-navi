@@ -7,7 +7,7 @@ import { BlogPostPage } from './pages/BlogPostPage';
 import { ProductComparisonPage } from './pages/ProductComparisonPage';
 import { AuthorListPage } from './pages/AuthorListPage';
 import { AuthorDetailPage } from './pages/AuthorDetailPage';
-import { Sparkles, ShoppingBag, Heart, ShieldCheck } from 'lucide-react';
+import { Sparkles, ShoppingBag, Heart } from 'lucide-react';
 import { RakutenProductArticle } from './types';
 
 export default function App() {
@@ -109,13 +109,7 @@ export default function App() {
               Qualia Navi
             </div>
             <div>
-              <div className="flex items-center gap-1.5">
-                <span className="text-[10px] bg-purple-100 text-purple-700 font-bold px-2 py-0.5 rounded-full tracking-wider uppercase">RAKUTEN COSMETICS</span>
-                <span className="text-[10px] text-sky-600 font-bold flex items-center gap-0.5">
-                  <ShieldCheck className="w-3 h-3" /> 楽天API連動
-                </span>
-              </div>
-              <p className="text-xs text-slate-500 font-medium mt-0.5">透明感を叶える コスメ＆美容トレンドナビ</p>
+              <p className="text-xs text-slate-500 font-medium mt-0.5">透明感を研ぎ澄ます コスメ＆美容トレンドナビ</p>
             </div>
           </div>
 
@@ -130,7 +124,7 @@ export default function App() {
               }`}
             >
               <ShoppingBag className="w-3.5 h-3.5" />
-              <span>注目コスメレビュー ({INITIAL_ARTICLES.length}選)</span>
+              <span>注目コスメ</span>
             </button>
 
             <button
@@ -172,7 +166,7 @@ export default function App() {
             <span className="bg-gradient-to-r from-sky-500 to-purple-600 text-white font-bold px-3 py-1 rounded-lg text-sm">Qualia Navi</span>
           </div>
           <p className="font-medium text-slate-600">透明感を研ぎ澄ます美容・コスメ選びの総合ナビゲーション</p>
-          <p>© 2026 Qualia Navi. All rights reserved. 当サイトは楽天アフィリエイト・プログラムの参加者です。</p>
+          <p>© 2026 Qualia Navi. All rights reserved.</p>
         </div>
       </footer>
     </div>

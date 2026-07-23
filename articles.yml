@@ -1,0 +1,43 @@
+# Qualia Navi (クオリア・ナビ) コスメ＆美容 自動記事生成 定義ファイル
+# 楽天市場オープンAPIからリアルタイムに画像・アフィリエイトリンク・価格を取得します
+
+topics:
+  - id: topic-skincare-decorte
+    category: skincare
+    keyword: "コスメデコルテ リポソーム アドバンスト リペアセラム"
+    title_template: "【2026年最新】楽天で大人気！{product_name}の徹底検証＆リアル効果口コミ"
+    target_audience: "乾燥・ハリ不足に悩む方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-anessa
+    category: suncare
+    keyword: "アネッサ パーフェクトUV スキンケアミルク NA"
+    title_template: "【日焼け止め最高峰】{product_name} 猛暑でも絶対に焼けない秘密を検証"
+    target_audience: "屋外レジャー・日焼けを絶対防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-kbeauty-vt
+    category: k-beauty
+    keyword: "VT リードルショット 100"
+    title_template: "【韓国コスメNO.1】SNSで話題の{product_name} 毛穴・キメつるつる体験談"
+    target_audience: "毛穴・キメの乱れを解決したい方"
+    is_hall_of_fame: true
+
+  - topic-lip-romand
+    category: lip
+    keyword: "ロムアンド ジューシーラスティングティント"
+    title_template: "【落ちないツヤ唇】{product_name} 人気色＆実売価格を徹底比較"
+    target_audience: "プチプラでツヤリップを維持したい方"
+    is_hall_of_fame: false
+
+  - topic-device-vitalift
+    category: device
+    keyword: "パナソニック バイタリフト ブラシ EH-SP60"
+    title_template: "【引き締め美顔器】{product_name} 自宅サロン体験＆ポイント高還元"
+    target_audience: "フェイスライン・頭皮リフレッシュをしたい方"
+    is_hall_of_fame: true
+
+settings:
+  max_items_per_topic: 1
+  genre_id: "100939" # 楽天市場「美容・コスメ・香水」ジャンル
+  update_data_file: "src/data.ts"

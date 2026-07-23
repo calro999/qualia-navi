@@ -1,0 +1,48 @@
+name: Qualia Navi Rakuten Cosmetics Auto Generator
+
+on:
+  schedule:
+    # 毎日 午前9時 (UTC 0:00) に自動更新
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  auto-generate-articles:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Run Qualia Navi Rakuten Article Generator
+      env:
+        RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+        RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+        RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python scripts/generate_qualia_articles.py
+
+    - name: Commit and push generated cosmetics data
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        if [ -f src/data/articles.json ]; then
+          git add src/data/articles.json
+          if ! git diff --cached --exit-code; then
+            git commit -m "chore: auto-generate Rakuten cosmetics articles from articles.yml [skip ci]"
+            git push origin HEAD:${{ github.ref }}
+          else
+            echo "No changes in generated articles."
+          fi
+        fi

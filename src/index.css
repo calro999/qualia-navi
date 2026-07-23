@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Zen Kaku Gothic New', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+  }
+
+  h1, h2, h3, .font-serif-brand {
+    font-family: 'Shippori Mincho', 'Plus Jakarta Sans', serif;
+  }
+}
+
+/* Qualia Navi Aesthetic Utilities */
+.qualia-gradient-bg {
+  background: linear-gradient(135deg, #e0f2fe 0%, #f3e8ff 50%, #e0e7ff 100%);
+}
+
+.qualia-glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(224, 231, 255, 0.6);
+  box-shadow: 0 10px 30px -10px rgba(147, 197, 253, 0.25);
+}
+
+.qualia-glass-card:hover {
+  border-color: rgba(168, 85, 247, 0.4);
+  box-shadow: 0 15px 35px -5px rgba(168, 85, 247, 0.2);
+}
+
+.qualia-badge {
+  background: linear-gradient(135deg, #0284c7 0%, #7e22ce 100%);
+  color: white;
+}
+
+.rakuten-btn {
+  background: linear-gradient(135deg, #bf0000 0%, #e60000 100%);
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(230, 0, 0, 0.35);
+  transition: all 0.2s ease-in-out;
+}
+
+.rakuten-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(230, 0, 0, 0.45);
+}

@@ -23,14 +23,14 @@ topics:
     target_audience: "毛穴・キメの乱れを解決したい方"
     is_hall_of_fame: true
 
-  - topic-lip-romand
+  - id: topic-lip-romand
     category: lip
     keyword: "ロムアンド ジューシーラスティングティント"
     title_template: "【落ちないツヤ唇】{product_name} 人気色＆実売価格を徹底比較"
     target_audience: "プチプラでツヤリップを維持したい方"
     is_hall_of_fame: false
 
-  - topic-device-vitalift
+  - id: topic-device-vitalift
     category: device
     keyword: "パナソニック バイタリフト ブラシ EH-SP60"
     title_template: "【引き締め美顔器】{product_name} 自宅サロン体験＆ポイント高還元"
@@ -41,3 +41,4 @@ settings:
   max_items_per_topic: 1
   genre_id: "100939" # 楽天市場「美容・コスメ・香水」ジャンル
   update_data_file: "src/data.ts"
+

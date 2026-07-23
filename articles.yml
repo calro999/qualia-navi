@@ -37,6 +37,27 @@ topics:
     target_audience: "フェイスライン・頭皮リフレッシュをしたい方"
     is_hall_of_fame: true
 
+  - id: topic-makeup-kate
+    category: lip
+    keyword: "KATE リップモンスター 03 陽炎"
+    title_template: "【落ちない口紅バズコスメ】{product_name} 落ちにくさと絶妙ぬくもりカラーを徹底検証"
+    target_audience: "マスクでも落ちないツヤリップを探している方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-laroche
+    category: makeup
+    keyword: "ラ ロッシュ ポゼ UVイデア XL プロテクショントーンアップ ローズ"
+    title_template: "【透明美肌下地】{product_name} 敏感肌OK＆自然な血色トーンアップ効果をレビュー"
+    target_audience: "ノーファンデ派・敏感肌で美肌トーンアップしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-curel
+    category: skincare
+    keyword: "キュレル 潤浸保湿 UVエッセンス SPF30"
+    title_template: "【敏感肌専用UV】{product_name} セラミドケア＆夕方まで乾燥しない優しさ検証"
+    target_audience: "乾燥肌・敏感肌で日焼け止めの刺激が気になる方"
+    is_hall_of_fame: false
+
 settings:
   max_items_per_topic: 1
   genre_id: "100939" # 楽天市場「美容・コスメ・香水」ジャンル

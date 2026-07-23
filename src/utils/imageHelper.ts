@@ -6,7 +6,7 @@ import React from 'react';
  */
 export function handleImageError(
   e: React.SyntheticEvent<HTMLImageElement, Event>,
-  fallbackSrc = 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&q=80&w=600'
+  fallbackSrc = 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&auto=format&fit=crop&q=80'
 ) {
   const target = e.currentTarget;
   if (target.dataset.hasError === 'true') {

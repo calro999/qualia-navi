@@ -60,7 +60,22 @@ def load_yaml_config(filepath):
             topics.append(current_topic)
     return topics
 
-# 商品ごとに完全に独立した固有の高品質レビューコンテンツデータベース (画像URLは100%確定表示可能なリアル画像URL)
+# 楽天画像URLを直接ロード可能な shop.r10s.jp ドメイン形式に正規化
+def normalize_rakuten_image_url(raw_url):
+    if not raw_url:
+        return ""
+    url = raw_url.strip()
+    if "thumbnail.image.rakuten.co.jp/@0_mall/" in url:
+        url = url.replace("https://thumbnail.image.rakuten.co.jp/@0_mall/", "https://shop.r10s.jp/")
+        if "?_ex=" in url:
+            url = url.split("?_ex=")[0]
+    elif "tshop.r10s.jp/" in url:
+        url = url.replace("https://tshop.r10s.jp/", "https://shop.r10s.jp/")
+    elif "image.rakuten.co.jp/@0_mall/" in url:
+        url = url.replace("https://image.rakuten.co.jp/@0_mall/", "https://shop.r10s.jp/")
+    return url
+
+# 商品ごとに完全に独立した固有の高品質レビューコンテンツデータベース
 PRODUCT_EXCLUSIVE_CONTENTS = {
     "コスメデコルテ リポソーム アドバンスト リペアセラム": {
         "introText": "【コスメデコルテ リポソーム アドバンスト リペアセラム】1滴に1兆個の美肌カプセルを凝縮。洗顔直後の肌に塗るだけで、乾燥・ハリ不足・キメの乱れを全方位から集中ケアするデパコス最高峰の導入美容液です。",
@@ -258,11 +273,12 @@ PRODUCT_EXCLUSIVE_CONTENTS = {
 
 def fetch_rakuten_item(app_id, access_key, affiliate_id, keyword, genre_id="100939"):
     """
-    楽天市場APIから最新の実商品画像URL、リアル価格、アフィリエイトURLを取得
+    成功プロジェクト群（hatena-mikke / blogger-bad 等）と同様の手法で、
+    楽天市場オープンAPIよりリアルな商品画像、公式アフィリエイトURL、リアル価格、評価を取得する。
     """
     endpoints = [
-        "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601",
-        "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401"
+        "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401",
+        "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601"
     ]
     
     if app_id and not app_id.startswith("DUMMY"):
@@ -271,7 +287,7 @@ def fetch_rakuten_item(app_id, access_key, affiliate_id, keyword, genre_id="1009
                 "applicationId": app_id,
                 "keyword": keyword,
                 "sort": "standard",
-                "hits": 3,
+                "hits": 10,
                 "format": "json"
             }
             if affiliate_id:
@@ -281,22 +297,21 @@ def fetch_rakuten_item(app_id, access_key, affiliate_id, keyword, genre_id="1009
                 
             url = f"{endpoint}?{urllib.parse.urlencode(params)}"
             try:
-                print(f"Requesting Rakuten API for '{keyword}'...")
+                print(f"Requesting Rakuten Ichiba API for '{keyword}'...")
                 req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"})
-                with urllib.request.urlopen(req, timeout=10) as response:
+                with urllib.request.urlopen(req, timeout=15) as response:
                     data = json.loads(response.read().decode("utf-8"))
                     items = data.get("Items", [])
                     if items:
                         item_data = items[0].get("Item", {})
                         
                         medium_images = item_data.get("mediumImageUrls", [])
-                        img_url = ""
+                        raw_img_url = ""
                         if medium_images and isinstance(medium_images, list) and len(medium_images) > 0:
-                            raw_img = medium_images[0].get("imageUrl", "")
-                            if "?_ex=" in raw_img:
-                                img_url = raw_img.split("?_ex=")[0]
-                            else:
-                                img_url = raw_img
+                            img_obj = medium_images[0]
+                            raw_img_url = img_obj.get("imageUrl", "") if isinstance(img_obj, dict) else str(img_obj)
+
+                        img_url = normalize_rakuten_image_url(raw_img_url)
 
                         price_val = item_data.get("itemPrice", 0)
                         formatted_price = f"{price_val:,}円（税込）" if price_val else None
@@ -314,18 +329,21 @@ def fetch_rakuten_item(app_id, access_key, affiliate_id, keyword, genre_id="1009
                             "starRating": float(item_data.get("reviewAverage")) if item_data.get("reviewAverage") else None
                         }
             except Exception as e:
-                print(f"Rakuten API Endpoint ({endpoint}) note: {e}")
+                print(f"Rakuten API Endpoint ({endpoint}) Note: {e}")
                 continue
 
-    # 独自コンテンツフォールバック＆リアルリンク設定
+    # 独自コンテンツフォールバック＆リアルアフィリエイト検索URL生成
     ex = PRODUCT_EXCLUSIVE_CONTENTS.get(keyword, {})
     aff_id_param = f"?scid=af_pc_etc&sc2id={affiliate_id}" if affiliate_id else ""
     search_aff_link = f"https://search.rakuten.co.jp/search/mall/{urllib.parse.quote(keyword)}/{aff_id_param}"
     
+    raw_fallback_img = ex.get("image_fallback", "https://shop.r10s.jp/rakuten24/cabinet/351/4909978163351.jpg")
+    norm_fallback_img = normalize_rakuten_image_url(raw_fallback_img)
+
     return {
         "title": f"【楽天市場公式】{keyword}",
         "productName": keyword,
-        "imageUrl": ex.get("image_fallback", "https://shop.r10s.jp/rakuten24/cabinet/351/4909978163351.jpg"),
+        "imageUrl": norm_fallback_img,
         "affiliateUrl": search_aff_link,
         "price": ex.get("price_fallback", "楽天市場で最新価格を見る"),
         "itemCode": f"rakuten_item_{random.randint(100,999)}",
@@ -362,7 +380,8 @@ def main():
         ex_content = PRODUCT_EXCLUSIVE_CONTENTS.get(keyword, {})
 
         # 各商品に1対1で完全対応したオリジナル文章・メタデータ
-        img_url = rakuten_data.get("imageUrl") or ex_content.get("image_fallback")
+        raw_img = rakuten_data.get("imageUrl") or ex_content.get("image_fallback")
+        img_url = normalize_rakuten_image_url(raw_img)
         aff_url = rakuten_data.get("affiliateUrl") or f"https://search.rakuten.co.jp/search/mall/{urllib.parse.quote(keyword)}/"
         price_str = rakuten_data.get("price") or ex_content.get("price_fallback", "楽天市場で最新価格を見る")
         rating_val = rakuten_data.get("starRating") or ex_content.get("starRating", 4.8)

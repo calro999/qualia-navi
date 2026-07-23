@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { RakutenProductArticle } from '../types';
 import { CATEGORIES, INITIAL_COMPARISONS } from '../data';
-import { handleImageError } from '../utils/imageHelper';
+import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
 import { Sparkles, ShoppingCart, ExternalLink, Star, Search } from 'lucide-react';
 
@@ -137,7 +137,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
               onClick={() => onNavigate(`/articles/${art.id}`)}
             >
               <img
-                src={art.imageUrl}
+                src={getRakutenOptimizedImageUrl(art.imageUrl)}
                 alt={art.productName || art.title}
                 referrerPolicy="no-referrer"
                 onError={handleImageError}

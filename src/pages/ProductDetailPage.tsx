@@ -2,7 +2,7 @@ import React from 'react';
 import { RakutenProductArticle } from '../types';
 import { AUTHOR_PROFILES } from '../data';
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
-import { handleImageError } from '../utils/imageHelper';
+import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { generateProductJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
 import { ShoppingCart, ExternalLink, Star, CheckCircle } from 'lucide-react';
 
@@ -92,7 +92,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start bg-white/70 p-6 rounded-2xl border border-sky-100">
           <div className="col-span-1 md:col-span-5 rounded-2xl overflow-hidden border border-sky-100 shadow-sm aspect-square bg-sky-50 relative">
             <img
-              src={article.imageUrl}
+              src={getRakutenOptimizedImageUrl(article.imageUrl)}
               alt={article.productName || article.title}
               referrerPolicy="no-referrer"
               onError={handleImageError}
@@ -195,7 +195,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
               >
                 <div className="relative aspect-video rounded-xl overflow-hidden mb-3 bg-sky-50">
                   <img
-                    src={rel.imageUrl}
+                    src={getRakutenOptimizedImageUrl(rel.imageUrl)}
                     alt={rel.productName || rel.title}
                     referrerPolicy="no-referrer"
                     onError={handleImageError}

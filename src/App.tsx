@@ -162,19 +162,44 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-rose-100 mt-16 py-10">
-        <div className="max-w-7xl mx-auto px-4 text-center space-y-3">
-          <div className="flex justify-center items-center gap-2">
-            <span className="qualia-rose-gradient text-white font-extrabold px-4 py-1 rounded-xl text-sm font-serif-brand">
-              Qualia Navi
-            </span>
+      <footer className="bg-slate-50 border-t border-rose-100 mt-20 pt-16 pb-10">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-left mb-12">
+          
+          {/* About Us */}
+          <div className="space-y-4">
+            <div className="flex items-center gap-2">
+              <span className="qualia-rose-gradient text-white font-extrabold px-4 py-1.5 rounded-xl text-sm font-serif-brand">
+                Qualia Navi
+              </span>
+            </div>
+            <h4 className="text-sm font-bold text-slate-800">当サイトについて</h4>
+            <p className="text-xs text-slate-500 leading-relaxed">
+              Qualia Navi（クオリア・ナビ）は、プチプラからデパコス、韓国コスメまで、最新の美容・コスメアイテムを専門アナリストが実地検証・比較する本音レビューメディアです。<br/><br/>
+              読者の皆様が本当に自分に合ったアイテムを見つけられるよう、忖度のない検証結果を発信しています。
+            </p>
           </div>
-          <p className="text-xs font-bold text-slate-700">プチプラからデパコス・韓国コスメまで網羅する美容・コスメ比較メディア</p>
-          <p className="text-xs text-slate-500 max-w-xl mx-auto leading-relaxed">
-            Qualia 美容分析室の日本人コレクター＆編集部が実際に試して比較した本音レビューを掲載。
-            掲載商品は楽天市場の公式・人気ショップのリアルタイム価格とアフィリエイトリンクでお届けします。
+
+          {/* Legal & Disclaimer */}
+          <div className="space-y-4 md:col-span-2">
+            <h4 className="text-sm font-bold text-slate-800">免責事項・プライバシーポリシー</h4>
+            <div className="text-[11px] text-slate-500 leading-relaxed space-y-2">
+              <p>
+                <strong>免責事項:</strong> 当サイトに掲載しているコスメの使用感や効果に関するレビューは、Qualia美容分析室メンバー個人の実体験に基づくものであり、すべての方に同一の効果を保証するものではありません。成分や肌への適合性については、ご使用前に必ずメーカー公式情報やパッケージの記載をご確認の上、自己責任でご使用ください。万が一、肌トラブル等が発生した場合、当サイトは一切の責任を負いかねます。
+              </p>
+              <p>
+                <strong>アフィリエイトプログラムについて:</strong> 当サイトは、楽天アフィリエイトなどのアフィリエイトプログラムに参加しています。掲載商品は楽天市場の販売ページへリンクしており、当サイトが直接販売・発送を行うものではありません。商品に関するお問い合わせは、リンク先の各販売店へ直接お願いいたします。
+              </p>
+              <p>
+                <strong>アクセス解析ツールについて:</strong> 当サイトでは、Googleによるアクセス解析ツール「Google Analytics」を利用しています。このGoogle Analyticsはトラフィックデータの収集のためにCookieを使用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 text-center border-t border-slate-200 pt-8">
+          <p className="text-[11px] text-slate-400 font-bold tracking-wider">
+            © 2026 Qualia Navi. All rights reserved.
           </p>
-          <p className="text-[11px] text-slate-400 pt-2">© 2026 Qualia Navi. All rights reserved.</p>
         </div>
       </footer>
       <Analytics />

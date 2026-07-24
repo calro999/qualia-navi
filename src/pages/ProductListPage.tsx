@@ -13,6 +13,8 @@ interface ProductListPageProps {
 export function ProductListPage({ articles, onNavigate }: ProductListPageProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [showAllComparisons, setShowAllComparisons] = useState<boolean>(false);
+  const [visibleProductCount, setVisibleProductCount] = useState<number>(12);
 
   useEffect(() => {
     updateSeoGeoMetadata({
@@ -35,6 +37,10 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
     });
   }, [articles, selectedCategory, searchQuery]);
 
+  const displayedComparisons = showAllComparisons ? INITIAL_COMPARISONS : INITIAL_COMPARISONS.slice(0, 4);
+  const displayedArticles = filteredArticles.slice(0, visibleProductCount);
+  const hasMoreProducts = visibleProductCount < filteredArticles.length;
+
   return (
     <div className="space-y-10 pb-16">
       {/* Hero Header Section */}
@@ -51,6 +57,18 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
             Qualia 美容分析室のコレクター＆編集部が実際に試して比較検証。楽天市場のリアルタイム価格と限定ポイント還元情報をナビゲートします。
           </p>
         </div>
+        
+        {hasMoreProducts && (
+          <div className="flex justify-center pt-8">
+            <button
+              onClick={() => setVisibleProductCount((prev) => prev + 12)}
+              className="px-8 py-3 bg-white border border-rose-200 hover:border-rose-400 text-rose-600 font-bold rounded-full shadow-sm hover:shadow transition-all flex items-center gap-2"
+            >
+              <span className="text-lg">＋</span>
+              <span>さらに読み込む</span>
+            </button>
+          </div>
+        )}
       </div>
 
       {/* VS Comparison Featured Grid */}
@@ -62,7 +80,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {INITIAL_COMPARISONS.map((comp) => (
+          {displayedComparisons.map((comp) => (
             <div
               key={comp.id}
               onClick={() => onNavigate(`/compare/${comp.id}`)}
@@ -84,6 +102,16 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
             </div>
           ))}
         </div>
+        {!showAllComparisons && INITIAL_COMPARISONS.length > 4 && (
+          <div className="flex justify-center pt-2">
+            <button
+              onClick={() => setShowAllComparisons(true)}
+              className="px-6 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold rounded-full transition-colors flex items-center gap-2"
+            >
+              ＋ 他の比較を見る
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Filter and Search Controls */}
@@ -118,11 +146,23 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
             />
           </div>
         </div>
+        
+        {hasMoreProducts && (
+          <div className="flex justify-center pt-8">
+            <button
+              onClick={() => setVisibleProductCount((prev) => prev + 12)}
+              className="px-8 py-3 bg-white border border-rose-200 hover:border-rose-400 text-rose-600 font-bold rounded-full shadow-sm hover:shadow transition-all flex items-center gap-2"
+            >
+              <span className="text-lg">＋</span>
+              <span>さらに読み込む</span>
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredArticles.map((art) => (
+        {displayedArticles.map((art) => (
           <div
             key={art.id}
             className="qualia-glass-card rounded-3xl overflow-hidden flex flex-col justify-between group hover:border-rose-300 transition-all duration-300"

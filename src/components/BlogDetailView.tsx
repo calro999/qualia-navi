@@ -1,9 +1,9 @@
-import { BlogPost, AmazonProductArticle, AuthorProfile } from '../types';
+import { BlogPost, RakutenProductArticle, AuthorProfile } from '../types';
 import { ArrowLeft, Star, ExternalLink, Check, Calendar, Clock, ShoppingCart } from 'lucide-react';
 
 interface BlogDetailViewProps {
   post: BlogPost;
-  recommendedArticles: AmazonProductArticle[];
+  recommendedArticles: RakutenProductArticle[];
   author?: AuthorProfile;
   onBack: () => void;
   onSelectArticle: (articleId: string) => void;

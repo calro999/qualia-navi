@@ -11,19 +11,211 @@ export const CATEGORIES: CategorySpec[] = [
   { id: 'k-beauty', name: '韓国コスメ特集', slug: 'k-beauty', icon: 'Flame', description: 'SNSで話題沸騰の最先端K-BEAUTY' },
 ];
 
+/**
+ * Qualia 美容分析室 編集部メンバープロフィール (全員日本人 / 法的リスクのない客観的検証領域で構成)
+ * - 男性編集長 1名
+ * - 女性編集長 1名
+ * - コスメコレクター 10名
+ */
 export const AUTHOR_PROFILES: AuthorProfile[] = [
+  // --- 男性編集長 ---
   {
-    id: 'author-lumiere',
-    name: 'Qualia 美容分析室',
-    role: 'コスメアナリスト＆美容研究チーム',
-    avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
-    avatarAlt: 'Qualia 美容分析室 アナリスト',
-    bio: '楽天市場で高評価の最新コスメ・美容アイテムを徹底検証。成分、使用感、コスパ、ユーザーのリアルな口コミを分析し信頼できる情報をお届けします。',
-    specialty: 'スキンケア解析・トレンドコスメ比較',
-    experienceYears: 8,
+    id: 'author-hasumi',
+    name: '蓮見 拓真',
+    role: 'Qualia Navi 統括編集長',
+    authorType: 'male_editor_in_chief',
+    avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '蓮見 拓真 統括編集長',
+    bio: 'メンズ＆ユニセックス美容・スキンケア全般を統括。年間500点以上の最新コスメおよび美容家電を実地テストし、客観的な比較データとユーザーのリアルな実体感に基づく信頼性の高い検証レポートを制作・発信しています。',
+    specialty: '美容家電・メンズ美容全般',
+    favoriteCategory: '美容家電・ユニセックススキンケア',
+    collectionCount: '年間500点以上のコスメ・ギア実検証',
+    experienceYears: 10,
     genderTarget: 'unisex',
     isDepartmentHead: true,
-    qualifications: ['日本化粧品検定1級', 'コスメコンシェルジュ']
+    assignedDepartment: '美容家電・メンズ美容部門（統括）',
+    subDepartments: ['美容家電部門', 'メンズコスメ部門', 'シェービングケア部門']
+  },
+
+  // --- 女性編集長 ---
+  {
+    id: 'author-tachibana',
+    name: '橘 えりか',
+    role: 'Qualia Navi コスメ＆美容編集長',
+    authorType: 'female_editor_in_chief',
+    avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '橘 えりか 美容編集長',
+    bio: 'デパコス・ハイエンドスキンケア全般を統括。大手コスメブランドから話題のバズコスメまで、使用感や肌なじみの良さをプロ目線で多角的に検証。大人の透明感美肌づくりを提案します。',
+    specialty: 'デパコス・スキンケア全般',
+    favoriteCategory: 'スキンケア・デパコス',
+    collectionCount: '通算2,000点以上のデパコス所有',
+    experienceYears: 12,
+    genderTarget: 'women',
+    isDepartmentHead: true,
+    assignedDepartment: 'デパコス・高機能スキンケア部門（統括）',
+    subDepartments: ['デパコス部門', '高機能スキンケア部門', 'ベースメイク部門']
+  },
+
+  // --- 日本人コスメコレクター 10名 ---
+  {
+    id: 'author-inoue',
+    name: '井上 さくら',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '井上 さくら コスメコレクター',
+    bio: 'リップ・口紅コレクション歴9年。シャネル、ディオール、コスメデコルテからKATEのリップモンスターまで、通算800本以上のリップを所持。飲食後の落ちにくさ・ツヤ持続力を日々比較検証中。',
+    specialty: 'リップ＆リップケア全般',
+    favoriteCategory: 'リップ＆ケア',
+    collectionCount: '所持リップ800本以上',
+    experienceYears: 9,
+    genderTarget: 'women',
+    assignedDepartment: 'リップ＆リップケア部門',
+    subDepartments: ['粘膜カラーリップ', '落ちないティント', 'リップ美容液']
+  },
+  {
+    id: 'author-sasaki',
+    name: '佐々木 葵',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '佐々木 葵 韓国コスメコレクター',
+    bio: '韓国現地や楽天市場の公式ショップで話題のK-Beautyを毎月大量収集。VTリードルショットやロムアンド、CLIOなどの最新スキンケア＆メイクアイテムを最速で比較検証しています。',
+    specialty: '韓国コスメ・K-Beauty全般',
+    favoriteCategory: '韓国コスメ特集',
+    collectionCount: '韓国コスメ所持500点以上',
+    experienceYears: 6,
+    genderTarget: 'women',
+    assignedDepartment: '韓国コスメ・K-Beauty部門',
+    subDepartments: ['導入美容液', '韓国ティント', 'CICAコスメ']
+  },
+  {
+    id: 'author-takahashi',
+    name: '高橋 凛',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '高橋 凛 スキンケア研究コレクター',
+    bio: '乾燥肌・インナードライ対策に情熱を注ぐスキンケアマニア。セラミド補給、ナイアシンアミド、リポソーム処方の美容液を中心に、水分保持力の長期比較モニタリングを実施。',
+    specialty: 'スキンケア・高保湿美容液全般',
+    favoriteCategory: 'スキンケア・美容液',
+    collectionCount: '保湿美容液200種以上所有',
+    experienceYears: 8,
+    genderTarget: 'unisex',
+    assignedDepartment: 'スキンケア・美容液部門',
+    subDepartments: ['高保湿セラム', '敏感肌ケア', 'エイジングケア美容液']
+  },
+  {
+    id: 'author-matsumoto',
+    name: '松本 結衣',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '松本 結衣 ベースメイクコレクター',
+    bio: 'ノーファンデ派・ナチュラル素肌感を追求するベースメイクコレクター。ラ ロッシュ ポゼやランコムなどのUVトーンアップ下地を中心に、毛穴カバーと皮脂崩れ防止のバランスを検証。',
+    specialty: 'ベースメイク・トーンアップ化粧下地全般',
+    favoriteCategory: 'ベース＆メイクアップ',
+    collectionCount: 'UV化粧下地150種以上所有',
+    experienceYears: 7,
+    genderTarget: 'women',
+    assignedDepartment: 'ベースメイク・トーンアップ部門',
+    subDepartments: ['UV化粧下地', 'トーンアップクリーム', 'コンシーラー']
+  },
+  {
+    id: 'author-watanabe',
+    name: '渡辺 陽菜',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '渡辺 陽菜 UVケアコレクター',
+    bio: '年中無休で紫外線対策を行うUVケアオタク。アネッサ、ビオレ、キュレルなどのUVミルク・エッセンス・ミストを屋外で比較検証し、猛暑でも絶対に焼けない方法を発信。',
+    specialty: 'UVケア・日焼け止め全般',
+    favoriteCategory: 'UVケア・日焼け止め',
+    collectionCount: '日焼け止め全ジャンル300本所有',
+    experienceYears: 10,
+    genderTarget: 'unisex',
+    assignedDepartment: 'UVケア・日焼け止め部門',
+    subDepartments: ['最強UVミルク', 'ノンケミカルUV', 'UVミスト']
+  },
+  {
+    id: 'author-kato',
+    name: '加藤 奏太',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '加藤 奏太 メンズコスメコレクター',
+    bio: '男性の皮脂トラブル・テカリ・毛穴目立ちを研究するメンズ美容コレクター。オルビスミスターやバルクオムなどの洗顔・オールインワン・日焼け止めを使い比べ、清潔感を保つ最短ケアを提唱。',
+    specialty: 'メンズコスメ・皮脂ケア全般',
+    favoriteCategory: 'スキンケア・UVケア',
+    collectionCount: 'メンズコスメ250点所有',
+    experienceYears: 5,
+    genderTarget: 'men',
+    assignedDepartment: 'メンズコスメ・皮脂ケア部門',
+    subDepartments: ['メンズ洗顔料', 'オールインワンローション', 'テカリ防止下地']
+  },
+  {
+    id: 'author-nakamura',
+    name: '中村 陸',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '中村 陸 美容家電コレクター',
+    bio: '最新の美顔器・スカルプブラシ・電気刺激ギアを買い揃えるガジェット＆美容家電コレクター。パナソニック バイタリフト ブラシやヤーマンのリフトケア器具を使い、使い勝手と効果実感を比較。',
+    specialty: '美容家電・美顔器全般',
+    favoriteCategory: '美容家電・美顔器',
+    collectionCount: '美容家電40台以上所有',
+    experienceYears: 7,
+    genderTarget: 'unisex',
+    assignedDepartment: '美容家電・美顔器部門',
+    subDepartments: ['電気バリブラシ', 'EMS美顔器', 'スチーマー']
+  },
+  {
+    id: 'author-kobayashi',
+    name: '小林 翔太',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '小林 翔太 シェアコスメコレクター',
+    bio: 'パートナーと一緒に使えるシェアコスメ・無添加低刺激コスメのコレクター。アルコールフリー、パラベンフリー、無香料処方のアイテムを厳選し、男女問わず心地よく続けられる美容習慣を提案。',
+    specialty: 'シェアコスメ・低刺激処方全般',
+    favoriteCategory: 'スキンケア・美容液',
+    collectionCount: 'シェア可能低刺激コスメ180点所有',
+    experienceYears: 6,
+    genderTarget: 'unisex',
+    assignedDepartment: 'シェアコスメ・低刺激部門',
+    subDepartments: ['無添加コスメ', '敏感肌用スキンケア', 'ファミリーバーム']
+  },
+  {
+    id: 'author-yoshida',
+    name: '吉田 雅',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '吉田 雅 プチプラコスメコレクター',
+    bio: '1,500円前後の優秀プチプラ・ドラコスを宝探し感覚で収集するコレクター。キャンメイク、セザンヌ、KATEなどのバズ商品を全色買いし、デパコス級の実力を秘めた神コスパ品を掘り起こしています。',
+    specialty: 'プチプラ・ドラッグストアコスメ全般',
+    favoriteCategory: 'ベース＆メイクアップ',
+    collectionCount: 'プチプラコスメ所持1,200点以上',
+    experienceYears: 9,
+    genderTarget: 'women',
+    assignedDepartment: 'プチプラ・ドラコス部門',
+    subDepartments: ['プチプラメイク', 'ドラコススキンケア', '全色バズコスメ']
+  },
+  {
+    id: 'author-mori',
+    name: '森 凛空',
+    role: '専属コスメコレクター',
+    authorType: 'collector',
+    avatarUrl: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&auto=format&fit=crop&q=80',
+    avatarAlt: '森 凛空 カラー＆質感コレクター',
+    bio: 'イエベ・ブルベ別の発色や質感の違いをコレクション比較するカラーアナリシスコレクター。ロムアンドやKATEなどのニュアンスカラーを肌の上で厳密に比較判定。',
+    specialty: 'パーソナルカラー＆質感分析全般',
+    favoriteCategory: 'リップ＆ケア',
+    collectionCount: 'カラーコスメ所持600点以上',
+    experienceYears: 8,
+    genderTarget: 'women',
+    assignedDepartment: 'パーソナルカラー＆質感分析部門',
+    subDepartments: ['イエベ・ブルベ別リップ', 'ツヤ＆マットチーク', 'アイシャドウパレット']
   }
 ];
 
@@ -63,8 +255,8 @@ const DEFAULT_ARTICLES: RakutenProductArticle[] = [
     aiModelUsed: 'Rakuten Ichiba API + Qualia Engine',
     isHallOfFame: true,
     verificationDays: 30,
-    reviewerName: 'Qualia 美容分析室',
-    reviewerRole: 'コスメアナリスト'
+    reviewerName: '橘 えりか',
+    reviewerRole: 'コスメ＆美容編集長'
   },
   {
     id: 'qualia-002',
@@ -101,8 +293,8 @@ const DEFAULT_ARTICLES: RakutenProductArticle[] = [
     aiModelUsed: 'Rakuten Ichiba API + Qualia Engine',
     isHallOfFame: true,
     verificationDays: 21,
-    reviewerName: 'Qualia 美容分析室',
-    reviewerRole: 'UVケア専門研究員'
+    reviewerName: '渡辺 陽菜',
+    reviewerRole: '専属UVケアコレクター'
   },
   {
     id: 'qualia-003',
@@ -139,8 +331,8 @@ const DEFAULT_ARTICLES: RakutenProductArticle[] = [
     aiModelUsed: 'Rakuten Ichiba API + Qualia Engine',
     isHallOfFame: true,
     verificationDays: 14,
-    reviewerName: 'Qualia 美容分析室',
-    reviewerRole: 'K-Beautyスペシャリスト'
+    reviewerName: '佐々木 葵',
+    reviewerRole: '専属K-Beautyコレクター'
   }
 ];
 
@@ -149,44 +341,93 @@ export const INITIAL_ARTICLES: RakutenProductArticle[] =
     ? (generatedArticlesJson as RakutenProductArticle[])
     : DEFAULT_ARTICLES;
 
+/**
+ * 徹底的に肉付けされたSEO・検索流入強化版 美肌特集ブログ記事
+ */
 export const INITIAL_BLOG_POSTS: BlogPost[] = [
   {
     id: 'blog-001',
     slug: '2026-summer-skincare-guide',
-    title: '【2026年最新】紫外線＆猛暑に負けない！透明感美肌を育てる夏の最強コスメ3選',
-    subtitle: '楽天市場で高評価の最新UVカット・保湿美容液・韓国コスメを実機＆使用感検証！',
+    title: '【2026年最新】猛暑とエアコンに負けない透明美肌へ！紫外線＆インナードライ対策の神コスメ3選とプロ直伝のスキンケア完全ガイド',
+    subtitle: '楽天市場で高評価の最新UVカット・多重層リポソーム保湿美容液・韓国美容針ブースターをQualia美容分析室が実機＆成分徹底検証！',
     targetGender: 'unisex',
     coverImage: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=1200&auto=format&fit=crop&q=80',
-    authorId: 'author-lumiere',
-    authorName: 'Qualia 美容分析室',
-    authorRole: 'コスメアナリスト',
+    authorId: 'author-tachibana',
+    authorName: '橘 えりか',
+    authorRole: 'コスメ＆美容編集長',
     authorAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
     createdAt: '2026-07-24',
-    readTimeMinutes: 6,
-    introText: '猛暑が続く今年の夏。紫外線のダメージや冷房によるインナードライに悩んでいませんか？Qualia Navi美容分析室が、楽天市場のリアルな口コミ・売上・成分分析から本当に選ぶべき神コスメ3選を厳選しました。',
+    readTimeMinutes: 12,
+    introText: '猛暑と強力な紫外線が続く2026年。冷房の利いた室内に潜む「隠れインナードライ」や「UVダメージ」に悩んでいませんか？Qualia Navi美容分析室の専属アナリスト陣が、楽天市場でリアルに高評価を獲得している神コスメ3選を徹底検証。成分アプローチから正しい使用順序、ポイント高還元セールを活用した賢い購入術まで完全網羅でお届けします。',
     recommendedItemCodes: ['decorte_liposome_001', 'anessa_uv_milk_002', 'vt_reedle_shot_003'],
     contentMarkdown: `
-## 夏の肌トラブル「インナードライ」と「UVダメージ」を防ぐ基本戦略
+# 猛暑と冷房のダブルパンチ！「夏インナードライ」と「紫外線ダメージ」を防ぐ最新美肌戦略
 
-夏の肌は汗や皮脂で潤っているように見えて、実は冷房や強力な紫外線によって**角層内部の水分が奪われている**ケースが非常に多いです。
+年々厳しさを増す夏の気候。一見、汗や皮脂で潤っているように見える夏の肌ですが、実は**「表面はベタつくのに、角層内部は乾燥してカラカラ」**という**インナードライ状態**に陥っている方が激増しています。
 
-Qualia Navi美容分析室では、今年注目すべきケアポイントとして以下の3点を提唱しています。
+冷房による極度の乾燥環境、強力なUV-A波・UV-B波の照射、そして汗とともに奪われる肌本来の水分。これらを放っておくと、秋口に一気に「くすみ・毛穴の開き・乾燥小ジワ・ゴワつき」となって表面化してしまいます。
 
-1. **多重層リポソームによる高浸透保湿**
-2. **汗・水・摩擦に負けない最強クラスのUVガード**
-3. **角層まで美容成分を届ける導入針ケア**
+Qualia Navi美容分析室では、今年絶対に行うべき美肌ケアとして**「3大コアアプローチ」**を提唱します。
 
 ---
 
-### おすすめアイテム1: コスメデコルテ リポソーム アドバンスト リペアセラム
+## 【原則1】0.1ミクロンカプセルで「角層深部へ持続放出する浸透保湿」
 
-夜の洗顔後、最初に塗布するだけで翌朝のモチモチ感が段違い。1滴に1兆個の美肌カプセルがジワジワと角層に浸透し続けます。
+夏の保湿ケアで最も避けるべきなのは「油分だけの重いクリームでフタをすること」。皮脂分泌が盛んな夏場に重い油分を重ねると、毛穴詰まりやトラブルの原因になります。
+
+今求められているのは、水分をしっかり保持しながらベタつかない**「多重層カプセル構造のブースター美容液」**です。
+
+### 注目コスメ：コスメデコルテ リポソーム アドバンスト リペアセラム
+
+夜の洗顔後、一番最初に使用する導入美容液の最高峰。1滴の中に**1兆個の0.1ミクロン「多重層バイオリポソーム」**が凝縮されています。
+
+- **特筆すべき浸透技術**: 玉ねぎ状に重なった玉ねぎ構造のカプセルが、外側から少しずつ解きほぐれるように水分と美肌成分を放出。
+- **実体感の口コミ**: 「洗顔直後に2〜3プッシュ馴染ませるだけで、翌朝まで一切乾かない」「ベタつきゼロで後から使う化粧水の吸い込みが劇的に変わる」と絶賛の嵐。
+- **楽天市場での買い方**: 公式正規代理店ショップでの購入により、ショップ限定ポイント10倍還元イベントや限定オマケが対象になり、実質最安値級で入手可能。
 
 ---
 
-### おすすめアイテム2: アネッサ パーフェクトUV スキンケアミルク NA
+## 【原則2】「汗・水・擦れに反応して強くなる」新世代UVガード
 
-「絶対に焼き外したくない」レジャーや毎日の通勤通学の強い味方。ベタつかずスーッと伸びる乳液タイプで、メイク崩れも防ぎます。
+紫外線（UV-A / UV-B）は、肌内部のコラーゲン繊維を破壊し、くすみやハリ不足の最大の原因となります。「朝一度塗ったから大丈夫」という油断は禁物です。
+
+特に猛暑の夏は、汗や体温上昇、マスクや服の擦れによってプロテクト膜が崩れがち。最新のUVカット技術では**「汗や水分に触れることで被膜がより均一かつ強固になるオートブースター機能」**が必須となります。
+
+### 注目コスメ：アネッサ パーフェクトUV スキンケアミルク NA
+
+「絶対に焼き外したくない」炎天下のレジャー、スポーツ、通勤通学の強い味方。SPF50+ PA++++の最高峰スペックを誇ります。
+
+- **オートブースター＆スキンケア成分50%配合**: 汗・水・擦れを感知してUVガード膜が強化される独自処方。さらに植物由来のスキンケア成分を半数配合し、日中の乾燥を防ぎます。
+- **使用感と下地機能**: 白浮きせず、さらさらとしたシルキータッチな仕上がり。皮脂によるメイク崩れを防ぐ化粧下地としても非常に高い評価を獲得。
+- **落としやすさ**: 強力なスーパーウォータープルーフ仕様でありながら、普段の洗顔料やボディソープでスルリと落とせる肌への優しさも両立。
+
+---
+
+## 【原則3】天然美容針（シリカ）による「角層ルートの開放と導入革命」
+
+「高機能なスキンケアを使っているのに、いまいち効果を感じにくい…」そんな悩みを持つ方に支持されているのが、美容針を用いた**「導入ブースターケア」**です。
+
+肌表面の不要な角質やキメの乱れを整え、美肌成分がしっかりと角層まで届く「ルート」を作ることが、最短で透明美肌を手に入れる鍵となります。
+
+### 注目コスメ：VT COSMETICS リードルショット 100
+
+SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国発の革新美容液。髪の毛よりも細い**99%純度の天然微細針（CICA REEDLE）**を配合しています。
+
+- **チクチク感とCICA成分の相乗効果**: 塗布した瞬間に感じる心地よいチクチク感が、美容成分を角層深部へダイレクトに届けるシグナル。CICA（ツボクサエキス）が同時に肌をすこやかに整えます。
+- **100（入門用）の安心感**: 毎日夜のスキンケアに使用できるマイルドな刺激設計。毛穴の開きやザラつきが気になる方に劇的な手触りの変化をもたらします。
+- **楽天市場VT公式ショップ**: 頻繁にポイント20倍やシートマスクの豪華プレゼントキャンペーンを実施中。
+
+---
+
+## 【まとめ】楽天市場のポイント還元＆限定クーポンを活用した賢い買い方
+
+美容アイテムは継続して使用してこそ真の肌変化を体感できます。
+
+1. **楽天お買い物マラソン・5と0のつく日を狙う**: エントリーでポイント倍率が大幅アップ。
+2. **公式ショップ＆優良ショップの確認**: 品質管理が行き届いた正規ルートでの購入が安心。
+3. **複数買い・セット買いクーポン**: アネッサやVTなどはまとめ買いクーポンで実質最安値で購入可能。
+
+ご自身の肌悩みに合った神コスメを選び、今年の夏を自信の持てる透明美肌で乗り切りましょう！
 `
   }
 ];

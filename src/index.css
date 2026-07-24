@@ -3,47 +3,80 @@
 @layer base {
   body {
     font-family: 'Zen Kaku Gothic New', -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #f8fafc;
-    color: #1e293b;
+    background-color: #0d0d12;
+    color: #f3efea;
   }
 
   h1, h2, h3, .font-serif-brand {
-    font-family: 'Shippori Mincho', 'Plus Jakarta Sans', serif;
+    font-family: 'Shippori Mincho', 'Cormorant Garamond', 'Plus Jakarta Sans', serif;
+    letter-spacing: 0.02em;
   }
 }
 
-/* Qualia Navi Aesthetic Utilities */
-.qualia-gradient-bg {
-  background: linear-gradient(135deg, #e0f2fe 0%, #f3e8ff 50%, #e0e7ff 100%);
+/* 高級デパコス Luxury Cosmetic Design System */
+.qualia-luxury-bg {
+  background: radial-gradient(circle at 50% 0%, #1a162b 0%, #0d0d12 70%);
 }
 
 .qualia-glass-card {
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(224, 231, 255, 0.6);
-  box-shadow: 0 10px 30px -10px rgba(147, 197, 253, 0.25);
+  background: rgba(22, 20, 31, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.22);
+  box-shadow: 0 12px 40px -10px rgba(0, 0, 0, 0.6), 0 0 15px rgba(212, 175, 55, 0.05);
 }
 
 .qualia-glass-card:hover {
-  border-color: rgba(168, 85, 247, 0.4);
-  box-shadow: 0 15px 35px -5px rgba(168, 85, 247, 0.2);
+  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 20px 45px -5px rgba(0, 0, 0, 0.75), 0 0 25px rgba(212, 175, 55, 0.15);
+  transform: translateY(-2px);
+}
+
+.qualia-gold-gradient {
+  background: linear-gradient(135deg, #f3e5ad 0%, #d4af37 50%, #aa7c11 100%);
+}
+
+.qualia-gold-text {
+  background: linear-gradient(135deg, #f6eabe 0%, #d4af37 50%, #c59b27 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.qualia-rose-gold-gradient {
+  background: linear-gradient(135deg, #f7d6d6 0%, #e5a9a9 50%, #b86b6b 100%);
 }
 
 .qualia-badge {
-  background: linear-gradient(135deg, #0284c7 0%, #7e22ce 100%);
-  color: white;
+  background: linear-gradient(135deg, #2a2215 0%, #4a3b1a 100%);
+  color: #f3e5ad;
+  border: 1px solid rgba(212, 175, 55, 0.35);
 }
 
 .rakuten-btn {
-  background: linear-gradient(135deg, #bf0000 0%, #e60000 100%);
-  color: white;
+  background: linear-gradient(135deg, #bf0000 0%, #990000 100%);
+  color: #ffffff;
   font-weight: 700;
-  box-shadow: 0 4px 14px rgba(230, 0, 0, 0.35);
-  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(255, 200, 200, 0.2);
+  box-shadow: 0 4px 20px rgba(191, 0, 0, 0.4);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rakuten-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(230, 0, 0, 0.45);
+  background: linear-gradient(135deg, #d90000 0%, #bf0000 100%);
+  transform: translateY(-1.5px);
+  box-shadow: 0 8px 25px rgba(217, 0, 0, 0.55);
+}
+
+.gold-btn {
+  background: linear-gradient(135deg, #d4af37 0%, #aa7c11 100%);
+  color: #0d0d12;
+  font-weight: 800;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gold-btn:hover {
+  background: linear-gradient(135deg, #e6ca65 0%, #c59b27 100%);
+  transform: translateY(-1.5px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.45);
 }

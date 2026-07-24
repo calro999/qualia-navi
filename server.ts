@@ -471,11 +471,11 @@ function renderArticleDynamicHtml(htmlTemplate: string, articleId: string, req: 
         "name": article.title,
         "image": article.imageUrl,
         "description": article.introText,
-        "sku": article.asin,
-        "mpn": article.asin,
+        "sku": article.itemCode,
+        "mpn": article.itemCode,
         "brand": {
           "@type": "Brand",
-          "name": "Amazon"
+          "name": "Rakuten"
         },
         "review": {
           "@type": "Review",

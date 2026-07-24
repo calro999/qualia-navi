@@ -19,7 +19,7 @@ import {
   onSnapshot
 } from 'firebase/firestore';
 import firebaseConfig from '../firebase-applet-config.json';
-import { AmazonProductArticle } from './types';
+import { RakutenProductArticle } from './types';
 
 // Initialize Firebase App
 const app = initializeApp(firebaseConfig);
@@ -52,7 +52,7 @@ export async function logoutUser(): Promise<void> {
 /**
  * Seed initial articles into Firestore if the articles collection is empty.
  */
-export async function seedArticlesIfEmpty(initialArticles: AmazonProductArticle[]): Promise<void> {
+export async function seedArticlesIfEmpty(initialArticles: RakutenProductArticle[]): Promise<void> {
   try {
     const articlesCol = collection(db, 'articles');
     const snap = await getDocs(articlesCol);
@@ -73,14 +73,14 @@ export async function seedArticlesIfEmpty(initialArticles: AmazonProductArticle[
  * Falls back if rules deny access or database is not reachable.
  */
 export function subscribeToArticles(
-  onUpdate: (articles: AmazonProductArticle[]) => void,
+  onUpdate: (articles: RakutenProductArticle[]) => void,
   onError: (error: any) => void
 ) {
   const articlesCol = collection(db, 'articles');
   return onSnapshot(articlesCol, (snapshot) => {
-    const articlesList: AmazonProductArticle[] = [];
+    const articlesList: RakutenProductArticle[] = [];
     snapshot.forEach((docSnap) => {
-      articlesList.push(docSnap.data() as AmazonProductArticle);
+      articlesList.push(docSnap.data() as RakutenProductArticle);
     });
     
     // Sort by createdAt descending
@@ -98,7 +98,7 @@ export function subscribeToArticles(
 /**
  * Adds an article to Firestore.
  */
-export async function saveArticleToFirestore(art: AmazonProductArticle): Promise<void> {
+export async function saveArticleToFirestore(art: RakutenProductArticle): Promise<void> {
   await setDoc(doc(db, 'articles', art.id), art);
 }
 

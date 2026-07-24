@@ -7,7 +7,7 @@ import { BlogPostPage } from './pages/BlogPostPage';
 import { ProductComparisonPage } from './pages/ProductComparisonPage';
 import { AuthorListPage } from './pages/AuthorListPage';
 import { AuthorDetailPage } from './pages/AuthorDetailPage';
-import { Sparkles, ShoppingBag, Heart } from 'lucide-react';
+import { Sparkles, ShoppingBag, Users, Award } from 'lucide-react';
 import { RakutenProductArticle } from './types';
 
 export default function App() {
@@ -96,77 +96,88 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sky-50 via-purple-50/50 to-indigo-50/40 text-slate-800 font-sans selection:bg-purple-500 selection:text-white">
-      {/* Top Header Navigation */}
-      <header className="bg-white/90 backdrop-blur-md border-b border-sky-100 sticky top-0 z-30 shadow-xs">
-        <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          {/* Logo & Tagline */}
+    <div className="min-h-screen qualia-luxury-bg text-slate-100 font-sans selection:bg-amber-500 selection:text-slate-950">
+      {/* Top Header Navigation (Luxury Haute Couture Styling) */}
+      <header className="bg-slate-950/80 backdrop-blur-xl border-b border-amber-500/20 sticky top-0 z-30 shadow-2xl">
+        <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+          {/* Logo & Subtitle */}
           <div 
-            className="flex items-center gap-3 cursor-pointer group" 
+            className="flex items-center gap-3.5 cursor-pointer group" 
             onClick={() => navigateTo('/')}
           >
-            <div className="bg-gradient-to-r from-sky-500 via-indigo-500 to-purple-600 text-white font-black text-2xl px-4 py-1.5 rounded-2xl tracking-tight shadow-md group-hover:shadow-lg transition-all duration-300">
+            <div className="qualia-gold-gradient text-slate-950 font-black text-2xl sm:text-3xl px-4 py-1 rounded-xl tracking-wider shadow-lg shadow-amber-500/10 group-hover:scale-102 transition-transform duration-300 font-serif-brand">
               Qualia Navi
             </div>
-            <div>
-              <p className="text-xs text-slate-500 font-medium mt-0.5">透明感を研ぎ澄ます コスメ＆美容トレンドナビ</p>
+            <div className="border-l border-amber-500/30 pl-3">
+              <p className="text-xs text-amber-200/90 font-serif-brand tracking-widest uppercase">
+                クオリア・ナビ
+              </p>
+              <p className="text-[11px] text-slate-400 font-light">美しさを研ぎ澄ますデパコス＆美容メディア</p>
             </div>
           </div>
 
-          {/* Navigation Tabs */}
+          {/* Navigation Bar */}
           <div className="flex items-center gap-2 overflow-x-auto w-full sm:w-auto scrollbar-none py-1">
             <button
               onClick={() => navigateTo('/')}
-              className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
                 isArticlesTab
-                  ? 'bg-gradient-to-r from-sky-600 to-indigo-600 text-white shadow-sm'
-                  : 'bg-white/80 text-slate-600 hover:bg-sky-50 border border-sky-100'
+                  ? 'gold-btn'
+                  : 'bg-slate-900/80 text-amber-100/80 hover:bg-slate-800 border border-amber-500/20'
               }`}
             >
               <ShoppingBag className="w-3.5 h-3.5" />
-              <span>注目コスメ</span>
+              <span>厳選デパコス・コスメ</span>
             </button>
 
             <button
               onClick={() => navigateTo('/blogs')}
-              className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
                 isBlogsTab
-                  ? 'bg-purple-600 text-white shadow-sm'
-                  : 'bg-purple-50 text-purple-700 hover:bg-purple-100 border border-purple-200/60'
+                  ? 'gold-btn'
+                  : 'bg-slate-900/80 text-amber-100/80 hover:bg-slate-800 border border-amber-500/20'
               }`}
             >
-              <Sparkles className="w-3.5 h-3.5 text-purple-500" />
-              <span>美肌特集ブログ</span>
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>美肌特集・SEO研究ブログ</span>
             </button>
 
             <button
               onClick={() => navigateTo('/authors')}
-              className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
                 isAuthorsTab
-                  ? 'bg-indigo-600 text-white shadow-sm'
-                  : 'bg-indigo-50 text-indigo-700 hover:bg-indigo-100 border border-indigo-200/60'
+                  ? 'gold-btn'
+                  : 'bg-slate-900/80 text-amber-100/80 hover:bg-slate-800 border border-amber-500/20'
               }`}
             >
-              <Heart className="w-3.5 h-3.5 text-indigo-500" />
-              <span>Qualia 美容分析室</span>
+              <Users className="w-3.5 h-3.5" />
+              <span>Qualia 美容分析室 メンバー (12名)</span>
             </button>
           </div>
         </div>
       </header>
 
-      {/* Dynamic Route Content Rendering */}
-      <main className="max-w-7xl mx-auto px-4 py-6">
+      {/* Main Content Area */}
+      <main className="max-w-7xl mx-auto px-4 py-8">
         {renderCurrentPage()}
       </main>
 
-      {/* Footer */}
-      <footer className="bg-white/80 backdrop-blur-sm border-t border-sky-100 mt-16 py-10">
-        <div className="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 space-y-3">
-          <div className="flex justify-center items-center gap-2">
-            <span className="bg-gradient-to-r from-sky-500 to-purple-600 text-white font-bold px-3 py-1 rounded-lg text-sm">Qualia Navi</span>
+      {/* Footer (Haute-Couture Premium Footer) */}
+      <footer className="bg-slate-950 border-t border-amber-500/20 mt-20 py-12">
+        <div className="max-w-7xl mx-auto px-4 text-center space-y-4">
+          <div className="flex justify-center items-center gap-3">
+            <span className="qualia-gold-gradient text-slate-950 font-extrabold px-4 py-1.5 rounded-lg text-sm font-serif-brand tracking-wider">
+              Qualia Navi
+            </span>
           </div>
-          <p className="font-medium text-slate-600">透明感を研ぎ澄ます美容・コスメ選びの総合ナビゲーション</p>
-          <p>© 2026 Qualia Navi. All rights reserved.</p>
+          <p className="text-xs text-amber-200/70 font-serif-brand tracking-widest">
+            HAUTE COUTURE BEAUTY & COSMETICS NAVIGATION
+          </p>
+          <p className="text-xs text-slate-500 max-w-xl mx-auto leading-relaxed">
+            【Qualia 美容分析室】統括編集長・コスメ美容編集長および日本人コスメコレクター10名による客観的実証メディア。
+            掲載されている商品情報は楽天市場APIとリアルタイム連携し、最安値＆高還元ポイントをナビゲートします。
+          </p>
+          <p className="text-[11px] text-slate-600 pt-2">© 2026 Qualia Navi. All rights reserved.</p>
         </div>
       </footer>
     </div>

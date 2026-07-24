@@ -1,9 +1,9 @@
-import { AuthorProfile, AmazonProductArticle } from '../types';
+import { AuthorProfile, RakutenProductArticle } from '../types';
 import { ExternalLink, Sparkles, BookOpen, User } from 'lucide-react';
 
 interface AuthorProfilesViewProps {
   profiles: AuthorProfile[];
-  articles: AmazonProductArticle[];
+  articles: RakutenProductArticle[];
   onSelectArticle: (articleId: string) => void;
 }
 

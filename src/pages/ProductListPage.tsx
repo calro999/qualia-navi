@@ -3,7 +3,7 @@ import { RakutenProductArticle } from '../types';
 import { CATEGORIES, INITIAL_COMPARISONS } from '../data';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
-import { Sparkles, ShoppingCart, ExternalLink, Star, Search } from 'lucide-react';
+import { Sparkles, ShoppingCart, ExternalLink, Star, Search, ShieldCheck } from 'lucide-react';
 
 interface ProductListPageProps {
   articles: RakutenProductArticle[];
@@ -16,8 +16,8 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
 
   useEffect(() => {
     updateSeoGeoMetadata({
-      title: 'Qualia Navi (クオリア・ナビ) - 最新コスメ＆美容トレンド比較ガイド',
-      description: '楽天市場で高評価の最新スキンケア、デパコス・プチプラ、話題の韓国コスメを徹底検証！',
+      title: 'Qualia Navi (クオリア・ナビ) - デパコス＆厳選美容アイテム比較ガイド',
+      description: '楽天市場で高評価の最新デパコス、スキンケア、話題の韓国コスメをQualia美容分析室（12名）が徹底検証！',
       urlPath: '/'
     });
   }, []);
@@ -36,20 +36,20 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
   }, [articles, selectedCategory, searchQuery]);
 
   return (
-    <div className="space-y-8 pb-12">
-      {/* Header Hero Section (Pastel Sky & Purple Aesthetic) */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-sky-400 via-indigo-400 to-purple-500 text-white p-6 sm:p-10 shadow-xl">
-        <div className="absolute -right-10 -bottom-10 w-64 h-64 bg-white/10 rounded-full blur-2xl" />
-        <div className="relative z-10 max-w-2xl space-y-3">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-bold tracking-wider">
-            <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-            <span>2026 BEAUTY & COSMETICS NAVI</span>
+    <div className="space-y-10 pb-16">
+      {/* Hero Section (Haute-Couture Luxury Cosmetic Styling) */}
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-white p-8 sm:p-12 border border-amber-500/30 shadow-2xl space-y-4">
+        <div className="absolute -right-16 -bottom-16 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl" />
+        <div className="relative z-10 max-w-3xl space-y-4">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 bg-amber-500/10 border border-amber-500/30 rounded-full text-xs font-bold text-amber-300 font-serif-brand">
+            <Sparkles className="w-3.5 h-3.5" />
+            <span>2026 LUXURY BEAUTY & COSMETICS SELECTION</span>
           </div>
-          <h1 className="text-2xl sm:text-4xl font-extrabold leading-tight tracking-tight">
-            透明感を研ぎ澄ます。<br className="hidden sm:inline" />話題のコスメ＆美容トレンドナビ
+          <h1 className="text-3xl sm:text-5xl font-black leading-tight tracking-wide font-serif-brand qualia-gold-text">
+            透明感を研ぎ澄ます。<br className="hidden sm:inline" />最高峰デパコス＆美容ナビ
           </h1>
-          <p className="text-sky-50 text-xs sm:text-sm font-medium leading-relaxed opacity-95">
-            楽天市場でリアルに売れている最新スキンケア・デパコス・韓国コスメをお届け。最安値＆ポイント還元情報をリアルタイムナビゲート。
+          <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed max-w-2xl">
+            Qualia 美容分析室（統括編集長・美容編集長・日本人コスメコレクター10名）が実地テスト。楽天市場のリアルタイム最安値＆公式限定ポイント還元情報をナビゲートします。
           </p>
         </div>
       </div>
@@ -57,10 +57,10 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
       {/* VS Comparison Featured Grid */}
       <div className="space-y-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-lg sm:text-xl font-bold text-slate-800 flex items-center gap-2 border-l-4 border-purple-500 pl-3">
-            <span>⚔️ ガチンコ美容検証・ガチンコ対決</span>
+          <h2 className="text-lg sm:text-xl font-bold font-serif-brand text-amber-200 flex items-center gap-2.5 border-l-4 border-amber-400 pl-3">
+            <span>⚔️ ガチンコ美容検証・デパコス vs 韓国コスメ比較</span>
           </h2>
-          <span className="text-xs text-purple-600 font-bold">
+          <span className="text-xs text-amber-400 font-bold font-serif-brand">
             目的別で徹底選定
           </span>
         </div>
@@ -70,18 +70,18 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
             <div
               key={comp.id}
               onClick={() => onNavigate(`/compare/${comp.id}`)}
-              className="qualia-glass-card p-5 rounded-2xl cursor-pointer transition-all duration-300 group flex flex-col justify-between"
+              className="qualia-glass-card p-6 rounded-2xl cursor-pointer hover:border-amber-400/50 transition-all duration-300 group flex flex-col justify-between"
             >
               <div className="space-y-2">
-                <span className="inline-block px-2.5 py-0.5 bg-purple-100 text-purple-700 text-[11px] font-bold rounded-md">
+                <span className="inline-block px-3 py-0.5 qualia-gold-gradient text-slate-950 text-[11px] font-black rounded-md">
                   {comp.targetUserCategory}
                 </span>
-                <h3 className="font-bold text-slate-800 text-sm sm:text-base leading-snug group-hover:text-purple-600 transition-colors">
+                <h3 className="font-bold text-slate-100 text-base leading-snug group-hover:text-amber-300 transition-colors font-serif-brand">
                   {comp.title}
                 </h3>
               </div>
 
-              <div className="pt-3 mt-3 border-t border-sky-100 flex items-center justify-between text-xs font-bold text-purple-600 group-hover:translate-x-0.5 transition-transform">
+              <div className="pt-3 mt-3 border-t border-amber-500/20 flex items-center justify-between text-xs font-bold text-amber-300 group-hover:translate-x-1 transition-transform">
                 <span>VS勝者と徹底検証結果を見る</span>
                 <span>➔</span>
               </div>
@@ -91,7 +91,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
       </div>
 
       {/* Filter and Search Controls */}
-      <div className="bg-white/80 backdrop-blur-md p-4 sm:p-5 rounded-2xl border border-sky-100 shadow-xs space-y-4">
+      <div className="qualia-glass-card p-5 rounded-2xl border border-amber-500/20 shadow-xl space-y-4">
         <div className="flex flex-col sm:flex-row gap-4 justify-between items-stretch sm:items-center">
           {/* Category Tabs */}
           <div className="flex items-center gap-2 overflow-x-auto pb-2 sm:pb-0 scrollbar-none">
@@ -101,8 +101,8 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
                 onClick={() => setSelectedCategory(cat.slug)}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
                   selectedCategory === cat.slug
-                    ? 'bg-gradient-to-r from-sky-500 to-purple-600 text-white shadow-md'
-                    : 'bg-sky-50/70 text-slate-600 hover:bg-sky-100'
+                    ? 'gold-btn'
+                    : 'bg-slate-900/80 text-amber-100/70 hover:bg-slate-800 border border-amber-500/20'
                 }`}
               >
                 {cat.name}
@@ -112,28 +112,28 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
 
           {/* Search Input */}
           <div className="relative min-w-[200px] sm:w-64">
-            <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+            <Search className="w-4 h-4 text-amber-400/70 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="コスメ名・キーワードで検索..."
+              placeholder="コスメ名・キーワード検索..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-9 pr-4 py-2 bg-slate-50 border border-sky-100 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-purple-400 transition"
+              className="w-full pl-9 pr-4 py-2 bg-slate-950/90 border border-amber-500/30 rounded-xl text-xs sm:text-sm text-slate-100 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-amber-400 transition"
             />
           </div>
         </div>
       </div>
 
-      {/* Product Grid - Mobile First Design */}
+      {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredArticles.map((art) => (
           <div
             key={art.id}
-            className="qualia-glass-card rounded-2xl overflow-hidden flex flex-col justify-between group hover:shadow-lg transition-all duration-300"
+            className="qualia-glass-card rounded-3xl overflow-hidden flex flex-col justify-between group hover:border-amber-400/60 transition-all duration-300"
           >
             {/* Product Image & Badges */}
             <div 
-              className="relative aspect-[4/3] bg-sky-50 overflow-hidden cursor-pointer"
+              className="relative aspect-[4/3] bg-slate-950 overflow-hidden cursor-pointer border-b border-amber-500/20"
               onClick={() => onNavigate(`/articles/${art.id}`)}
             >
               <img
@@ -145,50 +145,53 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
               />
               
               {art.isHallOfFame && (
-                <span className="absolute top-3 left-3 px-3 py-1 bg-gradient-to-r from-amber-400 to-amber-500 text-slate-900 font-extrabold text-[11px] rounded-lg shadow-md flex items-center gap-1">
+                <span className="absolute top-3 left-3 px-3 py-1 qualia-gold-gradient text-slate-950 font-black text-[11px] rounded-lg shadow-lg flex items-center gap-1">
                   👑 殿堂入りコスメ
                 </span>
               )}
 
-              <span className="absolute top-3 right-3 px-2 py-0.5 bg-white/90 text-amber-500 font-black text-xs rounded-md shadow-xs flex items-center gap-0.5 backdrop-blur-sm">
+              <span className="absolute top-3 right-3 px-2.5 py-0.5 bg-slate-950/90 text-amber-300 font-black text-xs rounded-md border border-amber-500/30 shadow-xs flex items-center gap-1 backdrop-blur-sm">
                 <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
                 {art.starRating.toFixed(1)}
               </span>
             </div>
 
             {/* Product Info & Content */}
-            <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
+            <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
               <div 
                 className="space-y-2 cursor-pointer"
                 onClick={() => onNavigate(`/articles/${art.id}`)}
               >
                 <div className="flex items-center justify-between text-[11px]">
-                  <span className="text-purple-600 font-bold bg-purple-50 px-2 py-0.5 rounded-md">
+                  <span className="text-amber-300 font-bold bg-amber-500/10 px-2.5 py-0.5 rounded-md border border-amber-500/20">
                     {art.categoryLabel || art.category}
+                  </span>
+                  <span className="text-slate-400 flex items-center gap-1 text-[10px]">
+                    <ShieldCheck className="w-3 h-3 text-amber-400" /> {art.reviewerName || 'Qualia 美容分析室'}
                   </span>
                 </div>
 
-                <h3 className="font-extrabold text-slate-800 text-base leading-snug group-hover:text-purple-600 transition-colors line-clamp-2">
+                <h3 className="font-extrabold text-slate-100 text-base leading-snug group-hover:text-amber-300 transition-colors line-clamp-2 font-serif-brand">
                   {art.productName || art.title}
                 </h3>
-                <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">
+                <p className="text-xs text-slate-300/80 leading-relaxed line-clamp-2">
                   {art.introText}
                 </p>
               </div>
 
               {/* Price & Rakuten Direct Affiliate Link CTA */}
-              <div className="pt-3 border-t border-sky-100 space-y-2">
-                <div className="flex items-center justify-between">
-                  <span className="text-[11px] font-medium text-slate-400">楽天市場参考価格:</span>
-                  <span className="text-sm font-extrabold text-purple-700">{art.rakutenPrice}</span>
+              <div className="pt-4 border-t border-amber-500/20 space-y-3">
+                <div className="flex items-center justify-between text-xs">
+                  <span className="text-slate-400 font-medium">楽天市場参考価格:</span>
+                  <span className="font-extrabold text-amber-300 text-sm">{art.rakutenPrice}</span>
                 </div>
 
-                <div className="grid grid-cols-2 gap-2 pt-1">
+                <div className="grid grid-cols-2 gap-2">
                   <button
                     onClick={() => onNavigate(`/articles/${art.id}`)}
-                    className="py-2.5 px-3 bg-sky-50 hover:bg-sky-100 text-sky-700 font-bold text-xs rounded-xl transition text-center"
+                    className="py-2.5 px-3 bg-slate-900 hover:bg-slate-800 text-amber-200 font-bold text-xs rounded-xl border border-amber-500/20 transition text-center"
                   >
-                    詳細を見る
+                    詳細レビュー
                   </button>
                   <a
                     href={art.affiliateLink}
@@ -197,7 +200,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
                     className="rakuten-btn py-2.5 px-3 rounded-xl text-xs font-bold text-center flex items-center justify-center gap-1"
                   >
                     <ShoppingCart className="w-3.5 h-3.5" />
-                    <span>楽天でチェック</span>
+                    <span>楽天で見る</span>
                     <ExternalLink className="w-3 h-3 opacity-80" />
                   </a>
                 </div>
@@ -209,8 +212,8 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
 
       {filteredArticles.length === 0 && (
         <div className="text-center py-16 qualia-glass-card rounded-3xl">
-          <p className="text-slate-500 font-bold text-sm">
-            検索条件に一致するコスメ・美容アイテムが見つかりませんでした。
+          <p className="text-slate-400 font-bold text-sm">
+            検索条件に一致するデパコス・美容アイテムが見つかりませんでした。
           </p>
         </div>
       )}

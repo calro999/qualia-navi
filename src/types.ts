@@ -38,16 +38,20 @@ export interface RakutenProductArticle {
 
 export interface AuthorProfile {
   id: string;
-  name: string; // 例: "Qualia 美容分析室"
-  role: string; // 例: "チーフコスメアナリスト"
+  name: string; // 日本人名 (例: "蓮見 拓真", "橘 えりか")
+  role: string; // 役職 (例: "統括編集長", "コスメ＆美容編集長", "デパコスコレクター")
+  authorType: 'male_editor_in_chief' | 'female_editor_in_chief' | 'collector';
   avatarUrl: string; // アバター画像URL
   avatarAlt: string;
   bio: string;
-  specialty: string;
+  specialty: string; // 専門ジャンル
+  favoriteCategory?: string; // 得意コスメジャンル
+  collectionCount?: string; // コレクション数・検証実績
   experienceYears: number;
   genderTarget: 'women' | 'men' | 'unisex';
   isDepartmentHead?: boolean;
-  qualifications?: string[];
+  assignedDepartment: string; // 担当部門 (例: "UVケア・日焼け止め部門", "リップ＆ケア部門")
+  subDepartments?: string[]; // 関連担当エリア
 }
 
 export interface BlogPost {

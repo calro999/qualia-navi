@@ -148,6 +148,15 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
       return;
     }
 
+    // Horizontal Rule (---)
+    if (trimmed === '---') {
+      flushList(`hr-${index}`);
+      elements.push(
+        <hr key={`hr-${index}`} className="my-8 border-t-2 border-dashed border-rose-200" />
+      );
+      return;
+    }
+
     // Blockquote & Alerts (> )
     if (trimmed.startsWith('> ')) {
       flushList(`blockquote-${index}`);

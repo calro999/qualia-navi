@@ -65,16 +65,16 @@ def load_yaml_config(filepath):
             topics.append(current_topic)
     return topics
 
-def fetch_rakuten_item(app_id, affiliate_id, keyword):
+def fetch_rakuten_item(app_id, access_key, affiliate_id, keyword):
     print(f"Fetching from Rakuten API: {keyword}")
     if not app_id or app_id == 'DUMMY':
         print("Warning: RAKUTEN_APP_ID is DUMMY. Cannot fetch real data.")
         return None
 
-    base_url = "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601"
+    base_url = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401"
     params = {
         "applicationId": app_id,
-        "affiliateId": affiliate_id,
+        "accessKey": access_key,
         "keyword": keyword,
         "sort": "standard",
         "hits": 1,
@@ -451,6 +451,7 @@ def generate_articles():
     load_dotenv(os.path.join(project_root, '.env'))
 
     app_id = os.environ.get('RAKUTEN_APP_ID')
+    access_key = os.environ.get('RAKUTEN_ACCESS_KEY', '')
     if not app_id:
         print("Warning: RAKUTEN_APP_ID is not set in environment or .env file.")
         app_id = 'DUMMY'
@@ -488,8 +489,12 @@ def generate_articles():
         title = master_info['title']
         category_label = master_info.get('categoryLabel', 'スキンケア・美容液')
 
+        api_keyword = product_name
+        if "ラ ロッシュ ポゼ UVイデア" in product_name:
+            api_keyword = "ラロッシュポゼ トーンアップ ローズ"
+        
         # 楽天APIで実際の画像とリンク、価格を取得
-        api_data = fetch_rakuten_item(app_id, affiliate_id, product_name)
+        api_data = fetch_rakuten_item(app_id, access_key, affiliate_id, api_keyword)
         
         if api_data:
             image_url = api_data['image_url']

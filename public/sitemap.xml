@@ -1,102 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage -->
   <url>
-    <loc>https://mono-go.vercel.app/</loc>
+    <loc>https://qualia-navi.vercel.app/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Blog Index -->
   <url>
-    <loc>https://mono-go.vercel.app/blogs</loc>
+    <loc>https://qualia-navi.vercel.app/blogs</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/anessa-vs-biore-uv</loc>
+    <loc>https://qualia-navi.vercel.app/authors</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/deonatulle-vs-8x4men</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-decorte</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/primavista-vs-larocheposay</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-suncare-anessa</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/concool-vs-nonio</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-kbeauty-vt</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/lipmonster-vs-meltylip</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-lip-romand</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/ihada-vs-vtcica</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-device-vitalift</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/melanocc-vs-kanebo</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-kate</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/andhoney-vs-refa</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-laroche</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/gatsby-ice-vs-biore-hiyashi</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-curel</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/compare/romand-vs-kate</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-seabreeze</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/blogs/blog-men-summer-2026</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-innisfree</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/blogs/blog-women-summer-2026</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-avene</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/articles/art-b0csb4y3c7</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-melanocc</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mono-go.vercel.app/articles/art-b082t2j21w</loc>
+    <loc>https://qualia-navi.vercel.app/articles/topic-suncare-biore</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.85</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-deonature</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-saborino</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-orbis</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-fasio</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-suncare-allie</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-agdeo24</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-mouth-breathlabo</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-fujiko</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-suncare-orbis</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-mouth-nonio</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-deoco</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-excel</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-suncare-elixir</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-pelican</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-oral-propolinse</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-hair-dryshampoo</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-fancl</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-curelcream</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-shirojyun</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-biore</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-footdeo</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-fujikomayu</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-hair-mieufa</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-lipmonster</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-orbisbody</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-skincare-kanebowash</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-summerseve</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-nars</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-heroinemake</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-body-bubcool</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-hair-sabon</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-pauljoe</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-inner-lypoc</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-suncare-nivea</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/topic-makeup-tirtir</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/compare/comp-skincare-serum</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/compare/comp-makeup-base</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/compare/comp-body-uv</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/compare/comp-skincare-cleansing</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/compare/comp-body-odor</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

@@ -72,7 +72,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           {displayedComparisons.map((comp) => (
             <div
               key={comp.id}
-              onClick={() => onNavigate(`/compare/${comp.id}`)}
+              onClick={() => onNavigate(`/comparisons/${comp.id}`)}
               className="qualia-glass-card p-5 rounded-2xl cursor-pointer hover:border-rose-300 transition-all duration-300 group flex flex-col justify-between"
             >
               <div className="space-y-2">

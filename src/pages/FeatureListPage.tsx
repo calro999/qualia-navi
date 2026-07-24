@@ -47,7 +47,7 @@ export function FeatureListPage({ onNavigate }: FeatureListPageProps) {
           {INITIAL_BLOG_POSTS.map((post) => (
             <article
               key={post.id}
-              onClick={() => onNavigate(`/blogs/${post.id}`)}
+              onClick={() => onNavigate(`/features/${post.id}`)}
               className="qualia-glass-card rounded-3xl shadow-xs hover:border-rose-300 transition-all duration-300 overflow-hidden flex flex-col md:flex-row cursor-pointer group border border-slate-200"
             >
               {/* Cover Image */}

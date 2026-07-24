@@ -47,7 +47,7 @@ export function ComparisonListPage({ onNavigate }: ComparisonListPageProps) {
           {INITIAL_COMPARISONS.map((comp) => (
             <div
               key={comp.id}
-              onClick={() => onNavigate(`/compare/${comp.id}`)}
+              onClick={() => onNavigate(`/comparisons/${comp.id}`)}
               className="qualia-glass-card rounded-3xl shadow-xs hover:border-purple-300 transition-all duration-300 overflow-hidden cursor-pointer group flex flex-col border border-slate-200"
             >
               {/* Cover Image */}

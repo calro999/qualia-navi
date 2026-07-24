@@ -34,8 +34,8 @@ export default function App() {
 
   // Determine active tab for header highlighting
   const isArticlesTab = currentPath === '/' || currentPath.startsWith('/articles');
-  const isBlogsTab = currentPath.startsWith('/blogs');
-  const isComparisonsTab = currentPath.startsWith('/compare');
+  const isFeaturesTab = currentPath.startsWith('/features');
+  const isComparisonsTab = currentPath.startsWith('/comparisons');
   const isAuthorsTab = currentPath.startsWith('/authors');
 
   const [articles] = useState<RakutenProductArticle[]>(INITIAL_ARTICLES);
@@ -52,12 +52,12 @@ export default function App() {
       );
     }
 
-    if (currentPath === '/blogs') {
+    if (currentPath === '/features') {
       return <FeatureListPage onNavigate={navigateTo} />;
     }
 
-    if (currentPath.startsWith('/blogs/')) {
-      const postId = currentPath.replace('/blogs/', '');
+    if (currentPath.startsWith('/features/')) {
+      const postId = currentPath.replace('/features/', '');
       return (
         <BlogPostPage
           postId={postId}
@@ -66,12 +66,12 @@ export default function App() {
       );
     }
 
-    if (currentPath === '/compare') {
+    if (currentPath === '/comparisons') {
       return <ComparisonListPage onNavigate={navigateTo} />;
     }
 
-    if (currentPath.startsWith('/compare/')) {
-      const compareId = currentPath.replace('/compare/', '');
+    if (currentPath.startsWith('/comparisons/')) {
+      const compareId = currentPath.replace('/comparisons/', '');
       return (
         <ProductComparisonPage
           compareId={compareId}
@@ -136,9 +136,9 @@ export default function App() {
             </button>
 
             <button
-              onClick={() => navigateTo('/blogs')}
+              onClick={() => navigateTo('/features')}
               className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
-                isBlogsTab
+                isFeaturesTab
                   ? 'gold-btn'
                   : 'bg-white text-slate-700 hover:bg-rose-50 border border-slate-200/80'
               }`}
@@ -148,7 +148,7 @@ export default function App() {
             </button>
 
             <button
-              onClick={() => navigateTo('/compare')}
+              onClick={() => navigateTo('/comparisons')}
               className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
                 isComparisonsTab
                   ? 'gold-btn'

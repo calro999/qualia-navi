@@ -3,7 +3,8 @@ import { Analytics } from '@vercel/analytics/react';
 import { INITIAL_ARTICLES } from './data';
 import { ProductListPage } from './pages/ProductListPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
-import { BlogListPage } from './pages/BlogListPage';
+import { FeatureListPage } from './pages/FeatureListPage';
+import { ComparisonListPage } from './pages/ComparisonListPage';
 import { BlogPostPage } from './pages/BlogPostPage';
 import { ProductComparisonPage } from './pages/ProductComparisonPage';
 import { AuthorListPage } from './pages/AuthorListPage';
@@ -34,6 +35,7 @@ export default function App() {
   // Determine active tab for header highlighting
   const isArticlesTab = currentPath === '/' || currentPath.startsWith('/articles');
   const isBlogsTab = currentPath.startsWith('/blogs');
+  const isComparisonsTab = currentPath.startsWith('/compare');
   const isAuthorsTab = currentPath.startsWith('/authors');
 
   const [articles] = useState<RakutenProductArticle[]>(INITIAL_ARTICLES);
@@ -51,7 +53,7 @@ export default function App() {
     }
 
     if (currentPath === '/blogs') {
-      return <BlogListPage onNavigate={navigateTo} />;
+      return <FeatureListPage onNavigate={navigateTo} />;
     }
 
     if (currentPath.startsWith('/blogs/')) {
@@ -62,6 +64,10 @@ export default function App() {
           onNavigate={navigateTo}
         />
       );
+    }
+
+    if (currentPath === '/compare') {
+      return <ComparisonListPage onNavigate={navigateTo} />;
     }
 
     if (currentPath.startsWith('/compare/')) {
@@ -139,6 +145,18 @@ export default function App() {
             >
               <Sparkles className="w-3.5 h-3.5 text-rose-500" />
               <span>記事特集</span>
+            </button>
+
+            <button
+              onClick={() => navigateTo('/compare')}
+              className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
+                isComparisonsTab
+                  ? 'gold-btn'
+                  : 'bg-white text-slate-700 hover:bg-rose-50 border border-slate-200/80'
+              }`}
+            >
+              <Sparkles className="w-3.5 h-3.5 text-purple-500" />
+              <span>比較記事</span>
             </button>
 
             <button

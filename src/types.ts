@@ -91,6 +91,7 @@ export interface ProductComparison {
   verdictSummary: string;
   contentMarkdown: string;
   createdAt: string;
+  coverImage?: string;
 }
 
 export interface CategorySpec {

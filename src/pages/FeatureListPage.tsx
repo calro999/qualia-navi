@@ -1,19 +1,19 @@
 import React from 'react';
-import { INITIAL_BLOG_POSTS, INITIAL_COMPARISONS } from '../data';
+import { INITIAL_BLOG_POSTS } from '../data';
 import { handleImageError } from '../utils/imageHelper';
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
 import { Sparkles, BookOpen } from 'lucide-react';
 
-interface BlogListPageProps {
+interface FeatureListPageProps {
   onNavigate: (path: string) => void;
 }
 
-export function BlogListPage({ onNavigate }: BlogListPageProps) {
+export function FeatureListPage({ onNavigate }: FeatureListPageProps) {
   React.useEffect(() => {
     updateSeoGeoMetadata({
-      title: '記事特集 | Qualia Navi',
+      title: '記事特集一覧 | Qualia Navi',
       description: 'Qualia 美容分析室による最新コスメ・スキンケアの徹底検証と特集記事一覧。',
-      urlPath: '/blogs'
+      urlPath: '/features'
     });
   }, []);
 
@@ -35,7 +35,6 @@ export function BlogListPage({ onNavigate }: BlogListPageProps) {
         </div>
       </div>
 
-      {/* Featured Feature Blogs */}
       <div className="space-y-6">
         <div className="flex items-center justify-between border-l-4 border-rose-500 pl-4">
           <h2 className="text-xl font-bold font-serif-brand text-slate-900 flex items-center gap-2">
@@ -51,14 +50,14 @@ export function BlogListPage({ onNavigate }: BlogListPageProps) {
               onClick={() => onNavigate(`/blogs/${post.id}`)}
               className="qualia-glass-card rounded-3xl shadow-xs hover:border-rose-300 transition-all duration-300 overflow-hidden flex flex-col md:flex-row cursor-pointer group border border-slate-200"
             >
-              {/* Cover Image (Clean Horizontal Aspect Ratio) */}
+              {/* Cover Image */}
               <div className="relative md:w-1/2 aspect-video bg-white overflow-hidden">
                 <img
                   src={post.coverImage}
                   alt={post.title}
                   referrerPolicy="no-referrer"
                   onError={handleImageError}
-                  className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover bg-white group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 
@@ -99,42 +98,6 @@ export function BlogListPage({ onNavigate }: BlogListPageProps) {
                 </div>
               </div>
             </article>
-          ))}
-        </div>
-      </div>
-
-      {/* VS Comparison Posts */}
-      <div className="space-y-6 pt-8 border-t border-slate-200">
-        <div className="flex items-center justify-between border-l-4 border-rose-500 pl-4">
-          <h2 className="text-xl font-bold font-serif-brand text-slate-900">
-            ⚔️ お悩み・目的別ガチンコ比較対決
-          </h2>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {INITIAL_COMPARISONS.map((comp) => (
-            <div
-              key={comp.id}
-              onClick={() => onNavigate(`/compare/${comp.id}`)}
-              className="qualia-glass-card rounded-3xl p-6 shadow-xs hover:border-rose-300 transition cursor-pointer flex flex-col justify-between group space-y-4 border border-slate-200"
-            >
-              <div className="space-y-2">
-                <span className="inline-block px-3 py-0.5 bg-rose-100 text-rose-700 font-bold text-xs rounded-md">
-                  {comp.targetUserCategory}
-                </span>
-                <h3 className="font-extrabold text-slate-900 text-base leading-snug group-hover:text-rose-600 transition font-serif-brand">
-                  {comp.title}
-                </h3>
-                <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed font-normal">
-                  {comp.subtitle}
-                </p>
-              </div>
-
-              <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-rose-600 group-hover:translate-x-1 transition-transform">
-                <span>比較結果を見る</span>
-                <span>➔</span>
-              </div>
-            </div>
           ))}
         </div>
       </div>

@@ -11,8 +11,8 @@ interface BlogListPageProps {
 export function BlogListPage({ onNavigate }: BlogListPageProps) {
   React.useEffect(() => {
     updateSeoGeoMetadata({
-      title: '美肌＆コスメ徹底検証ブログ | Qualia Navi',
-      description: 'Qualia 美容分析室による最新コスメ・スキンケアの徹底検証ブログとアイテム比較対決シリーズ一覧。',
+      title: '記事特集 | Qualia Navi',
+      description: 'Qualia 美容分析室による最新コスメ・スキンケアの徹底検証と特集記事一覧。',
       urlPath: '/blogs'
     });
   }, []);
@@ -27,10 +27,10 @@ export function BlogListPage({ onNavigate }: BlogListPageProps) {
             <span>QUALIA BEAUTY BLOG</span>
           </div>
           <h1 className="text-2xl sm:text-4xl font-extrabold leading-tight font-serif-brand">
-            美肌を引き出す コスメ・美容特集ブログ
+            コスメ・美容 記事特集
           </h1>
           <p className="text-rose-50 text-xs sm:text-sm font-medium leading-relaxed opacity-95">
-            美容分析室の専属アナリストが、話題のスキンケア・プチプラ・デパコス・韓国コスメの使用感と効果を徹底レビュー。
+            美容分析室の専属アナリストが、季節ごとの悩み解決策や、最新トレンドアイテムを徹底解説。
           </p>
         </div>
       </div>
@@ -40,7 +40,7 @@ export function BlogListPage({ onNavigate }: BlogListPageProps) {
         <div className="flex items-center justify-between border-l-4 border-rose-500 pl-4">
           <h2 className="text-xl font-bold font-serif-brand text-slate-900 flex items-center gap-2">
             <BookOpen className="w-5 h-5 text-rose-600" />
-            <span>特集美肌ブログ記事</span>
+            <span>記事特集一覧</span>
           </h2>
         </div>
 

@@ -138,7 +138,7 @@ export default function App() {
               }`}
             >
               <Sparkles className="w-3.5 h-3.5 text-rose-500" />
-              <span>美肌特集ブログ</span>
+              <span>記事特集</span>
             </button>
 
             <button

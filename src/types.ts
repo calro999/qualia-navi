@@ -34,6 +34,7 @@ export interface RakutenProductArticle {
   verificationDays?: number;
   priceRange?: string;
   isHallOfFame?: boolean;
+  buyIntentKeywords?: string[];
 }
 
 export interface AuthorProfile {

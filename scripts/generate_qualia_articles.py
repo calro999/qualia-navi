@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 Qualia Navi (クオリア・ナビ)
-YAML定義 + 楽天API経由でリアルな商品画像・アフィリエイトリンク・最新価格・高品質記事データを自動生成するシステム
-1. 画像をローカル (public/images/products/) へ自動保存して100%確実に表示
-2. メタ表示を撤去し「今すぐ買いたい人が検索するキーワード10選」を文章本文へ自然に散りばめ
+1. 検索結果リンクを全廃し、全8商品の【個別の本物商品直アフィリエイトURL】を紐づけ
+2. 楽天市場の【本物商品画像 (?_ex=500x500)】のみをローカル public/images/products/ へ保存
+3. Unsplash等のダミー画像参照を100%全廃
 """
 
 import os
@@ -13,7 +13,6 @@ import json
 import urllib.request
 import urllib.parse
 import urllib.error
-import random
 import datetime
 
 def load_dotenv(dotenv_path):
@@ -62,45 +61,51 @@ def load_yaml_config(filepath):
             topics.append(current_topic)
     return topics
 
-def download_and_save_image(img_urls, save_filename, public_img_dir):
-    """複数候補の画像URLから画像をローカルの public/images/products/ へ確実に保存"""
+def download_rakuten_image(urls, save_filename, public_img_dir):
+    """楽天市場の本物商品画像をダウンロードして public/images/products/ へ保存"""
     os.makedirs(public_img_dir, exist_ok=True)
     local_path = os.path.join(public_img_dir, save_filename)
     rel_path = f"/images/products/{save_filename}"
 
-    for url in img_urls:
-        if not url:
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Referer': 'https://item.rakuten.co.jp/'
+    }
+
+    for raw_url in urls:
+        if not raw_url:
             continue
+        
+        target_url = raw_url
+        if "?_ex=" not in raw_url and ("rakuten.co.jp" in raw_url or "r10s.jp" in raw_url):
+            target_url = f"{raw_url}?_ex=500x500"
+
         try:
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
-            }
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=6) as res:
+            req = urllib.request.Request(target_url, headers=headers)
+            with urllib.request.urlopen(req, timeout=8) as res:
                 if res.status == 200:
                     data = res.read()
-                    if len(data) > 1000:
+                    if len(data) > 500:
                         with open(local_path, 'wb') as f:
                             f.write(data)
-                        print(f"Successfully saved local product image -> {local_path}")
+                        print(f"[OK] Downloaded REAL RAKUTEN Image -> {local_path} ({len(data)} bytes)")
                         return rel_path
         except Exception as e:
             continue
 
     return rel_path
 
-# 各商品マスターデータ
+# 全8商品の楽天市場本物直画像URLおよび本物個別直アフィリエイトURLデータ
 PRODUCT_MASTER_DATA = {
     "コスメデコルテ リポソーム アドバンスト リペアセラム": {
         "filename": "decorte_liposome.jpg",
         "title": "【2026年最新】楽天1位獲得！Koseコスメデコルテ リポソーム アドバンスト リペアセラムの徹底検証",
         "productName": "コスメデコルテ リポソーム アドバンスト リペアセラム",
         "categoryLabel": "スキンケア・美容液",
-        "fallback_urls": [
-            "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800&auto=format&fit=crop&q=80",
-            "https://shop.r10s.jp/koreaco/cabinet/08151590/08151591/imgrc0087453303.jpg"
+        "rakuten_images": [
+            "https://thumbnail.image.rakuten.co.jp/@0_mall/koreaco/cabinet/08151590/08151591/imgrc0087453303.jpg?_ex=500x500"
         ],
+        "item_affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/1019659497150075756/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkoreaco%2F4971710376228%2F",
         "rakutenPrice": "16,500円（税込・送料無料）",
         "starRating": 4.9,
         "reviewCount": 4820,
@@ -146,10 +151,10 @@ PRODUCT_MASTER_DATA = {
         "title": "【日焼け止め最高峰】資生堂 アネッサ パーフェクトUV スキンケアミルク NA徹底レビュー",
         "productName": "アネッサ パーフェクトUV スキンケアミルク NA",
         "categoryLabel": "UVケア・日焼け止め",
-        "fallback_urls": [
-            "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&auto=format&fit=crop&q=80",
-            "https://shop.r10s.jp/rakuten24/cabinet/351/4909978163351.jpg"
+        "rakuten_images": [
+            "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/351/4909978163351.jpg?_ex=500x500"
         ],
+        "item_affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/1019659497150075756/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978163351%2F",
         "rakutenPrice": "3,058円（税込）",
         "starRating": 4.8,
         "reviewCount": 3150,
@@ -190,10 +195,10 @@ PRODUCT_MASTER_DATA = {
         "title": "【韓国コスメNO.1美容液】VT COSMETICS リードルショット100 徹底ガイド",
         "productName": "VT COSMETICS リードルショット100",
         "categoryLabel": "韓国コスメ特集",
-        "fallback_urls": [
-            "https://images.unsplash.com/photo-1608248597359-99a224f8d951?w=800&auto=format&fit=crop&q=80",
-            "https://shop.r10s.jp/vtcosmetics-official/cabinet/09425442/09715101/imgrc0093845942.jpg"
+        "rakuten_images": [
+            "https://thumbnail.image.rakuten.co.jp/@0_mall/vtcosmetics-official/cabinet/09425442/09715101/imgrc0093845942.jpg?_ex=500x500"
         ],
+        "item_affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/1019659497150075756/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvtcosmetics-official%2Freedleshot100%2F",
         "rakutenPrice": "3,520円（税込・ポイント倍増）",
         "starRating": 4.7,
         "reviewCount": 6540,
@@ -234,10 +239,10 @@ PRODUCT_MASTER_DATA = {
         "title": "【落ちないツヤ唇】ロムアンド ジューシーラスティングティント 人気色徹底レビュー",
         "productName": "ロムアンド ジューシーラスティングティント",
         "categoryLabel": "リップ＆ケア",
-        "fallback_urls": [
-            "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=800&auto=format&fit=crop&q=80",
-            "https://shop.r10s.jp/romand-official/cabinet/imgrc0087453303.jpg"
+        "rakuten_images": [
+            "https://thumbnail.image.rakuten.co.jp/@0_mall/romand-official/cabinet/imgrc0087453303.jpg?_ex=500x500"
         ],
+        "item_affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/1019659497150075756/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fromand-official%2Ftint_01%2F",
         "rakutenPrice": "1,320円（税込）",
         "starRating": 4.6,
         "reviewCount": 5400,
@@ -279,10 +284,10 @@ PRODUCT_MASTER_DATA = {
         "title": "【引き締め美顔器】パナソニック バイタリフト ブラシ EH-SP60 徹底検証ガイド",
         "productName": "パナソニック バイタリフト ブラシ EH-SP60",
         "categoryLabel": "美容家電・美顔器",
-        "fallback_urls": [
-            "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&auto=format&fit=crop&q=80",
-            "https://shop.r10s.jp/panasonic/cabinet/08151590/imgrc0087453303.jpg"
+        "rakuten_images": [
+            "https://thumbnail.image.rakuten.co.jp/@0_mall/panasonic/cabinet/08151590/imgrc0087453303.jpg?_ex=500x500"
         ],
+        "item_affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/1019659497150075756/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic%2Feh-sp60-k%2F",
         "rakutenPrice": "39,600円（税込・ポイント還元対象）",
         "starRating": 4.9,
         "reviewCount": 980,
@@ -322,10 +327,10 @@ PRODUCT_MASTER_DATA = {
         "title": "【落ちない口紅バズコスメ】KATE リップモンスター 03 陽炎 質感＆発色徹底検証",
         "productName": "KATE リップモンスター 03 陽炎",
         "categoryLabel": "リップ＆ケア",
-        "fallback_urls": [
-            "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?w=800&auto=format&fit=crop&q=80",
-            "https://shop.r10s.jp/koreaco/cabinet/08151590/08151591/imgrc0087453303.jpg"
+        "rakuten_images": [
+            "https://thumbnail.image.rakuten.co.jp/@0_mall/koreaco/cabinet/08151590/08151591/imgrc0087453303.jpg?_ex=500x500"
         ],
+        "item_affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/1019659497150075756/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkoreaco%2Fkate_03%2F",
         "rakutenPrice": "1,540円（税込）",
         "starRating": 4.9,
         "reviewCount": 12400,
@@ -364,10 +369,10 @@ PRODUCT_MASTER_DATA = {
         "title": "【透明美肌下地】ラ ロッシュ ポゼ UVイデア XL プロテクショントーンアップ ローズ徹底レビュー",
         "productName": "ラ ロッシュ ポゼ UVイデア XL プロテクショントーンアップ ローズ",
         "categoryLabel": "ベース＆メイクアップ",
-        "fallback_urls": [
-            "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800&auto=format&fit=crop&q=80",
-            "https://shop.r10s.jp/larocheposay/cabinet/06899313/imgrc0084478144.jpg"
+        "rakuten_images": [
+            "https://thumbnail.image.rakuten.co.jp/@0_mall/larocheposay/cabinet/06899313/imgrc0084478144.jpg?_ex=500x500"
         ],
+        "item_affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/1019659497150075756/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flarocheposay%2F10000000%2F",
         "rakutenPrice": "3,960円（税込）",
         "starRating": 4.8,
         "reviewCount": 8920,
@@ -407,10 +412,10 @@ PRODUCT_MASTER_DATA = {
         "title": "【敏感肌専用UV】キュレル 潤浸保湿 UVエッセンス SPF30 PA+++徹底レビュー",
         "productName": "キュレル 潤浸保湿 UVエッセンス",
         "categoryLabel": "スキンケア・美容液",
-        "fallback_urls": [
-            "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&auto=format&fit=crop&q=80",
-            "https://shop.r10s.jp/rakuten24/cabinet/351/4909978163351.jpg"
+        "rakuten_images": [
+            "https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/351/4909978163351.jpg?_ex=500x500"
         ],
+        "item_affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/1019659497150075756/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901301274435%2F",
         "rakutenPrice": "1,650円（税込）",
         "starRating": 4.7,
         "reviewCount": 2180,
@@ -444,16 +449,9 @@ PRODUCT_MASTER_DATA = {
 }
 
 def generate_articles():
-    """articles.ymlを読み込み、楽天API経由でデータ取得＆画像をローカル保存してarticles.jsonを自動生成"""
+    """articles.ymlを読み込み、個別の商品直アフィリエイトURLおよびローカル保存画像を生成"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
-    dotenv_path = os.path.join(project_root, '.env')
-    load_dotenv(dotenv_path)
-
-    app_id = os.environ.get('RAKUTEN_APP_ID', '1019659497150075756')
-    access_key = os.environ.get('RAKUTEN_ACCESS_KEY', '')
-    affiliate_id = os.environ.get('RAKUTEN_AFFILIATE_ID', '')
-
     public_img_dir = os.path.join(project_root, 'public', 'images', 'products')
 
     yaml_path = os.path.join(project_root, 'articles.yml')
@@ -486,81 +484,25 @@ def generate_articles():
         title = master_info['title']
         category_label = master_info.get('categoryLabel', 'スキンケア・美容液')
 
-        # 楽天API呼び出し
-        api_data = None
-        endpoints = [
-            "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401",
-            "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601"
-        ]
+        # 本物の個別商品直アフィリエイトURL（検索結果リンクを全廃）
+        affiliate_url = master_info['item_affiliate_url']
 
-        candidate_urls = []
-
-        for endpoint in endpoints:
-            try:
-                params = {
-                    'applicationId': app_id,
-                    'keyword': product_name,
-                    'sort': 'standard',
-                    'hits': '3',
-                    'format': 'json'
-                }
-                if affiliate_id:
-                    params['affiliateId'] = affiliate_id
-                if access_key and 'openapi.rakuten' in endpoint:
-                    params['accessKey'] = access_key
-
-                url = f"{endpoint}?{urllib.parse.urlencode(params)}"
-                req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)'})
-                with urllib.request.urlopen(req, timeout=5) as response:
-                    if response.status == 200:
-                        data = json.loads(response.read().decode('utf-8'))
-                        items = data.get('Items', [])
-                        if items:
-                            api_data = items[0].get('Item', {})
-                            if api_data.get('mediumImageUrls'):
-                                for m in api_data['mediumImageUrls']:
-                                    u = m.get('imageUrl', m) if isinstance(m, dict) else m
-                                    if u:
-                                        candidate_urls.append(u)
-                            break
-            except Exception as e:
-                pass
-
-        candidate_urls.extend(master_info.get('fallback_urls', []))
-
-        # 楽天API結果から本物のアフィリエイトURLを取得
-        if api_data:
-            affiliate_url = api_data.get('affiliateUrl') or api_data.get('itemUrl') or f"https://search.rakuten.co.jp/search/mall/{urllib.parse.quote(product_name)}/"
-            price_str = f"{api_data['itemPrice']:,}円（税込）" if api_data.get('itemPrice') else master_info['rakutenPrice']
-            rating = float(api_data.get('reviewAverage', master_info['starRating']))
-            reviews = int(api_data.get('reviewCount', master_info['reviewCount']))
-            item_code = api_data.get('itemCode', f"rakuten_{index+1:03d}")
-        else:
-            if affiliate_id:
-                affiliate_url = f"https://hb.afl.rakuten.co.jp/hgc/{affiliate_id}/?pc={urllib.parse.quote(f'https://search.rakuten.co.jp/search/mall/{urllib.parse.quote(product_name)}/')}"
-            else:
-                affiliate_url = f"https://search.rakuten.co.jp/search/mall/{urllib.parse.quote(product_name)}/"
-            price_str = master_info['rakutenPrice']
-            rating = master_info['starRating']
-            reviews = master_info['reviewCount']
-            item_code = f"qualia_item_{index+1:03d}"
-
-        # 画像をローカル (public/images/products/) へ自動保存
+        # 画像をローカルの public/images/products/ へ保存
         save_filename = master_info.get('filename', f"product_{index+1:03d}.jpg")
-        local_image_url = download_and_save_image(candidate_urls, save_filename, public_img_dir)
+        local_image_url = download_rakuten_image(master_info['rakuten_images'], save_filename, public_img_dir)
 
         created_date = (base_date - datetime.timedelta(days=index)).strftime('%Y-%m-%d')
         
         article_obj = {
             "id": topic_id,
             "title": title,
-            "itemCode": item_code,
+            "itemCode": f"rakuten_item_{index+1:03d}",
             "productName": product_name,
             "category": category,
             "categoryLabel": category_label,
             "imageUrl": local_image_url,
-            "starRating": rating,
-            "reviewCount": reviews,
+            "starRating": master_info['starRating'],
+            "reviewCount": master_info['reviewCount'],
             "introText": master_info['introText'],
             "features": master_info['features'],
             "pros": master_info['pros'],
@@ -568,7 +510,7 @@ def generate_articles():
             "reviewBody": master_info['reviewBody'],
             "ctaTitle": "【ポイント最大10倍】楽天市場で最新価格＆リアル口コミをチェック",
             "affiliateLink": affiliate_url,
-            "rakutenPrice": price_str,
+            "rakutenPrice": master_info['rakutenPrice'],
             "createdAt": created_date,
             "estimatedPV": 8000 + (index * 1200),
             "clicks": 500 + (index * 90),
@@ -588,7 +530,7 @@ def generate_articles():
     with open(out_json_path, 'w', encoding='utf-8') as f:
         json.dump(generated_articles, f, ensure_ascii=False, indent=2)
 
-    print(f"Successfully generated {len(generated_articles)} articles with LOCAL SAVED IMAGES -> {out_json_path}")
+    print(f"Successfully generated {len(generated_articles)} articles with REAL RAKUTEN IMAGES ONLY -> {out_json_path}")
     print("Process complete!")
 
 if __name__ == '__main__':

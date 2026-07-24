@@ -136,6 +136,20 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           </div>
         </div>
         
+        {/* Category SEO Enhancement Text */}
+        {selectedCategory !== 'all' && (
+          <div className="bg-rose-50/50 p-4 rounded-xl border border-rose-100 text-xs text-slate-700 leading-relaxed font-medium">
+            <h3 className="font-bold text-rose-700 mb-1">
+              {CATEGORIES.find(c => c.slug === selectedCategory)?.name}カテゴリについて
+            </h3>
+            {selectedCategory === 'skincare' && '保湿力や成分の安全性、浸透力を徹底検証。肌悩みに合わせた最適なスキンケアアイテムを厳選しています。'}
+            {selectedCategory === 'base-makeup' && 'カバー力、崩れにくさ、仕上がりの美しさを評価。長時間キープできる優秀なベースメイクアイテムをご紹介します。'}
+            {selectedCategory === 'point-makeup' && 'トレンド感、発色、色持ちを重視。毎日のメイクを格上げするポイントメイクアイテムをピックアップしました。'}
+            {selectedCategory === 'haircare' && 'まとまり、ツヤ感、香りをチェック。サロン級の仕上がりを叶えるヘアケアアイテムを比較検証しています。'}
+            {selectedCategory === 'uv-care' && '紫外線防御力はもちろん、白浮きしない使い心地や落としやすさまで。日常使いからレジャーまで活躍するUVケアアイテム。'}
+            {!['skincare', 'base-makeup', 'point-makeup', 'haircare', 'uv-care'].includes(selectedCategory) && `${CATEGORIES.find(c => c.slug === selectedCategory)?.name}の最新トレンドアイテムをQualia美容分析室が独自基準で徹底検証。`}
+          </div>
+        )}
       </div>
 
       {/* Product Grid */}

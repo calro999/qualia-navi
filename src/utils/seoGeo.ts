@@ -197,6 +197,10 @@ export function generateBlogJsonLd(
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `${domain}/blogs/${post.id}`
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.blog-intro', '.blog-content']
     }
   };
 
@@ -223,4 +227,82 @@ export function generateAuthorJsonLd(
       knowsAbout: [author.specialty, 'コスメ', '美容', 'スキンケア']
     }
   ];
+}
+
+/**
+ * Generate Organization JSON-LD Schema for the site
+ */
+export function generateOrganizationJsonLd(domain = 'https://qualia-navi.vercel.app') {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Qualia Navi (クオリア・ナビ)',
+    url: domain,
+    logo: `${domain}/images/logo.png`,
+    description: '最新のコスメ・デパコス・プチプラ・UVケアなどの美容系アイテムを本音で検証・解説する専門メディア',
+    sameAs: [
+      // Add social links here if available
+    ]
+  };
+}
+
+/**
+ * Generate WebSite + SearchAction JSON-LD Schema
+ */
+export function generateWebSiteJsonLd(domain = 'https://qualia-navi.vercel.app') {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Qualia Navi (クオリア・ナビ)',
+    url: domain,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${domain}/?search={search_term_string}`,
+      'query-input': 'required name=search_term_string'
+    }
+  };
+}
+
+/**
+ * Generate ItemList JSON-LD Schema for category/list pages
+ */
+export function generateItemListJsonLd(articles: any[], listUrl: string = 'https://qualia-navi.vercel.app') {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    url: listUrl,
+    itemListElement: articles.map((article, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: {
+        '@type': 'Product',
+        url: `${listUrl}/articles/${article.id}`,
+        name: article.productName || article.title,
+        image: article.imageUrl
+      }
+    }))
+  };
+}
+
+/**
+ * Generate HowTo JSON-LD Schema for tutorial content
+ */
+export function generateHowToJsonLd(steps: { name: string; text: string; image?: string; url?: string }[], title: string, description: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: title,
+    description: description,
+    step: steps.map((step, index) => {
+      const stepData: any = {
+        '@type': 'HowToStep',
+        position: index + 1,
+        name: step.name,
+        text: step.text
+      };
+      if (step.image) stepData.image = step.image;
+      if (step.url) stepData.url = step.url;
+      return stepData;
+    })
+  };
 }

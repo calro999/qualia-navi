@@ -331,11 +331,25 @@ topics:
     target_audience: "体の日焼けだけでなく、将来のシミ・そばかすを予防したい方"
     is_hall_of_fame: true
 
-  - id: topic-makeup-tirtir
+  - id: topic-skincare-ipsa
+    category: skincare
+    keyword: "イプサ ザ タイムR アクア"
+    title_template: "【薬用化粧水の最高峰】{product_name} うるおいバリアとニキビ・肌荒れ防止効果を徹底検証"
+    target_audience: "大人ニキビ・インナードライ・テカリに悩む方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-suqqu
     category: makeup
-    keyword: "TIRTIR マスクフィット レッドクッション"
-    title_template: "【汗だくでも崩れないファンデ】{product_name} カバー力と持続力の頂点"
-    target_audience: "猛暑日でも絶対によれない、崩れない最強のクッションファンデを探している方"
+    keyword: "SUQQU シグニチャー カラー アイズ"
+    title_template: "【デパコス至高のアイシャドウ】{product_name} 絶妙な重ね色とツヤ感で大人の上質美目をレビュー"
+    target_audience: "上品で崩れない大人のアイメイクを求める方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-cledepeau
+    category: makeup
+    keyword: "クレ・ド・ポー ボーテ ヴォワールコレクチュール n"
+    title_template: "【憧れの一品】{product_name} 塗った瞬間から美肌フィルターをかける至高の化粧下地"
+    target_audience: "くすみや小ジワをカバーし至高の素肌感を叶えたい方"
     is_hall_of_fame: true
 
 settings:

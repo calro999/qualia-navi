@@ -2,8 +2,8 @@ name: Qualia Navi Rakuten Cosmetics Auto Generator
 
 on:
   schedule:
-    # 毎日 午前9時 (UTC 0:00) に自動更新
-    - cron: '0 0 * * *'
+    # 2時間ごとに自動更新 (0:00, 2:00, 4:00... UTC)
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 jobs:

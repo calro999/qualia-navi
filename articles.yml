@@ -128,6 +128,216 @@ topics:
     target_audience: "海・プールでの日焼けと摩擦落ちを防ぎたい方"
     is_hall_of_fame: true
 
+  - id: topic-body-agdeo24
+    category: bodycare
+    keyword: "エージーデオ24 パウダースプレー"
+    title_template: "【夏の体臭・ワキ汗対策】{product_name}でニオイを元から断つ！リアル検証"
+    target_audience: "夏の体臭・ワキガ・汗の匂いが気になる方"
+    is_hall_of_fame: true
+
+  - id: topic-mouth-breathlabo
+    category: oralcare
+    keyword: "ブレスラボ マウスウォッシュ"
+    title_template: "【口臭ケアの決定版】{product_name} 翌朝のネバつき・ニオイを完全撃退"
+    target_audience: "夏の口臭・口のネバつきをケアしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-fujiko
+    category: makeup
+    keyword: "Fujiko アブラトリウォーター"
+    title_template: "【テカリ・毛穴レス】{product_name} 夏のメイク崩れを瞬間お直し！"
+    target_audience: "夏の顔のテカリ・汗崩れ・毛穴が気になる方"
+    is_hall_of_fame: false
+
+  - id: topic-suncare-orbis
+    category: suncare
+    keyword: "オルビス リンクルブライトUVプロテクター"
+    title_template: "【シワ改善×日焼け止め】{product_name} 夏の紫外線ダメージとエイジングケア"
+    target_audience: "日焼けを防ぎつつシワ改善もしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-mouth-nonio
+    category: oralcare
+    keyword: "NONIO 舌専用 クリーニングジェル"
+    title_template: "【舌苔除去で口臭ゼロへ】{product_name}の効果と正しい使い方"
+    target_audience: "舌の汚れ・根本的な口臭ケアをしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-deoco
+    category: bodycare
+    keyword: "デオコ 薬用ボディクレンズ"
+    title_template: "【大人女性の体臭・加齢臭ケア】{product_name}で若い頃の甘い香りを取り戻す？"
+    target_audience: "夏の汗の匂い・年齢によるニオイの変化が気になる方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-excel
+    category: makeup
+    keyword: "エクセル ラスティングタッチベース"
+    title_template: "【夏の崩れない下地】{product_name} 皮脂ブロック＆毛穴カバー力を徹底レビュー"
+    target_audience: "夏のドロドロ崩れ・皮脂浮きを防止したい方"
+    is_hall_of_fame: false
+
+  - id: topic-suncare-elixir
+    category: suncare
+    keyword: "エリクシール デーケアレボリューション トーンアップ"
+    title_template: "【大人の時短UV】{product_name} 乳液・下地・UVカットが1本で完成"
+    target_audience: "朝の時短スキンケアと強力なUVカットを両立したい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-pelican
+    category: bodycare
+    keyword: "ペリカン石鹸 恋するおしり"
+    title_template: "【夏のざらつき・黒ずみケア】{product_name} ヒップケア石鹸のツルツル効果"
+    target_audience: "水着シーズンに向けて体のざらつき・黒ずみをケアしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-oral-propolinse
+    category: oralcare
+    keyword: "プロポリンス マウスウォッシュ"
+    title_template: "【汚れが目で見える】{product_name} 衝撃の口内洗浄・口臭予防効果とは？"
+    target_audience: "汚れを可視化して徹底的に口臭・虫歯予防したい方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-dryshampoo
+    category: haircare
+    keyword: "ダイアン ドライシャンプー"
+    title_template: "【頭皮のニオイ・ベタつき対策】{product_name}で夕方の頭皮もサラサラに"
+    target_audience: "夏の夕方、頭皮の匂いや前髪のベタつきが気になる方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-fancl
+    category: skincare
+    keyword: "ファンケル マイルドクレンジングオイル"
+    title_template: "【夏の角栓・毛穴の黒ずみケア】{product_name} 摩擦レスな角栓除去"
+    target_audience: "汗と皮脂で詰まった夏の毛穴・角栓をスッキリ落としたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-curelcream
+    category: skincare
+    keyword: "キュレル フェイスクリーム"
+    title_template: "【夏のインナードライ対策】{product_name} クーラー乾燥から肌を守る"
+    target_audience: "外はベタつくのに内側は乾燥する夏のインナードライ肌の方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-shirojyun
+    category: skincare
+    keyword: "白潤プレミアム 化粧水"
+    title_template: "【プチプラ美白の最高峰】{product_name} 夏のシミ対策と徹底保湿"
+    target_audience: "紫外線を浴びた後のシミ予防・トラネキサム酸ケアをしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-biore
+    category: bodycare
+    keyword: "ビオレ 冷シート"
+    title_template: "【猛暑の必須アイテム】{product_name} 拭いた瞬間-3℃の氷冷感"
+    target_audience: "外出先で一気に汗を拭き取り、涼感を得たい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-footdeo
+    category: bodycare
+    keyword: "デオナチュレ 足指さらさらクリーム"
+    title_template: "【足のニオイ完全ブロック】{product_name} 夏のサンダル・蒸れ対策"
+    target_audience: "夏の靴の蒸れ、足の強烈なニオイを元から防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-fujikomayu
+    category: makeup
+    keyword: "フジコ 眉ティント"
+    title_template: "【夏の海・プールで落ちない眉】{product_name} 汗・水に強い最強眉"
+    target_audience: "汗だくになっても絶対に眉毛を落としたくない方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-mieufa
+    category: haircare
+    keyword: "ミーファ フレグランスUVスプレー"
+    title_template: "【髪の紫外線ダメージケア】{product_name} 髪と頭皮の日焼けを防ぐ"
+    target_audience: "夏の紫外線による髪のパサつき・カラーの退色を防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-lipmonster
+    category: makeup
+    keyword: "リップモンスター スフレマット"
+    title_template: "【落ちないマットリップ】{product_name} 飲食しても色持ちキープ"
+    target_audience: "夏フェスやレジャーでリップの塗り直しができない方"
+    is_hall_of_fame: true
+
+  - id: topic-body-orbisbody
+    category: bodycare
+    keyword: "オルビス クリアフル ボディローション"
+    title_template: "【夏の背中ニキビケア】{product_name} 水着も自信が持てるつるつる背中へ"
+    target_audience: "汗で悪化しやすい背中や胸元のニキビ・肌荒れを治したい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-kanebowash
+    category: skincare
+    keyword: "カネボウ スクラビング マッド ウォッシュ"
+    title_template: "【夏のドロドロ皮脂を一掃】{product_name} 洗顔だけで毛穴レス肌へ"
+    target_audience: "夏のベタつく皮脂や毛穴のザラつきを毎日の洗顔で解消したい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-summerseve
+    category: bodycare
+    keyword: "サマーズイブ フェミニンウォッシュ"
+    title_template: "【夏のデリケートゾーンのニオイ・蒸れ】{product_name}で優しくケア"
+    target_audience: "生理中や夏のレジャーでデリケートゾーンの不快感が気になる方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-nars
+    category: makeup
+    keyword: "NARS ライトリフレクティングセッティングパウダー"
+    title_template: "【魔法の粉でテカリ撃退】{product_name} 夏のメイク崩れを防ぐ最強パウダー"
+    target_audience: "滝汗でもベースメイクを絶対に崩したくない、ツヤ肌をキープしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-heroinemake
+    category: makeup
+    keyword: "ヒロインメイク マイクロマスカラ"
+    title_template: "【海もプールもパンダ目ゼロ】{product_name} 究極の落ちないマスカラ"
+    target_audience: "夏のレジャーで水に濡れても絶対にまつ毛を下げたくない方"
+    is_hall_of_fame: true
+
+  - id: topic-body-bubcool
+    category: bodycare
+    keyword: "バブ クール"
+    title_template: "【夏の疲れとほてりを癒す】{product_name} お風呂上がりも-3℃の爽快感"
+    target_audience: "夏バテやクーラーの冷え、だるさをリフレッシュしたい方"
+    is_hall_of_fame: false
+
+  - id: topic-hair-sabon
+    category: haircare
+    keyword: "サボン ヘッドスクラブ"
+    title_template: "【夏の頭皮臭・詰まりをリセット】{product_name} 自宅で極上ヘッドスパ"
+    target_audience: "頭皮のベタつき、嫌なニオイ、抜け毛が気になる方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-pauljoe
+    category: makeup
+    keyword: "ポール＆ジョー プロテクティング"
+    title_template: "【UVカット×発光ツヤ肌】{product_name} 夏の下地はこれ一本で決まり"
+    target_audience: "高いUVカット力とデパコスならではの美しい仕上がりを両立したい方"
+    is_hall_of_fame: true
+
+  - id: topic-inner-lypoc
+    category: supplement
+    keyword: "Lypo-C リポカプセル ビタミンC"
+    title_template: "【飲む日焼け止め＆疲労回復】{product_name} 夏の紫外線を内側からブロック"
+    target_audience: "日焼け後のシミ予防、夏の慢性的な疲れを体内からケアしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-nivea
+    category: suncare
+    keyword: "ニベア UV ディープ プロテクト"
+    title_template: "【全身のシミ予防】{product_name} 塗り心地抜群のエイジングケアUV"
+    target_audience: "体の日焼けだけでなく、将来のシミ・そばかすを予防したい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-tirtir
+    category: makeup
+    keyword: "TIRTIR マスクフィット レッドクッション"
+    title_template: "【汗だくでも崩れないファンデ】{product_name} カバー力と持続力の頂点"
+    target_audience: "猛暑日でも絶対によれない、崩れない最強のクッションファンデを探している方"
+    is_hall_of_fame: true
+
 settings:
   max_items_per_topic: 1
   genre_id: "100939" # 楽天市場「美容・コスメ・香水」ジャンル

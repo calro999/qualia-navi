@@ -1796,14 +1796,14 @@ def generate_articles():
                         "reviewerRole": "トレンド自動解析担当",
                         "faqs": [{"question": "リアルタイムランキングの検出基準は？", "answer": "楽天市場の美容ジャンルでリアルタイムの売れ行き・アクセス数が急上昇しているコスメを2時間おきに自動検出しています。"}]
                     }
-                    generated_articles.append(trending_article)
-                    print(f"[AUTO-RESEARCH OK] Discovered and added trending item #{discovered_count}: {r_name[:30]}")
+                    generated_articles.insert(0, trending_article)
+                    print(f"[AUTO-RESEARCH OK] Discovered and added trending item #{discovered_count} at TOP: {r_name[:30]}")
                     if discovered_count >= 3:
                         break
     except Exception as e:
         print(f"[AUTO-RESEARCH INFO] Ranking API Live fetch notice: {e}")
 
-    # Fallback if API rate limit or test environment: Ensure 3 trending items are always auto-added!
+    # Fallback if API rate limit or test environment: Ensure 3 trending items are always auto-added at the top!
     if discovered_count < 3:
         fallback_trends = [
             ("autodiscover-dior", "Dior ディオール アディクト リップ マキシマイザー", "リップ＆ケア", "/images/products/melty-lip.jpg", "4,620円"),
@@ -1811,7 +1811,7 @@ def generate_articles():
             ("autodiscover-shiseido", "SHISEIDO エッセンス スキングロウ ファンデーション", "ベース＆メイクアップ", "/images/products/larocheposay_rose.jpg", "7,590円")
         ]
         for idx, (t_id, t_name, t_cat, t_img, t_price) in enumerate(fallback_trends[discovered_count:], start=discovered_count+1):
-            generated_articles.append({
+            generated_articles.insert(0, {
                 "id": t_id,
                 "title": f"【リアルタイムバズ速報】2時間おきの自動リサーチ！{t_name} 徹底検証",
                 "itemCode": f"autodiscover_{idx}",
@@ -1840,7 +1840,7 @@ def generate_articles():
                 "reviewerRole": "トレンド自動解析担当",
                 "faqs": [{"question": "どのようにアイテムを選出していますか？", "answer": "楽天市場の最新アクセス・売上ランキングから、被りのない最新バズコスメを2時間ごとに3件自動リサーチして追加しています。"}]
             })
-            print(f"[AUTO-RESEARCH OK] Added trending item #{idx}: {t_name}")
+            print(f"[AUTO-RESEARCH OK] Added trending item #{idx} at TOP: {t_name}")
 
     out_json_path = os.path.join(project_root, 'src', 'data', 'articles.json')
     os.makedirs(os.path.dirname(out_json_path), exist_ok=True)

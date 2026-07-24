@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Sparkles, ArrowRight, BookOpen, Star } from 'lucide-react';
 
 interface InternalLinkMeshProps {
@@ -49,9 +48,9 @@ export function InternalLinkMesh({
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {filteredArticles.map(article => (
-                <Link
+                <a
                   key={article.id}
-                  to={`/articles/${article.id}`}
+                  href={`/articles/${article.id}`}
                   className="group flex gap-4 p-3 rounded-2xl hover:bg-white/80 transition-all border border-transparent hover:border-rose-100"
                   aria-label={`${article.title}の詳細を読む`}
                 >
@@ -72,7 +71,7 @@ export function InternalLinkMesh({
                       {article.title}
                     </h4>
                   </div>
-                </Link>
+                </a>
               ))}
             </div>
           </div>
@@ -87,9 +86,9 @@ export function InternalLinkMesh({
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {relatedFeatures.slice(0, 2).map(feature => (
-                <Link
+                <a
                   key={feature.id}
-                  to={`/blogs/${feature.id}`}
+                  href={`/blogs/${feature.id}`}
                   className="group block p-4 rounded-2xl bg-gradient-to-br from-slate-50 to-purple-50/30 border border-purple-100 hover:shadow-md transition-all"
                   aria-label={`${feature.title}の特集を読む`}
                 >
@@ -106,7 +105,7 @@ export function InternalLinkMesh({
                       </span>
                     </div>
                   </div>
-                </Link>
+                </a>
               ))}
             </div>
           </div>
@@ -119,8 +118,8 @@ export function InternalLinkMesh({
               <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
               徹底比較
             </h3>
-            <Link
-              to={`/comparisons/${relatedComparison.id}`}
+            <a
+              href={`/comparisons/${relatedComparison.id}`}
               className="group block p-5 rounded-2xl bg-gradient-to-r from-amber-50 to-rose-50 border border-amber-100 hover:border-amber-200 transition-all"
               aria-label={`${relatedComparison.title}の比較を見る`}
             >
@@ -137,7 +136,7 @@ export function InternalLinkMesh({
                   <ArrowRight className="w-4 h-4" />
                 </div>
               </div>
-            </Link>
+            </a>
           </div>
         )}
       </div>

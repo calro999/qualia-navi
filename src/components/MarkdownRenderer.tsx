@@ -147,6 +147,32 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
       return;
     }
 
+    // Blockquote & Alerts (> )
+    if (trimmed.startsWith('> ')) {
+      flushList(`blockquote-${index}`);
+      let text = trimmed.replace(/^>\s*/, '');
+      let alertClass = "border-l-4 border-slate-300 bg-slate-50 text-slate-700 p-4 rounded-r-xl italic";
+      let icon = "";
+
+      if (text.startsWith('[!TIP]')) {
+        text = text.replace(/^\[!TIP\]\s*/, '');
+        alertClass = "border-l-4 border-emerald-500 bg-emerald-50 text-emerald-900 p-4 rounded-r-xl not-italic";
+        icon = "💡 TIPS: ";
+      } else if (text.startsWith('[!IMPORTANT]')) {
+        text = text.replace(/^\[!IMPORTANT\]\s*/, '');
+        alertClass = "border-l-4 border-amber-500 bg-amber-50 text-amber-900 p-4 rounded-r-xl not-italic";
+        icon = "⚠️ 重要: ";
+      }
+
+      elements.push(
+        <blockquote key={`blockquote-${index}`} className={`my-4 ${alertClass} text-sm sm:text-base leading-relaxed`}>
+          {icon && <strong className="block mb-1">{icon}</strong>}
+          {parseInline(text)}
+        </blockquote>
+      );
+      return;
+    }
+
     // Normal Paragraph
     flushList(`p-${index}`);
 

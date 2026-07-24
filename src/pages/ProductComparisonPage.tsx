@@ -24,6 +24,12 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
     });
   }, [comparison]);
 
+  const relatedArticles = React.useMemo(() => {
+    return INITIAL_ARTICLES.filter(
+      (a) => a.category === itemA.category && a.id !== itemA.id && a.id !== itemB.id
+    ).slice(0, 3);
+  }, [itemA, itemB]);
+
   return (
     <div className="py-6 px-4 sm:px-6">
       <div className="max-w-4xl mx-auto space-y-6">
@@ -134,6 +140,39 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
             <MarkdownRenderer content={comparison.contentMarkdown} onNavigate={onNavigate} />
           </div>
         </article>
+
+        {/* Related Articles Section */}
+        {relatedArticles.length > 0 && (
+          <div className="pt-8 space-y-6">
+            <h2 className="text-xl font-extrabold text-slate-900 border-l-4 border-rose-500 pl-3 font-serif-brand">
+              こちらもおすすめ（関連記事）
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {relatedArticles.map(art => (
+                <div 
+                  key={art.id}
+                  onClick={() => onNavigate(`/articles/${art.id}`)}
+                  className="bg-white rounded-2xl p-4 flex gap-4 items-center cursor-pointer hover:border-rose-300 border border-slate-200 shadow-sm transition-all group"
+                >
+                  <img 
+                    src={getRakutenOptimizedImageUrl(art.imageUrl)} 
+                    alt={art.title}
+                    onError={handleImageError}
+                    className="w-20 h-20 object-contain rounded-xl bg-slate-50 border border-slate-100 group-hover:scale-105 transition-transform"
+                  />
+                  <div className="flex-1 space-y-1">
+                    <span className="text-[10px] font-bold text-rose-600 bg-rose-50 px-2 py-0.5 rounded-md">
+                      {art.categoryLabel || art.category}
+                    </span>
+                    <h4 className="text-xs font-bold text-slate-900 line-clamp-2 leading-snug group-hover:text-rose-600 transition-colors">
+                      {art.title}
+                    </h4>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

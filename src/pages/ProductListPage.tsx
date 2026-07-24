@@ -58,17 +58,6 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           </p>
         </div>
         
-        {hasMoreProducts && (
-          <div className="flex justify-center pt-8">
-            <button
-              onClick={() => setVisibleProductCount((prev) => prev + 12)}
-              className="px-8 py-3 bg-white border border-rose-200 hover:border-rose-400 text-rose-600 font-bold rounded-full shadow-sm hover:shadow transition-all flex items-center gap-2"
-            >
-              <span className="text-lg">＋</span>
-              <span>さらに読み込む</span>
-            </button>
-          </div>
-        )}
       </div>
 
       {/* VS Comparison Featured Grid */}
@@ -147,17 +136,6 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           </div>
         </div>
         
-        {hasMoreProducts && (
-          <div className="flex justify-center pt-8">
-            <button
-              onClick={() => setVisibleProductCount((prev) => prev + 12)}
-              className="px-8 py-3 bg-white border border-rose-200 hover:border-rose-400 text-rose-600 font-bold rounded-full shadow-sm hover:shadow transition-all flex items-center gap-2"
-            >
-              <span className="text-lg">＋</span>
-              <span>さらに読み込む</span>
-            </button>
-          </div>
-        )}
       </div>
 
       {/* Product Grid */}
@@ -245,6 +223,19 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           </div>
         ))}
       </div>
+
+      {/* Load More Button (Bottom) */}
+      {hasMoreProducts && (
+        <div className="flex justify-center pt-8">
+          <button
+            onClick={() => setVisibleProductCount((prev) => prev + 12)}
+            className="px-8 py-3 bg-white border border-rose-200 hover:border-rose-400 text-rose-600 font-bold rounded-full shadow-sm hover:shadow transition-all flex items-center gap-2"
+          >
+            <span className="text-lg">＋</span>
+            <span>さらに読み込む</span>
+          </button>
+        </div>
+      )}
 
       {filteredArticles.length === 0 && (
         <div className="text-center py-16 qualia-glass-card rounded-3xl">

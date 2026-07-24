@@ -77,7 +77,7 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
             <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-xs space-y-4 flex flex-col justify-between">
               <div className="space-y-3">
                 <div className="aspect-square bg-slate-50 rounded-xl overflow-hidden border border-slate-100">
-                  <img src={getRakutenOptimizedImageUrl(itemA.imageUrl)} alt={itemA.title} onError={handleImageError} className="w-full h-full object-cover" />
+                  <img src={getRakutenOptimizedImageUrl(itemA.imageUrl)} alt={itemA.title} onError={handleImageError} className="w-full h-full object-contain bg-white" />
                 </div>
                 <h3 className="font-extrabold text-slate-900 text-base font-serif-brand">{itemA.productName || itemA.title}</h3>
                 <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">{itemA.introText}</p>
@@ -98,7 +98,7 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
             <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-xs space-y-4 flex flex-col justify-between">
               <div className="space-y-3">
                 <div className="aspect-square bg-slate-50 rounded-xl overflow-hidden border border-slate-100">
-                  <img src={getRakutenOptimizedImageUrl(itemB.imageUrl)} alt={itemB.title} onError={handleImageError} className="w-full h-full object-cover" />
+                  <img src={getRakutenOptimizedImageUrl(itemB.imageUrl)} alt={itemB.title} onError={handleImageError} className="w-full h-full object-contain bg-white" />
                 </div>
                 <h3 className="font-extrabold text-slate-900 text-base font-serif-brand">{itemB.productName || itemB.title}</h3>
                 <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">{itemB.introText}</p>

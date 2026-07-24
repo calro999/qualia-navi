@@ -96,7 +96,7 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
               alt={post.title}
               referrerPolicy="no-referrer"
               onError={handleImageError}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain bg-white"
             />
           </div>
 

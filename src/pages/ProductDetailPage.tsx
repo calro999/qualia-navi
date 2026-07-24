@@ -126,7 +126,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
                 alt={article.productName || article.title}
                 referrerPolicy="no-referrer"
                 onError={handleImageError}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain bg-white"
               />
             </div>
 
@@ -229,7 +229,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
                       alt={rel.productName || rel.title}
                       referrerPolicy="no-referrer"
                       onError={handleImageError}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                      className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform"
                     />
                   </div>
                   <div className="text-xs text-slate-900 font-bold group-hover:text-rose-600 transition flex items-center justify-between font-serif-brand">

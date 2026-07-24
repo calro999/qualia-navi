@@ -37,7 +37,7 @@ export function BlogView({ posts, onSelectPost }: BlogViewProps) {
                 <img
                   src={post.coverImage}
                   alt={post.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4">
                   <span className={`px-3 py-1 rounded-full text-xs font-black shadow-md text-white ${

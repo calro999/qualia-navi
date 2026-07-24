@@ -52,13 +52,13 @@ export function BlogListPage({ onNavigate }: BlogListPageProps) {
               className="qualia-glass-card rounded-3xl shadow-xs hover:border-rose-300 transition-all duration-300 overflow-hidden flex flex-col md:flex-row cursor-pointer group border border-slate-200"
             >
               {/* Cover Image (Clean Horizontal Aspect Ratio) */}
-              <div className="relative md:w-1/2 aspect-video bg-slate-100 overflow-hidden">
+              <div className="relative md:w-1/2 aspect-video bg-white overflow-hidden">
                 <img
                   src={post.coverImage}
                   alt={post.title}
                   referrerPolicy="no-referrer"
                   onError={handleImageError}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 

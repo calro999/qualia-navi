@@ -58,6 +58,76 @@ topics:
     target_audience: "乾燥肌・敏感肌で日焼け止めの刺激が気になる方"
     is_hall_of_fame: false
 
+  - id: topic-body-seabreeze
+    category: bodycare
+    keyword: "シーブリーズ デオ＆ウォーター"
+    title_template: "【夏の制汗・ひんやり】{product_name}で汗の匂いとベタつきを瞬間リセット"
+    target_audience: "夏の汗・匂いが気になる方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-innisfree
+    category: makeup
+    keyword: "イニスフリー ノーセバム ミネラルパウダー N"
+    title_template: "【テカリ防止の神】{product_name}で夏の汗・皮脂崩れを鉄壁ブロック"
+    target_audience: "顔のテカリ・汗崩れを防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-avene
+    category: skincare
+    keyword: "アベンヌ ウォーター"
+    title_template: "【日焼け後・あせもケア】{product_name}で火照った夏の肌を鎮静保湿"
+    target_audience: "日焼け後の肌荒れ・あせもに悩む方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-melanocc
+    category: skincare
+    keyword: "メラノCC 薬用しみ集中対策 プレミアム美容液"
+    title_template: "【夏の紫外線・ニキビ跡に】{product_name}でシミ対策と肌荒れケア"
+    target_audience: "夏の紫外線ダメージ・ニキビ跡が気になる方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-biore
+    category: suncare
+    keyword: "ビオレUV アクアリッチ ウォータリーエッセンス"
+    title_template: "【水感UV】{product_name} 猛暑の海やプールでも汗に負けない日焼け止め"
+    target_audience: "ベタつかない強力日焼け止めを探している方"
+    is_hall_of_fame: true
+
+  - id: topic-body-deonature
+    category: bodycare
+    keyword: "デオナチュレ ソフトストーンW"
+    title_template: "【ワキ汗・ニオイ対策】{product_name} 夏の最強制汗剤リアル検証"
+    target_audience: "夏のワキ汗・強い匂いを根本から防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-saborino
+    category: skincare
+    keyword: "サボリーノ 目ざまシート"
+    title_template: "【夏の朝の清涼感】{product_name}で洗顔＋保湿！ひんやり時短スキンケア"
+    target_audience: "夏のベタつく朝を時短でさっぱりさせたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-orbis
+    category: skincare
+    keyword: "オルビス クリアフル ローション"
+    title_template: "【夏のニキビ・肌荒れ特化】{product_name}で毛穴とあせもを徹底ケア"
+    target_audience: "夏のニキビ・肌荒れ・あせもに悩む方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-fasio
+    category: makeup
+    keyword: "ファシオ パワフルステイ リキッドライナー"
+    title_template: "【海・プールでも落ちない】{product_name} 汗と水に強い最強アイライナー"
+    target_audience: "夏のレジャーでアイメイクを崩したくない方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-allie
+    category: suncare
+    keyword: "アリィー クロノビューティ ジェルUV EX"
+    title_template: "【こすれ・汗に強い】{product_name} ビーチフレンドリー処方の最強UV"
+    target_audience: "海・プールでの日焼けと摩擦落ちを防ぎたい方"
+    is_hall_of_fame: true
+
 settings:
   max_items_per_topic: 1
   genre_id: "100939" # 楽天市場「美容・コスメ・香水」ジャンル

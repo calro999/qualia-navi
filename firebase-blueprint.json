@@ -1,14 +1,14 @@
 {
   "entities": {
     "Article": {
-      "title": "AmazonProductArticle",
-      "description": "アフィリエイトID組込済みのAmazon商品紹介レビュー記事データ",
+      "title": "RakutenProductArticle",
+      "description": "アフィリエイトID組込済みの楽天商品紹介レビュー記事データ",
       "type": "object",
       "properties": {
         "id": { "type": "string", "description": "一意の記事識別ID" },
         "title": { "type": "string", "description": "日本語で記述された記事の魅力的なタイトル" },
-        "originalUrl": { "type": "string", "format": "uri", "description": "元のAmazon商品URL" },
-        "asin": { "type": "string", "description": "10文字のAmazon一意識別コード (ASIN)" },
+        "originalUrl": { "type": "string", "format": "uri", "description": "元の楽天商品URL" },
+        "asin": { "type": "string", "description": "10文字の楽天一意識別コード (ASIN代替)" },
         "category": { "type": "string", "description": "商品の分類カテゴリー" },
         "imageUrl": { "type": "string", "format": "uri", "description": "Unsplashまたはモック製品の画像アドレス" },
         "starRating": { "type": "number", "description": "評価点数 (4.0〜5.0)" },
@@ -28,8 +28,8 @@
       "required": ["id", "title", "asin", "category", "imageUrl", "starRating", "reviewBody", "affiliateLink"]
     },
     "Settings": {
-      "title": "AmazonGoSettings",
-      "description": "Amazon Goエンジンの環境、アソシエイトID情報",
+      "title": "RakutenGoSettings",
+      "description": "楽天エンジンの環境、アソシエイトID情報",
       "type": "object",
       "properties": {
         "associateId": { "type": "string", "description": "アソシエイトID" },

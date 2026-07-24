@@ -1,5 +1,134 @@
 [
   {
+    "id": "autodiscover-shiseido",
+    "title": "【リアルタイムバズ速報】2時間おきの自動リサーチ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証",
+    "itemCode": "autodiscover_3",
+    "productName": "SHISEIDO エッセンス スキングロウ ファンデーション",
+    "category": "makeup",
+    "categoryLabel": "🔥 リアルタイムトレンド",
+    "imageUrl": "/images/products/larocheposay_rose.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "2時間ごとの自動リサーチエンジンが今最も勢いのあるコスメとして検出！SHISEIDO エッセンス スキングロウ ファンデーションのリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# SHISEIDO エッセンス スキングロウ ファンデーション リアルタイム分析\n\nQualia自動リサーチエンジンにより、最新トレンドコスメとして追加されました。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSHISEIDO%20%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B9%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%A6%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2F",
+    "rakutenPrice": "7,590円",
+    "createdAt": "2026-07-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Realtime Ranking Auto-Discovery Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "Qualia 美容AIアナリスト",
+    "reviewerRole": "トレンド自動解析担当",
+    "faqs": [
+      {
+        "question": "どのようにアイテムを選出していますか？",
+        "answer": "楽天市場の最新アクセス・売上ランキングから、被りのない最新バズコスメを2時間ごとに3件自動リサーチして追加しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-takami",
+    "title": "【リアルタイムバズ速報】2時間おきの自動リサーチ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証",
+    "itemCode": "autodiscover_2",
+    "productName": "TAKAMI タカミスキンピール 角質美容水 30mL",
+    "category": "makeup",
+    "categoryLabel": "🔥 リアルタイムトレンド",
+    "imageUrl": "/images/products/vt_reedle_shot_100.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "2時間ごとの自動リサーチエンジンが今最も勢いのあるコスメとして検出！TAKAMI タカミスキンピール 角質美容水 30mLのリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# TAKAMI タカミスキンピール 角質美容水 30mL リアルタイム分析\n\nQualia自動リサーチエンジンにより、最新トレンドコスメとして追加されました。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTAKAMI%20%E3%82%BF%E3%82%AB%E3%83%9F%E3%82%B9%E3%82%AD%E3%83%B3%E3%83%94%E3%83%BC%E3%83%AB%20%E8%A7%92%E8%B3%AA%E7%BE%8E%E5%AE%B9%E6%B0%B4%2030mL%2F",
+    "rakutenPrice": "5,500円",
+    "createdAt": "2026-07-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Realtime Ranking Auto-Discovery Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "Qualia 美容AIアナリスト",
+    "reviewerRole": "トレンド自動解析担当",
+    "faqs": [
+      {
+        "question": "どのようにアイテムを選出していますか？",
+        "answer": "楽天市場の最新アクセス・売上ランキングから、被りのない最新バズコスメを2時間ごとに3件自動リサーチして追加しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-dior",
+    "title": "【リアルタイムバズ速報】2時間おきの自動リサーチ！Dior ディオール アディクト リップ マキシマイザー 徹底検証",
+    "itemCode": "autodiscover_1",
+    "productName": "Dior ディオール アディクト リップ マキシマイザー",
+    "category": "makeup",
+    "categoryLabel": "🔥 リアルタイムトレンド",
+    "imageUrl": "/images/products/melty-lip.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "2時間ごとの自動リサーチエンジンが今最も勢いのあるコスメとして検出！Dior ディオール アディクト リップ マキシマイザーのリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# Dior ディオール アディクト リップ マキシマイザー リアルタイム分析\n\nQualia自動リサーチエンジンにより、最新トレンドコスメとして追加されました。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDior%20%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AF%E3%83%88%20%E3%83%AA%E3%83%83%E3%83%97%20%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%82%A4%E3%82%B6%E3%83%BC%2F",
+    "rakutenPrice": "4,620円",
+    "createdAt": "2026-07-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Realtime Ranking Auto-Discovery Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "Qualia 美容AIアナリスト",
+    "reviewerRole": "トレンド自動解析担当",
+    "faqs": [
+      {
+        "question": "どのようにアイテムを選出していますか？",
+        "answer": "楽天市場の最新アクセス・売上ランキングから、被りのない最新バズコスメを2時間ごとに3件自動リサーチして追加しています。"
+      }
+    ]
+  },
+  {
     "id": "topic-skincare-decorte",
     "title": "【2026年最新】楽天1位獲得！Koseコスメデコルテ リポソーム アドバンスト リペアセラムの徹底検証",
     "itemCode": "rakuten_item_001",
@@ -2246,135 +2375,6 @@
       {
         "question": "石けんで落とせますか？",
         "answer": "普段お使いの洗顔料やボディソープで落とせます。しっかりメイクを重ねた日はクレンジングをおすすめします。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-dior",
-    "title": "【リアルタイムバズ速報】2時間おきの自動リサーチ！Dior ディオール アディクト リップ マキシマイザー 徹底検証",
-    "itemCode": "autodiscover_1",
-    "productName": "Dior ディオール アディクト リップ マキシマイザー",
-    "category": "makeup",
-    "categoryLabel": "🔥 リアルタイムトレンド",
-    "imageUrl": "/images/products/melty-lip.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "2時間ごとの自動リサーチエンジンが今最も勢いのあるコスメとして検出！Dior ディオール アディクト リップ マキシマイザーのリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# Dior ディオール アディクト リップ マキシマイザー リアルタイム分析\n\nQualia自動リサーチエンジンにより、最新トレンドコスメとして追加されました。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDior%20%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AF%E3%83%88%20%E3%83%AA%E3%83%83%E3%83%97%20%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%82%A4%E3%82%B6%E3%83%BC%2F",
-    "rakutenPrice": "4,620円",
-    "createdAt": "2026-07-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Realtime Ranking Auto-Discovery Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "Qualia 美容AIアナリスト",
-    "reviewerRole": "トレンド自動解析担当",
-    "faqs": [
-      {
-        "question": "どのようにアイテムを選出していますか？",
-        "answer": "楽天市場の最新アクセス・売上ランキングから、被りのない最新バズコスメを2時間ごとに3件自動リサーチして追加しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-takami",
-    "title": "【リアルタイムバズ速報】2時間おきの自動リサーチ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証",
-    "itemCode": "autodiscover_2",
-    "productName": "TAKAMI タカミスキンピール 角質美容水 30mL",
-    "category": "makeup",
-    "categoryLabel": "🔥 リアルタイムトレンド",
-    "imageUrl": "/images/products/vt_reedle_shot_100.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "2時間ごとの自動リサーチエンジンが今最も勢いのあるコスメとして検出！TAKAMI タカミスキンピール 角質美容水 30mLのリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# TAKAMI タカミスキンピール 角質美容水 30mL リアルタイム分析\n\nQualia自動リサーチエンジンにより、最新トレンドコスメとして追加されました。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTAKAMI%20%E3%82%BF%E3%82%AB%E3%83%9F%E3%82%B9%E3%82%AD%E3%83%B3%E3%83%94%E3%83%BC%E3%83%AB%20%E8%A7%92%E8%B3%AA%E7%BE%8E%E5%AE%B9%E6%B0%B4%2030mL%2F",
-    "rakutenPrice": "5,500円",
-    "createdAt": "2026-07-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Realtime Ranking Auto-Discovery Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "Qualia 美容AIアナリスト",
-    "reviewerRole": "トレンド自動解析担当",
-    "faqs": [
-      {
-        "question": "どのようにアイテムを選出していますか？",
-        "answer": "楽天市場の最新アクセス・売上ランキングから、被りのない最新バズコスメを2時間ごとに3件自動リサーチして追加しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-shiseido",
-    "title": "【リアルタイムバズ速報】2時間おきの自動リサーチ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証",
-    "itemCode": "autodiscover_3",
-    "productName": "SHISEIDO エッセンス スキングロウ ファンデーション",
-    "category": "makeup",
-    "categoryLabel": "🔥 リアルタイムトレンド",
-    "imageUrl": "/images/products/larocheposay_rose.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "2時間ごとの自動リサーチエンジンが今最も勢いのあるコスメとして検出！SHISEIDO エッセンス スキングロウ ファンデーションのリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# SHISEIDO エッセンス スキングロウ ファンデーション リアルタイム分析\n\nQualia自動リサーチエンジンにより、最新トレンドコスメとして追加されました。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSHISEIDO%20%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B9%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%A6%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2F",
-    "rakutenPrice": "7,590円",
-    "createdAt": "2026-07-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Realtime Ranking Auto-Discovery Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "Qualia 美容AIアナリスト",
-    "reviewerRole": "トレンド自動解析担当",
-    "faqs": [
-      {
-        "question": "どのようにアイテムを選出していますか？",
-        "answer": "楽天市場の最新アクセス・売上ランキングから、被りのない最新バズコスメを2時間ごとに3件自動リサーチして追加しています。"
       }
     ]
   }

@@ -90,7 +90,7 @@ export function BlogDetailView({ post, recommendedArticles, author, onBack, onSe
 
       {/* Main Content Markdown */}
       <div className="prose prose-slate max-w-none mb-12 prose-headings:font-black prose-h3:text-xl prose-h3:text-slate-900 prose-h3:mt-8 prose-h3:mb-4 prose-h4:text-base prose-h4:text-indigo-900 prose-h4:mt-6 prose-p:text-slate-700 prose-p:leading-relaxed">
-        <div dangerouslySetInnerHTML={{ __html: post.contentMarkdown.replace(/\n/g, '<br/>') }} />
+        <div dangerouslySetInnerHTML={{ __html: (post.contentMarkdown || post.content || '').replace(/\n/g, '<br/>') }} />
       </div>
 
       {/* 厳選10商品カード一覧 */}

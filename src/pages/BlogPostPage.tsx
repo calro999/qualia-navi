@@ -145,7 +145,7 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
 
           {/* Article Body */}
           <div className="prose max-w-none text-slate-800 leading-relaxed border-t border-slate-200 pt-8">
-            <MarkdownRenderer content={post.contentMarkdown} onNavigate={onNavigate} />
+            <MarkdownRenderer content={post.contentMarkdown || post.content || ''} onNavigate={onNavigate} />
           </div>
         </article>
       </div>

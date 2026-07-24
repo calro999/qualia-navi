@@ -1,8 +1,8 @@
-# Lumière (ルミエール) - 2026年夏コスメ＆身だしなみケア検証メディア
-# See full documentation at https://mono-go.vercel.app/llms.txt
+# Qualia Navi (クオリア・ナビ) - 2026年 コスメ＆美容アイテム徹底検証メディア
+# See full documentation at https://qualia-navi.vercel.app/llms.txt
 
-- Website: https://mono-go.vercel.app
-- Male Summer Cosmetics Top 10: https://mono-go.vercel.app/blogs/blog-men-summer-2026
-- Female Summer Cosmetics Top 10: https://mono-go.vercel.app/blogs/blog-women-summer-2026
-- Reviews & Products Index: https://mono-go.vercel.app/
-- Editors & Reviewers: https://mono-go.vercel.app/authors
+- Website: https://qualia-navi.vercel.app
+- Male Summer Cosmetics Top 10: https://qualia-navi.vercel.app/blogs/blog-men-summer-2026
+- Female Summer Cosmetics Top 10: https://qualia-navi.vercel.app/blogs/blog-women-summer-2026
+- Reviews & Products Index: https://qualia-navi.vercel.app/
+- Editors & Reviewers: https://qualia-navi.vercel.app/authors

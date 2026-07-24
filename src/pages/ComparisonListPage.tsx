@@ -51,15 +51,15 @@ export function ComparisonListPage({ onNavigate }: ComparisonListPageProps) {
               className="qualia-glass-card rounded-3xl shadow-xs hover:border-purple-300 transition-all duration-300 overflow-hidden cursor-pointer group flex flex-col border border-slate-200"
             >
               {/* Cover Image */}
-              <div className="relative w-full aspect-[4/3] bg-white overflow-hidden">
+              <div className="relative w-full aspect-[4/3] bg-gradient-to-br from-slate-50 via-purple-50/30 to-indigo-50/40 p-4 flex items-center justify-center overflow-hidden">
                 <img
                   src={comp.coverImage}
                   alt={comp.title}
                   referrerPolicy="no-referrer"
                   onError={handleImageError}
-                  className="w-full h-full object-cover bg-white group-hover:scale-105 transition-transform duration-500"
+                  className="max-h-full max-w-full object-contain drop-shadow-md group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute top-3 left-3">
+                <div className="absolute top-3 left-3 z-10">
                   <span className="inline-block px-3 py-1 bg-purple-600/90 backdrop-blur-md text-white font-bold text-xs rounded-full shadow-sm">
                     {comp.targetUserCategory}
                   </span>

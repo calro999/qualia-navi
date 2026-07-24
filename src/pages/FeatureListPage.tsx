@@ -51,13 +51,13 @@ export function FeatureListPage({ onNavigate }: FeatureListPageProps) {
               className="qualia-glass-card rounded-3xl shadow-xs hover:border-rose-300 transition-all duration-300 overflow-hidden flex flex-col md:flex-row cursor-pointer group border border-slate-200"
             >
               {/* Cover Image */}
-              <div className="relative md:w-1/2 aspect-video bg-white overflow-hidden">
+              <div className="relative md:w-1/2 aspect-video bg-gradient-to-br from-slate-50 via-rose-50/30 to-pink-50/40 p-4 flex items-center justify-center overflow-hidden">
                 <img
                   src={post.coverImage}
                   alt={post.title}
                   referrerPolicy="no-referrer"
                   onError={handleImageError}
-                  className="w-full h-full object-cover bg-white group-hover:scale-105 transition-transform duration-500"
+                  className="max-h-full max-w-full object-contain drop-shadow-md group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
 

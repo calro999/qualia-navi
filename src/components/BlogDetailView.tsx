@@ -72,11 +72,11 @@ export function BlogDetailView({ post, recommendedArticles, author, onBack, onSe
       </div>
 
       {/* Cover Image */}
-      <div className="rounded-2xl overflow-hidden mb-8 border border-slate-200 shadow-sm aspect-video bg-white">
+      <div className="rounded-2xl overflow-hidden mb-8 border border-slate-200 shadow-sm aspect-video bg-gradient-to-br from-slate-50 via-rose-50/20 to-pink-50/30 p-6 flex items-center justify-center">
         <img
           src={post.coverImage}
           alt={post.title}
-          className="w-full h-full object-contain bg-white"
+          className="max-h-full max-w-full object-contain drop-shadow-md"
         />
       </div>
 

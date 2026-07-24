@@ -147,7 +147,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           >
             {/* Product Image & Badges */}
             <div 
-              className="relative aspect-[4/3] bg-white overflow-hidden cursor-pointer border-b border-rose-100"
+              className="relative aspect-[4/3] bg-gradient-to-br from-slate-50 via-rose-50/20 to-pink-50/30 p-4 flex items-center justify-center overflow-hidden cursor-pointer border-b border-rose-100"
               onClick={() => onNavigate(`/articles/${art.id}`)}
             >
               <img
@@ -155,7 +155,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
                 alt={art.productName || art.title}
                 referrerPolicy="no-referrer"
                 onError={handleImageError}
-                className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform duration-500"
+                className="max-h-full max-w-full object-contain drop-shadow-sm group-hover:scale-105 transition-transform duration-500"
               />
               
               {art.isHallOfFame && (

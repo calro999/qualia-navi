@@ -33,7 +33,7 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
       if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
         const boldText = part.slice(2, -2);
         return (
-          <strong key={pIdx} className="font-extrabold text-slate-900 bg-amber-100/70 px-1.5 py-0.5 rounded mx-0.5 border-b border-amber-300">
+          <strong key={pIdx} className="font-extrabold text-slate-900 bg-rose-100/80 px-1.5 py-0.5 rounded mx-0.5 border-b border-rose-300">
             {boldText}
           </strong>
         );
@@ -54,7 +54,7 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
               target={isInternal ? '_self' : '_blank'}
               rel={isInternal ? undefined : 'noopener noreferrer'}
               onClick={(e) => handleLinkClick(e, href)}
-              className="inline-flex items-center gap-1 font-extrabold text-indigo-600 hover:text-indigo-800 hover:underline bg-indigo-50 px-2 py-1 rounded-md my-0.5 border border-indigo-100 transition-colors cursor-pointer"
+              className="inline-flex items-center gap-1 font-extrabold text-rose-600 hover:text-rose-800 hover:underline bg-rose-50 px-2 py-0.5 rounded my-0.5 border border-rose-200 transition-colors cursor-pointer"
             >
               <span>{anchorText}</span>
               {isInternal ? <span className="text-xs">→</span> : <span className="text-xs">↗</span>}
@@ -70,10 +70,10 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
   const flushList = (key: string) => {
     if (listItems.length > 0) {
       elements.push(
-        <ul key={`ul-${key}`} className="my-4 space-y-2 text-slate-700 font-sans">
+        <ul key={`ul-${key}`} className="my-4 space-y-2 text-slate-800 font-sans">
           {listItems.map((item, idx) => (
-            <li key={idx} className="flex items-start gap-2 bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs sm:text-sm">
-              <span className="text-indigo-600 font-bold flex-shrink-0">✓</span>
+            <li key={idx} className="flex items-start gap-2 bg-rose-50/50 p-3 rounded-xl border border-rose-100/80 text-sm leading-relaxed">
+              <span className="text-rose-500 font-extrabold flex-shrink-0">✦</span>
               <span>{item}</span>
             </li>
           ))}
@@ -91,24 +91,49 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
       return;
     }
 
-    // H3 Heading
+    // H1 Heading (# )
+    if (trimmed.startsWith('# ')) {
+      flushList(`h1-${index}`);
+      const text = trimmed.replace(/^#\s+/, '');
+      elements.push(
+        <h1 key={`h1-${index}`} className="text-2xl sm:text-3xl font-black text-slate-900 mt-8 mb-4 border-b-2 border-rose-400 pb-3 font-serif-brand">
+          {parseInline(text)}
+        </h1>
+      );
+      return;
+    }
+
+    // H2 Heading (## )
+    if (trimmed.startsWith('## ')) {
+      flushList(`h2-${index}`);
+      const text = trimmed.replace(/^##\s+/, '');
+      elements.push(
+        <h2 key={`h2-${index}`} className="text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-4 border-b-2 border-rose-400/80 pb-2 flex items-center gap-2 font-serif-brand">
+          <span className="w-2 h-6 bg-rose-500 rounded-full inline-block shrink-0"></span>
+          <span>{parseInline(text)}</span>
+        </h2>
+      );
+      return;
+    }
+
+    // H3 Heading (### )
     if (trimmed.startsWith('### ')) {
       flushList(`h3-${index}`);
       const text = trimmed.replace(/^###\s+/, '');
       elements.push(
-        <h3 key={`h3-${index}`} className="text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-4 border-b-2 border-indigo-500 pb-2.5 flex items-center gap-2">
-          <span>{parseInline(text)}</span>
+        <h3 key={`h3-${index}`} className="text-lg sm:text-xl font-extrabold text-slate-900 mt-6 mb-3 bg-slate-100/80 p-3 rounded-xl border-l-4 border-rose-500 font-serif-brand">
+          {parseInline(text)}
         </h3>
       );
       return;
     }
 
-    // H4 Heading
+    // H4 Heading (#### )
     if (trimmed.startsWith('#### ')) {
       flushList(`h4-${index}`);
       const text = trimmed.replace(/^####\s+/, '');
       elements.push(
-        <h4 key={`h4-${index}`} className="text-base sm:text-lg font-extrabold text-indigo-900 mt-6 mb-3 bg-indigo-50/80 p-3.5 rounded-2xl border-l-4 border-indigo-600 shadow-sm">
+        <h4 key={`h4-${index}`} className="text-base sm:text-lg font-bold text-slate-800 mt-5 mb-2 font-serif-brand">
           {parseInline(text)}
         </h4>
       );
@@ -126,7 +151,7 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
     flushList(`p-${index}`);
 
     elements.push(
-      <p key={`p-${index}`} className="text-slate-700 text-sm sm:text-base leading-relaxed mb-4">
+      <p key={`p-${index}`} className="text-slate-800 text-sm sm:text-base leading-relaxed mb-4 font-normal">
         {parseInline(trimmed)}
       </p>
     );

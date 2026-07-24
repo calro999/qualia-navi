@@ -450,7 +450,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
     title: '【2026年最新】猛暑とエアコンに負けない透明美肌へ！紫外線＆インナードライ対策の神コスメ3選とプロ直伝のスキンケア完全ガイド',
     subtitle: '楽天市場で高評価の最新UVカット・多重層リポソーム保湿美容液・韓国美容針ブースターをQualia美容分析室が実機＆成分徹底検証！',
     targetGender: 'unisex',
-    coverImage: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=1200&auto=format&fit=crop&q=80',
+    coverImage: '/images/products/gatsby.jpg',
     authorId: 'author-tachibana',
     authorName: '橘 えりか',
     authorRole: 'コスメ＆美容編集長',
@@ -536,7 +536,7 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
     title: '【夏のコスメ特集】滝汗でも絶対に崩れない！真夏の鉄壁ベースメイク＆落ちないポイントメイク完全攻略',
     subtitle: '猛暑を乗り切るための最強コスメを厳選。皮脂崩れを徹底ブロックし、夜まで「直したて」の美しさをキープする秘訣。',
     targetGender: 'women',
-    coverImage: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=1200&auto=format&fit=crop&q=80',
+    coverImage: '/images/products/art-b08brvcfmn-2.jpg',
     authorId: 'author-tachibana',
     authorName: '橘 えりか',
     authorRole: 'コスメ＆美容編集長',
@@ -592,7 +592,7 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
     title: '【夏の体臭ケア特集】汗のニオイ、ワキガ、加齢臭を完全ブロック！エチケット最前線',
     subtitle: '自分のニオイは気づきにくいからこそ徹底ケアを。最新デオドラントの使い分けで、一日中「無臭」をキープする。',
     targetGender: 'unisex',
-    coverImage: 'https://images.unsplash.com/photo-1615397323114-16f5c5314781?w=1200&auto=format&fit=crop&q=80',
+    coverImage: '/images/products/success.jpg',
     authorId: 'author-hasumi',
     authorName: '蓮見 拓真',
     authorRole: '統括編集長 (メンズ・身だしなみ)',
@@ -652,7 +652,7 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
     title: '【夏のUVケア特集】絶対に焼かない！最強日焼け止めと「うっかり焼け」を防ぐ全方位バリア',
     subtitle: '日焼け止めの進化は止まらない。スキンケア効果、摩擦耐性、そして塗り直しのしやすさを徹底比較。',
     targetGender: 'unisex',
-    coverImage: 'https://images.unsplash.com/photo-1555529771-468132479e49?w=1200&auto=format&fit=crop&q=80',
+    coverImage: '/images/products/art-b09v1f1948.jpg',
     authorId: 'author-watanabe',
     authorName: '渡辺 陽菜',
     authorRole: 'UVケアオタク・コレクター',
@@ -777,7 +777,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 > 実はこの2つ、**併用が可能**です！夜の洗顔後、まず「VT」を塗って針で美容成分の通り道を作り、その上から「コスメデコルテ」のカプセルを流し込む。この組み合わせは、**「翌朝の肌が新品のようになる」最強のドーピングケア**として話題です。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1570194065650-d99fb4b8e05a?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/melano-cc.jpg'
   },
   {
     id: 'comp-makeup-base',
@@ -849,7 +849,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 > 全顔に「ポール＆ジョー」を塗って透明感とツヤ・UVカットを仕込み、カバーしたい顔の中心（頬や小鼻）だけに「TIRTIR」を極薄くポンポンと重ねる。これが**「透明感があるのに粗がなく、絶対に崩れない」2026年夏の最強ベースメイク**です。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1512496015851-a1faea6fdf24?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/art-b08brvcfmn.jpg'
   },
   {
     id: 'comp-body-uv',
@@ -921,7 +921,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 > 平日の通勤や日常生活では、肌への負担が少なくシミ予防ができる「ニベア」を全身に惜しみなく塗る。休日のレジャーや海へ行く日だけは「アネッサ」の鉄壁シールドで防御する。この**「2本持ちでの使い分け」**が、将来の肌を最も美しく保つ正解です。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/art-b08bfcw1m2.jpg'
   },
   {
     id: 'comp-skincare-cleansing',
@@ -991,7 +991,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 > **夜はファンケル**で日焼け止めやメイクと一緒に角栓を優しく溶かし出す。そして**朝はカネボウ**をTゾーンだけに直塗りしてパックし、寝ている間に出た過剰な皮脂を吸着リセットする。この使い分けを1週間続けると、見違えるほど毛穴が目立たなくなります。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1580870059805-4c0ce3a88463?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/bub_cool.jpg'
   },
   {
     id: 'comp-body-odor',
@@ -1063,7 +1063,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 > 朝、シャワーを浴びて水気を完全に拭き取った直後に、**ワキと足の指の間に「デオナチュレ」**をしっかり塗り込む。その後、服を着る前に、**背中や胸元に「エージーデオ24」**をスプレーする。この組み合わせにより、今年の夏、あなたは完全に「無臭」を保つことができます。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1599305090598-fe179d501227?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/art-b073xbj98j.jpg'
   },
   {
     id: 'comp-lip-makeup',
@@ -1135,7 +1135,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 > まずベースとして「リップモンスター」を薄く塗り、ティッシュオフして色を定着させます。その上から、顔の中心部分（唇の内側）だけに「ロムアンド」を重ね塗り（グラデーション）します。これにより、**リップモンスターの「乾燥しない・色持ち」と、ロムアンドの「極上のツヤと発色」を両立**させることができます。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1583209814683-c023dd293cc6?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/propolinse_wash.jpg'
   }
   ,
   {
@@ -1205,7 +1205,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 > フィーノを使う際、100円ショップ等で売っている「ヘアキャップ（アルミ製だと尚良し）」を被って湯船に浸かり、10分間スチームパックすると、サロンの数千円のトリートメントを超えるほどのプルプル髪になります。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1599184511528-98e38de42790?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/anessa.jpg'
   },
   {
     id: 'comp-face-powder',
@@ -1278,7 +1278,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 > 朝のメイク時、乾燥しやすい「Uゾーン（頬・フェイスライン）」には**コスメデコルテ**を大きめのブラシでふんわり乗せ、テカりやすい「Tゾーン（おでこ・鼻）」には**エレガンス**をパフでしっかり押し込む。これが局地戦を制する最強のベースメイク術です。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1590156424570-698d124ec05b?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/sabon_headscrub.jpg'
   }
 
   ,
@@ -1347,7 +1347,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 *   洗い上がりは「もっちり」より「さっぱり・スッキリ」が好き。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1571781526291-c477ce607590?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/heroinemake_mascara.jpg'
   },
   {
     id: 'comp-vitaminc',
@@ -1414,7 +1414,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 *   オイルっぽいテクスチャーが苦手ではない。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1607519198642-892fc7400dcc?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/null-deo.jpg'
   },
   {
     id: 'comp-retinol',
@@ -1481,7 +1481,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 *   朝のメイク前にもレチノール美容液を使いたい。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/art-b00113w3i4.jpg'
   },
   {
     id: 'comp-eyeliner',
@@ -1548,7 +1548,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 *   パッケージのデザイン性や、ヴィーガン・クルエルティフリーなどのブランド理念に共感する。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/mens-biore.jpg'
   },
   {
     id: 'comp-mascara',
@@ -1616,7 +1616,7 @@ SNSで大バズりし、ドラッグストアから姿を消した2大マスカ�
 *   クレンジングの手間を省きたい（お湯オフ派）。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1611077544346-6dd8dc1b2414?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/art-b08hcdk9w9.jpg'
   },
   {
     id: 'comp-liquid-foundation',
@@ -1685,7 +1685,7 @@ SNSで大バズりし、ドラッグストアから姿を消した2大マスカ�
 *   ハイライトいらずの、リッチで華やかなツヤ肌が好き。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1573575154784-9134a475d654?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/art-b07nly3bnl.jpg'
   },
   {
     id: 'comp-eyeshadow',
@@ -1753,7 +1753,7 @@ SNSで大バズりし、ドラッグストアから姿を消した2大マスカ�
 *   ルナソルに似た品質を、まずはプチプラで試してみたい。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1629198688000-71f23e745b6e?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/art-b0842qs23p.jpg'
   },
   {
     id: 'comp-high-end-skincare',
@@ -1820,7 +1820,7 @@ SNSで大バズりし、ドラッグストアから姿を消した2大マスカ�
 *   ケチケチ使わず、化粧水を肌にたっぷり浴びるように使いたい。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/agdeo24_spray.jpg'
   },
   {
     id: 'comp-hair-oil',
@@ -1888,7 +1888,7 @@ SNSで大バズりし、ドラッグストアから姿を消した2大マスカ�
 *   夕方の「油くさい酸化臭」が絶対に許せない。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1515377659633-875c74233e75?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/curel.jpg'
   },
   {
     id: 'comp-sheet-mask',
@@ -1959,7 +1959,7 @@ SNSで大バズりし、ドラッグストアから姿を消した2大マスカ�
 > **朝は「VT CICA」**を貼り、寝起きのむくみと肌の熱を取ってメイクノリを良くする。**夜は「ルルルン」**を貼り、1日ダメージを受けた肌に水分と栄養を奥底までチャージする。この「朝CICA・夜ルルルン」が、肌荒れと乾燥を同時に防ぐ最強のルーティンです。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1626244469493-270529d29fba?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/avene_water.jpg'
   }
 
   ,
@@ -2028,7 +2028,7 @@ SNSで大バズりし、ドラッグストアから姿を消した2大マスカ�
 *   デパコスならではの香りや、可愛いボトルデザインにテンションを上げたい。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1586714101962-d9e032997780?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/lipmonster_matte.jpg'
   },
   {
     id: 'comp-concealer',
@@ -2095,7 +2095,7 @@ SNSで大バズりし、ドラッグストアから姿を消した2大マスカ�
 *   厚塗り感のない、素肌が綺麗な人のようなベースメイクを作りたい。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1611413158064-07b998246e43?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/deoco_body.jpg'
   },
   {
     id: 'comp-blush',
@@ -2162,7 +2162,7 @@ SNSで大バズりし、ドラッグストアから姿を消した2大マスカ�
 *   失敗せずに、内側からじゅわっと滲み出るような血色感を作りたい。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1575410229391-19b80b2a3a14?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/art-b082t2j21w.jpg'
   },
   {
     id: 'comp-lip-plumper',
@@ -2229,7 +2229,7 @@ Diorが約4,600円に対し、Boricaは約1,700円。果たしてプチプラは
 *   Diorは高くて手が出ないが、同等レベルの仕上がりを求めている。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1615025983754-0785ff6ed8fb?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/larocheposay.jpg'
   },
   {
     id: 'comp-hair-brush',
@@ -2296,7 +2296,7 @@ Diorが約4,600円に対し、Boricaは約1,700円。果たしてプチプラは
 *   友人への絶対に外さないプレゼント（3000円以内）を探している。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1583160247711-2191776b4b45?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/nonio_tongue.jpg'
   },
   {
     id: 'comp-enzyme-powder',
@@ -2363,7 +2363,7 @@ Diorが約4,600円に対し、Boricaは約1,700円。果たしてプチプラは
 *   普段使っている洗顔料に、スペシャルケアとして混ぜて使いたい。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1612817288484-6f916006741a?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/lululun-green.jpg'
   },
   {
     id: 'comp-acne-patch',
@@ -2433,7 +2433,7 @@ Diorが約4,600円に対し、Boricaは約1,700円。果たしてプチプラは
 > 夜のお手入れの最後、ニキビに薬（クリーム）をこんもり乗せ、その上から**アクネスラボ**を貼って就寝。翌朝、洗顔して清潔になったニキビ跡に**VT CICA**を貼り、その上からメイクをして外出。この24時間リレーが最も早くニキビを消し去る裏技です。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1606213768222-1d70bb862db2?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/art-b0cgd5g1f4.jpg'
   },
   {
     id: 'comp-shampoo',
@@ -2500,7 +2500,7 @@ Diorが約4,600円に対し、Boricaは約1,700円。果たしてプチプラは
 *   甘くて可愛い香りのシャンプーが好き。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1614859600122-835bf0ff857f?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/decorte_liposome.jpg'
   },
   {
     id: 'comp-hand-cream',
@@ -2568,7 +2568,7 @@ Diorが約4,600円に対し、Boricaは約1,700円。果たしてプチプラは
 *   甘いフローラル系よりも、ユニセックスなハーブやウッディ系の香りが好き。
 `,
     createdAt: '2026-07-24',
-    coverImage: 'https://images.unsplash.com/photo-1526045612212-70fc35cb4a5e?w=1200&auto=format&fit=crop&q=80'
+    coverImage: '/images/products/vt_reedle_shot_100.jpg'
   }
 
 ];

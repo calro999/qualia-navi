@@ -13,7 +13,14 @@ export function getRakutenOptimizedImageUrl(rawUrl: string): string {
     return '/images/products/decorte_liposome.jpg';
   }
 
-  return trimmed;
+  let url = trimmed;
+  // 楽天の画像URLについているサイズ指定パラメータ（例：?_ex=128x128）を削除して、
+  // オリジナルの高画質画像を取得する
+  if (url.includes('?_ex=')) {
+    url = url.split('?')[0];
+  }
+
+  return url;
 }
 
 /**

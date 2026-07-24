@@ -91,6 +91,8 @@ def fetch_rakuten_item(app_id, access_key, affiliate_id, keyword):
                 image_url = ""
                 if item.get("mediumImageUrls"):
                     image_url = item["mediumImageUrls"][0]["imageUrl"]
+                    if "?_ex=" in image_url:
+                        image_url = image_url.split("?")[0]
                 
                 return {
                     "image_url": image_url,

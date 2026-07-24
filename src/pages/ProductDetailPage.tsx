@@ -1,6 +1,6 @@
 import React from 'react';
 import { RakutenProductArticle } from '../types';
-import { AUTHOR_PROFILES } from '../data';
+import { AUTHOR_PROFILES, INITIAL_COMPARISONS } from '../data';
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { generateProductJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
@@ -45,7 +45,17 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
   }
 
   const reviewer = AUTHOR_PROFILES.find((a) => a.name === article.reviewerName) || AUTHOR_PROFILES[0];
-  const relatedProducts = articles.filter((a) => a.id !== article.id).slice(0, 3);
+  const relatedProducts = articles
+    .filter((a) => a.id !== article.id && a.category === article.category)
+    .slice(0, 3);
+  if (relatedProducts.length < 3) {
+    const extra = articles.filter(a => a.id !== article.id && !relatedProducts.includes(a)).slice(0, 3 - relatedProducts.length);
+    relatedProducts.push(...extra);
+  }
+
+  const relatedComparison = INITIAL_COMPARISONS.find(
+    (c) => c.productItemCodeA === article.itemCode || c.productItemCodeB === article.itemCode || c.productItemCodeA === article.id || c.productItemCodeB === article.id
+  );
 
   return (
     <div className="py-6 px-4 sm:px-6">
@@ -211,11 +221,25 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
             </div>
           </div>
 
-          {/* Related Products */}
+          {/* Related Products & Comparison */}
           <div className="pt-10 border-t border-slate-200 space-y-6">
             <h3 className="text-lg sm:text-xl font-extrabold text-slate-900 font-serif-brand">
               関連おすすめコスメ
             </h3>
+            
+            {relatedComparison && (
+              <div 
+                onClick={() => onNavigate(`/compare/${relatedComparison.id}`)}
+                className="mb-4 bg-gradient-to-r from-rose-50 to-pink-50 border border-rose-200 p-5 rounded-2xl cursor-pointer hover:shadow-md transition group"
+              >
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-rose-500 text-white text-[10px] font-bold px-2 py-0.5 rounded">VS対決</span>
+                  <span className="text-rose-600 font-bold text-sm group-hover:underline">{relatedComparison.title}</span>
+                </div>
+                <p className="text-xs text-slate-600 line-clamp-2">{relatedComparison.subtitle}</p>
+              </div>
+            )}
+
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {relatedProducts.map((rel) => (
                 <div

@@ -144,7 +144,25 @@ export function generateProductJsonLd(
     ]
   };
 
-  return [productSchema, breadcrumbSchema];
+  const schemas: any[] = [productSchema, breadcrumbSchema];
+
+  if (article.faqs && article.faqs.length > 0) {
+    const faqSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: article.faqs.map(faq => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer
+        }
+      }))
+    };
+    schemas.push(faqSchema);
+  }
+
+  return schemas;
 }
 
 /**

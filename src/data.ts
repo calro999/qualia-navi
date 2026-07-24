@@ -19,7 +19,7 @@ export const CATEGORIES: CategorySpec[] = [
   {
     id: 'art-b0csb4y3c7',
     title: `猛暑を乗り切る！アネッサ金ミルク30日検証 | 汗・皮脂崩れに挑む`,
-    originalUrl: 'https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%8D%E3%83%83%E3%82%B5%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88UV%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B1%E3%82%A2%E3%83%9F%E3%83%AB%E3%82%AF%20NA%20(%E9%87%91%E3%83%9F%E3%83%AB%E3%82%AF)&tag=mattan0290c-22',
+    originalUrl: 'https://search.rakuten.co.jp/search/mall/%E3%82%A2%E3%83%8D%E3%83%83%E3%82%B5%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88UV%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B1%E3%82%A2%E3%83%9F%E3%83%AB%E3%82%AF%20NA%20(%E9%87%91%E3%83%9F%E3%83%AB%E3%82%AF)/',
     asin: 'B0CSB4Y3C7',
     productName: 'アネッサ パーフェクトUV スキンケアミルク NA (金ミルク)',
     category: 'skincare',
@@ -41,8 +41,8 @@ export const CATEGORIES: CategorySpec[] = [
 
 **後期1週間（発見と結論）**
 30日間使い続けてみて、一つだけコツを見つけました。それは、一度に大量に塗るのではなく、少量ずつ手に取り、顔全体に薄く均一に伸ばすことです。こうすることで、より自然な仕上がりになり、白浮きも防げます。また、重ね塗りが必要な場合は、一度肌に馴染ませてから再度塗布すると良いでしょう。クレンジングは基本的に不要で、普段使っている洗顔料やボディソープで簡単にオフできる手軽さも、毎日使い続ける上で非常に大きなメリットでした。検証の結果、アネッサ金ミルクは「汗・水・摩擦に強く、高いUVカット効果を長時間持続させながらも、肌への負担が少ない」という、まさに理想的な日焼け止めであることが証明されました。猛暑による肌悩みを持つ全ての方に、自信を持っておすすめできる逸品です。これ一つあれば、今年の夏はもう怖くありません。`,
-    ctaTitle: `Amazonで最安値・在庫をチェック ↗`,
-    affiliateLink: 'https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%8D%E3%83%83%E3%82%B5%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88UV%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B1%E3%82%A2%E3%83%9F%E3%83%AB%E3%82%AF%20NA%20(%E9%87%91%E3%83%9F%E3%83%AB%E3%82%AF)&tag=mattan0290c-22',
+    ctaTitle: `楽天市場で最安値・在庫をチェック ↗`,
+    affiliateLink: 'https://search.rakuten.co.jp/search/mall/%E3%82%A2%E3%83%8D%E3%83%83%E3%82%B5%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88UV%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B1%E3%82%A2%E3%83%9F%E3%83%AB%E3%82%AF%20NA%20(%E9%87%91%E3%83%9F%E3%83%AB%E3%82%AF)/',
     createdAt: '2026-07-24',
     estimatedPV: Math.floor(Math.random() * 500) + 200,
     clicks: Math.floor(Math.random() * 50) + 20,

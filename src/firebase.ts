@@ -128,7 +128,7 @@ export function subscribeToSettings(
       const data = docSnap.data();
       onUpdate({
         associateId: data.associateId || 'mattan0290c-22',
-        fallbackAdUrl: data.fallbackAdUrl || 'https://www.amazon.co.jp',
+        fallbackAdUrl: data.fallbackAdUrl || 'https://www.rakuten.co.jp',
       });
     }
   }, (err) => {

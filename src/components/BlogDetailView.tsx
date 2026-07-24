@@ -99,7 +99,7 @@ export function BlogDetailView({ post, recommendedArticles, author, onBack, onSe
           <h2 className="text-xl sm:text-2xl font-black text-slate-900">
             🛒 特集で紹介している厳選おすすめアイテム ({recommendedArticles.length}選)
           </h2>
-          <span className="text-xs text-slate-500 font-medium">Amazon正規品リンク付き</span>
+          <span className="text-xs text-slate-500 font-medium">楽天正規品リンク付き</span>
         </div>
 
         <div className="grid grid-cols-1 gap-6">
@@ -168,7 +168,7 @@ export function BlogDetailView({ post, recommendedArticles, author, onBack, onSe
                     className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold text-xs shadow-sm hover:shadow transition-all cursor-pointer"
                   >
                     <ShoppingCart className="w-3.5 h-3.5" />
-                    <span>Amazonで確認する</span>
+                    <span>楽天市場で確認する</span>
                     <ExternalLink className="w-3 h-3 ml-0.5 opacity-80" />
                   </a>
                 </div>

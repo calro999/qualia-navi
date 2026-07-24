@@ -83,7 +83,7 @@ function proofreadAndSanitizeArticle(article, product) {
   sanitized.title = cleanText(sanitized.title || `${product.name} の本音レビュー検証`);
   sanitized.introText = cleanText(sanitized.introText || `${product.name} の実体感レビュー。読者の悩みに寄り添った検証結果です。`);
   sanitized.reviewBody = cleanText(sanitized.reviewBody || `### ${product.name} の検証レビュー\n\n実際に使用して効果と使用感を徹底検証いたしました。`);
-  sanitized.ctaTitle = cleanText(sanitized.ctaTitle || 'Amazonで最安値・在庫をチェック ↗');
+  sanitized.ctaTitle = cleanText(sanitized.ctaTitle || 'Rakutenで最安値・在庫をチェック ↗');
 
   // 配列プロパティの自動校正
   sanitized.features = Array.isArray(sanitized.features)
@@ -188,7 +188,7 @@ async function generateWithFallback(prompt) {
           pros: ["使った瞬間から滑らかな仕上がり", "夕方までキレイが続く"],
           cons: ["人気商品のため売り切れに注意が必要"],
           reviewBody: "### 徹底検証レビュー\n\n実生活での使い心地と耐久性を徹底的にチェックいたしました。非常に満足度の高い仕上がりです。",
-          ctaTitle: "Amazonで最安値・在庫をチェック ↗",
+          ctaTitle: "Rakutenで最安値・在庫をチェック ↗",
           summaryKeyPoints: ["高い満足度", "日常使いに最適"],
           faqs: [{ question: "使い方のコツは？", answer: "少量を均一に伸ばしてご使用ください。" }],
           reviewerName: "タクマ @男性コスメ部長",
@@ -245,7 +245,7 @@ function buildStrictPrompt(product) {
   "pros": ["メリット1", "メリット2"],
   "cons": ["デメリット1（および解決のコツ）"],
   "reviewBody": "### 1. 検証の動機とお悩み\\n...\\n\\n### 2. 実際の使用感と効果\\n...（700文字以上の詳細レビュー）",
-  "ctaTitle": "Amazonで最安値・在庫をチェック ↗",
+  "ctaTitle": "Rakutenで最安値・在庫をチェック ↗",
   "summaryKeyPoints": ["ポイント1", "ポイント2", "ポイント3"],
   "faqs": [
     { "question": "質問1", "answer": "回答1" }
@@ -281,7 +281,7 @@ function appendArticleToDataTs(article, product) {
 
   const a = article;
   const safeProductName = encodeURIComponent(product.name);
-  const link = `https://www.amazon.co.jp/s?k=${safeProductName}&tag=mattan0290c-22`;
+  const link = `https://www.rakuten.co.jp/s?k=${safeProductName}&tag=mattan0290c-22`;
 
   const faqsTs = Array.isArray(a.faqs)
     ? `[\n      ${a.faqs.map(f => `{\n        question: \`${escapeTs(f.question)}\`,\n        answer: \`${escapeTs(f.answer)}\`\n      }`).join(',\n      ')}\n    ]`

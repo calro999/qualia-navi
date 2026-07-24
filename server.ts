@@ -22,7 +22,7 @@ if (process.env.GEMINI_API_KEY) {
       }
     }
   });
-  console.log("Amazon GO AI: Gemini API initialized successfully.");
+  console.log("Rakuten GO AI: Gemini API initialized successfully.");
 } else {
   console.warn("Warning: GEMINI_API_KEY not found in environment variables. Running in mock mode.");
 }
@@ -113,9 +113,9 @@ app.get("/llms.txt", (req, res) => {
   const host = req.headers.host || 'localhost:3000';
   const baseUrl = `${protocol}://${host}`;
 
-  let content = `# あまぞn GO!! - 専門バイヤーの徹底本音レビューメディア
+  let content = `# Qualia Navi - 専門バイヤーの徹底本音レビューメディア
 
-> あまぞん GO!! は、プロの専門バイヤーが実際に購入し、長期間実機検証したAmazonおすすめガジェット、PC周辺機器、家電、美容アイテム、日用品の本音レビューを提供する検証型メディアです。
+> Qualia Navi は、プロの専門バイヤーが実際に購入し、長期間実機検証したRakutenおすすめガジェット、PC周辺機器、家電、美容アイテム、日用品の本音レビューを提供する検証型メディアです。
 
 ## 主なカテゴリ
 - 家電・カメラ: ${baseUrl}/?category=gadgets
@@ -274,10 +274,10 @@ function selectProductMockImage(cat: string, namePrompt: string): string {
 }
 
 // 2. High-Performance Review Generator API
-// Note: Amazon PA-API is not used (eligibility requirements not met).
+// Note: Rakuten PA-API is not used (eligibility requirements not met).
 //       Affiliate links are built directly from ASIN + associate ID.
 
-app.post("/api/generate-amazon-review", async (req, res) => {
+app.post("/api/generate-rakuten-review", async (req, res) => {
   const { inputUrl, category, associateId, userCustomTitle } = req.body;
 
   const targetCategory = category || "gadgets";
@@ -295,7 +295,7 @@ app.post("/api/generate-amazon-review", async (req, res) => {
 
   // 検索URL形式でアフィリエイトリンクを生成（/dp/ASINは404になるため検索結果ページを使用）
   const searchQuery = encodeURIComponent(userCustomTitle || detectedAsin);
-  const finalAffLink = `https://www.amazon.co.jp/s?k=${searchQuery}&tag=${userTag}`;
+  const finalAffLink = `https://www.rakuten.co.jp/s?k=${searchQuery}&tag=${userTag}`;
   const finalImg = selectProductMockImage(targetCategory, userCustomTitle || detectedAsin);
   console.log(`[Review API] ASIN: ${detectedAsin}, Tag: ${userTag}, Category: ${targetCategory}, SearchQuery: ${searchQuery}`);
 
@@ -310,21 +310,21 @@ app.post("/api/generate-amazon-review", async (req, res) => {
       "books-games": "【神ゲー確定】エルデンリング(ELDEN RING)を100時間遊び尽くした完全攻略レビュー"
     };
 
-    const targetTitle = userCustomTitle || defaultTitles[targetCategory] || "【超人気アイテム】話題のAmazon売れ筋商品をプロ目線で徹底レビュー";
+    const targetTitle = userCustomTitle || defaultTitles[targetCategory] || "【超人気アイテム】話題のRakuten売れ筋商品をプロ目線で徹底レビュー";
 
     return res.json({
       id: "art_" + Math.random().toString(36).substring(2, 11),
       title: targetTitle,
-      originalUrl: inputUrl || `https://www.amazon.co.jp/s?k=${encodeURIComponent(userCustomTitle || detectedAsin)}&tag=${userTag}`,
+      originalUrl: inputUrl || `https://www.rakuten.co.jp/s?k=${encodeURIComponent(userCustomTitle || detectedAsin)}&tag=${userTag}`,
       asin: detectedAsin,
       category: targetCategory,
       imageUrl: finalImg,
       starRating: parseFloat((4.3 + Math.random() * 0.6).toFixed(1)),
-      introText: `今回ご紹介するのは、Amazonのセールランキングでも圧倒的上位を獲得している大注目製品です。実際に日々のQOL（生活の質）が爆発的に高まるかどうかを徹底的に使って検証しました。結論、迷っているなら今すぐ手に入れるべき価値があります！`,
+      introText: `今回ご紹介するのは、Rakutenのセールランキングでも圧倒的上位を獲得している大注目製品です。実際に日々のQOL（生活の質）が爆発的に高まるかどうかを徹底的に使って検証しました。結論、迷っているなら今すぐ手に入れるべき価値があります！`,
       features: [
         "圧倒的な業界最高レベルのコストパフォーマンスと抜群の耐久設計",
         "直感的で誰にでも分かりやすいスマートな操作感と極めて快適な装着・使用感",
-        "Amazonタイムセール祭りによる驚異的な最安値ポイント還元プログラム"
+        "Rakutenタイムセール祭りによる驚異的な最安値ポイント還元プログラム"
       ],
       pros: [
         "使ったその日から違いを実感できる即効性、毎日のストレスが激減します",
@@ -343,9 +343,9 @@ app.post("/api/generate-amazon-review", async (req, res) => {
 日々の生活リズムにおいて、1分1回の小さな億劫な手間が消えるのは想像以上の体験です。
 これまでは時間がかかっていたあの作業が、ボタンひとつ・スイッチを入れるだけで完了するストレスフリー。
 
-Amazonで買うからこそ最高の保証と即納スピード
-この製品を購入する際は、信頼性の観点からAmazonの公式ストア経由を第一に推奨します。お急ぎ便なら早ければ当日に到着し、もしもの初期不良でもワンタップで返品・新品交換が可能です。安心の保険だと思って下記のリンクをチェックしてみてください。`,
-      ctaTitle: "＼ 限定の特別ポイント還元中！Amazon最安値価格をチェック ／",
+Rakutenで買うからこそ最高の保証と即納スピード
+この製品を購入する際は、信頼性の観点からRakutenの公式ストア経由を第一に推奨します。お急ぎ便なら早ければ当日に到着し、もしもの初期不良でもワンタップで返品・新品交換が可能です。安心の保険だと思って下記のリンクをチェックしてみてください。`,
+      ctaTitle: "＼ 限定の特別ポイント還元中！Rakuten最安値価格をチェック ／",
       affiliateLink: finalAffLink,
       createdAt: new Date().toISOString().replace('T', ' ').substring(0, 19),
       estimatedPV: Math.floor(Math.random() * 20) + 12,
@@ -357,7 +357,7 @@ Amazonで買うからこそ最高の保証と即納スピード
 
   try {
     const prompt = `
-【Amazon Affiliate Super-CTA Article Command】
+【Rakuten Affiliate Super-CTA Article Command】
 日本のアマゾンアフィリエイト商品の情報から、思わずユーザーが欲しくてクリックしたくなる圧倒的な「高コンバージョン（超高CTA）商品レビュー記事」を作成してください。
 
 ターゲット要素:
@@ -382,7 +382,7 @@ Amazonで買うからこそ最高の保証と即納スピード
       model: "gemini-3.5-flash",
       contents: prompt,
       config: {
-        systemInstruction: `You are the world's most talented Amazon Affiliate copywriter and conversion rates optimization (CRO) engineer.
+        systemInstruction: `You are the world's most talented Rakuten Affiliate copywriter and conversion rates optimization (CRO) engineer.
 Your primary language is Japanese. Your tone is incredibly passionate, informative, deeply detailed, and transparent but highly persuasive.
 You know how to convert raw product features into absolute life-changing experiences for the consumer.
 CRITICAL: Never output markdown formatting symbols like '#', '##', '###', '*', or '\`'. All text paragraphs must be plain text.
@@ -421,8 +421,8 @@ Always output your entire response formatted as a strict single JSON object foll
 
     res.json({
       id: "art_" + Math.random().toString(36).substring(2, 11),
-      title: outputJson.title || "【今こそ買い】話題のAmazonベストセラー徹底個別レビュー",
-      originalUrl: inputUrl || `https://www.amazon.co.jp/s?k=${encodeURIComponent(userCustomTitle || detectedAsin)}&tag=${userTag}`,
+      title: outputJson.title || "【今こそ買い】話題のRakutenベストセラー徹底個別レビュー",
+      originalUrl: inputUrl || `https://www.rakuten.co.jp/s?k=${encodeURIComponent(userCustomTitle || detectedAsin)}&tag=${userTag}`,
       asin: detectedAsin,
       category: targetCategory,
       imageUrl: finalImg,
@@ -432,7 +432,7 @@ Always output your entire response formatted as a strict single JSON object foll
       pros: outputJson.pros || ["毎日の作業から解放される", "頑丈で美しいフォルム", "コスト以上の多機能"],
       cons: outputJson.cons || ["カラーバリエーションが少ないこと", "初期設定に少々時間が必要"],
       reviewBody: outputJson.reviewBody || "### 確かな機能性。実際に日々使ってみての感想を共有します。",
-      ctaTitle: outputJson.ctaTitle || "＼ Amazonプライム対応。最速明日にお届け。現在の価格を見る ／",
+      ctaTitle: outputJson.ctaTitle || "＼ Rakutenプライム対応。最速明日にお届け。現在の価格を見る ／",
       affiliateLink: finalAffLink,
       createdAt: new Date().toISOString().replace('T', ' ').substring(0, 19),
       estimatedPV: Math.floor(Math.random() * 5) + 5,
@@ -486,7 +486,7 @@ function renderArticleDynamicHtml(htmlTemplate: string, articleId: string, req: 
           },
           "author": {
             "@type": "Person",
-            "name": article.reviewerName || "あまぞん GO!! 専門バイヤー"
+            "name": article.reviewerName || "Qualia Navi 専門バイヤー"
           }
         },
         "aggregateRating": {
@@ -509,12 +509,12 @@ function renderArticleDynamicHtml(htmlTemplate: string, articleId: string, req: 
         "datePublished": article.createdAt ? new Date(article.createdAt).toISOString() : new Date().toISOString(),
         "author": {
           "@type": "Person",
-          "name": article.reviewerName || "あまぞん GO!! 専門バイヤー",
+          "name": article.reviewerName || "Qualia Navi 専門バイヤー",
           "jobTitle": article.reviewerRole || "家電・ガジェット比較ライター"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "あまぞん GO!!",
+          "name": "Qualia Navi",
           "logo": {
             "@type": "ImageObject",
             "url": article.imageUrl
@@ -539,7 +539,7 @@ function renderArticleDynamicHtml(htmlTemplate: string, articleId: string, req: 
   const jsonLdScript = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`;
 
   let injected = htmlTemplate
-    .replace(/<title>.*?<\/title>/, `<title>${cleanTitle} | あまぞん GO!!</title>`)
+    .replace(/<title>.*?<\/title>/, `<title>${cleanTitle} | Qualia Navi</title>`)
     .replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${cleanDesc}" />`)
     .replace(/<meta property="og:title" content=".*?" \/>/, `<meta property="og:title" content="${cleanTitle}" />`)
     .replace(/<meta property="og:description" content=".*?" \/>/, `<meta property="og:description" content="${cleanDesc}" />`)
@@ -596,7 +596,7 @@ async function startServer() {
     app.get("*", (req, res) => {
       res.sendFile(path.join(distPath, "index.html"));
     });
-    console.log("Amazon Go static production router configured.");
+    console.log("Rakuten Go static production router configured.");
   }
 
   app.listen(PORT, "0.0.0.0", () => {

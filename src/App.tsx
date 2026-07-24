@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { INITIAL_ARTICLES } from './data';
 import { ProductListPage } from './pages/ProductListPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
@@ -176,6 +177,7 @@ export default function App() {
           <p className="text-[11px] text-slate-400 pt-2">© 2026 Qualia Navi. All rights reserved.</p>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }

@@ -133,7 +133,8 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
       flushList(`h4-${index}`);
       const text = trimmed.replace(/^####\s+/, '');
       elements.push(
-        <h4 key={`h4-${index}`} className="text-base sm:text-lg font-bold text-slate-800 mt-5 mb-2 font-serif-brand">
+        <h4 key={`h4-${index}`} className="text-base sm:text-lg font-bold text-slate-800 mt-6 mb-3 pb-1 border-b border-dashed border-slate-300 flex items-center gap-2 font-serif-brand">
+          <span className="w-1.5 h-4 bg-slate-400 rounded-full inline-block shrink-0"></span>
           {parseInline(text)}
         </h4>
       );
@@ -177,7 +178,7 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
     flushList(`p-${index}`);
 
     elements.push(
-      <p key={`p-${index}`} className="text-slate-800 text-sm sm:text-base leading-relaxed mb-4 font-normal">
+      <p key={`p-${index}`} className="text-slate-800 text-sm sm:text-base leading-relaxed mb-6 font-normal">
         {parseInline(trimmed)}
       </p>
     );

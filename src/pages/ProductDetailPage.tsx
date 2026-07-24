@@ -4,7 +4,7 @@ import { AUTHOR_PROFILES } from '../data';
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { generateProductJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
-import { ShoppingCart, ExternalLink, Star, CheckCircle, ShieldCheck, ArrowLeft, Search } from 'lucide-react';
+import { ShoppingCart, ExternalLink, Star, CheckCircle, ShieldCheck, ArrowLeft } from 'lucide-react';
 
 interface ProductDetailPageProps {
   articleId: string;
@@ -89,26 +89,6 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
               {article.title}
             </h1>
           </div>
-
-          {/* Buy Intent Search Keywords 10 Selection Tag Section */}
-          {article.buyIntentKeywords && article.buyIntentKeywords.length > 0 && (
-            <div className="bg-rose-50/70 p-4 sm:p-5 rounded-2xl border border-rose-200/80 space-y-2.5">
-              <div className="text-xs font-extrabold text-rose-800 flex items-center gap-1.5 font-serif-brand">
-                <Search className="w-3.5 h-3.5 text-rose-600" />
-                <span>「今すぐ買いたい人」が調べる注目検索キーワード 10選</span>
-              </div>
-              <div className="flex flex-wrap gap-1.5">
-                {article.buyIntentKeywords.map((kw, idx) => (
-                  <span
-                    key={idx}
-                    className="text-[11px] font-bold bg-white text-slate-800 px-2.5 py-1 rounded-lg border border-rose-200 shadow-2xs"
-                  >
-                    🔍 {kw}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
 
           {/* Reviewer Meta Banner */}
           <div 
@@ -195,7 +175,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
             </div>
           </div>
 
-          {/* Full Review Markdown */}
+          {/* Full Review Markdown (文章本文内に検索キーワード10選が散りばめられています) */}
           <div className="prose max-w-none text-slate-800 leading-relaxed border-t border-slate-200 pt-8">
             <MarkdownRenderer content={article.reviewBody} onNavigate={onNavigate} />
           </div>

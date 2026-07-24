@@ -11,6 +11,14 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
   const lines = content.split('\n');
   const elements: React.ReactNode[] = [];
   let listItems: React.ReactNode[] = [];
+  
+  // State for multi-line blocks
+  let inCodeBlock = false;
+  let codeBlockContent: string[] = [];
+  
+  let inTable = false;
+  let tableHeaders: React.ReactNode[] = [];
+  let tableRows: React.ReactNode[][] = [];
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     if (href.startsWith('/')) {
@@ -36,6 +44,15 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
           <strong key={pIdx} className="font-extrabold text-slate-900 bg-rose-100/80 px-1.5 py-0.5 rounded mx-0.5 border-b border-rose-300">
             {boldText}
           </strong>
+        );
+      }
+
+      // Inline code
+      if (part.startsWith('`') && part.endsWith('`') && part.length > 2) {
+        return (
+          <code key={pIdx} className="font-mono text-xs text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded border border-rose-100">
+            {part.slice(1, -1)}
+          </code>
         );
       }
 
@@ -82,12 +99,101 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
       listItems = [];
     }
   };
+  
+  const flushTable = (key: string) => {
+    if (inTable && tableHeaders.length > 0) {
+      elements.push(
+        <div key={`table-wrapper-${key}`} className="overflow-x-auto my-8 border border-slate-200 rounded-2xl shadow-sm">
+          <table className="w-full text-left text-sm text-slate-600">
+            <thead className="bg-slate-50 text-slate-700 font-bold border-b border-slate-200">
+              <tr>
+                {tableHeaders.map((th, idx) => (
+                  <th key={`th-${idx}`} className="px-4 py-3">{th}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {tableRows.map((row, rIdx) => (
+                <tr key={`tr-${rIdx}`} className="border-b border-slate-100 last:border-0 hover:bg-slate-50/50 transition">
+                  {row.map((td, dIdx) => (
+                    <td key={`td-${dIdx}`} className="px-4 py-3 align-top">{td}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+    }
+    inTable = false;
+    tableHeaders = [];
+    tableRows = [];
+  };
 
   lines.forEach((line, index) => {
     const trimmed = line.trim();
+    
+    // Check code block boundaries (supports both escaped \`\`\` and normal ```)
+    if (trimmed.startsWith('```') || trimmed.startsWith('\\`\\`\\`')) {
+      if (inCodeBlock) {
+        // Close code block
+        elements.push(
+          <div key={`code-${index}`} className="my-6 rounded-xl overflow-hidden bg-slate-900 border border-slate-800 shadow-md">
+            <div className="bg-slate-800/80 px-4 py-2 flex items-center gap-2 border-b border-slate-700/50">
+              <div className="w-3 h-3 rounded-full bg-rose-500"></div>
+              <div className="w-3 h-3 rounded-full bg-amber-500"></div>
+              <div className="w-3 h-3 rounded-full bg-emerald-500"></div>
+              <span className="ml-2 text-xs text-slate-400 font-mono">CODE / LOG</span>
+            </div>
+            <pre className="p-4 overflow-x-auto text-sm text-emerald-300 font-mono whitespace-pre-wrap leading-relaxed">
+              <code>{codeBlockContent.join('\n')}</code>
+            </pre>
+          </div>
+        );
+        inCodeBlock = false;
+        codeBlockContent = [];
+      } else {
+        // Open code block
+        flushList(`flush-cb-${index}`);
+        flushTable(`flush-cbtable-${index}`);
+        inCodeBlock = true;
+      }
+      return;
+    }
+    
+    if (inCodeBlock) {
+      codeBlockContent.push(line);
+      return;
+    }
+    
+    // Check Table
+    if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+      flushList(`flush-tb-${index}`);
+      
+      const cells = trimmed.split('|').slice(1, -1).map(c => c.trim());
+      
+      // Is this the separator line like | :--- | :--- | ?
+      if (cells.every(c => c.replace(/[:\-]/g, '') === '')) {
+        inTable = true;
+        return;
+      }
+      
+      if (!inTable && tableHeaders.length === 0) {
+        // Assume first row is header
+        tableHeaders = cells.map(c => parseInline(c));
+        inTable = true; // wait for separator, but technically we are tracking it now
+      } else if (inTable) {
+        tableRows.push(cells.map(c => parseInline(c)));
+      }
+      return;
+    } else if (inTable) {
+      // Table ended
+      flushTable(`table-end-${index}`);
+    }
 
     if (!trimmed) {
       flushList(`flush-${index}`);
+      flushTable(`flush-tbs-${index}`);
       return;
     }
 
@@ -185,7 +291,8 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
 
     // Normal Paragraph
     flushList(`p-${index}`);
-
+    
+    // Add missing parsed texts
     elements.push(
       <p key={`p-${index}`} className="text-slate-800 text-sm sm:text-base leading-relaxed mb-6 font-normal">
         {parseInline(trimmed)}
@@ -194,6 +301,7 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
   });
 
   flushList(`final`);
+  flushTable(`final-table`);
 
   return <div className="space-y-2">{elements}</div>;
 }

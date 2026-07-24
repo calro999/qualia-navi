@@ -71,6 +71,7 @@ export interface BlogPost {
   introText: string;
   recommendedItemCodes: string[];
   contentMarkdown: string;
+  isHallOfFame?: boolean;
 }
 
 export interface ComparisonPoint {

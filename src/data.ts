@@ -44,7 +44,13 @@ export const CATEGORIES: CategorySpec[] = [
 検証期間中、連日の猛暑日と、汗をかく屋外での活動が続きました。しかし、アネッサ金ミルクは私の期待を遥かに超えてきました。通勤で汗だくになっても、夕方まで顔のテカリや日焼け止めのヨレがほとんど気になりません。特にTゾーンの皮脂崩れが抑えられているのには感動しました。マスク着用時も、内側の蒸れで日焼け止めが落ちる感覚がなく、肌荒れも起こりにくかったのは、スキンケア成分50%配合という謳い文句が伊達ではないことを物語っています。肌が敏感に傾きやすい時期でも、刺激を感じることなく快適に使い続けられました。
 
 **後期1週間（発見と結論）**
-30日間使い続けてみて、一つだけコツを見つけました。それは、一度に大量に塗るのではなく、少量ずつ手に取り、顔全体に薄く均一に伸ばすことです。こうすることで、より自然な仕上がりになり、白浮きも防げます。また、重ね塗りが必要な場合は、一度肌に馴染ませてから再度塗布すると良いでしょう。クレンジングは基本的に不要で、普段使っている洗顔料やボディソープで簡単にオフできる手軽さも、毎日使い続ける上で非常に大きなメリットでした。検証の結果、アネッサ金ミルクは「汗・水・摩擦に強く、高いUVカット効果を長時間持続させながらも、肌への負担が少ない」という、まさに理想的な日焼け止めであることが証明されました。猛暑による肌悩みを持つ全ての方に、自信を持っておすすめできる逸品です。これ一つあれば、今年の夏はもう怖くありません。`,
+30日間使い続けてみて、一つだけコツを見つけました。それは、一度に大量に塗るのではなく、少量ずつ手に取り、顔全体に薄く均一に伸ばすことです。こうすることで、より自然な仕上がりになり、白浮きも防げます。
+
+![/images/products/heroine-mascara.jpg](メイベリン スカイハイ)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4936968688463%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/heroine-mascara.jpgの最安値・口コミをチェック ▶</a>
+
+また、重ね塗りが必要な場合は、一度肌に馴染ませてから再度塗布すると良いでしょう。クレンジングは基本的に不要で、普段使っている洗顔料やボディソープで簡単にオフできる手軽さも、毎日使い続ける上で非常に大きなメリットでした。検証の結果、アネッサ金ミルクは「汗・水・摩擦に強く、高いUVカット効果を長時間持続させながらも、肌への負担が少ない」という、まさに理想的な日焼け止めであることが証明されました。猛暑による肌悩みを持つ全ての方に、自信を持っておすすめできる逸品です。これ一つあれば、今年の夏はもう怖くありません。`,
     ctaTitle: `楽天市場で最安値・在庫をチェック ↗`,
     affiliateLink: 'https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F',
     createdAt: '2026-07-24',
@@ -1028,7 +1034,7 @@ SUQQUのアイシャドウパレット（定価7,700円税込）は、大人気�
     title: '【2026年最新】猛暑とエアコンに負けない透明美肌へ！紫外線＆インナードライ対策の神コスメ3選とプロ直伝のスキンケア完全ガイド',
     subtitle: '楽天市場で高評価の最新UVカット・多重層リポソーム保湿美容液・韓国美容針ブースターをQualia美容分析室が実機＆成分徹底検証！',
     targetGender: 'unisex',
-    coverImage: '/images/products/curel_uv_essence.jpg',
+    coverImage: '/images/products/topic_skincare_decorte.jpg',
     authorId: 'author-tachibana',
     authorName: '橘 えりか',
     authorRole: 'コスメ＆美容編集長',
@@ -1062,6 +1068,12 @@ Qualia Navi美容分析室では、今年絶対に行うべき美肌ケアとし
 - **実体感の口コミ**: 「洗顔直後に2〜3プッシュ馴染ませるだけで、翌朝まで一切乾かない」「ベタつきゼロで後から使う化粧水の吸い込みが劇的に変わる」と絶賛の嵐。
 - **楽天市場での買い方**: 公式正規代理店ショップでの購入により、ショップ限定ポイント10倍還元イベントや限定オマケが対象になり、実質最安値級で入手可能。
 
+![/images/products/topic_skincare_decorte.jpg](コスメデコルテ リポソーム アドバンスト リペアセラム)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarble-inc%2F2915-000507%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_skincare_decorte.jpgの最安値・口コミをチェック ▶</a>
+
+
+
 ---
 
 ## 【原則2】「汗・水・擦れに反応して強くなる」新世代UVガード
@@ -1078,6 +1090,12 @@ Qualia Navi美容分析室では、今年絶対に行うべき美肌ケアとし
 - **使用感と下地機能**: 白浮きせず、さらさらとしたシルキータッチな仕上がり。皮脂によるメイク崩れを防ぐ化粧下地としても非常に高い評価を獲得。
 - **落としやすさ**: 強力なスーパーウォータープルーフ仕様でありながら、普段の洗顔料やボディソープでスルリと落とせる肌への優しさも両立。
 
+![/images/products/topic_suncare_anessa.jpg](アネッサ パーフェクトUV スキンケアミルク NA)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_suncare_anessa.jpgの最安値・口コミをチェック ▶</a>
+
+
+
 ---
 
 ## 【原則3】天然美容針（シリカ）による「角層ルートの開放と導入革命」
@@ -1093,6 +1111,12 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 - **チクチク感とCICA成分の相乗効果**: 塗布した瞬間に感じる心地よいチクチク感が、美容成分を角層深部へダイレクトに届けるシグナル。CICA（ツボクサエキス）が同時に肌をすこやかに整えます。
 - **100（入門用）の安心感**: 毎日夜のスキンケアに使用できるマイルドな刺激設計。毛穴の開きやザラつきが気になる方に劇的な手触りの変化をもたらします。
 - **楽天市場VT公式ショップ**: 頻繁にポイント20倍やシートマスクの豪華プレゼントキャンペーンを実施中。
+
+![/images/products/topic_kbeauty_vt.jpg](VT リードルショット 100)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnextera2021%2Freedles%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_kbeauty_vt.jpgの最安値・口コミをチェック ▶</a>
+
+
 
 ---
 
@@ -1114,7 +1138,7 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
     title: '【夏のコスメ特集】滝汗でも絶対に崩れない！真夏の鉄壁ベースメイク＆落ちないポイントメイク完全攻略',
     subtitle: '猛暑を乗り切るための最強コスメを厳選。皮脂崩れを徹底ブロックし、夜まで「直したて」の美しさをキープする秘訣。',
     targetGender: 'women',
-    coverImage: '/images/products/tirtir_red.jpg',
+    coverImage: '/images/products/topic_makeup_lipmonster.jpg',
     authorId: 'author-tachibana',
     authorName: '橘 えりか',
     authorRole: 'コスメ＆美容編集長',
@@ -1142,7 +1166,19 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 
 1.  **高密着の下地**: 皮脂ブロック効果のある下地を、顔全体ではなく「Tゾーン（おでこ、鼻）」などのテカりやすい部分にのみ薄く叩き込みます。
 2.  **無重力ファンデーション**: **ランコム タンイドル ウルトラ ウェア リキッド**のような、薄膜で皮脂を吸着するリキッドファンデを使用。水を含ませたスポンジでポンポンと叩き込むことで、密着力が段違いに上がります。
+
+![/images/products/primavista.jpg](ランコム タンイドル ウルトラ ウェア リキッド)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fblanc-lapin%2Flanhl0000001%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/primavista.jpgの最安値・口コミをチェック ▶</a>
+
+
 3.  **パウダーでの強力なフタ**: 仕上げは**エレガンス ラ プードル**。これでもかというほどパフに揉み込み、顔全体をサラサラの陶器肌に仕上げます。これが夏の皮脂を完全にブロックする要です。
+
+![/images/products/nars_powder.jpg](エレガンス ラ プードル オートニュアンス)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fk-fleur%2Felegance-poudre-4%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/nars_powder.jpgの最安値・口コミをチェック ▶</a>
+
+
 
 ---
 
@@ -1153,6 +1189,12 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 *   **アイライナー**: **ラブ・ライナー**や**UZU**などのリキッドタイプを推奨。ペンシルタイプは油分に弱く夏場は溶けやすいため避けるのが無難です。
 *   **マスカラ**: ウォータープルーフはもちろんのこと、皮脂にも強い「スマッジプルーフ」処方のもの（**メイベリン スカイハイ**など）を選ぶと、夕方のパンダ目を防げます。
 
+![/images/products/heroine-mascara.jpg](メイベリン スカイハイ)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4936968688463%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/heroine-mascara.jpgの最安値・口コミをチェック ▶</a>
+
+
+
 ---
 
 ## 3. マスクを外しても安心：食事をしても落ちないリップ
@@ -1160,6 +1202,12 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 夏場は冷たい飲み物をこまめに飲んだり、エアコンで唇が乾燥したりとリップのハードルが高くなります。
 
 *   **密着ジェル膜の活用**: ティントのように染めるのではなく、唇の水分で密着膜を作る**KATE リップモンスター**がやはり最強です。塗ってから5分ほど置き、一度軽くティッシュオフすることで、コップへの色移りを完全に防ぐことができます。
+
+![/images/products/topic_makeup_lipmonster.jpg](KATE リップモンスター)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatukiyo%2F4973167825227%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_makeup_lipmonster.jpgの最安値・口コミをチェック ▶</a>
+
+
 
 これらの神コスメを駆使して、今年の夏は「崩れ知らずの涼しげフェイス」で乗り切りましょう！
 `
@@ -1170,7 +1218,7 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
     title: '【夏の体臭ケア特集】汗のニオイ、ワキガ、加齢臭を完全ブロック！エチケット最前線',
     subtitle: '自分のニオイは気づきにくいからこそ徹底ケアを。最新デオドラントの使い分けで、一日中「無臭」をキープする。',
     targetGender: 'unisex',
-    coverImage: '/images/products/deoco.jpg',
+    coverImage: '/images/products/topic_body_deonature.jpg',
     authorId: 'author-hasumi',
     authorName: '蓮見 拓真',
     authorRole: '統括編集長 (メンズ・身だしなみ)',
@@ -1198,6 +1246,12 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 お出かけ前の「乾いた清潔な肌」に、**デオナチュレ**などの直塗りクリーム（またはスティック）をしっかり塗り込みます。
 有効成分の「焼ミョウバン」が毛穴をキュッと引き締め、ニオイ菌の繁殖を根本からブロック。朝塗れば、夜お風呂に入るまで絶対に臭わせません。
 
+![/images/products/topic_body_deonature.jpg](デオナチュレ ソフトストーンW)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4971825016582%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_body_deonature.jpgの最安値・口コミをチェック ▶</a>
+
+
+
 > [!IMPORTANT]
 > **注意点**
 > 汗をかいて雑菌が繁殖した「後」に塗っても効果は半減します。必ず「お風呂上がり」や「朝のシャワー後」の水気を拭き取った直後に塗るのが鉄則です。
@@ -1211,6 +1265,12 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 ### 💡 解決策：高密着パウダースプレーでの瞬間リセット
 **エージーデオ24**のような、殺菌成分と皮脂吸着パウダーが配合されたスプレーを使用します。
 最近のスプレーは「加齢臭」や「ストレス臭」を独自の香料技術でマスキング（包み込んで消す）効果もあるため、全身にサッとスプレーするだけで、瞬時にサラサラで無臭の空間を作り出すことができます。
+
+![/images/products/topic_body_agdeo24.jpg](エージーデオ24 パウダースプレー)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4550516493286%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_body_agdeo24.jpgの最安値・口コミをチェック ▶</a>
+
+
 
 ---
 
@@ -1230,7 +1290,7 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
     title: '【夏のUVケア特集】絶対に焼かない！最強日焼け止めと「うっかり焼け」を防ぐ全方位バリア',
     subtitle: '日焼け止めの進化は止まらない。スキンケア効果、摩擦耐性、そして塗り直しのしやすさを徹底比較。',
     targetGender: 'unisex',
-    coverImage: '/images/products/anessa.jpg',
+    coverImage: '/images/products/topic_suncare_anessa.jpg',
     authorId: 'author-watanabe',
     authorName: '渡辺 陽菜',
     authorRole: 'UVケアオタク・コレクター',
@@ -1254,6 +1314,12 @@ SPF50+ PA++++の強力な日焼け止めを使うのはもはや当たり前。�
 *   **アネッサ パーフェクトUV スキンケアミルク (金ミルク)**のような、汗や水に触れるとUVブロック膜がさらに強くなる技術（アクアブースターEXなど）を搭載した製品を選びましょう。
 *   また、マスクの着脱やタオルで汗を拭くことによる「摩擦（こすれ）」で日焼け止めは剥がれ落ちます。こすれに強い「フリクションプルーフ」処方のものを選ぶことが重要です。
 
+![/images/products/topic_suncare_anessa.jpg](アネッサ パーフェクトUV スキンケアミルク NA)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_suncare_anessa.jpgの最安値・口コミをチェック ▶</a>
+
+
+
 ---
 
 ## 2. 日常使いなら「水感エッセンス」でストレスフリー
@@ -1262,6 +1328,12 @@ SPF50+ PA++++の強力な日焼け止めを使うのはもはや当たり前。�
 
 *   **ビオレUV アクアリッチ ウォータリーエッセンス**に代表されるような、水のようにスッと伸びてベタつかないタイプは、日焼け止め特有の「閉塞感」や「白浮き」が苦手な方（特に男性）に大人気です。
 *   毎日使うものだからこそ、クレンジング不要でいつもの洗顔料で落とせる手軽さも重要です。
+
+![/images/products/topic_suncare_biore.jpg](ビオレUV アクアリッチ ウォータリーエッセンス)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Felonline522%2F4027-000827%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_suncare_biore.jpgの最安値・口コミをチェック ▶</a>
+
+
 
 ---
 
@@ -1273,6 +1345,12 @@ SPF50+ PA++++の強力な日焼け止めを使うのはもはや当たり前。�
 顔の日焼け止めを塗り直すのはメイクが崩れるため至難の業です。そこでおすすめなのが以下のアイテムです。
 
 1.  **UVカット効果のあるパウダー**: エレガンス ラ プードルなど、お直しのついでにUVパウダーを重ねることで、テカリを抑えつつ紫外線をブロックできます。
+
+![/images/products/nars_powder.jpg](エレガンス ラ プードル オートニュアンス)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fk-fleur%2Felegance-poudre-4%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/nars_powder.jpgの最安値・口コミをチェック ▶</a>
+
+
 2.  **UVカットスプレー・ミスト**: 顔に直接吹きかけられるスプレータイプ（またはミストタイプ）の日焼け止めをバッグに忍ばせておき、外出先でシューッと吹きかけるのが最も手軽で効果的です。
 
 今年の夏は「朝塗って終わり」ではなく、シーンに合わせた日焼け止めの使い分けと、賢い塗り直しで、完璧な美白肌を死守しましょう！
@@ -1810,6 +1888,12 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 ## 【この記事の結論】
 諭吉パウダー（1万円超え）の代名詞として常に覇権を争う2大デパコスパウダー。**「保湿とツヤ」にステータスを全振りしたコスメデコルテ**と、**「テカリ防止と毛穴補正」にステータスを全振りしたエレガンス**。
 全く異なる仕上がりになるため、自分の理想とする肌質に合わせて選ぶことが重要です。
+
+![/images/products/topic_suncare_anessa.jpg](アネッサ パーフェクトUV スキンケアミルク NA)
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_suncare_anessa.jpgの最安値・口コミをチェック ▶</a>
+
+
 
 ---
 

@@ -747,7 +747,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
     subtitle: '独自の保湿成分アクアインセンダーが肌表面に水の層をつくり、水分をキープ。テカリと乾燥を同時に予防！',
     slug: 'ipsa-time-r-aqua-review',
     targetGender: 'unisex',
-    coverImage: '/images/products/shirojyun_premium.jpg',
+    coverImage: '/images/products/topic_skincare_ipsa.jpg',
     authorId: 'author-tachibana',
     authorName: '橘 えりか',
     authorRole: 'Qualia 美容編集長',
@@ -835,7 +835,11 @@ Qualia美容分析室にて、肌質の異なるモニターによる30日間の
 イプサ ザ・タイムR アクア（200mL / 定価4,730円税込）をお得に手に入れるなら、**楽天市場のポイント還元キャンペーン**の活用が最も賢い選択です。
 
 - **「5と0のつく日」や「お買い物マラソン」**: ポイント倍率が5倍〜10倍以上に跳ね上がります。
-- **公式・認定ショップの利用**: 偽物を避け、確実に正規品を手に入れるために認証マークのあるショップを選びましょう。限定コットン付きセットなども販売されています。`,
+- **公式・認定ショップの利用**: 偽物を避け、確実に正規品を手に入れるために認証マークのあるショップを選びましょう。限定コットン付きセットなども販売されています。
+
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farianakosume%2F4931449432526%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】イプサ ザ・タイムR アクアの最安値をチェック ▶</a>
+`,
 
     isHallOfFame: true
   },
@@ -845,7 +849,7 @@ Qualia美容分析室にて、肌質の異なるモニターによる30日間の
     subtitle: '働く大人の目元に上品な陰影と艶やかな輝き。粉飛びゼロで一日中崩れない至高のパレット。',
     slug: 'suqqu-signature-color-eyes-review',
     targetGender: 'women',
-    coverImage: '/images/products/fujiko_mayutint.jpg',
+    coverImage: '/images/products/topic_makeup_suqqu.jpg',
     authorId: 'author-matsumoto',
     authorName: '松本 結衣',
     authorRole: 'Qualia メイク専属アナリスト',
@@ -920,7 +924,11 @@ SUQQUの付属ブラシは非常に質が高く、誰でも簡単に美しいぼ
 ## 7. 楽天市場のポイント還元＆限定カラーの在庫・最安値購入ガイド
 SUQQUのアイシャドウパレット（定価7,700円税込）は、大人気のため実店舗で欠品することも多数。
 
-**楽天市場の信頼できるコスメショップ**を利用すれば、ポイント高還元（5倍〜10倍）でお得に購入可能です。「お買い物マラソン」などのイベント時にエントリーして購入するのが最安値への近道です。`,
+**楽天市場の信頼できるコスメショップ**を利用すれば、ポイント高還元（5倍〜10倍）でお得に購入可能です。「お買い物マラソン」などのイベント時にエントリーして購入するのが最安値への近道です。
+
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farianakosume%2Fsuqqu-001%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】SUQQU シグニチャー カラー アイズの最安値をチェック ▶</a>
+`,
 
     isHallOfFame: true
   },
@@ -930,7 +938,7 @@ SUQQUのアイシャドウパレット（定価7,700円税込）は、大人気�
     subtitle: '自ら光を放つような透明感。くすみ・毛穴・小ジワを瞬時に補正し、上質な素肌美を演出する伝説の下地。',
     slug: 'cledepeau-voile-correcteur-review',
     targetGender: 'women',
-    coverImage: '/images/products/pauljoe_primer.jpg',
+    coverImage: '/images/products/topic_makeup_cledepeau.jpg',
     authorId: 'author-matsumoto',
     authorName: '松本 結衣',
     authorRole: 'Qualia メイク専属アナリスト',
@@ -1005,7 +1013,11 @@ SUQQUのアイシャドウパレット（定価7,700円税込）は、大人気�
 定価11,000円（税込）の最高峰下地をお得に入手するには、**楽天市場のポイント高還元イベント**の利用が必須です。
 
 - **楽天カード会員＋5と0のつく日**: ポイント倍率が大幅アップし、実質1,000円〜2,000円相当のポイントが還元。
-- **正規ルート・優良ショップの選択**: 人気商品のため、口コミ件数や評価の高い信頼できるショップで購入しましょう。`,
+- **正規ルート・優良ショップの選択**: 人気商品のため、口コミ件数や評価の高い信頼できるショップで購入しましょう。
+
+
+<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhealthlabo-shop%2Fcledep-voile-correct-3%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】クレ・ド・ポー ボーテ ヴォワールコレクチュール nの最安値をチェック ▶</a>
+`,
 
     isHallOfFame: true
   },

@@ -263,6 +263,46 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
       return;
     }
 
+    // Raw HTML anchor tag (affiliate button) - <a href="...">...</a>
+    if (trimmed.startsWith('<a ') && trimmed.includes('href=') && trimmed.endsWith('</a>')) {
+      flushList(`a-${index}`);
+      flushTable(`a-table-${index}`);
+      const hrefMatch = trimmed.match(/href="([^"]+)"/);
+      const textMatch = trimmed.match(/>([^<]+)<\/a>/);
+      const isAffiliate = trimmed.includes('affiliate-btn') || trimmed.includes('hb.afl.rakuten') || trimmed.includes('rakuten.co.jp');
+      const href = hrefMatch?.[1] || '#';
+      const linkText = textMatch?.[1] || '楽天で見る';
+      if (isAffiliate) {
+        elements.push(
+          <div key={`aff-${index}`} className="my-6 flex justify-center">
+            <a
+              href={href}
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-rose-500 to-red-600 hover:from-rose-600 hover:to-red-700 text-white font-extrabold text-sm px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 active:scale-95"
+            >
+              <span>🛒</span>
+              <span>{linkText}</span>
+              <span className="text-xs opacity-80">↗</span>
+            </a>
+          </div>
+        );
+      } else {
+        elements.push(
+          <a
+            key={`link-${index}`}
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-rose-600 underline hover:text-rose-800"
+          >
+            {linkText}
+          </a>
+        );
+      }
+      return;
+    }
+
     // Blockquote & Alerts (> )
     if (trimmed.startsWith('> ')) {
       flushList(`blockquote-${index}`);

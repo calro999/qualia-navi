@@ -46,9 +46,9 @@ export const CATEGORIES: CategorySpec[] = [
 **後期1週間（発見と結論）**
 30日間使い続けてみて、一つだけコツを見つけました。それは、一度に大量に塗るのではなく、少量ずつ手に取り、顔全体に薄く均一に伸ばすことです。こうすることで、より自然な仕上がりになり、白浮きも防げます。
 
-![/images/products/heroine-mascara.jpg](メイベリン スカイハイ)
+![ヒロインメイク マスカラ](https://thumbnail.image.rakuten.co.jp/@0_mall/maybelline/cabinet/campagin/260719/prd/6902395833307.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4936968688463%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/heroine-mascara.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00u1ixn.j9rug89f.g00u1ixn.j9ruh51b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaikisone%2Fkissme-11-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdaikisone%2Fi%2F10000556%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ヒロインメイク マスカラの最安値・口コミをチェック ▶</a>
 
 また、重ね塗りが必要な場合は、一度肌に馴染ませてから再度塗布すると良いでしょう。クレンジングは基本的に不要で、普段使っている洗顔料やボディソープで簡単にオフできる手軽さも、毎日使い続ける上で非常に大きなメリットでした。検証の結果、アネッサ金ミルクは「汗・水・摩擦に強く、高いUVカット効果を長時間持続させながらも、肌への負担が少ない」という、まさに理想的な日焼け止めであることが証明されました。猛暑による肌悩みを持つ全ての方に、自信を持っておすすめできる逸品です。これ一つあれば、今年の夏はもう怖くありません。`,
     ctaTitle: `楽天市場で最安値・在庫をチェック ↗`,
@@ -508,7 +508,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
 **デメリット・注意点**
 ⚠️ 拭いた直後に濃い色の服をすぐ着ると稀に白残りが出ることがある。拭いた後30秒乾かしてから着用がベスト。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkao%2Fbiore-sara-powder%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ビオレ さらさらパウダーシートの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00us33n.j9rug083.g00us33n.j9ruh2be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsskikaku%2F4901301347541-5%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsskikaku%2Fi%2F10000216%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ビオレ さらさらパウダーシートの最安値・口コミをチェック ▶</a>
 
 ---
 
@@ -530,7 +530,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
 **デメリット・注意点**
 ⚠️ メントールが非常に強いため顔・目元・粘膜への使用は絶対にNG。冷房の効いた室内や冬場は寒すぎることがある。敏感肌の方はパッチテスト推奨。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgatsby%2Fgatsby-ice-body-paper%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ギャツビー アイスシートの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00qn2hn.j9ruge5c.g00qn2hn.j9ruh10d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-ulmax%2Fha-4902806112511_10%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fauc-ulmax%2Fi%2F11933133%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ギャツビー アイスシートの最安値・口コミをチェック ▶</a>
 
 ---
 
@@ -553,7 +553,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
 **デメリット・注意点**
 ⚠️ アルコール高配合のため、カミソリ負けした直後やあせもがひどい時はヒリヒリする可能性がある。汗を止める効果はないため大量発汗時は拭き直しが必要。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshiseido-cosme%2Fagdeo24-sheet%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】エージーデオ24 クリアシャワーシートの最安値をチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00r136n.j9rug084.g00r136n.j9ruh4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F633463%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11391926%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】エージーデオ24 クリアシャワーシートの最安値をチェック ▶</a>
 
 ---
 
@@ -600,7 +600,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
 **デメリット・注意点**
 ⚠️ 冷感・清涼感はほぼゼロのため「爽快感」は感じにくい。テカリが気になる方にも向かない（しっとり仕上がり）。「スキンケア型」であることを理解して選ぶことが重要。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcurel%2Fcurel-skincare-sheet%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】キュレル スキンケアシートの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00rbnvn.j9rug755.g00rbnvn.j9ruh09f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftsuruha%2F10157300%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ftsuruha%2Fi%2F10092759%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】キュレル スキンケアシートの最安値・口コミをチェック ▶</a>
 
 ---
 
@@ -624,7 +624,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
 **デメリット・注意点**
 ⚠️ シートを長く放置すると乾燥して効果が半減するため、取り出したらすぐ使うこと。大判ゆえポーチへの収まりはやや悪い。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenko-lab%2Fseabreeze-bodysheet%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】シーブリーズ ボディシートの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00r136n.j9rug084.g00r136n.j9ruh4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F563550%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11186381%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】シーブリーズ ボディシートの最安値・口コミをチェック ▶</a>
 
 ---
 
@@ -647,7 +647,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
 **デメリット・注意点**
 ⚠️ ビタミンC誘導体は空気に触れると徐々に酸化するため、**開封後は1ヶ月以内を目安に使い切ること**。冷感・清涼感は弱め。美白効果は補助的なもので劇的な変化は個人差あり。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frohto%2Fmentholatum-meo-sheet%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ミーオ ビタミンCシートの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00r4fpn.j9rug4ca.g00r4fpn.j9ruh2b4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fotoriyosestadium%2F511435-v%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fotoriyosestadium%2Fi%2F10008746%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ミーオ ビタミンCシートの最安値・口コミをチェック ▶</a>
 
 ---
 
@@ -670,7 +670,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
 **デメリット・注意点**
 ⚠️ 拭き取り力が強いため、敏感肌や肌荒れ中の部位への使用は避けること。拭いた後に稀にヌルっとした感触が残ることがある。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkao%2Fbiorhez-sheet%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ビオレZ さっぱりシートの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00scoyn.j9rug5a2.g00scoyn.j9ruha38/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsugartime%2Fkzbo-825%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fsugartime%2Fi%2F10190264%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ビオレZ さっぱりシートの最安値・口コミをチェック ▶</a>
 
 ---
 
@@ -719,7 +719,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
 **デメリット・注意点**
 ⚠️ 冷感・清涼感はほぼないため、夏の暑さ対策としての機能は期待できない。乳幼児（皮膚が薄い）への使用は避けること。
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenko-lab%2Fclearclean-body-sheet%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】クリアクリーン 除菌ボディシートの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00r136n.j9rug084.g00r136n.j9ruh4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F508272%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11051719%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】クリアクリーン 除菌ボディシートの最安値・口コミをチェック ▶</a>
 
 ---
 
@@ -753,7 +753,7 @@ export const INITIAL_BLOG_POSTS: BlogPost[] = [
     subtitle: '独自の保湿成分アクアインセンダーが肌表面に水の層をつくり、水分をキープ。テカリと乾燥を同時に予防！',
     slug: 'ipsa-time-r-aqua-review',
     targetGender: 'unisex',
-    coverImage: '/images/products/topic_skincare_ipsa.jpg',
+    coverImage: 'https://thumbnail.image.rakuten.co.jp/@0_mall/arianakosume/cabinet/marason-ariana/4931449437378-ra-rk.jpg',
     authorId: 'author-tachibana',
     authorName: '橘 えりか',
     authorRole: 'Qualia 美容編集長',
@@ -844,7 +844,7 @@ Qualia美容分析室にて、肌質の異なるモニターによる30日間の
 - **公式・認定ショップの利用**: 偽物を避け、確実に正規品を手に入れるために認証マークのあるショップを選びましょう。限定コットン付きセットなども販売されています。
 
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farianakosume%2F4931449432526%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】イプサ ザ・タイムR アクアの最安値をチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00t269n.j9ruga5b.g00t269n.j9ruhd35/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farianakosume%2F4931449432526%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Farianakosume%2Fi%2F10000332%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】イプサ ザ・タイムR アクアの最安値をチェック ▶</a>
 `,
 
     isHallOfFame: true
@@ -855,7 +855,7 @@ Qualia美容分析室にて、肌質の異なるモニターによる30日間の
     subtitle: '働く大人の目元に上品な陰影と艶やかな輝き。粉飛びゼロで一日中崩れない至高のパレット。',
     slug: 'suqqu-signature-color-eyes-review',
     targetGender: 'women',
-    coverImage: '/images/products/topic_makeup_suqqu.jpg',
+    coverImage: 'https://thumbnail.image.rakuten.co.jp/@0_mall/arianakosume/cabinet/marason-6/suqqu-001-rk.jpg',
     authorId: 'author-matsumoto',
     authorName: '松本 結衣',
     authorRole: 'Qualia メイク専属アナリスト',
@@ -933,7 +933,7 @@ SUQQUのアイシャドウパレット（定価7,700円税込）は、大人気�
 **楽天市場の信頼できるコスメショップ**を利用すれば、ポイント高還元（5倍〜10倍）でお得に購入可能です。「お買い物マラソン」などのイベント時にエントリーして購入するのが最安値への近道です。
 
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farianakosume%2Fsuqqu-001%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】SUQQU シグニチャー カラー アイズの最安値をチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00t269n.j9ruga5b.g00t269n.j9ruhd35/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farianakosume%2Fsuqqu-001%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Farianakosume%2Fi%2F10003299%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】SUQQU シグニチャー カラー アイズの最安値をチェック ▶</a>
 `,
 
     isHallOfFame: true
@@ -944,7 +944,7 @@ SUQQUのアイシャドウパレット（定価7,700円税込）は、大人気�
     subtitle: '自ら光を放つような透明感。くすみ・毛穴・小ジワを瞬時に補正し、上質な素肌美を演出する伝説の下地。',
     slug: 'cledepeau-voile-correcteur-review',
     targetGender: 'women',
-    coverImage: '/images/products/topic_makeup_cledepeau.jpg',
+    coverImage: 'https://thumbnail.image.rakuten.co.jp/@0_mall/fancylifecosme/cabinet/09993816/12944613/vowaru123.jpg',
     authorId: 'author-matsumoto',
     authorName: '松本 結衣',
     authorRole: 'Qualia メイク専属アナリスト',
@@ -1022,7 +1022,7 @@ SUQQUのアイシャドウパレット（定価7,700円税込）は、大人気�
 - **正規ルート・優良ショップの選択**: 人気商品のため、口コミ件数や評価の高い信頼できるショップで購入しましょう。
 
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhealthlabo-shop%2Fcledep-voile-correct-3%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】クレ・ド・ポー ボーテ ヴォワールコレクチュール nの最安値をチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00tnwtn.j9rug9fa.g00tnwtn.j9ruhf2b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffancylifecosme%2F4514254971888%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ffancylifecosme%2Fi%2F10000538%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】クレ・ド・ポー ボーテ ヴォワールコレクチュール nの最安値をチェック ▶</a>
 `,
 
     isHallOfFame: true
@@ -1034,7 +1034,7 @@ SUQQUのアイシャドウパレット（定価7,700円税込）は、大人気�
     title: '【2026年最新】猛暑とエアコンに負けない透明美肌へ！紫外線＆インナードライ対策の神コスメ3選とプロ直伝のスキンケア完全ガイド',
     subtitle: '楽天市場で高評価の最新UVカット・多重層リポソーム保湿美容液・韓国美容針ブースターをQualia美容分析室が実機＆成分徹底検証！',
     targetGender: 'unisex',
-    coverImage: '/images/products/topic_skincare_decorte.jpg',
+    coverImage: 'https://thumbnail.image.rakuten.co.jp/@0_mall/cosme-venus/cabinet/skuimage/topimage/decoripo.jpg',
     authorId: 'author-tachibana',
     authorName: '橘 えりか',
     authorRole: 'コスメ＆美容編集長',
@@ -1068,9 +1068,9 @@ Qualia Navi美容分析室では、今年絶対に行うべき美肌ケアとし
 - **実体感の口コミ**: 「洗顔直後に2〜3プッシュ馴染ませるだけで、翌朝まで一切乾かない」「ベタつきゼロで後から使う化粧水の吸い込みが劇的に変わる」と絶賛の嵐。
 - **楽天市場での買い方**: 公式正規代理店ショップでの購入により、ショップ限定ポイント10倍還元イベントや限定オマケが対象になり、実質最安値級で入手可能。
 
-![/images/products/topic_skincare_decorte.jpg](コスメデコルテ リポソーム アドバンスト リペアセラム)
+![コスメデコルテ リポソーム アドバンスト](https://thumbnail.image.rakuten.co.jp/@0_mall/cosme-venus/cabinet/skuimage/topimage/decoripo.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmarble-inc%2F2915-000507%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_skincare_decorte.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00s3q0n.j9rug0c0.g00s3q0n.j9ruh9e5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcosme-venus%2F4971710521917%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcosme-venus%2Fi%2F10008517%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】コスメデコルテ リポソーム アドバンストの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1090,9 +1090,9 @@ Qualia Navi美容分析室では、今年絶対に行うべき美肌ケアとし
 - **使用感と下地機能**: 白浮きせず、さらさらとしたシルキータッチな仕上がり。皮脂によるメイク崩れを防ぐ化粧下地としても非常に高い評価を獲得。
 - **落としやすさ**: 強力なスーパーウォータープルーフ仕様でありながら、普段の洗顔料やボディソープでスルリと落とせる肌への優しさも両立。
 
-![/images/products/topic_suncare_anessa.jpg](アネッサ パーフェクトUV スキンケアミルク NA)
+![アネッサ パーフェクトUV](https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/105/4909978147105.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_suncare_anessa.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00r136n.j9rug084.g00r136n.j9ruh4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11254952%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】アネッサ パーフェクトUVの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1112,9 +1112,9 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 - **100（入門用）の安心感**: 毎日夜のスキンケアに使用できるマイルドな刺激設計。毛穴の開きやザラつきが気になる方に劇的な手触りの変化をもたらします。
 - **楽天市場VT公式ショップ**: 頻繁にポイント20倍やシートマスクの豪華プレゼントキャンペーンを実施中。
 
-![/images/products/topic_kbeauty_vt.jpg](VT リードルショット 100)
+![VT リードルショット](https://thumbnail.image.rakuten.co.jp/@0_mall/cosme-venus/cabinet/skuimage/topimage/8809695678363-set.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnextera2021%2Freedles%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_kbeauty_vt.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00tdwhn.j9rugcde.g00tdwhn.j9ruh11e/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvtcosmetic-official%2Freedle2set_bb%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fvtcosmetic-official%2Fi%2F10001994%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】VT リードルショットの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1138,7 +1138,7 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
     title: '【夏のコスメ特集】滝汗でも絶対に崩れない！真夏の鉄壁ベースメイク＆落ちないポイントメイク完全攻略',
     subtitle: '猛暑を乗り切るための最強コスメを厳選。皮脂崩れを徹底ブロックし、夜まで「直したて」の美しさをキープする秘訣。',
     targetGender: 'women',
-    coverImage: '/images/products/topic_makeup_lipmonster.jpg',
+    coverImage: 'https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24-cosmetics/cabinet/829/405829.jpg',
     authorId: 'author-tachibana',
     authorName: '橘 えりか',
     authorRole: 'コスメ＆美容編集長',
@@ -1167,16 +1167,16 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 1.  **高密着の下地**: 皮脂ブロック効果のある下地を、顔全体ではなく「Tゾーン（おでこ、鼻）」などのテカりやすい部分にのみ薄く叩き込みます。
 2.  **無重力ファンデーション**: **ランコム タンイドル ウルトラ ウェア リキッド**のような、薄膜で皮脂を吸着するリキッドファンデを使用。水を含ませたスポンジでポンポンと叩き込むことで、密着力が段違いに上がります。
 
-![/images/products/primavista.jpg](ランコム タンイドル ウルトラ ウェア リキッド)
+![プリマヴィスタ スキンプロテクトベース](https://thumbnail.image.rakuten.co.jp/@0_mall/lancome/cabinet/12611101/12611109/13536662/imgrc0137259191.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fblanc-lapin%2Flanhl0000001%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/primavista.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00r136n.j9rug084.g00r136n.j9ruh4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4901301403100%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11102303%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】プリマヴィスタ スキンプロテクトベースの最安値・口コミをチェック ▶</a>
 
 
 3.  **パウダーでの強力なフタ**: 仕上げは**エレガンス ラ プードル**。これでもかというほどパフに揉み込み、顔全体をサラサラの陶器肌に仕上げます。これが夏の皮脂を完全にブロックする要です。
 
-![/images/products/nars_powder.jpg](エレガンス ラ プードル オートニュアンス)
+![エレガンス ラ プードル](https://thumbnail.image.rakuten.co.jp/@0_mall/blanc-lapin/cabinet/02220557/eleip0000001.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fk-fleur%2Felegance-poudre-4%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/nars_powder.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00u8rnn.j9rug30a.g00u8rnn.j9ruhca9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnakamurashouji%2Felegance-refill%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnakamurashouji%2Fi%2F10000409%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】エレガンス ラ プードルの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1189,9 +1189,9 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 *   **アイライナー**: **ラブ・ライナー**や**UZU**などのリキッドタイプを推奨。ペンシルタイプは油分に弱く夏場は溶けやすいため避けるのが無難です。
 *   **マスカラ**: ウォータープルーフはもちろんのこと、皮脂にも強い「スマッジプルーフ」処方のもの（**メイベリン スカイハイ**など）を選ぶと、夕方のパンダ目を防げます。
 
-![/images/products/heroine-mascara.jpg](メイベリン スカイハイ)
+![ヒロインメイク マスカラ](https://thumbnail.image.rakuten.co.jp/@0_mall/maybelline/cabinet/campagin/260719/prd/6902395833307.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4936968688463%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/heroine-mascara.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00u1ixn.j9rug89f.g00u1ixn.j9ruh51b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaikisone%2Fkissme-11-1%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdaikisone%2Fi%2F10000556%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ヒロインメイク マスカラの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1203,9 +1203,9 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 
 *   **密着ジェル膜の活用**: ティントのように染めるのではなく、唇の水分で密着膜を作る**KATE リップモンスター**がやはり最強です。塗ってから5分ほど置き、一度軽くティッシュオフすることで、コップへの色移りを完全に防ぐことができます。
 
-![/images/products/topic_makeup_lipmonster.jpg](KATE リップモンスター)
+![KATE リップモンスター](https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24-cosmetics/cabinet/829/405829.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatukiyo%2F4973167825227%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_makeup_lipmonster.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00ufaun.j9ruga30.g00ufaun.j9ruh25a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24-cosmetics%2F405829%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24-cosmetics%2Fi%2F10041404%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】KATE リップモンスターの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1218,7 +1218,7 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
     title: '【夏の体臭ケア特集】汗のニオイ、ワキガ、加齢臭を完全ブロック！エチケット最前線',
     subtitle: '自分のニオイは気づきにくいからこそ徹底ケアを。最新デオドラントの使い分けで、一日中「無臭」をキープする。',
     targetGender: 'unisex',
-    coverImage: '/images/products/topic_body_deonature.jpg',
+    coverImage: 'https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/667/84667.jpg',
     authorId: 'author-hasumi',
     authorName: '蓮見 拓真',
     authorRole: '統括編集長 (メンズ・身だしなみ)',
@@ -1246,9 +1246,9 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 お出かけ前の「乾いた清潔な肌」に、**デオナチュレ**などの直塗りクリーム（またはスティック）をしっかり塗り込みます。
 有効成分の「焼ミョウバン」が毛穴をキュッと引き締め、ニオイ菌の繁殖を根本からブロック。朝塗れば、夜お風呂に入るまで絶対に臭わせません。
 
-![/images/products/topic_body_deonature.jpg](デオナチュレ ソフトストーンW)
+![デオナチュレ ソフトストーンW](https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/667/84667.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4971825016582%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_body_deonature.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00r136n.j9rug084.g00r136n.j9ruh4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F84667%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F10965528%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】デオナチュレ ソフトストーンWの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1266,9 +1266,9 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
 **エージーデオ24**のような、殺菌成分と皮脂吸着パウダーが配合されたスプレーを使用します。
 最近のスプレーは「加齢臭」や「ストレス臭」を独自の香料技術でマスキング（包み込んで消す）効果もあるため、全身にサッとスプレーするだけで、瞬時にサラサラで無臭の空間を作り出すことができます。
 
-![/images/products/topic_body_agdeo24.jpg](エージーデオ24 パウダースプレー)
+![エージーデオ24](https://thumbnail.image.rakuten.co.jp/@0_mall/at-life/cabinet/d/202410/imgrc0095399713.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4550516493286%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_body_agdeo24.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00ru0on.j9rug47a.g00ru0on.j9ruh3d2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fat-life%2F4901872470785%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fat-life%2Fi%2F12001777%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】エージーデオ24の最安値・口コミをチェック ▶</a>
 
 
 
@@ -1290,7 +1290,7 @@ SNSや美容雑誌の2026年ベストコスメを総なめにしている韓国�
     title: '【夏のUVケア特集】絶対に焼かない！最強日焼け止めと「うっかり焼け」を防ぐ全方位バリア',
     subtitle: '日焼け止めの進化は止まらない。スキンケア効果、摩擦耐性、そして塗り直しのしやすさを徹底比較。',
     targetGender: 'unisex',
-    coverImage: '/images/products/topic_suncare_anessa.jpg',
+    coverImage: 'https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/105/4909978147105.jpg',
     authorId: 'author-watanabe',
     authorName: '渡辺 陽菜',
     authorRole: 'UVケアオタク・コレクター',
@@ -1314,9 +1314,9 @@ SPF50+ PA++++の強力な日焼け止めを使うのはもはや当たり前。�
 *   **アネッサ パーフェクトUV スキンケアミルク (金ミルク)**のような、汗や水に触れるとUVブロック膜がさらに強くなる技術（アクアブースターEXなど）を搭載した製品を選びましょう。
 *   また、マスクの着脱やタオルで汗を拭くことによる「摩擦（こすれ）」で日焼け止めは剥がれ落ちます。こすれに強い「フリクションプルーフ」処方のものを選ぶことが重要です。
 
-![/images/products/topic_suncare_anessa.jpg](アネッサ パーフェクトUV スキンケアミルク NA)
+![アネッサ パーフェクトUV](https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/105/4909978147105.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_suncare_anessa.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00r136n.j9rug084.g00r136n.j9ruh4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11254952%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】アネッサ パーフェクトUVの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1329,9 +1329,9 @@ SPF50+ PA++++の強力な日焼け止めを使うのはもはや当たり前。�
 *   **ビオレUV アクアリッチ ウォータリーエッセンス**に代表されるような、水のようにスッと伸びてベタつかないタイプは、日焼け止め特有の「閉塞感」や「白浮き」が苦手な方（特に男性）に大人気です。
 *   毎日使うものだからこそ、クレンジング不要でいつもの洗顔料で落とせる手軽さも重要です。
 
-![/images/products/topic_suncare_biore.jpg](ビオレUV アクアリッチ ウォータリーエッセンス)
+![ビオレUV アクアリッチ ウォータリー](https://thumbnail.image.rakuten.co.jp/@0_mall/rakutensokuhaimart/cabinet/rakuten24/647/4901301447647.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Felonline522%2F4027-000827%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_suncare_biore.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00rwxpn.j9rug382.g00rwxpn.j9ruh54f/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdrugkirin%2F4901301447647-5sale%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdrugkirin%2Fi%2F10101128%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】ビオレUV アクアリッチ ウォータリーの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1346,9 +1346,9 @@ SPF50+ PA++++の強力な日焼け止めを使うのはもはや当たり前。�
 
 1.  **UVカット効果のあるパウダー**: エレガンス ラ プードルなど、お直しのついでにUVパウダーを重ねることで、テカリを抑えつつ紫外線をブロックできます。
 
-![/images/products/nars_powder.jpg](エレガンス ラ プードル オートニュアンス)
+![エレガンス ラ プードル](https://thumbnail.image.rakuten.co.jp/@0_mall/blanc-lapin/cabinet/02220557/eleip0000001.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fk-fleur%2Felegance-poudre-4%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/nars_powder.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00u8rnn.j9rug30a.g00u8rnn.j9ruhca9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnakamurashouji%2Felegance-refill%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnakamurashouji%2Fi%2F10000409%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】エレガンス ラ プードルの最安値・口コミをチェック ▶</a>
 
 
 2.  **UVカットスプレー・ミスト**: 顔に直接吹きかけられるスプレータイプ（またはミストタイプ）の日焼け止めをバッグに忍ばせておき、外出先でシューッと吹きかけるのが最も手軽で効果的です。
@@ -1889,9 +1889,9 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 諭吉パウダー（1万円超え）の代名詞として常に覇権を争う2大デパコスパウダー。**「保湿とツヤ」にステータスを全振りしたコスメデコルテ**と、**「テカリ防止と毛穴補正」にステータスを全振りしたエレガンス**。
 全く異なる仕上がりになるため、自分の理想とする肌質に合わせて選ぶことが重要です。
 
-![/images/products/topic_suncare_anessa.jpg](アネッサ パーフェクトUV スキンケアミルク NA)
+![アネッサ パーフェクトUV](https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/105/4909978147105.jpg)
 
-<a href="https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】/images/products/topic_suncare_anessa.jpgの最安値・口コミをチェック ▶</a>
+<a href="https://hb.afl.rakuten.co.jp/hgc/g00r136n.j9rug084.g00r136n.j9ruh4be/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F4909978147105%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24%2Fi%2F11254952%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天】アネッサ パーフェクトUVの最安値・口コミをチェック ▶</a>
 
 
 
@@ -1940,7 +1940,7 @@ export const INITIAL_COMPARISONS: ProductComparison[] = [
 > 朝のメイク時、乾燥しやすい「Uゾーン（頬・フェイスライン）」には**コスメデコルテ**を大きめのブラシでふんわり乗せ、テカりやすい「Tゾーン（おでこ・鼻）」には**エレガンス**をパフでしっかり押し込む。これが局地戦を制する最強のベースメイク術です。
 `,
     createdAt: '2026-07-24',
-    coverImage: '/images/products/nars_powder.jpg'
+    coverImage: 'https://thumbnail.image.rakuten.co.jp/@0_mall/nakamurashouji/cabinet/imgrc0134621194.jpg'
   }
 
   ,

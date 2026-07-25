@@ -18,9 +18,29 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
 
   useEffect(() => {
     updateSeoGeoMetadata({
-      title: 'Qualia Navi (クオリア・ナビ) - プチプラ・デパコス・韓国コスメ比較ガイド',
-      description: '人気コスメ、スキンケア、プチプラ・ドラコス・韓国コスメをQualia美容分析室が実地検証！',
-      urlPath: '/'
+      title: '【2026年最新】Qualia Navi - プチプラ・デパコス・韓国コスメのリアル比較検証',
+      description: '人気コスメ、スキンケア、プチプラ・ドラコス・韓国コスメをQualia美容分析室が実地検証！失敗しないコスメ選びをサポートします。',
+      urlPath: '/',
+      jsonLdSchema: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'Organization',
+          name: 'Qualia Navi (クオリア・ナビ)',
+          url: 'https://qualia-navi.vercel.app',
+          logo: 'https://qualia-navi.vercel.app/favicon.svg'
+        },
+        {
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: 'Qualia Navi (クオリア・ナビ)',
+          url: 'https://qualia-navi.vercel.app',
+          potentialAction: {
+            '@type': 'SearchAction',
+            target: 'https://qualia-navi.vercel.app/?search={search_term_string}',
+            'query-input': 'required name=search_term_string'
+          }
+        }
+      ]
     });
   }, []);
 

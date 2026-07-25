@@ -19,7 +19,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
     if (article) {
       const jsonLd = generateProductJsonLd(article as any, window.location.origin);
       updateSeoGeoMetadata({
-        title: `${article.productName || article.title} 口コミ・最安値・使い方 | Qualia Navi`,
+        title: `【2026年最新】${article.productName || article.title}の口コミ・評判・最安値を徹底比較検証 | Qualia Navi`,
         description: article.introText,
         imageUrl: article.imageUrl,
         urlPath: `/articles/${article.id}`,

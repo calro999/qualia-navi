@@ -1,10 +1,10 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
 import https from 'https';
 
 console.log('🌐 [Sitemap & IndexNow] XMLサイトマップの自動更新およびBing IndexNow送信を開始します...');
 
-const domain = 'https://mono-go.vercel.app';
+const domain = 'https://qualia-navi.vercel.app';
 const currentDate = new Date().toISOString().split('T')[0];
 
 const dataPath = resolve(process.cwd(), 'src', 'data.ts');
@@ -15,6 +15,18 @@ const articleIds = [];
 const artMatches = content.matchAll(/id:\s*['"](art-.*?)['"]/g);
 for (const m of artMatches) {
   articleIds.push(m[1]);
+}
+
+// Extract article IDs from articles.json
+const jsonPath = resolve(process.cwd(), 'src', 'data', 'articles.json');
+if (existsSync(jsonPath)) {
+  const jsonContent = readFileSync(jsonPath, 'utf8');
+  const articles = JSON.parse(jsonContent);
+  articles.forEach(art => {
+    if (art.id && !articleIds.includes(art.id)) {
+      articleIds.push(art.id);
+    }
+  });
 }
 
 // Extract all comparison IDs from data.ts
@@ -92,7 +104,7 @@ writeFileSync(outputPath, xml, 'utf8');
 console.log(`✅ [Sitemap Updated] sitemap.xml を全 ${articleIds.length + comparisons.length + blogs.length + 2} URL で最新化しました。`);
 
 // Send IndexNow Ping
-const host = 'mono-go.vercel.app';
+const host = 'qualia-navi.vercel.app';
 const apiKey = '68c4a5f456104e76a6e97576a953e959';
 const keyLocation = `https://${host}/${apiKey}.txt`;
 

@@ -1428,7 +1428,7 @@ SPF50+ PA++++の鉄壁防御。さらに**エリクシール トーンアップ 
         ]
     },
     "サボン ヘッドスクラブ": {
-        "filename": "sabon_headscrub.jpg",
+        "image_url": "https://tshop.r10s.jp/sabon/cabinet/prd/s0182/s0182_n.jpg?fitin=500:500", "affiliate_url": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsabon%2Fs0182%2F",
         "title": "【夏の頭皮臭・詰まりをリセット】サボン ヘッドスクラブ 自宅で極上ヘッドスパ",
         "productName": "サボン ヘッドスクラブ デリケート・ジャスミン",
         "categoryLabel": "ヘアケア・スカルプケア",

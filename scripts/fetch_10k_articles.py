@@ -110,6 +110,7 @@ def main():
                     'accessKey': ACCESS_KEY,
                     'affiliateId': AFF_ID,
                     'keyword': keyword,
+                    'genreId': '100939', # 美容・コスメ・香水ジャンル固定
                     'page': page,
                     'format': 'json',
                     'hits': 30,
@@ -149,6 +150,10 @@ def main():
                     article_id = f"art-real-{item_code.replace(':', '-')}"
                     created_at = start_date + timedelta(days=random.randint(0, 25))
                     
+                    rich_body = generate_rich_review(display_name, cat_label)
+                    # 確実にアフィリエイトリンクを踏ませるため、本文末尾にテキストリンクを追記
+                    rich_body += f"\n\n### 🛍️ 公式ショップでお得にGET！\n\n[▶︎ 楽天市場で「{display_name}」の最安値と口コミをチェックする（公式リンク）]({affiliate_url})"
+                    
                     article = {
                         "id": article_id,
                         "title": f"【2026年最新】{display_name} 徹底比較レビュー",
@@ -163,7 +168,7 @@ def main():
                         "features": ["高保湿", "話題の成分配合", "リピーター多数"],
                         "pros": ["使用感が非常に良い", "コストパフォーマンスが高い", "話題の成分配合"],
                         "cons": ["人気すぎて品薄になりやすい", "香りの好みが分かれる可能性がある"],
-                        "reviewBody": generate_rich_review(display_name, cat_label),
+                        "reviewBody": rich_body,
                         "ctaTitle": f"楽天でお得に購入する",
                         "affiliateLink": affiliate_url,
                         "rakutenPrice": f"¥{price:,}",

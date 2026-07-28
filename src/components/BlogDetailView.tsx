@@ -1,6 +1,21 @@
 import { BlogPost, RakutenProductArticle, AuthorProfile } from '../types';
 import { ArrowLeft, Star, ExternalLink, Check, Calendar, Clock, ShoppingCart } from 'lucide-react';
 
+
+const CoverImage = ({ src, alt, className, loading }: { src: string | string[], alt: string, className?: string, loading?: 'lazy' | 'eager' }) => {
+  if (Array.isArray(src)) {
+    return (
+      <div className={`grid grid-cols-2 gap-0.5 w-full h-full bg-slate-100 ${className}`}>
+        {src.map((url, i) => (
+          <img key={i} src={url} alt={`${alt} ${i+1}`} className="w-full h-full object-cover" loading={loading} />
+        ))}
+      </div>
+    );
+  }
+  return <img src={src} alt={alt} className={`w-full h-full object-cover ${className || ''}`} loading={loading} />;
+};
+
+
 interface BlogDetailViewProps {
   post: BlogPost;
   recommendedArticles: RakutenProductArticle[];
@@ -73,7 +88,7 @@ export function BlogDetailView({ post, recommendedArticles, author, onBack, onSe
 
       {/* Cover Image */}
       <div className="rounded-2xl overflow-hidden mb-8 border border-slate-200 shadow-sm aspect-video bg-gradient-to-br from-slate-50 via-rose-50/20 to-pink-50/30 p-6 flex items-center justify-center">
-        <img
+        <CoverImage
           src={post.coverImage}
           alt={post.title}
           className="max-h-full max-w-full object-contain drop-shadow-md"

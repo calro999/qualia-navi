@@ -1,6 +1,21 @@
 import { BlogPost } from '../types';
 import { Sparkles, Calendar, Clock, ChevronRight } from 'lucide-react';
 
+
+const CoverImage = ({ src, alt, className, loading }: { src: string | string[], alt: string, className?: string, loading?: 'lazy' | 'eager' }) => {
+  if (Array.isArray(src)) {
+    return (
+      <div className={`grid grid-cols-2 gap-0.5 w-full h-full bg-slate-100 ${className}`}>
+        {src.map((url, i) => (
+          <img key={i} src={url} alt={`${alt} ${i+1}`} className="w-full h-full object-cover" loading={loading} />
+        ))}
+      </div>
+    );
+  }
+  return <img src={src} alt={alt} className={`w-full h-full object-cover ${className || ''}`} loading={loading} />;
+};
+
+
 interface BlogViewProps {
   posts: BlogPost[];
   onSelectPost: (postId: string) => void;
@@ -34,7 +49,7 @@ export function BlogView({ posts, onSelectPost }: BlogViewProps) {
             <div>
               {/* Cover Image & Tag */}
               <div className="relative aspect-video overflow-hidden bg-slate-100">
-                <img
+                <CoverImage
                   src={post.coverImage}
                   alt={post.title}
                   className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform duration-500"

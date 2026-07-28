@@ -3,6 +3,21 @@ import { INITIAL_ARTICLES, INITIAL_BLOG_POSTS, INITIAL_COMPARISONS } from '../da
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+
+const CoverImage = ({ src, alt, className, loading }: { src: string | string[], alt: string, className?: string, loading?: 'lazy' | 'eager' }) => {
+  if (Array.isArray(src)) {
+    return (
+      <div className={`grid grid-cols-2 gap-0.5 w-full h-full bg-slate-100 ${className}`}>
+        {src.map((url, i) => (
+          <img key={i} src={url} alt={`${alt} ${i+1}`} className="w-full h-full object-cover" loading={loading} />
+        ))}
+      </div>
+    );
+  }
+  return <img src={src} alt={alt} className={`w-full h-full object-cover ${className || ''}`} loading={loading} />;
+};
+
+
 interface InternalLinkMeshProps {
   currentArticleId: string;
   category: string;
@@ -83,7 +98,7 @@ export function InternalLinkMesh({ currentArticleId, category }: InternalLinkMes
             className="col-span-1 block relative rounded-2xl overflow-hidden group shadow-md"
           >
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 to-gray-900/20 z-10" />
-            <img 
+            <CoverImage 
               src={feature.coverImage} 
               alt={feature.title}
               className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700"
@@ -106,7 +121,7 @@ export function InternalLinkMesh({ currentArticleId, category }: InternalLinkMes
             className="col-span-1 block relative rounded-2xl overflow-hidden group shadow-md"
           >
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 to-gray-900/20 z-10" />
-            <img 
+            <CoverImage 
               src={comp.coverImage || "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600"} 
               alt={comp.title}
               className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700"

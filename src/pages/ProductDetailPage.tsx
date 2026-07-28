@@ -2,6 +2,7 @@ import React from 'react';
 import { RakutenProductArticle } from '../types';
 import { AUTHOR_PROFILES, INITIAL_COMPARISONS } from '../data';
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
+import { InternalLinkMesh } from '../components/InternalLinkMesh';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { generateProductJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
 import { ShoppingCart, ExternalLink, Star, CheckCircle, ShieldCheck, ArrowLeft } from 'lucide-react';
@@ -285,6 +286,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
               ))}
             </div>
           </div>
+          <InternalLinkMesh currentArticleId={article.id} category={article.category} />
         </article>
       </div>
     </div>

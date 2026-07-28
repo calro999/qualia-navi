@@ -107,12 +107,18 @@ export function generateProductJsonLd(
         '@type': 'Person',
         name: article.reviewerName || 'Qualia 美容分析室'
       },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Qualia Navi'
+      },
       reviewBody: article.reviewBody
     },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: article.starRating.toString(),
-      reviewCount: (article.reviewCount || 100).toString()
+      reviewCount: (article.reviewCount || 100).toString(),
+      description: '楽天市場での実際のユーザー評価に基づく平均スコア',
+      url: article.affiliateLink
     },
     offers: {
       '@type': 'Offer',

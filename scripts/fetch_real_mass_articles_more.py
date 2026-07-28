@@ -102,9 +102,9 @@ def main():
         cat_id = sq["category"]
         cat_label = sq["categoryLabel"]
         
-        print(f"Fetching for {keyword} (Page 1 & 2)...")
+        print(f"Fetching for {keyword} (Pages 3, 4, 5)...")
         
-        for page in [1, 2]:
+        for page in [3, 4, 5]:
             params = {
                 'applicationId': APP_ID,
                 'accessKey': ACCESS_KEY,

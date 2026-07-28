@@ -56,12 +56,8 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
       return matchCat && matchQuery;
     });
 
-    // 常に新しく追加した商品（createdAtが新しいもの）が上に来るようにソート
-    return filtered.sort((a, b) => {
-      const dateA = new Date(a.createdAt || 0).getTime();
-      const dateB = new Date(b.createdAt || 0).getTime();
-      return dateB - dateA; // 降順 (新しい順)
-    });
+    // 常に新しく追加した商品（articles配列の末尾にあるもの）が上に来るように元の順序を反転
+    return filtered.reverse();
   }, [articles, selectedCategory, searchQuery]);
 
   const displayedComparisons = showAllComparisons ? INITIAL_COMPARISONS : INITIAL_COMPARISONS.slice(0, 4);

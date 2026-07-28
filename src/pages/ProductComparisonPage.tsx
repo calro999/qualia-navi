@@ -5,6 +5,21 @@ import { getRakutenOptimizedImageUrl, handleImageError } from '../utils/imageHel
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
 import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft } from 'lucide-react';
 
+
+const CoverImage = ({ src, alt, className, loading }: { src: string | string[], alt: string, className?: string, loading?: 'lazy' | 'eager' }) => {
+  if (Array.isArray(src)) {
+    return (
+      <div className={`grid grid-cols-2 gap-0.5 w-full h-full bg-slate-100 ${className}`}>
+        {src.map((url, i) => (
+          <img key={i} src={url} alt={`${alt} ${i+1}`} className="w-full h-full object-cover" loading={loading} />
+        ))}
+      </div>
+    );
+  }
+  return <img src={src} alt={alt} className={`w-full h-full object-cover ${className || ''}`} loading={loading} />;
+};
+
+
 interface ProductComparisonPageProps {
   compareId: string;
   onNavigate: (path: string) => void;

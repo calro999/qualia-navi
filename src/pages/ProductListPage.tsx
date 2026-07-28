@@ -45,7 +45,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
   }, []);
 
   const filteredArticles = useMemo(() => {
-    return articles.filter((art) => {
+    const filtered = articles.filter((art) => {
       const matchCat =
         selectedCategory === 'all' || art.category === selectedCategory;
       const matchQuery =
@@ -54,6 +54,13 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
         (art.productName && art.productName.toLowerCase().includes(searchQuery.toLowerCase())) ||
         art.introText.toLowerCase().includes(searchQuery.toLowerCase());
       return matchCat && matchQuery;
+    });
+
+    // 常に新しく追加した商品（createdAtが新しいもの）が上に来るようにソート
+    return filtered.sort((a, b) => {
+      const dateA = new Date(a.createdAt || 0).getTime();
+      const dateB = new Date(b.createdAt || 0).getTime();
+      return dateB - dateA; // 降順 (新しい順)
     });
   }, [articles, selectedCategory, searchQuery]);
 

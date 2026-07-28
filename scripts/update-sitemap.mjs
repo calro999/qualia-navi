@@ -112,7 +112,7 @@ const postData = JSON.stringify({
   host: host,
   key: apiKey,
   keyLocation: keyLocation,
-  urlList: [`https://${host}/`, ...articleIds.slice(-5).map(id => `https://${host}/articles/${id}`)]
+  urlList: [`https://${host}/`, ...articleIds.slice(0, 1000).map(id => `https://${host}/articles/${id}`)]
 });
 
 const req = https.request({

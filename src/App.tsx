@@ -9,6 +9,7 @@ import { BlogPostPage } from './pages/BlogPostPage';
 import { ProductComparisonPage } from './pages/ProductComparisonPage';
 import { AuthorListPage } from './pages/AuthorListPage';
 import { AuthorDetailPage } from './pages/AuthorDetailPage';
+import { SitemapPage } from './pages/SitemapPage';
 import { Sparkles, ShoppingBag, Users } from 'lucide-react';
 import { RakutenProductArticle } from './types';
 
@@ -92,6 +93,10 @@ export default function App() {
           onNavigate={navigateTo}
         />
       );
+    }
+
+    if (currentPath === '/sitemap') {
+      return <SitemapPage onNavigate={navigateTo} />;
     }
 
     return (
@@ -197,7 +202,7 @@ export default function App() {
             </p>
           </div>
 
-          {/* Legal & Disclaimer */}
+          {/* Links & Legal */}
           <div className="space-y-4 md:col-span-2">
             <h4 className="text-sm font-bold text-slate-800">免責事項・プライバシーポリシー</h4>
             <div className="text-[11px] text-slate-500 leading-relaxed space-y-2">
@@ -210,6 +215,12 @@ export default function App() {
               <p>
                 <strong>アクセス解析ツールについて:</strong> 当サイトでは、Googleによるアクセス解析ツール「Google Analytics」を利用しています。このGoogle Analyticsはトラフィックデータの収集のためにCookieを使用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。
               </p>
+            </div>
+            
+            <div className="pt-4 flex gap-4">
+              <button onClick={() => navigateTo('/sitemap')} className="text-xs text-rose-500 hover:text-rose-700 font-bold underline underline-offset-2">
+                サイトマップ (Sitemap)
+              </button>
             </div>
           </div>
         </div>

@@ -122,8 +122,58 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
             </div>
           </div>
 
+          {/* High-Quality Spec Comparison Table */}
+          <div className="space-y-4 pt-8 border-t border-slate-200">
+            <h3 className="text-xl font-extrabold text-slate-900 font-serif-brand text-center">スペック徹底比較表</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse min-w-[500px]">
+                <thead>
+                  <tr>
+                    <th className="p-3 border-b-2 border-slate-300 bg-slate-50 w-1/4 text-slate-500 font-bold">比較項目</th>
+                    <th className="p-3 border-b-2 border-rose-300 bg-rose-50/50 w-3/8 text-rose-900 font-bold text-center">{itemA.productName || itemA.title}</th>
+                    <th className="p-3 border-b-2 border-blue-300 bg-blue-50/50 w-3/8 text-blue-900 font-bold text-center">{itemB.productName || itemB.title}</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100">
+                  <tr>
+                    <td className="p-3 bg-slate-50 font-bold text-slate-700">参考価格</td>
+                    <td className="p-3 text-center font-medium">{itemA.rakutenPrice || '価格未定'}</td>
+                    <td className="p-3 text-center font-medium">{itemB.rakutenPrice || '価格未定'}</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 bg-slate-50 font-bold text-slate-700">ユーザー評価</td>
+                    <td className="p-3 text-center text-amber-500 font-bold">★ {itemA.starRating} <span className="text-xs text-slate-400">({itemA.reviewCount}件)</span></td>
+                    <td className="p-3 text-center text-amber-500 font-bold">★ {itemB.starRating} <span className="text-xs text-slate-400">({itemB.reviewCount}件)</span></td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 bg-slate-50 font-bold text-slate-700">主な特徴</td>
+                    <td className="p-3">
+                      <ul className="text-xs space-y-1 list-disc pl-4 text-slate-600">
+                        {itemA.features?.map((f: string, i: number) => <li key={i}>{f}</li>) || <li>話題のアイテム</li>}
+                      </ul>
+                    </td>
+                    <td className="p-3">
+                      <ul className="text-xs space-y-1 list-disc pl-4 text-slate-600">
+                        {itemB.features?.map((f: string, i: number) => <li key={i}>{f}</li>) || <li>話題のアイテム</li>}
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 bg-slate-50 font-bold text-slate-700">メリット</td>
+                    <td className="p-3 text-rose-600 text-xs font-medium">
+                      {itemA.pros?.join(' / ') || '使用感が良い'}
+                    </td>
+                    <td className="p-3 text-blue-600 text-xs font-medium">
+                      {itemB.pros?.join(' / ') || 'コスパが良い'}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
           {/* Comparison Points Matrix */}
-          <div className="space-y-4 pt-4 border-t border-slate-200">
+          <div className="space-y-4 pt-8 border-t border-slate-200">
             <h3 className="text-lg font-extrabold text-slate-900 font-serif-brand">使用シーン別・勝者判定マトリクス</h3>
             <div className="space-y-3">
               {comparison.comparisonPoints.map((pt, idx) => (

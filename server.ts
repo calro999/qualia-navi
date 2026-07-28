@@ -449,30 +449,46 @@ Always output your entire response formatted as a strict single JSON object foll
 
 // Dynamic Meta Tag and JSON-LD Inserter for dynamic articles / SSR fallback
 import fs from "fs";
+import { INITIAL_COMPARISONS, INITIAL_BLOG_POSTS } from "./src/data";
 
-function renderArticleDynamicHtml(htmlTemplate: string, articleId: string, req: express.Request): string {
-  const article = INITIAL_ARTICLES.find(a => a.id === articleId);
-  if (!article) return htmlTemplate;
+function renderArticleDynamicHtml(htmlTemplate: string, entityId: string, type: 'article' | 'compare' | 'feature', req: express.Request): string {
+  let item: any;
+  if (type === 'article') {
+    item = INITIAL_ARTICLES.find(a => a.id === entityId || a.itemCode === entityId);
+  } else if (type === 'compare') {
+    item = INITIAL_COMPARISONS.find(c => c.id === entityId || c.slug === entityId);
+  } else if (type === 'feature') {
+    item = INITIAL_BLOG_POSTS.find(b => b.id === entityId || b.slug === entityId);
+  }
+
+  if (!item) return htmlTemplate;
 
   const protocol = req.headers['x-forwarded-proto'] || 'http';
   const host = req.headers.host || 'localhost:3000';
   const baseUrl = `${protocol}://${host}`;
-  const fullUrl = `${baseUrl}/article/${article.id}`;
+  const fullUrl = `${baseUrl}/${type === 'article' ? 'articles' : type === 'feature' ? 'features' : 'compare'}/${item.id}`;
 
-  const cleanTitle = article.title.replace(/"/g, '&quot;');
-  const cleanDesc = article.introText.replace(/"/g, '&quot;').slice(0, 160);
+  const rawTitle = item.productName || item.title || "";
+  const rawDesc = item.introText || item.subtitle || "";
+  const imageUrl = item.imageUrl || item.coverImage || "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=1200";
+
+  const cleanTitle = rawTitle.replace(/"/g, '&quot;');
+  const cleanDesc = rawDesc.replace(/"/g, '&quot;').slice(0, 160);
 
   // Generate Article & Product & FAQ JSON-LD
-  const jsonLd = {
+  let jsonLd: any = {
     "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Product",
-        "name": article.title,
-        "image": article.imageUrl,
-        "description": article.introText,
-        "sku": article.itemCode,
-        "mpn": article.itemCode,
+    "@graph": []
+  };
+
+  if (type === 'article') {
+    jsonLd["@graph"].push({
+      "@type": "Product",
+      "name": item.title,
+      "image": item.imageUrl,
+      "description": item.introText,
+        "sku": item.itemCode,
+        "mpn": item.itemCode,
         "brand": {
           "@type": "Brand",
           "name": "Rakuten"
@@ -481,22 +497,22 @@ function renderArticleDynamicHtml(htmlTemplate: string, articleId: string, req: 
           "@type": "Review",
           "reviewRating": {
             "@type": "Rating",
-            "ratingValue": article.starRating.toString(),
+            "ratingValue": item.starRating.toString(),
             "bestRating": "5"
           },
           "author": {
             "@type": "Person",
-            "name": article.reviewerName || "Qualia Navi 専門バイヤー"
+            "name": item.reviewerName || "Qualia Navi 専門バイヤー"
           }
         },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": article.starRating.toString(),
-          "reviewCount": "128"
+          "ratingValue": item.starRating.toString(),
+          "reviewCount": item.reviewCount?.toString() || "128"
         },
         "offers": {
           "@type": "Offer",
-          "url": article.affiliateLink,
+          "url": item.affiliateLink,
           "priceCurrency": "JPY",
           "price": "50000",
           "availability": "https://schema.org/InStock"
@@ -504,37 +520,49 @@ function renderArticleDynamicHtml(htmlTemplate: string, articleId: string, req: 
       },
       {
         "@type": "BlogPosting",
-        "headline": article.title,
-        "image": [article.imageUrl],
-        "datePublished": article.createdAt ? new Date(article.createdAt).toISOString() : new Date().toISOString(),
+        "headline": item.title,
+        "image": [item.imageUrl],
+        "datePublished": item.createdAt ? new Date(item.createdAt).toISOString() : new Date().toISOString(),
         "author": {
           "@type": "Person",
-          "name": article.reviewerName || "Qualia Navi 専門バイヤー",
-          "jobTitle": article.reviewerRole || "家電・ガジェット比較ライター"
+          "name": item.reviewerName || "Qualia Navi 専門バイヤー",
+          "jobTitle": item.reviewerRole || "家電・ガジェット比較ライター"
         },
         "publisher": {
           "@type": "Organization",
           "name": "Qualia Navi",
           "logo": {
             "@type": "ImageObject",
-            "url": article.imageUrl
+            "url": item.imageUrl
           }
         },
-        "description": article.introText
+        "description": item.introText
+      });
+    jsonLd["@graph"].push(...(item.faqs && item.faqs.length > 0 ? [{
+      "@type": "FAQPage",
+      "mainEntity": item.faqs.map((faq: any) => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }] : []));
+  } else {
+    // Basic Article JSON-LD for Comparisons and Features
+    jsonLd["@graph"].push({
+      "@type": "Article",
+      "headline": item.title,
+      "image": [imageUrl],
+      "datePublished": item.createdAt ? new Date(item.createdAt).toISOString() : new Date().toISOString(),
+      "publisher": {
+        "@type": "Organization",
+        "name": "Qualia Navi"
       },
-      ...(article.faqs && article.faqs.length > 0 ? [{
-        "@type": "FAQPage",
-        "mainEntity": article.faqs.map(faq => ({
-          "@type": "Question",
-          "name": faq.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": faq.answer
-          }
-        }))
-      }] : [])
-    ]
-  };
+      "description": cleanDesc
+    });
+  }
 
   const jsonLdScript = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`;
 
@@ -543,8 +571,12 @@ function renderArticleDynamicHtml(htmlTemplate: string, articleId: string, req: 
     .replace(/<meta name="description" content=".*?" \/>/, `<meta name="description" content="${cleanDesc}" />`)
     .replace(/<meta property="og:title" content=".*?" \/>/, `<meta property="og:title" content="${cleanTitle}" />`)
     .replace(/<meta property="og:description" content=".*?" \/>/, `<meta property="og:description" content="${cleanDesc}" />`)
-    .replace(/<meta property="og:image" content=".*?" \/>/, `<meta property="og:image" content="${article.imageUrl}" />`)
+    .replace(/<meta property="og:image" content=".*?" \/>/, `<meta property="og:image" content="${imageUrl}" />`)
     .replace(/<meta property="og:type" content=".*?" \/>/, `<meta property="og:type" content="article" />`)
+    .replace(/<meta name="twitter:card" content=".*?" \/>/, `<meta name="twitter:card" content="summary_large_image" />`)
+    .replace(/<meta name="twitter:title" content=".*?" \/>/, `<meta name="twitter:title" content="${cleanTitle}" />`)
+    .replace(/<meta name="twitter:description" content=".*?" \/>/, `<meta name="twitter:description" content="${cleanDesc}" />`)
+    .replace(/<meta name="twitter:image" content=".*?" \/>/, `<meta name="twitter:image" content="${imageUrl}" />`)
     .replace(/<link rel="canonical" href=".*?" \/>/, `<link rel="canonical" href="${fullUrl}" />`);
 
   injected = injected.replace('</head>', `${jsonLdScript}\n</head>`);
@@ -560,13 +592,14 @@ async function startServer() {
     });
     
     app.use(async (req, res, next) => {
-      if (req.path.startsWith('/article/')) {
-        const articleId = req.path.split('/article/')[1];
-        if (articleId) {
+      if (req.path.startsWith('/articles/') || req.path.startsWith('/compare/') || req.path.startsWith('/features/')) {
+        const id = req.path.split('/')[2];
+        const type = req.path.startsWith('/articles/') ? 'article' : req.path.startsWith('/compare/') ? 'compare' : 'feature';
+        if (id) {
           try {
             const rawHtml = fs.readFileSync(path.join(process.cwd(), "index.html"), "utf-8");
             const transformed = await vite.transformIndexHtml(req.originalUrl, rawHtml);
-            const finalHtml = renderArticleDynamicHtml(transformed, articleId, req);
+            const finalHtml = renderArticleDynamicHtml(transformed, id, type, req);
             return res.status(200).set({ 'Content-Type': 'text/html' }).end(finalHtml);
           } catch (e) {
             console.error("Dynamic HTML transform error:", e);
@@ -581,11 +614,12 @@ async function startServer() {
   } else {
     const distPath = path.join(process.cwd(), "dist");
     
-    app.get("/article/:id", (req, res) => {
-      const articleId = req.params.id;
+    app.get(["/articles/:id", "/compare/:id", "/features/:id"], (req, res) => {
+      const id = req.params.id;
+      const type = req.path.startsWith('/articles/') ? 'article' : req.path.startsWith('/compare/') ? 'compare' : 'feature';
       try {
         const rawHtml = fs.readFileSync(path.join(distPath, "index.html"), "utf-8");
-        const finalHtml = renderArticleDynamicHtml(rawHtml, articleId, req);
+        const finalHtml = renderArticleDynamicHtml(rawHtml, id, type, req);
         return res.status(200).set({ 'Content-Type': 'text/html' }).end(finalHtml);
       } catch (e) {
         return res.sendFile(path.join(distPath, "index.html"));

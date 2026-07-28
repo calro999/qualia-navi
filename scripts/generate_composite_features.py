@@ -25,9 +25,9 @@ for art in articles:
         categories[cat] = []
     categories[cat].append(art)
 
-# Pick 5 categories that have at least 4 items
+# Pick 30 categories that have at least 4 items
 valid_cats = [c for c in categories.keys() if len(categories[c]) >= 4]
-chosen_cats = random.sample(valid_cats, min(5, len(valid_cats)))
+chosen_cats = random.sample(valid_cats, min(30, len(valid_cats)))
 
 blog_posts = []
 

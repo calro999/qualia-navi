@@ -14,41 +14,18 @@ AFF_ID = '54d2a438.4bc4abc2.54d2a439.aa1be583'
 BASE_URL = 'https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401'
 
 SEARCH_QUERIES = [
-    {"keyword": "化粧水", "category": "skincare", "categoryLabel": "スキンケア"},
-    {"keyword": "美容液", "category": "skincare", "categoryLabel": "スキンケア"},
-    {"keyword": "クレンジング", "category": "skincare", "categoryLabel": "スキンケア"},
-    {"keyword": "乳液", "category": "skincare", "categoryLabel": "スキンケア"},
-    {"keyword": "フェイスクリーム", "category": "skincare", "categoryLabel": "スキンケア"},
-    
-    {"keyword": "リキッドファンデーション", "category": "makeup", "categoryLabel": "メイクアップ"},
-    {"keyword": "パウダーファンデーション", "category": "makeup", "categoryLabel": "メイクアップ"},
-    {"keyword": "アイシャドウ", "category": "makeup", "categoryLabel": "メイクアップ"},
-    {"keyword": "マスカラ", "category": "makeup", "categoryLabel": "メイクアップ"},
-    {"keyword": "アイライナー", "category": "makeup", "categoryLabel": "メイクアップ"},
-    {"keyword": "チーク", "category": "makeup", "categoryLabel": "メイクアップ"},
-    
-    {"keyword": "リップティント", "category": "lip", "categoryLabel": "リップ"},
-    {"keyword": "口紅", "category": "lip", "categoryLabel": "リップ"},
-    {"keyword": "リップクリーム", "category": "lip", "categoryLabel": "リップ"},
-    
-    {"keyword": "日焼け止め", "category": "suncare", "categoryLabel": "サンケア"},
-    {"keyword": "UVケア", "category": "suncare", "categoryLabel": "サンケア"},
-    
-    {"keyword": "美顔器", "category": "device", "categoryLabel": "美顔器・美容家電"},
-    {"keyword": "ヘアアイロン", "category": "device", "categoryLabel": "美顔器・美容家電"},
-    {"keyword": "ドライヤー", "category": "device", "categoryLabel": "美顔器・美容家電"},
-    
-    {"keyword": "韓国コスメ", "category": "k-beauty", "categoryLabel": "韓国コスメ"},
-    {"keyword": "シカクリーム", "category": "k-beauty", "categoryLabel": "韓国コスメ"},
-    {"keyword": "クッションファンデ", "category": "k-beauty", "categoryLabel": "韓国コスメ"},
-    
-    {"keyword": "シャンプー", "category": "haircare", "categoryLabel": "ヘアケア"},
-    {"keyword": "ヘアオイル", "category": "haircare", "categoryLabel": "ヘアケア"},
-    {"keyword": "トリートメント", "category": "haircare", "categoryLabel": "ヘアケア"},
-    
-    {"keyword": "ボディクリーム", "category": "bodycare", "categoryLabel": "ボディケア"},
-    {"keyword": "ハンドクリーム", "category": "bodycare", "categoryLabel": "ボディケア"},
-    {"keyword": "入浴剤", "category": "bodycare", "categoryLabel": "ボディケア"}
+    {"keyword": "化粧下地 バズり", "category": "makeup", "categoryLabel": "メイクアップ"},
+    {"keyword": "化粧下地 人気", "category": "makeup", "categoryLabel": "メイクアップ"},
+    {"keyword": "乳液 SNSで話題", "category": "skincare", "categoryLabel": "スキンケア"},
+    {"keyword": "乳液 高保湿", "category": "skincare", "categoryLabel": "スキンケア"},
+    {"keyword": "アイブロウ トレンド", "category": "makeup", "categoryLabel": "メイクアップ"},
+    {"keyword": "アイブロウ 人気", "category": "makeup", "categoryLabel": "メイクアップ"},
+    {"keyword": "韓国コスメ ティント", "category": "k-beauty", "categoryLabel": "韓国コスメ"},
+    {"keyword": "クッションファンデ 崩れない", "category": "makeup", "categoryLabel": "メイクアップ"},
+    {"keyword": "コンシーラー クマ", "category": "makeup", "categoryLabel": "メイクアップ"},
+    {"keyword": "ハイライト 艶肌", "category": "makeup", "categoryLabel": "メイクアップ"},
+    {"keyword": "マスカラ 束感", "category": "makeup", "categoryLabel": "メイクアップ"},
+    {"keyword": "涙袋ライナー", "category": "makeup", "categoryLabel": "メイクアップ"}
 ]
 
 REVIEWERS = ["蓮見 拓真", "松本 結衣", "長谷川 花", "橘 えりか", "佐々木 葵", "赤羽 真琴", "天野 琴音", "瀬戸 凜", "工藤 さくら", "小野寺 あかり", "望月 陽菜", "伊藤 美織"]
@@ -102,9 +79,9 @@ def main():
         cat_id = sq["category"]
         cat_label = sq["categoryLabel"]
         
-        print(f"Fetching for {keyword} (Pages 6, 7, 8, 9, 10)...")
+        print(f"Fetching for {keyword} (Pages 1, 2, 3)...")
         
-        for page in [6, 7, 8, 9, 10]:
+        for page in [1, 2, 3]:
             params = {
                 'applicationId': APP_ID,
                 'accessKey': ACCESS_KEY,

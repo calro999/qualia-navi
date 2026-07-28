@@ -185,41 +185,62 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
             </div>
           </div>
 
-          {/* Full Review Markdown (文章本文内に検索キーワード10選が散りばめられています) */}
-          <div className="prose max-w-none text-slate-800 leading-relaxed border-t border-slate-200 pt-8">
+          {/* Pros & Cons Section */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+            <div className="bg-rose-50/50 p-6 rounded-2xl border border-rose-100">
+              <h3 className="text-rose-700 font-bold mb-4 flex items-center gap-2">
+                <span className="w-6 h-6 rounded-full bg-rose-100 flex items-center justify-center text-rose-600 text-sm">✓</span>
+                編集部が感じたメリット (Pros)
+              </h3>
+              <ul className="space-y-2">
+                {article.pros?.map((pro: string, i: number) => (
+                  <li key={i} className="text-sm text-slate-700 flex items-start gap-2">
+                    <span className="text-rose-500 mt-1">•</span>
+                    <span>{pro}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-blue-50/50 p-6 rounded-2xl border border-blue-100">
+              <h3 className="text-blue-700 font-bold mb-4 flex items-center gap-2">
+                <span className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 text-sm">△</span>
+                気になるデメリット (Cons)
+              </h3>
+              <ul className="space-y-2">
+                {article.cons?.map((con: string, i: number) => (
+                  <li key={i} className="text-sm text-slate-700 flex items-start gap-2">
+                    <span className="text-blue-500 mt-1">•</span>
+                    <span>{con}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {/* Expert Review Markdown */}
+          <div className="prose max-w-none text-slate-800 leading-relaxed font-normal mt-8 pt-8 border-t border-slate-200">
             <MarkdownRenderer content={article.reviewBody} onNavigate={onNavigate} />
           </div>
-
-          {/* Pros and Cons */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6">
-            <div className="bg-rose-50/50 p-6 rounded-2xl border border-rose-100 space-y-3">
-              <h4 className="font-extrabold text-rose-700 text-sm flex items-center gap-2 font-serif-brand">
-                <span>👍</span> 美容効果・おすすめポイント
-              </h4>
-              <ul className="space-y-2 text-xs sm:text-sm text-slate-800">
-                {article.pros.map((p, idx) => (
-                  <li key={idx} className="flex items-start gap-2">
-                    <span className="text-rose-500 font-bold">・</span>
-                    <span>{p}</span>
-                  </li>
+          {/* FAQ Section */}
+          {article.faqs && article.faqs.length > 0 && (
+            <div className="mt-8 pt-8 border-t border-slate-200 space-y-6">
+              <h3 className="text-xl font-extrabold text-slate-900 font-serif-brand">よくある質問 (FAQ)</h3>
+              <div className="space-y-4">
+                {article.faqs.map((faq: any, i: number) => (
+                  <div key={i} className="bg-white border border-slate-200 p-5 rounded-2xl shadow-sm">
+                    <h4 className="font-bold text-slate-800 text-sm flex gap-3 mb-2">
+                      <span className="text-rose-500 font-black">Q.</span>
+                      {faq.question}
+                    </h4>
+                    <p className="text-sm text-slate-600 flex gap-3 pl-0.5">
+                      <span className="text-blue-500 font-black">A.</span>
+                      {faq.answer}
+                    </p>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
-
-            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-3">
-              <h4 className="font-extrabold text-slate-700 text-sm flex items-center gap-2 font-serif-brand">
-                <span>💡</span> 選ぶ際の留意点
-              </h4>
-              <ul className="space-y-2 text-xs sm:text-sm text-slate-800">
-                {article.cons.map((c, idx) => (
-                  <li key={idx} className="flex items-start gap-2">
-                    <span className="text-slate-500 font-bold">・</span>
-                    <span>{c}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+          )}
 
           {/* Related Products & Comparison */}
           <div className="pt-10 border-t border-slate-200 space-y-6">

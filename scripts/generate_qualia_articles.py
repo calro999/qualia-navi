@@ -1805,63 +1805,63 @@ def generate_articles():
 
         for r_entry in r_items:
             r_item = r_entry.get("Item", {})
-                r_name = r_item.get("itemName", "")
-                
-                # Check uniqueness against existing items
-                existing_names = [a.get('productName', '') for a in existing_articles]
-                is_duplicate = any(kw in r_name for kw in ["アネッサ", "リポソーム", "リードルショット", "KATE", "TIRTIR", "ファンケル", "キュレル"])
-                
-                r_img = r_item.get("mediumImageUrls", [{}])[0].get("imageUrl", "").split("?")[0] if r_item.get("mediumImageUrls") else ""
-                r_affiliate = r_item.get("affiliateUrl", "")
-                
-                # Skip if no image or no affiliate link
-                if not r_img or not r_affiliate:
-                    continue
+            r_name = r_item.get("itemName", "")
+            
+            # Check uniqueness against existing items
+            existing_names = [a.get('productName', '') for a in existing_articles]
+            is_duplicate = any(kw in r_name for kw in ["アネッサ", "リポソーム", "リードルショット", "KATE", "TIRTIR", "ファンケル", "キュレル"])
+            
+            r_img = r_item.get("mediumImageUrls", [{}])[0].get("imageUrl", "").split("?")[0] if r_item.get("mediumImageUrls") else ""
+            r_affiliate = r_item.get("affiliateUrl", "")
+            
+            # Skip if no image or no affiliate link
+            if not r_img or not r_affiliate:
+                continue
 
-                if not is_duplicate and r_name[:35] not in existing_names:
-                    discovered_count += 1
-                    import time
-                    timestamp = int(time.time())
-                    unique_id = f"{discovered_count}_{timestamp}"
-                    local_r_img = ensure_local_product_image(r_img, f"autodiscover_{unique_id}.jpg", public_img_dir)
-                    
-                    trending_article = {
-                        "id": f"autodiscover-trending-{unique_id}",
-                        "title": f"【最新ヒットコスメ】楽天人気急上昇！{r_name[:28]} 徹底検証",
-                        "itemCode": f"autodiscover_{discovered_count}",
-                        "productName": r_name[:35],
-                        "category": "k-beauty",
-                        "categoryLabel": "🔥 最新ヒットコスメ",
-                        "imageUrl": local_r_img,
-                        "starRating": 4.9,
-                        "reviewCount": r_item.get("reviewCount", 2400),
-                        "introText": f"SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「{r_name[:30]}」の特長とリアルな口コミを分析。",
-                        "features": [
-                            "楽天市場の美容売れ筋ランキングで上位常連の話題商品",
-                            "コスメ好きや美容系インフルエンサーの間で大絶賛",
-                            "楽天ポイント還元＆オマケ付きでお得に購入可能"
-                        ],
-                        "pros": ["リアルタイムで大ヒット中の注目コスメ", "楽天ポイント還元でお得に購入可能"],
-                        "cons": ["人気殺到につきタイミングにより在庫切れの場合あり"],
-                        "reviewBody": f"# {r_name[:35]} トレンド検証\n\n## 1. コスメ好きの間で話題沸騰！人気急上昇の理由\nQualia美容編集部が自信をもっておすすめする、今もっとも勢いのある最新注目コスメです。",
-                        "ctaTitle": "【ポイント高還元】楽天市場で最新価格・在庫をチェック",
-                        "affiliateLink": r_item.get("affiliateUrl") or f"https://hb.afl.rakuten.co.jp/hgc/{affiliate_id}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F{urllib.parse.quote(r_name[:20])}%2F",
-                        "rakutenPrice": f"{r_item.get('itemPrice', 0)}円",
-                        "createdAt": datetime.datetime.now().strftime('%Y-%m-%d'),
-                        "estimatedPV": 12000,
-                        "clicks": 950,
-                        "earnings": 28000,
-                        "aiModelUsed": "Qualia Editorial Engine",
-                        "isHallOfFame": False,
-                        "verificationDays": 7,
-                        "reviewerName": "橘 えりか",
-                        "reviewerRole": "Qualia 美容編集部",
-                        "faqs": [{"question": "注目されている理由は？", "answer": "美容好きの間で口コミ評価が高く、現在楽天市場で売れ行きが急上昇している話題の最新コスメです。"}]
-                    }
-                    generated_articles.insert(0, trending_article)
-                    print(f"[AUTO-RESEARCH OK] Discovered and added trending item #{discovered_count} at TOP: {r_name[:30]}")
-                    if discovered_count >= 3:
-                        break
+            if not is_duplicate and r_name[:35] not in existing_names:
+                discovered_count += 1
+                import time
+                timestamp = int(time.time())
+                unique_id = f"{discovered_count}_{timestamp}"
+                local_r_img = ensure_local_product_image(r_img, f"autodiscover_{unique_id}.jpg", public_img_dir)
+                
+                trending_article = {
+                    "id": f"autodiscover-trending-{unique_id}",
+                    "title": f"【最新ヒットコスメ】楽天人気急上昇！{r_name[:28]} 徹底検証",
+                    "itemCode": f"autodiscover_{discovered_count}",
+                    "productName": r_name[:35],
+                    "category": "k-beauty",
+                    "categoryLabel": "🔥 最新ヒットコスメ",
+                    "imageUrl": local_r_img,
+                    "starRating": 4.9,
+                    "reviewCount": r_item.get("reviewCount", 2400),
+                    "introText": f"SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「{r_name[:30]}」の特長とリアルな口コミを分析。",
+                    "features": [
+                        "楽天市場の美容売れ筋ランキングで上位常連の話題商品",
+                        "コスメ好きや美容系インフルエンサーの間で大絶賛",
+                        "楽天ポイント還元＆オマケ付きでお得に購入可能"
+                    ],
+                    "pros": ["リアルタイムで大ヒット中の注目コスメ", "楽天ポイント還元でお得に購入可能"],
+                    "cons": ["人気殺到につきタイミングにより在庫切れの場合あり"],
+                    "reviewBody": f"# {r_name[:35]} トレンド検証\n\n## 1. コスメ好きの間で話題沸騰！人気急上昇の理由\nQualia美容編集部が自信をもっておすすめする、今もっとも勢いのある最新注目コスメです。",
+                    "ctaTitle": "【ポイント高還元】楽天市場で最新価格・在庫をチェック",
+                    "affiliateLink": r_item.get("affiliateUrl") or f"https://hb.afl.rakuten.co.jp/hgc/{affiliate_id}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F{urllib.parse.quote(r_name[:20])}%2F",
+                    "rakutenPrice": f"{r_item.get('itemPrice', 0)}円",
+                    "createdAt": datetime.datetime.now().strftime('%Y-%m-%d'),
+                    "estimatedPV": 12000,
+                    "clicks": 950,
+                    "earnings": 28000,
+                    "aiModelUsed": "Qualia Editorial Engine",
+                    "isHallOfFame": False,
+                    "verificationDays": 7,
+                    "reviewerName": "橘 えりか",
+                    "reviewerRole": "Qualia 美容編集部",
+                    "faqs": [{"question": "注目されている理由は？", "answer": "美容好きの間で口コミ評価が高く、現在楽天市場で売れ行きが急上昇している話題の最新コスメです。"}]
+                }
+                generated_articles.insert(0, trending_article)
+                print(f"[AUTO-RESEARCH OK] Discovered and added trending item #{discovered_count} at TOP: {r_name[:30]}")
+                if discovered_count >= 3:
+                    break
     except Exception as e:
         print(f"[AUTO-RESEARCH INFO] Ranking API Live fetch notice: {e}")
 

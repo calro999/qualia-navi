@@ -32,6 +32,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         python scripts/generate_qualia_articles.py
+        python scripts/fix_all_affiliate_links.py
 
     - name: Commit and push generated cosmetics data
       run: |
@@ -39,6 +40,9 @@ jobs:
         git config --local user.name "github-actions[bot]"
         if [ -f src/data/articles.json ]; then
           git add src/data/articles.json
+          if [ -d public/images/products ]; then
+            git add public/images/products/
+          fi
           if ! git diff --cached --exit-code; then
             git commit -m "chore: auto-generate Rakuten cosmetics articles from articles.yml [skip ci]"
             git push origin HEAD:${{ github.ref }}

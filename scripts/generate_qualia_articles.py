@@ -1714,6 +1714,8 @@ def generate_articles():
         if api_data:
             image_url = api_data['image_url']
             affiliate_url = api_data['affiliate_url']
+            if not affiliate_url:
+                affiliate_url = f"https://hb.afl.rakuten.co.jp/hgc/{affiliate_id}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F{urllib.parse.quote(product_name)}%2F"
             price = api_data['price']
         else:
             # Fallback if API fails or DUMMY
@@ -1818,7 +1820,7 @@ def generate_articles():
                         "cons": ["人気殺到につきタイミングにより在庫切れの場合あり"],
                         "reviewBody": f"# {r_name[:35]} トレンド検証\n\n## 1. コスメ好きの間で話題沸騰！人気急上昇の理由\nQualia美容編集部が自信をもっておすすめする、今もっとも勢いのある最新注目コスメです。",
                         "ctaTitle": "【ポイント高還元】楽天市場で最新価格・在庫をチェック",
-                        "affiliateLink": r_item.get("affiliateUrl", f"https://hb.afl.rakuten.co.jp/hgc/{affiliate_id}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F{urllib.parse.quote(r_name[:20])}%2F"),
+                        "affiliateLink": r_item.get("affiliateUrl") or f"https://hb.afl.rakuten.co.jp/hgc/{affiliate_id}/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F{urllib.parse.quote(r_name[:20])}%2F",
                         "rakutenPrice": f"{r_item.get('itemPrice', 0)}円",
                         "createdAt": datetime.datetime.now().strftime('%Y-%m-%d'),
                         "estimatedPV": 12000,

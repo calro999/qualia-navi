@@ -1619,8 +1619,29 @@ def generate_articles():
     generated_articles = []
     base_date = datetime.date(2026, 7, 24)
 
+
+    out_json_path = os.path.join(project_root, 'src', 'data', 'articles.json')
+    existing_articles = []
+    if os.path.exists(out_json_path):
+        import json
+        with open(out_json_path, 'r', encoding='utf-8') as f:
+            try:
+                existing_articles = json.load(f)
+            except:
+                pass
+    existing_map = {art['id']: art for art in existing_articles}
+    generated_articles = existing_articles.copy()
+
     for index, topic in enumerate(topics):
+
+
         topic_id = topic.get('id', f'qualia-{index+1:03d}')
+        
+        # Skip if already exists
+        if topic_id in existing_map:
+            continue
+
+
         keyword = topic.get('keyword', topic.get('topic', ''))
         category = topic.get('category', 'skincare')
         
@@ -1749,11 +1770,13 @@ def generate_articles():
     print("\n[AUTO-RESEARCH] Discovering top 3 real-time trending cosmetics from Rakuten Ranking...")
     discovered_count = 0
     try:
-        ranking_url = "https://app.rakuten.co.jp/services/api/IchibaItem/Ranking/20170628"
-        actual_app_id = app_id if (app_id and app_id != 'DUMMY') else "1016454040700000000"
+        ranking_url = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401"
+        actual_app_id = app_id if (app_id and app_id != 'DUMMY') else "1a3cdfd9-2aec-4b42-8290-1c53603b0012"
         rank_params = {
             "applicationId": actual_app_id,
+            "accessKey": access_key,
             "genreId": "100939",
+            "sort": "-reviewCount",
             "format": "json"
         }
         r_req = urllib.request.Request(f"{ranking_url}?{urllib.parse.urlencode(rank_params)}", headers={'User-Agent': 'Mozilla/5.0'})
@@ -1765,13 +1788,18 @@ def generate_articles():
                 r_name = r_item.get("itemName", "")
                 
                 # Check uniqueness against existing items
-                if not any(kw in r_name for kw in ["アネッサ", "リポソーム", "リードルショット", "KATE", "TIRTIR", "ファンケル", "キュレル"]):
+                existing_names = [a.get('productName', '') for a in existing_articles]
+                is_duplicate = any(kw in r_name for kw in ["アネッサ", "リポソーム", "リードルショット", "KATE", "TIRTIR", "ファンケル", "キュレル"])
+                if not is_duplicate and r_name[:35] not in existing_names:
                     discovered_count += 1
                     r_img = r_item.get("mediumImageUrls", [{}])[0].get("imageUrl", "").split("?")[0] if r_item.get("mediumImageUrls") else ""
-                    local_r_img = ensure_local_product_image(r_img, f"autodiscover_{discovered_count}.jpg", public_img_dir)
+                    import time
+                    timestamp = int(time.time())
+                    unique_id = f"{discovered_count}_{timestamp}"
+                    local_r_img = ensure_local_product_image(r_img, f"autodiscover_{unique_id}.jpg", public_img_dir)
                     
                     trending_article = {
-                        "id": f"autodiscover-trending-{discovered_count}",
+                        "id": f"autodiscover-trending-{unique_id}",
                         "title": f"【最新ヒットコスメ】楽天人気急上昇！{r_name[:28]} 徹底検証",
                         "itemCode": f"autodiscover_{discovered_count}",
                         "productName": r_name[:35],

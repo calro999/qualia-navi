@@ -75,6 +75,7 @@ def fetch_rakuten_item(app_id, access_key, affiliate_id, keyword):
     params = {
         "applicationId": app_id,
         "accessKey": access_key,
+        "affiliateId": affiliate_id,
         "keyword": keyword,
         "sort": "standard",
         "hits": 1,
@@ -82,29 +83,34 @@ def fetch_rakuten_item(app_id, access_key, affiliate_id, keyword):
     }
     url = f"{base_url}?{urllib.parse.urlencode(params)}"
     
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=10) as res:
-            data = json.loads(res.read().decode('utf-8'))
-            if data.get("Items"):
-                item = data["Items"][0]["Item"]
-                image_url = ""
-                if item.get("mediumImageUrls"):
-                    image_url = item["mediumImageUrls"][0]["imageUrl"]
-                    if "?_ex=" in image_url:
-                        image_url = image_url.split("?")[0]
-                
-                return {
-                    "image_url": image_url,
-                    "affiliate_url": item.get("affiliateUrl"),
-                    "price": f"{item.get('itemPrice', 0)}円"
-                }
-            else:
-                print(f"No items found for {keyword}")
-                return None
-    except Exception as e:
-        print(f"API Error: {e}")
-        return None
+    import time
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=10) as res:
+                data = json.loads(res.read().decode('utf-8'))
+                if data.get("Items"):
+                    item = data["Items"][0]["Item"]
+                    image_url = ""
+                    if item.get("mediumImageUrls"):
+                        image_url = item["mediumImageUrls"][0]["imageUrl"]
+                        if "?_ex=" in image_url:
+                            image_url = image_url.split("?")[0]
+                    
+                    affiliate_url = item.get("affiliateUrl")
+                    if image_url and affiliate_url:
+                        return {
+                            "image_url": image_url,
+                            "affiliate_url": affiliate_url,
+                            "price": f"{item.get('itemPrice', 0)}円"
+                        }
+            time.sleep(1)
+        except Exception as e:
+            print(f"API Error (Attempt {attempt+1}): {e}")
+            time.sleep(1)
+            
+    print(f"Failed to fetch valid item for {keyword} after 3 attempts")
+    return None
 
 def ensure_local_product_image(image_url, save_filename, public_img_dir):
     os.makedirs(public_img_dir, exist_ok=True)
@@ -1777,24 +1783,43 @@ def generate_articles():
         rank_params = {
             "applicationId": actual_app_id,
             "accessKey": access_key,
+            "affiliateId": affiliate_id,
             "genreId": "100939",
             "sort": "-reviewCount",
             "format": "json"
         }
         r_req = urllib.request.Request(f"{ranking_url}?{urllib.parse.urlencode(rank_params)}", headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(r_req, timeout=10) as r_res:
-            r_data = json.loads(r_res.read().decode('utf-8'))
-            r_items = r_data.get("Items", [])
-            for r_entry in r_items:
-                r_item = r_entry.get("Item", {})
+        
+        import time
+        r_items = []
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(r_req, timeout=10) as r_res:
+                    r_data = json.loads(r_res.read().decode('utf-8'))
+                    r_items = r_data.get("Items", [])
+                    if r_items:
+                        break
+            except Exception as e:
+                print(f"[AUTO-RESEARCH INFO] Ranking API Live fetch notice (Attempt {attempt+1}): {e}")
+                time.sleep(1)
+
+        for r_entry in r_items:
+            r_item = r_entry.get("Item", {})
                 r_name = r_item.get("itemName", "")
                 
                 # Check uniqueness against existing items
                 existing_names = [a.get('productName', '') for a in existing_articles]
                 is_duplicate = any(kw in r_name for kw in ["アネッサ", "リポソーム", "リードルショット", "KATE", "TIRTIR", "ファンケル", "キュレル"])
+                
+                r_img = r_item.get("mediumImageUrls", [{}])[0].get("imageUrl", "").split("?")[0] if r_item.get("mediumImageUrls") else ""
+                r_affiliate = r_item.get("affiliateUrl", "")
+                
+                # Skip if no image or no affiliate link
+                if not r_img or not r_affiliate:
+                    continue
+
                 if not is_duplicate and r_name[:35] not in existing_names:
                     discovered_count += 1
-                    r_img = r_item.get("mediumImageUrls", [{}])[0].get("imageUrl", "").split("?")[0] if r_item.get("mediumImageUrls") else ""
                     import time
                     timestamp = int(time.time())
                     unique_id = f"{discovered_count}_{timestamp}"

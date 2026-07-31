@@ -1773,9 +1773,9 @@ def generate_articles():
         time.sleep(1) # API rate limit protection
 
     # -------------------------------------------------------------
-    # 自動リサーチ機能: 楽天市場のリアルタイムランキングから被らない人気コスメ3選を自動検出・追加
+    # 自動リサーチ機能: 楽天市場のリアルタイムランキングから被らない人気コスメ10選を自動検出・追加
     # -------------------------------------------------------------
-    print("\n[AUTO-RESEARCH] Discovering top 3 real-time trending cosmetics from Rakuten Ranking...")
+    print("\n[AUTO-RESEARCH] Discovering top 10 real-time trending cosmetics from Rakuten Ranking...")
     discovered_count = 0
     try:
         ranking_url = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260401"
@@ -1785,6 +1785,7 @@ def generate_articles():
             "accessKey": access_key,
             "affiliateId": affiliate_id,
             "genreId": "100939",
+            "keyword": "サロン級 ネイルチップ",
             "sort": "-reviewCount",
             "format": "json"
         }
@@ -1860,7 +1861,7 @@ def generate_articles():
                 }
                 generated_articles.insert(0, trending_article)
                 print(f"[AUTO-RESEARCH OK] Discovered and added trending item #{discovered_count} at TOP: {r_name[:30]}")
-                if discovered_count >= 3:
+                if discovered_count >= 10:
                     break
     except Exception as e:
         print(f"[AUTO-RESEARCH INFO] Ranking API Live fetch notice: {e}")

@@ -1,4 +1,45 @@
 User-agent: *
 Allow: /
 
+# Explicit AI Search & LLM Crawler Clearances
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+# LLM Context Documents & Sitemaps
 Sitemap: https://qualia-navi.vercel.app/sitemap.xml

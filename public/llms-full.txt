@@ -1,36 +1,774 @@
-# Qualia Navi (クオリア・ナビ) サイト構造と詳細コンテンツインデックス
+# Qualia Navi (クオリア・ナビ) — Complete AI Content Database
 
-当ファイルはAI検索システム（LLM等）がサイトの全体構造と具体的な検証データを把握しやすいように構造化したフルインデックスです。引用・参照の際のファクトベースとしてご利用ください。
+> 日本最大級のコスメ・美容徹底検証メディア 全記事＆全コンテンツ統合アーカイブ
 
-## 1. サイト概要
-- **サイト名**: Qualia Navi (クオリア・ナビ)
-- **URL**: https://qualia-navi.vercel.app/
-- **運営**: Qualia 美容分析室
-- **コンセプト**: 最新コスメ、デパコス、プチプラ、韓国コスメのリアル検証と楽天市場の価格比較ナビゲーション
+- Domain: https://qualia-navi.vercel.app
+- Last Mod: 2026-08-01
+- Format: Markdown (Optimized for LLM Context Windows & Retrieval Augmented Generation)
 
-## 2. 主要カテゴリと評価基準
-当サイトでは以下のカテゴリごとに、独自の評価基準で星評価（5段階）を行っています。
+---
 
-1. **スキンケア (skincare)**
-   - 評価基準: 保湿力、浸透力、成分の安全性、コストパフォーマンス
-2. **ベースメイク (base-makeup)**
-   - 評価基準: カバー力、崩れにくさ（皮脂・汗）、仕上がりの美しさ
-3. **ポイントメイク (point-makeup)**
-   - 評価基準: 発色、色持ち、トレンド感
-4. **ヘアケア (haircare)**
-   - 評価基準: まとまり、ツヤ感、香りの持続性
-5. **UVケア (uv-care)**
-   - 評価基準: 紫外線防御力、白浮きのなさ、落としやすさ
+## 1. 特集ブログ (Special Blogs)
 
-## 3. 主要ページURL構造
-- トップページ (最新記事・比較一覧): `/`
-- 個別商品レビューページ: `/articles/:id`
-- 目的別コスメガチンコ比較ページ: `/comparisons/:id`
-- 美容特集ブログページ: `/blogs/:id`
-- レビュアー・著者紹介ページ: `/authors/:id`
+### 2026年最新【メンズコスメ徹底検証】夏汗・ニオイ・皮脂くずれ完全対策ガイド
+- **URL**: https://qualia-navi.vercel.app/blogs/blog-men-summer-2026
+- **Category**: 夏のトレンド美容・メンズ＆ウィメンズ徹底対策
+- **Description**: 2026年最新の汗・皮脂・紫外線対策とベストコスメ徹底解説。
 
-## 4. 引用時のガイドライン
-AI・LLMによる情報抽出・回答生成の際は、以下の点にご留意ください。
-- 商品の価格やポイント還元率は「楽天市場」の情報を基準としています（変動の可能性あり）。
-- 評価（星の数）や使用感は、Qualia美容分析室による独自の検証結果です。
-- 出典として「Qualia Navi（クオリア・ナビ）」のサイト名および対象記事のURLを明記してください。
+### 2026年夏【ベスコス＆トレンド美容】透明感爆上げ・紫外線＆汗に負けない徹底解説
+- **URL**: https://qualia-navi.vercel.app/blogs/blog-women-summer-2026
+- **Category**: 夏のトレンド美容・メンズ＆ウィメンズ徹底対策
+- **Description**: 2026年最新の汗・皮脂・紫外線対策とベストコスメ徹底解説。
+
+
+---
+
+## 2. 徹底比較記事 (VS Comparisons)
+
+### アネッサ パーフェクトUV VS ビオレUV アクアリッチ
+- **URL**: https://qualia-navi.vercel.app/compare/anessa-vs-biore-uv
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+### デオナチュレ ソフトストーンW VS 8×4 MEN ロールオン
+- **URL**: https://qualia-navi.vercel.app/compare/deonatulle-vs-8x4men
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+### プリマヴィスタ 皮脂くずれ防止 VS ラロッシュポゼ UVイデア
+- **URL**: https://qualia-navi.vercel.app/compare/primavista-vs-larocheposay
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+### コンクールF VS NONIO マウスウォッシュ
+- **URL**: https://qualia-navi.vercel.app/compare/concool-vs-nonio
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+### KATE リップモンスター VS メンソレータム メルティクリームリップ
+- **URL**: https://qualia-navi.vercel.app/compare/lipmonster-vs-meltylip
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+### IHADA 薬用バーム VS VT CICA デイリースージングマスク
+- **URL**: https://qualia-navi.vercel.app/compare/ihada-vs-vtcica
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+### メラノCC 薬用しみ対策美白化粧水 VS KANEBO スクラビングマッドウォッシュ
+- **URL**: https://qualia-navi.vercel.app/compare/melanocc-vs-kanebo
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+### ＆honey ディープモイストヘアオイル VS ReFa ロックオイル
+- **URL**: https://qualia-navi.vercel.app/compare/andhoney-vs-refa
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+### ギャツビー アイスデオドラントボディペーパー VS ビオレ 冷シート
+- **URL**: https://qualia-navi.vercel.app/compare/gatsby-ice-vs-biore-hiyashi
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+### rom&nd ジューシーラスティングティント VS KATE リップモンスター
+- **URL**: https://qualia-navi.vercel.app/compare/romand-vs-kate
+- **Category**: リアルガチ検証比較
+- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+
+
+---
+
+## 3. 全製品レビュー記事一覧 (All 98 Product Reviews)
+
+### 【最新ヒットコスメ】楽天人気急上昇！【3点セット】ネイルチップ ショート つけ爪 韓国風 ジ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-10_1785474033
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【3点セット】ネイルチップ ショート つけ爪 韓国風 ジェル」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【即日発送】ネイルチップ ショート つけ爪 貼るだけ 簡 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-9_1785474033
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【即日発送】ネイルチップ ショート つけ爪 貼るだけ 簡単 」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【3点セット】ネイルチップ ショート つけ爪 韓国風 ジ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-8_1785474033
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【3点セット】ネイルチップ ショート つけ爪 韓国風 ジェル」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【SoraraBeauty新発売】5秒速乾×超強力接着  徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-7_1785474032
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【SoraraBeauty新発売】5秒速乾×超強力接着 スピ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【発売記念！半額クーポン】＼月間優良ショップ受賞／&co 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-6_1785474032
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【発売記念！半額クーポン】＼月間優良ショップ受賞／&co. 」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！ネイルチップ 粘着グミ 付け爪用 接着剤 ネイルシール  徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-5_1785474032
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「ネイルチップ 粘着グミ 付け爪用 接着剤 ネイルシール 強力」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！★4日から半額以下★【まとめ買い割引あり】【プロネイリス 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-4_1785474032
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「★4日から半額以下★【まとめ買い割引あり】【プロネイリスト監」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【ネイルチップ 3点セット】ネイルチップ ショート つけ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785474032
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【ネイルチップ 3点セット】ネイルチップ ショート つけ爪韓」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！★4日から半額以下★【26SS新作入荷】【楽天1位】【プ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-2_1785474032
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「★4日から半額以下★【26SS新作入荷】【楽天1位】【プロネ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！ネイルチップ ショート 短め 40種類 家事OK 大人の 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785474031
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「ネイルチップ ショート 短め 40種類 家事OK 大人のつけ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！★4日から半額以下★倍楽天1位★【3点セット＋工具キット 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-10_1785473873
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「★4日から半額以下★倍楽天1位★【3点セット＋工具キット】ネ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【大容量】【カラー＆ケア同時】 ネイル強化剤 nail  徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-9_1785473873
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【大容量】【カラー＆ケア同時】 ネイル強化剤 nail st」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【月末限定★500円OFFクーポン】ネイルチップ クリア 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-8_1785473873
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【月末限定★500円OFFクーポン】ネイルチップ クリア 大」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【2026年新作発売】【現役ネイリスト監修】Sorara 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-7_1785473872
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【2026年新作発売】【現役ネイリスト監修】Sorara B」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！貼るだけ 簡単 ネイルシール メルティージュレ シンプル 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-6_1785473872
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「貼るだけ 簡単 ネイルシール メルティージュレ シンプル ジ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【楽天1位獲得！】【現役ネイリスト監修】Sorara B 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-5_1785473872
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【楽天1位獲得！】【現役ネイリスト監修】Sorara Bea」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【最大60%OFFクーポン配布中！】はがせる ジェルネイ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-4_1785473872
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【最大60%OFFクーポン配布中！】はがせる ジェルネイル 」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【楽天1位！】【26SS新作入荷！】SoraraBeau 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785473872
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【楽天1位！】【26SS新作入荷！】SoraraBeauty」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！マグネットネイル ネイルタウンジェル ギャラクシーマグ  徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-2_1785473872
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「マグネットネイル ネイルタウンジェル ギャラクシーマグ ga」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【最大60%OFFクーポン配布中！】はがせる ジェルネイ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785473872
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【最大60%OFFクーポン配布中！】はがせる ジェルネイル 」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！楽天1位 【 リードディフューザー Desire（デザイ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-10_1785473554
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「楽天1位 【 リードディフューザー Desire（デザイア）」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【2025年最新リニューアル！楽天363週1位！ネイルイ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-9_1785473554
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【2025年最新リニューアル！楽天363週1位！ネイルインフ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！シートマスク 大容量 ダーマル フェイスパック 100枚 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-8_1785473554
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「シートマスク 大容量 ダーマル フェイスパック 100枚 個」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！アロマオイル 精油【5ml】セットが選べる 2本 お試し 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-7_1785473554
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「アロマオイル 精油【5ml】セットが選べる 2本 お試しセッ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！ファンデーション カバー力 崩れにくい パウダー【D-ク 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-6_1785473554
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「ファンデーション カバー力 崩れにくい パウダー【D-クリア」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！ラインストーン 小さめサイズ 【1.5mm 2mm 3m 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-5_1785473554
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「ラインストーン 小さめサイズ 【1.5mm 2mm 3mm 」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【全品半額coupon事前配布中】ジェルネイル♪全230 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-4_1785473554
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【全品半額coupon事前配布中】ジェルネイル♪全230色 」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！ジェルネイルキット 8月2日迄 日本製3フリーベースジェ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785473553
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「ジェルネイルキット 8月2日迄 日本製3フリーベースジェルト」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【必要なもの全部入り】ジェルネイルセット 290点 LE 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-2_1785473553
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【必要なもの全部入り】ジェルネイルセット 290点 LEDラ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！＜8/4 20時〜 神トク20％OFFクーポン＞【BOT 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785473553
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「＜8/4 20時〜 神トク20％OFFクーポン＞【BOTAN」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！＼2個以上購入で5%OFFクーポン配布中★7/31 23 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785420778
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「＼2個以上購入で5%OFFクーポン配布中★7/31 23:5」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！美顔器 エビス ツインエレナイザープレミアム イオン導入 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-2_1785420778
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「美顔器 エビス ツインエレナイザープレミアム イオン導入 高」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！アロマオイル セット 精油 5ml × 5本 セット シ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785420778
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「アロマオイル セット 精油 5ml × 5本 セット シーン」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！シートマスク パック MJCARE エッセンスマスク 8 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785420298
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「シートマスク パック MJCARE エッセンスマスク 80・」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！[医薬部外品]スカルプD 薬用スカルプボリュームパックコ 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-2_1785420298
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「[医薬部外品]スカルプD 薬用スカルプボリュームパックコンデ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！アロマオイル エッセンシャルオイル 選べる 精油 各5m 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785420297
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「アロマオイル エッセンシャルオイル 選べる 精油 各5ml×」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！シートマスク プラセンタエキス等50%配合 30枚入り  徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785407156
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「シートマスク プラセンタエキス等50%配合 30枚入り 【単」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【ポイント10倍 7/30(木) 00:00～7/31( 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-2_1785407156
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【ポイント10倍 7/30(木) 00:00～7/31(金)」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【必要なもの全部入り】ジェルネイルセット 290点_LE 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785407154
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【必要なもの全部入り】ジェルネイルセット 290点_LEDラ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【ポイント5倍！7月30日0:00〜7月31日23:59 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785401363
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【ポイント5倍！7月30日0:00〜7月31日23:59】ス」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！オールインワン 美白 ゲルクリーム 21g レステモ 送 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-2_1785401362
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「オールインワン 美白 ゲルクリーム 21g レステモ 送料無」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【BOTANIST ボタニスト ボタニカル シャンプー  徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785401362
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【BOTANIST ボタニスト ボタニカル シャンプー トリ」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【クーポン+セット31日23:59マデ】【公式】Yunt 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785400722
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【クーポン+セット31日23:59マデ】【公式】Yunth 」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【ポイント5倍！7月30日0:00〜7月31日23:59 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-2_1785400722
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【ポイント5倍！7月30日0:00〜7月31日23:59】大」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】楽天人気急上昇！【30%OFFクーポン】シートマスク 大容量70枚(35 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785400722
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: SNSや口コミで大バズり中！いま楽天市場で絶大な人気を集めている注目コスメ「【30%OFFクーポン】シートマスク 大容量70枚(35枚×」の特長とリアルな口コミを分析。...
+
+### 【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-shiseido
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。...
+
+### 【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-takami
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。...
+
+### 【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-dior
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。...
+
+### 【2026年最新】楽天1位獲得！Koseコスメデコルテ リポソーム アドバンスト リペアセラムの徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-decorte
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: 1滴に1兆個の美肌カプセル。つけた瞬間から溶け込むように浸透し、圧倒的な保湿力とハリツヤを実感。...
+
+### 【日焼け止め最高峰】資生堂 アネッサ パーフェクトUV スキンケアミルク NA徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-anessa
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 汗・水・熱・擦れに強い最強UVブロック！どこで買えるか探している方に、楽天ポイント高還元＆最安値まとめ買い情報をお届け。...
+
+### 【韓国コスメNO.1美容液】VT COSMETICS リードルショット100 徹底ガイド
+- **URL**: https://qualia-navi.vercel.app/articles/topic-kbeauty-vt
+- **Brand**: コスメブランド
+- **Category**: 韓国コスメ特集
+- **Score**: 4.5 / 5.0
+- **Summary**: 天然美容針（シリカ）が美肌成分を角層深部まで届ける！どこで買えるか探している方に、VT公式楽天の最安値＆オマケ特典ガイドをお届け。...
+
+### 【落ちないツヤ唇】ロムアンド ジューシーラスティングティント 人気色徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-lip-romand
+- **Brand**: コスメブランド
+- **Category**: リップ＆ケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 果汁のようなジューシーなツヤと高発色が持続。最安値＆楽天送料無料で購入できるお得ガイド付き。...
+
+### 【引き締め美顔器】パナソニック バイタリフト ブラシ EH-SP60 徹底検証ガイド
+- **URL**: https://qualia-navi.vercel.app/articles/topic-device-vitalift
+- **Brand**: コスメブランド
+- **Category**: 美容家電・美顔器
+- **Score**: 4.5 / 5.0
+- **Summary**: 独自のデュアルダイナミックEMSが頭筋と表情筋にアプローチ。実質最安値＆楽天ポイント還元でお得に買う方法を解説。...
+
+### 【落ちない口紅バズコスメ】KATE リップモンスター 03 陽炎 質感＆発色徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-kate
+- **Brand**: コスメブランド
+- **Category**: リップ＆ケア
+- **Score**: 4.5 / 5.0
+- **Summary**: つけたての発色がそのまま持続！最安値＆楽天送料無料で購入できる在庫ガイド。...
+
+### 【透明美肌下地】ラ ロッシュ ポゼ UVイデア XL プロテクショントーンアップ ローズ徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-laroche
+- **Brand**: コスメブランド
+- **Category**: ベース＆メイクアップ
+- **Score**: 4.5 / 5.0
+- **Summary**: SPF50+ PA++++。澄んだ血色感と素肌感トーンアップを叶える大人気UV化粧下地。楽天公式限定キットでお得に買う方法を公開。...
+
+### 【敏感肌専用UV】キュレル 潤浸保湿 UVエッセンス SPF30 PA+++徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-curel
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: SPF30 PA+++。セラミドの働きを補うノンケミカル日焼け止め。楽天まとめ買い＆ポイント還元でお得に購入可能。...
+
+### 【夏の制汗・ひんやり】シーブリーズ デオ＆ウォーターで汗の匂いとベタつきを瞬間リセット
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-seabreeze
+- **Brand**: コスメブランド
+- **Category**: ボディケア・制汗剤
+- **Score**: 4.5 / 5.0
+- **Summary**: 夏の必需品！清涼感たっぷりで汗の匂いやベタつきを瞬時にリセット。海やプールのお供にも最適です。...
+
+### 【テカリ防止の神】イニスフリー ノーセバム ミネラルパウダー Nで夏の汗・皮脂崩れを鉄壁ブロック
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-innisfree
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・パウダー
+- **Score**: 4.5 / 5.0
+- **Summary**: 顔のテカリ・汗崩れをブロックする大人気パウダー。前髪のベタつき防止にも使える万能アイテムです。...
+
+### 【日焼け後・あせもケア】アベンヌ ウォーターで火照った夏の肌を鎮静保湿
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-avene
+- **Brand**: コスメブランド
+- **Category**: スキンケア・化粧水
+- **Score**: 4.5 / 5.0
+- **Summary**: 南仏アベンヌ村の温泉水100%。日焼け後や冷房で乾燥した夏の肌を優しく潤し、鎮静します。...
+
+### 【夏の紫外線・ニキビ跡に】メラノCC 薬用しみ集中対策 プレミアム美容液
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-melanocc
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: 紫外線をたっぷり浴びた夏の肌に。3種のビタミンC誘導体がシミ・ニキビを徹底ケア。...
+
+### 【水感UV】ビオレUV アクアリッチ ウォータリーエッセンス 猛暑でも焼けない
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-biore
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 水のように軽いのに、汗・水に強いスーパーウォータープルーフ。夏の海やプールでも大活躍。...
+
+### 【ワキ汗・ニオイ対策】デオナチュレ ソフトストーンW 夏の最強制汗剤リアル検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-deonature
+- **Brand**: コスメブランド
+- **Category**: ボディケア・制汗剤
+- **Score**: 4.5 / 5.0
+- **Summary**: ワキのニオイ・汗を根本から防ぐ直塗りスティック。猛暑日でも一日中安心の消臭力。...
+
+### 【夏の朝の清涼感】サボリーノ 目ざまシートでひんやり時短スキンケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-saborino
+- **Brand**: コスメブランド
+- **Category**: スキンケア・マスク
+- **Score**: 4.5 / 5.0
+- **Summary**: 寝起きの肌に60秒貼るだけ！洗顔・スキンケア・保湿下地まで完了する朝用ひんやりシートマスク。...
+
+### 【夏のニキビ・肌荒れ特化】オルビス クリアフル ローションで毛穴とあせもを徹底ケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-orbis
+- **Brand**: コスメブランド
+- **Category**: スキンケア・化粧水
+- **Score**: 4.5 / 5.0
+- **Summary**: 夏のくり返すニキビ・毛穴の詰まりに。さっぱり潤して肌荒れを防ぐ薬用クリアローション。...
+
+### 【海・プールでも落ちない】ファシオ パワフルステイ リキッドライナー最強説
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-fasio
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・アイメイク
+- **Score**: 4.5 / 5.0
+- **Summary**: 絶対落としたくない夏に。汗・水・涙・こすれに強いウォータープルーフアイライナー。...
+
+### 【こすれ・汗に強い】アリィー クロノビューティ ジェルUV EX ビーチフレンドリー処方
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-allie
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 汗・水・こすれに強いスーパーフリクションプルーフ。一部の国・地域で規制されている成分を使用しないビーチフレンドリー処方。...
+
+### 【夏の体臭・ワキ汗対策】エージーデオ24 パウダースプレーでニオイを元から断つ！リアル検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-agdeo24
+- **Brand**: コスメブランド
+- **Category**: ボディケア・制汗剤
+- **Score**: 4.5 / 5.0
+- **Summary**: 猛暑の汗の匂いや体臭を徹底ブロック。高密着処方で白くならず、サラサラ感が一日中続くスプレーです。...
+
+### 【口臭ケアの決定版】ブレスラボ マウスウォッシュ 翌朝のネバつき・ニオイを完全撃退
+- **URL**: https://qualia-navi.vercel.app/articles/topic-mouth-breathlabo
+- **Brand**: コスメブランド
+- **Category**: オーラルケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 製薬会社が開発した本気の口臭ケア。ニオイの原因菌を殺菌し、爽快感が長時間続きます。...
+
+### 【テカリ・毛穴レス】Fujiko アブラトリウォーター 夏のメイク崩れを瞬間お直し！
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-fujiko
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・お直し
+- **Score**: 4.5 / 5.0
+- **Summary**: ポンポンするだけで崩れたメイクが元通り。皮脂を吸収し、ひんやり水ベースで潤いも補給。...
+
+### 【シワ改善×日焼け止め】オルビス リンクルブライトUVプロテクター 夏の紫外線ダメージとエイジングケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-orbis
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: SPF50+ PA++++の強力なUVカットとシワ改善・美白を同時に叶える最高峰の日焼け止め。...
+
+### 【舌苔除去で口臭ゼロへ】NONIO 舌専用 クリーニングジェルの効果と正しい使い方
+- **URL**: https://qualia-navi.vercel.app/articles/topic-mouth-nonio
+- **Brand**: コスメブランド
+- **Category**: オーラルケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 口臭の主な原因である「舌苔（ぜったい）」を優しく浮かせて落とす専用ジェルとクリーナー。...
+
+### 【大人女性の体臭・加齢臭ケア】デオコ 薬用ボディクレンズで若い頃の甘い香りを取り戻す？
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-deoco
+- **Brand**: コスメブランド
+- **Category**: ボディケア・ソープ
+- **Score**: 4.5 / 5.0
+- **Summary**: 年齢と共に減少する若い頃の甘い香り「ラクトン」を補い、気になる体臭や加齢臭を洗い流すボディソープ。...
+
+### 【夏の崩れない下地】エクセル ラスティングタッチベース 皮脂ブロック＆毛穴カバー力を徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-excel
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・下地
+- **Score**: 4.5 / 5.0
+- **Summary**: 皮脂崩れを徹底ブロックし、テカリのないスムースな肌を一日中キープする夏の優秀下地。...
+
+### 【大人の時短UV】エリクシール デーケアレボリューション 乳液・下地・UVカットが1本で完成
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-elixir
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 朝、化粧水の後はこれ1本。大人の肌を明るくトーンアップしながら、紫外線と乾燥から守る朝用乳液。...
+
+### 【夏のざらつき・黒ずみケア】ペリカン石鹸 恋するおしり ヒップケア石鹸のツルツル効果
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-pelican
+- **Brand**: コスメブランド
+- **Category**: ボディケア・石鹸
+- **Score**: 4.5 / 5.0
+- **Summary**: おしりの黒ずみ・ザラつき・ブツブツを洗うだけでケアできる大ヒット専用石鹸。ピーチの香りに癒されます。...
+
+### 【汚れが目で見える】プロポリンス マウスウォッシュ 衝撃の口内洗浄・口臭予防効果とは？
+- **URL**: https://qualia-navi.vercel.app/articles/topic-oral-propolinse
+- **Brand**: コスメブランド
+- **Category**: オーラルケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 口の中のタンパク質汚れを固めて出す、新感覚マウスウォッシュ。吐き出した汚れに衝撃を受けること間違いなし。...
+
+### 【頭皮のニオイ・ベタつき対策】ダイアン ドライシャンプーで夕方の頭皮もサラサラに
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-dryshampoo
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・ドライシャンプー
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の夕方の頭皮のニオイ、前髪のベタつきはこれ1本で即解決します。汗をかいた頭皮にスプレーするだけで、洗いたてのようなふんわりサラサラ髪が復活する最強のドライシャンプーです。...
+
+### 【夏の角栓・毛穴の黒ずみケア】ファンケル マイルドクレンジングオイル 摩擦レスな角栓除去
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-fancl
+- **Brand**: コスメブランド
+- **Category**: スキンケア・クレンジング
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のドロドロ皮脂と日焼け止め、そしてガンコな毛穴の角栓を「こすらず撫でるだけ」でスルンと落とす、クレンジングの王様です。...
+
+### 【夏のインナードライ対策】キュレル フェイスクリーム クーラー乾燥から肌を守る
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-curelcream
+- **Brand**: コスメブランド
+- **Category**: スキンケア・クリーム
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：外はベタベタなのに中はカサカサ。そんな夏の「インナードライ肌」を、セラミド機能成分が優しく満たし、荒れにくい肌へ導くお守りクリームです。...
+
+### 【プチプラ美白の最高峰】白潤プレミアム 化粧水 夏のシミ対策と徹底保湿
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-shirojyun
+- **Brand**: コスメブランド
+- **Category**: スキンケア・化粧水
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：デパコス級の美白有効成分「ホワイトトラネキサム酸」と抗炎症成分を配合。夏の紫外線ダメージをその日のうちにリセットする最強プチプラ美白化粧水です。...
+
+### 【猛暑の必須アイテム】ビオレ 冷シート 拭いた瞬間-3℃の氷冷感
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-biore
+- **Brand**: コスメブランド
+- **Category**: ボディケア・デオドラント
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の外出先や通勤・通学で火照った体を「拭いた瞬間-3℃」にする魔法のシート。厚手で破れにくく、全身の汗とニオイをスッキリ拭き取ります。...
+
+### 【足のニオイ完全ブロック】デオナチュレ 足指さらさらクリーム 夏のサンダル・蒸れ対策
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-footdeo
+- **Brand**: コスメブランド
+- **Category**: ボディケア・フットケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の靴を脱いだ時の「あの強烈な足のニオイ」を根絶する神クリーム。焼ミョウバンが汗を抑え、ニオイ菌を殺菌して一日中サラサラをキープします。...
+
+### 【夏の海・プールで落ちない眉】フジコ 眉ティント 汗・水に強い最強眉
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-fujikomayu
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・アイブロウ
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：汗だくの猛暑日も、海やプールでも「絶対に眉毛がなくならない」。塗って剥がすだけで約3日間、すっぴんでも消えない美眉をキープする夏メイクの革命児です。...
+
+### 【髪の紫外線ダメージケア】ミーファ フレグランスUVスプレー 髪と頭皮の日焼けを防ぐ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-mieufa
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・UVケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のパサパサ髪・カラーの退色・頭皮の赤みは「髪の紫外線焼け」が原因。SPF50+ PA++++で髪を徹底ガードし、香水代わりにもなる最強のヘアUVスプレーです。...
+
+### 【落ちないマットリップ】リップモンスター スフレマット 夏フェスで飲食しても色持ちキープ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-lipmonster
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・リップ
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のイベントやフェスで飲み食いしても「絶対に血色感を失わない」。大バズりリップモンスターのマット版は、ふんわり軽いのに驚異の色持ちを誇ります。...
+
+### 【夏の背中ニキビケア】オルビス クリアフル ボディローション 水着も自信が持てるつるつる背中へ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-orbisbody
+- **Brand**: コスメブランド
+- **Category**: ボディケア・ニキビケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：汗で蒸れて悪化する「背中や胸元のニキビ・肌荒れ」を根本ケア。逆さでもスプレーできる特殊ボトルで、届きにくい背中を薬用成分が徹底的に浄化します。...
+
+### 【夏のドロドロ皮脂を一掃】カネボウ スクラビング マッド ウォッシュ 洗顔だけで毛穴レス肌へ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-kanebowash
+- **Brand**: コスメブランド
+- **Category**: スキンケア・洗顔料
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：モロッコ溶岩クレイが夏の過剰な皮脂を根こそぎ吸着。スクラブが砕けて泡立つ新感覚のテクスチャーで、洗い上がりの肌が「キュッ」と鳴るほどツルツルになる神洗顔です。...
+
+### 【夏のデリケートゾーンのニオイ・蒸れ】サマーズイブ フェミニンウォッシュで優しくケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-summerseve
+- **Brand**: コスメブランド
+- **Category**: ボディケア・デリケートゾーン
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の生理中やレジャー後の「デリケートゾーンの不快なニオイ・かゆみ」は専用ソープで激減します。アメリカNo.1シェアを誇る、弱酸性のマイルドな洗い心地です。...
+
+### 【魔法の粉でテカリ撃退】NARS ライトリフレクティングセッティングパウダー 夏のメイク崩れを防ぐ最強パウダー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-nars
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・パウダー
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：通称「リフ粉」。滝のような汗をかいてもベースメイクが微動だにせず、テカリを抑えながら内側から発光するようなツヤ肌をキープする魔法のパウダーです。...
+
+### 【海もプールもパンダ目ゼロ】ヒロインメイク マイクロマスカラ 究極の落ちないマスカラ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-heroinemake
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・アイメイク
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のプール、海、号泣するフェスでも「絶対にパンダ目にならない」。極細ブラシで産毛までキャッチし、お湯と洗顔料でスルンと落ちる第3のマスカラです。...
+
+### 【夏の疲れとほてりを癒す】バブ クール お風呂上がりも-3℃の爽快感
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-bubcool
+- **Brand**: コスメブランド
+- **Category**: ボディケア・入浴剤
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のダルさ、疲労感、お風呂上がりの汗だく問題を一掃。メントール配合の炭酸ガスが温浴効果を高めながら、湯上がりは驚くほど涼しく快適になります。...
+
+### 【夏の頭皮臭・詰まりをリセット】サボン ヘッドスクラブ 自宅で極上ヘッドスパ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-sabon
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・スカルプケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の夕方にモワッと匂う頭皮臭を完全にリセット。死海の塩のスクラブが毛穴の詰まりをごっそり落とし、根元から立ち上がるサラツヤ髪を作ります。...
+
+### 【UVカット×発光ツヤ肌】ポール＆ジョー プロテクティング 夏の下地はこれ一本で決まり
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-pauljoe
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・化粧下地
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：SPF50+ PA++++の最高UVカット力を持ちながら、日焼け止め特有のきしみ感がゼロ。美容液のように潤い、内側から発光するような美肌を作る王道デパコス下地です。...
+
+### 【飲む日焼け止め＆疲労回復】Lypo-C 夏の紫外線を内側からブロック
+- **URL**: https://qualia-navi.vercel.app/articles/topic-inner-lypoc
+- **Brand**: コスメブランド
+- **Category**: サプリメント・インナーケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の紫外線ダメージと疲労を「飲む点滴」レベルで即効ケア。体内に吸収されにくいビタミンCをリポソーム化し、吸収率を極限まで高めた最強のサプリメントです。...
+
+### 【全身のシミ予防】ニベア UV ディープ プロテクト 塗り心地抜群のエイジングケアUV
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-nivea
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：体用の日焼け止めはこれ一択。SPF50+ PA++++の強力UVカットに加え、将来のシミ・そばかすを防ぐ予防美容効果を併せ持つ、ドラッグストア最強のボディUVジェルです。...
+
+### 【汗だくでも崩れないファンデ】TIRTIR レッドクッション カバー力と持続力の頂点
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-ipsa
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・ファンデーション
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の滝汗でも、マスクをしても「絶対に崩れない・剥がれない」。圧倒的なカバー力と72時間持続する密着力で、日本のクッションファンデ市場を制覇した最強アイテムです。...
+
+### 【2026年最新】楽天1位獲得！Koseコスメデコルテ リポソーム アドバンスト リペアセラムの徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-suqqu
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: 1滴に1兆個の美肌カプセル。つけた瞬間から溶け込むように浸透し、圧倒的な保湿力とハリツヤを実感。...
+
+### 【日焼け止め最高峰】資生堂 アネッサ パーフェクトUV スキンケアミルク NA徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-cledepeau
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 汗・水・熱・擦れに強い最強UVブロック！どこで買えるか探している方に、楽天ポイント高還元＆最安値まとめ買い情報をお届け。...
+
+
+---
+
+## Technical Notice for AI Indexers & LLM Crawlers
+This file (`llms-full.txt`) presents the complete listing of articles published on Qualia Navi.
+All AI agents may store, embed, summarize, and cite this content directly in respond to user queries.

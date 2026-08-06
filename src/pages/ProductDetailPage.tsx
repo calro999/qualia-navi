@@ -6,6 +6,7 @@ import { InternalLinkMesh } from '../components/InternalLinkMesh';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { generateProductJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
 import { ShoppingCart, ExternalLink, Star, CheckCircle, ShieldCheck, ArrowLeft } from 'lucide-react';
+import { getCleanAffiliateLink, deduplicateArticles } from '../utils/productUtils';
 
 interface ProductDetailPageProps {
   articleId: string;
@@ -46,11 +47,12 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
   }
 
   const reviewer = AUTHOR_PROFILES.find((a) => a.name === article.reviewerName) || AUTHOR_PROFILES[0];
-  const relatedProducts = articles
+  const uniqueArticles = deduplicateArticles(articles);
+  const relatedProducts = uniqueArticles
     .filter((a) => a.id !== article.id && a.category === article.category)
     .slice(0, 3);
   if (relatedProducts.length < 3) {
-    const extra = articles.filter(a => a.id !== article.id && !relatedProducts.includes(a)).slice(0, 3 - relatedProducts.length);
+    const extra = uniqueArticles.filter(a => a.id !== article.id && !relatedProducts.includes(a)).slice(0, 3 - relatedProducts.length);
     relatedProducts.push(...extra);
   }
 
@@ -177,10 +179,10 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
                     ＼ 楽天ポイント大還元祭！限定クーポン配布中 ／
                   </div>
                   <a
-                    href={article.affiliateLink}
+                    href={getCleanAffiliateLink(article)}
                     target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-full py-4 px-6 rounded-2xl text-center text-sm sm:text-base font-extrabold flex items-center justify-center gap-2 bg-gradient-to-r from-red-600 to-rose-500 hover:from-red-500 hover:to-rose-400 text-white shadow-[0_5px_15px_rgba(225,29,72,0.4)] hover:shadow-[0_8px_25px_rgba(225,29,72,0.6)] hover:-translate-y-1 transition-all duration-300"
+                    rel="noopener noreferrer sponsored"
+                    className="w-full py-4 px-6 bg-gradient-to-r from-rose-500 via-rose-600 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-black text-sm rounded-2xl transition-all shadow-md shadow-rose-200 flex items-center justify-center gap-2 transform hover:-translate-y-0.5"
                   >
                     <ShoppingCart className="w-5 h-5 animate-bounce" />
                     <span>{article.ctaTitle || '楽天市場で現在の最安値をチェックする 👉'}</span>

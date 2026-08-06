@@ -63,7 +63,27 @@ def load_yaml_config(filepath):
                 current_topic[key] = val
         if current_topic:
             topics.append(current_topic)
-    return topics
+
+    # 徹底的な重複除去（ID & Keyword）
+    seen_ids = set()
+    seen_keywords = set()
+    unique_topics = []
+    import re
+    for t in topics:
+        tid = t.get('id', '')
+        kw = t.get('keyword', '')
+        norm_kw = re.sub(r'[\s\u3000【】\[\]（）()]', '', kw.lower()) if kw else ''
+        if tid and tid in seen_ids:
+            continue
+        if norm_kw and norm_kw in seen_keywords:
+            continue
+        if tid:
+            seen_ids.add(tid)
+        if norm_kw:
+            seen_keywords.add(norm_kw)
+        unique_topics.append(t)
+
+    return unique_topics
 
 def fetch_rakuten_item(app_id, access_key, affiliate_id, keyword):
     print(f"Fetching from Rakuten API: {keyword}")

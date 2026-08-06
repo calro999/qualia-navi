@@ -10,6 +10,8 @@ interface ProductListPageProps {
   onNavigate: (path: string) => void;
 }
 
+import { deduplicateArticles, getCleanAffiliateLink } from '../utils/productUtils';
+
 export function ProductListPage({ articles, onNavigate }: ProductListPageProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -45,7 +47,10 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
   }, []);
 
   const filteredArticles = useMemo(() => {
-    const filtered = articles.filter((art) => {
+    // 重複商品を統一化（名寄せ）
+    const unique = deduplicateArticles(articles);
+
+    const filtered = unique.filter((art) => {
       const matchCat =
         selectedCategory === 'all' || art.category === selectedCategory;
       const matchQuery =
@@ -56,7 +61,6 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
       return matchCat && matchQuery;
     });
 
-    // 常に新しく追加した商品（articles配列の末尾にあるもの）が上に来るように元の順序を反転
     return filtered;
   }, [articles, selectedCategory, searchQuery]);
 
@@ -245,10 +249,10 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
                     詳細レビュー
                   </button>
                   <a
-                    href={art.affiliateLink}
+                    href={getCleanAffiliateLink(art)}
                     target="_blank"
-                    rel="noopener noreferrer"
-                    className="rakuten-btn py-2.5 px-3 rounded-xl text-xs font-bold text-center flex items-center justify-center gap-1"
+                    rel="noopener noreferrer sponsored"
+                    className="py-2.5 px-3 bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold text-xs rounded-xl transition text-center flex items-center justify-center gap-1 shadow-sm shadow-rose-200"
                   >
                     <ShoppingCart className="w-3.5 h-3.5" />
                     <span>楽天で見る</span>

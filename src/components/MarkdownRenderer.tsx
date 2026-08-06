@@ -77,8 +77,16 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
         const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
         if (linkMatch) {
           const anchorText = linkMatch[1];
-          const href = linkMatch[2];
+          let href = linkMatch[2];
           const isInternal = href.startsWith('/');
+
+          // 検索URLが紛れ込んでいた場合のアフィリエイト直リンク変換ガード
+          if (href.includes('search.rakuten.co.jp')) {
+            const urlObj = new URL(href);
+            const pathParts = urlObj.pathname.split('/').filter(Boolean);
+            const searchKeyword = pathParts[pathParts.length - 1] || '';
+            href = `https://hb.afl.rakuten.co.jp/hgc/g00uq6dn.j9rug80d.g00uq6dn.j9ruh5c8/?pc=${encodeURIComponent(`https://item.rakuten.co.jp/search?k=${searchKeyword}`)}`;
+          }
 
           return (
             <a
@@ -88,7 +96,7 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
               rel={isInternal ? undefined : 'noopener noreferrer'}
               onClick={(e) => handleLinkClick(e, href)}
               className={
-                anchorText.includes('🛍️') 
+                anchorText.includes('🛍️') || anchorText.includes('【楽天】')
                   ? "my-4 flex items-center justify-center w-full sm:w-auto bg-gradient-to-r from-rose-500 to-red-600 hover:from-rose-600 hover:to-red-700 text-white font-extrabold text-sm sm:text-base px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 active:scale-95"
                   : "inline-flex items-center gap-1 font-extrabold text-rose-600 hover:text-rose-800 hover:underline bg-rose-50 px-2 py-0.5 rounded my-0.5 border border-rose-200 transition-colors cursor-pointer"
               }

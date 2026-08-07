@@ -8,8 +8,8 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 ## Site Information
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
-- **Last Mod**: 2026-08-06
-- **Total Articles**: 119 件の個別詳細レビュー
+- **Last Mod**: 2026-08-07
+- **Total Articles**: 125 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,14 +31,20 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】楽天人気急上昇！★11日まで半額以下★【まとめ買い割引あり】【プロネイリ 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-2_1786012835): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】楽天人気急上昇！★11日まで半額以下★【26SS新作入荷】【楽天1位】【 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1786012833): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】楽天人気急上昇！＼30%OFFクーポン／&co. ネイルチップ ショート 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785852933): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】楽天人気急上昇！【全品対象｜1,500円以上で110円OFF！】【15m 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785840025): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】楽天人気急上昇！【8月5日P5倍】ネイルシール ジェル風 ジェルシール  徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785811111): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】楽天人気急上昇！＼月間優良ショップ受賞／&co. ネイルチップ ショート 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785725658): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！ネイルチップ ショート つけ爪 韓国デザイン ジェル風ネ 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-8_1785565822): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！期間限定！通常990円→790円♪貼るだけ簡単！人気韓国 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-7_1785565822): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！ネイルチップ ショート つけ爪 韓国風デザイン ジェル風 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-6_1785565822): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！ネイルシール 貼るだけ 硬化不要 長持ち ネイルステッカ 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785552853): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！ネイルチップ レディース つけ爪 付け爪 猫目 キャッツ 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785538926): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！2IM STUDIO ネイルチップ 10枚入 職人仕上げ 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785526027): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！【100円OFFクーポン】【SoraraBeauty新発 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785519563): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！ウイング・ビート ネイルチップ Cindy-001 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-9_1785494424): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
@@ -60,12 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【最新ヒットコスメ】楽天人気急上昇！【全8色】マグネット フットネイルチップ 貼るだけ簡単  徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785480300): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！2枚セット　1枚＋1枚　【店内全品1500種類 】ネイル 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-1_1785480300): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】楽天人気急上昇！【3点セット】ネイルチップ ショート つけ爪 韓国風 ジ 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-10_1785474033): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】楽天人気急上昇！【即日発送】ネイルチップ ショート つけ爪 貼るだけ 簡 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-9_1785474033): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】楽天人気急上昇！【SoraraBeauty新発売】5秒速乾×超強力接着  徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-7_1785474032): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】楽天人気急上昇！【発売記念！半額クーポン】＼月間優良ショップ受賞／&co 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-6_1785474032): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】楽天人気急上昇！ネイルチップ 粘着グミ 付け爪用 接着剤 ネイルシール  徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-5_1785474032): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】楽天人気急上昇！★4日から半額以下★【まとめ買い割引あり】【プロネイリス 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-4_1785474032): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】楽天人気急上昇！【ネイルチップ 3点セット】ネイルチップ ショート つけ 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-trending-3_1785474032): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

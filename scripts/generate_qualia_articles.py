@@ -1618,6 +1618,7 @@ Lypo-C最大の難点は「味」。**リポC まずい 飲み方 おすすめ**
 }
 
 def generate_articles():
+    import time
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
     public_img_dir = os.path.join(project_root, 'public', 'images', 'products')
@@ -1809,9 +1810,6 @@ def generate_articles():
             "sort": "-reviewCount",
             "format": "json"
         }
-        r_req = urllib.request.Request(f"{ranking_url}?{urllib.parse.urlencode(rank_params)}", headers={'User-Agent': 'Mozilla/5.0'})
-        
-        import time
         r_items = []
         for attempt in range(3):
             try:
@@ -1841,7 +1839,6 @@ def generate_articles():
 
             if not is_duplicate and r_name[:35] not in existing_names:
                 discovered_count += 1
-                import time
                 timestamp = int(time.time())
                 unique_id = f"{discovered_count}_{timestamp}"
                 local_r_img = ensure_local_product_image(r_img, f"autodiscover_{unique_id}.jpg", public_img_dir)

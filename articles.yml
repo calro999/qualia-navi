@@ -423,6 +423,291 @@ topics:
     target_audience: "毛穴の目立ち・ざらつき・肌のゴワつきをリセットしたい方"
     is_hall_of_fame: true
 
+
+  - id: topic-suncare-kanebo-veilofday
+    category: suncare
+    keyword: "KANEBO ヴェイル オブ デイ"
+    title_template: "【夕方まで乾かない美容液UV】{product_name} 猛暑でも継続する圧倒的水分補給と紫外線カット"
+    target_audience: "日焼け止めで肌が乾燥・きしむのが嫌な保湿重視派"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-kose-clearpeel
+    category: skincare
+    keyword: "ONE BY KOSÉ クリアピール セラム"
+    title_template: "【夏の毛穴・角栓づまりリセット】{product_name} 拭き取り美容液でツルツル透明美肌検証"
+    target_audience: "夏の皮脂づまり・毛穴の黒ずみ・ザラつきを解消したい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-decorte-zenwear
+    category: makeup
+    keyword: "コスメデコルテ ZEN ウェア フルイド"
+    title_template: "【24時間崩れない鉄壁リキッド】{product_name} 猛暑の汗・皮脂・擦れに耐え抜くスミ肌ファンデ"
+    target_audience: "夏の汗・皮脂でファンデがドロドロに崩れるのを防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-elixir-tsuyadama
+    category: skincare
+    keyword: "エリクシール つや玉ミスト"
+    title_template: "【日中の乾燥＆崩れブロック】{product_name} きめ細かいオイル入りミストでいつでもツヤ肌復活"
+    target_audience: "エアコンの乾燥や日中のメイク崩れ・くすみが気になる方"
+    is_hall_of_fame: true
+
+  - id: topic-lip-dior-foreverliquid
+    category: lip
+    keyword: "ルージュ ディオール フォーエヴァー リキッド"
+    title_template: "【マスク・グラスにつかない】{product_name} 高発色＆高密着のマット高耐久リップ"
+    target_audience: "夏の飲食やマスク着用でも色落ちしない高発色リップを求める方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-addiction-uvcontrol
+    category: suncare
+    keyword: "アディクション ザ UV プロテクター カラーコントロール"
+    title_template: "【ノーファンデ夏の勝負UV】{product_name} 色ムラ補正＆高い紫外線カットで澄んだ肌へ"
+    target_audience: "夏場にファンデを塗りたくない・自然なトーンアップとUVカットを求める方"
+    is_hall_of_fame: true
+
+  - id: topic-body-houseofrose-ohbaby
+    category: bodycare
+    keyword: "ハウス オブ ローゼ ボディ スムーザー N"
+    title_template: "【温泉水ペーストでツルツル】{product_name} ひじ・ひざ・お尻のザラつきを本気ケア"
+    target_audience: "露出が増える夏に向けて全身のザラつき・ゴワつきを滑らかにしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-uka-kenzan
+    category: haircare
+    keyword: "uka スカルプブラシ ケンザン"
+    title_template: "【夏頭皮のニオイ＆コリ撃退】{product_name} お風呂でのサロン級シリコンブラシ体験"
+    target_audience: "夏の頭皮の汗・ニオイ・ベタつき・頭皮のコリを改善したい方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-celvoke-uv
+    category: suncare
+    keyword: "Celvoke UVプロテクトエッセンス"
+    title_template: "【天然由来100%のみずみずしさ】{product_name} 紫外線吸収剤フリーで肌に優しい夏UV"
+    target_audience: "敏感肌・オーガニック派で高いUV効果と優しい使用感を求める方"
+    is_hall_of_fame: false
+
+  - id: topic-makeup-excel-realclose
+    category: makeup
+    keyword: "エクセル リアルクローズシャドウ"
+    title_template: "【夏の日差しに映えるツヤ感】{product_name} 捨て色なしの絶妙グラデーションパレット"
+    target_audience: "プチプラで上品な夏目元グラデーションを作りたい方"
+    is_hall_of_fame: true
+
+
+  - id: topic-suncare-shiseido-urbantriple
+    category: suncare
+    keyword: "SHISEIDO アーバン トリプル プロテクション"
+    title_template: "【都会派強力UVプロテクト】{product_name} 紫外線・PM2.5・乾燥から肌をトリプルガード"
+    target_audience: "屋外・街中での強い紫外線や空気中の汚れから肌を守りたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-obagi-cpowder
+    category: skincare
+    keyword: "オバジC 酵素洗顔パウダー"
+    title_template: "【夏の毛穴黒ずみ分解】{product_name} ビタミンC×酵素の力でザラつき知らずのつるり肌"
+    target_audience: "夏場に目立つ毛穴の詰まり・黒ずみ・角栓をスッキリ洗い流したい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-pauljoe-settingpowder
+    category: makeup
+    keyword: "ポール＆ジョー セッティング パウダー"
+    title_template: "【すっぴん風透明素肌】{product_name} 崩れを防ぎふんわりトップコート効果"
+    target_audience: "ファンデのヨレを防ぎ、自然なツヤとサラサラ質感を両立したい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-bioderma-sensibio
+    category: skincare
+    keyword: "ビオデルマ サンシビオ H2O"
+    title_template: "【夏の汗・ドロドロメイクオフ】{product_name} 敏感肌にも優しい帰宅後即クレンジング水"
+    target_audience: "帰宅後すぐ汗やメイクを優しく落としたい・クレンジングの刺激が気になる方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-napla-ndot
+    category: haircare
+    keyword: "ナプラ N. ポリッシュオイル"
+    title_template: "【湿気・汗に負けないウェット髪】{product_name} 天然由来成分100%で一日中まとまりキープ"
+    target_audience: "夏場の湿気や汗で広がる髪をまとめ、ツヤ感を与えたい方"
+    is_hall_of_fame: true
+
+  - id: topic-lip-hince-rawglow
+    category: lip
+    keyword: "hince ロウグロウジェルティント"
+    title_template: "【夏のぷるつや粘膜リップ】{product_name} 清涼感あるツヤとベタつかない持続力"
+    target_audience: "韓国トレンドの潤いツヤ感と落ちにくさを両立したい方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-andbe-uvmilk
+    category: suncare
+    keyword: "&be UVミルク"
+    title_template: "【河北メイク直伝トーンアップ】{product_name} ノンケミカル処方でヘルシーなツヤ肌へ"
+    target_audience: "肌に優しく自然なトーンアップと日焼け止め効果を求める方"
+    is_hall_of_fame: true
+
+  - id: topic-body-loccitane-verbena
+    category: bodycare
+    keyword: "ロクシタン ヴァーベナ アイシー"
+    title_template: "【ひんやり極上の冷感ボディケア】{product_name} 爽やかなレモンの香りで夏の汗ばむ肌を速攻冷却"
+    target_audience: "お風呂上がりや外出先で涼しく快適にボディケアしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-drcilabo-vc100
+    category: skincare
+    keyword: "ドクターシーラボ VC100エッセンスローションEX"
+    title_template: "【高浸透ビタミンC化粧水】{product_name} 夏の紫外線ダメージ・毛穴・くすみに濃密アプローチ"
+    target_audience: "日焼け後のシミ予防や毛穴の引き締めを実感したい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-heroinemake-eyeliner
+    category: makeup
+    keyword: "ヒロインメイク スムースリキッドアイライナー スーパーキープ"
+    title_template: "【真夏の滝汗でもにじまない】{product_name} 極細筆で夜までくっきり美ラインを維持"
+    target_audience: "目元の汗・涙・皮脂でアイラインが滲む・消えるのを防ぎたい方"
+    is_hall_of_fame: true
+
+
+  - id: topic-skincare-albion-floradrip
+    category: skincare
+    keyword: "アルビオン フローラドrip"
+    title_template: "【夏枯れ肌の救世主】{product_name} 5種のハーブ発酵液が叶える万能濃密化粧液"
+    target_audience: "夏の紫外線やエアコンでゴワつく・くすむ肌を復活させたい方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-allie-toneup
+    category: suncare
+    keyword: "アリィー クロノビューティ トーンアップUV"
+    title_template: "【擦れに強いフリクションプルーフ】{product_name} 汗・水に負けない血色感トーンアップUV"
+    target_audience: "服やバッグへの色移りを防ぎ強力な日焼け止め効果を求める方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-decorte-loosepowder
+    category: makeup
+    keyword: "コスメデコルテ ルース パウダー"
+    title_template: "【極上シルクの肌触り】{product_name} 光のフィルターで毛穴を消し去る伝説のパウダー"
+    target_audience: "乾燥させずに毛穴・テカリを自然にカバーしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-milbon-elujuda-sun
+    category: haircare
+    keyword: "ミルボン エルジューダ サントリートメント"
+    title_template: "【髪の日焼け止めUVオイル】{product_name} 紫外線ダメージを防ぎサロン帰りのサラサラ手触りへ"
+    target_audience: "夏の紫外線による髪のパサつき・退色を防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-sofinaip-carbonic
+    category: skincare
+    keyword: "SOFINA iP ベースケア セラム 土台美容液"
+    title_template: "【毛穴より小さな炭酸泡】{product_name} 夏の夏バテ肌に血行促進＆うるおい浸透"
+    target_audience: "ごわつき・くすみ・スキンケアの浸透の悪さに悩む方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-canmake-abloom
+    category: makeup
+    keyword: "キャンメイク マシュマロフィニッシュパウダー Abloom"
+    title_template: "【5色の補正カラーで透明感】{product_name} 濁りのないふんわりフェースパウダー"
+    target_audience: "プチプラでくすみ・色ムラを補正し透明感をアップしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-lip-laneige-lipsleeping
+    category: lip
+    keyword: "ラネージュ リップスリーピングマスク"
+    title_template: "【翌朝ぷるんぷるんの唇へ】{product_name} エアコン乾燥・紫外線ダメージを夜間集中ケア"
+    target_audience: "夏の皮むけ・縦ジワ・唇の乾燥に悩む方"
+    is_hall_of_fame: true
+
+  - id: topic-body-deonature-foot
+    category: bodycare
+    keyword: "デオナチュレ 足指サラサラクリーム"
+    title_template: "【足の蒸れ・ニオイを根本遮断】{product_name} 朝塗れば夜までサラサラ快適クリーム"
+    target_audience: "サンダルや靴の中の足汗・嫌なニオイを確実に抑えたい方"
+    is_hall_of_fame: true
+
+  - id: topic-lip-kate-lipmonster-base
+    category: lip
+    keyword: "KATE リップカラーコントロールベース"
+    title_template: "【リップの持ちを限界突破】{product_name} くすみを補正し口紅の発色を高める鉄壁下地"
+    target_audience: "手持ちのリップの色持ちや発色を劇的にアップさせたい方"
+    is_hall_of_fame: true
+
+
+  - id: topic-skincare-suisai-powder
+    category: skincare
+    keyword: "suisai スイサイ ビューティクリア パウダーウォッシュ N"
+    title_template: "【毛穴黒ずみ・角栓スッキリ】{product_name} 2つの酵素＆アミノ酸系洗浄成分でつるつる素肌"
+    target_audience: "夏の角栓・皮脂つまり・黒ずみ毛穴を洗顔でケアしたい方"
+    is_hall_of_fame: true
+
+
+  - id: topic-skincare-sk2-mask
+    category: skincare
+    keyword: "SK-II フェイシャル トリートメント マスク"
+    title_template: "【日焼け後の緊急レスキュー】{product_name} 集中ピテラ補給で感動の透明感と集中保湿"
+    target_audience: "夏の紫外線ダメージ、乾燥、くすみを即効集中ケアしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-astalift-deepuv
+    category: suncare
+    keyword: "アスタリフト D-UVクリア ホワイトソリューション"
+    title_template: "【Deep紫外線までカット】{product_name} 笑っても喋っても伸びるUV膜で絶対焼かない"
+    target_audience: "表情の動きによる日焼け止めの亀裂・隙間日焼けを防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-givenchy-prismelibre
+    category: makeup
+    keyword: "ジバンシイ プリズム リーブル"
+    title_template: "【4色の光が織りなす至高の透明感】{product_name} 猛暑でも崩れ知らずの極上オーラ肌"
+    target_audience: "デパコス至高のパウダーでくすみを飛ばし崩れない美肌を作りたい方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-fino-hairmask
+    category: haircare
+    keyword: "fino プレミアムタッチ 浸透美容液ヘアマスク"
+    title_template: "【夏の日差し・海水ダメージ集中補修】{product_name} とろけるように馴染みツルツルの指通りへ"
+    target_audience: "夏の紫外線、プール、海水で傷んだパサつき髪を補修したい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-biore-powdersheet
+    category: bodycare
+    keyword: "ビオレ さらさらパウダーシート"
+    title_template: "【汗のベタつき・ニオイを一拭き】{product_name} 長時間さらさら肌が持続する夏の必需品"
+    target_audience: "外出先で汗のベタつきをオフし、さらさら肌を維持したい方"
+    is_hall_of_fame: true
+
+  - id: topic-supplement-fancl-vitc
+    category: supplement
+    keyword: "ファンケル ディープチャージ ビタミンC"
+    title_template: "【内側からの紫外線＆透明感ケア】{product_name} 高吸収ビタミンCで夏のエイジング対策"
+    target_audience: "日焼け後のシミ予防、内側から透明感を高めたい方"
+    is_hall_of_fame: true
+
+  - id: topic-lip-cezanne-waterytint
+    category: lip
+    keyword: "セザンヌ ウォータリーティントリップ"
+    title_template: "【濡れたようなツヤが続く】{product_name} コップにつきにくいプチプラ最強濡れツヤティント"
+    target_audience: "プチプラでみずみずしいツヤ感と落ちにくさを両立したい方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-transino-uvpowder
+    category: suncare
+    keyword: "トランシーノ 薬用UVパウダーn"
+    title_template: "【メイク直し×UVカット×美白】{product_name} 汗・水に強く透明感を重ねる薬用プレストパウダー"
+    target_audience: "日中の塗り直し用日焼け止め＆テカリ防止パウダーを探している方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-diane-repair
+    category: haircare
+    keyword: "モイストダイアン パーフェクトビューティー エクストラダメージリペア"
+    title_template: "【紫外線で傷んだ髪を密着補修】{product_name} アルガンオイル配合で毛先まで潤うツヤ髪"
+    target_audience: "夏の紫外線乾燥で毛先が毛羽立つ・傷む髪をケアしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-fasio-waterproof
+    category: makeup
+    keyword: "ファシオ パーマネントカール マスカラ WP"
+    title_template: "【海・プールでも絶対下がらない】{product_name} 強力ウォータープルーフで上向きカール持続"
+    target_audience: "夏の汗・水・湿気でまつ毛が下がるのを絶対に防ぎたい方"
+    is_hall_of_fame: true
+
 settings:
   max_items_per_topic: 1
   genre_id: "100939" # 楽天市場「美容・コスメ・香水」ジャンル

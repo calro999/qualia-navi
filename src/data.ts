@@ -454,6 +454,152 @@ export const INITIAL_ARTICLES: RakutenProductArticle[] =
  * 徹底的に肉付けされたSEO・検索流入強化版 美肌特集ブログ記事
  */
 export const INITIAL_BLOG_POSTS: BlogPost[] = [
+
+  {
+    "id": "blog-scalp-care-summer",
+    "slug": "scalp-care-summer",
+    "title": "夏の頭皮のニオイ・ベタつき・皮脂詰まりを解消！自宅でできる頭皮クレンジング＆スカルプケア特集",
+    "subtitle": "頭皮の汗臭さやベタつきにサヨナラ。ヘッドスクラブ・スカルプブラシ・ドライシャンプーで頭皮環境を爽快リセット。",
+    "targetGender": "unisex",
+    "coverImage": "/images/products/sabon_headscrub.jpg",
+    "authorId": "author-tacma",
+    "authorName": "蓮見 拓真",
+    "authorRole": "統括編集長",
+    "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "createdAt": "2026-08-07",
+    "readTimeMinutes": 11,
+    "introText": "2026年最新の美容分析室検証に基づく！夏の汗・皮脂による頭皮の嫌なニオイや毛穴詰まりをリセットするヘッドスクラブ・クレンジング・スカルプブラシのおすすめと正しいケア手順を徹底解説。",
+    "recommendedItemCodes": [
+      "art-topic-hair-sabon",
+      "art-topic-hair-uka-kenzan",
+      "art-topic-hair-yolu-nightrepair"
+    ],
+    "isHallOfFame": true,
+    "contentMarkdown": "## なぜ夏の頭皮は「ニオイ」「ベタつき」が起こりやすいのか？\n\n頭皮の皮脂腺は、なんと**顔のTゾーンの約2倍**も存在します。猛暑で大量の汗と皮脂が分泌されると、皮脂が常在菌によって分解・酸化され、嫌な頭皮臭やベタつき、毛穴詰まりの原因になります。\n\n### 夏の頭皮ストレスをリセットする3STEP\n1. **シャンプー前の頭皮スクラブ**で毛穴の固まった皮脂を浮かせる\n2. **シリコンスカルプブラシ**で頭皮のコリをほぐしながら毛穴の汚れを掻き出す\n3. **日中のドライシャンプー**で出先でも汗とニオイを瞬間オフ\n\n---\n\n### おすすめスカルプケアアイテム\n- **サボン ヘッドスクラブ**: 死海の塩が古い角質と毛穴汚れをすっきりオフ\n- **uka スカルプブラシ ケンザン**: お風呂で頭皮のツボ押し＆毛穴クレンジング\n- **YOLU カームナイトリペア**: 睡眠中の摩擦と乾燥ダメージから髪と頭皮を保護\n"
+  },
+  {
+    "id": "blog-shine-control-makeup",
+    "slug": "shine-control-makeup",
+    "title": "夕方のドロドロテカリ・Tゾーンの崩れを防ぐ！皮脂吸着＆お直しコスメ特集",
+    "subtitle": "朝のサラサラ感が一日中続く。皮脂吸着パウダー・冷感お直しミスト・あぶらとり紙不要コスメ全解説。",
+    "targetGender": "women",
+    "coverImage": "/images/products/innisfree_powder.jpg",
+    "authorId": "author-matsumoto",
+    "authorName": "松本 結衣",
+    "authorRole": "コスメ＆美容編集長",
+    "authorAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+    "createdAt": "2026-08-07",
+    "readTimeMinutes": 10,
+    "introText": "2026年夏のリアルな口コミと検証で選ばれた！朝の仕込みから夕方のメイク直しまで、皮脂テカリを瞬時に抑えてサラサラ素肌をキープするパウダー・ミスト・あぶらとりパウダーを徹底比較。",
+    "recommendedItemCodes": [
+      "art-topic-makeup-innisfree",
+      "art-topic-skincare-ipsa-aqua",
+      "art-topic-skincare-elixir-tsuyadama",
+      "art-topic-makeup-pauljoe-settingpowder"
+    ],
+    "isHallOfFame": true,
+    "contentMarkdown": "## 夕方になると顔がテカる・ファンデがヨレる悩みの原因\n\nテカリの最大の原因は「皮脂過多」と「インナードライ（肌内部の水分不足）」。水分が不足すると、肌は水分を逃がさないように過剰な皮脂を分泌してしまいます。\n\n### 崩れないサラツヤ肌を作るテクニック\n- **朝の仕込み**: 軽やかな水分プレ化粧水でしっかり水分補給した後に皮脂吸着パウダーを軽く抑える\n- **夕方のお直し**: あぶらとり紙でゴシゴシ拭かず、ティッシュで軽く押さえてから保湿ミスト＋パウダーを重ねる\n\n---\n\n### テカリ防止＆お直し厳選アイテム\n- **イニスフリー ノーセバム ミネラルパウダー N**: 皮脂吸着力No.1！瞬間サラサラ肌へ\n- **イプサ ザ タイムR アクア**: 水分バリアを整えインナードライテカリを防ぐ\n- **エリクシール つや玉ミスト**: 美容オイル入りの超微細ミストでメイク直し時の保湿\n- **ポール＆ジョー セッティング パウダー**: トップコート効果で仕上がりを長時間キープ\n"
+  },
+  {
+    "id": "blog-after-sun-care",
+    "slug": "after-sun-care",
+    "title": "日焼けした後のヒリヒリ・赤み・乾燥を鎮静！シミを防ぐアフターサンケア特集",
+    "subtitle": "うっかり日焼けも諦めない。冷却鎮静ミスト・濃密ビタミンC・ピテラマスクでダメージを最速リカバリー。",
+    "targetGender": "unisex",
+    "coverImage": "/images/products/avene_water.jpg",
+    "authorId": "author-matsumoto",
+    "authorName": "松本 結衣",
+    "authorRole": "コスメ＆美容編集長",
+    "authorAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+    "createdAt": "2026-08-07",
+    "readTimeMinutes": 10,
+    "introText": "2026年の猛暑・強烈な紫外線に負けない！うっかり日焼けしてしまった肌の火照りを冷まし、うるおい補給とビタミンCでシミ・肌荒れを防ぐアフターケア＆美容液特集。",
+    "recommendedItemCodes": [
+      "art-topic-skincare-avene-water",
+      "art-topic-skincare-melanocc-premium",
+      "art-topic-skincare-sk2-mask",
+      "art-topic-supplement-fancl-vitc"
+    ],
+    "isHallOfFame": true,
+    "contentMarkdown": "## うっかり日焼けした直後の「72時間」が勝負！\n\n日光（紫外線）を大量に浴びた肌は、軽いやけどを負っている状態です。メラニンが過剰生成されてシミや肌荒れになる前に、適切なステップでケアすることが大切です。\n\n### アフターサンケアの鉄則3ステップ\n1. **冷やす・水分補給**: 温感や赤みがある時はアベンヌウォーター等でまず肌温度を下げる\n2. **抗炎症・ビタミンC**: 火照りが鎮まったらメラノCC等の抗炎症＆ビタミンC美容液を注入\n3. **インナーケア**: ビタミンCサプリメントで体の中からメラニン生成を抑える\n\n---\n\n### アフターケア厳選コスメ\n- **アベンヌ ウォーター**: 100%温泉水で火照った肌をクールダウン＆鎮静\n- **メラノCC 薬用しみ集中対策 プレミアム美容液**: ビタミンCと抗炎症成分でシミ・ニキビ跡ケア\n- **SK-II フェイシャル トリートメント マスク**: 日焼け後のゴワつき肌をピテラで緊急集中補修\n- **ファンケル ディープチャージ ビタミンC**: 内側から体内のビタミンC濃度を高める\n"
+  }
+,
+
+  {
+    "id": "blog-summer-base-makeup-2026",
+    "slug": "summer-base-makeup-2026",
+    "title": "【2026年最新】猛暑でも崩れない！鉄壁ベースメイク＆最強日焼け止め徹底比較特集",
+    "subtitle": "滝汗・皮脂蒸れ・擦れに耐え抜く！デパコス・プチプラの実力派UV＆ファンデーション全6商品をQualia美容分析室が実地検証。",
+    "targetGender": "unisex",
+    "coverImage": "/images/products/anessa_gold_milk.jpg",
+    "authorId": "author-tacma",
+    "authorName": "蓮見 拓真",
+    "authorRole": "統括編集長",
+    "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "createdAt": "2026-08-07",
+    "readTimeMinutes": 12,
+    "introText": "「夏の猛暑でファンデがドロドロ」「日焼け止めを塗っても焼ける・崩れる」とお悩みの方へ。Qualia美容分析室が実地検証で証明した、2026年最強の鉄壁ベースメイク＆日焼け止め特集をお届けします。",
+    "recommendedItemCodes": [
+      "art-b0csb4y3c7",
+      "art-topic-suncare-kanebo-veilofday",
+      "art-topic-makeup-decorte-zenwear",
+      "art-topic-makeup-nars-reflecting",
+      "art-topic-makeup-pauljoe-settingpowder",
+      "art-topic-makeup-cledepeau-voir"
+    ],
+    "isHallOfFame": true,
+    "contentMarkdown": "## 猛暑の汗・皮脂に負けない「鉄壁ベースメイク」の選び方\n\n最高気温35℃を超える日本の猛暑。エアコンの乾燥と外気の皮脂・汗による「ダブルの崩れ」に耐えるには、UVカット膜の耐久性とパウダーの密着力が重要です。\n\n### 特集厳選アイテム\n- **アネッサ パーフェクトUV スキンケアミルク NA**: 汗・水・摩擦に強く猛暑日でも絶対焼かない\n- **KANEBO ヴェイル オブ デイ**: 夕方まで乾かない圧倒的補水力と高UVカット\n- **コスメデコルテ ZEN ウェア フルイド**: 24時間崩れないスミ肌仕上がり\n- **NARS ライトリフレクティング パウダー**: テカリ・皮脂を無力化するサラサラ仕上がり\n- **クレ・ド・ポー ボーテ ヴォワールコレクチュール n**: 塗った瞬間から美肌フィルターをかける至高の下地\n"
+  },
+  {
+    "id": "blog-pore-care-skincare-2026",
+    "slug": "pore-care-skincare-2026",
+    "title": "【毛穴・角栓・テカリ撃退】2026年最新！実力派スキンケア＆酵素洗顔おすすめ大特集",
+    "subtitle": "黒ずみ毛穴・皮脂づまり・ザラつきを根本から解消。毛穴悩みに即効アプローチする美容液＆洗顔特集。",
+    "targetGender": "women",
+    "coverImage": "/images/products/vt_reedle.jpg",
+    "authorId": "author-matsumoto",
+    "authorName": "松本 結衣",
+    "authorRole": "コスメ＆美容編集長",
+    "authorAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+    "createdAt": "2026-08-07",
+    "readTimeMinutes": 10,
+    "introText": "夏場に急増する「毛穴の開き」「黒ずみ」「角栓詰まり」。話題のマイクロニードル美容液から酵素洗顔、高濃度ビタミンCまで、毛穴悩みをリセットする実力派アイテムを完全網羅。",
+    "recommendedItemCodes": [
+      "art-topic-skincare-suisai-powder",
+      "art-topic-skincare-obagi-cpowder",
+      "art-topic-skincare-kose-clearpeel",
+      "art-topic-skincare-obagi-c25",
+      "art-topic-skincare-takami-skinpeel",
+      "art-topic-kbeauty-vt-reedle"
+    ],
+    "isHallOfFame": true,
+    "contentMarkdown": "## 毛穴悩みの原因別・おすすめアプローチ\n\n毛穴トラブルは「皮脂分泌過多」「角栓詰まり」「たるみ毛穴」に大別されます。\n\n- **角栓・黒ずみ毛穴**: オバジC 酵素洗顔パウダー / suisai パウダーウォッシュ N\n- **ゴワつき・拭き取り美容**: ONE BY KOSÉ クリアピール セラム / タカミスキンピール\n- **キメ・美容成分浸透**: VT リードルショット 100 / オバジC25セラム ネオ\n"
+  },
+  {
+    "id": "blog-lip-tint-summer-2026",
+    "slug": "lip-tint-summer-2026",
+    "title": "【落ちないツヤ唇】2026年最新おすすめリップ＆ティント厳選比較特集",
+    "subtitle": "コップにつきにくい！マスク擦れや飲食でも美発色が続く大人気ツヤリップ＆バーム総まとめ。",
+    "targetGender": "women",
+    "coverImage": "/images/products/kate_lipmonster.jpg",
+    "authorId": "author-matsumoto",
+    "authorName": "松本 結衣",
+    "authorRole": "コスメ＆美容編集長",
+    "authorAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+    "createdAt": "2026-08-07",
+    "readTimeMinutes": 10,
+    "introText": "「食事のたびに塗り直すのが面倒」「縦ジワや乾燥が気になる」そんな悩みを解消する、色持ち＆潤いを両立した2026年最新のリップ特集。",
+    "recommendedItemCodes": [
+      "art-topic-lip-kate-lipmonster",
+      "art-topic-lip-romand-tint",
+      "art-topic-lip-dior-lipmaximizer",
+      "art-topic-lip-dior-foreverliquid",
+      "art-topic-lip-hince-rawglow"
+    ],
+    "isHallOfFame": true,
+    "contentMarkdown": "## 落ちないツヤリップ比較一覧\n\n落ちにくさ・ツヤ感・カラーバリエーションを総合評価した厳選リップ特集。\n\n- **KATE リップモンスター**: 落ちにくさNo.1！ジェル膜が唇を密着カバー\n- **ロムアンド ジューシーラスティングティント**: 果汁のようなみずみずしいツヤと発色\n- **ディオール リップ マキシマイザー**: ヒアルロン酸配合でふっくらボリューム\n- **hince ロウグロウジェルティント**: 清涼感のあるツヤと韓国トレンドの粘膜カラー\n"
+  }
+,
   {
     id: 'blog-bodysheet-summer-2026',
     slug: 'bodysheet-summer-2026',

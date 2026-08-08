@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-console.log('⚡️ [Direct Link Master Replacer] ブログ記事内の全ボタンを【商品ページへ直行する直リンクボタン】へ全面更新します...');
+console.log('⚡️ [Clean Markdown Refiner] HTML直書き露出を排除し、純粋なMarkdown構造へ完全修正中...');
 
 const projectRoot = process.cwd();
 const dataTsPath = path.join(projectRoot, 'src', 'data.ts');
@@ -14,7 +14,6 @@ articlesData.forEach(art => {
 });
 
 const defaultProductImage = '/images/products/decorte_liposome.jpg';
-const RAKUTEN_AFFILIATE_ID = '54d2a438.4bc4abc2.54d2a439.aa1be583';
 
 function getProductsByCategory(category, count = 10) {
   let list = articlesData.filter(a => a.category === category);
@@ -24,7 +23,7 @@ function getProductsByCategory(category, count = 10) {
   return list.slice(0, count);
 }
 
-// 楽天API商品のカード生成（完全に商品直リンクURL＆直行ボタン化）
+// 楽天API商品の標準Markdownカード生成（HTMLタグ非混入）
 function renderProductCard(art, index) {
   const title = art.productName || art.title;
   const price = art.rakutenPrice || art.priceRange || '1,980円 (税込)';
@@ -35,12 +34,7 @@ function renderProductCard(art, index) {
     imgUrl = defaultProductImage;
   }
 
-  // 確実に直リンク化
-  let affLink = art.affiliateLink || art.originalUrl || '#';
-  if (affLink.includes('search.rakuten.co.jp')) {
-    affLink = `https://hb.afl.rakuten.co.jp/hgc/${RAKUTEN_AFFILIATE_ID}/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F${art.id}%2F`;
-  }
-
+  const affLink = art.affiliateLink || art.originalUrl || '#';
   const audience = art.targetAudience || '毎日のケアで失敗したくない方、本気のコスメをお探しの方';
   
   let features = art.features || ['高密着処方で落ちにくい', '保湿成分配合で肌に優しい', '話題の人気コスメ'];
@@ -51,9 +45,7 @@ function renderProductCard(art, index) {
   return `
 ### 第${index}位：${title}
 
-<div class="my-4 text-center">
-  <img src="${imgUrl}" alt="${title}" class="max-w-xs mx-auto rounded-xl shadow-sm border border-slate-100 object-contain bg-white h-52 p-2" loading="lazy" />
-</div>
+![${title}](${imgUrl})
 
 - **参考価格**: ${price}
 - **総合評価**: ★★★★★ (${rating})
@@ -64,11 +56,7 @@ ${features.slice(0, 3).map(f => `  - ${f}`).join('\n')}
 **【Qualia美容分析室の検証レビュー】**
 ${reviewText}
 
-<div class="my-4">
-  <a href="${affLink}" class="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3.5 rounded-xl bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-700 hover:to-rose-700 text-white font-bold text-sm shadow-md transition-all no-underline cursor-pointer text-center" target="_blank" rel="nofollow noopener">
-    <span>【楽天市場】${title} の商品ページへ直行する ↗</span>
-  </a>
-</div>
+[【楽天市場】${title} の商品ページへ直行する ↗](${affLink})
 
 ---
 `;
@@ -110,7 +98,7 @@ function generateRichMarkdown(post) {
 
   let md = `## 1. ${post.title}：失敗しないための徹底比較ガイド
 
-${post.introText || 'コスメ選びで大切なのは、自分の悩みや求める質感（持持力・保湿感・発色・香りの強さ）にフィットしているかを見極めることです。本特集では、リアルタイムに支持されている人気実力派アイテム10選を徹底比較しました。'}
+${post.introText || 'コスメ選びで大切なのは、自分の悩みや求める質感（持続力・保湿感・発色・香りの強さ）にフィットしているかを見極めることです。本特集では、リアルタイムに支持されている人気実力派アイテム10選を徹底比較しました。'}
 
 ### 本特集の比較チェックリスト
 - **持続力・キープ力**: 朝使って夕方まで塗り直し・ケアが不要か
@@ -136,7 +124,7 @@ ${post.introText || 'コスメ選びで大切なのは、自分の悩みや求�
 - **自然な使い心地とコスパ・毎日使いを求める方**: 『${items[1]?.productName || items[1]?.title}』がベストチョイス！
 - **乾燥や肌荒れ・成分の優しさをケアしたい方**: 『${items[2]?.productName || items[2]?.title}』をお選びください。
 
-気になる商品の画像や「商品ページへ直行する」ボタンから、楽天市場の各店舗・公式ショップ直リンクで最新価格や在庫を直接ご確認ください！
+気になる商品は「商品ページへ直行する ↗」リンクから、楽天市場の店舗・公式ショップ直リンクで最新価格や在庫をご確認ください！
 `;
 
   return { markdown: md, itemIds: items.map(i => i.id) };
@@ -145,7 +133,7 @@ ${post.introText || 'コスメ選びで大切なのは、自分の悩みや求�
 async function main() {
   const { INITIAL_BLOG_POSTS } = await import('../src/data.ts');
   
-  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件のブログ記事を完全商品直リンクボタン仕様へリライト中...`);
+  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件のブログ記事を純粋なMarkdown構造へ変換中...`);
 
   const updatedPosts = INITIAL_BLOG_POSTS.map((post) => {
     const { markdown, itemIds } = generateRichMarkdown(post);
@@ -178,7 +166,7 @@ async function main() {
   const updatedDataTs = dataTsText.slice(0, startIdx) + newPart + dataTsText.slice(endIdx);
   
   fs.writeFileSync(dataTsPath, updatedDataTs, 'utf-8');
-  console.log(`🎉 [Direct Link Master Replacer] ブログ記事内のボタン・アフィリンクの完全商品直リンク化が完了しました！`);
+  console.log(`🎉 [Clean Markdown Refiner] HTML直書きマークアップの排除完了！`);
 }
 
 main().catch(console.error);

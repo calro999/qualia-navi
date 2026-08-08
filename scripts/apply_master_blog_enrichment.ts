@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-console.log('⚡️ [Master Blog Replacer] 96件の全ブログ記事を10商品完全掲載＆個別グリッドコラージュサムネイル化します...');
+console.log('⚡️ [Master Content Refiner] 「楽天API連携！」等のメタ表現排除＆高精細画像・「楽天で見る」ボタン配置を開始します...');
 
 const projectRoot = process.cwd();
 const dataTsPath = path.join(projectRoot, 'src', 'data.ts');
@@ -13,6 +13,9 @@ articlesData.forEach(art => {
   if (art.id) articlesMap.set(art.id, art);
 });
 
+// デフォルト信頼できる実在商品画像
+const defaultProductImage = '/images/products/decorte_liposome.jpg';
+
 // カテゴリ別商品取得
 function getProductsByCategory(category, count = 10) {
   let list = articlesData.filter(a => a.category === category);
@@ -22,41 +25,60 @@ function getProductsByCategory(category, count = 10) {
   return list.slice(0, count);
 }
 
-// 楽天API商品のカード生成
+// 楽天API商品のカード生成（メタ表現排除・画像パス補正・楽天で見るボタン確実配置）
 function renderProductCard(art, index) {
   const title = art.productName || art.title;
-  const price = art.rakutenPrice || '1,980円 (税込)';
+  const price = art.rakutenPrice || art.priceRange || '1,980円 (税込)';
   const rating = art.starRating || 4.8;
-  const imgUrl = art.imageUrl || '/images/products/decorte_liposome.jpg';
+  
+  // 実在画像パス補正（壊れたパス対策）
+  let imgUrl = art.imageUrl || art.image;
+  if (!imgUrl || typeof imgUrl !== 'string' || imgUrl.includes('topic_')) {
+    imgUrl = defaultProductImage;
+  }
+  if (imgUrl.startsWith('/')) {
+    // ローカルファイル存在確認
+    const localFile = path.join(projectRoot, 'public', imgUrl);
+    if (!fs.existsSync(localFile)) {
+      imgUrl = defaultProductImage;
+    }
+  }
+
   const affLink = art.affiliateLink || art.originalUrl || '#';
   const audience = art.targetAudience || '毎日のケアで失敗したくない方、本気のコスメをお探しの方';
   
-  let features = art.features || ['高密着処方で落ちにくい', '保湿成分配合で肌に優しい', '楽天ランキング1位獲得'];
+  let features = art.features || ['高密着処方で落ちにくい', '保湿成分配合で肌に優しい', '話題の人気コスメ'];
   if (typeof features === 'string') features = [features];
 
-  const reviewText = art.introText || (art.reviewBody ? art.reviewBody.slice(0, 150) + '...' : '楽天市場でリアルタイムに大人気。口コミでも高評価を獲得している実力派コスメアイテムです。');
+  const reviewText = art.introText || (art.reviewBody ? art.reviewBody.slice(0, 150) + '...' : 'リアルタイムに大人気。口コミでも高評価を獲得している実力派コスメアイテムです。');
 
   return `
 ### 第${index}位：${title}
 
-![${title}](${imgUrl})
+<div class="my-4 text-center">
+  <img src="${imgUrl}" alt="${title}" class="max-w-xs mx-auto rounded-xl shadow-sm border border-slate-100 object-contain bg-white h-52 p-2" loading="lazy" />
+</div>
 
 - **参考価格**: ${price}
 - **総合評価**: ★★★★★ (${rating})
 - **おすすめな人**: ${audience}
 - **主な特徴・メリット**:
-${features.map(f => `  - ${f}`).join('\n')}
+${features.slice(0, 3).map(f => `  - ${f}`).join('\n')}
 
 **【Qualia美容分析室の検証レビュー】**
 ${reviewText}
 
-<a href="${affLink}" class="affiliate-btn" target="_blank" rel="nofollow noopener">【楽天市場】${title} の最安値・口コミをチェック ▶</a>
+<div class="my-4">
+  <a href="${affLink}" class="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold text-sm shadow-md transition-all no-underline cursor-pointer text-center" target="_blank" rel="nofollow noopener">
+    <span>【楽天市場】${title} の最安値・在庫をチェック ↗</span>
+  </a>
+</div>
 
 ---
 `;
 }
 
-// 高品質ブログテキスト組み立て
+// プロ品質ブログテキスト組み立て
 function generateRichMarkdown(post) {
   let codes = post.recommendedItemCodes || [];
   let productList = [];
@@ -93,9 +115,9 @@ function generateRichMarkdown(post) {
 
   const items = productList.slice(0, 10);
 
-  let md = `## 1. ${post.title}：後悔しないための徹底比較ガイド
+  let md = `## 1. ${post.title}：失敗しないための徹底比較ガイド
 
-${post.introText || 'コスメ選びで大切なのは、自分の悩みや求める質感（持続力・保湿感・発色・香りの強さ）にフィットしているかを見極めることです。本特集では、楽天市場でリアルタイムに支持されている人気実力派アイテム10選を徹底比較しました。'}
+${post.introText || 'コスメ選びで大切なのは、自分の悩みや求める質感（持続力・保湿感・発色・香りの強さ）にフィットしているかを見極めることです。本特集では、リアルタイムに支持されている人気実力派アイテム10選を徹底比較しました。'}
 
 ### 本特集の比較チェックリスト
 - **持続力・キープ力**: 朝使って夕方まで塗り直し・ケアが不要か
@@ -104,7 +126,7 @@ ${post.introText || 'コスメ選びで大切なのは、自分の悩みや求�
 
 ---
 
-## 2. 楽天API連携！人気実力派アイテム 厳選10選 徹底紹介
+## 2. 話題の人気実力派アイテム 厳選10選 徹底紹介
 
 `;
 
@@ -121,7 +143,7 @@ ${post.introText || 'コスメ選びで大切なのは、自分の悩みや求�
 - **自然な使い心地とコスパ・毎日使いを求める方**: 『${items[1]?.productName || items[1]?.title}』がベストチョイス！
 - **乾燥や肌荒れ・成分の優しさをケアしたい方**: 『${items[2]?.productName || items[2]?.title}』をお選びください。
 
-楽天市場の各公式ショップ・正規取扱店で最新価格やお得なクーポン情報をチェックしてみてください！
+気になったアイテムは、楽天市場の公式ショップや正規取扱店で最新価格や在庫情報を確認してみてください！
 `;
 
   return { markdown: md, itemIds: items.map(i => i.id) };
@@ -130,7 +152,7 @@ ${post.introText || 'コスメ選びで大切なのは、自分の悩みや求�
 async function main() {
   const { INITIAL_BLOG_POSTS } = await import('../src/data.ts');
   
-  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件のブログ記事をリライト中...`);
+  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件のブログ記事をユーザー目線プロクオリティへリライト中...`);
 
   const updatedPosts = INITIAL_BLOG_POSTS.map((post) => {
     const { markdown, itemIds } = generateRichMarkdown(post);
@@ -163,7 +185,7 @@ async function main() {
   const updatedDataTs = dataTsText.slice(0, startIdx) + newPart + dataTsText.slice(endIdx);
   
   fs.writeFileSync(dataTsPath, updatedDataTs, 'utf-8');
-  console.log(`🎉 [Master Blog Replacer] 全 ${INITIAL_BLOG_POSTS.length} 件のブログ記事を本気クオリティ（10商品詳細解説＋直リンク＋4分割コラージュサムネイル）へ置換完了しました！`);
+  console.log(`🎉 [Master Content Refiner] 「楽天API連携！」排除・HTML画像＆「楽天で見る」ボタン確実配置を完了しました！`);
 }
 
 main().catch(console.error);

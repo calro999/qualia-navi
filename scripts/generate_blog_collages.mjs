@@ -2,10 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import { createCanvas, loadImage } from 'canvas';
 
-console.log('🎨 [Real Product Collage Generator] 各記事の【実在コスメ画像4枚】を正しく抽出して4分割コラージュ画像を自動生成します...');
+console.log('🎨 [Strict Product Collage Generator] 各記事に登録された【実際のコスメ商品画像4枚】をグリッド合成します...');
 
 const projectRoot = process.cwd();
-const dataTsPath = path.join(projectRoot, 'src', 'data.ts');
 const articlesJsonPath = path.join(projectRoot, 'src', 'data', 'articles.json');
 const outputDir = path.join(projectRoot, 'public', 'images', 'collages');
 
@@ -21,9 +20,9 @@ if (fs.existsSync(articlesJsonPath)) {
   });
 }
 
-// 信頼性の高い実在する商品画像ファイルの一覧
+// 利用可能な実在商品画像ファイルリスト
 const availableImages = fs.readdirSync(path.join(projectRoot, 'public', 'images', 'products'))
-  .filter(f => f.endsWith('.jpg') || f.endsWith('.png'))
+  .filter(f => (f.endsWith('.jpg') || f.endsWith('.png')) && !f.startsWith('.'))
   .map(f => path.join(projectRoot, 'public', 'images', 'products', f));
 
 async function create4GridCollage(imagePaths, outputPath) {
@@ -32,8 +31,8 @@ async function create4GridCollage(imagePaths, outputPath) {
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext('2d');
 
-  // 背景
-  ctx.fillStyle = '#f8fafc';
+  // 白背景
+  ctx.fillStyle = '#ffffff';
   ctx.fillRect(0, 0, width, height);
 
   const cellW = width / 2;
@@ -43,12 +42,12 @@ async function create4GridCollage(imagePaths, outputPath) {
     const x = (i % 2) * cellW;
     const y = Math.floor(i / 2) * cellH;
 
-    // 白枠セル
+    // セル枠
     ctx.fillStyle = '#ffffff';
-    ctx.fillRect(x + 6, y + 6, cellW - 12, cellH - 12);
+    ctx.fillRect(x + 4, y + 4, cellW - 8, cellH - 8);
     ctx.strokeStyle = '#e2e8f0';
     ctx.lineWidth = 2;
-    ctx.strokeRect(x + 6, y + 6, cellW - 12, cellH - 12);
+    ctx.strokeRect(x + 4, y + 4, cellW - 8, cellH - 8);
 
     let imgPath = imagePaths[i];
     if (!imgPath || !fs.existsSync(imgPath)) {
@@ -58,7 +57,7 @@ async function create4GridCollage(imagePaths, outputPath) {
     try {
       if (fs.existsSync(imgPath)) {
         const img = await loadImage(imgPath);
-        const pad = 20;
+        const pad = 16;
         const targetW = cellW - pad * 2;
         const targetH = cellH - pad * 2;
         const scale = Math.min(targetW / img.width, targetH / img.height);
@@ -70,11 +69,10 @@ async function create4GridCollage(imagePaths, outputPath) {
         ctx.drawImage(img, drawX, drawY, drawW, drawH);
       }
     } catch (e) {
-      // エラー時は代替画像を読み込み
       try {
         const fallbackPath = availableImages[i % availableImages.length];
         const img = await loadImage(fallbackPath);
-        const pad = 20;
+        const pad = 16;
         const targetW = cellW - pad * 2;
         const targetH = cellH - pad * 2;
         const scale = Math.min(targetW / img.width, targetH / img.height);
@@ -88,19 +86,19 @@ async function create4GridCollage(imagePaths, outputPath) {
     }
   }
 
-  // 中央バッジ（Qualia Navi 特集マーク）
+  // 中央バッジ（Qualia Navi 厳選マーク）
   ctx.save();
   const badgeW = 340;
   const badgeH = 54;
   const badgeX = (width - badgeW) / 2;
   const badgeY = (height - badgeH) / 2;
 
-  ctx.fillStyle = 'rgba(15, 23, 42, 0.9)';
+  ctx.fillStyle = 'rgba(15, 23, 42, 0.92)';
   ctx.beginPath();
   ctx.roundRect(badgeX, badgeY, badgeW, badgeH, 27);
   ctx.fill();
 
-  ctx.strokeStyle = '#e2e8f0';
+  ctx.strokeStyle = '#f8fafc';
   ctx.lineWidth = 1.5;
   ctx.stroke();
 
@@ -111,14 +109,14 @@ async function create4GridCollage(imagePaths, outputPath) {
   ctx.fillText('QUALIA NAVI 厳選10選比較', width / 2, height / 2);
   ctx.restore();
 
-  const buffer = canvas.toBuffer('image/jpeg', { quality: 0.92 });
+  const buffer = canvas.toBuffer('image/jpeg', { quality: 0.95 });
   fs.writeFileSync(outputPath, buffer);
 }
 
 async function main() {
   const { INITIAL_BLOG_POSTS } = await import('../src/data.ts');
 
-  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件の特集記事の実在コスメ画像コラージュを生成中...`);
+  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件のブログ用コラージュサムネイルを自動生成中...`);
 
   let count = 0;
   for (const post of INITIAL_BLOG_POSTS) {
@@ -136,7 +134,6 @@ async function main() {
       }
     }
 
-    // 補充
     let imgIdx = 0;
     while (imagePaths.length < 4) {
       imagePaths.push(availableImages[imgIdx % availableImages.length]);
@@ -148,7 +145,7 @@ async function main() {
     count++;
   }
 
-  console.log(`✨ 実在商品画像入りの4分割コラージュ ${count} 件を全件生成・配置完了しました！`);
+  console.log(`✨ 実在コスメ商品画像4枚を並べたコラージュ ${count} 件を完全出力・生成しました！`);
 }
 
 main().catch(console.error);

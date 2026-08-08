@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-console.log('⚡️ [Clean Markdown Refiner] HTML直書き露出を排除し、純粋なMarkdown構造へ完全修正中...');
+console.log('⚡️ [Perfect Markdown & Layout Enforcer] 各商品「テキスト解説 ➡ 商品画像 ➡ 直行ボタン」の完璧な順序に統一中...');
 
 const projectRoot = process.cwd();
 const dataTsPath = path.join(projectRoot, 'src', 'data.ts');
@@ -23,7 +23,7 @@ function getProductsByCategory(category, count = 10) {
   return list.slice(0, count);
 }
 
-// 楽天API商品の標準Markdownカード生成（HTMLタグ非混入）
+// 各商品カード：商品見出し ➡ テキスト解説 ➡ 【商品画像】 ➡ 【直行ボタン】の完璧な順序
 function renderProductCard(art, index) {
   const title = art.productName || art.title;
   const price = art.rakutenPrice || art.priceRange || '1,980円 (税込)';
@@ -45,8 +45,6 @@ function renderProductCard(art, index) {
   return `
 ### 第${index}位：${title}
 
-![${title}](${imgUrl})
-
 - **参考価格**: ${price}
 - **総合評価**: ★★★★★ (${rating})
 - **おすすめな人**: ${audience}
@@ -55,6 +53,8 @@ ${features.slice(0, 3).map(f => `  - ${f}`).join('\n')}
 
 **【Qualia美容分析室の検証レビュー】**
 ${reviewText}
+
+![${title}](${imgUrl})
 
 [【楽天市場】${title} の商品ページへ直行する ↗](${affLink})
 
@@ -124,7 +124,7 @@ ${post.introText || 'コスメ選びで大切なのは、自分の悩みや求�
 - **自然な使い心地とコスパ・毎日使いを求める方**: 『${items[1]?.productName || items[1]?.title}』がベストチョイス！
 - **乾燥や肌荒れ・成分の優しさをケアしたい方**: 『${items[2]?.productName || items[2]?.title}』をお選びください。
 
-気になる商品は「商品ページへ直行する ↗」リンクから、楽天市場の店舗・公式ショップ直リンクで最新価格や在庫をご確認ください！
+気になる商品は各商品のすぐ下にある「商品ページへ直行する ↗」リンクから、楽天市場の店舗・公式ショップ直リンクで最新価格や在庫をご確認ください！
 `;
 
   return { markdown: md, itemIds: items.map(i => i.id) };
@@ -133,7 +133,7 @@ ${post.introText || 'コスメ選びで大切なのは、自分の悩みや求�
 async function main() {
   const { INITIAL_BLOG_POSTS } = await import('../src/data.ts');
   
-  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件のブログ記事を純粋なMarkdown構造へ変換中...`);
+  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件のブログ記事を「解説 ➡ 画像 ➡ ボタン」完璧順序へ統一更新中...`);
 
   const updatedPosts = INITIAL_BLOG_POSTS.map((post) => {
     const { markdown, itemIds } = generateRichMarkdown(post);
@@ -166,7 +166,7 @@ async function main() {
   const updatedDataTs = dataTsText.slice(0, startIdx) + newPart + dataTsText.slice(endIdx);
   
   fs.writeFileSync(dataTsPath, updatedDataTs, 'utf-8');
-  console.log(`🎉 [Clean Markdown Refiner] HTML直書きマークアップの排除完了！`);
+  console.log(`🎉 [Perfect Markdown & Layout Enforcer] 完璧な順序更新が完了しました！`);
 }
 
 main().catch(console.error);

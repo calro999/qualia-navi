@@ -23,6 +23,25 @@ interface BlogDetailViewProps {
 }
 
 // 各商品テキストの直下に画像および直行ボタンを確実にレンダリングするパーサー
+function renderInlineMarkdown(text: string) {
+  const parts: (string | JSX.Element)[] = [];
+  const regex = /\*\*([^*]+)\*\*/g;
+  let lastIndex = 0;
+  let match;
+  let keyIdx = 0;
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    parts.push(<strong key={keyIdx++} className="font-extrabold text-slate-900">{match[1]}</strong>);
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return parts.length > 0 ? parts : [text];
+}
+
 function MarkdownRenderer({ content }: { content: string }) {
   const blocks = content.split('\n\n');
 
@@ -50,7 +69,7 @@ function MarkdownRenderer({ content }: { content: string }) {
           );
         }
 
-        // 商品画像 ![alt](url) -> 各商品のすぐ直下に大きなカード画像として表示
+        // 商品画像 ![alt](url) -> 見出し直下に大きなカード画像として表示
         const imgMatch = trimBlock.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
         if (imgMatch) {
           const [, altText, imgUrl] = imgMatch;
@@ -67,7 +86,7 @@ function MarkdownRenderer({ content }: { content: string }) {
           );
         }
 
-        // 商品直行ボタン [テキスト](URL) -> 各商品画像/テキストの直下に表示
+        // 商品直行ボタン [テキスト](URL)
         const linkMatch = trimBlock.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
         if (linkMatch) {
           const [, label, url] = linkMatch;
@@ -91,25 +110,29 @@ function MarkdownRenderer({ content }: { content: string }) {
           return <hr key={bIdx} className="border-t-2 border-slate-200 my-10" />;
         }
 
-        // リスト項目 (特徴・評価など)
+        // リスト項目 (特徴・評価など) - インデント付きサブリストにも対応
         if (trimBlock.startsWith('- ')) {
-          const items = trimBlock.split('\n').map(item => item.replace(/^- /, ''));
+          const rawItems = trimBlock.split('\n');
           return (
             <ul key={bIdx} className="space-y-2 my-4 p-4 bg-slate-50 rounded-xl border border-slate-200">
-              {items.map((it, iIdx) => (
-                <li key={iIdx} className="text-sm font-semibold text-slate-800 flex items-start gap-2">
-                  <span className="text-indigo-600 font-bold">•</span>
-                  <span>{it}</span>
-                </li>
-              ))}
+              {rawItems.map((rawItem, iIdx) => {
+                const isSubItem = rawItem.startsWith('  - ') || rawItem.startsWith('  -');
+                const text = rawItem.replace(/^\s*-\s*/, '');
+                return (
+                  <li key={iIdx} className={`text-sm font-semibold text-slate-800 flex items-start gap-2 ${isSubItem ? 'ml-4' : ''}`}>
+                    <span className={`font-bold ${isSubItem ? 'text-slate-400' : 'text-indigo-600'}`}>•</span>
+                    <span>{renderInlineMarkdown(text)}</span>
+                  </li>
+                );
+              })}
             </ul>
           );
         }
 
-        // 通常文章・レビュー
+        // 通常文章・レビュー - インライン太字にも対応
         return (
           <p key={bIdx} className="text-base text-slate-700 leading-relaxed font-normal my-3">
-            {trimBlock}
+            {renderInlineMarkdown(trimBlock)}
           </p>
         );
       })}

@@ -22,7 +22,7 @@ interface BlogDetailViewProps {
   onSelectArticle: (articleId: string) => void;
 }
 
-// MarkdownテキストをパースしてきれいなReact要素として表示するコンポーネント
+// 各商品テキストの直下に画像および直行ボタンを確実にレンダリングするパーサー
 function MarkdownRenderer({ content }: { content: string }) {
   const blocks = content.split('\n\n');
 
@@ -35,39 +35,39 @@ function MarkdownRenderer({ content }: { content: string }) {
         // 見出し H2
         if (trimBlock.startsWith('## ')) {
           return (
-            <h2 key={bIdx} className="text-2xl font-black text-slate-900 border-b-2 border-indigo-600 pb-2 mt-10 mb-6">
+            <h2 key={bIdx} className="text-2xl font-black text-slate-900 border-b-4 border-indigo-600 pb-3 mt-12 mb-6">
               {trimBlock.replace(/^##\s+/, '')}
             </h2>
           );
         }
 
-        // 見出し H3
+        // 各商品見出し H3 (例: ### 第1位：商品名)
         if (trimBlock.startsWith('### ')) {
           return (
-            <h3 key={bIdx} className="text-xl font-bold text-indigo-950 mt-8 mb-4 flex items-center gap-2">
-              <span className="w-2 h-6 bg-indigo-600 rounded-full inline-block"></span>
-              <span>{trimBlock.replace(/^###\s+/, '')}</span>
+            <h3 key={bIdx} className="text-xl font-extrabold text-slate-900 bg-slate-100 p-4 rounded-xl border-l-4 border-indigo-600 mt-10 mb-4">
+              {trimBlock.replace(/^###\s+/, '')}
             </h3>
           );
         }
 
-        // 画像 ![alt](url)
+        // 商品画像 ![alt](url) -> 各商品のすぐ直下に大きなカード画像として表示
         const imgMatch = trimBlock.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
         if (imgMatch) {
           const [, altText, imgUrl] = imgMatch;
           return (
-            <div key={bIdx} className="my-6 text-center">
+            <div key={bIdx} className="my-6 p-4 bg-white border border-slate-200 rounded-2xl shadow-sm text-center">
               <img
                 src={imgUrl}
                 alt={altText}
-                className="max-w-xs mx-auto rounded-2xl border border-slate-200 shadow-sm object-contain bg-white h-56 p-3 hover:scale-105 transition-transform"
+                className="max-h-72 mx-auto rounded-xl object-contain bg-white p-2 hover:scale-105 transition-transform"
                 loading="lazy"
               />
+              <p className="text-xs text-slate-500 font-bold mt-2">{altText}</p>
             </div>
           );
         }
 
-        // ボタン [テキスト](URL)
+        // 商品直行ボタン [テキスト](URL) -> 各商品画像/テキストの直下に表示
         const linkMatch = trimBlock.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
         if (linkMatch) {
           const [, label, url] = linkMatch;
@@ -88,26 +88,27 @@ function MarkdownRenderer({ content }: { content: string }) {
 
         // 区切り線 ---
         if (trimBlock === '---') {
-          return <hr key={bIdx} className="border-t border-slate-200 my-8" />;
+          return <hr key={bIdx} className="border-t-2 border-slate-200 my-10" />;
         }
 
-        // リスト項目
+        // リスト項目 (特徴・評価など)
         if (trimBlock.startsWith('- ')) {
           const items = trimBlock.split('\n').map(item => item.replace(/^- /, ''));
           return (
-            <ul key={bIdx} className="space-y-2 my-4 pl-4 border-l-2 border-indigo-200">
+            <ul key={bIdx} className="space-y-2 my-4 p-4 bg-slate-50 rounded-xl border border-slate-200">
               {items.map((it, iIdx) => (
-                <li key={iIdx} className="text-sm font-medium text-slate-700">
-                  {it}
+                <li key={iIdx} className="text-sm font-semibold text-slate-800 flex items-start gap-2">
+                  <span className="text-indigo-600 font-bold">•</span>
+                  <span>{it}</span>
                 </li>
               ))}
             </ul>
           );
         }
 
-        // 通常のパラグラフ
+        // 通常文章・レビュー
         return (
-          <p key={bIdx} className="text-base text-slate-700 leading-relaxed font-normal">
+          <p key={bIdx} className="text-base text-slate-700 leading-relaxed font-normal my-3">
             {trimBlock}
           </p>
         );
@@ -195,17 +196,17 @@ export function BlogDetailView({ post, recommendedArticles, author, onBack, onSe
         <p>{post.introText}</p>
       </div>
 
-      {/* 本格解説メインコンテンツ（完全パースレンダリング） */}
-      <div className="mb-16">
+      {/* 本格解説メインコンテンツ（「1. 比較ガイド」->「2. 厳選10選 徹底紹介（各商品のすぐ下に画像＆ボタン）」->「3. まとめ」） */}
+      <div className="mb-12">
         <MarkdownRenderer content={post.contentMarkdown || ''} />
       </div>
 
-      {/* 記事の一番最後（全文章が終了した最下部）にのみ注目コスメグリッドを配置 */}
+      {/* 📌 「3. まとめ」のすぐ直下（ページの完全な最後）に「🛍️ この検証記事で紹介している注目コスメ」を設置！ */}
       {recommendedArticles && recommendedArticles.length > 0 && (
-        <div className="space-y-8 mt-16 pt-10 border-t-4 border-slate-200">
+        <div className="space-y-8 mt-12 pt-8 border-t-4 border-slate-300">
           <div className="border-b-2 border-indigo-600 pb-3 flex items-center justify-between">
             <h2 className="text-xl sm:text-2xl font-black text-slate-900">
-              🛍️ 本特集で紹介した注目コスメ一覧 ({recommendedArticles.length}選)
+              🛍️ この検証記事で紹介している注目コスメ ({recommendedArticles.length}選)
             </h2>
             <span className="text-xs text-slate-500 font-medium">直アフィリエイトリンク付き</span>
           </div>

@@ -100,17 +100,22 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
             />
           </div>
 
-          {/* Recommended Products Quick Links */}
+          {/* Article Body Content */}
+          <div className="prose max-w-none text-slate-800 leading-relaxed border-t border-slate-200 pt-8">
+            <MarkdownRenderer content={post.contentMarkdown || ''} onNavigate={onNavigate} />
+          </div>
+
+          {/* 📌 記事本文の「完全な最下部（まとめの下）」に「🛍️ この検証記事で紹介している注目コスメ」を設置！ */}
           {recommendedItems.length > 0 && (
-            <div className="bg-rose-50/60 p-6 rounded-2xl border border-rose-100 space-y-4">
-              <h3 className="text-sm font-extrabold text-slate-900 flex items-center gap-2 font-serif-brand">
-                <span>🛍️ この検証記事で紹介している注目コスメ</span>
+            <div className="bg-rose-50/60 p-6 rounded-2xl border border-rose-100 space-y-4 mt-12 pt-8 border-t-2 border-rose-200">
+              <h3 className="text-base font-extrabold text-slate-900 flex items-center gap-2 font-serif-brand">
+                <span>🛍️ この検証記事で紹介している注目コスメ ({recommendedItems.length}選)</span>
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                {recommendedItems.map((item) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {recommendedItems.map((item, idx) => (
                   <div
-                    key={item.id}
-                    className="bg-white p-4 rounded-xl border border-rose-100 shadow-xs flex flex-col justify-between space-y-3"
+                    key={item.id || idx}
+                    className="bg-white p-4 rounded-xl border border-rose-100 shadow-xs flex flex-col justify-between space-y-3 hover:shadow-md transition-shadow"
                   >
                     <div className="flex gap-3 items-center">
                       <img
@@ -118,23 +123,23 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
                         alt={item.productName || item.title}
                         referrerPolicy="no-referrer"
                         onError={handleImageError}
-                        className="w-12 h-12 rounded-lg object-cover bg-slate-50 border border-slate-100"
+                        className="w-14 h-14 rounded-lg object-contain p-1 bg-slate-50 border border-slate-100"
                       />
                       <div className="flex-1 min-w-0">
                         <div className="text-xs font-extrabold text-slate-900 truncate font-serif-brand">
-                          {item.productName || item.title}
+                          #{idx + 1} {item.productName || item.title}
                         </div>
-                        <div className="text-[11px] text-rose-600 font-extrabold">{item.rakutenPrice}</div>
+                        <div className="text-[11px] text-rose-600 font-extrabold mt-0.5">{item.rakutenPrice || item.priceRange}</div>
                       </div>
                     </div>
                     <a
                       href={item.affiliateLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rakuten-btn w-full py-2 px-3 rounded-lg text-xs font-bold text-center flex items-center justify-center gap-1"
+                      className="rakuten-btn w-full py-2 px-3 rounded-lg text-xs font-bold text-center flex items-center justify-center gap-1 shadow-sm hover:shadow transition-all"
                     >
                       <ShoppingCart className="w-3.5 h-3.5" />
-                      <span>楽天で見る</span>
+                      <span>商品ページへ直行 ↗</span>
                       <ExternalLink className="w-3 h-3" />
                     </a>
                   </div>
@@ -142,11 +147,6 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
               </div>
             </div>
           )}
-
-          {/* Article Body */}
-          <div className="prose max-w-none text-slate-800 leading-relaxed border-t border-slate-200 pt-8">
-            <MarkdownRenderer content={post.contentMarkdown || ''} onNavigate={onNavigate} />
-          </div>
         </article>
       </div>
     </div>

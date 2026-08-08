@@ -57,19 +57,31 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
       }
 
       
-      // Markdown Image ![alt](url)
-      if (part.startsWith('![') && part.includes('](') && part.endsWith(')')) {
-        const imgMatch = part.match(/^\!\[(.*?)\]\((.*?)\)$/);
-        if (imgMatch) {
-          const altText = imgMatch[1];
-          const src = imgMatch[2];
-          return (
-            <div key={pIdx} className="my-6 flex justify-center">
-              <img src={src} alt={altText} className="max-w-full sm:max-w-md w-auto rounded-xl shadow-lg border border-slate-200" loading="lazy" />
-            </div>
-          );
-        }
+    // Markdown Image ![alt](url) - Standalone Line
+    if (trimmed.startsWith('![') && trimmed.includes('](') && trimmed.endsWith(')')) {
+      const imgMatch = trimmed.match(/^\!\[(.*?)\]\((.*?)\)$/);
+      if (imgMatch) {
+        flushList(`img-${index}`);
+        flushTable(`img-table-${index}`);
+        const altText = imgMatch[1];
+        const src = imgMatch[2];
+        elements.push(
+          <div key={`img-${index}`} className="my-8 flex flex-col items-center justify-center bg-slate-50/80 p-4 rounded-2xl border border-slate-200 shadow-sm">
+            <img
+              src={src}
+              alt={altText}
+              referrerPolicy="no-referrer"
+              className="max-w-full sm:max-w-md max-h-80 w-auto rounded-xl object-contain bg-white p-2 shadow-xs hover:scale-102 transition-transform duration-300"
+              loading="lazy"
+            />
+            <p className="text-xs font-bold text-slate-500 mt-3 text-center bg-white px-3 py-1 rounded-full border border-slate-200">
+              {altText}
+            </p>
+          </div>
+        );
+        return;
       }
+    }
 
       // Markdown Link [text](url)
 

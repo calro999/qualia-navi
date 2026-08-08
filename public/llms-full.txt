@@ -3,7 +3,7 @@
 > 日本最大級のコスメ・美容徹底検証メディア 全記事＆全コンテンツ統合アーカイブ
 
 - Domain: https://qualia-navi.vercel.app
-- Last Mod: 2026-08-07
+- Last Mod: 2026-08-08
 - Format: Markdown (Optimized for LLM Context Windows & Retrieval Augmented Generation)
 
 ---

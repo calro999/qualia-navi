@@ -8,7 +8,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 ## Site Information
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
-- **Last Mod**: 2026-08-07
+- **Last Mod**: 2026-08-08
 - **Total Articles**: 125 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 

@@ -847,3 +847,213 @@ topics:
     title_template: "【年齢とともに減る甘い香りを補う】{product_name} 女性の大人臭・汗臭をスウィートフローラルで殺菌防臭"
     target_audience: "若い頃の甘い香り成分ラクトンを補いながら汗臭を防ぎたい女性"
     is_hall_of_fame: true
+
+  - id: topic-body-gatsby-ice-plug
+    category: bodycare
+    keyword: "ギャツビー プレミアムタイプ デオドラント スティック"
+    title_template: "【8-9月の戻り蒸れ＆ワキ汗遮断】{product_name} 密着ブロックで汗ジミ・汗臭を根本防臭"
+    target_audience: "残暑の厳しい猛暑で服の汗ジミや脇のニオイをしっかり抑えたい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-ag24-premium-sheet
+    category: bodycare
+    keyword: "エージーデオ24 プレミアム デオドラント シャワーシート"
+    title_template: "【大人の汗臭・ストレス臭・ベタつき拭き取り】{product_name} プレミアム処方で速攻快適"
+    target_audience: "8〜9月の汗ばむ季節に一拭きでニオイ菌とベタつきをリセットしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-loccitane-verbenamist
+    category: bodycare
+    keyword: "ロクシタン ヴァーベナ ボディミスト"
+    title_template: "【残暑のほてりを瞬時にクールダウン】{product_name} ひんやり涼感＆柑橘の香りで爽快ケア"
+    target_audience: "外出先での暑さ・汗ばむ身体を一瞬でひんやりリフレッシュしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-tsubaki-dryshampoo
+    category: haircare
+    keyword: "TSUBAKI お部屋でみずみずしく洗える スプラッシュドライシャンプー"
+    title_template: "【夏終わりの頭皮の汗・ニオイを解消】{product_name} 水なしで根元からふんわりサラサラ髪"
+    target_audience: "夕方になると頭皮が蒸れる・ペタンこ髪になるのを防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-8x4men-stick
+    category: bodycare
+    keyword: "8×4 MEN 激乾 デオドラントスティック"
+    title_template: "【真夏の強いワキ汗・男のニオイを遮断】{product_name} 高密着制汗成分で一日中サラサラ"
+    target_audience: "スポーツや営業活動での強烈な汗とニオイを抑えたい方"
+    is_hall_of_fame: false
+
+  - id: topic-skincare-kanebo-scrubwash
+    category: skincare
+    keyword: "KANEBO スクラビング マッド ウォッシュ"
+    title_template: "【夏終わりのゴワつき・毛穴皮脂を吸着】{product_name} 重ためペーストが洗顔中に3変化"
+    target_audience: "8-9月の肌のごわつき・ザラつき・古い角質をつるんと落としたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-excel-skintint
+    category: makeup
+    keyword: "エクセル スキンティント IC"
+    title_template: "【夏終わりの乾燥を防ぐ美容液ファンデ】{product_name} 美容液81%配合で光を放つ素肌感"
+    target_audience: "紫外線を浴びた肌をケアしながら素肌っぽい美肌を作りたい方"
+    is_hall_of_fame: true
+
+  - id: topic-lip-cezanne-3djelly
+    category: lip
+    keyword: "セザンヌ 3Dジェリーリップ"
+    title_template: "【夏秋の境目に映える立体ツヤ唇】{product_name} ぷっくりボリューミーな透明質感とぷるぷる感"
+    target_audience: "プチプラで縦ジワを消し、立体的なぷるぷる唇をキープしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-nail-amber-nuance
+    category: k-beauty
+    keyword: "韓国風 べっこう 琥珀 シアー ニュアンスネイルチップ"
+    title_template: "【8-9月トレンド手元】{product_name} 夏秋切り替え期に似合う透け感アンバーグラデ"
+    target_audience: "初秋のファッションに合わせやすく上品でトレンド感のある手元を作りたい方"
+    is_hall_of_fame: true
+
+  - id: topic-nail-magnet-iceglass
+    category: k-beauty
+    keyword: "氷ガラス キャッツアイ マグネットネイルチップ"
+    title_template: "【夏の終わりの光を捉える】{product_name} 角度で色が変わる極上のうるうる奥行きデザイン"
+    target_audience: "サロン級のマグネット奥行き感と透明感ネイルを手軽に楽しみたい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-gatsby-spot-block
+    category: bodycare
+    keyword: "ギャツビー プレミアム デオドラント ロールオン"
+    title_template: "【SNSで正直教えたくないと話題】{product_name} 猛暑の滝汗でも服に汗ジミを作らない神ロールオン"
+    target_audience: "残暑の脇汗や服の汗ジミを絶対見せたくないおしゃれ派"
+    is_hall_of_fame: true
+
+  - id: topic-body-ag24-footcream
+    category: bodycare
+    keyword: "エージーデオ24 デオドラントフットクリアクリーム"
+    title_template: "【靴脱いでも全く臭わないとバズり中】{product_name} 全人類買うべき高密着足用防臭クリーム"
+    target_audience: "サンダルや革靴の中の足のニオイを完璧に防ぎたい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-biore-coolmist
+    category: bodycare
+    keyword: "ビオレ 冷ハンディミスト"
+    title_template: "【シュッと一吹きで神クールダウン】{product_name} 汗と熱中症対策の優勝ミスト"
+    target_audience: "8-9月の残暑での外出やテーマパークで速攻冷却したい方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-diane-botanicaldry
+    category: haircare
+    keyword: "ダイアン ボタニカル ドライシャンプー"
+    title_template: "【汗でペタンこ髪が10秒で復活】{product_name} 頭皮のニオイとベタつきを消す神スプレー"
+    target_audience: "夕方の髪のペタつきや頭皮の汗臭さを瞬時に復活させたい方"
+    is_hall_of_fame: true
+
+  - id: topic-body-deoco-sheet
+    category: bodycare
+    keyword: "デオコ 薬用ボディクレンズシート"
+    title_template: "【大人の汗臭が消えてバズり中】{product_name} サラサラ肌とすぃーとフローラルの香りをまとえるシート"
+    target_audience: "拭き取り後も良い香りをキープし汗臭さを消したい女性"
+    is_hall_of_fame: false
+
+  - id: topic-skincare-suisai-gold
+    category: skincare
+    keyword: "suisai スイサイ ビューティクリア ゴールド パウダーウォッシュ"
+    title_template: "【金の酵素洗顔で毛穴つるんとバズり中】{product_name} 金美容オイル配合で洗うたびつや肌"
+    target_audience: "夏終わりの頑固な毛穴角栓・乾燥ゴワつきを一網打尽にしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-romand-meltbalm
+    category: makeup
+    keyword: "ロムアンド グラスティング メルトバーム"
+    title_template: "【むっちりツヤ唇でSNS優勝】{product_name} 水光膜が唇を包み込むバズりリップ"
+    target_audience: "ぷるぷるの縦ジワなし粘膜ツヤリップを手に入れたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-cezanne-keepmist
+    category: makeup
+    keyword: "セザンヌ メイクフィックスミスト"
+    title_template: "【ワンコインでメイクが落ちないと話題】{product_name} デパコス級のキープ力を誇る神ミスト"
+    target_audience: "プチプラで猛暑のメイク崩れ・マスクヨレを鉄壁ガードしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-nail-korean-blush-cat
+    category: k-beauty
+    keyword: "韓国風 ほろ酔いチーク キャッツアイ マグネットネイルチップ"
+    title_template: "【指先がリアルに盛れると大バズり】{product_name} じゅわっと滲むチーク×立体キャッツアイ"
+    target_audience: "チークネイルとマグネットの最新トレンドを指先に纏いたい方"
+    is_hall_of_fame: true
+
+  - id: topic-nail-aurora-french
+    category: k-beauty
+    keyword: "オーロラフレンチ 氷フィルム ネイルチップ"
+    title_template: "【光の当たり方でバチバチに可愛い】{product_name} 夏終わりのセルフネイル優勝デザイン"
+    target_audience: "透明感あふれるオーロラ氷フレンチで手元を美しく魅せたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-medicube-zeroporepad
+    category: skincare
+    keyword: "メディキューブ ゼロ毛穴パッド"
+    title_template: "【拭き取るだけで毛穴消えるとTikTokで大バズり】{product_name} 8-9月の角栓・引き締め神トナーパッド"
+    target_audience: "夏終わりの毛穴の開き・皮脂トラブル・角栓をスッキリケアしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-anua-peachserum
+    category: skincare
+    keyword: "Anua 桃70％ナイアシンセラム"
+    title_template: "【つるつるの桃肌になるとバズり中】{product_name} 透明感爆上がりの白玉美容液"
+    target_audience: "夏の紫外線を浴びてくすんだ肌に透明感とツヤを与えたい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-vt-pdrnessence
+    category: skincare
+    keyword: "VT PDRNエッセンス"
+    title_template: "【韓国で話題沸騰のバズり美容液】{product_name} 水光肌のようなハリとツヤがヤバいと絶賛"
+    target_audience: "夏終わりの肌疲労やエイジングサインに濃密アプローチしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-tirtir-crystalcushion
+    category: makeup
+    keyword: "TIRTIR マスクフィット クリスタル メッシュクッション"
+    title_template: "【神ツヤ美肌になれると話題】{product_name} メッシュ構造で薄づきなのに崩れないクッション"
+    target_audience: "猛暑でも崩れず澄んだ透明ツヤ肌をキープしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-wakemake-eyepalette
+    category: makeup
+    keyword: "WAKEMAKE ソフトブラーリング アイパレット"
+    title_template: "【16色入って捨て色なしとバズり中】{product_name} 秋先取りメイクもこれ1個で完璧に盛れる"
+    target_audience: "自分に合うグラデーションカラーで垢抜け目元を作りたい方"
+    is_hall_of_fame: true
+
+  - id: topic-lip-fwee-puddingpot
+    category: lip
+    keyword: "fwee リップアンドチーク ブラーパンディングポット"
+    title_template: "【むにゅっと質感が可愛すぎるとバズり中】{product_name} リップもチークもこれ1個で統一感優勝"
+    target_audience: "韓国トレンドのふんわり粘膜リップ＆チークを楽しみたい方"
+    is_hall_of_fame: true
+
+  - id: topic-suncare-biore-uvmist
+    category: suncare
+    keyword: "ビオレUV アクアリッチ エアリーホールドミスト"
+    title_template: "【服や髪の上からでもシュッとできて焼けない】{product_name} 8-9月の塗り直し神日焼け止めミスト"
+    target_audience: "外出先でメイクを崩さず手軽に紫外線対策をしたい方"
+    is_hall_of_fame: true
+
+  - id: topic-hair-pluseau-pointrepair
+    category: haircare
+    keyword: "プリュスオー ポイントリペア"
+    title_template: "【アホ毛が一瞬で消えると大バズり】{product_name} 持ち歩き必須のまとめ髪マスカラ"
+    target_audience: "湿気や汗で浮き出るアホ毛や前髪の乱れを秒で直したい方"
+    is_hall_of_fame: true
+
+  - id: topic-skincare-qualys-dermalaser
+    category: skincare
+    keyword: "ダーマレーザー VC100 マスク"
+    title_template: "【シートマスク界の最高峰と大バズり】{product_name} 毛穴がキュッと引き締まる濃密ビタミンCパック"
+    target_audience: "日焼け後の集中保湿と毛穴ケアを圧倒的コスパで叶えたい方"
+    is_hall_of_fame: true
+
+  - id: topic-makeup-immeme-pepbalm
+    category: makeup
+    keyword: "アイムミミ マルチペップバーム"
+    title_template: "【絵の具みたいで可愛すぎるとSNS大バズり】{product_name} 8-9月に映えるマルチカラーバーム"
+    target_audience: "リップ・チーク・アイシャドウを1本でこなす時短おしゃれコスメをお求めの方"
+    is_hall_of_fame: true

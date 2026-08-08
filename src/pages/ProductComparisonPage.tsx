@@ -81,6 +81,17 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
             </p>
           </div>
 
+          {/* 2分割VS対決サムネイルアイキャッチ */}
+          <div className="relative aspect-video rounded-2xl overflow-hidden shadow-sm bg-slate-100 border border-slate-200">
+            <img
+              src={comparison.coverImage}
+              alt={comparison.title}
+              referrerPolicy="no-referrer"
+              onError={handleImageError}
+              className="w-full h-full object-contain bg-white"
+            />
+          </div>
+
           {/* Verdict Summary Block */}
           <div className="bg-slate-900 text-white p-6 sm:p-8 rounded-3xl shadow-md space-y-3">
             <div className="text-amber-300 font-bold text-xs uppercase tracking-wider flex items-center gap-1.5 font-serif-brand">

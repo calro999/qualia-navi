@@ -78,7 +78,28 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 125 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 230 Product Reviews)
+
+### 【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-shiseido
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。...
+
+### 【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-takami
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。...
+
+### 【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-dior
+- **Brand**: コスメブランド
+- **Category**: 🔥 最新ヒットコスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。...
 
 ### 【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証
 - **URL**: https://qualia-navi.vercel.app/articles/autodiscover-shiseido
@@ -954,6 +975,720 @@
 - **Category**: メイクアップ・ファンデーション
 - **Score**: 4.5 / 5.0
 - **Summary**: 結論：夏の滝汗でも、マスクをしても「絶対に崩れない・剥がれない」。圧倒的なカバー力と72時間持続する密着力で、日本のクッションファンデ市場を制覇した最強アイテムです。...
+
+### 【2026年最新】楽天1位獲得！Koseコスメデコルテ リポソーム アドバンスト リペアセラムの徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-suqqu
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: 1滴に1兆個の美肌カプセル。つけた瞬間から溶け込むように浸透し、圧倒的な保湿力とハリツヤを実感。...
+
+### 【日焼け止め最高峰】資生堂 アネッサ パーフェクトUV スキンケアミルク NA徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-cledepeau
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 汗・水・熱・擦れに強い最強UVブロック！どこで買えるか探している方に、楽天ポイント高還元＆最安値まとめ買い情報をお届け。...
+
+### 【韓国コスメNO.1美容液】VT COSMETICS リードルショット100 徹底ガイド
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-albion-skincon
+- **Brand**: コスメブランド
+- **Category**: 韓国コスメ特集
+- **Score**: 4.5 / 5.0
+- **Summary**: 天然美容針（シリカ）が美肌成分を角層深部まで届ける！どこで買えるか探している方に、VT公式楽天の最安値＆オマケ特典ガイドをお届け。...
+
+### 【落ちないツヤ唇】ロムアンド ジューシーラスティングティント 人気色徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-kerastase-oleo
+- **Brand**: コスメブランド
+- **Category**: リップ＆ケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 果汁のようなジューシーなツヤと高発色が持続。最安値＆楽天送料無料で購入できるお得ガイド付き。...
+
+### 【引き締め美顔器】パナソニック バイタリフト ブラシ EH-SP60 徹底検証ガイド
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-nars-reflecting
+- **Brand**: コスメブランド
+- **Category**: 美容家電・美顔器
+- **Score**: 4.5 / 5.0
+- **Summary**: 独自のデュアルダイナミックEMSが頭筋と表情筋にアプローチ。実質最安値＆楽天ポイント還元でお得に買う方法を解説。...
+
+### 【落ちない口紅バズコスメ】KATE リップモンスター 03 陽炎 質感＆発色徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-lip-dior-lipmaximizer
+- **Brand**: コスメブランド
+- **Category**: リップ＆ケア
+- **Score**: 4.5 / 5.0
+- **Summary**: つけたての発色がそのまま持続！最安値＆楽天送料無料で購入できる在庫ガイド。...
+
+### 【透明美肌下地】ラ ロッシュ ポゼ UVイデア XL プロテクショントーンアップ ローズ徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-obagi-c25
+- **Brand**: コスメブランド
+- **Category**: ベース＆メイクアップ
+- **Score**: 4.5 / 5.0
+- **Summary**: SPF50+ PA++++。澄んだ血色感と素肌感トーンアップを叶える大人気UV化粧下地。楽天公式限定キットでお得に買う方法を公開。...
+
+### 【敏感肌専用UV】キュレル 潤浸保湿 UVエッセンス SPF30 PA+++徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-sabon-bodyscrub
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: SPF30 PA+++。セラミドの働きを補うノンケミカル日焼け止め。楽天まとめ買い＆ポイント還元でお得に購入可能。...
+
+### 【夏の制汗・ひんやり】シーブリーズ デオ＆ウォーターで汗の匂いとベタつきを瞬間リセット
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-skinaqua-toneup
+- **Brand**: コスメブランド
+- **Category**: ボディケア・制汗剤
+- **Score**: 4.5 / 5.0
+- **Summary**: 夏の必需品！清涼感たっぷりで汗の匂いやベタつきを瞬時にリセット。海やプールのお供にも最適です。...
+
+### 【テカリ防止の神】イニスフリー ノーセバム ミネラルパウダー Nで夏の汗・皮脂崩れを鉄壁ブロック
+- **URL**: https://qualia-navi.vercel.app/articles/topic-kbeauty-clio-killcover
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・パウダー
+- **Score**: 4.5 / 5.0
+- **Summary**: 顔のテカリ・汗崩れをブロックする大人気パウダー。前髪のベタつき防止にも使える万能アイテムです。...
+
+### 【日焼け後・あせもケア】アベンヌ ウォーターで火照った夏の肌を鎮静保湿
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-yolu-nightrepair
+- **Brand**: コスメブランド
+- **Category**: スキンケア・化粧水
+- **Score**: 4.5 / 5.0
+- **Summary**: 南仏アベンヌ村の温泉水100%。日焼け後や冷房で乾燥した夏の肌を優しく潤し、鎮静します。...
+
+### 【夏の紫外線・ニキビ跡に】メラノCC 薬用しみ集中対策 プレミアム美容液
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-takami-skinpeel
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: 紫外線をたっぷり浴びた夏の肌に。3種のビタミンC誘導体がシミ・ニキビを徹底ケア。...
+
+### 【水感UV】ビオレUV アクアリッチ ウォータリーエッセンス 猛暑でも焼けない
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-kanebo-veilofday
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 水のように軽いのに、汗・水に強いスーパーウォータープルーフ。夏の海やプールでも大活躍。...
+
+### 【ワキ汗・ニオイ対策】デオナチュレ ソフトストーンW 夏の最強制汗剤リアル検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-kose-clearpeel
+- **Brand**: コスメブランド
+- **Category**: ボディケア・制汗剤
+- **Score**: 4.5 / 5.0
+- **Summary**: ワキのニオイ・汗を根本から防ぐ直塗りスティック。猛暑日でも一日中安心の消臭力。...
+
+### 【夏の朝の清涼感】サボリーノ 目ざまシートでひんやり時短スキンケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-decorte-zenwear
+- **Brand**: コスメブランド
+- **Category**: スキンケア・マスク
+- **Score**: 4.5 / 5.0
+- **Summary**: 寝起きの肌に60秒貼るだけ！洗顔・スキンケア・保湿下地まで完了する朝用ひんやりシートマスク。...
+
+### 【夏のニキビ・肌荒れ特化】オルビス クリアフル ローションで毛穴とあせもを徹底ケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-elixir-tsuyadama
+- **Brand**: コスメブランド
+- **Category**: スキンケア・化粧水
+- **Score**: 4.5 / 5.0
+- **Summary**: 夏のくり返すニキビ・毛穴の詰まりに。さっぱり潤して肌荒れを防ぐ薬用クリアローション。...
+
+### 【海・プールでも落ちない】ファシオ パワフルステイ リキッドライナー最強説
+- **URL**: https://qualia-navi.vercel.app/articles/topic-lip-dior-foreverliquid
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・アイメイク
+- **Score**: 4.5 / 5.0
+- **Summary**: 絶対落としたくない夏に。汗・水・涙・こすれに強いウォータープルーフアイライナー。...
+
+### 【こすれ・汗に強い】アリィー クロノビューティ ジェルUV EX ビーチフレンドリー処方
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-addiction-uvcontrol
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 汗・水・こすれに強いスーパーフリクションプルーフ。一部の国・地域で規制されている成分を使用しないビーチフレンドリー処方。...
+
+### 【夏の体臭・ワキ汗対策】エージーデオ24 パウダースプレーでニオイを元から断つ！リアル検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-houseofrose-ohbaby
+- **Brand**: コスメブランド
+- **Category**: ボディケア・制汗剤
+- **Score**: 4.5 / 5.0
+- **Summary**: 猛暑の汗の匂いや体臭を徹底ブロック。高密着処方で白くならず、サラサラ感が一日中続くスプレーです。...
+
+### 【口臭ケアの決定版】ブレスラボ マウスウォッシュ 翌朝のネバつき・ニオイを完全撃退
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-uka-kenzan
+- **Brand**: コスメブランド
+- **Category**: オーラルケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 製薬会社が開発した本気の口臭ケア。ニオイの原因菌を殺菌し、爽快感が長時間続きます。...
+
+### 【テカリ・毛穴レス】Fujiko アブラトリウォーター 夏のメイク崩れを瞬間お直し！
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-celvoke-uv
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・お直し
+- **Score**: 4.5 / 5.0
+- **Summary**: ポンポンするだけで崩れたメイクが元通り。皮脂を吸収し、ひんやり水ベースで潤いも補給。...
+
+### 【シワ改善×日焼け止め】オルビス リンクルブライトUVプロテクター 夏の紫外線ダメージとエイジングケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-excel-realclose
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: SPF50+ PA++++の強力なUVカットとシワ改善・美白を同時に叶える最高峰の日焼け止め。...
+
+### 【舌苔除去で口臭ゼロへ】NONIO 舌専用 クリーニングジェルの効果と正しい使い方
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-shiseido-urbantriple
+- **Brand**: コスメブランド
+- **Category**: オーラルケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 口臭の主な原因である「舌苔（ぜったい）」を優しく浮かせて落とす専用ジェルとクリーナー。...
+
+### 【大人女性の体臭・加齢臭ケア】デオコ 薬用ボディクレンズで若い頃の甘い香りを取り戻す？
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-obagi-cpowder
+- **Brand**: コスメブランド
+- **Category**: ボディケア・ソープ
+- **Score**: 4.5 / 5.0
+- **Summary**: 年齢と共に減少する若い頃の甘い香り「ラクトン」を補い、気になる体臭や加齢臭を洗い流すボディソープ。...
+
+### 【夏の崩れない下地】エクセル ラスティングタッチベース 皮脂ブロック＆毛穴カバー力を徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-pauljoe-settingpowder
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・下地
+- **Score**: 4.5 / 5.0
+- **Summary**: 皮脂崩れを徹底ブロックし、テカリのないスムースな肌を一日中キープする夏の優秀下地。...
+
+### 【大人の時短UV】エリクシール デーケアレボリューション 乳液・下地・UVカットが1本で完成
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-bioderma-sensibio
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 朝、化粧水の後はこれ1本。大人の肌を明るくトーンアップしながら、紫外線と乾燥から守る朝用乳液。...
+
+### 【夏のざらつき・黒ずみケア】ペリカン石鹸 恋するおしり ヒップケア石鹸のツルツル効果
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-napla-ndot
+- **Brand**: コスメブランド
+- **Category**: ボディケア・石鹸
+- **Score**: 4.5 / 5.0
+- **Summary**: おしりの黒ずみ・ザラつき・ブツブツを洗うだけでケアできる大ヒット専用石鹸。ピーチの香りに癒されます。...
+
+### 【汚れが目で見える】プロポリンス マウスウォッシュ 衝撃の口内洗浄・口臭予防効果とは？
+- **URL**: https://qualia-navi.vercel.app/articles/topic-lip-hince-rawglow
+- **Brand**: コスメブランド
+- **Category**: オーラルケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 口の中のタンパク質汚れを固めて出す、新感覚マウスウォッシュ。吐き出した汚れに衝撃を受けること間違いなし。...
+
+### 【頭皮のニオイ・ベタつき対策】ダイアン ドライシャンプーで夕方の頭皮もサラサラに
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-andbe-uvmilk
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・ドライシャンプー
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の夕方の頭皮のニオイ、前髪のベタつきはこれ1本で即解決します。汗をかいた頭皮にスプレーするだけで、洗いたてのようなふんわりサラサラ髪が復活する最強のドライシャンプーです。...
+
+### 【夏の角栓・毛穴の黒ずみケア】ファンケル マイルドクレンジングオイル 摩擦レスな角栓除去
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-loccitane-verbena
+- **Brand**: コスメブランド
+- **Category**: スキンケア・クレンジング
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のドロドロ皮脂と日焼け止め、そしてガンコな毛穴の角栓を「こすらず撫でるだけ」でスルンと落とす、クレンジングの王様です。...
+
+### 【夏のインナードライ対策】キュレル フェイスクリーム クーラー乾燥から肌を守る
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-drcilabo-vc100
+- **Brand**: コスメブランド
+- **Category**: スキンケア・クリーム
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：外はベタベタなのに中はカサカサ。そんな夏の「インナードライ肌」を、セラミド機能成分が優しく満たし、荒れにくい肌へ導くお守りクリームです。...
+
+### 【プチプラ美白の最高峰】白潤プレミアム 化粧水 夏のシミ対策と徹底保湿
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-heroinemake-eyeliner
+- **Brand**: コスメブランド
+- **Category**: スキンケア・化粧水
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：デパコス級の美白有効成分「ホワイトトラネキサム酸」と抗炎症成分を配合。夏の紫外線ダメージをその日のうちにリセットする最強プチプラ美白化粧水です。...
+
+### 【猛暑の必須アイテム】ビオレ 冷シート 拭いた瞬間-3℃の氷冷感
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-albion-floradrip
+- **Brand**: コスメブランド
+- **Category**: ボディケア・デオドラント
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の外出先や通勤・通学で火照った体を「拭いた瞬間-3℃」にする魔法のシート。厚手で破れにくく、全身の汗とニオイをスッキリ拭き取ります。...
+
+### 【足のニオイ完全ブロック】デオナチュレ 足指さらさらクリーム 夏のサンダル・蒸れ対策
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-allie-toneup
+- **Brand**: コスメブランド
+- **Category**: ボディケア・フットケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の靴を脱いだ時の「あの強烈な足のニオイ」を根絶する神クリーム。焼ミョウバンが汗を抑え、ニオイ菌を殺菌して一日中サラサラをキープします。...
+
+### 【夏の海・プールで落ちない眉】フジコ 眉ティント 汗・水に強い最強眉
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-decorte-loosepowder
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・アイブロウ
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：汗だくの猛暑日も、海やプールでも「絶対に眉毛がなくならない」。塗って剥がすだけで約3日間、すっぴんでも消えない美眉をキープする夏メイクの革命児です。...
+
+### 【髪の紫外線ダメージケア】ミーファ フレグランスUVスプレー 髪と頭皮の日焼けを防ぐ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-milbon-elujuda-sun
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・UVケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のパサパサ髪・カラーの退色・頭皮の赤みは「髪の紫外線焼け」が原因。SPF50+ PA++++で髪を徹底ガードし、香水代わりにもなる最強のヘアUVスプレーです。...
+
+### 【落ちないマットリップ】リップモンスター スフレマット 夏フェスで飲食しても色持ちキープ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-sofinaip-carbonic
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・リップ
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のイベントやフェスで飲み食いしても「絶対に血色感を失わない」。大バズりリップモンスターのマット版は、ふんわり軽いのに驚異の色持ちを誇ります。...
+
+### 【夏の背中ニキビケア】オルビス クリアフル ボディローション 水着も自信が持てるつるつる背中へ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-canmake-abloom
+- **Brand**: コスメブランド
+- **Category**: ボディケア・ニキビケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：汗で蒸れて悪化する「背中や胸元のニキビ・肌荒れ」を根本ケア。逆さでもスプレーできる特殊ボトルで、届きにくい背中を薬用成分が徹底的に浄化します。...
+
+### 【夏のドロドロ皮脂を一掃】カネボウ スクラビング マッド ウォッシュ 洗顔だけで毛穴レス肌へ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-lip-laneige-lipsleeping
+- **Brand**: コスメブランド
+- **Category**: スキンケア・洗顔料
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：モロッコ溶岩クレイが夏の過剰な皮脂を根こそぎ吸着。スクラブが砕けて泡立つ新感覚のテクスチャーで、洗い上がりの肌が「キュッ」と鳴るほどツルツルになる神洗顔です。...
+
+### 【夏のデリケートゾーンのニオイ・蒸れ】サマーズイブ フェミニンウォッシュで優しくケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-deonature-foot
+- **Brand**: コスメブランド
+- **Category**: ボディケア・デリケートゾーン
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の生理中やレジャー後の「デリケートゾーンの不快なニオイ・かゆみ」は専用ソープで激減します。アメリカNo.1シェアを誇る、弱酸性のマイルドな洗い心地です。...
+
+### 【魔法の粉でテカリ撃退】NARS ライトリフレクティングセッティングパウダー 夏のメイク崩れを防ぐ最強パウダー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-lip-kate-lipmonster-base
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・パウダー
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：通称「リフ粉」。滝のような汗をかいてもベースメイクが微動だにせず、テカリを抑えながら内側から発光するようなツヤ肌をキープする魔法のパウダーです。...
+
+### 【海もプールもパンダ目ゼロ】ヒロインメイク マイクロマスカラ 究極の落ちないマスカラ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-suisai-powder
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・アイメイク
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のプール、海、号泣するフェスでも「絶対にパンダ目にならない」。極細ブラシで産毛までキャッチし、お湯と洗顔料でスルンと落ちる第3のマスカラです。...
+
+### 【夏の疲れとほてりを癒す】バブ クール お風呂上がりも-3℃の爽快感
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-sk2-mask
+- **Brand**: コスメブランド
+- **Category**: ボディケア・入浴剤
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のダルさ、疲労感、お風呂上がりの汗だく問題を一掃。メントール配合の炭酸ガスが温浴効果を高めながら、湯上がりは驚くほど涼しく快適になります。...
+
+### 【夏の頭皮臭・詰まりをリセット】サボン ヘッドスクラブ 自宅で極上ヘッドスパ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-astalift-deepuv
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・スカルプケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の夕方にモワッと匂う頭皮臭を完全にリセット。死海の塩のスクラブが毛穴の詰まりをごっそり落とし、根元から立ち上がるサラツヤ髪を作ります。...
+
+### 【UVカット×発光ツヤ肌】ポール＆ジョー プロテクティング 夏の下地はこれ一本で決まり
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-givenchy-prismelibre
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・化粧下地
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：SPF50+ PA++++の最高UVカット力を持ちながら、日焼け止め特有のきしみ感がゼロ。美容液のように潤い、内側から発光するような美肌を作る王道デパコス下地です。...
+
+### 【飲む日焼け止め＆疲労回復】Lypo-C 夏の紫外線を内側からブロック
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-fino-hairmask
+- **Brand**: コスメブランド
+- **Category**: サプリメント・インナーケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の紫外線ダメージと疲労を「飲む点滴」レベルで即効ケア。体内に吸収されにくいビタミンCをリポソーム化し、吸収率を極限まで高めた最強のサプリメントです。...
+
+### 【全身のシミ予防】ニベア UV ディープ プロテクト 塗り心地抜群のエイジングケアUV
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-biore-powdersheet
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：体用の日焼け止めはこれ一択。SPF50+ PA++++の強力UVカットに加え、将来のシミ・そばかすを防ぐ予防美容効果を併せ持つ、ドラッグストア最強のボディUVジェルです。...
+
+### 【汗だくでも崩れないファンデ】TIRTIR レッドクッション カバー力と持続力の頂点
+- **URL**: https://qualia-navi.vercel.app/articles/topic-supplement-fancl-vitc
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・ファンデーション
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の滝汗でも、マスクをしても「絶対に崩れない・剥がれない」。圧倒的なカバー力と72時間持続する密着力で、日本のクッションファンデ市場を制覇した最強アイテムです。...
+
+### 【2026年最新】楽天1位獲得！Koseコスメデコルテ リポソーム アドバンスト リペアセラムの徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-lip-cezanne-waterytint
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: 1滴に1兆個の美肌カプセル。つけた瞬間から溶け込むように浸透し、圧倒的な保湿力とハリツヤを実感。...
+
+### 【日焼け止め最高峰】資生堂 アネッサ パーフェクトUV スキンケアミルク NA徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-transino-uvpowder
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 汗・水・熱・擦れに強い最強UVブロック！どこで買えるか探している方に、楽天ポイント高還元＆最安値まとめ買い情報をお届け。...
+
+### 【韓国コスメNO.1美容液】VT COSMETICS リードルショット100 徹底ガイド
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-diane-repair
+- **Brand**: コスメブランド
+- **Category**: 韓国コスメ特集
+- **Score**: 4.5 / 5.0
+- **Summary**: 天然美容針（シリカ）が美肌成分を角層深部まで届ける！どこで買えるか探している方に、VT公式楽天の最安値＆オマケ特典ガイドをお届け。...
+
+### 【落ちないツヤ唇】ロムアンド ジューシーラスティングティント 人気色徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-fasio-waterproof
+- **Brand**: コスメブランド
+- **Category**: リップ＆ケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 果汁のようなジューシーなツヤと高発色が持続。最安値＆楽天送料無料で購入できるお得ガイド付き。...
+
+### 【引き締め美顔器】パナソニック バイタリフト ブラシ EH-SP60 徹底検証ガイド
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-mens-gatsby-paper
+- **Brand**: コスメブランド
+- **Category**: 美容家電・美顔器
+- **Score**: 4.5 / 5.0
+- **Summary**: 独自のデュアルダイナミックEMSが頭筋と表情筋にアプローチ。実質最安値＆楽天ポイント還元でお得に買う方法を解説。...
+
+### 【落ちない口紅バズコスメ】KATE リップモンスター 03 陽炎 質感＆発色徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-8x4-rollon
+- **Brand**: コスメブランド
+- **Category**: リップ＆ケア
+- **Score**: 4.5 / 5.0
+- **Summary**: つけたての発色がそのまま持続！最安値＆楽天送料無料で購入できる在庫ガイド。...
+
+### 【透明美肌下地】ラ ロッシュ ポゼ UVイデア XL プロテクショントーンアップ ローズ徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-oral-nonio-mouthwash
+- **Brand**: コスメブランド
+- **Category**: ベース＆メイクアップ
+- **Score**: 4.5 / 5.0
+- **Summary**: SPF50+ PA++++。澄んだ血色感と素肌感トーンアップを叶える大人気UV化粧下地。楽天公式限定キットでお得に買う方法を公開。...
+
+### 【敏感肌専用UV】キュレル 潤浸保湿 UVエッセンス SPF30 PA+++徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-pelican-hipsoap
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: SPF30 PA+++。セラミドの働きを補うノンケミカル日焼け止め。楽天まとめ買い＆ポイント還元でお得に購入可能。...
+
+### 【頭皮のニオイ・ベタつき対策】ダイアン ドライシャンプーで夕方の頭皮もサラサラに
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-diane-dryshampoo
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・ドライシャンプー
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の夕方の頭皮のニオイ、前髪のベタつきはこれ1本で即解決します。汗をかいた頭皮にスプレーするだけで、洗いたてのようなふんわりサラサラ髪が復活する最強のドライシャンプーです。...
+
+### 【テカリ防止の神】イニスフリー ノーセバム ミネラルパウダー Nで夏の汗・皮脂崩れを鉄壁ブロック
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-oldspice-deodorant
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・パウダー
+- **Score**: 4.5 / 5.0
+- **Summary**: 顔のテカリ・汗崩れをブロックする大人気パウダー。前髪のベタつき防止にも使える万能アイテムです。...
+
+### 【日焼け後・あせもケア】アベンヌ ウォーターで火照った夏の肌を鎮静保湿
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-ban-sweatblock
+- **Brand**: コスメブランド
+- **Category**: スキンケア・化粧水
+- **Score**: 4.5 / 5.0
+- **Summary**: 南仏アベンヌ村の温泉水100%。日焼け後や冷房で乾燥した夏の肌を優しく潤し、鎮静します。...
+
+### 【夏の紫外線・ニキビ跡に】メラノCC 薬用しみ集中対策 プレミアム美容液
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-seabreeze-soap
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: 紫外線をたっぷり浴びた夏の肌に。3種のビタミンC誘導体がシミ・ニキビを徹底ケア。...
+
+### 【水感UV】ビオレUV アクアリッチ ウォータリーエッセンス 猛暑でも焼けない
+- **URL**: https://qualia-navi.vercel.app/articles/topic-oral-clinica-advantage
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 水のように軽いのに、汗・水に強いスーパーウォータープルーフ。夏の海やプールでも大活躍。...
+
+### 【ワキ汗・ニオイ対策】デオナチュレ ソフトストーンW 夏の最強制汗剤リアル検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-happydeo-sheet
+- **Brand**: コスメブランド
+- **Category**: ボディケア・制汗剤
+- **Score**: 4.5 / 5.0
+- **Summary**: ワキのニオイ・汗を根本から防ぐ直塗りスティック。猛暑日でも一日中安心の消臭力。...
+
+### 【夏の朝の清涼感】サボリーノ 目ざまシートでひんやり時短スキンケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-gatsby-premium-rollon
+- **Brand**: コスメブランド
+- **Category**: スキンケア・マスク
+- **Score**: 4.5 / 5.0
+- **Summary**: 寝起きの肌に60秒貼るだけ！洗顔・スキンケア・保湿下地まで完了する朝用ひんやりシートマスク。...
+
+### 【夏のニキビ・肌荒れ特化】オルビス クリアフル ローションで毛穴とあせもを徹底ケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-ag24-foot-spray
+- **Brand**: コスメブランド
+- **Category**: スキンケア・化粧水
+- **Score**: 4.5 / 5.0
+- **Summary**: 夏のくり返すニキビ・毛穴の詰まりに。さっぱり潤して肌荒れを防ぐ薬用クリアローション。...
+
+### 【海・プールでも落ちない】ファシオ パワフルステイ リキッドライナー最強説
+- **URL**: https://qualia-navi.vercel.app/articles/topic-oral-ora2-spray
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・アイメイク
+- **Score**: 4.5 / 5.0
+- **Summary**: 絶対落としたくない夏に。汗・水・涙・こすれに強いウォータープルーフアイライナー。...
+
+### 【こすれ・汗に強い】アリィー クロノビューティ ジェルUV EX ビーチフレンドリー処方
+- **URL**: https://qualia-navi.vercel.app/articles/topic-oral-denthealth-sp
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 汗・水・こすれに強いスーパーフリクションプルーフ。一部の国・地域で規制されている成分を使用しないビーチフレンドリー処方。...
+
+### 【夏の体臭・ワキ汗対策】エージーデオ24 パウダースプレーでニオイを元から断つ！リアル検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-lucido-middle-wash
+- **Brand**: コスメブランド
+- **Category**: ボディケア・制汗剤
+- **Score**: 4.5 / 5.0
+- **Summary**: 猛暑の汗の匂いや体臭を徹底ブロック。高密着処方で白くならず、サラサラ感が一日中続くスプレーです。...
+
+### 【口臭ケアの決定版】ブレスラボ マウスウォッシュ 翌朝のネバつき・ニオイを完全撃退
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-nivea-deo-stick
+- **Brand**: コスメブランド
+- **Category**: オーラルケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 製薬会社が開発した本気の口臭ケア。ニオイの原因菌を殺菌し、爽快感が長時間続きます。...
+
+### 【テカリ・毛穴レス】Fujiko アブラトリウォーター 夏のメイク崩れを瞬間お直し！
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-orbis-scalp
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・お直し
+- **Score**: 4.5 / 5.0
+- **Summary**: ポンポンするだけで崩れたメイクが元通り。皮脂を吸収し、ひんやり水ベースで潤いも補給。...
+
+### 【シワ改善×日焼け止め】オルビス リンクルブライトUVプロテクター 夏の紫外線ダメージとエイジングケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-oral-reach-propolis
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: SPF50+ PA++++の強力なUVカットとシワ改善・美白を同時に叶える最高峰の日焼け止め。...
+
+### 【舌苔除去で口臭ゼロへ】NONIO 舌専用 クリーニングジェルの効果と正しい使い方
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-rexona-dryshield
+- **Brand**: コスメブランド
+- **Category**: オーラルケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 口臭の主な原因である「舌苔（ぜったい）」を優しく浮かせて落とす専用ジェルとクリーナー。...
+
+### 【大人女性の体臭・加齢臭ケア】デオコ 薬用ボディクレンズで若い頃の甘い香りを取り戻す？
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-deoco-deo-stick
+- **Brand**: コスメブランド
+- **Category**: ボディケア・ソープ
+- **Score**: 4.5 / 5.0
+- **Summary**: 年齢と共に減少する若い頃の甘い香り「ラクトン」を補い、気になる体臭や加齢臭を洗い流すボディソープ。...
+
+### 【夏の崩れない下地】エクセル ラスティングタッチベース 皮脂ブロック＆毛穴カバー力を徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-gatsby-ice-plug
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・下地
+- **Score**: 4.5 / 5.0
+- **Summary**: 皮脂崩れを徹底ブロックし、テカリのないスムースな肌を一日中キープする夏の優秀下地。...
+
+### 【大人の時短UV】エリクシール デーケアレボリューション 乳液・下地・UVカットが1本で完成
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-ag24-premium-sheet
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 朝、化粧水の後はこれ1本。大人の肌を明るくトーンアップしながら、紫外線と乾燥から守る朝用乳液。...
+
+### 【夏のざらつき・黒ずみケア】ペリカン石鹸 恋するおしり ヒップケア石鹸のツルツル効果
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-loccitane-verbenamist
+- **Brand**: コスメブランド
+- **Category**: ボディケア・石鹸
+- **Score**: 4.5 / 5.0
+- **Summary**: おしりの黒ずみ・ザラつき・ブツブツを洗うだけでケアできる大ヒット専用石鹸。ピーチの香りに癒されます。...
+
+### 【汚れが目で見える】プロポリンス マウスウォッシュ 衝撃の口内洗浄・口臭予防効果とは？
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-tsubaki-dryshampoo
+- **Brand**: コスメブランド
+- **Category**: オーラルケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 口の中のタンパク質汚れを固めて出す、新感覚マウスウォッシュ。吐き出した汚れに衝撃を受けること間違いなし。...
+
+### 【頭皮のニオイ・ベタつき対策】ダイアン ドライシャンプーで夕方の頭皮もサラサラに
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-8x4men-stick
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・ドライシャンプー
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の夕方の頭皮のニオイ、前髪のベタつきはこれ1本で即解決します。汗をかいた頭皮にスプレーするだけで、洗いたてのようなふんわりサラサラ髪が復活する最強のドライシャンプーです。...
+
+### 【夏の角栓・毛穴の黒ずみケア】ファンケル マイルドクレンジングオイル 摩擦レスな角栓除去
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-kanebo-scrubwash
+- **Brand**: コスメブランド
+- **Category**: スキンケア・クレンジング
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のドロドロ皮脂と日焼け止め、そしてガンコな毛穴の角栓を「こすらず撫でるだけ」でスルンと落とす、クレンジングの王様です。...
+
+### 【夏のインナードライ対策】キュレル フェイスクリーム クーラー乾燥から肌を守る
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-excel-skintint
+- **Brand**: コスメブランド
+- **Category**: スキンケア・クリーム
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：外はベタベタなのに中はカサカサ。そんな夏の「インナードライ肌」を、セラミド機能成分が優しく満たし、荒れにくい肌へ導くお守りクリームです。...
+
+### 【プチプラ美白の最高峰】白潤プレミアム 化粧水 夏のシミ対策と徹底保湿
+- **URL**: https://qualia-navi.vercel.app/articles/topic-lip-cezanne-3djelly
+- **Brand**: コスメブランド
+- **Category**: スキンケア・化粧水
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：デパコス級の美白有効成分「ホワイトトラネキサム酸」と抗炎症成分を配合。夏の紫外線ダメージをその日のうちにリセットする最強プチプラ美白化粧水です。...
+
+### 【猛暑の必須アイテム】ビオレ 冷シート 拭いた瞬間-3℃の氷冷感
+- **URL**: https://qualia-navi.vercel.app/articles/topic-nail-amber-nuance
+- **Brand**: コスメブランド
+- **Category**: ボディケア・デオドラント
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の外出先や通勤・通学で火照った体を「拭いた瞬間-3℃」にする魔法のシート。厚手で破れにくく、全身の汗とニオイをスッキリ拭き取ります。...
+
+### 【足のニオイ完全ブロック】デオナチュレ 足指さらさらクリーム 夏のサンダル・蒸れ対策
+- **URL**: https://qualia-navi.vercel.app/articles/topic-nail-magnet-iceglass
+- **Brand**: コスメブランド
+- **Category**: ボディケア・フットケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の靴を脱いだ時の「あの強烈な足のニオイ」を根絶する神クリーム。焼ミョウバンが汗を抑え、ニオイ菌を殺菌して一日中サラサラをキープします。...
+
+### 【夏の海・プールで落ちない眉】フジコ 眉ティント 汗・水に強い最強眉
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-gatsby-spot-block
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・アイブロウ
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：汗だくの猛暑日も、海やプールでも「絶対に眉毛がなくならない」。塗って剥がすだけで約3日間、すっぴんでも消えない美眉をキープする夏メイクの革命児です。...
+
+### 【髪の紫外線ダメージケア】ミーファ フレグランスUVスプレー 髪と頭皮の日焼けを防ぐ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-ag24-footcream
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・UVケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のパサパサ髪・カラーの退色・頭皮の赤みは「髪の紫外線焼け」が原因。SPF50+ PA++++で髪を徹底ガードし、香水代わりにもなる最強のヘアUVスプレーです。...
+
+### 【落ちないマットリップ】リップモンスター スフレマット 夏フェスで飲食しても色持ちキープ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-biore-coolmist
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・リップ
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のイベントやフェスで飲み食いしても「絶対に血色感を失わない」。大バズりリップモンスターのマット版は、ふんわり軽いのに驚異の色持ちを誇ります。...
+
+### 【夏の背中ニキビケア】オルビス クリアフル ボディローション 水着も自信が持てるつるつる背中へ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-diane-botanicaldry
+- **Brand**: コスメブランド
+- **Category**: ボディケア・ニキビケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：汗で蒸れて悪化する「背中や胸元のニキビ・肌荒れ」を根本ケア。逆さでもスプレーできる特殊ボトルで、届きにくい背中を薬用成分が徹底的に浄化します。...
+
+### 【大人女性の体臭・加齢臭ケア】デオコ 薬用ボディクレンズで若い頃の甘い香りを取り戻す？
+- **URL**: https://qualia-navi.vercel.app/articles/topic-body-deoco-sheet
+- **Brand**: コスメブランド
+- **Category**: ボディケア・ソープ
+- **Score**: 4.5 / 5.0
+- **Summary**: 年齢と共に減少する若い頃の甘い香り「ラクトン」を補い、気になる体臭や加齢臭を洗い流すボディソープ。...
+
+### 【夏のデリケートゾーンのニオイ・蒸れ】サマーズイブ フェミニンウォッシュで優しくケア
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-suisai-gold
+- **Brand**: コスメブランド
+- **Category**: ボディケア・デリケートゾーン
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の生理中やレジャー後の「デリケートゾーンの不快なニオイ・かゆみ」は専用ソープで激減します。アメリカNo.1シェアを誇る、弱酸性のマイルドな洗い心地です。...
+
+### 【魔法の粉でテカリ撃退】NARS ライトリフレクティングセッティングパウダー 夏のメイク崩れを防ぐ最強パウダー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-romand-meltbalm
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・パウダー
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：通称「リフ粉」。滝のような汗をかいてもベースメイクが微動だにせず、テカリを抑えながら内側から発光するようなツヤ肌をキープする魔法のパウダーです。...
+
+### 【海もプールもパンダ目ゼロ】ヒロインメイク マイクロマスカラ 究極の落ちないマスカラ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-cezanne-keepmist
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・アイメイク
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のプール、海、号泣するフェスでも「絶対にパンダ目にならない」。極細ブラシで産毛までキャッチし、お湯と洗顔料でスルンと落ちる第3のマスカラです。...
+
+### 【夏の疲れとほてりを癒す】バブ クール お風呂上がりも-3℃の爽快感
+- **URL**: https://qualia-navi.vercel.app/articles/topic-nail-korean-blush-cat
+- **Brand**: コスメブランド
+- **Category**: ボディケア・入浴剤
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏のダルさ、疲労感、お風呂上がりの汗だく問題を一掃。メントール配合の炭酸ガスが温浴効果を高めながら、湯上がりは驚くほど涼しく快適になります。...
+
+### 【夏の頭皮臭・詰まりをリセット】サボン ヘッドスクラブ 自宅で極上ヘッドスパ
+- **URL**: https://qualia-navi.vercel.app/articles/topic-nail-aurora-french
+- **Brand**: コスメブランド
+- **Category**: ヘアケア・スカルプケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の夕方にモワッと匂う頭皮臭を完全にリセット。死海の塩のスクラブが毛穴の詰まりをごっそり落とし、根元から立ち上がるサラツヤ髪を作ります。...
+
+### 【UVカット×発光ツヤ肌】ポール＆ジョー プロテクティング 夏の下地はこれ一本で決まり
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-medicube-zeroporepad
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・化粧下地
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：SPF50+ PA++++の最高UVカット力を持ちながら、日焼け止め特有のきしみ感がゼロ。美容液のように潤い、内側から発光するような美肌を作る王道デパコス下地です。...
+
+### 【飲む日焼け止め＆疲労回復】Lypo-C 夏の紫外線を内側からブロック
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-anua-peachserum
+- **Brand**: コスメブランド
+- **Category**: サプリメント・インナーケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の紫外線ダメージと疲労を「飲む点滴」レベルで即効ケア。体内に吸収されにくいビタミンCをリポソーム化し、吸収率を極限まで高めた最強のサプリメントです。...
+
+### 【全身のシミ予防】ニベア UV ディープ プロテクト 塗り心地抜群のエイジングケアUV
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-vt-pdrnessence
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：体用の日焼け止めはこれ一択。SPF50+ PA++++の強力UVカットに加え、将来のシミ・そばかすを防ぐ予防美容効果を併せ持つ、ドラッグストア最強のボディUVジェルです。...
+
+### 【汗だくでも崩れないファンデ】TIRTIR レッドクッション カバー力と持続力の頂点
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-tirtir-crystalcushion
+- **Brand**: コスメブランド
+- **Category**: メイクアップ・ファンデーション
+- **Score**: 4.5 / 5.0
+- **Summary**: 結論：夏の滝汗でも、マスクをしても「絶対に崩れない・剥がれない」。圧倒的なカバー力と72時間持続する密着力で、日本のクッションファンデ市場を制覇した最強アイテムです。...
+
+### 【2026年最新】楽天1位獲得！Koseコスメデコルテ リポソーム アドバンスト リペアセラムの徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-wakemake-eyepalette
+- **Brand**: コスメブランド
+- **Category**: スキンケア・美容液
+- **Score**: 4.5 / 5.0
+- **Summary**: 1滴に1兆個の美肌カプセル。つけた瞬間から溶け込むように浸透し、圧倒的な保湿力とハリツヤを実感。...
+
+### 【日焼け止め最高峰】資生堂 アネッサ パーフェクトUV スキンケアミルク NA徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-lip-fwee-puddingpot
+- **Brand**: コスメブランド
+- **Category**: UVケア・日焼け止め
+- **Score**: 4.5 / 5.0
+- **Summary**: 汗・水・熱・擦れに強い最強UVブロック！どこで買えるか探している方に、楽天ポイント高還元＆最安値まとめ買い情報をお届け。...
+
+### 【韓国コスメNO.1美容液】VT COSMETICS リードルショット100 徹底ガイド
+- **URL**: https://qualia-navi.vercel.app/articles/topic-suncare-biore-uvmist
+- **Brand**: コスメブランド
+- **Category**: 韓国コスメ特集
+- **Score**: 4.5 / 5.0
+- **Summary**: 天然美容針（シリカ）が美肌成分を角層深部まで届ける！どこで買えるか探している方に、VT公式楽天の最安値＆オマケ特典ガイドをお届け。...
+
+### 【落ちないツヤ唇】ロムアンド ジューシーラスティングティント 人気色徹底レビュー
+- **URL**: https://qualia-navi.vercel.app/articles/topic-hair-pluseau-pointrepair
+- **Brand**: コスメブランド
+- **Category**: リップ＆ケア
+- **Score**: 4.5 / 5.0
+- **Summary**: 果汁のようなジューシーなツヤと高発色が持続。最安値＆楽天送料無料で購入できるお得ガイド付き。...
+
+### 【引き締め美顔器】パナソニック バイタリフト ブラシ EH-SP60 徹底検証ガイド
+- **URL**: https://qualia-navi.vercel.app/articles/topic-skincare-qualys-dermalaser
+- **Brand**: コスメブランド
+- **Category**: 美容家電・美顔器
+- **Score**: 4.5 / 5.0
+- **Summary**: 独自のデュアルダイナミックEMSが頭筋と表情筋にアプローチ。実質最安値＆楽天ポイント還元でお得に買う方法を解説。...
+
+### 【落ちない口紅バズコスメ】KATE リップモンスター 03 陽炎 質感＆発色徹底検証
+- **URL**: https://qualia-navi.vercel.app/articles/topic-makeup-immeme-pepbalm
+- **Brand**: コスメブランド
+- **Category**: リップ＆ケア
+- **Score**: 4.5 / 5.0
+- **Summary**: つけたての発色がそのまま持続！最安値＆楽天送料無料で購入できる在庫ガイド。...
 
 
 ---

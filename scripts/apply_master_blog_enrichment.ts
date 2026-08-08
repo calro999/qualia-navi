@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-console.log('⚡️ [Master Content Refiner] 「楽天API連携！」等のメタ表現排除＆高精細画像・「楽天で見る」ボタン配置を開始します...');
+console.log('⚡️ [Direct Link Master Replacer] ブログ記事内の全ボタンを【商品ページへ直行する直リンクボタン】へ全面更新します...');
 
 const projectRoot = process.cwd();
 const dataTsPath = path.join(projectRoot, 'src', 'data.ts');
@@ -13,10 +13,9 @@ articlesData.forEach(art => {
   if (art.id) articlesMap.set(art.id, art);
 });
 
-// デフォルト信頼できる実在商品画像
 const defaultProductImage = '/images/products/decorte_liposome.jpg';
+const RAKUTEN_AFFILIATE_ID = '54d2a438.4bc4abc2.54d2a439.aa1be583';
 
-// カテゴリ別商品取得
 function getProductsByCategory(category, count = 10) {
   let list = articlesData.filter(a => a.category === category);
   if (list.length < count) {
@@ -25,26 +24,23 @@ function getProductsByCategory(category, count = 10) {
   return list.slice(0, count);
 }
 
-// 楽天API商品のカード生成（メタ表現排除・画像パス補正・楽天で見るボタン確実配置）
+// 楽天API商品のカード生成（完全に商品直リンクURL＆直行ボタン化）
 function renderProductCard(art, index) {
   const title = art.productName || art.title;
   const price = art.rakutenPrice || art.priceRange || '1,980円 (税込)';
   const rating = art.starRating || 4.8;
   
-  // 実在画像パス補正（壊れたパス対策）
   let imgUrl = art.imageUrl || art.image;
   if (!imgUrl || typeof imgUrl !== 'string' || imgUrl.includes('topic_')) {
     imgUrl = defaultProductImage;
   }
-  if (imgUrl.startsWith('/')) {
-    // ローカルファイル存在確認
-    const localFile = path.join(projectRoot, 'public', imgUrl);
-    if (!fs.existsSync(localFile)) {
-      imgUrl = defaultProductImage;
-    }
+
+  // 確実に直リンク化
+  let affLink = art.affiliateLink || art.originalUrl || '#';
+  if (affLink.includes('search.rakuten.co.jp')) {
+    affLink = `https://hb.afl.rakuten.co.jp/hgc/${RAKUTEN_AFFILIATE_ID}/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24%2F${art.id}%2F`;
   }
 
-  const affLink = art.affiliateLink || art.originalUrl || '#';
   const audience = art.targetAudience || '毎日のケアで失敗したくない方、本気のコスメをお探しの方';
   
   let features = art.features || ['高密着処方で落ちにくい', '保湿成分配合で肌に優しい', '話題の人気コスメ'];
@@ -69,8 +65,8 @@ ${features.slice(0, 3).map(f => `  - ${f}`).join('\n')}
 ${reviewText}
 
 <div class="my-4">
-  <a href="${affLink}" class="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold text-sm shadow-md transition-all no-underline cursor-pointer text-center" target="_blank" rel="nofollow noopener">
-    <span>【楽天市場】${title} の最安値・在庫をチェック ↗</span>
+  <a href="${affLink}" class="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3.5 rounded-xl bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-700 hover:to-rose-700 text-white font-bold text-sm shadow-md transition-all no-underline cursor-pointer text-center" target="_blank" rel="nofollow noopener">
+    <span>【楽天市場】${title} の商品ページへ直行する ↗</span>
   </a>
 </div>
 
@@ -78,7 +74,6 @@ ${reviewText}
 `;
 }
 
-// プロ品質ブログテキスト組み立て
 function generateRichMarkdown(post) {
   let codes = post.recommendedItemCodes || [];
   let productList = [];
@@ -90,7 +85,6 @@ function generateRichMarkdown(post) {
     }
   });
 
-  // 10個に満たない場合は補完
   const titleLower = (post.title + ' ' + post.slug).toLowerCase();
   const fillCategory = titleLower.includes('lip') || titleLower.includes('リップ') || titleLower.includes('ティント') ? 'lip' :
                        titleLower.includes('sweat') || titleLower.includes('制汗') || titleLower.includes('ニオイ') || titleLower.includes('デオ') ? 'bodycare' :
@@ -104,7 +98,6 @@ function generateRichMarkdown(post) {
     }
   });
 
-  // 全体から補充
   if (productList.length < 10) {
     articlesData.forEach(ex => {
       if (!productList.some(p => p.id === ex.id) && productList.length < 10) {
@@ -117,7 +110,7 @@ function generateRichMarkdown(post) {
 
   let md = `## 1. ${post.title}：失敗しないための徹底比較ガイド
 
-${post.introText || 'コスメ選びで大切なのは、自分の悩みや求める質感（持続力・保湿感・発色・香りの強さ）にフィットしているかを見極めることです。本特集では、リアルタイムに支持されている人気実力派アイテム10選を徹底比較しました。'}
+${post.introText || 'コスメ選びで大切なのは、自分の悩みや求める質感（持持力・保湿感・発色・香りの強さ）にフィットしているかを見極めることです。本特集では、リアルタイムに支持されている人気実力派アイテム10選を徹底比較しました。'}
 
 ### 本特集の比較チェックリスト
 - **持続力・キープ力**: 朝使って夕方まで塗り直し・ケアが不要か
@@ -143,7 +136,7 @@ ${post.introText || 'コスメ選びで大切なのは、自分の悩みや求�
 - **自然な使い心地とコスパ・毎日使いを求める方**: 『${items[1]?.productName || items[1]?.title}』がベストチョイス！
 - **乾燥や肌荒れ・成分の優しさをケアしたい方**: 『${items[2]?.productName || items[2]?.title}』をお選びください。
 
-気になったアイテムは、楽天市場の公式ショップや正規取扱店で最新価格や在庫情報を確認してみてください！
+気になる商品の画像や「商品ページへ直行する」ボタンから、楽天市場の各店舗・公式ショップ直リンクで最新価格や在庫を直接ご確認ください！
 `;
 
   return { markdown: md, itemIds: items.map(i => i.id) };
@@ -152,7 +145,7 @@ ${post.introText || 'コスメ選びで大切なのは、自分の悩みや求�
 async function main() {
   const { INITIAL_BLOG_POSTS } = await import('../src/data.ts');
   
-  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件のブログ記事をユーザー目線プロクオリティへリライト中...`);
+  console.log(`全 ${INITIAL_BLOG_POSTS.length} 件のブログ記事を完全商品直リンクボタン仕様へリライト中...`);
 
   const updatedPosts = INITIAL_BLOG_POSTS.map((post) => {
     const { markdown, itemIds } = generateRichMarkdown(post);
@@ -185,7 +178,7 @@ async function main() {
   const updatedDataTs = dataTsText.slice(0, startIdx) + newPart + dataTsText.slice(endIdx);
   
   fs.writeFileSync(dataTsPath, updatedDataTs, 'utf-8');
-  console.log(`🎉 [Master Content Refiner] 「楽天API連携！」排除・HTML画像＆「楽天で見る」ボタン確実配置を完了しました！`);
+  console.log(`🎉 [Direct Link Master Replacer] ブログ記事内のボタン・アフィリンクの完全商品直リンク化が完了しました！`);
 }
 
 main().catch(console.error);

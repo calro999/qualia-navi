@@ -26,9 +26,28 @@ valid_cats = [c for c in categories.keys() if len(categories[c]) >= 2]
 target_users = ["20代前半", "20代後半", "30代", "40代", "敏感肌の方", "乾燥肌の方", "脂性肌の方", "コスパ重視の方", "デパコス派の方"]
 scenes = ["保湿力", "崩れにくさ", "カバー力", "コスパ", "時短", "肌への優しさ", "デザイン", "トレンド感", "発色", "香り"]
 
-def sanitize_str(s):
-    if not s: return ""
-    return s.replace('`', '').replace('$', '').replace('{', '').replace('}', '').replace('\\', '')
+def clean_product_name_for_seo(raw_name: str) -> str:
+    if not raw_name:
+        return ""
+    # 1. 不要なブラケット【...】や[...]の装飾文字のみ除去（SEOキーワードや商品名は維持）
+    cleaned = re.sub(r'【[^】]+】|\[[^\]]+\]', '', raw_name).strip()
+    # 2. ＼...／ などの装飾記号除去
+    cleaned = re.sub(r'＼[^／]+／', '', cleaned).strip()
+    cleaned = re.sub(r'^[★☆♪■◆!！\s\-_]+', '', cleaned).strip()
+    
+    # 3. 35文字程度でSEOキーを含めて切る
+    if len(cleaned) <= 35:
+        result = cleaned
+    else:
+        sub = cleaned[:35]
+        last_space = max(sub.rfind(' '), sub.rfind('　'))
+        result = sub[:last_space].strip() if last_space > 10 else sub.strip()
+
+    # 4. 【セーフティ】3文字未満になっちゃったら元の文字からブラケットのみ消した文字を使う
+    if len(result) < 3:
+        result = cleaned[:25].strip() if len(cleaned) >= 25 else cleaned
+
+    return result
 
 for i in range(NUM_COMPARISONS):
     # Pick a random category
@@ -38,8 +57,8 @@ for i in range(NUM_COMPARISONS):
     itemA = pair[0]
     itemB = pair[1]
     
-    nameA = sanitize_str(itemA.get("productName", itemA["title"]))[:30]
-    nameB = sanitize_str(itemB.get("productName", itemB["title"]))[:30]
+    nameA = clean_product_name_for_seo(sanitize_str(itemA.get("productName", itemA["title"])))
+    nameB = clean_product_name_for_seo(sanitize_str(itemB.get("productName", itemB["title"])))
     
     target_user = random.choice(target_users)
     

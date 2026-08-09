@@ -96,13 +96,15 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
               rel={isInternal ? undefined : 'noopener noreferrer'}
               onClick={(e) => handleLinkClick(e, href)}
               className={
-                anchorText.includes('🛍️') || anchorText.includes('【楽天】')
-                  ? "my-4 flex items-center justify-center w-full sm:w-auto bg-gradient-to-r from-rose-500 to-red-600 hover:from-rose-600 hover:to-red-700 text-white font-extrabold text-sm sm:text-base px-6 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 active:scale-95"
+                anchorText.includes('🛍️') || anchorText.includes('【楽天】') || anchorText.includes('【楽天市場】') || anchorText.includes('直行する')
+                  ? "my-4 inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-gradient-to-r from-red-600 via-rose-600 to-red-700 hover:from-red-700 hover:to-rose-800 text-white font-black text-sm sm:text-base px-8 py-3.5 rounded-2xl shadow-md hover:shadow-lg transition-all duration-200 hover:scale-[1.02] active:scale-98 border border-red-500/30"
                   : "inline-flex items-center gap-1 font-extrabold text-rose-600 hover:text-rose-800 hover:underline bg-rose-50 px-2 py-0.5 rounded my-0.5 border border-rose-200 transition-colors cursor-pointer"
               }
             >
-              <span>{anchorText}</span>
-              {!anchorText.includes('🛍️') && (isInternal ? <span className="text-xs">→</span> : <span className="text-xs">↗</span>)}
+              <span className="flex items-center gap-2">
+                {(anchorText.includes('【楽天市場】') || anchorText.includes('直行する')) && <span>🛍️</span>}
+                <span>{anchorText}</span>
+              </span>
             </a>
           );
         }

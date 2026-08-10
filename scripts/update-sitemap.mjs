@@ -12,9 +12,11 @@ const content = readFileSync(dataPath, 'utf8');
 
 // Extract all article IDs from data.ts
 const articleIds = [];
-const artMatches = content.matchAll(/id:\s*['"](art-.*?)['"]/g);
+const artMatches = content.matchAll(/id:\s*['"](art-.*?|topic-.*?|autodiscover-.*?)['"]/g);
 for (const m of artMatches) {
-  articleIds.push(m[1]);
+  if (!articleIds.includes(m[1])) {
+    articleIds.push(m[1]);
+  }
 }
 
 // Extract article IDs from articles.json

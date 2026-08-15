@@ -6,6 +6,71 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>art-seo-query-retinol-pigmentation-spots-care</g:id>
+  <title>COSRX RX ザ・レチノール 0.1 クリーム</title>
+  <description>「頬の濃いメラニンシミと乾燥シワが同時に目立つ…」「シミとシワを一本で同時ケアするレチノールの塗り順は？」ターンオーバーを強力促進して透明素肌を取り戻す手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-retinol-pigmentation-spots-care</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-pure-retinol-elixir.jpg</g:image_link>
+  <g:price>2800 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-foundation-aircon-dryness-protection</g:id>
+  <title>マキアレイベル 薬用クリアエステヴェール</title>
+  <description>「オフィスの冷暖房エアコンの風で目元や口元がパリパリに乾燥してひび割れる…」「夕方まで潤いとツヤが続くファンデの塗り方は？」水分率を一日中キープする密着手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-foundation-aircon-dryness-protection</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-scene-cushion-found.jpg</g:image_link>
+  <g:price>2698 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-cheek-blush-falling-canmake</g:id>
+  <title>キャンメイク クリームチーク</title>
+  <description>「マスクの着脱でチークが擦れて夕方になると顔色が悪くなる…」「チークの色持ちを一日中キープする塗り方は？」内側からジュワッと滲み出る血色キープ手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-cheek-blush-falling-canmake</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-suqqu-vs-excel.jpg</g:image_link>
+  <g:price>638 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-enzyme-powder-buttock-roughness</g:id>
+  <title>スイサイ ビューティクリア パウダーウォッシュ</title>
+  <description>「お尻の下（座布部）がザラザラして黒ずみポツポツがある…」「水着や下着の摩擦でお尻の皮膚が荒れるのを治す方法は？」お尻をツルツルにする酵素ヒップケア手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-enzyme-powder-buttock-roughness</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-clay-kanebo-scrub.jpg</g:image_link>
+  <g:price>2090 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-hair-oil-styling-iron-lock</g:id>
+  <title>ミルボン エルジューダ MO＆FO ヘアトリートメントオイル</title>
+  <description>「朝コテで髪を巻いてもお昼にはストレートに戻ってカールが取れる…」「アイロンの熱ダメージを防ぎつつカールをキープするオイルの塗るタイミングは？」カール熱ロック手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-hair-oil-styling-iron-lock</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-fino-hair-mask.jpg</g:image_link>
+  <g:price>1899 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>HAIRCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
   <g:id>art-seo-query-retinol-forehead-wrinkles-lines</g:id>
   <title>COSRX RX ザ・レチノール 0.1 クリーム</title>
   <description>「前髪を上げるとおでこに波打つような横シワがくっきり残る…」「額のシワをピンと伸ばすレチノールの塗り順は？」目を大きく開ける癖やおでこの乾燥シワを内側から引き上げる手順。</description>

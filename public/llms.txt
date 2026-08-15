@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-15
-- **Total Articles**: 331 件の個別詳細レビュー
+- **Total Articles**: 336 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,11 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【エレガントで禁断の魅惑香水】ジバンシイランテルディのウエスト・手首ワンタップ纏い順](https://qualia-navi.vercel.app/articles/art-seo-query-givenchy-linterdit-eau-de-parfum): スキンケア・美容液 (ブランド: 主要コスメ)
+- [【水分量で自分だけの血色色付け＆濃密唇ケア】ディオールリップグロウの直塗りパック順](https://qualia-navi.vercel.app/articles/art-seo-query-dior-addict-lip-glow-balm): ベース＆メイクアップ (ブランド: 主要コスメ)
+- [【時間の経過とともに美しく輝く移ろいツヤ】SUQQU最高峰クリームファンデの顔中央伸ばし順](https://qualia-navi.vercel.app/articles/art-seo-query-suqqu-the-cream-foundation-luxury): ベース＆メイクアップ (ブランド: 主要コスメ)
+- [【気品溢れる4つの白い花々の光香ヴェール】シャネルガブリエルヘアミストの空調噴霧潜らせ順](https://qualia-navi.vercel.app/articles/art-seo-query-chanel-gabrielle-hair-mist-luxury): ヘアケア (ブランド: 主要コスメ)
+- [【水鏡のような透明ツヤ＆UVダメージ完全遮断】ルナソルグロウデイセラムUVの全顔ハンドプレス順](https://qualia-navi.vercel.app/articles/art-seo-query-lunasol-glow-day-serum-uv-base): ベース＆メイクアップ (ブランド: 主要コスメ)
 - [【甘く高貴な香りと濃密シルク保湿】ジルスチュアートボディミルクのお風呂上り温めハンドプレス順](https://qualia-navi.vercel.app/articles/art-seo-query-jillstuart-body-milk-sweet-whitefloral): スキンケア・美容液 (ブランド: 主要コスメ)
 - [【みずみずしい素肌美＆カバー力を完璧両立】RMKフローレスカバーファンデのスポンジ叩き込み順](https://qualia-navi.vercel.app/articles/art-seo-query-rmk-liquid-foundation-flawless-coverage): ベース＆メイクアップ (ブランド: 主要コスメ)
 - [【素肌が魅了する生ツヤ＆毛穴・シミ密着カバー】ローラメルシエ生ツヤクッションのダイヤ密着ポンポン順](https://qualia-navi.vercel.app/articles/art-seo-query-lauramercier-flawless-lumiere-cushion): ベース＆メイクアップ (ブランド: 主要コスメ)
@@ -61,11 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【夕方の毛穴落ち＆テカリ完全阻止】ローラメルシエトランスルーセントパウダーのパフ圧着固定順](https://qualia-navi.vercel.app/articles/art-seo-query-lauramercier-loose-setting-powder): ベース＆メイクアップ (ブランド: 主要コスメ)
 - [【ガサガサ唇の即時密着パック】クラランスコンフォートリップオイルの濃密植物オイル仕込み順](https://qualia-navi.vercel.app/articles/art-seo-query-clarins-lip-comfort-oil-hydration): ベース＆メイクアップ (ブランド: 主要コスメ)
 - [【トレンドの濡れ感束感＆パサつき広がり完全整頓】N.ポリッシュオイルの毛先揉み込みスタイリング順](https://qualia-navi.vercel.app/articles/art-seo-query-napla-ndot-polish-oil-wet-texture): ヘアケア (ブランド: 主要コスメ)
-- [【猛暑＆汗・皮脂でも16時間崩れない】エスティローダーダブルウェアの濡れスポンジ速攻叩き込み順](https://qualia-navi.vercel.app/articles/art-seo-query-esteelauder-doublewear-sweatproof): ベース＆メイクアップ (ブランド: 主要コスメ)
-- [【ピテラ濃密発酵でクリアな透明感＆ツヤ】SK-IIフェイシャルトリートメントエッセンスのハンドプレス順](https://qualia-navi.vercel.app/articles/art-seo-query-skii-facial-treatment-essence-pitera): スキンケア・美容液 (ブランド: 主要コスメ)
-- [【素肌そのものが発光する極上ツヤ補正】クレドポーボーテ感動下地の顔中央5点塗り極上順](https://qualia-navi.vercel.app/articles/art-seo-query-cledepeaubeaute-voile-correcteur-primer): ベース＆メイクアップ (ブランド: 主要コスメ)
-- [【濡れ感あふれる上品なツヤ＆骨格立体感】シャネルボームエサンシエルの指ポンポン直置き順](https://qualia-navi.vercel.app/articles/art-seo-query-chanel-baume-essentiel-highlight-glow): ベース＆メイクアップ (ブランド: 主要コスメ)
-- [【最高峰の香りと至高の髪ツヤ＆毛先修復】ケラスターゼクロノロジストオイルの贅沢密着仕込み順](https://qualia-navi.vercel.app/articles/art-seo-query-kerastase-chronologiste-oil-luxury-care): ヘアケア (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-15
-- **Total Articles**: 531 件の個別詳細レビュー
+- **Total Articles**: 536 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,11 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【マリオネットライン＆口角の影撃退】レチノールクリームの口角リフトアップ塗り順](https://qualia-navi.vercel.app/articles/art-seo-query-retinol-marionette-lines-sagging): スキンケア・美容液 (ブランド: 主要コスメ)
+- [【顔全体の粉吹き＆ひび割れカツカツ肌の即リセット】薬用美容液ファンデの保湿包み込み順](https://qualia-navi.vercel.app/articles/art-seo-query-foundation-flaking-skin-winter): ベース＆メイクアップ (ブランド: 主要コスメ)
+- [【ラメ落ち＆頬へのキラキラ散りゼロ】キャンメイクグリッター×指ポンポン重ね塗り順](https://qualia-navi.vercel.app/articles/art-seo-query-eyeshadow-glitter-fall-canmake): ベース＆メイクアップ (ブランド: 主要コスメ)
+- [【胸元の赤ニキビ＆ブツブツ皮脂つまり予防】お風呂でできる胸元酵素クレンジング順](https://qualia-navi.vercel.app/articles/art-seo-query-enzyme-powder-chest-pimples-acne): スキンケア・美容液 (ブランド: 主要コスメ)
+- [【海・プールの海水・塩素・紫外線ダメージブロック】サロンヘアオイルのアウトドア撥水コート順](https://qualia-navi.vercel.app/articles/art-seo-query-hair-oil-sea-pool-chlorine-damage): ヘアケア (ブランド: 主要コスメ)
 - [【口の上の縦ジワ＆梅干しシワ撃退】レチノールクリームの唇周り縦線伸ばし塗り順](https://qualia-navi.vercel.app/articles/art-seo-query-retinol-upper-lip-barcode-wrinkles): スキンケア・美容液 (ブランド: 主要コスメ)
 - [【マスク着脱でも小鼻・頬のファンデ剥がれゼロ】薬用美容液ファンデの摩擦シールド順](https://qualia-navi.vercel.app/articles/art-seo-query-foundation-mask-friction-nose-cheeks): ベース＆メイクアップ (ブランド: 主要コスメ)
 - [【夕方のパンダ目＆目尻滲みゼロ】キャンメイク密着ライナーのウォータープルーフ描き順](https://qualia-navi.vercel.app/articles/art-seo-query-eyeliner-waterproof-canmake-holding): ベース＆メイクアップ (ブランド: 主要コスメ)
@@ -61,11 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【縦ジワ伸ばし＆ツヤ持続】キャンメイクプランパーリップと手持ち口紅の重ね塗り順](https://qualia-navi.vercel.app/articles/art-seo-query-plumper-lip-matt-canmake): リップ＆ケア (ブランド: 主要コスメ)
 - [【頭皮のギトギト臭＆毛穴詰まり解消】シャンプーに酵素パウダーを混ぜる頭皮クレンジング順](https://qualia-navi.vercel.app/articles/art-seo-query-enzyme-powder-scalp-shampoo-mix): スキンケア・美容液 (ブランド: 主要コスメ)
 - [【雨の日の湿気・アホ毛完全プロテクト】サロンヘアオイルの湿気ブロックコート塗り順](https://qualia-navi.vercel.app/articles/art-seo-query-hair-oil-humidity-rainy-day): ヘアケア (ブランド: 主要コスメ)
-- [【40代・50代の縦伸びたるみ毛穴解消】レチノールクリームの毛穴引き締め密着塗り順](https://qualia-navi.vercel.app/articles/art-seo-query-retinol-pore-tightening-serum): スキンケア・美容液 (ブランド: 主要コスメ)
-- [【冬や乾燥期の粉吹き・カサカサ撃退】みずみずしいツヤを復活させる美容液ファンデ直し順](https://qualia-navi.vercel.app/articles/art-seo-query-foundation-flaky-skin-fix): ベース＆メイクアップ (ブランド: 主要コスメ)
-- [【地肌づけ・ダマ感ゼロ】キャンメイク眉マスカラで作る脱色級ふんわり美眉塗り順](https://qualia-navi.vercel.app/articles/art-seo-query-eyebrow-mascara-canmake-holding): ベース＆メイクアップ (ブランド: 主要コスメ)
-- [【背中ニキビ＆肘膝のツルツルボディケア】お風呂でできる全身酵素洗顔つるつる手順](https://qualia-navi.vercel.app/articles/art-seo-query-enzyme-powder-body-back-acne): スキンケア・美容液 (ブランド: 主要コスメ)
-- [【ナイトキャップ不要のツヤツヤ翌朝】サロンヘアオイルの就寝前ナイトケア塗り順](https://qualia-navi.vercel.app/articles/art-seo-query-hair-oil-bedhair-sleep-cap-replacement): ヘアケア (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

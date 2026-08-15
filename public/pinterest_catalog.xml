@@ -6,6 +6,71 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>art-seo-query-retinol-crow-feet-eye-wrinkles</g:id>
+  <title>COSRX RX ザ・レチノール 0.1 クリーム</title>
+  <description>「笑った時に目尻に細い線（カラスの足跡）がくっきり刻まれる…」「目元の皮膚が薄くて乾燥小ジワが増える」目尻のシワを内側からふっくらハリで伸ばすアイケア手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-retinol-crow-feet-eye-wrinkles</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-pure-retinol-elixir.jpg</g:image_link>
+  <g:price>2800 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-foundation-neck-color-mismatch</g:id>
+  <title>マキアレイベル 薬用クリアエステヴェール</title>
+  <description>「ファンデを塗ると顔だけ白浮きして首と色が全然違う…」「首と顔の境目を自然にぼかすプロの塗り方は？」仮面感ゼロのシームレスなベースメイク塗り順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-foundation-neck-color-mismatch</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-scene-cushion-found.jpg</g:image_link>
+  <g:price>2698 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-eyebrow-pencil-canmake-holding</g:id>
+  <title>キャンメイク パーフェクトエアリーアイブロウ</title>
+  <description>「前髪が眉毛に当たって夕方になると眉尻が消えて眉無しになる…」「汗や皮脂で眉毛が落ちるのを防ぐ描き方は？」一日中消えない密着アイブロウ描き順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-eyebrow-pencil-canmake-holding</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-suqqu-vs-excel.jpg</g:image_link>
+  <g:price>550 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-enzyme-powder-strawberry-nose-blackhead</g:id>
+  <title>スイサイ ビューティクリア パウダーウォッシュ</title>
+  <description>「小鼻の毛穴に黒いツブツブ・角栓がビッシリ詰まってイチゴ鼻になる…」「洗顔しても鼻の黒ずみが落ちない」固まった黒ずみ角栓を酵素で溶かす小鼻集中洗い手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-enzyme-powder-strawberry-nose-blackhead</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-clay-kanebo-scrub.jpg</g:image_link>
+  <g:price>2090 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-hair-oil-overnight-sleeping-pack</g:id>
+  <title>ミルボン エルジューダ MO＆FO ヘアトリートメントオイル</title>
+  <description>「日中の紫外線やカラーで痛んだ髪を寝ている間に補修したい」「夜の集中オイルパックで翌朝の髪質を劇的に変える方法は？」就寝前の夜集中ナイトパック手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-hair-oil-overnight-sleeping-pack</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-fino-hair-mask.jpg</g:image_link>
+  <g:price>1899 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>HAIRCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
   <g:id>art-seo-query-retinol-smile-lines-nasolabial</g:id>
   <title>COSRX RX ザ・レチノール 0.1 クリーム</title>
   <description>「口元のほうれい線が深くなりファンデーションがシワの溝に溜まる…」「ほうれい線を薄くするレチノールのプロ塗り順は？」頬の垂れ下がりとシワ溝を内側から持ち上げる引き締めケア。</description>

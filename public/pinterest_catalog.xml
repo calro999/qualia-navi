@@ -6,51 +6,12 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
-  <g:id>art-seo-query-retinol-order</g:id>
-  <title>IOPE レチノール スーパーバウンス セラム</title>
-  <description>「レチノールって化粧水の前後どっち？」「ビタミンCやハイドロキノンと同時使用は大丈夫？」検索ユーザーの疑問を徹底解決。正しい塗る順番と、A反応を最小限に抑えて最大のハリ・毛穴・引き締め効果を出すコツを伝授。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-retinol-order</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-pure-retinol-elixir.jpg</g:image_link>
-  <g:price>4680 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SKINCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-anessa-diff</g:id>
-  <title>アネッサ パーフェクトUV スキンケアミルク NA</title>
-  <description>「アネッサの金ボトル、ミルクタイプとスプレータイプどっちが良いの？」というお悩みを解決！それぞれのUVカット持続力、塗り直しの手軽さ、コスパ、使用感の差を徹底比較。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-anessa-diff</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-b0csb4y3c7.jpg</g:image_link>
-  <g:price>3058 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SUNCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; suncare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-niacinamide-vitc</g:id>
-  <title>VT リードルショット 100 美容液</title>
-  <description>「ナイアシンアミドとビタミンCを一緒に使うと効果が打ち消し合うって本当？」噂の真相を最新美容皮膚科学に基づき徹底検証！毛穴引き締め・美白・ハリ感を最大化する正しい塗布順序を解明。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-niacinamide-vitc</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-tirtir-red-cushion.jpg</g:image_link>
-  <g:price>2970 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SKINCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-pore-foundation-order</g:id>
-  <title>マキアージュ スキンセンサーベース NEO</title>
-  <description>「夕方になると鼻や頬のファンデがぽつぽつ毛穴に溜まる…」とお悩みの方へ。毛穴落ちが起こる原因と、崩れを防ぐ【化粧下地→ファンデ→パウダー】の正しい塗布テクニックを完全公開。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-pore-foundation-order</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-cledepeau-vs-cezanne.jpg</g:image_link>
-  <g:price>2970 JPY</g:price>
+  <g:id>autodiscover-shiseido</g:id>
+  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
+  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
+  <g:price>7590 JPY</g:price>
   <g:availability>in_stock</g:availability>
   <g:condition>new</g:condition>
   <g:brand>MAKEUP</g:brand>
@@ -58,25 +19,12 @@
   <g:product_type>コスメ &gt; makeup</g:product_type>
 </item>
 <item>
-  <g:id>art-seo-query-kbeauty-official-store</g:id>
-  <title>TIRTIR マスクフィット レッドクッション</title>
-  <description>「ネットで買う韓国コスメ、偽物が出回っていないか心配…」「安全に本物を安く買うにはどこが良い？」SNSで大バズり中の韓国コスメを安心・確実に正規品で手に入れる方法とショップ選びの基準を解説。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-kbeauty-official-store</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-tirtir-red-cushion.jpg</g:image_link>
-  <g:price>2270 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>K-BEAUTY</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; k-beauty</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-pore-cover-foundation</g:id>
-  <title>セザンヌ 皮脂テカリ防止下地 ライトブルー</title>
-  <description>ぽっかり開いた開き毛穴や、たるみ毛穴を夕方までツルンとカバー！皮脂崩れをシャットアウトし、ファンデが落ち込まないプロ直伝の下地仕込みテクニックとプチプラ神コスメを紹介。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-pore-cover-foundation</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-cledepeau-vs-cezanne.jpg</g:image_link>
-  <g:price>660 JPY</g:price>
+  <g:id>autodiscover-takami</g:id>
+  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
+  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
   <g:availability>in_stock</g:availability>
   <g:condition>new</g:condition>
   <g:brand>MAKEUP</g:brand>
@@ -84,186 +32,17 @@
   <g:product_type>コスメ &gt; makeup</g:product_type>
 </item>
 <item>
-  <g:id>art-seo-query-retinol-a-reaction</g:id>
-  <title>COSRX RX ザ・レチノール 0.1 クリーム</title>
-  <description>「レチノールを塗ったら肌がピリピリして皮膚が剥がれてきた…これって失敗？」A反応（副反応）が起こる理由と期間の目安、皮むき中の正しい保湿＆鎮静レスキュー法を徹底解説。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-retinol-a-reaction</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-pure-retinol-elixir.jpg</g:image_link>
-  <g:price>3200 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SKINCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-niacinamide-vitc-order</g:id>
-  <title>メラノCC 薬用しみ集中対策 プレミアム美容液</title>
-  <description>「ナイアシンアミドとビタミンC、両方の効果を100%引き出す塗る順番は？」透明感ケアと毛穴対策を両立させたい美容マニア必見！朝と夜の最適な使い分けプログラムを提案。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-niacinamide-vitc-order</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-vit-c-melano-cc.jpg</g:image_link>
-  <g:price>1380 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SKINCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-blackhead-instant-care</g:id>
-  <title>アテニア スキンクリア クレンズ オイル</title>
-  <description>「鼻の黒ずみ・角栓が詰まって苺みたい…」「洗ってもすぐ復活する」とお悩みの方必見！ドラッグストアや楽天で買える即効性の高いクレンジング＆洗顔アイテムで角栓を溶かしてすっきりオフする方法。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-blackhead-instant-care</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-shu-uemura-vs-kose.jpg</g:image_link>
-  <g:price>3630 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SKINCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-cleansing-balm-acne</g:id>
-  <title>DUO ザ クレンジングバーム クリア</title>
-  <description>「クレンジングバームを使い始めたらポツポツニキビができた…」それ、バームのせいではなく「洗顔方法の誤り」かも？ニキビが好む油分を残さない完璧な乳化・すすぎテクニックを大公開。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-cleansing-balm-acne</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-tirtir-red-cushion.jpg</g:image_link>
-  <g:price>3960 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SKINCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-mens-sunscreen-whitecast</g:id>
-  <title>ニベアメン UVプロテクトジェル SPF50+</title>
-  <description>「日焼け止めを塗ると顔が白くなって営業先で恥ずかしい…」「塗った後のベタつきが耐えられない」そんな男性のお悩みを一撃解決！塗った瞬間透明になり、皮脂テカリを抑えるメンズ特化UVジェル。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-sunscreen-whitecast</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-b0csb4y3c7.jpg</g:image_link>
-  <g:price>1097 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SUNCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; suncare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-mens-beard-concealer</g:id>
-  <title>BIONIA (ビオニア) メンズコンシーラー</title>
-  <description>「毎朝ヒゲを剃っても青髭が目立つ…」「青クマのせいで疲れて見える」と悩む30代〜40代男性へ。周りにメイクバレせず、青髭・クマ・ニキビ跡を一瞬で自然にカバーするメンズコンシーラーの選び方。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-beard-concealer</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-ipsa-concelaer.jpg</g:image_link>
-  <g:price>3120 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-mens-skincare-allinone</g:id>
-  <title>NULL メンズ オールインワンジェル</title>
-  <description>「化粧水、乳液、美容液…順番に塗るのが面倒くさすぎる」「朝の忙しい時間にスキンケアに時間をかけたくない」男性のホンネに応える、1本でスキンケアが10秒で完了する高機能オールインワン。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-skincare-allinone</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-rescue-blue-beard.jpg</g:image_link>
-  <g:price>3259 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SKINCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-mens-shine-control-base</g:id>
-  <title>コーセー メイクキープ プライマー</title>
-  <description>「お昼や夕方になると顔がぬるぬるテカる…」「あぶらとり紙が手放せない」そんなテカリ悩みを根本から断つ！皮脂吸着成分を限界まで配合した下地＆パウダーで、一日中サラサラ肌を保つ裏ワザ。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-shine-control-base</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-decorte-loose-powder.jpg</g:image_link>
-  <g:price>1320 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-mens-facial-device-effect</g:id>
-  <title>ヤーマン RF美顔器 フォトプラス EX</title>
-  <description>「美顔器って女性のものじゃないの？男性のゴワついた肌や毛穴に効果ある？」30代〜40代男性が自宅で本格サロン級ケアを試した検証結果！たるみ引き締め・毛穴クレンジング・髭剃り後ケアの真価。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-facial-device-effect</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-decorte-loose-powder.jpg</g:image_link>
-  <g:price>49500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>DEVICE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; device</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-sweat-proof-primer-powder</g:id>
-  <title>イニスフリー ノーセバム ミネラルパウダー N</title>
-  <description>「猛暑の汗と湿気でメイクが全崩れ…」「顔がドロドロになるのを阻止したい！」SNSで「サラサラの神」と社会現象を起こした皮脂吸着パウダーと、崩れない下地の組み合わせ決定版。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-sweat-proof-primer-powder</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-decorte-loose-powder.jpg</g:image_link>
-  <g:price>899 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-gift-girlfriend-5000yen</g:id>
-  <title>SABON (サボン) ボディローション＆ハンドケアセット</title>
-  <description>「彼女や女性友達の誕生日プレゼント、何を選べばいいか分からない…」「センスが良いって思われたい！」予算5,000円前後で女性の心を100%掴む、失敗ゼロの王道デパコス＆ボディケアギフト。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-gift-girlfriend-5000yen</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-dior-maximizer.jpg</g:image_link>
+  <g:id>autodiscover-dior</g:id>
+  <title>Dior ディオール アディクト リップ マキシマイザー</title>
+  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
   <g:price>4620 JPY</g:price>
   <g:availability>in_stock</g:availability>
   <g:condition>new</g:condition>
-  <g:brand>BODYCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; bodycare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-dupe-eyeshadow-canmake</g:id>
-  <title>キャンメイク シルキースフレアイズ（マットタイプ）</title>
-  <description>「ディオールのサンククルール（約9,000円）が欲しいけど高すぎる…」「プチプラで似てる発色のアイシャドウはない？」美容系YouTuberやSNSでデパコス激似と大バズり中のキャンメイクを検証。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-dupe-eyeshadow-canmake</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-laroche-vs-canmake.jpg</g:image_link>
-  <g:price>825 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
   <g:brand>MAKEUP</g:brand>
   <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
   <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-scalp-odor-shampoo-care</g:id>
-  <title>YOLU (ヨル) カームナイトリペア シャンプー＆トリートメント</title>
-  <description>「夕方になると頭皮から汗臭いニオイがする…」「髪の毛のベタつきと皮脂詰まりをどうにかしたい」頭皮の嫌なニオイ原因を根本から分解し、ナイトキャップ効果で翌朝ツヤ髪に仕上げる神シャンプー。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-scalp-odor-shampoo-care</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-yolu-night-repair.jpg</g:image_link>
-  <g:price>2147 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>HAIRCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; haircare</g:product_type>
-</item>
-<item>
-  <g:id>art-seo-query-whitening-toothpaste-effect</g:id>
-  <title>ドクターオーラル 3D ホワイトニングパウダー</title>
-  <description>「コーヒーや紅茶で歯の黄ばみが気になる…」「ホワイトニングに通うのは高すぎるから自宅でケアしたい」天然アパタイトを高配合した話題のホワイトニングパウダーの実力と効果的な磨き方を検証。</description>
-  <link>https://qualia-navi.vercel.app/article/art-seo-query-whitening-toothpaste-effect</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-human-ceramide-etvos.jpg</g:image_link>
-  <g:price>2280 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>ORALCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; oralcare</g:product_type>
 </item>
 <item>
   <g:id>feature-5-sunscreen-uv-protect-flawless</g:id>
@@ -2149,1371 +1928,6 @@
   <g:brand>SKINCARE</g:brand>
   <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
   <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>毎日のメイクをアップデートする注目アイテム「SHISEIDO エッセンス スキングロウ ファンデーション」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>毎日のメイクをアップデートする注目アイテム「TAKAMI タカミスキンピール 角質美容水 30mL」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>毎日のメイクをアップデートする注目アイテム「Dior ディオール アディクト リップ マキシマイザー」。発色の美しさや持ちの良さ、実際の崩れにくさを詳しくまとめました。 本記事では、成分アプローチ、実際の口コミ、30日間の検証結果、プロの使い方、そして楽天市場での最新最安値・ポイント還元率まで、どこよりも分かりやすく徹底解説します。</description>
-  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
 </item>
 <item>
   <g:id>autodiscover-trending-2_1786012835</g:id>
@@ -6387,6 +4801,266 @@
   <g:brand>MAKEUP</g:brand>
   <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
   <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-retinol-order</g:id>
+  <title>IOPE レチノール スーパーバウンス セラム</title>
+  <description>「レチノールって化粧水の前後どっち？」「ビタミンCやハイドロキノンと同時使用は大丈夫？」検索ユーザーの疑問を徹底解決。正しい塗る順番と、A反応を最小限に抑えて最大のハリ・毛穴・引き締め効果を出すコツを伝授。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-retinol-order</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-pure-retinol-elixir.jpg</g:image_link>
+  <g:price>4680 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-anessa-diff</g:id>
+  <title>アネッサ パーフェクトUV スキンケアミルク NA</title>
+  <description>「アネッサの金ボトル、ミルクタイプとスプレータイプどっちが良いの？」というお悩みを解決！それぞれのUVカット持続力、塗り直しの手軽さ、コスパ、使用感の差を徹底比較。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-anessa-diff</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-b0csb4y3c7.jpg</g:image_link>
+  <g:price>3058 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SUNCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; suncare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-niacinamide-vitc</g:id>
+  <title>VT リードルショット 100 美容液</title>
+  <description>「ナイアシンアミドとビタミンCを一緒に使うと効果が打ち消し合うって本当？」噂の真相を最新美容皮膚科学に基づき徹底検証！毛穴引き締め・美白・ハリ感を最大化する正しい塗布順序を解明。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-niacinamide-vitc</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-tirtir-red-cushion.jpg</g:image_link>
+  <g:price>2970 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-pore-foundation-order</g:id>
+  <title>マキアージュ スキンセンサーベース NEO</title>
+  <description>「夕方になると鼻や頬のファンデがぽつぽつ毛穴に溜まる…」とお悩みの方へ。毛穴落ちが起こる原因と、崩れを防ぐ【化粧下地→ファンデ→パウダー】の正しい塗布テクニックを完全公開。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-pore-foundation-order</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-cledepeau-vs-cezanne.jpg</g:image_link>
+  <g:price>2970 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-kbeauty-official-store</g:id>
+  <title>TIRTIR マスクフィット レッドクッション</title>
+  <description>「ネットで買う韓国コスメ、偽物が出回っていないか心配…」「安全に本物を安く買うにはどこが良い？」SNSで大バズり中の韓国コスメを安心・確実に正規品で手に入れる方法とショップ選びの基準を解説。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-kbeauty-official-store</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-tirtir-red-cushion.jpg</g:image_link>
+  <g:price>2270 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>K-BEAUTY</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; k-beauty</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-pore-cover-foundation</g:id>
+  <title>セザンヌ 皮脂テカリ防止下地 ライトブルー</title>
+  <description>ぽっかり開いた開き毛穴や、たるみ毛穴を夕方までツルンとカバー！皮脂崩れをシャットアウトし、ファンデが落ち込まないプロ直伝の下地仕込みテクニックとプチプラ神コスメを紹介。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-pore-cover-foundation</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-cledepeau-vs-cezanne.jpg</g:image_link>
+  <g:price>660 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-retinol-a-reaction</g:id>
+  <title>COSRX RX ザ・レチノール 0.1 クリーム</title>
+  <description>「レチノールを塗ったら肌がピリピリして皮膚が剥がれてきた…これって失敗？」A反応（副反応）が起こる理由と期間の目安、皮むき中の正しい保湿＆鎮静レスキュー法を徹底解説。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-retinol-a-reaction</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-pure-retinol-elixir.jpg</g:image_link>
+  <g:price>3200 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-niacinamide-vitc-order</g:id>
+  <title>メラノCC 薬用しみ集中対策 プレミアム美容液</title>
+  <description>「ナイアシンアミドとビタミンC、両方の効果を100%引き出す塗る順番は？」透明感ケアと毛穴対策を両立させたい美容マニア必見！朝と夜の最適な使い分けプログラムを提案。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-niacinamide-vitc-order</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-vit-c-melano-cc.jpg</g:image_link>
+  <g:price>1380 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-blackhead-instant-care</g:id>
+  <title>アテニア スキンクリア クレンズ オイル</title>
+  <description>「鼻の黒ずみ・角栓が詰まって苺みたい…」「洗ってもすぐ復活する」とお悩みの方必見！ドラッグストアや楽天で買える即効性の高いクレンジング＆洗顔アイテムで角栓を溶かしてすっきりオフする方法。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-blackhead-instant-care</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-shu-uemura-vs-kose.jpg</g:image_link>
+  <g:price>3630 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-cleansing-balm-acne</g:id>
+  <title>DUO ザ クレンジングバーム クリア</title>
+  <description>「クレンジングバームを使い始めたらポツポツニキビができた…」それ、バームのせいではなく「洗顔方法の誤り」かも？ニキビが好む油分を残さない完璧な乳化・すすぎテクニックを大公開。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-cleansing-balm-acne</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-tirtir-red-cushion.jpg</g:image_link>
+  <g:price>3960 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-mens-sunscreen-whitecast</g:id>
+  <title>ニベアメン UVプロテクトジェル SPF50+</title>
+  <description>「日焼け止めを塗ると顔が白くなって営業先で恥ずかしい…」「塗った後のベタつきが耐えられない」そんな男性のお悩みを一撃解決！塗った瞬間透明になり、皮脂テカリを抑えるメンズ特化UVジェル。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-sunscreen-whitecast</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-b0csb4y3c7.jpg</g:image_link>
+  <g:price>1097 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SUNCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; suncare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-mens-beard-concealer</g:id>
+  <title>BIONIA (ビオニア) メンズコンシーラー</title>
+  <description>「毎朝ヒゲを剃っても青髭が目立つ…」「青クマのせいで疲れて見える」と悩む30代〜40代男性へ。周りにメイクバレせず、青髭・クマ・ニキビ跡を一瞬で自然にカバーするメンズコンシーラーの選び方。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-beard-concealer</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-ipsa-concelaer.jpg</g:image_link>
+  <g:price>3120 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-mens-skincare-allinone</g:id>
+  <title>NULL メンズ オールインワンジェル</title>
+  <description>「化粧水、乳液、美容液…順番に塗るのが面倒くさすぎる」「朝の忙しい時間にスキンケアに時間をかけたくない」男性のホンネに応える、1本でスキンケアが10秒で完了する高機能オールインワン。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-skincare-allinone</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-rescue-blue-beard.jpg</g:image_link>
+  <g:price>3259 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-mens-shine-control-base</g:id>
+  <title>コーセー メイクキープ プライマー</title>
+  <description>「お昼や夕方になると顔がぬるぬるテカる…」「あぶらとり紙が手放せない」そんなテカリ悩みを根本から断つ！皮脂吸着成分を限界まで配合した下地＆パウダーで、一日中サラサラ肌を保つ裏ワザ。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-shine-control-base</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-decorte-loose-powder.jpg</g:image_link>
+  <g:price>1320 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-mens-facial-device-effect</g:id>
+  <title>ヤーマン RF美顔器 フォトプラス EX</title>
+  <description>「美顔器って女性のものじゃないの？男性のゴワついた肌や毛穴に効果ある？」30代〜40代男性が自宅で本格サロン級ケアを試した検証結果！たるみ引き締め・毛穴クレンジング・髭剃り後ケアの真価。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-mens-facial-device-effect</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-decorte-loose-powder.jpg</g:image_link>
+  <g:price>49500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>DEVICE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; device</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-sweat-proof-primer-powder</g:id>
+  <title>イニスフリー ノーセバム ミネラルパウダー N</title>
+  <description>「猛暑の汗と湿気でメイクが全崩れ…」「顔がドロドロになるのを阻止したい！」SNSで「サラサラの神」と社会現象を起こした皮脂吸着パウダーと、崩れない下地の組み合わせ決定版。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-sweat-proof-primer-powder</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-decorte-loose-powder.jpg</g:image_link>
+  <g:price>899 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-gift-girlfriend-5000yen</g:id>
+  <title>SABON (サボン) ボディローション＆ハンドケアセット</title>
+  <description>「彼女や女性友達の誕生日プレゼント、何を選べばいいか分からない…」「センスが良いって思われたい！」予算5,000円前後で女性の心を100%掴む、失敗ゼロの王道デパコス＆ボディケアギフト。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-gift-girlfriend-5000yen</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-dior-maximizer.jpg</g:image_link>
+  <g:price>4620 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>BODYCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; bodycare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-dupe-eyeshadow-canmake</g:id>
+  <title>キャンメイク シルキースフレアイズ（マットタイプ）</title>
+  <description>「ディオールのサンククルール（約9,000円）が欲しいけど高すぎる…」「プチプラで似てる発色のアイシャドウはない？」美容系YouTuberやSNSでデパコス激似と大バズり中のキャンメイクを検証。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-dupe-eyeshadow-canmake</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-dupe-laroche-vs-canmake.jpg</g:image_link>
+  <g:price>825 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-scalp-odor-shampoo-care</g:id>
+  <title>YOLU (ヨル) カームナイトリペア シャンプー＆トリートメント</title>
+  <description>「夕方になると頭皮から汗臭いニオイがする…」「髪の毛のベタつきと皮脂詰まりをどうにかしたい」頭皮の嫌なニオイ原因を根本から分解し、ナイトキャップ効果で翌朝ツヤ髪に仕上げる神シャンプー。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-scalp-odor-shampoo-care</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-yolu-night-repair.jpg</g:image_link>
+  <g:price>2147 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>HAIRCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-whitening-toothpaste-effect</g:id>
+  <title>ドクターオーラル 3D ホワイトニングパウダー</title>
+  <description>「コーヒーや紅茶で歯の黄ばみが気になる…」「ホワイトニングに通うのは高すぎるから自宅でケアしたい」天然アパタイトを高配合した話題のホワイトニングパウダーの実力と効果的な磨き方を検証。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-whitening-toothpaste-effect</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-human-ceramide-etvos.jpg</g:image_link>
+  <g:price>2280 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>ORALCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; oralcare</g:product_type>
 </item>
 </channel>
 </rss>

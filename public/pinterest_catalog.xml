@@ -6,6 +6,71 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>art-seo-query-retinol-smile-lines-nasolabial</g:id>
+  <title>COSRX RX ザ・レチノール 0.1 クリーム</title>
+  <description>「口元のほうれい線が深くなりファンデーションがシワの溝に溜まる…」「ほうれい線を薄くするレチノールのプロ塗り順は？」頬の垂れ下がりとシワ溝を内側から持ち上げる引き締めケア。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-retinol-smile-lines-nasolabial</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-pure-retinol-elixir.jpg</g:image_link>
+  <g:price>2800 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-foundation-dark-circles-cover</g:id>
+  <title>マキアレイベル 薬用クリアエステヴェール</title>
+  <description>「目の下のクマ（黒クマ・青クマ）を固いコンシーラーで隠すとシワシワにヨレる…」「コンシーラーなしで目元を明るくする塗り方は？」厚塗りゼロでクマを光で消すベース手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-foundation-dark-circles-cover</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-scene-cushion-found.jpg</g:image_link>
+  <g:price>2698 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-plumper-lip-matt-canmake</g:id>
+  <title>キャンメイク むちぷるティント＆プランパー</title>
+  <description>「手持ちのマットリップや口紅を塗ると乾燥して縦ジワが目立つ…」「プランパーと口紅どちらを先に塗るのが正解？」縦ジワをふっくら伸ばしてツヤモチを高める重ね塗り手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-plumper-lip-matt-canmake</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-kate-lipmon-03.jpg</g:image_link>
+  <g:price>770 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>LIP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; lip</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-enzyme-powder-scalp-shampoo-mix</g:id>
+  <title>スイサイ ビューティクリア パウダーウォッシュ</title>
+  <description>「夕方になると頭皮が脂っぽく臭う…」「頭皮の頑固なフケや毛穴角栓詰まりを自宅でリセットする方法は？」シャンプーに酵素パウダーを混ぜる頭皮スパ洗髪手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-enzyme-powder-scalp-shampoo-mix</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-clay-kanebo-scrub.jpg</g:image_link>
+  <g:price>2090 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-hair-oil-humidity-rainy-day</g:id>
+  <title>ミルボン エルジューダ MO＆FO ヘアトリートメントオイル</title>
+  <description>「雨の日や梅雨時期になると髪が膨らんで爆発する…」「湿気でアホ毛やうねりが復活するのを防ぐ方法は？」水分侵入を100%ガードするプロの湿気ブロック手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-hair-oil-humidity-rainy-day</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-fino-hair-mask.jpg</g:image_link>
+  <g:price>1899 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>HAIRCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
   <g:id>art-seo-query-retinol-pore-tightening-serum</g:id>
   <title>COSRX RX ザ・レチノール 0.1 クリーム</title>
   <description>「頬の毛穴が縦に流れて涙型に垂れ下がってきた…」「毛穴の開きを引き締めるレチノールの正しい塗り方は？」真皮のハリを復活させてたるみ毛穴をキュッと引き締める手順。</description>
@@ -1304,6 +1369,162 @@
   <g:brand>HAIRCARE</g:brand>
   <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
   <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-shiseido</g:id>
+  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
+  <g:price>7590 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-takami</g:id>
+  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-dior</g:id>
+  <title>Dior ディオール アディクト リップ マキシマイザー</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
+  <g:price>4620 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-shiseido</g:id>
+  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
+  <g:price>7590 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-takami</g:id>
+  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-dior</g:id>
+  <title>Dior ディオール アディクト リップ マキシマイザー</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
+  <g:price>4620 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-shiseido</g:id>
+  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
+  <g:price>7590 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-takami</g:id>
+  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-dior</g:id>
+  <title>Dior ディオール アディクト リップ マキシマイザー</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
+  <g:price>4620 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-shiseido</g:id>
+  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
+  <g:price>7590 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-takami</g:id>
+  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-dior</g:id>
+  <title>Dior ディオール アディクト リップ マキシマイザー</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
+  <g:price>4620 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
 </item>
 <item>
   <g:id>autodiscover-shiseido</g:id>

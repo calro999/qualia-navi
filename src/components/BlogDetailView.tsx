@@ -1,3 +1,4 @@
+import React, { ReactNode } from 'react';
 import { BlogPost, RakutenProductArticle, AuthorProfile } from '../types';
 import { ArrowLeft, Star, Calendar, Clock, ShoppingCart } from 'lucide-react';
 
@@ -24,7 +25,7 @@ interface BlogDetailViewProps {
 
 // 各商品テキストの直下に画像および直行ボタンを確実にレンダリングするパーサー
 function renderInlineMarkdown(text: string) {
-  const parts: (string | JSX.Element)[] = [];
+  const parts: (string | ReactNode)[] = [];
   const regex = /\*\*([^*]+)\*\*/g;
   let lastIndex = 0;
   let match;

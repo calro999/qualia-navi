@@ -88,8 +88,8 @@ export function generateProductJsonLd(
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: article.productName || article.title,
-    image: [article.imageUrl.startsWith('http') ? article.imageUrl : `${domain}${article.imageUrl}`],
-    description: article.introText,
+    image: [((article.imageUrl && typeof article.imageUrl === 'string' && article.imageUrl.startsWith('http')) ? article.imageUrl : `${domain}${article.imageUrl || ''}`)],
+    description: article.introText || '',
     sku: article.itemCode || article.id,
     mpn: article.itemCode || article.id,
     brand: {
@@ -100,7 +100,7 @@ export function generateProductJsonLd(
       '@type': 'Review',
       reviewRating: {
         '@type': 'Rating',
-        ratingValue: article.starRating.toString(),
+        ratingValue: (article.starRating || 4.8).toString(),
         bestRating: '5'
       },
       author: {
@@ -183,7 +183,7 @@ export function generateBlogJsonLd(
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.introText,
-    image: [post.coverImage.startsWith('http') ? post.coverImage : `${domain}${post.coverImage}`],
+    image: [((post.coverImage && typeof post.coverImage === 'string' && post.coverImage.startsWith('http')) ? post.coverImage : `${domain}${post.coverImage || ''}`)],
     datePublished: post.createdAt,
     dateModified: post.createdAt,
     author: {

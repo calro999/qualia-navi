@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { INITIAL_BLOG_POSTS, INITIAL_COMPARISONS, INITIAL_ARTICLES } from '../data';
 import articlesJson from '../data/articles.json';
-import { ChevronRight, Map, BookOpen, Sparkles, ShoppingBag } from 'lucide-react';
+import { ChevronRight, Map as MapIcon, BookOpen, Sparkles, ShoppingBag } from 'lucide-react';
 import { RakutenProductArticle } from '../types';
 
 interface SitemapPageProps {
@@ -32,13 +32,16 @@ export function SitemapPage({ onNavigate }: SitemapPageProps) {
   }, []);
 
   return (
-    <div className="max-w-4xl mx-auto space-y-8 animate-fade-in pb-12">
-      <div className="text-center space-y-3 mb-10">
-        <div className="inline-flex items-center justify-center p-3 bg-rose-50 text-rose-500 rounded-full mb-2">
-          <Map className="w-8 h-8" />
+    <div className="max-w-4xl mx-auto px-4 py-8 animate-fade-in pb-12">
+      {/* Header */}
+      <div className="flex items-center gap-3 mb-8">
+        <div className="p-3 bg-rose-100 text-rose-600 rounded-2xl">
+          <MapIcon className="w-8 h-8" />
         </div>
-        <h1 className="text-3xl font-black text-slate-800 font-serif-brand">サイトマップ</h1>
-        <p className="text-slate-500 text-sm">Qualia Naviの全コンテンツ一覧</p>
+        <div>
+          <h1 className="text-3xl font-black text-slate-800 font-serif-brand">サイトマップ</h1>
+          <p className="text-slate-500 text-sm">Qualia Naviの全コンテンツ一覧</p>
+        </div>
       </div>
 
       <div className="grid gap-8 md:grid-cols-2">

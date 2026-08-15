@@ -95,7 +95,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
               </span>
               <span className="px-3 py-1 bg-amber-400 text-slate-950 font-black text-xs rounded-full flex items-center gap-1">
                 <Star className="w-3.5 h-3.5 fill-slate-950" />
-                {article.starRating.toFixed(1)}
+                {(typeof article.starRating === 'number' ? article.starRating : 4.8).toFixed(1)}
               </span>
             </div>
             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 leading-tight font-serif-brand">

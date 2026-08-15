@@ -207,7 +207,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
 
               <span className="absolute top-3 right-3 px-2.5 py-0.5 bg-white/95 text-rose-600 font-extrabold text-xs rounded-md shadow-xs flex items-center gap-1 backdrop-blur-sm border border-rose-100">
                 <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                {art.starRating.toFixed(1)}
+                {(typeof art.starRating === 'number' ? art.starRating : 4.8).toFixed(1)}
               </span>
             </div>
 

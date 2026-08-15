@@ -6,6 +6,71 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>art-seo-query-takami-skinpeel-rough-texture-pores</g:id>
+  <title>タカミスキンピール 角質美容水 30mL</title>
+  <description>「小鼻や顎のざらつき・ポツポツ毛穴が洗顔しても取れない…」「タカミスキンピールの正しい効果を最大限に高める塗り順は？」水のような角質美容水の正しい3分放置手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-takami-skinpeel-rough-texture-pores</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-kose-one-by-kose.jpg</g:image_link>
+  <g:price>5720 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-vt-cica-mask-redness-calming</g:id>
+  <title>VT CICA デイリースージングマスク (30枚入り)</title>
+  <description>「季節の変わり目やマスク擦れで頬にピリピリ赤みが出る…」「CICAパックを毎日使って肌荒れを予防する最適なパック時間は？」ひんやり鎮静クールダウン手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-vt-cica-mask-redness-calming</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-vt-cica-retina.jpg</g:image_link>
+  <g:price>3490 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-orbis-u-lotion-aging-care-texture</g:id>
+  <title>オルビスユー フォーミングウォッシュ＆エッセンスローション</title>
+  <description>「肌にハリ感がなくなってスキンケアが浸透しにくい…」「オルビスユーのとろみが素肌にすーっと吸い込まれる重ね方は？」とろみパシャ変化のハンドプレス順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-orbis-u-lotion-aging-care-texture</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-scene-cushion-found.jpg</g:image_link>
+  <g:price>1980 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-curel-whitening-milk-sensitive-skin</g:id>
+  <title>キュレル 薬用美白乳液 110mL</title>
+  <description>「美白化粧品を使うとピリピリ刺激を感じる…」「敏感肌でも赤みを出さずにシミを予防する塗り方は？」セラミドケアと美白を両立する乳液塗り手順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-curel-whitening-milk-sensitive-skin</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-ingr-pure-retinol-elixir.jpg</g:image_link>
+  <g:price>6900 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-seo-query-moroccanoil-frizz-shine-protection</g:id>
+  <title>モロッカンオイル トリートメント 100mL</title>
+  <description>「湿気や乾燥で髪がボサボサに広がってツヤがない…」「モロッカンオイルでサロン帰りのサラツヤまとまり髪を作る塗り方は？」世界中で愛されるオイル仕込み順。</description>
+  <link>https://qualia-navi.vercel.app/article/art-seo-query-moroccanoil-frizz-shine-protection</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/art-bazz-fino-hair-mask.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>HAIRCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
   <g:id>art-seo-query-retinol-glabella-frown-lines</g:id>
   <title>資生堂 エリクシール レチノパワー リンクルクリーム</title>
   <description>「無意識に眉間にシワをよせて気難しそうな怒り顔に見える…」「眉間のくっきり縦線をピンと伸ばすレチノールの塗り方は？」皺眉筋の深い折り目を伸ばすストレッチ手順。</description>

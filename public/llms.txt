@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-18
-- **Total Articles**: 732 件の個別詳細レビュー
+- **Total Articles**: 743 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,17 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新・楽天最安値】【高純度エプソムソルト＆発汗・むくみデトックス】硫酸マグネシウムの温浴効果で全身スッキリ整う「神バスソルト」5選](https://qualia-navi.vercel.app/articles/feature-5-epsom-salt-magnesium-bath): 🛁 【神高純度エプソムソルト5選】発汗・むくみ解消＆温活バス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】ピースエイト めぐ流 バスソルト入浴剤 入浴料 エプソムソルト グラファイトシリカ 血流 のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-epsom-clay-bath-salt-detox): 🛁 【神高純度エプソムソルト5選】発汗・むくみ解消＆温活バス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【公式】薬用入浴剤 入浴剤 エプソムソルト 送料無料 選べる2個セット Teal's ティのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-epsom-drteals-epsom-salt-lavender): 🛁 【神高純度エプソムソルト5選】発汗・むくみ解消＆温活バス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【公式】 国産 エプソムソルト ローズマリーの香り アロマ 4.4kg【2.2kg×2袋】のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-epsom-neals-yard-magnesium-bath): 🛁 【神高純度エプソムソルト5選】発汗・むくみ解消＆温活バス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】FROエプソムソルト【10kg 】| 国産エプソムソルト - FROバスソルト｜毎日のボデのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-epsom-amami-epsom-salt-pure): 🛁 【神高純度エプソムソルト5選】発汗・むくみ解消＆温活バス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【ふるさと納税】エプソムソルト シークリスタルス 入浴剤 10kg バスソルト バス用品 のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-epsom-seacrystals-epsom-salt-orig): 🛁 【神高純度エプソムソルト5選】発汗・むくみ解消＆温活バス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【小鼻専用毛穴クレンジングブラシ＆角栓かき出し】指が届かない窪みの黒ずみをミクロ極細毛で一掃する「神ポアブラシ」5選](https://qualia-navi.vercel.app/articles/feature-5-nose-pore-cleansing-brush): 👃 【神小鼻毛穴ブラシ5選】角栓かき出し＆小鼻黒ずみオフ特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】SHIKARI シカリ ブライトニング ウォッシュブラシ 【極細毛 洗顔ブラシ】/ 薬用 のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-porebrush-duo-pore-cleansing-brush): 👃 【神小鼻毛穴ブラシ5選】角栓かき出し＆小鼻黒ずみオフ特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】小鼻ブラシ 集中ケアセット 女性用 洗顔ブラシ 毛穴ブラシ 毛穴ケア 毛穴洗浄 黒ずみ 角のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-porebrush-silicone-pore-cleanser): 👃 【神小鼻毛穴ブラシ5選】角栓かき出し＆小鼻黒ずみオフ特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】濃密洗顔ブラシ リッチホイップブラシ more SPV71446 【 送料無料 】 洗顔ブのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-porebrush-kai-micro-pore-brush): 👃 【神小鼻毛穴ブラシ5選】角栓かき出し＆小鼻黒ずみオフ特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】熊野筆 小鼻 洗顔ブラシ テカリ 脂性肌 いちご鼻 毛穴 朝洗顔 洗顔 携帯用 化粧筆 熊のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-porebrush-kumano-fude-nose-brush): 👃 【神小鼻毛穴ブラシ5選】角栓かき出し＆小鼻黒ずみオフ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【スカルプパウダー＆前髪ペタンコ・頭皮テカリ瞬時リセット】汗・皮脂のベタつきを消してふんわり立ち上げる「神前髪ポンポンパウダー」5選](https://qualia-navi.vercel.app/articles/feature-5-scalp-powder-oil-control-bangs): ✨ 【神前髪ポンポンパウダー5選】頭皮テカリ防止＆ふんわり復活特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】＆be アンドビー UVスムースパウダー 8.5g 正規品 頭皮＆肌用、全身使えるUVパウのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalppowder-dian-hair-oil-block): ✨ 【神前髪ポンポンパウダー5選】頭皮テカリ防止＆ふんわり復活特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】花王 リーゼ サラサラ前髪復活パウダー 5Gのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalppowder-shiseido-scalp-oil-reset): ✨ 【神前髪ポンポンパウダー5選】頭皮テカリ防止＆ふんわり復活特集 (ブランド: 主要コスメ)
@@ -55,17 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新・楽天最安値】【FEMMUE】リップスリーピングマスク（MB） | スリーピングマスク ナイトケア リッのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lipmask-tatcha-kissu-lip-mask): 👄 【神リップスリーピングマスク5選】唇荒れ・縦ジワ＆夜用保湿特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】＼期間限定★最大1000円OFF＆P10倍／【TVで紹介/楽天1位】リップ 唇 縦じわ パのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lipmask-laneige-lip-sleeping-mask): 👄 【神リップスリーピングマスク5選】唇荒れ・縦ジワ＆夜用保湿特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【高保湿ヘアミルク＆水分チャージ補修】オイルのベタつきが苦手な髪に！内側から毛先を潤す「神アウトバスミルク」5選](https://qualia-navi.vercel.app/articles/feature-5-hydrating-hair-milk-repair): 🥛 【神高保湿ヘアミルク5選】インナー保水＆パサつき補修特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【選べる6種類】BOTANIST ボタニスト ボタニカル ヘアオイル ／ ヘアミルク 80のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hairmilk-botanist-botanical-hair-milk): 🥛 【神高保湿ヘアミルク5選】インナー保水＆パサつき補修特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ロレッタ ナイトケアクリーム 洗い流さないトリートメント(120g)【ロレッタ(Loretのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hairmilk-loretta-night-care-milk): 🥛 【神高保湿ヘアミルク5選】インナー保水＆パサつき補修特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】送料無料!【選べる種類・数量】ミルボン エルジューダ エマルジョン エマルジョン＋ MO のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hairmilk-milbon-elujuda-emulsion-plus): 🥛 【神高保湿ヘアミルク5選】インナー保水＆パサつき補修特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】オルビス エッセンスインヘアミルク(140g)【オルビス(ORBIS)】のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hairmilk-orbis-essence-in-hair-milk): 🥛 【神高保湿ヘアミルク5選】インナー保水＆パサつき補修特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【アイシャドウベース＆発色・色持ち劇的アップ】二重幅の粉溜まり・ラメ落ちを防止する「神アイシャドウ下地」5選](https://qualia-navi.vercel.app/articles/feature-5-eyeshadow-primer-base): 👁️ 【神アイシャドウベース5選】発色・密着＆ラメ飛び防止特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】nars ナーズ スマッジプルーフ アイシャドーベース / 目元用下地 正規品 アイシャドのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebase-mac-prep-prime-eye): 👁️ 【神アイシャドウベース5選】発色・密着＆ラメ飛び防止特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】エクセル フィットアイベース(1個)【エクセル(excel)】[アイシャドウベース 目元用のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebase-excel-fit-eye-base): 👁️ 【神アイシャドウベース5選】発色・密着＆ラメ飛び防止特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】●ポイント10倍＆割引クーポン●NARS ナーズ スマッジ プルーフ アイシャドー ベースのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebase-nars-smudge-proof-base): 👁️ 【神アイシャドウベース5選】発色・密着＆ラメ飛び防止特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】キャンメイク　ラスティングマルチアイベース　WP01／キャンメイク（CANMAKE）のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebase-canmake-eyeshadow-base): 👁️ 【神アイシャドウベース5選】発色・密着＆ラメ飛び防止特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【パドルブラシ＆頭皮マッサージ美髪】ブラッシングだけで血行促進＆サラサラ美髪！頭皮をほぐす「神ヘアブラシ」5選](https://qualia-navi.vercel.app/articles/feature-5-scalp-massage-paddle-brush): 🪮 【神パドルブラシ5選】頭皮マッサージ＆摩擦レス美髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ヘアブラシ ヘアーブラシ 育毛ブラシ パドルブラシ 木製 くし 櫛 サラサラ ボリューム のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-paddlebrush-wooden-scalp-massage-brush): 🪮 【神パドルブラシ5選】頭皮マッサージ＆摩擦レス美髪特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

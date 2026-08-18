@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-18
-- **Total Articles**: 800 件の個別詳細レビュー
+- **Total Articles**: 811 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,17 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新・楽天最安値】【濃密リッププランパー＆縦ジワ消滅ぷっくり唇】カプサイシン＆ペプチドでボリュームアップする「神リップグロス」5選](https://qualia-navi.vercel.app/articles/feature-5-lip-plumper-volume-gloss): 💋 【神リッププランパー5選】縦ジワ消滅＆ぷっくりボリューム唇特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】Borica公式 リッププランパー エクストラセラム [ リップ リップグロス リップステのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-plumper-borica-lip-plumper-serum): 💋 【神リッププランパー5選】縦ジワ消滅＆ぷっくりボリューム唇特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【 (公式) keybo キボ】 ドトムリッププラスプランパー 高段者Spring Glaのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-plumper-keybo-grand-master-lip-plus): 💋 【神リッププランパー5選】縦ジワ消滅＆ぷっくりボリューム唇特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】[Fujiko公式] フジコ プランピーリップ Plumpy Lip リッププランパー プのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-plumper-fujiko-plumper-lip-care): 💋 【神リッププランパー5選】縦ジワ消滅＆ぷっくりボリューム唇特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【楽天1位受賞】【国内正規品】DIOR ディオール アディクト リップ マキシマイザー (のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-plumper-dior-lip-maximizer-gloss): 💋 【神リッププランパー5選】縦ジワ消滅＆ぷっくりボリューム唇特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【電動フェイスシェーバー＆眉・顔の産毛剃り】ファンデの密着度と透明感が激変する「神うぶ毛シェーバー」5選](https://qualia-navi.vercel.app/articles/feature-5-facial-hair-eyebrow-shaver): 🪒 【神フェイスシェーバー5選】顔の産毛＆眉毛輪郭ケア特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】ベジタブル GD-FSH1　鼻毛カッター・フェイスシェーバー 2in1 鼻毛処理・ムダ毛処のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-2in1-nose-eyebrow-trimmer): 🪒 【神フェイスシェーバー5選】顔の産毛＆眉毛輪郭ケア特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】回転式 レディース フェイスシェーバー KLC-0720/W/P | 電動 顔そり フェイのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-koizumi-face-shaver-washable): 🪒 【神フェイスシェーバー5選】顔の産毛＆眉毛輪郭ケア特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】フローレス互換シングルリング替刃Flawless フローレス　 ヘアリムーバー　GEN1　のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-flawless-face-hair-remover): 🪒 【神フェイスシェーバー5選】顔の産毛＆眉毛輪郭ケア特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】シェーバー 女性用 レディース シェーバー 4in1 女性 VIO フェイスシェーバー ボのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-rechargeable-eyebrow-trimmer): 🪒 【神フェイスシェーバー5選】顔の産毛＆眉毛輪郭ケア特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼8/18がお得！ポイント最大22.5倍／ 高評価★4.72【楽天1位＆6冠受賞】 パナソのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-panasonic-ferie-face-shaver): 🪒 【神フェイスシェーバー5選】顔の産毛＆眉毛輪郭ケア特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【最高級シルク100%枕カバー＆髪の摩擦ダメージゼロ】寝ている間にツヤ髪＆美肌へ導く「神シルクピローケース」5選](https://qualia-navi.vercel.app/articles/feature-5-silk-pillowcase-hair-care): 🛏️ 【神シルク枕カバー5選】髪の摩擦防止＆翌朝サラサラツヤ髪特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【Aooka正規品★インテリア1位！最高級6A 25匁シルク★滑りにくい片面仕様】枕カバーのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-silkpillow-organic-silk-hair-protection): 🛏️ 【神シルク枕カバー5選】髪の摩擦防止＆翌朝サラサラツヤ髪特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】silk stars 枕カバー シルク 100% 22匁 43×63cm 片面シルク 洗えのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-silkpillow-silk-pillow-cover-envelope): 🛏️ 【神シルク枕カバー5選】髪の摩擦防止＆翌朝サラサラツヤ髪特集 (ブランド: 主要コスメ)
@@ -55,17 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新・楽天最安値】[14種類から選べる]Love Liner ラブ ライナー リキッドアイライナーR5 本体のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lasheye-msh-loveliner-liquid): 👁️ 【神まつ育アイライナー5選】メイク中も育毛ケア＆滲まない特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【公式】UZU アイオープニングライナー|BROWN-BLACK(ブラウンブラック)|リキのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lasheye-flowfushi-uz-eyeliner): 👁️ 【神まつ育アイライナー5選】メイク中も育毛ケア＆滲まない特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【高級あぶらとり紙＆ファンデ剥がさず皮脂オフ】テカリと毛穴の脂浮きを一瞬でリセットする「神あぶらとり紙」5選](https://qualia-navi.vercel.app/articles/feature-5-premium-blotting-paper-oil-absorb): 📜 【神高級あぶらとり紙5選】ファンデ崩さず皮脂吸着＆毛穴テカリオフ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】最高級あぶらとり紙【竹炭配合】20枚入り　メール便により郵便受けへのお届けとなります プチのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-blot-charcoal-oil-blotting-sheets): 📜 【神高級あぶらとり紙5選】ファンデ崩さず皮脂吸着＆毛穴テカリオフ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】あぶらとり紙 鏡 パフ コンパクトミラー フィルムタイプ 300枚 パフ付き 収納ケース のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-blot-puff-blotting-paper-case): 📜 【神高級あぶらとり紙5選】ファンデ崩さず皮脂吸着＆毛穴テカリオフ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【最高級 あぶらとり紙】 ふるや 3冊セットあぶらとり紙 あぶら取り紙 高級 あぶらとりがのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-blot-kanazawa-gold-leaf-paper): 📜 【神高級あぶらとり紙5選】ファンデ崩さず皮脂吸着＆毛穴テカリオフ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【ポイント5倍】資生堂 くすみのもとになる皮脂もスッキリあぶらとり紙 90枚入のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-blot-shiseido-oil-blotting-paper): 📜 【神高級あぶらとり紙5選】ファンデ崩さず皮脂吸着＆毛穴テカリオフ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】よーじや あぶらとり紙 10冊組 送料無料 京都 限定 お土産 ギフト プレゼント 贈り物のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-blot-yojiya-aburatorigami-kyoto): 📜 【神高級あぶらとり紙5選】ファンデ崩さず皮脂吸着＆毛穴テカリオフ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【前髪クリップカーラー＆根元ふんわり立ち上げ】アイロン不要で挟むだけ！韓国風シースルーバングを作る「神前髪カーラー」5選](https://qualia-navi.vercel.app/articles/feature-5-bangs-clip-curler-volume): 💇‍♀️ 【神前髪クリップカーラー5選】挟むだけ根元立ち上げ＆ふんわり前髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】カーラー 40mm 30mm 毛先 ナチュラル トップ 根本 ボリューム アップ 寝ぐせ のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-curler-portable-bangs-roller): 💇‍♀️ 【神前髪クリップカーラー5選】挟むだけ根元立ち上げ＆ふんわり前髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】前髪 カーラー 大きめ 太め 直径約44mm 巻き髪 アルミ芯 ふんわり ボリューム 立ちのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-curler-aluminum-heat-curler): 💇‍♀️ 【神前髪クリップカーラー5選】挟むだけ根元立ち上げ＆ふんわり前髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】＼発売記念!!30％OFFクーポン!!／2サイズセット 【美容師監修】 根元立ち上げクリッのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-curler-korean-hair-root-volume-clip): 💇‍♀️ 【神前髪クリップカーラー5選】挟むだけ根元立ち上げ＆ふんわり前髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】美人巻きカーラー 40mm 2P ピンク 中太 太め マジックカーラー 前髪 カーラー ボのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-curler-magic-curler-large-volume): 💇‍♀️ 【神前髪クリップカーラー5選】挟むだけ根元立ち上げ＆ふんわり前髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】前髪 カーラー クリップ ふんわり 寝ながら 4個セット ヘアアレンジ グッズ 時短 クセのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-curler-nobleman-bangs-clip-curler): 💇‍♀️ 【神前髪クリップカーラー5選】挟むだけ根元立ち上げ＆ふんわり前髪特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

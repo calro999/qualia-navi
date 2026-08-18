@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-18
-- **Total Articles**: 663 件の個別詳細レビュー
+- **Total Articles**: 675 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,18 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新・楽天最安値】【濃厚目元アイクリーム＆くま・ちりめんジワ消去】皮膚が薄い目元の乾燥小ジワ・青クマ・たるみをピンと張る「神アイセラム」5選](https://qualia-navi.vercel.app/articles/feature-5-targeted-eye-cream-dark-circles): 👁️ 【神濃厚アイクリーム5選】クマ・目元シワ改善＆たるみリフト特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【13万本突破】アイクリーム 目元美容液 20g レチノール 美容液 目の下 キラリエ まのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyecream-the-ordinary-caffeine-solution): 👁️ 【神濃厚アイクリーム5選】クマ・目元シワ改善＆たるみリフト特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼最大1750円OFF／ 1000円クーポン配布中【新品・正規品・ポスト投函可】【数量限定のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyecream-pola-wrinkle-shot-serum): 👁️ 【神濃厚アイクリーム5選】クマ・目元シワ改善＆たるみリフト特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【日本限定品】AHC アイクリームforフェイス 3本セット / AHC エーエイチシー のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyecream-ahc-youth-lasting-real-eye): 👁️ 【神濃厚アイクリーム5選】クマ・目元シワ改善＆たるみリフト特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】エスケーツー（SK-II／SK2） スキンパワー アイ クリーム 15g | アイケア オのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyecream-sk2-skinpower-eye-cream): 👁️ 【神濃厚アイクリーム5選】クマ・目元シワ改善＆たるみリフト特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】資生堂 エリクシール シュペリエル レチノパワー リンクルクリーム ba L 22g 医薬のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyecream-elixir-retinol-wrinkle-cream): 👁️ 【神濃厚アイクリーム5選】クマ・目元シワ改善＆たるみリフト特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【USB充電式ホットビューラー＆瞬間美立ち上げ】挟むビューラーで抜けるまつ毛を救う！サロン級カールを作る「神ホットビューラー」5選](https://qualia-navi.vercel.app/articles/feature-5-usb-heated-eyelash-curler): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼レビュー特典有／【2個セット】KQ0343 ホットアイラッシュC ジューシーP | ホッのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hotcurler-eyelash-heat-curler-pro): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【感謝デー特売＋P5倍！】 「常連1位！最新2in1」 ホットビューラー クリップ式 2iのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hotcurler-silicon-clip-curler): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【期間限定★最大15%OFF】1個あたり最安2,360円 ホットビューラー 挟むタイプ 充のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hotcurler-usb-rechargeable-curler): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼高評価★4.41／【楽天ランキング1位受賞】【正規品／送料無料】 ホットビューラー パナのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hotcurler-panasonic-matsuge-kurun): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼クーポンで2,142円／【楽天ランキング1位】ホットビューラー 挟むタイプ 充電式 10のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hotcurler-anlan-heated-curler): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【頭皮保湿ローション＆フケ・かゆみ鎮静】乾燥によるパラパラフケ・つっぱり感をしっとり潤す「神スカルプモイスチャー」5選](https://qualia-navi.vercel.app/articles/feature-5-scalp-moisture-lotion-dry-itch): 🫧 【神頭皮保湿ローション5選】乾燥フケ・かゆみ鎮静＆地肌うるおい特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】デミ ビオーブ フォルスナリシング ジェット 300g ×2個 セット / 【送料無料】 のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalplotion-uka-scalp-re-serum): 🫧 【神頭皮保湿ローション5選】乾燥フケ・かゆみ鎮静＆地肌うるおい特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】本日終了P2倍 【楽天ランキング第1位】 セラミド 化粧水 顔 頭皮 に 使える 土台ケアのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalplotion-minon-scalp-lotion): 🫧 【神頭皮保湿ローション5選】乾燥フケ・かゆみ鎮静＆地肌うるおい特集 (ブランド: 主要コスメ)
@@ -54,18 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【髪＆頭皮のUVカットスプレー】強烈な紫外線によるヘアカラー退色・パサつき・頭皮日焼けを防ぐ「神髪用UVスプレー」5選](https://qualia-navi.vercel.app/articles/feature-5-hair-scalp-uv-protection-spray): ☀️ 【神髪＆頭皮UVスプレー5選】ヘアカラー退色防止＆頭皮日焼け止め特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【選べる1・2・3個セット】マザーアンドドーター クリアUVスプレー 日やけ止めスプレー のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hairuv-biore-uv-athletic-spray): ☀️ 【神髪＆頭皮UVスプレー5選】ヘアカラー退色防止＆頭皮日焼け止め特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】アジャステ UVスプレー 無香料 200g(335mL)◆6本セット【送料無料】SPF50のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hairuv-skinaqua-toneup-uv-spray): ☀️ 【神髪＆頭皮UVスプレー5選】ヘアカラー退色防止＆頭皮日焼け止め特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】アネッサ パーフェクトUV スキンケアスプレー NA(60g)【アネッサ(ANESSA)】のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hairuv-anessa-perfect-uv-spray): ☀️ 【神髪＆頭皮UVスプレー5選】ヘアカラー退色防止＆頭皮日焼け止め特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【選べる3本セット】ナプラ ミーファ フレグランスUVスプレー 80g×3本｜日焼け止めスのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hairuv-napla-mieufa-fragrance-uv): ☀️ 【神髪＆頭皮UVスプレー5選】ヘアカラー退色防止＆頭皮日焼け止め特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【涙袋メイク＆ぷっくり立体感ライナー】自然な影と光で中顔面短縮＆デカ目効果を叶える「神涙袋ライナー」5選](https://qualia-navi.vercel.app/articles/feature-5-aegyo-sal-under-eye-liner): 👁️ 【神涙袋ライナー5選】ぷっくり立体感＆中顔面短縮特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】セザンヌ 描くふたえアイライナー 20 影用グレージュ(0.6ml)【セザンヌ(CEZANのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-aegyo-cezanne-drawing-double-eyelid): 👁️ 【神涙袋ライナー5選】ぷっくり立体感＆中顔面短縮特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】韓国コスメ アイライナー ピアー BBIA 涙袋 アイライナー ビアー コンシーラー ラスのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-aegyo-bbia-last-auto-gel-eyeliner): 👁️ 【神涙袋ライナー5選】ぷっくり立体感＆中顔面短縮特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【レビュー特典】 Wonjungyo ウォンジョンヨ メタルシャワーペンシル (全6種類)のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-aegyo-wonjungyo-metal-shower-pencil): 👁️ 【神涙袋ライナー5選】ぷっくり立体感＆中顔面短縮特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【公式】ふくれな プロデュースブランド：CipiCipi シピシピ 【グリッターイルミネーのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-aegyo-cipicipi-glitter-illumination): 👁️ 【神涙袋ライナー5選】ぷっくり立体感＆中顔面短縮特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-18
-- **Total Articles**: 687 件の個別詳細レビュー
+- **Total Articles**: 699 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,18 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新・楽天最安値】【パドルブラシ＆頭皮マッサージ美髪】ブラッシングだけで血行促進＆サラサラ美髪！頭皮をほぐす「神ヘアブラシ」5選](https://qualia-navi.vercel.app/articles/feature-5-scalp-massage-paddle-brush): 🪮 【神パドルブラシ5選】頭皮マッサージ＆摩擦レス美髪特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】ヘアブラシ ヘアーブラシ 育毛ブラシ パドルブラシ 木製 くし 櫛 サラサラ ボリューム のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-paddlebrush-wooden-scalp-massage-brush): 🪮 【神パドルブラシ5選】頭皮マッサージ＆摩擦レス美髪特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【公式】ラ・カスタ ヘッドスパブラシ ギフトセット | ヘアブラシ メンズ ヘアケア 実用のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-paddlebrush-la-casta-head-spa-brush): 🪮 【神パドルブラシ5選】頭皮マッサージ＆摩擦レス美髪特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【ReFa公式】リファハートブラシ ヘアコーム くし ツヤ ヘアブラシ 持ち運び コンパクのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-paddlebrush-refa-heart-brush): 🪮 【神パドルブラシ5選】頭皮マッサージ＆摩擦レス美髪特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【公式】タングルティーザー ザ・アルティメットディタングラー ヘアブラシ 正規品のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-paddlebrush-tangle-teezer-wet-detangler): 🪮 【神パドルブラシ5選】頭皮マッサージ＆摩擦レス美髪特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】アヴェダ パドル ブラシ お得な 12セット | ヘアブラシ まとめ買い すべての髪質のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-paddlebrush-aveda-wooden-paddle): 🪮 【神パドルブラシ5選】頭皮マッサージ＆摩擦レス美髪特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【極細ブラシ眉マスカラ＆ふんわり垢抜け脱色風】地肌につかず1本1本カラーチェンジする「神眉マスカラ」5選](https://qualia-navi.vercel.app/articles/feature-5-micro-brush-eyebrow-mascara): 👁️ 【神眉マスカラ5選】極細ブラシ＆脱色風ふんわり垢抜け特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】セザンヌ 極細アイブロウマスカラ C4 ソフトグレージュ(4.0g)【セザンヌ(CEZANのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-browmascara-cezanne-eyebrow-mascara): 👁️ 【神眉マスカラ5選】極細ブラシ＆脱色風ふんわり垢抜け特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【送料無料】キスミー ヘビーローテーション カラーリングアイブロウEX 「10色選べる」 のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-browmascara-heavy-rotation-coloring): 👁️ 【神眉マスカラ5選】極細ブラシ＆脱色風ふんわり垢抜け特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【2024年7月新発売】ケイト 3DアイブロウカラーZ 6.3g【KATE/ケイト】カネボのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-browmascara-kate-3d-eyebrow-color): 👁️ 【神眉マスカラ5選】極細ブラシ＆脱色風ふんわり垢抜け特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼3,500円以上注文でランダム現品プレゼント／【ロムアンド公式】ハンオールブロウカラ rのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-browmascara-romand-han-all-brow): 👁️ 【神眉マスカラ5選】極細ブラシ＆脱色風ふんわり垢抜け特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】イミュ デジャヴュ アイブロウ カラー（フィルム 眉カラー） カラー選択 imju dejのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-browmascara-dejavu-eyebrow-color): 👁️ 【神眉マスカラ5選】極細ブラシ＆脱色風ふんわり垢抜け特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【最高級シルク100%ナイトキャップ＆寝返り摩擦ゼロ】朝起きて感動のツヤ髪！パサつき・アホ毛・寝癖を防ぐ「神シルクキャップ」5選](https://qualia-navi.vercel.app/articles/feature-5-100-silk-nightcap-long-hair): 🌙 【神シルクナイトキャップ5選】シルク100%寝癖＆摩擦レス美髪特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】＼高評価! 楽天1位!!／ シルク ナイトキャップ ロングヘア ニコクラフト 公式 シルクのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nightcap-washable-pure-silk): 🌙 【神シルクナイトキャップ5選】シルク100%寝癖＆摩擦レス美髪特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【正午~5%引クーポン】 シルク ナイトキャップ ヒアルロン酸配合 25匁 6A シルク1のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nightcap-25monme-premium-silk): 🌙 【神シルクナイトキャップ5選】シルク100%寝癖＆摩擦レス美髪特集 (ブランド: 主要コスメ)
@@ -54,18 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新・楽天最安値】【感謝デー特売＋P5倍！】 「常連1位！最新2in1」 ホットビューラー クリップ式 2iのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hotcurler-silicon-clip-curler): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【期間限定★最大15%OFF】1個あたり最安2,360円 ホットビューラー 挟むタイプ 充のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hotcurler-usb-rechargeable-curler): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】＼高評価★4.41／【楽天ランキング1位受賞】【正規品／送料無料】 ホットビューラー パナのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hotcurler-panasonic-matsuge-kurun): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】＼クーポンで2,142円／【楽天ランキング1位】ホットビューラー 挟むタイプ 充電式 10のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-hotcurler-anlan-heated-curler): 👁️ 【神ホットビューラー5選】USB充電式＆まつパ級美カール特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【頭皮保湿ローション＆フケ・かゆみ鎮静】乾燥によるパラパラフケ・つっぱり感をしっとり潤す「神スカルプモイスチャー」5選](https://qualia-navi.vercel.app/articles/feature-5-scalp-moisture-lotion-dry-itch): 🫧 【神頭皮保湿ローション5選】乾燥フケ・かゆみ鎮静＆地肌うるおい特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】デミ ビオーブ フォルスナリシング ジェット 300g ×2個 セット / 【送料無料】 のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalplotion-uka-scalp-re-serum): 🫧 【神頭皮保湿ローション5選】乾燥フケ・かゆみ鎮静＆地肌うるおい特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】本日終了P2倍 【楽天ランキング第1位】 セラミド 化粧水 顔 頭皮 に 使える 土台ケアのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalplotion-minon-scalp-lotion): 🫧 【神頭皮保湿ローション5選】乾燥フケ・かゆみ鎮静＆地肌うるおい特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ロート製薬 メンソレータム メディクイックH 頭皮しっとりローション 120ml ロート薬のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalplotion-mediquick-h-scalp-lotion): 🫧 【神頭皮保湿ローション5選】乾燥フケ・かゆみ鎮静＆地肌うるおい特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】柳屋本店 セラプリエ 薬用頭皮保湿 育毛ローション150mlのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalplotion-yanagiya-ceramide-scalp): 🫧 【神頭皮保湿ローション5選】乾燥フケ・かゆみ鎮静＆地肌うるおい特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】花王 乾燥性敏感肌を考えた キュレル 頭皮 保湿ローション 120mL ◆ ★のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalplotion-curel-scalp-moisture-lotion): 🫧 【神頭皮保湿ローション5選】乾燥フケ・かゆみ鎮静＆地肌うるおい特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【金属製まつ毛コーム＆ダマ取りセパレート】マスカラのダマを瞬時に解消してサロン級の美扇まつ毛を作る「神まつ毛コーム」5選](https://qualia-navi.vercel.app/articles/feature-5-metal-eyelash-comb-separator): 👁️ 【神まつ毛コーム5選】ダマ取り＆極細セパレート美まつ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【カラー選べる キャップ付き】NEKODOROBO マスカラコーム まつげコーム ステンレのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-comb-metal-lash-curler-comb): 👁️ 【神まつ毛コーム5選】ダマ取り＆極細セパレート美まつ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】部分用マスカラコーム マスカラコーム ピンク コーム マスカラ ダマ取り ステンレス製 ピのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-comb-anua-eyelash-brush-metal): 👁️ 【神まつ毛コーム5選】ダマ取り＆極細セパレート美まつ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】マスカラコーム ブラック クリア 日本製 金属 コーム マスカラ まつ毛 ステンレス製 折のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-comb-dup-eyelash-comb-separator): 👁️ 【神まつ毛コーム5選】ダマ取り＆極細セパレート美まつ毛特集 (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

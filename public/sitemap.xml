@@ -88,67 +88,79 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/feature-5-feminine-foam-wash-delicate</loc>
+    <loc>https://qualia-navi.vercel.app/articles/feature-5-scalp-moisture-lotion-dry-itch</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-femwash-summer-eve-feminine-wash</loc>
+    <loc>https://qualia-navi.vercel.app/articles/art-scalplotion-uka-scalp-re-serum</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-femwash-femcharme-medicated-foam</loc>
+    <loc>https://qualia-navi.vercel.app/articles/art-scalplotion-minon-scalp-lotion</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-femwash-collagen-ladies-foam-soap</loc>
+    <loc>https://qualia-navi.vercel.app/articles/art-scalplotion-mediquick-h-scalp-lotion</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-femwash-iroha-intimate-wash-foam</loc>
+    <loc>https://qualia-navi.vercel.app/articles/art-scalplotion-yanagiya-ceramide-scalp</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/feature-5-pen-type-nail-cuticle-oil</loc>
+    <loc>https://qualia-navi.vercel.app/articles/art-scalplotion-curel-scalp-moisture-lotion</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-nailpen-country-stream-nail-treatment</loc>
+    <loc>https://qualia-navi.vercel.app/articles/feature-5-metal-eyelash-comb-separator</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-nailpen-opi-pro-spa-nail-pen</loc>
+    <loc>https://qualia-navi.vercel.app/articles/art-comb-metal-lash-curler-comb</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-nailpen-d-up-aroma-cuticle-oil</loc>
+    <loc>https://qualia-navi.vercel.app/articles/art-comb-anua-eyelash-brush-metal</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-nailpen-squse-me-glossy-oil-pen</loc>
+    <loc>https://qualia-navi.vercel.app/articles/art-comb-dup-eyelash-comb-separator</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-nailpen-uka-nail-oil-basic</loc>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-takami</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -653,24 +665,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/articles/art-neck-clarins-extra-firming-neck</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-takami</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>

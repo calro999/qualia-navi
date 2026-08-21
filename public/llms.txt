@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-21
-- **Total Articles**: 1158 件の個別詳細レビュー
+- **Total Articles**: 1170 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,18 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新・楽天最安値】【足裏角質フットピーリングパック】ガサガサかかとが脱皮のように生まれ変わる「神かかとつるんパック」5選](https://qualia-navi.vercel.app/articles/feature-5-foot-peeling-pack-callus-heel-smoothing): 🦶 【神フットピーリングパック5選】ガサガサかかと脱皮＆つるつる特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【公式 2回分】ましゅまろ素足 フットピーリングパック 日本製 かかと角質ケア 足裏 角質のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-footpeel-foot-care-deep-exfoliating-socks): 🦶 【神フットピーリングパック5選】ガサガサかかと脱皮＆つるつる特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】〈特価セール〉かかと角質ケア フットピーリングパック ［ペロリン］2回分 日本製 履くだけのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-footpeel-perorin-foot-peeling-pack-rose): 🦶 【神フットピーリングパック5選】ガサガサかかと脱皮＆つるつる特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【公式 2回分】ましゅまろ素足 フットピーリングパック 日本製 かかと角質ケア 足裏 角質のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-footpeel-matsukiyo-speed-foot-exfoliator): 🦶 【神フットピーリングパック5選】ガサガサかかと脱皮＆つるつる特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【公式 2回分】ましゅまろ素足 フットピーリングパック 日本製 かかと角質ケア 足裏 角質のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-footpeel-sosoro-foot-peeling-pack-botanical): 🦶 【神フットピーリングパック5選】ガサガサかかと脱皮＆つるつる特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】ベビーフット イージーパック 60分タイプ リベルタ baby foot 角質 角質除去 のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-footpeel-baby-foot-easy-pack-60min-speed): 🦶 【神フットピーリングパック5選】ガサガサかかと脱皮＆つるつる特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【電動フェイス＆眉毛シェーバー】産毛・眉を肌に優しく整えて化粧ノリ激変「神眉カミソリ」5選](https://qualia-navi.vercel.app/articles/feature-5-facial-eyebrow-shaver-electric-trimmer): 👁️ 【神フェイス＆眉シェーバー5選】肌を傷めず産毛オフ特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】送料無料　電動フェイスシェーバー　眉毛、産毛、顔剃りに　眉　カット　2カラーのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-pocket-lipstick-design-hair-remover): 👁️ 【神フェイス＆眉シェーバー5選】肌を傷めず産毛オフ特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼楽天ランキング1位／【美容師が監修】 眉毛シェーバー フェイスシェーバー レディース 眉のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-salonia-portable-body-face-shaver): 👁️ 【神フェイス＆眉シェーバー5選】肌を傷めず産毛オフ特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼楽天ランキング1位／【美容師が監修】 眉毛シェーバー フェイスシェーバー レディース 眉のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-tescom-electric-face-razor-washable): 👁️ 【神フェイス＆眉シェーバー5選】肌を傷めず産毛オフ特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【 楽天ランキング1位 】 フェイスシェーバー パナソニック 女性 シェーバー フェリエ のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-koizumi-face-eyebrow-trimmer-compact): 👁️ 【神フェイス＆眉シェーバー5選】肌を傷めず産毛オフ特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼高評価★4.72／【楽天ランキング1位＆6冠受賞／正規品】 パナソニック フェイスシェーのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-panasonic-ferie-face-shaver-es-wf41): 👁️ 【神フェイス＆眉シェーバー5選】肌を傷めず産毛オフ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【ウォーターピーリング美顔器＆超音波毛穴洗浄】水だけで角質・黒ずみを吹き飛ばす「神ピーラー美顔器」5選](https://qualia-navi.vercel.app/articles/feature-5-ultrasonic-water-peeling-facial-device): ✨ 【神ウォーターピーリング5選】超音波振動＆毛穴レスつるん肌特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】ピーリング 超音波 美顔器 【ヤーマン公式】《ミーゼ ディープスキンクリア MS43P》ピのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-waterpeel-pore-scrubber-microcurrent-facial-spatula): ✨ 【神ウォーターピーリング5選】超音波振動＆毛穴レスつるん肌特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】＼10倍ポイントアップ！／ウォーターピーリング 美顔器 毛穴ケア 毛穴洗浄 超音波ピーリンのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-waterpeel-water-peeling-ultrasonic-ion-cleanser): ✨ 【神ウォーターピーリング5選】超音波振動＆毛穴レスつるん肌特集 (ブランド: 主要コスメ)
@@ -54,18 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新・楽天最安値】ちふれ 除光液S 110mlのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-remover-chifure-non-acetone-nail-remover): 💅 【神ノンアセトン除光液5選】爪が痛まない＆植物オイル高保湿特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】＼楽天1位！／除光液 除光液ネイル 除光液ネイル日本製 除光液爪に優しい 除光液アセトンフのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-remover-kure-bazaar-organic-nail-remover): 💅 【神ノンアセトン除光液5選】爪が痛まない＆植物オイル高保湿特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】「ポイント10倍 8月20日」アンドネイル モイスチャースパリムーバーN 100ml リムのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-remover-and-nail-acetone-free-moist-remover): 💅 【神ノンアセトン除光液5選】爪が痛まない＆植物オイル高保湿特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【シルク100%ナイトキャップ＆摩擦ダメージ防止】翌朝つるんとまとまる美髪へ導く「神ナイトヘアケア」5選](https://qualia-navi.vercel.app/articles/feature-5-silk-nightcap-friction-damage-haircare): ✨ 【神シルクナイトキャップ5選】摩擦ゼロ！翌朝まとまるツヤ美髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ナイトキャップ シルク ロングヘア シルク100% サイズ調整紐付き シルク 100％ ナのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nightcap-cocoon-silk-hair-wrap-care): ✨ 【神シルクナイトキャップ5選】摩擦ゼロ！翌朝まとまるツヤ美髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】＼年間ランキング2025受賞!!／ シルク100% COCOSILK ナイトキャップ シルのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nightcap-lillly-silk-ribbon-adjustable-nightcap): ✨ 【神シルクナイトキャップ5選】摩擦ゼロ！翌朝まとまるツヤ美髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】枕カバー シルク 枕カバーシルク 2枚セッ卜 エアロシルク なめらかな肌触り 美容枕 枕 のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nightcap-silk-pillowcase-envelope-type): ✨ 【神シルクナイトキャップ5選】摩擦ゼロ！翌朝まとまるツヤ美髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】＼年間ランキング2025受賞!!／ シルク100% COCOSILK ナイトキャップ シルのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nightcap-silk-long-hair-tube-cap): ✨ 【神シルクナイトキャップ5選】摩擦ゼロ！翌朝まとまるツヤ美髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】＼年間ランキング2025受賞!!／ シルク100% COCOSILK ナイトキャップ シルのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nightcap-utukushi-silk-nightcap-6a-grade): ✨ 【神シルクナイトキャップ5選】摩擦ゼロ！翌朝まとまるツヤ美髪特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【メイクブラシ＆スポンジ専用クリーナー】肌荒れ原因の雑菌・ファンデ汚れを瞬時に落とす「神パフ洗浄液」5選](https://qualia-navi.vercel.app/articles/feature-5-makeup-brush-sponge-cleaner-sanitizer): 🧼 【神ブラシ＆スポンジクリーナー5選】除菌・速乾＆パフ長持ち特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】メイクブラシクリーナー 500ml ブラシクリーナー メイクブラシ ブラシ洗浄 洗浄液 洗のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-cleaner-du-care-brush-cleaning-mat): 🧼 【神ブラシ＆スポンジクリーナー5選】除菌・速乾＆パフ長持ち特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ブラシドライクリーナー(90ml)【コージー】[クリーナー ブラシクリーナー 洗浄液 速乾のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-cleaner-shiseido-brush-cleanser-spray): 🧼 【神ブラシ＆スポンジクリーナー5選】除菌・速乾＆パフ長持ち特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】SIXPLUS メイクブラシクリーナー 150mLのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-cleaner-sixplus-brush-cleaner-soap): 🧼 【神ブラシ＆スポンジクリーナー5選】除菌・速乾＆パフ長持ち特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【ポイント5倍】資生堂 スポンジクリーナーN（L）198 120mlのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-cleaner-shiseido-sponge-cleaner-198): 🧼 【神ブラシ＆スポンジクリーナー5選】除菌・速乾＆パフ長持ち特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【CICAスポットパッチ＆ポツポツ集中鎮静】貼ったままメイクできる「神ニキビ・肌荒れパッチ」5選](https://qualia-navi.vercel.app/articles/feature-5-cica-acne-spot-patch-invisible): 🌿 【神CICAスポットパッチ5選】密着鎮静＆目立たない透明パッチ特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

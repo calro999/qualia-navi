@@ -8,8 +8,8 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 ## Site Information
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
-- **Last Mod**: 2026-08-20
-- **Total Articles**: 1092 件の個別詳細レビュー
+- **Last Mod**: 2026-08-21
+- **Total Articles**: 1104 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,18 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新・楽天最安値】【高濃度炭酸ガスパック＆毛穴・くすみ一掃】おうちでエステ級の生ツヤ肌を作る「神炭酸ジェルパック」5選](https://qualia-navi.vercel.app/articles/feature-5-carbonated-co2-bubble-gel-mask-spa): ✨ 【神炭酸パック5選】エステ級！毛穴引き締め＆高濃度炭酸ガス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】4B One Drop GEL(ワンドロップジェルゴールド) 10g炭酸ジェルパック パッのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-co2mask-bubble-clay-carbonic-peeling-mask): ✨ 【神炭酸パック5選】エステ級！毛穴引き締め＆高濃度炭酸ガス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＜リニューアル！＞ 炭酸パック 炭酸 ジェルパック ジェルパック フェイスパック 顔パックのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-co2mask-favorina-nano-aqua-carbonated-gel): ✨ 【神炭酸パック5選】エステ級！毛穴引き締め＆高濃度炭酸ガス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【土日配送】EKATO エカト 　10回分　炭酸ガスパック プレシャスジェルパック 　ホーのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-co2mask-ekato-precious-gel-pack-botanical): ✨ 【神炭酸パック5選】エステ級！毛穴引き締め＆高濃度炭酸ガス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】炭酸泡洗顔 顔パック 炭酸洗顔 炭酸美容 洗顔フォーム 炭酸パック 泡パック 洗顔料 炭酸のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-co2mask-dr-select-co2-gel-pack-pro): ✨ 【神炭酸パック5選】エステ級！毛穴引き締め＆高濃度炭酸ガス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】ドクター メディオン 炭酸パック スパ オキシジェル 10回分 (酸素パック/CO2ジェルのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-co2mask-medicare-carbonated-gel-pack): ✨ 【神炭酸パック5選】エステ級！毛穴引き締め＆高濃度炭酸ガス特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【超強力つけまつげのり＆絶対浮かない】汗・涙・皮脂に強い「神アイラッシュフィクサー」5選](https://qualia-navi.vercel.app/articles/feature-5-false-eyelash-glue-adhesive-waterproof): 👁️ 【神つけまつげのり5選】1日中剥がれない＆強力密着特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】ディーアップ(D.U.P) アイラッシュフィクサーEX 552 5ml 【ディーアップ(Dのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashglue-dolly-wink-eyelash-fix-black): 👁️ 【神つけまつげのり5選】1日中剥がれない＆強力密着特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【8/31までエントリーでP5倍】ミッシュブルーミン つけまのり アイラッシュグルー クリのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashglue-diamond-lash-eyelash-fixer): 👁️ 【神つけまつげのり5選】1日中剥がれない＆強力密着特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【8/31までエントリーでP5倍】ミッシュブルーミン つけまのり アイラッシュグルー 2個のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashglue-miche-bloomin-eyelash-glue-clear): 👁️ 【神つけまつげのり5選】1日中剥がれない＆強力密着特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】KOJI コージー本舗 スプリングハート アイラッシュフィックス　※パッケージ選べません のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashglue-koji-spring-heart-eyelash-fix): 👁️ 【神つけまつげのり5選】1日中剥がれない＆強力密着特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】■ポスト投函■[DUP]アイラッシュフィクサーEX 552 (5ml)※パッケージ潰れご了のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashglue-dup-eyelashes-fixer-ex-552): 👁️ 【神つけまつげのり5選】1日中剥がれない＆強力密着特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【携帯用繰り出し式リップブラシ＆美唇輪郭】口角のキュッと上がった立体リップを作る「神ポータブル紅筆」5選](https://qualia-navi.vercel.app/articles/feature-5-retractable-lip-brush-portable-pocket): 💄 【神リップブラシ5選】携帯用繰り出し式＆美しい唇輪郭特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】紅筆 熊野筆 リップブラシ メイクブラシ フェイスブラシ 携帯 用 化粧筆 熊の筆 化粧ブのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lipbrush-du-care-automatic-metal-lip-liner-brush): 💄 【神リップブラシ5選】携帯用繰り出し式＆美しい唇輪郭特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】資生堂 マキアージュリップブラシ | マキアージュ リップブラシ 口紅 ブラシ 携帯用 繰のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lipbrush-sixplus-portable-precision-lip-pen): 💄 【神リップブラシ5選】携帯用繰り出し式＆美しい唇輪郭特集 (ブランド: 主要コスメ)
@@ -54,18 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新・楽天最安値】【日本限定品】AHC アイクリームforフェイス 3本セット / AHC エーエイチシー のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyecream-ahc-premier-ampoule-in-eye-cream): 👁️ 【神アイクリーム5選】目元シワ改善・クマ消去＆ハリ集中ケア特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】サナ なめらか本舗 薬用リンクルアイクリーム ホワイト 20g 【なめらか本舗】 クリームのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyecream-nameraka-honpo-wrinkle-eye-cream): 👁️ 【神アイクリーム5選】目元シワ改善・クマ消去＆ハリ集中ケア特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】POLA 【公式】POLA リンクルショット メディカル セラム グランドサイズ ポーラ のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyecream-pola-wrinkle-shot-medical-serum): 👁️ 【神アイクリーム5選】目元シワ改善・クマ消去＆ハリ集中ケア特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ポイント10倍!【資生堂認定ショップ】25.9.21new! エリクシール シュペリエル のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyecream-elixir-retinol-power-wrinkle-smoothing): 👁️ 【神アイクリーム5選】目元シワ改善・クマ消去＆ハリ集中ケア特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【シリコンスカルプブラシ＆頭皮毛穴クレンジング】皮脂詰まり一掃＆リフトアップを叶える「神ケンザンブラシ」5選](https://qualia-navi.vercel.app/articles/feature-5-silicone-scalp-massage-brush-cleanse): 🌿 【神スカルプブラシ5選】頭皮毛穴ディープクレンジング＆リフトアップ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【21日 09:59まで】20％OFFクーポン有!【楽天ランキング1位！】 硬さで選べる2のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpbr-shampoo-brush-deep-cleansing-spa): 🌿 【神スカルプブラシ5選】頭皮毛穴ディープクレンジング＆リフトアップ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【ヘッドスパニスト監修★楽天1位 】Lefina(R)公式 スカルプブラシ 頭皮マッサージのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpbr-vemor-silicone-scalp-massager): 🌿 【神スカルプブラシ5選】頭皮毛穴ディープクレンジング＆リフトアップ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】スカルプブラシ 【ReFa公式】 頭皮ケア バレンタイン リファ ハートブラシ フォー スのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpbr-refa-heart-brush-for-scalp): 🌿 【神スカルプブラシ5選】頭皮毛穴ディープクレンジング＆リフトアップ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】≪ポイント5倍！8/21 9:59まで≫エトヴォス 公式( ETVOS ) マッサージブラのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpbr-etvos-relaxing-scalp-brush-matte): 🌿 【神スカルプブラシ5選】頭皮毛穴ディープクレンジング＆リフトアップ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ウカ スカルプブラシ ケンザン バリカタ ミディアム ソフト スカルプブラッシュ シャンプのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpbr-uka-scalp-brush-kenzan-black): 🌿 【神スカルプブラシ5選】頭皮毛穴ディープクレンジング＆リフトアップ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【ファンデーションブラシ＆毛穴レス極薄密着】筋ムラゼロで陶器肌を叶える「神ベースメイクブラシ」5選](https://qualia-navi.vercel.app/articles/feature-5-foundation-brush-poreless-streak-free): ✨ 【神ファンデーションブラシ5選】毛穴消去＆筋ムラゼロ陶器肌特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ファンデーションブラシ メイクブラシ リキッドファンデーション ブラシ ファンデーション のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-fndbrush-du-care-oval-seamless-base-brush): ✨ 【神ファンデーションブラシ5選】毛穴消去＆筋ムラゼロ陶器肌特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】★リニューアル [フィリミリ FILLIMILLI] S密着フラットファンデーションブラシのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-fndbrush-fillimilli-v-cut-foundation-brush): ✨ 【神ファンデーションブラシ5選】毛穴消去＆筋ムラゼロ陶器肌特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ロージーローザ　マルチファンデブラシ／ロージーローザ（ROSY ROSA）のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-fndbrush-rosyrosa-multi-foundation-brush): ✨ 【神ファンデーションブラシ5選】毛穴消去＆筋ムラゼロ陶器肌特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】SIXPLUS メイクブラシ3本セット - Dawnシリーズ ブラック★送料無料・あす楽★のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-fndbrush-sixplus-flat-top-kabuki-brush): ✨ 【神ファンデーションブラシ5選】毛穴消去＆筋ムラゼロ陶器肌特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

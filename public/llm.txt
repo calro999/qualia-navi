@@ -8,8 +8,8 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 ## Site Information
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
-- **Last Mod**: 2026-08-21
-- **Total Articles**: 1180 件の個別詳細レビュー
+- **Last Mod**: 2026-08-22
+- **Total Articles**: 1191 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,17 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新・楽天最安値】【練り香水＆ソリッドパフューム】ふんわり至近距離で香る「神スティックフレグランス」5選](https://qualia-navi.vercel.app/articles/feature-5-solid-perfume-stick-balm-gentle-scent): 🌸 【神練り香水5選】至近距離で上品に香るアルコールフリー特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】京生菓子風 うさぎ饅頭 練り香水 京都 【定形外郵便260円〜 代引き不可・指定日発送不可のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-solidperf-kyoto-maiko-dream-cosme-solid): 🌸 【神練り香水5選】至近距離で上品に香るアルコールフリー特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【2点購入でヒノキ油】 【20種類から選べる 】＆SH アロマ エッセンシャル バーム 1のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-solidperf-organic-botanical-solid-perfume-wax): 🌸 【神練り香水5選】至近距離で上品に香るアルコールフリー特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】Vasilisa(ヴァシリーサ) ヴァシリーサ パフュームスティック ベンジャミン (ペアのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-solidperf-vasilisa-perfume-stick-merrily): 🌸 【神練り香水5選】至近距離で上品に香るアルコールフリー特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】SHOLAYERED ショーレイヤード 《フレッシュペア》 クレムドゥパルファム 40g のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-solidperf-layering-fragrance-creme-de-parfum): 🌸 【神練り香水5選】至近距離で上品に香るアルコールフリー特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【極細筆タイプまつげ美容液＆根元集中補修】生え際にダイレクト浸透！密度とハリを育てる「神まつ育筆セラム」5選](https://qualia-navi.vercel.app/articles/feature-5-eyelash-serum-fine-brush-root-nourishing): 👁️ 【極細筆まつげ美容液5選】生え際・根元ピンポイント集中まつ育特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【クーポンで10％OFF】【公式】 MILY まつげ美容液 まつ毛美容液 睫毛 まつげ 美のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashbrush-stem-cell-eyelash-intensive-liner): 👁️ 【極細筆まつげ美容液5選】生え際・根元ピンポイント集中まつ育特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【日本製 / 色素沈着原因成分フリー】ルビーノラッシュ サロン専売品質 まつ毛美容液 まつのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashbrush-flowfushi-uz-lash-serum-finger-touch): 👁️ 【極細筆まつげ美容液5選】生え際・根元ピンポイント集中まつ育特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】マラソン＼最大3,000円OFF／【1位獲得】エマーキット EMAKED まつ毛美容液 まのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashbrush-ematrice-lash-growth-booster-pen): 👁️ 【極細筆まつげ美容液5選】生え際・根元ピンポイント集中まつ育特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【公式】ラッシュアディクト アイラッシュ コンディショニング セラム アドバンス 5ml のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashbrush-lash-addict-eyelash-conditioning-serum): 👁️ 【極細筆まつげ美容液5選】生え際・根元ピンポイント集中まつ育特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【楽天デイリーランキング1位獲得★送料無料】スカルプDまつげ美容液 プレミアム 2本セットのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashbrush-scalp-d-eyelash-serum-premium-queen): 👁️ 【極細筆まつげ美容液5選】生え際・根元ピンポイント集中まつ育特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【頭皮用美容液＆スカルプ保湿セラム】フケ・かゆみ・乾燥を防ぎ根本ふんわり美髪を育む「神スカルプローション」5選](https://qualia-navi.vercel.app/articles/feature-5-scalp-essence-serum-moisture-soothing): 🌿 【神スカルプ美容液5選】頭皮乾燥・フケかゆみ防止＆根本ふんわり特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】RauB ラウブ アクティブグロウセラム 頭皮用美容液 フルボ酸 80mL 美容室専売 サのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpserum-aveda-pramasana-scalp-concentrate): 🌿 【神スカルプ美容液5選】頭皮乾燥・フケかゆみ防止＆根本ふんわり特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】花王 乾燥性敏感肌を考えた キュレル 頭皮 保湿ローション 120mL ◆ ★のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpserum-curel-scalp-moisture-lotion-ceramide): 🌿 【神スカルプ美容液5選】頭皮乾燥・フケかゆみ防止＆根本ふんわり特集 (ブランド: 主要コスメ)
@@ -55,17 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新・楽天最安値】＼高評価★4.72／【楽天ランキング1位＆6冠受賞／正規品】 パナソニック フェイスシェーのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-shaver-panasonic-ferie-face-shaver-es-wf41): 👁️ 【神フェイス＆眉シェーバー5選】肌を傷めず産毛オフ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【ウォーターピーリング美顔器＆超音波毛穴洗浄】水だけで角質・黒ずみを吹き飛ばす「神ピーラー美顔器」5選](https://qualia-navi.vercel.app/articles/feature-5-ultrasonic-water-peeling-facial-device): ✨ 【神ウォーターピーリング5選】超音波振動＆毛穴レスつるん肌特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】ピーリング 超音波 美顔器 【ヤーマン公式】《ミーゼ ディープスキンクリア MS43P》ピのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-waterpeel-pore-scrubber-microcurrent-facial-spatula): ✨ 【神ウォーターピーリング5選】超音波振動＆毛穴レスつるん肌特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】＼10倍ポイントアップ！／ウォーターピーリング 美顔器 毛穴ケア 毛穴洗浄 超音波ピーリンのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-waterpeel-water-peeling-ultrasonic-ion-cleanser): ✨ 【神ウォーターピーリング5選】超音波振動＆毛穴レスつるん肌特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】期間限定7980→3220円！楽天1位 美ルル アクアルファ 美顔器 超音波 毛穴黒ずみ・のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-waterpeel-belulu-aquarufa-water-peeling-ems): ✨ 【神ウォーターピーリング5選】超音波振動＆毛穴レスつるん肌特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ピーリング 超音波 美顔器 【ヤーマン公式】《ミーゼ ディープスキンクリア MS43P》ピのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-waterpeel-yaman-circle-peeling-pro-water-lift): ✨ 【神ウォーターピーリング5選】超音波振動＆毛穴レスつるん肌特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ウォーターピーリング 美顔器 【楽天5冠★プロ美容家監修】 RELX リラクス 超軽量 7のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-waterpeel-cosbeauty-aquapeeling-pro-ultrasonic): ✨ 【神ウォーターピーリング5選】超音波振動＆毛穴レスつるん肌特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【セルフまつげパーマキット＆サロン級カール】毎朝のビューラー不要で上向き持続する「神セルフまつパ」5選](https://qualia-navi.vercel.app/articles/feature-5-self-eyelash-perm-kit-lift-curling): 👁️ 【神まつげパーマキット5選】セルフで簡単！根元立ち上げ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【公式】セルフ まつ毛 カールセット5回分 アイメイク セルフプロ用美容液 エッセンス ラのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashperm-all-in-one-speed-lash-lift-box): 👁️ 【神まつげパーマキット5選】セルフで簡単！根元立ち上げ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】☆高粘着まつげパーマ用接着剤・クリアグルーつけまつげ・ブロウリフトもOK！メール便送料無料のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashperm-clear-glue-lash-lift-adhesive-water): 👁️ 【神まつげパーマキット5選】セルフで簡単！根元立ち上げ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】まつ毛パーマ ロッド ロット セルフまつげパーマ 柔らかい素材 時短まつげパーマ メール便のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashperm-doll-lash-curl-silicone-pads-pack): 👁️ 【神まつげパーマキット5選】セルフで簡単！根元立ち上げ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【公式】セルフ まつ毛 カールセット5回分 アイメイク セルフプロ用美容液 エッセンス ラのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashperm-keratin-lash-lift-diy-set-pro): 👁️ 【神まつげパーマキット5選】セルフで簡単！根元立ち上げ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【公式】セルフ まつ毛 カールセット5回分 アイメイク セルフプロ用美容液 エッセンス ラのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lashperm-silky-rolls-eyelash-perm-kit-complete): 👁️ 【神まつげパーマキット5選】セルフで簡単！根元立ち上げ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【毛穴吸引美顔器＆いちご鼻・角栓一掃】頑固な黒ずみを真空吸引でごっそり除去する「神毛穴クリーナー」5選](https://qualia-navi.vercel.app/articles/feature-5-pore-vacuum-suction-blackhead-cleaner): 👃 【神毛穴吸引器5選】頑固な角栓・黒ずみ除去＆毛穴レス素肌特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

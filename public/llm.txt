@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-22
-- **Total Articles**: 1248 件の個別詳細レビュー
+- **Total Articles**: 1260 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,18 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新・楽天最安値】【あぶらとり紙＆メイク崩れゼロ皮脂オフ】必要な潤いを残してテカリを消す「神あぶらとり紙」5選](https://qualia-navi.vercel.app/articles/feature-5-blotting-paper-oil-absorbing-sheet-pro): 🪞 【神あぶらとり紙5選】天然麻＆多孔質フィルムテカリ吸収特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】楽天ランキング受賞！ 【店内P最大18倍以上開催】【DHC直販】一枚でしっかりとれる！ Dのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-oilpaper-large-size-organic-green-tea-sheet): 🪞 【神あぶらとり紙5選】天然麻＆多孔質フィルムテカリ吸収特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】あぶらとり紙 大容量 300枚入り 【100枚＋リフィル2セット】 専用パフ ケース付き のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-oilpaper-cushion-puff-oil-absorbing-paper-box): 🪞 【神あぶらとり紙5選】天然麻＆多孔質フィルムテカリ吸収特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】シャンテイ 美濃和紙天然麻100％あぶらとり紙（120枚入） ＿のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-oilpaper-natural-hemp-charcoal-oil-blotting-paper): 🪞 【神あぶらとり紙5選】天然麻＆多孔質フィルムテカリ吸収特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】ギャツビー あぶらとり紙 フィルム 75枚入のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-oilpaper-gatsby-powdered-oil-clear-film-sheet): 🪞 【神あぶらとり紙5選】天然麻＆多孔質フィルムテカリ吸収特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】よーじや あぶらとり紙 10冊組 送料無料 京都 限定 お土産 ギフト プレゼント 贈り物のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-oilpaper-yojiya-oil-blotting-paper-kyoto-pro): 🪞 【神あぶらとり紙5選】天然麻＆多孔質フィルムテカリ吸収特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【金属製マスカラコーム＆極細セパレート】マスカラのダマを一瞬で解消する「神まつ毛コーム」5選](https://qualia-navi.vercel.app/articles/feature-5-mascara-comb-metal-teeth-folding-pro): ✨ 【神マスカラコーム5選】金属製極細歯＆ダマなしセパレート特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】まつげコーム 睫毛 まつ毛 ブラシ アイラッシュコーム メイク マスカラコーム ステンレスのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascaracomb-wooden-handle-luxury-lash-separator): ✨ 【神マスカラコーム5選】金属製極細歯＆ダマなしセパレート特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】志々田清心堂 折りたたみ式 マスカラ&アイブローコーム 日本製 ピンク MK-400P 【のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascaracomb-fillimilli-folding-lash-comb-pink): ✨ 【神マスカラコーム5選】金属製極細歯＆ダマなしセパレート特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】マスカラコーム ブラック クリア 日本製 金属 コーム マスカラ まつ毛 ステンレス製 折のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascaracomb-dual-density-eyelash-comb-pro): ✨ 【神マスカラコーム5選】金属製極細歯＆ダマなしセパレート特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】マスカラコーム ブラック クリア 日本製 金属 コーム マスカラ まつ毛 ステンレス製 折のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascaracomb-eyelash-curved-metal-comb-separator): ✨ 【神マスカラコーム5選】金属製極細歯＆ダマなしセパレート特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】チャスティ マスカラコームメタルN マジェンダP（ナチュラル）／シャンティ（chantilのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascaracomb-chasty-folding-mascara-comb-metal-pro): ✨ 【神マスカラコーム5選】金属製極細歯＆ダマなしセパレート特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【シリコンスカルプブラシ＆頭皮コリほぐし】シャンプー時に毛穴汚れとコリを一掃する「神ケンザンブラシ」5選](https://qualia-navi.vercel.app/articles/feature-5-silicone-scalp-massage-brush-shampoo-pro): 💆‍♀️ 【神スカルプブラシ5選】シリコンケンザン＆頭皮リフトアップ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】★クーポンで4640円~★楽天1位 EMS ヘッドマッサージャー 頭皮マッサージャー マッのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpbrush-pair-dual-kenzan-scalp-massage-two-hand): 💆‍♀️ 【神スカルプブラシ5選】シリコンケンザン＆頭皮リフトアップ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【ヘッドスパニスト監修★楽天1位 】Lefina(R)公式 スカルプブラシ 頭皮マッサージのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpbrush-scalp-d-beaute-massage-shampoo-brush): 💆‍♀️ 【神スカルプブラシ5選】シリコンケンザン＆頭皮リフトアップ特集 (ブランド: 主要コスメ)
@@ -54,18 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新・楽天最安値】【2点購入でヒノキ油】 ORBIS オルビス アイブローコート [ アイブロー アイブロウのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrowcoat-orbis-eyebrow-coat-natural-clear): ✨ 【神アイブロウコート5選】眉尻消えない＆1日中キープ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】井田ラボラトリーズ キャンメイク ラスティングマルチブロウコート 01 クリア (7mL)のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrowcoat-canmake-color-change-eyebrow-coat): ✨ 【神アイブロウコート5選】眉尻消えない＆1日中キープ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】アイブロウコートEX／セザンヌ（CEZANNE）のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrowcoat-cezanne-make-keep-eyebrow-coat): ✨ 【神アイブロウコート5選】眉尻消えない＆1日中キープ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【ヘアブラシ専用クリーナー＆抜け毛・ホコリ一掃】高級ブラシの奥の汚れをごっそり掻き出す「神ブラシ掃除ツール」5選](https://qualia-navi.vercel.app/articles/feature-5-hair-brush-cleaner-rake-comb-cleaner): 🧹 【神ヘアブラシクリーナー5選】絡みついた髪の毛＆ホコリ一掃特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【楽天1位★Lefina】ヘアブラシクリーナー ヘアブラシ専用 櫛 埃 掃除 毛取り ほこのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-brushclean-tangle-cleaner-mesh-sheet-pack): 🧹 【神ヘアブラシクリーナー5選】絡みついた髪の毛＆ホコリ一掃特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】送料無料 ヘアブラシクリーナー お手入れ 髪の毛 櫛 くし ヘアブラシ クリーニング 掃除のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-brushclean-wooden-handle-mini-brush-rake-tool): 🧹 【神ヘアブラシクリーナー5選】絡みついた髪の毛＆ホコリ一掃特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【公式】デンマン DCB1 クリーニングブラシ DENMAN 正規品のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-brushclean-denman-hair-brush-cleaning-brush-rake): 🧹 【神ヘアブラシクリーナー5選】絡みついた髪の毛＆ホコリ一掃特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【楽天1位★Lefina】ヘアブラシクリーナー ヘアブラシ専用 櫛 埃 掃除 毛取り ほこのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-brushclean-kent-hair-brush-cleaning-rake-metal): 🧹 【神ヘアブラシクリーナー5選】絡みついた髪の毛＆ホコリ一掃特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【マスカラ下地＆上向きカール完全固定】夕方まで下がらない！白くならず長さを伸ばす「神マスカラベース」5選](https://qualia-navi.vercel.app/articles/feature-5-mascara-primer-base-curl-keeper-long): 👁️ 【神マスカラ下地5選】カールキープ＆白くならない美まつ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【土日祝日も出荷】カネボウ リサージ パーフェクト マスカラベース ロング ボリューム カのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascarabase-pola-ba-eyelash-primer-nourishing): 👁️ 【神マスカラ下地5選】カールキープ＆白くならない美まつ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【8/20-31限定！エントリーで抽選最大10万P贈呈！】ケイト ラッシュマキシマイザーHのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascarabase-kate-lash-maximizer-hp-fiber-pro): 👁️ 【神マスカラ下地5選】カールキープ＆白くならない美まつ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】キャンメイク(CANMAKE) クイックラッシュカーラー 1本入 【キャンメイク(CANMのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascarabase-canmake-quick-lash-curler-transparent): 👁️ 【神マスカラ下地5選】カールキープ＆白くならない美まつ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】Elegance エレガンス カールラッシュ フィクサー 7.7g マスカラ下地 アイメイのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascarabase-elegance-curl-lash-fixer-waterproof): 👁️ 【神マスカラ下地5選】カールキープ＆白くならない美まつ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】エテュセ アイエディション マスカラベース 【レビュー投稿で100円クーポン】6g クリアのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-mascarabase-ettusais-eye-edition-mascara-base-black): 👁️ 【神マスカラ下地5選】カールキープ＆白くならない美まつ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【頭皮クレンジング＆毛穴酸化皮脂一掃】シャンプー前のディープケアで根元ふんわり「神スカルププレクレンジング」5選](https://qualia-navi.vercel.app/articles/feature-5-scalp-deep-cleansing-oil-carbonic-foam): 🌿 【神頭皮クレンジング5選】毛穴の詰まり・ニオイ・酸化皮脂一掃特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

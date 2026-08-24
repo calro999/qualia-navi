@@ -6,6 +6,84 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>feature-blackpink-luxury-cosmetics-guide</g:id>
+  <title>【2026年最新】BLACKPINK（ブラックピンク）愛用コスメ＆アンバサダーアイテム完全特集！世界的クイーンの神コスメ厳選10選</title>
+  <description>世界のファッション＆ビューティー界の頂点に君臨する『BLACKPINK（ブラックピンク）』。ジス（DIOR）、ジェニー（HERA/CHANEL）、ロゼ（YSL）、リサ（SHISEIDO/M・A・C）の4人が率いる世界最高峰コスメ10選を徹底特集！楽天最安値・成分・クイーンメイク手順を完全解説！</description>
+  <link>https://qualia-navi.vercel.app/article/feature-blackpink-luxury-cosmetics-guide</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosme-venus/cabinet/skuimage/topimage/imgrc0114101927.jpg?_ex=600x600</g:image_link>
+  <g:price>2680 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-jisoo-blackpink-dior-makeup</g:id>
+  <title>DIOR（ディオール） BLACKPINKジス愛用コスメ 5選</title>
+  <description>DIORのグローバルアンバサダーとして世界を魅了するBLACKPINKのジス（JISOO）。ジスの気品あふれるプリンセススマイルを彩るディオールアディクトリップグロウやルージュディオール、ミスディオールなど厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-jisoo-blackpink-dior-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosme-venus/cabinet/skuimage/topimage/imgrc0114101927.jpg?_ex=600x600</g:image_link>
+  <g:price>4400 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-jennie-blackpink-hera-chanel-makeup</g:id>
+  <title>HERA・CHANEL BLACKPINKジェニー愛用コスメ 5選</title>
+  <description>ファッション＆ビューティー界の絶対的ミューズ、BLACKPINKのジェニー（JENNIE）。ジェニーが長年アイコンを務める『HERA（ヘラ）』のブラッククッションやヌードグロス、CHANELのルージュまで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-jennie-blackpink-hera-chanel-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/hera-official/cabinet/12562207/13793886/hera_black_cushion.jpg?_ex=600x600</g:image_link>
+  <g:price>1480 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-rose-blackpink-ysl-makeup</g:id>
+  <title>YSL（イヴ・サンローラン） BLACKPINKロゼ愛用コスメ 5選</title>
+  <description>YSL Beautyのグローバルアンバサダーとして世界を魅了し続けるBLACKPINKのロゼ（ROSÉ）。ロゼのシグネチャー香水『リブレ』から24時間崩れないオールアワーズファンデーションまで、ロゼの気品と自由なオーラを宿す厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-rose-blackpink-ysl-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/yslbeauty/cabinet/12648558/13296352/13472614/imgrc0118480649.jpg?_ex=600x600</g:image_link>
+  <g:price>6710 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-lisa-blackpink-shiseido-mac-makeup</g:id>
+  <title>SHISEIDO・M・A・C BLACKPINKリサ愛用コスメ 5選</title>
+  <description>2026年にSHISEIDOのグローバルアンバサダーに就任し、M・A・Cのアンバサダーも務めるBLACKPINKのリサ（LISA）。リサのパワフルなステージでも一切崩れない鉄壁ファンデーションやアルティミューン美容液など厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-lisa-blackpink-shiseido-mac-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/maccosmetics/cabinet/pdp/thumb_01/41471.jpg?_ex=600x600</g:image_link>
+  <g:price>4290 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-blackpink-fragrance-bodycare-luxury</g:id>
+  <title>DIOR・YSL・CHANEL BLACKPINK愛用フレグランス 5選</title>
+  <description>BLACKPINKメンバー4人がプライベートや公式アンバサダーとして愛用する世界的フレグランス特集！ジスの『ミスディオール』、ロゼの『YSLリブレ』、ジェニー愛用のCHANELやヴァセリンまで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-blackpink-fragrance-bodycare-luxury</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosmelink/cabinet/cp20241211/0061627351-3_cp.jpg?_ex=600x600</g:image_link>
+  <g:price>1480 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>BODYCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; bodycare</g:product_type>
+</item>
+<item>
   <g:id>feature-newjeans-luxury-cosmetics-guide</g:id>
   <title>【2026年最新】NewJeans（ニュージーンズ）愛用コスメ＆アンバサダーアイテム完全特集！Y2K透明感を創る神コスメ厳選10選</title>
   <description>世界中をY2K旋風で席巻する『NewJeans（ニュージーンズ）』。ミンジ（CHANEL）、ハニ（ARMANI）、ヘリン（DIOR）、ダニエル（YSL）、ヘイン（Torriden）の5人が愛用・アンバサダーを務める神コスメ10選を徹底特集！楽天最安値・成分・ピュアメイク手順を完全解説！</description>

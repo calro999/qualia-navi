@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-24
-- **Total Articles**: 1343 件の個別詳細レビュー
+- **Total Articles**: 1352 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,15 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【2026年最新】楽天お買い物マラソン＆毎月キャンペーン完全攻略ガイド！上限ポイント・買い回りカレンダー・おすすめコスメ10選](https://qualia-navi.vercel.app/articles/feature-rakuten-marathon-campaign-complete-guide): 🛍️ 【2026最新】楽天お買い物マラソン＆毎月キャンペーン完全攻略特大特集 (ブランド: 主要コスメ)
 - [【1000円ポッキリ】楽天お買い物マラソン買い回りおすすめコスメ・スキンケア10選！店舗数稼ぎに最強【送料無料】](https://qualia-navi.vercel.app/articles/art-rakuten-marathon-1000yen-cosme-kaimawari): 💄 【1000円ポッキリ】お買い物マラソン買い回りおすすめコスメ厳選 (ブランド: 主要コスメ)
 - [【楽天スーパーDEAL×マラソン】最大50%ポイント還元！デパコス・韓国コスメ実質半額攻略法10選](https://qualia-navi.vercel.app/articles/art-rakuten-deal-point-back-cosmetics): ✨ 【楽天スーパーDEAL】デパコス・韓国コスメ高還元攻略 (ブランド: 主要コスメ)
@@ -57,15 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新・楽天最安値】★クーポンで4640円~★楽天1位 EMS ヘッドマッサージャー 頭皮マッサージャー マッのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpmassage-compact-cordless-lightweight-scalp-spa): 💆‍♀️ 【神電動頭皮ブラシ5選】EMS微弱電流＆3D深層揉みほぐし特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】★クーポンで4640円~★楽天1位 EMS ヘッドマッサージャー 頭皮マッサージャー マッのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpmassage-nipro-deep-scalp-spa-waterproof-brush): 💆‍♀️ 【神電動頭皮ブラシ5選】EMS微弱電流＆3D深層揉みほぐし特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】★クーポンで4640円~★楽天1位 EMS ヘッドマッサージャー 頭皮マッサージャー マッのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpmassage-ems-electrical-stimulation-head-spa-pro): 💆‍♀️ 【神電動頭皮ブラシ5選】EMS微弱電流＆3D深層揉みほぐし特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ヘッドスパ 電動頭皮ブラシ 【ヤーマン公式】《ミーゼ ニードルヘッドスパリフト MS31Nのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-scalpmassage-mysse-head-spa-lift-active-ya-man): 💆‍♀️ 【神電動頭皮ブラシ5選】EMS微弱電流＆3D深層揉みほぐし特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【携帯リップブラシ＆輪郭くっきり美発色】口角・山までブレずに決まる！ポーチ常備の「神リップブラシ」5選](https://qualia-navi.vercel.app/articles/feature-5-lip-brush-portable-retractable-pro): 💋 【神リップブラシ5選】繰り出し携帯型＆極上イタチ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】楽天スーパーSALE 熊野筆 プレゼント ギフト 御祝 メール便 送料込 熊野化粧筆 メイのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lipbrush-ultra-slim-pocket-gold-case-brush): 💋 【神リップブラシ5選】繰り出し携帯型＆極上イタチ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】資生堂 マキアージュリップブラシ | マキアージュ リップブラシ 口紅 ブラシ 携帯用 繰のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lipbrush-flat-square-precision-metal-brush-pro): 💋 【神リップブラシ5選】繰り出し携帯型＆極上イタチ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】紅筆 熊野筆 リップブラシ メイクブラシ フェイスブラシ 携帯 用 化粧筆 熊の筆 化粧ブのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lipbrush-kumanofude-retractable-weasel-pro): 💋 【神リップブラシ5選】繰り出し携帯型＆極上イタチ毛特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【充電式ホットアイマスク＆目元温熱エステ】疲れ目・クマをじんわり癒す「神アイウォーマー」5選](https://qualia-navi.vercel.app/articles/feature-5-heated-eye-mask-rechargeable-silk-pro): 👀 【神ホットアイマスク5選】充電式グラフェン温熱＆快眠アイケア特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【クーポンで6490円~】 【アイマッサージャーランキング1位】 RELX リラクス アイのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyemask-air-pressure-vibration-spa-eye-massager): 👀 【神ホットアイマスク5選】充電式グラフェン温熱＆快眠アイケア特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ホットアイマスク 充電式 アイマスク コードレス リラックス ギフト シルク生地 USB のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyemask-salua-rechargeable-hot-eye-mask-silk): 👀 【神ホットアイマスク5選】充電式グラフェン温熱＆快眠アイケア特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【ドライシャンプー＆前髪・頭皮ベタつき一瞬リセット】ペタつき解消！水なしでサラふわ復活「神ドライシャンプー」5選](https://qualia-navi.vercel.app/articles/feature-5-dry-shampoo-spray-bangs-volume-pro): ✨ 【神ドライシャンプー5選】ペタつき前髪復活＆頭皮消臭スプレー特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

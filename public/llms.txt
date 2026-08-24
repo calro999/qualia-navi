@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-24
-- **Total Articles**: 1376 件の個別詳細レビュー
+- **Total Articles**: 1382 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,12 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新】NewJeans（ニュージーンズ）愛用コスメ＆アンバサダーアイテム完全特集！Y2K透明感を創る神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-newjeans-luxury-cosmetics-guide): 👑 【NewJeans 完全特集】ミンジ・ハニ・ヘリン・ダニエル・ヘイン愛用神コスメ10選 (ブランド: 主要コスメ)
+- [【NewJeansミンジ愛用】CHANEL（シャネル）気品あふれるピュア美肌コスメ厳選5選](https://qualia-navi.vercel.app/articles/art-minji-newjeans-chanel-makeup): 🖤 【ミンジ アンバサダー】CHANEL 気品と透明感を宿すナチュラルハイエンド特集 (ブランド: 主要コスメ)
+- [【NewJeansハニ愛用】ARMANI beauty（アルマーニ）シルク美肌＆リップ厳選5選](https://qualia-navi.vercel.app/articles/art-hanni-newjeans-armani-makeup): ❤️ 【ハニ グローバルアンバサダー】ARMANI シルク肌ファンデ＆高発色リップ特集 (ブランド: 主要コスメ)
+- [【NewJeansヘリン愛用】DIOR（ディオール）猫目キャットアイ＆グロウ肌コスメ厳選5選](https://qualia-navi.vercel.app/articles/art-haerin-newjeans-dior-makeup): 🐱 【ヘリン アンバサダー】DIOR 神秘的キャットアイ＆水光グロウ肌特集 (ブランド: 主要コスメ)
+- [【NewJeansダニエル愛用】YSL（イヴ・サンローラン）ジューシー艶リップ＆ベース厳選5選](https://qualia-navi.vercel.app/articles/art-danielle-newjeans-ysl-makeup): 💛 【ダニエル アンバサダー】YSL キャンディグレーズ＆光透明感ベース特集 (ブランド: 主要コスメ)
+- [【NewJeansヘイン愛用】水分爆発スキンケア＆最旬Y2Kコスメ厳選5選](https://qualia-navi.vercel.app/articles/art-hyein-newjeans-y2k-korean-skincare): 💧 【ヘイン愛用】Torriden水分爆発セラム＆最愛Y2Kトレンドコスメ特集 (ブランド: 主要コスメ)
 - [【2026年最新】指原莉乃プロデュース『Ririmew（リリミュウ）』完全特集！垢抜け神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-ririmew-sashihara-complete-guide): 👑 【指原莉乃 Ririmew 完全特集】バタールージュ・プライマー・アイパレット・シェーディング神コスメ10選 (ブランド: 主要コスメ)
 - [【指原莉乃プロデュース】Ririmew（リリミュウ）神リップ厳選5選！バタールージュ＆ティント全種比較](https://qualia-navi.vercel.app/articles/art-ririmew-butter-rouge-tint-lip): 💄 【指原莉乃プロデュース】Ririmew とろけるバタールージュ＆濃密ティント特集 (ブランド: 主要コスメ)
 - [【指原莉乃愛用】Ririmew（リリミュウ）トーンアップ下地＆ベースメイク厳選5選](https://qualia-navi.vercel.app/articles/art-ririmew-toneup-primer-base): ✨ 【指原莉乃プロデュース】Ririmew 白玉トーンアップ＆毛穴カバーベース特集 (ブランド: 主要コスメ)
@@ -60,12 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【2026年最新】楽天お買い物マラソン＆毎月キャンペーン完全攻略ガイド！上限ポイント・買い回りカレンダー・おすすめコスメ10選](https://qualia-navi.vercel.app/articles/feature-rakuten-marathon-campaign-complete-guide): 🛍️ 【2026最新】楽天お買い物マラソン＆毎月キャンペーン完全攻略特大特集 (ブランド: 主要コスメ)
-- [【1000円ポッキリ】楽天お買い物マラソン買い回りおすすめコスメ・スキンケア10選！店舗数稼ぎに最強【送料無料】](https://qualia-navi.vercel.app/articles/art-rakuten-marathon-1000yen-cosme-kaimawari): 💄 【1000円ポッキリ】お買い物マラソン買い回りおすすめコスメ厳選 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

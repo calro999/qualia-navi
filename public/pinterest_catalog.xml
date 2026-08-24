@@ -6,6 +6,84 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>feature-newjeans-luxury-cosmetics-guide</g:id>
+  <title>【2026年最新】NewJeans（ニュージーンズ）愛用コスメ＆アンバサダーアイテム完全特集！Y2K透明感を創る神コスメ厳選10選</title>
+  <description>世界中をY2K旋風で席巻する『NewJeans（ニュージーンズ）』。ミンジ（CHANEL）、ハニ（ARMANI）、ヘリン（DIOR）、ダニエル（YSL）、ヘイン（Torriden）の5人が愛用・アンバサダーを務める神コスメ10選を徹底特集！楽天最安値・成分・ピュアメイク手順を完全解説！</description>
+  <link>https://qualia-navi.vercel.app/article/feature-newjeans-luxury-cosmetics-guide</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cavatina/cabinet/cosme-01/cosme-01/cosme-023.jpg?_ex=600x600</g:image_link>
+  <g:price>4356 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-minji-newjeans-chanel-makeup</g:id>
+  <title>CHANEL（シャネル） NewJeansミンジ愛用コスメ 5選</title>
+  <description>NewJeansのミンジ（MINJI）がアンバサダーを務める世界的ラグジュアリーブランド『CHANEL（シャネル）』。ミンジのクラシックで端正な美しさを引き立てるリップボームからフレグランス、ファンデーションまで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-minji-newjeans-chanel-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cavatina/cabinet/cosme-01/cosme-01/cosme-023.jpg?_ex=600x600</g:image_link>
+  <g:price>6980 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-hanni-newjeans-armani-makeup</g:id>
+  <title>ARMANI beauty（アルマーニ） ハニ愛用コスメ 5選</title>
+  <description>NewJeansのハニ（HANNI）がグローバル・メイクアップ・アンバサダーを務める『ARMANI beauty（アルマーニ ビューティ）』。ハニの愛らしい笑顔と完璧なドール肌を作るパワーファブリックファンデーションから高密着リップまで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-hanni-newjeans-armani-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/armanibeauty/cabinet/thumb/09275640/imgrc0089327869.jpg?_ex=600x600</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-haerin-newjeans-dior-makeup</g:id>
+  <title>DIOR（ディオール） ヘリン愛用コスメ 5選</title>
+  <description>NewJeansのヘリン（HAERIN）がアンバサダーを務める最高峰ブランド『DIOR（ディオール）』。ヘリンの魅惑的な猫目キャットアイとみずみずしいツヤ肌を作るディオールスキンフォーエヴァーやサンククルールなど厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-haerin-newjeans-dior-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecosme/cabinet/image/01/3348901578196.jpg?_ex=600x600</g:image_link>
+  <g:price>4970 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-danielle-newjeans-ysl-makeup</g:id>
+  <title>YSL（イヴ・サンローラン） ダニエル愛用コスメ 5選</title>
+  <description>NewJeansのダニエル（DANIELLE）がまとう『YSL Beauty（イヴ・サンローラン・ボーテ）』。シロップのようにとろけてツヤが弾けるキャンディグレーズから光を操るラディアントタッチまで、ダニエルのハッピーな笑顔を彩る厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-danielle-newjeans-ysl-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/yslbeauty/cabinet/products/50915/main_50915ysl_01_v2.jpg?_ex=600x600</g:image_link>
+  <g:price>6050 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-hyein-newjeans-y2k-korean-skincare</g:id>
+  <title>Torriden・CLIO・rom&amp;nd ヘイン愛用コスメ 5選</title>
+  <description>NewJeansの最年少メンバー、ヘイン（HYEIN）のようなみずみずしい水分美肌とエッジの効いたY2Kトレンドメイク！韓国No.1水分セラム『Torriden ダイブイン セラム』からrom&amp;ndのツヤリップまで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-hyein-newjeans-y2k-korean-skincare</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/torriden-official/cabinet/10992200/10992201/imgrc0094017902.jpg?_ex=600x600</g:image_link>
+  <g:price>1650 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
   <g:id>feature-ririmew-sashihara-complete-guide</g:id>
   <title>【2026年最新】指原莉乃プロデュース『Ririmew（リリミュウ）』完全特集！垢抜け神コスメ厳選10選</title>
   <description>コスメオタク・指原莉乃さんがプロデュースするメガヒットブランド『Ririmew（リリミュウ）』。話題の新作バタールージュからトーンアッププライマー、捨て色なしアイパレット、小顔シェーディングまで、さっしーのこだわりが詰まった神コスメ10選を徹底特集！楽天最安値・成分・垢抜けメイク手順を完全解説！</description>

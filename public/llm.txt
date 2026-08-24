@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-24
-- **Total Articles**: 1294 件の個別詳細レビュー
+- **Total Articles**: 1304 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,16 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新・楽天最安値】【電動眉毛＆フェイスシェーバー】肌を傷つけず透明感UP！メイクのりが劇変する「神顔そりシェーバー」5選](https://qualia-navi.vercel.app/articles/feature-5-eyebrow-face-shaver-electric-gentle-pro): 🪒 【神フェイスシェーバー5選】肌に優しい極薄刃＆眉コーム付き顔そり特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼楽天ランキング1位／【美容師が監修】 眉毛シェーバー フェイスシェーバー レディース 眉のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-faceshaver-compact-pen-lipstick-design-shaver): 🪒 【神フェイスシェーバー5選】肌に優しい極薄刃＆眉コーム付き顔そり特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼楽天ランキング1位／【美容師が監修】 眉毛シェーバー フェイスシェーバー レディース 眉のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-faceshaver-waterproof-washable-eyebrow-trimmer): 🪒 【神フェイスシェーバー5選】肌に優しい極薄刃＆眉コーム付き顔そり特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼楽天ランキング1位／【美容師が監修】 眉毛シェーバー フェイスシェーバー レディース 眉のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-faceshaver-2in1-dual-head-rotary-body-shaver): 🪒 【神フェイスシェーバー5選】肌に優しい極薄刃＆眉コーム付き顔そり特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】パナソニック フェイスシェーバー【うぶ毛】【乾電池式】（バイオレット） ES-WF53-Vのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-faceshaver-panasonic-ferie-face-shaver-pro): 🪒 【神フェイスシェーバー5選】肌に優しい極薄刃＆眉コーム付き顔そり特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【ネイルオイルペンタイプ＆甘皮・美爪集中ケア】二枚爪・ささくれ知らず！ポーチに入る「神キューティクルオイル」5選](https://qualia-navi.vercel.app/articles/feature-5-nail-cuticle-oil-pen-nourishing-pro): 💅 【神ネイルオイルペン5選】植物オイル＆美爪・甘皮集中トリートメント特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【全品半額coupon事前配布中】ミネラル成分豊富！ジェルネイルの後のケアで長持ち実感 さのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nailoilpen-hyponychium-growth-booster-nail-care): 💅 【神ネイルオイルペン5選】植物オイル＆美爪・甘皮集中トリートメント特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【楽天1位】ネイルオイル Ceevs キューティクルオイル 爪オイル 栄養 植物性 ペンタのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nailoilpen-uka-style-natural-essential-oil-pen): 💅 【神ネイルオイルペン5選】植物オイル＆美爪・甘皮集中トリートメント特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】＼楽天1位！／【中目黒ネイルサロンオーナー監修】ネイルオイル 大容量タイプ ネイルオイルペのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nailoilpen-organic-argan-keratin-nail-serum-pen): 💅 【神ネイルオイルペン5選】植物オイル＆美爪・甘皮集中トリートメント特集 (ブランド: 主要コスメ)
+- [【2026年最新・楽天最安値】【全品半額coupon事前配布中】ミネラル成分豊富！ジェルネイルの後のケアで長持ち実感 さのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-nailoilpen-blossom-scented-cuticle-oil-pen): 💅 【神ネイルオイルペン5選】植物オイル＆美爪・甘皮集中トリートメント特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【眉毛テンプレート＆左右対称アイブロウガイド】当てるだけで黄金比美眉が完成する「神眉ステンシル」5選](https://qualia-navi.vercel.app/articles/feature-5-eyebrow-stencil-guide-template-symmetry-pro): ✨ 【神眉テンプレート5選】黄金比率＆左右対称アイブロウ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】ハンズフリー 眉描ける 眉毛プレート まゆげテンプレート 眉毛テンプレート 眉型 プレートのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrowguide-professional-golden-ratio-caliper-stencil): ✨ 【神眉テンプレート5選】黄金比率＆左右対称アイブロウ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【 楽天1位受賞★レビュー特典付き 】＼クーポンで最大20％OFF！／眉毛 はさみ ハサミのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrowguide-mens-grooming-eyebrow-shaper-template): ✨ 【神眉テンプレート5選】黄金比率＆左右対称アイブロウ特集 (ブランド: 主要コスメ)
@@ -56,16 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新・楽天最安値】レブロン キスシュガースクラブ シュガーミントの香り(3個セット)【レブロン(REVLONのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-lipscrub-revlon-kiss-sugar-scrub-sweet-mint): 💋 【神リップスクラブ5選】シュガースクラブ＆角質オフ・血色UP特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】【高濃度炭酸ミスト化粧水＆引き締め・ツヤ】メイクの上からも使える「神炭酸スプレー」5選](https://qualia-navi.vercel.app/articles/feature-5-carbonated-mist-lotion-spray-tightening-pro): 💧 【神炭酸ミスト5選】高濃度生炭酸スプレー＆メイクキープ特集 (ブランド: 主要コスメ)
 - [【2026年最新・楽天最安値】プラリュス 生プラセンタ原液100%美容液 30mL + 生プラセンタ炭酸ミスト 100gのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-carbonmist-vitamin-c-sparkling-brightening-mist): 💧 【神炭酸ミスト5選】高濃度生炭酸スプレー＆メイクキープ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】炭酸化粧水 ミスト化粧水 保湿ミスト スプレー化粧水 スプレー 炭酸ミスト レチノール 炭のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-carbonmist-organic-botanical-carbon-water-facial): 💧 【神炭酸ミスト5選】高濃度生炭酸スプレー＆メイクキープ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ミスト化粧水 高濃度 グルタチオン 炭酸 100％ オヒカリ ブースターミスト コンディシのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-carbonmist-cica-carbonated-calming-spray-cooling): 💧 【神炭酸ミスト5選】高濃度生炭酸スプレー＆メイクキープ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】炭酸化粧水 ミスト化粧水 保湿ミスト スプレー化粧水 スプレー 炭酸ミスト レチノール 炭のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-carbonmist-aqua-babies-sparkling-lotion-mist): 💧 【神炭酸ミスト5選】高濃度生炭酸スプレー＆メイクキープ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】MTG プロージョン 炭酸ミストユニット 専用ガス カートリッジ(グリーン) 6本セット のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-carbonmist-plosion-carbonated-mist-spray-pro): 💧 【神炭酸ミスト5選】高濃度生炭酸スプレー＆メイクキープ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【アイシャドウブラシセット＆極上グラデーション】粉飛び・ムラなし！プロ級アイメイクを叶える「神アイブラシ」5選](https://qualia-navi.vercel.app/articles/feature-5-eyeshadow-brush-set-kumano-blending-pro): ✨ 【神アイシャドウブラシ5選】熊野筆＆極細毛アイメイクブラシ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】【タイプ選べる】NEKODOROBO アイライナーブラシ アイメイク メイクブラシ 極細 のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrush-flat-detail-eyeliner-brush-ultra-fine): ✨ 【神アイシャドウブラシ5選】熊野筆＆極細毛アイメイクブラシ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】ほわほわ穂先で低刺激！熊野筆 アイシャドウブラシ 大（松リス毛 / 平筆）黒軸レギュラータのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrush-blending-crease-shadow-brush-pro): ✨ 【神アイシャドウブラシ5選】熊野筆＆極細毛アイメイクブラシ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】★リニューアル★5本入り [フィリミリ FILLIMILLI] アイブラシ プロコレクショのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrush-fillimilli-eye-brush-pro-collection): ✨ 【神アイシャドウブラシ5選】熊野筆＆極細毛アイメイクブラシ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】SIXPLUS アイメイクブラシ 3本セット HALOシリーズ（A） アイシャドウブラシセのリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrush-sixplus-coffee-eyeshadow-brush-set): ✨ 【神アイシャドウブラシ5選】熊野筆＆極細毛アイメイクブラシ特集 (ブランド: 主要コスメ)
-- [【2026年最新・楽天最安値】＼細かい部分にフィット／ 熊野筆 とんがり アイシャドウブラシ 丸尖 馬毛（ポニー）100のリアル検証＆楽天最安値レビュー](https://qualia-navi.vercel.app/articles/art-eyebrush-kumanofude-eyeshadow-brush-set-pro): ✨ 【神アイシャドウブラシ5選】熊野筆＆極細毛アイメイクブラシ特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

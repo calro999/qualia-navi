@@ -6,6 +6,84 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>feature-aespa-cosmetics-complete-guide</g:id>
+  <title>【2026年最新】aespa（エスパ）愛用コスメ＆アンバサダーアイテム完全特集！CG級美貌を創る神コスメ厳選10選</title>
+  <description>異次元のビジュアルで世界を席巻する『aespa（エスパ）』。カリナ（YSL / CHANEL / ミジャンセン）、ウィンター（eSpoir）、ジゼル（SENKA）、ニンニン（MAYBELLINE）の4人が愛用・アンバサダーを務める神コスメ10選を徹底特集！楽天最安値・成分・メイク手順を完全解説！</description>
+  <link>https://qualia-navi.vercel.app/article/feature-aespa-cosmetics-complete-guide</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/yslbeauty/cabinet/12072374/12296836/imgrc0112778960.jpg?_ex=600x600</g:image_link>
+  <g:price>528 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-karina-aespa-luxury-makeup</g:id>
+  <title>YSL・CHANEL・ミジャンセン カリナ愛用コスメ 5選</title>
+  <description>CGを超えた完璧なビジュアルで世界を魅了するaespaのリーダー・カリナ（KARINA）。カリナの高貴な美しさを彩るYSLのサテンリップ、CHANELの落ちないリキッドルージュ、ミジャンセンのサラツヤ美髪オイルなど厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-karina-aespa-luxury-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/yslbeauty/cabinet/12072374/12296836/imgrc0112778960.jpg?_ex=600x600</g:image_link>
+  <g:price>3100 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-winter-aespa-espoir-makeup</g:id>
+  <title>eSpoir（エスポア） ウィンター愛用コスメ 5選</title>
+  <description>まるで白雪姫のように透き通る白肌と愛らしいルックスで大人気のaespaウィンター（WINTER）。ウィンターがアンバサダーを務める韓国実力派ブランド『eSpoir（エスポア）』から、陶器肌クッションやグレイズティントなど厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-winter-aespa-espoir-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/espoirglobal/cabinet/face/11792456/imgrc0123582643.jpg?_ex=600x600</g:image_link>
+  <g:price>850 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-giselle-aespa-senka-skincare</g:id>
+  <title>SENKA（専科） ジゼル愛用スキンケア 5選</title>
+  <description>aespaのジゼル（GISELLE）がグローバルアンバサダーを務めるスキンケアブランド『SENKA（専科）』。ミクロ濃密泡で毛穴汚れをすっきり落とすパーフェクトホイップからクレンジングオイルまで、ジゼルのようなクリアな素肌を育てる厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-giselle-aespa-senka-skincare</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/sundrug/cabinet/82/4550516474568.jpg?_ex=600x600</g:image_link>
+  <g:price>528 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-ningning-aespa-maybelline-makeup</g:id>
+  <title>MAYBELLINE・GUCCI ニンニン愛用コスメ 5選</title>
+  <description>GUCCIのグローバルアンバサダーやMAYBELLINEのアンバサダーを務めるaespaの歌姫ニンニン（NINGNING）。ニンニンの魅惑的なキャットアイと落ちない艶リップを作るスカイハイマスカラやヴィニルインクなど厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-ningning-aespa-maybelline-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/maybelline/cabinet/campagin/260824/prd/6902395833307.jpg?_ex=600x600</g:image_link>
+  <g:price>1298 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-aespa-mise-en-scene-perfect-serum</g:id>
+  <title>mise en scène（ミジャンセン） aespa愛用ヘアオイル 5選</title>
+  <description>aespaがグローバルアンバサダーを務める韓国No.1ヘアケアブランド『mise en scène（ミジャンセン）』。ハイトーンカラーや毎日のスタイリングで傷んだ髪をシルクのような指通りに変えるパーフェクトセラム厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-aespa-mise-en-scene-perfect-serum</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/flytoyou/cabinet/mise-en-scene/750233889-8003fly.jpg?_ex=600x600</g:image_link>
+  <g:price>1480 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>HAIRCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
   <g:id>feature-lesserafim-cosmetics-complete-guide</g:id>
   <title>【2026年最新】LE SSERAFIM（ル セラフィム）愛用コスメ＆アンバサダーアイテム完全特集！メンバー別神コスメ厳選10選</title>
   <description>世界的人気を誇るガールズグループ『LE SSERAFIM（ル セラフィム）』。チェウォン（MAKE UP FOR EVER）、サクラ（LUNA / primera / MOLAK）、カズハ（ETUDE）、ユンジン（M・A・C / WAKEMAKE）、ウンチェ（CLIO / rom&amp;nd）の5人が愛用・アンバサダーを務める神コスメ10選を徹底特集！楽天最安値・成分・メイク手順を完全解説！</description>

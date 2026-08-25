@@ -6,6 +6,84 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>feature-misamo-twice-beauty-complete-guide</g:id>
+  <title>【2026年最新】MISAMO（ミサモ：ミナ・サナ・モモ）愛用コスメ＆アンバサダー完全特集！最高峰の美を放つ神コスメ厳選10選</title>
+  <description>TWICEの日本人メンバーユニット・MISAMO（ミナ・サナ・モモ）のビューティーコスメを徹底特集！2026年ReFaミューズ就任アイテムから、ミナの『SK-IIピテラエッセンス』、サナの『YSLラブシャインリップ』、モモの『Wonjungyoトーンアップベース』まで、最高峰の美を創る神コスメ10選を完全解説！</description>
+  <link>https://qualia-navi.vercel.app/article/feature-misamo-twice-beauty-complete-guide</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/biyouitem-hps/cabinet/mtg/mtg/heartbrush.jpg?_ex=600x600</g:image_link>
+  <g:price>1430 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-misamo-refa-heart-brush-lock-oil</g:id>
+  <title>ReFa（リファ） MISAMOミューズ就任ヘアケア 5選</title>
+  <description>2026年4月、ReFaヘアケアのアンバサダー『ReFa MUSE』にMISAMO（ミナ・サナ・モモ）が就任！3人のサラツヤ美髪を作る『ハートブラシ』から『ロックオイル』まで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-misamo-refa-heart-brush-lock-oil</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/biyouitem-hps/cabinet/mtg/mtg/heartbrush.jpg?_ex=600x600</g:image_link>
+  <g:price>2640 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>HAIRCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
+  <g:id>art-mina-twice-sk2-pitera-essence</g:id>
+  <title>SK-II（エスケーツー） TWICEミナ愛用スキンケア 5選</title>
+  <description>SK-IIのグローバルブランドアンバサダーを務めるTWICEミナ（MINA）さん。ミナの透き通るような白玉肌を育てる『ピテラ™エッセンス』からオーラ美白美容液まで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-mina-twice-sk2-pitera-essence</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/treasurebeauty/cabinet/item/405/40510337_1.jpg?_ex=600x600</g:image_link>
+  <g:price>9800 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-sana-twice-loveshine-missha-makeup</g:id>
+  <title>YSL＆MISSHA TWICEサナ愛用コスメ 5選</title>
+  <description>YSL BeautyとMISSHAのアンバサダーを務めるTWICEサナ（SANA）さん。サナの華やかで色気あふれる水光ツヤを作る『YSL ラブシャイン リップスティック』から『MISSHA ビタC美容液』まで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-sana-twice-loveshine-missha-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/yslbeauty/cabinet/12648558/13087513/1.jpg?_ex=600x600</g:image_link>
+  <g:price>2200 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-momo-twice-wonjungyo-doll-makeup</g:id>
+  <title>Wonjungyo（ウォンジョンヨ） TWICEモモ愛用コスメ 5選</title>
+  <description>Wonjungyo（ウォンジョンヨ）のブランドミューズを務めるTWICEモモ（MOMO）さん。モモの華やかでキュートなドールアイを作る『W デイリームードアップパレット』から神下地まで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-momo-twice-wonjungyo-doll-makeup</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/rainmakers-beautyfarm/cabinet/item_page/wonjungyo/11845711/imgrc0098261896.jpg?_ex=600x600</g:image_link>
+  <g:price>1430 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-misamo-twice-fragrance-gift-collection</g:id>
+  <title>MISAMO（ミサモ） ギフトコレクション 5選</title>
+  <description>MISAMOの3人が愛用するシグネチャー香水から、プレゼントに喜ばれる極上のヘアケア＆スキンケアギフトまで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-misamo-twice-fragrance-gift-collection</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/biyouitem-hps/cabinet/mtg/mtg/heartbrush.jpg?_ex=600x600</g:image_link>
+  <g:price>4180 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>BODYCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; bodycare</g:product_type>
+</item>
+<item>
   <g:id>feature-an-yujin-ive-clio-complete-guide</g:id>
   <title>【2026年最新】IVEアン・ユジン（An Yujin）愛用コスメ＆CLIOアンバサダー完全特集！圧倒的女神美肌を創る神コスメ厳選10選</title>
   <description>圧倒的な美貌とリーダーシップで世界を熱狂させるIVEのアン・ユジン（An Yujin）。CLIOグローバルアンバサダーを務めるユジンの神コスメ10選を徹底特集！『キルカバー クッション』から『プロ アイ パレット エアー』『クリスタル グラム ティント』『キルラッシュ マスカラ』まで完全解説！</description>

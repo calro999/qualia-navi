@@ -6,6 +6,84 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>feature-snowman-members-cosmetics-guide</g:id>
+  <title>【2026年最新】Snow Man（スノーマン）愛用コスメ＆アンバサダー完全特集！渡辺翔太・目黒蓮・ラウール神コスメ厳選10選</title>
+  <description>国民的トップアイドルグループ・Snow Man（スノーマン）のメンバー別ビューティーコスメを徹底特集！美容男子No.1渡辺翔太（しょっぴー）の『アルビオン フラルネ＆スキコン』、目黒蓮（めめ）の『コーセー ジュレーム』、ラウールの『Dior マキシマイザー』まで、神コスメ10選を完全解説！</description>
+  <link>https://qualia-navi.vercel.app/article/feature-snowman-members-cosmetics-guide</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/grandberry/cabinet/06443450/08739416/imgrc0128861703.jpg?_ex=600x600</g:image_link>
+  <g:price>1320 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-watanabe-shota-albion-flarune-skicon</g:id>
+  <title>ALBION（アルビオン） 渡辺翔太アンバサダーコスメ 5選</title>
+  <description>芸能界屈指の美肌を誇るSnow Manの渡辺翔太（しょっぴー）さん！ALBION『FLARUNÉ（フラルネ）』アンバサダーおよび『薬用スキンコンディショナー エッセンシャル N（スキコン）』アンバサダーを務める渡辺さんの、毛穴レス発光美肌を作る厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-watanabe-shota-albion-flarune-skicon</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/grandberry/cabinet/06443450/08739416/imgrc0128861703.jpg?_ex=600x600</g:image_link>
+  <g:price>2750 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-meguro-ren-je-laime-haircare-routine</g:id>
+  <title>ジュレーム KOSE 目黒蓮ミューズ就任ヘアケア 5選</title>
+  <description>圧倒的なビジュアルと存在感で日本中を魅了するSnow Manの目黒蓮（めめ）さん！コーセーコスメポート『ジュレーム』のブランドミューズを務める目黒さんの、サラサラまとまる美髪を作る厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-meguro-ren-je-laime-haircare-routine</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/rakuten24/cabinet/958/571958.jpg?_ex=600x600</g:image_link>
+  <g:price>1320 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>HAIRCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
+  <g:id>art-raul-dior-addict-makeup-skin</g:id>
+  <title>Dior（ディオール） Snow Manラウール愛用コスメ 5選</title>
+  <description>パリコレでも活躍する圧倒的なスタイルと透明感を放つSnow Manのラウールさん！Diorタイアップや愛用で話題の『ディオール アディクト リップ マキシマイザー』から発光ベースまで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-raul-dior-addict-makeup-skin</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/rush-mall/cabinet/point/0825/p3/dior-063-001.jpg?_ex=600x600</g:image_link>
+  <g:price>4970 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-watanabe-shota-favorite-luxury-cosme</g:id>
+  <title>渡辺翔太 ガチ自腹買いデパコス 5選</title>
+  <description>テレビや雑誌で「自腹で買い続けている」と公言！美容男子・渡辺翔太さんが愛用する『エレガンス ラ プードル』や『MTメタトロン クレンジング』など、毛穴レス肌を作る厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-watanabe-shota-favorite-luxury-cosme</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosmeparfaite/cabinet/imag/4965134234195c01.jpg?_ex=600x600</g:image_link>
+  <g:price>3359 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-snowman-members-fragrance-gift-set</g:id>
+  <title>Snow Man（スノーマン） ギフトコレクション 5選</title>
+  <description>Snow Manメンバーがアンバサダーを務めるブランドや愛用するシグネチャーアイテムなど、プレゼントや自分へのご褒美に選ばれる厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-snowman-members-fragrance-gift-set</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/grandberry/cabinet/06443450/08739416/imgrc0128861703.jpg?_ex=600x600</g:image_link>
+  <g:price>3456 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>BODYCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; bodycare</g:product_type>
+</item>
+<item>
   <g:id>feature-bts-members-beauty-complete-guide</g:id>
   <title>【2026年最新】BTS（防弾少年団）メンバー愛用コスメ＆アンバサダー完全特集！世界を魅了する神コスメ厳選10選</title>
   <description>世界を魅了するトップアーティスト・BTS（防弾少年団）のメンバー別ビューティーコスメを徹底特集！ジン（JIN）の『LANEIGEクリームスキン』、テテ（V）の『TIRTIRクッション＆Yunth生ビタミンC』、ジョングクの『CHANEL香水』、ジミンの『LADORヘアケア＆Diorリップ』まで、神コスメ10選を完全解説！</description>

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-25
-- **Total Articles**: 1454 件の個別詳細レビュー
+- **Total Articles**: 1460 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,12 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新】SEVENTEEN（セブチ）メンバー愛用コスメ＆現役アンバサダー完全特集！ジョンハン・ミンギュ・ジョシュア神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-seventeen-members-cosmetics-guide): 👑 【SEVENTEEN 完全特集】ジョンハン・ミンギュ・ジョシュア現役アンバサダー神コスメ10選 (ブランド: 主要コスメ)
+- [【ジョンハン肌の秘密】BANILA CO（バニラコ）クレンジングバーム＆クッション厳選5選](https://qualia-navi.vercel.app/articles/art-jeonghan-seventeen-banilaco-clean-it-zero): 💎 【SEVENTEEN ジョンハン アンバサダー】BANILA CO 毛穴レス美肌特集 (ブランド: 主要コスメ)
+- [【ミンギュ愛用】L'OCCITANE（ロクシタン）＆UNOVE（アノブ）神ボディ・ヘアケア厳選5選](https://qualia-navi.vercel.app/articles/art-mingyu-seventeen-loccitane-unove-care): 🌿 【SEVENTEEN ミンギュ アンバサダー】ロクシタン＆UNOVEヘアケア特集 (ブランド: 主要コスメ)
+- [【ジョシュアの陶器美肌】GIVENCHY（ジバンシイ）＆Realbarrier厳選5選](https://qualia-navi.vercel.app/articles/art-joshua-seventeen-givenchy-realbarrier-skin): 👑 【SEVENTEEN ジョシュア アンバサダー】GIVENCHY 陶器美肌特集 (ブランド: 主要コスメ)
+- [【セブチ推しコスメ】ジョンハン＆ミンギュ愛用スキンケア＆リップ厳選5選](https://qualia-navi.vercel.app/articles/art-jeonghan-mingyu-favorite-skincare-lip): 💋 【セブチ推しコスメ】ジョンハン＆ミンギュ愛用スキンケア＆リップ特集 (ブランド: 主要コスメ)
+- [【CARAT必見】SEVENTEENメンバー愛用ブランド＆ギフト厳選5選](https://qualia-navi.vercel.app/articles/art-seventeen-members-fragrance-gift-set): 🎁 【CARAT必見】SEVENTEEN メンバー愛用ブランド＆ギフト特集 (ブランド: 主要コスメ)
 - [【2026年最新】Snow Man（スノーマン）愛用コスメ＆アンバサダー完全特集！渡辺翔太・目黒蓮・ラウール神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-snowman-members-cosmetics-guide): 👑 【Snow Man 完全特集】渡辺翔太・目黒蓮・ラウール愛用神コスメ10選 (ブランド: 主要コスメ)
 - [【美容男子No.1渡辺翔太】ALBION（アルビオン）フラルネ＆スキコン美白スキンケア厳選5選](https://qualia-navi.vercel.app/articles/art-watanabe-shota-albion-flarune-skicon): 💎 【渡辺翔太 ALBIONアンバサダー】フラルネ＆スキコン透明美肌特集 (ブランド: 主要コスメ)
 - [【目黒蓮ミューズ就任】KOSE（コーセー）ジュレームリラックス＆ミッドナイトリペア厳選5選](https://qualia-navi.vercel.app/articles/art-meguro-ren-je-laime-haircare-routine): 💇‍♂️ 【目黒蓮 コーセーミューズ】ジュレーム リラックス＆ツヤ美髪特集 (ブランド: 主要コスメ)
@@ -60,12 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【平野紫耀愛用香水】YSL（イヴ・サンローラン）リブレフレグランス厳選5選！ベリークラッシュ](https://qualia-navi.vercel.app/articles/art-sho-hirano-ysl-libre-fragrance): 🌹 【平野紫耀 愛用香水】YSL リブレ＆ベリークラッシュ魅惑の香り特集 (ブランド: 主要コスメ)
 - [【平野紫耀の陶器肌】YSL（イヴ・サンローラン）オールアワーズ＆ベースメイク厳選5選](https://qualia-navi.vercel.app/articles/art-sho-hirano-ysl-allhours-base-skin): ✨ 【平野紫耀愛用】YSL 24時間崩れない陶器ルミナスマット肌特集 (ブランド: 主要コスメ)
 - [【平野紫耀愛用スキンケア】YSL（イヴ・サンローラン）ピュアショット夜用美容液厳選5選](https://qualia-navi.vercel.app/articles/art-sho-hirano-ysl-pureshots-skincare): 💎 【平野紫耀愛用スキンケア】ピュアショット ナイトセラム＆毛穴ケア特集 (ブランド: 主要コスメ)
-- [【プレゼントにも最適】YSL（イヴ・サンローラン）クチュールミニクラッチ＆ギフト厳選5選](https://qualia-navi.vercel.app/articles/art-sho-hirano-ysl-clutch-gift-collection): 🎁 【平野紫耀セレクション】YSL クチュールミニクラッチ＆ギフト特集 (ブランド: 主要コスメ)
-- [【2026年最新】Her lip to BEAUTY（ハーリップトゥ）小嶋陽菜プロデュース完全特集！マシュマロ美肌を創る神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-herlipto-beauty-kojiharu-complete-guide): 👑 【こじはる 完全特集】センシュアルリッチボディクリーム・香水・ヘアオイル神コスメ10選 (ブランド: 主要コスメ)
-- [【こじはるマシュマロ肌】Her lip to センシュアルリッチボディクリーム＆ボディケア厳選5選](https://qualia-navi.vercel.app/articles/art-herlipto-sensual-rich-body-cream): 🌸 【こじはるプロデュース】センシュアルリッチボディクリーム＆マシュマロ肌特集 (ブランド: 主要コスメ)
-- [【ガラスのようなツヤ髪】Her lip to リッチグロウヘアオイル＆ヘアケア厳選5選](https://qualia-navi.vercel.app/articles/art-herlipto-rich-glow-hair-oil): ✨ 【こじはるプロデュース】リッチグロウヘアオイル＆グラスヘア特集 (ブランド: 主要コスメ)
-- [【ベスコス3冠】Her lip to リップトゥラブセラム＆愛されメイク厳選5選](https://qualia-navi.vercel.app/articles/art-herlipto-lip-to-love-serum-makeup): 💋 【2026年新作ベスコス3冠】リップトゥラブセラム＆愛されメイク特集 (ブランド: 主要コスメ)
-- [【モテ香水の最高峰】Her lip to ロールオンパフュームオイル厳選5選！NUDE PEARL](https://qualia-navi.vercel.app/articles/art-herlipto-perfume-oil-nude-pearl): 🌹 【こじはる愛用香水】パフュームオイル NUDE PEARL＆モテ香水特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

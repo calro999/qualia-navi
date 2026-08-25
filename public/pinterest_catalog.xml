@@ -6,17 +6,173 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
-  <g:id>feature-anime-sanrio-disney-cosme-2026</g:id>
-  <title>【2026年夏 現在販売中】サンリオ・ディズニーコラボコスメ完全特集！神コスメ厳選10選</title>
-  <description>2026年8月現在も楽天市場で購入可能な確定在庫のみ厳選！MISSHA×シナモロール＆マイメロディ美容液、花王エッセンシャル×サンリオ天使ヘアケア、＆honey×ディズニープリンセスクレンジング、HACCI×ミニーはちみつコスメまで、今すぐ買えるコラボコスメ神10選を徹底解説！</description>
-  <link>https://qualia-navi.vercel.app/article/feature-anime-sanrio-disney-cosme-2026</link>
+  <g:id>feature-sanrio-cosme-collab-2026</g:id>
+  <title>サンリオコラボコスメ 2026年夏 厳選10選</title>
+  <description>2026年夏、サンリオキャラクターズとのコスメコラボが続々登場！シナモロール＆マイメロディのMISSHA限定美容液（2026年8月15日発売）から、ハローキティ・マイメロ・ウサハナ天使デザインの花王エッセンシャルプレミアム（2026年7月18日発売）まで、楽天市場で2026年8月現在も購入可能な厳選10アイテムを完全網羅！ディズニーコラボは含みません。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-sanrio-cosme-collab-2026</link>
   <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234991_1.jpg?_ex=600x600</g:image_link>
+  <g:price>1320 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-sanrio-cosme-gift-2026</g:id>
+  <title>サンリオコラボコスメ 2026年夏ギフト 5選</title>
+  <description>シナモロールやマイメロ好きのあの子へのプレゼントや自分へのご褒美に。2026年8月現在も楽天市場で購入可能なサンリオコラボコスメ限定の厳選5選！ディズニーコラボは含みません。</description>
+  <link>https://qualia-navi.vercel.app/article/art-sanrio-cosme-gift-2026</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234991_1.jpg?_ex=600x600</g:image_link>
+  <g:price>2200 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>feature-disney-cosme-collab-2026</g:id>
+  <title>ディズニーコラボコスメ 2026年夏 厳選10選</title>
+  <description>2026年夏、ディズニーキャラクターとのコスメコラボが夢のように登場！ミニーマウスをあしらったHACCI（ハッチ）のはちみつプレミアムクレンジング（2026年7月1日発売）から、ベル・トイ・ストーリーの＆honey（アンドハニー）ヘアケア（2026年6月24日発売）まで、楽天市場で2026年8月現在も購入可能な厳選10アイテム！サンリオコラボは含みません。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-disney-cosme-collab-2026</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/hacci/cabinet/product/image_1/imgrc0131192484.jpg?_ex=600x600</g:image_link>
   <g:price>1980 JPY</g:price>
   <g:availability>in_stock</g:availability>
   <g:condition>new</g:condition>
   <g:brand>SKINCARE</g:brand>
   <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
   <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-disney-cosme-gift-2026</g:id>
+  <title>ディズニーコラボコスメ 2026年夏ギフト 5選</title>
+  <description>ミニーやベル、トイ・ストーリー好きのあの子へのプレゼントや自分へのご褒美に。2026年8月現在も楽天市場で購入可能なディズニーコラボコスメ限定の厳選5選！サンリオコラボは含みません。</description>
+  <link>https://qualia-navi.vercel.app/article/art-disney-cosme-gift-2026</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/hacci/cabinet/product/image_1/imgrc0131192484.jpg?_ex=600x600</g:image_link>
+  <g:price>1980 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-shiseido</g:id>
+  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
+  <g:price>7590 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-takami</g:id>
+  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-dior</g:id>
+  <title>Dior ディオール アディクト リップ マキシマイザー</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
+  <g:price>4620 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-shiseido</g:id>
+  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
+  <g:price>7590 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-takami</g:id>
+  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-dior</g:id>
+  <title>Dior ディオール アディクト リップ マキシマイザー</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
+  <g:price>4620 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-shiseido</g:id>
+  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-shiseido</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
+  <g:price>7590 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-takami</g:id>
+  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-takami</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-dior</g:id>
+  <title>Dior ディオール アディクト リップ マキシマイザー</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/article/autodiscover-dior</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
+  <g:price>4620 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
 </item>
 <item>
   <g:id>art-missha-sanrio-cinnamoroll-mymelo-serum-2026</g:id>
@@ -64,19 +220,6 @@
   <link>https://qualia-navi.vercel.app/article/art-hacci-minnie-disney-honey-cosme-2026</link>
   <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/hacci/cabinet/product/image_1/imgrc0131192484.jpg?_ex=600x600</g:image_link>
   <g:price>2200 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>SKINCARE</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>art-anime-sanrio-disney-cosme-gift-2026</g:id>
-  <title>アニメ・サンリオ・ディズニーコラボコスメ 2026年夏ギフト 5選</title>
-  <description>2026年夏に現在も販売中のサンリオ・ディズニーコラボコスメを厳選！推し活ギフトにも自分へのご褒美にも最高な、MISSHA×シナモロール、エッセンシャル×ハローキティ、＆honey×ディズニープリンセス、HACCI×ミニーの実力派コラボコスメベスト5！</description>
-  <link>https://qualia-navi.vercel.app/article/art-anime-sanrio-disney-cosme-gift-2026</link>
-  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234991_1.jpg?_ex=600x600</g:image_link>
-  <g:price>1980 JPY</g:price>
   <g:availability>in_stock</g:availability>
   <g:condition>new</g:condition>
   <g:brand>SKINCARE</g:brand>

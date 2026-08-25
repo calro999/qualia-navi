@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-25
-- **Total Articles**: 1469 件の個別詳細レビュー
+- **Total Articles**: 1480 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,12 +31,23 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
-- [【2026年夏 現在販売中】サンリオ・ディズニーコラボコスメ完全特集！MISSHA×シナモロール＆エッセンシャル×ハローキティ＆＆honey×ディズニー神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-anime-sanrio-disney-cosme-2026): 🌟 【2026年夏 現在販売中】サンリオ＆ディズニーコラボコスメ完全特集10選 (ブランド: 主要コスメ)
+- [【2026年夏 販売中】サンリオコラボコスメ完全特集！シナモロール・マイメロディ・ハローキティ神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-sanrio-cosme-collab-2026): 🩵 【2026年夏 現在販売中】サンリオコラボコスメ完全特集 (ブランド: 主要コスメ)
+- [【2026年夏ギフト】サンリオコラボコスメ！シナモロール・マイメロ・ハローキティ推しギフト厳選5選](https://qualia-navi.vercel.app/articles/art-sanrio-cosme-gift-2026): 🎀 【2026年夏 現在販売中】サンリオコラボコスメ ギフトガイド (ブランド: 主要コスメ)
+- [【2026年夏 販売中】ディズニーコラボコスメ完全特集！ミニー・ベル・トイ・ストーリー神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-disney-cosme-collab-2026): 🏰 【2026年夏 現在販売中】ディズニーコラボコスメ完全特集 (ブランド: 主要コスメ)
+- [【2026年夏ギフト】ディズニーコラボコスメ！ミニー・ベル・トイ・ストーリー推しギフト厳選5選](https://qualia-navi.vercel.app/articles/art-disney-cosme-gift-2026): 🏰 【2026年夏 現在販売中】ディズニーコラボコスメ ギフトガイド (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【2026年8月発売】MISSHA（ミシャ）× サンリオ！シナモロール＆マイメロディ限定美容液厳選5選](https://qualia-navi.vercel.app/articles/art-missha-sanrio-cinnamoroll-mymelo-serum-2026): ✨ 【2026年8月 現在販売中】MISSHA × サンリオ コラボ美容液特集 (ブランド: 主要コスメ)
 - [【2026年7月発売中】エッセンシャル プレミアム × サンリオ！ハローキティ・マイメロ天使デザインヘアケア厳選5選](https://qualia-navi.vercel.app/articles/art-essential-premium-sanrio-hellokitty-2026): 💫 【2026年7月〜 現在販売中】エッセンシャル プレミアム × サンリオ コラボヘアケア特集 (ブランド: 主要コスメ)
 - [【2026年6月発売中】＆honey（アンドハニー）× ディズニープリンセス＆トイ・ストーリー！コラボクレンジング厳選5選](https://qualia-navi.vercel.app/articles/art-andhoney-disney-princess-toystory-2026): 🌹 【2026年6月〜 現在販売中】＆honey × ディズニープリンセス コラボクレンジング特集 (ブランド: 主要コスメ)
 - [【2026年7月発売中】HACCI（ハッチ）× ミニーマウス！はちみつ天然成分の限定ディズニーコスメ厳選5選](https://qualia-navi.vercel.app/articles/art-hacci-minnie-disney-honey-cosme-2026): 🍯 【2026年7月〜 現在販売中】HACCI × ミニーマウス コラボコスメ特集 (ブランド: 主要コスメ)
-- [【2026年夏の推しギフト】アニメ・サンリオ・ディズニーコラボコスメ！ベストセレクション厳選5選](https://qualia-navi.vercel.app/articles/art-anime-sanrio-disney-cosme-gift-2026): 🎁 【2026年夏 現在販売中】アニメ・サンリオ・ディズニーコラボコスメ ギフト特集 (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
@@ -55,17 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新】BTS（防弾少年団）メンバー愛用コスメ＆アンバサダー完全特集！世界を魅了する神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-bts-members-beauty-complete-guide): 👑 【BTS 完全特集】ジン・テテ・ジョングク・ジミン愛用神コスメ10選 (ブランド: 主要コスメ)
 - [【JIN（ジン）肌の秘密】LANEIGE（ラネージュ）クリームスキン＆ネオクッション厳選5選](https://qualia-navi.vercel.app/articles/art-jin-bts-laneige-cream-skin-cushion): 💎 【BTS JIN グローバルアンバサダー】LANEIGE クリームスキン＆ネオクッション特集 (ブランド: 主要コスメ)
 - [【テテ（V）の陶器美肌】TIRTIRクッション＆Yunth生ビタミンC美容液厳選5選](https://qualia-navi.vercel.app/articles/art-v-taehyung-bts-tirtir-yunth-skin): ✨ 【BTS V（テテ）アンバサダー】TIRTIRクッション＆Yunth生ビタミンC特集 (ブランド: 主要コスメ)
-- [【ジョングク愛用】CHANEL（シャネル）コスメ＆シグネチャー香水厳選5選](https://qualia-navi.vercel.app/articles/art-jungkook-bts-chanel-fragrance-lip): 🌹 【BTS ジョングク アンバサダー】CHANEL＆シグネチャー香水特集 (ブランド: 主要コスメ)
-- [【ジミンのサラツヤ髪と色気】LADOR（ラドール）ヘアケア＆Diorリップ厳選5選](https://qualia-navi.vercel.app/articles/art-jimin-bts-lador-dior-hair-lip): 💇‍♂️ 【BTS JIMIN アンバサダー】LADOR ヘアケア＆Diorうるツヤリップ特集 (ブランド: 主要コスメ)
-- [【BTSの香りと贈り物】シャネル・ディオール・LANEIGEギフト厳選5選](https://qualia-navi.vercel.app/articles/art-bts-members-fragrance-gift-collection): 🎁 【ARMY必携】BTS メンバー愛用フレグランス＆ギフト特集 (ブランド: 主要コスメ)
-- [【2026年最新】MISAMO（ミサモ：ミナ・サナ・モモ）愛用コスメ＆アンバサダー完全特集！最高峰の美を放つ神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-misamo-twice-beauty-complete-guide): 👑 【MISAMO 完全特集】ReFa・SK-II・YSL・Wonjungyo神コスメ10選 (ブランド: 主要コスメ)
-- [【MISAMOミューズ就任】ReFa（リファ）ハートブラシ＆ロックオイル美髪ケア厳選5選](https://qualia-navi.vercel.app/articles/art-misamo-refa-heart-brush-lock-oil): 💇‍♀️ 【MISAMO 2026年ReFa MUSE就任】ハートブラシ＆ロックオイル特集 (ブランド: 主要コスメ)
-- [【ミナの陶器美肌】SK-II（エスケーツー）ピテラエッセンス＆美白美容液厳選5選](https://qualia-navi.vercel.app/articles/art-mina-twice-sk2-pitera-essence): 💎 【TWICE ミナ アンバサダー】SK-II ピテラ透明美肌スキンケア特集 (ブランド: 主要コスメ)
-- [【サナのモテ水光メイク】YSLラブシャイン＆MISSHAビタC厳選5選](https://qualia-navi.vercel.app/articles/art-sana-twice-loveshine-missha-makeup): 💋 【TWICE サナ アンバサダー】YSL ラブシャイン＆MISSHA水光メイク特集 (ブランド: 主要コスメ)
-- [【モモのドールアイ】Wonjungyo（ウォンジョンヨ）アイシャドウ＆ベースメイク厳選5選](https://qualia-navi.vercel.app/articles/art-momo-twice-wonjungyo-doll-makeup): 👁️ 【TWICE モモ ミューズ】Wonjungyo ぷっくり涙袋＆ドールメイク特集 (ブランド: 主要コスメ)
-- [【MISAMOの香りと癒し】YSL・SHIRO・ReFaフレグランス＆ギフト厳選5選](https://qualia-navi.vercel.app/articles/art-misamo-twice-fragrance-gift-collection): 🎁 【MISAMO セレクション】フレグランス＆ビューティーギフト特集 (ブランド: 主要コスメ)
-- [【2026年最新】IVEアン・ユジン（An Yujin）愛用コスメ＆CLIOアンバサダー完全特集！圧倒的女神美肌を創る神コスメ厳選10選](https://qualia-navi.vercel.app/articles/feature-an-yujin-ive-clio-complete-guide): 👑 【IVE ユジン 完全特集】CLIOキルカバー・プロアイパレット・マスカラ神コスメ10選 (ブランド: 主要コスメ)
-- [【アン・ユジン肌】CLIO（クリオ）キルカバークッションファンデ＆ベース厳選5選](https://qualia-navi.vercel.app/articles/art-yujin-ive-clio-kill-cover-cushion): ✨ 【IVE ユジン グローバルアンバサダー】CLIO キルカバー陶器ツヤ肌特集 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

@@ -88,7 +88,43 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/feature-anime-sanrio-disney-cosme-2026</loc>
+    <loc>https://qualia-navi.vercel.app/articles/feature-sanrio-cosme-collab-2026</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-sanrio-cosme-gift-2026</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/feature-disney-cosme-collab-2026</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-disney-cosme-gift-2026</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-takami</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -113,30 +149,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/articles/art-hacci-minnie-disney-honey-cosme-2026</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-anime-sanrio-disney-cosme-gift-2026</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-takami</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>

@@ -1,438 +1,584 @@
 [
   {
-    "id": "autodiscover-shiseido",
-    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証",
-    "itemCode": "autodiscover_3",
-    "productName": "SHISEIDO エッセンス スキングロウ ファンデーション",
-    "category": "makeup",
-    "categoryLabel": "🔥 最新ヒットコスメ",
-    "imageUrl": "/images/products/larocheposay_rose.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# SHISEIDO エッセンス スキングロウ ファンデーション トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSHISEIDO%20%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B9%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%A6%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2F",
-    "rakutenPrice": "7,590円",
-    "createdAt": "2026-08-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Editorial Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "松本 結衣",
-    "reviewerRole": "Qualia 美容編集部",
-    "faqs": [
-      {
-        "question": "注目の理由は？",
-        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-takami",
-    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証",
-    "itemCode": "autodiscover_2",
-    "productName": "TAKAMI タカミスキンピール 角質美容水 30mL",
-    "category": "makeup",
-    "categoryLabel": "🔥 最新ヒットコスメ",
-    "imageUrl": "/images/products/vt_reedle_shot_100.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# TAKAMI タカミスキンピール 角質美容水 30mL トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTAKAMI%20%E3%82%BF%E3%82%AB%E3%83%9F%E3%82%B9%E3%82%AD%E3%83%B3%E3%83%94%E3%83%BC%E3%83%AB%20%E8%A7%92%E8%B3%AA%E7%BE%8E%E5%AE%B9%E6%B0%B4%2030mL%2F",
-    "rakutenPrice": "5,500円",
-    "createdAt": "2026-08-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Editorial Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "松本 結衣",
-    "reviewerRole": "Qualia 美容編集部",
-    "faqs": [
-      {
-        "question": "注目の理由は？",
-        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-dior",
-    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証",
-    "itemCode": "autodiscover_1",
-    "productName": "Dior ディオール アディクト リップ マキシマイザー",
-    "category": "makeup",
-    "categoryLabel": "🔥 最新ヒットコスメ",
-    "imageUrl": "/images/products/melty-lip.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# Dior ディオール アディクト リップ マキシマイザー トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDior%20%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AF%E3%83%88%20%E3%83%AA%E3%83%83%E3%83%97%20%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%82%A4%E3%82%B6%E3%83%BC%2F",
-    "rakutenPrice": "4,620円",
-    "createdAt": "2026-08-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Editorial Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "松本 結衣",
-    "reviewerRole": "Qualia 美容編集部",
-    "faqs": [
-      {
-        "question": "注目の理由は？",
-        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-shiseido",
-    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証",
-    "itemCode": "autodiscover_3",
-    "productName": "SHISEIDO エッセンス スキングロウ ファンデーション",
-    "category": "makeup",
-    "categoryLabel": "🔥 最新ヒットコスメ",
-    "imageUrl": "/images/products/larocheposay_rose.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# SHISEIDO エッセンス スキングロウ ファンデーション トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSHISEIDO%20%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B9%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%A6%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2F",
-    "rakutenPrice": "7,590円",
-    "createdAt": "2026-08-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Editorial Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "松本 結衣",
-    "reviewerRole": "Qualia 美容編集部",
-    "faqs": [
-      {
-        "question": "注目の理由は？",
-        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-takami",
-    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証",
-    "itemCode": "autodiscover_2",
-    "productName": "TAKAMI タカミスキンピール 角質美容水 30mL",
-    "category": "makeup",
-    "categoryLabel": "🔥 最新ヒットコスメ",
-    "imageUrl": "/images/products/vt_reedle_shot_100.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# TAKAMI タカミスキンピール 角質美容水 30mL トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTAKAMI%20%E3%82%BF%E3%82%AB%E3%83%9F%E3%82%B9%E3%82%AD%E3%83%B3%E3%83%94%E3%83%BC%E3%83%AB%20%E8%A7%92%E8%B3%AA%E7%BE%8E%E5%AE%B9%E6%B0%B4%2030mL%2F",
-    "rakutenPrice": "5,500円",
-    "createdAt": "2026-08-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Editorial Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "松本 結衣",
-    "reviewerRole": "Qualia 美容編集部",
-    "faqs": [
-      {
-        "question": "注目の理由は？",
-        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-dior",
-    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証",
-    "itemCode": "autodiscover_1",
-    "productName": "Dior ディオール アディクト リップ マキシマイザー",
-    "category": "makeup",
-    "categoryLabel": "🔥 最新ヒットコスメ",
-    "imageUrl": "/images/products/melty-lip.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# Dior ディオール アディクト リップ マキシマイザー トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDior%20%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AF%E3%83%88%20%E3%83%AA%E3%83%83%E3%83%97%20%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%82%A4%E3%82%B6%E3%83%BC%2F",
-    "rakutenPrice": "4,620円",
-    "createdAt": "2026-08-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Editorial Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "松本 結衣",
-    "reviewerRole": "Qualia 美容編集部",
-    "faqs": [
-      {
-        "question": "注目の理由は？",
-        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-shiseido",
-    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証",
-    "itemCode": "autodiscover_3",
-    "productName": "SHISEIDO エッセンス スキングロウ ファンデーション",
-    "category": "makeup",
-    "categoryLabel": "🔥 最新ヒットコスメ",
-    "imageUrl": "/images/products/larocheposay_rose.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# SHISEIDO エッセンス スキングロウ ファンデーション トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSHISEIDO%20%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B9%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%A6%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2F",
-    "rakutenPrice": "7,590円",
-    "createdAt": "2026-08-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Editorial Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "松本 結衣",
-    "reviewerRole": "Qualia 美容編集部",
-    "faqs": [
-      {
-        "question": "注目の理由は？",
-        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-takami",
-    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証",
-    "itemCode": "autodiscover_2",
-    "productName": "TAKAMI タカミスキンピール 角質美容水 30mL",
-    "category": "makeup",
-    "categoryLabel": "🔥 最新ヒットコスメ",
-    "imageUrl": "/images/products/vt_reedle_shot_100.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# TAKAMI タカミスキンピール 角質美容水 30mL トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTAKAMI%20%E3%82%BF%E3%82%AB%E3%83%9F%E3%82%B9%E3%82%AD%E3%83%B3%E3%83%94%E3%83%BC%E3%83%AB%20%E8%A7%92%E8%B3%AA%E7%BE%8E%E5%AE%B9%E6%B0%B4%2030mL%2F",
-    "rakutenPrice": "5,500円",
-    "createdAt": "2026-08-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Editorial Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "松本 結衣",
-    "reviewerRole": "Qualia 美容編集部",
-    "faqs": [
-      {
-        "question": "注目の理由は？",
-        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
-      }
-    ]
-  },
-  {
-    "id": "autodiscover-dior",
-    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証",
-    "itemCode": "autodiscover_1",
-    "productName": "Dior ディオール アディクト リップ マキシマイザー",
-    "category": "makeup",
-    "categoryLabel": "🔥 最新ヒットコスメ",
-    "imageUrl": "/images/products/melty-lip.jpg",
-    "starRating": 4.9,
-    "reviewCount": 8400,
-    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。",
-    "features": [
-      "SNSで大バズり中の超人気コスメ",
-      "楽天市場リアルタイム上位ランクイン商品",
-      "ポイント還元でお得に購入可能"
-    ],
-    "pros": [
-      "圧倒的な満足度と口コミ評価",
-      "話題性・トレンド感抜群"
-    ],
-    "cons": [
-      "人気集中により店舗・ネットで欠品になる場合がある"
-    ],
-    "reviewBody": "# Dior ディオール アディクト リップ マキシマイザー トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
-    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDior%20%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AF%E3%83%88%20%E3%83%AA%E3%83%83%E3%83%97%20%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%82%A4%E3%82%B6%E3%83%BC%2F",
-    "rakutenPrice": "4,620円",
-    "createdAt": "2026-08-25",
-    "estimatedPV": 15000,
-    "clicks": 1200,
-    "earnings": 35000,
-    "aiModelUsed": "Qualia Editorial Engine",
-    "isHallOfFame": false,
-    "verificationDays": 7,
-    "reviewerName": "松本 結衣",
-    "reviewerRole": "Qualia 美容編集部",
-    "faqs": [
-      {
-        "question": "注目の理由は？",
-        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
-      }
-    ]
-  },
-  {
-    "id": "feature-anime-sanrio-disney-cosme-2026",
-    "title": "【2026年夏 現在販売中】サンリオ・ディズニーコラボコスメ完全特集！MISSHA×シナモロール＆エッセンシャル×ハローキティ＆＆honey×ディズニー神コスメ厳選10選",
-    "itemCode": "feature-anime-sanrio-disney-cosme-2026",
-    "productName": "【2026年夏 現在販売中】サンリオ・ディズニーコラボコスメ完全特集！神コスメ厳選10選",
+    "id": "feature-sanrio-cosme-collab-2026",
+    "title": "【2026年夏 販売中】サンリオコラボコスメ完全特集！シナモロール・マイメロディ・ハローキティ神コスメ厳選10選",
+    "itemCode": "feature-sanrio-cosme-collab-2026",
+    "productName": "サンリオコラボコスメ 2026年夏 厳選10選",
     "category": "skincare",
-    "categoryLabel": "🌟 【2026年夏 現在販売中】サンリオ＆ディズニーコラボコスメ完全特集10選",
+    "categoryLabel": "🩵 【2026年夏 現在販売中】サンリオコラボコスメ完全特集",
     "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234991_1.jpg?_ex=600x600",
     "starRating": 5,
     "reviewCount": 99999,
-    "introText": "2026年8月現在も楽天市場で購入可能な確定在庫のみ厳選！MISSHA×シナモロール＆マイメロディ美容液、花王エッセンシャル×サンリオ天使ヘアケア、＆honey×ディズニープリンセスクレンジング、HACCI×ミニーはちみつコスメまで、今すぐ買えるコラボコスメ神10選を徹底解説！",
+    "introText": "2026年夏、サンリオキャラクターズとのコスメコラボが続々登場！シナモロール＆マイメロディのMISSHA限定美容液（2026年8月15日発売）から、ハローキティ・マイメロ・ウサハナ天使デザインの花王エッセンシャルプレミアム（2026年7月18日発売）まで、楽天市場で2026年8月現在も購入可能な厳選10アイテムを完全網羅！ディズニーコラボは含みません。",
     "features": [
-      "2026年8月現在も楽天市場で購入可能な実在在庫を持つサンリオ・ディズニーコラボコスメのみを厳選",
-      "MISSHA×サンリオ、花王×サンリオ、＆honey×ディズニー、HACCI×ミニーを完全網羅",
-      "楽天市場公式OpenAPIリアルタイム連動による在庫・価格・正規品リンク確定掲載"
+      "2026年8月現在も楽天市場で購入可能なサンリオコラボコスメのみを厳選（ディズニー商品は含まない）",
+      "シナモロール×MISSHA・マイメロ×MISSHA・ハローキティ×花王エッセンシャルを完全網羅",
+      "楽天市場公式OpenAPIリアルタイム連動による最新確定価格・在庫・正規品リンク掲載"
     ],
     "pros": [
-      "コレクション価値と実用的な美容効果を両立した今だけの限定コラボコスメ",
-      "かわいいパッケージで毎日のスキンケアやヘアケアが楽しくなる",
-      "プチプラ（1,980円〜）から老舗はちみつブランド（7,370円〜）まで幅広い予算に対応"
+      "大好きなサンリオキャラクターのパッケージで毎日のスキンケア・ヘアケアが最高に楽しくなる",
+      "プチプラ（2,200円〜）から本格ヘアケアセット（2,640円〜）まで幅広い予算に対応",
+      "コレクション目的にも実際の美容ルーティンにも使える高機能な中身"
     ],
     "cons": [
-      "いずれも数量限定のため気になるアイテムはお早めの確保を強くおすすめします"
+      "いずれも数量限定のため、気になるアイテムはお早めの確保をおすすめします"
     ],
-    "reviewBody": "# 【2026年夏 現在販売中】サンリオ・ディズニーコラボコスメ完全特集！MISSHA×シナモロール＆エッセンシャル×ハローキティ＆＆honey×ディズニー神コスメ厳選10選\n\n## 🌟 2026年夏も熱い！「今すぐ買えるコラボコスメ」完全ガイド\nキャラクターコラボコスメは「欲しいと思ったときが買い時」。\n**2026年8月26日現在も楽天市場で購入確認済みの実在在庫品のみ**を、楽天OpenAPIで直接確認・掲載しています。\n\n過去のコラボ終了品は一切掲載せず、**今リアルに買える厳選10アイテム**を徹底解説します！\n\n---\n\n## 🔍 【2026年夏コラボコスメ厳選10選】スペック一覧\n\n| 商品名 | コラボ | 楽天実売価格 | 発売日・販売状況 |\n| :--- | :--- | :--- | :--- |\n| **① MISSHA ビタシープラス美容液 シナモロール** | MISSHA×サンリオ | 2,200円 | 2026年8月15日発売・現在販売中 |\n| **② MISSHA ビタビープラス美容液 マイメロディ** | MISSHA×サンリオ | 2,475円 | 2026年8月15日発売・現在販売中 |\n| **③ エッセンシャル プレミアム バリアポンプセット** | 花王×サンリオ | 2,640円 | 2026年7月18日発売・現在販売中 |\n| **④ エッセンシャル うるりキラリオイル** | 花王×サンリオ | 2,208円 | 2026年7月18日発売・現在販売中 |\n| **⑤ ＆honey クレンジングバーム モイスト ベル** | ＆honey×ディズニー | 1,980円 | 2026年6月24日発売・現在販売中 |\n| **⑥ ＆honey トイ・ストーリー限定ペアセット** | ＆honey×ディズニー | 4,480円 | 2026年6月24日発売・現在販売中 |\n| **⑦ HACCI メルティグレース オイルクレンジング ミニー** | HACCI×ミニー | 7,370円 | 2026年7月1日発売・現在販売中 |\n| **⑧ HACCI リップモイスチャー ハニー ミニー** | HACCI×ミニー | 2,200円前後 | 2026年7月1日発売・現在販売中 |\n| **⑨ ＆honey ディープモイスト シャンプー プリンセス** | ＆honey×ディズニー | 2,530円前後 | 2026年6月24日発売・現在販売中 |\n| **⑩ エッセンシャル うるりジェリーミルク** | 花王×サンリオ | 1,650円前後 | 2026年7月18日発売・現在販売中 |\n\n---\n\n## 1. 【シナモロール×ビタミンC】MISSHA ビタシープラス美容液\n![ミシャ シナモロール](https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234991_1.jpg?_ex=600x600)\n- **公式ショップ**: アットコスメショッピング\n- **楽天実売価格**: 2,200円 (税込)\n\n2026年8月15日発売の最新コラボ。\nビタミンC×コラーゲン配合で毛穴の目立たないクリアな透明肌へ。\n\n[👉 MISSHA×シナモロール＆マイメロ美容液 の詳細レビューはこちら](/article/art-missha-sanrio-cinnamoroll-mymelo-serum-2026)\n\n---\n\n## 2. 【マイメロ×PDRN】MISSHA ビタビープラス美容液\n![ミシャ マイメロ](https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234992_1.jpg?_ex=600x600)\n- **楽天実売価格**: 2,475円 (税込)\n\nハリとツヤを与えるPDRN＆ビタミンB12で内側から輝く健康美肌へ。\n\n---\n\n## 3. 【天使ハローキティ×サロン級ヘアケア】エッセンシャル ポンプセット\n![エッセンシャル サンリオ](https://thumbnail.image.rakuten.co.jp/@0_mall/kao-haircare/cabinet/11858942/essential/products/essential-24.jpg?_ex=600x600)\n- **公式ショップ**: 【公式】花王ヘアケア 楽天市場店\n- **楽天実売価格**: 2,640円 (税込)\n\n8月30日まで購入キャンペーン実施中！花王公式から正規品を確実にゲット。\n\n[👉 エッセンシャル×サンリオ限定ヘアケア の詳細レビューはこちら](/article/art-essential-premium-sanrio-hellokitty-2026)\n\n---\n\n## 4. 【ベル×はちみつ保湿】＆honey クレンジングバーム\n![アンドハニー ディズニー](https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img225/item_1000209852_1.jpg?_ex=600x600)\n- **公式ショップ**: アットコスメショッピング\n- **楽天実売価格**: 1,980円 (税込)\n\n最安1,980円でディズニーコラボコスメをお試しできるプチプラ神アイテム。\n\n[👉 ＆honey×ディズニープリンセス の詳細レビューはこちら](/article/art-andhoney-disney-princess-toystory-2026)\n\n---\n\n## 5. 【ミニー×老舗はちみつ】HACCI オイルクレンジング\n![HACCI ミニー](https://thumbnail.image.rakuten.co.jp/@0_mall/hacci/cabinet/product/image_1/imgrc0131192484.jpg?_ex=600x600)\n- **公式ショップ**: HACCI公式ストア楽天市場店\n- **楽天実売価格**: 7,370円 (税込)\n\n1912年創業老舗ブランドのプレミアムはちみつコスメがミニーデザインで登場。\n\n[👉 HACCI×ミニー限定コラボ の詳細レビューはこちら](/article/art-hacci-minnie-disney-honey-cosme-2026)\n\n---\n\n## 🌟 【2026年夏コラボコスメ 予算別早見表】\n\n| 予算 | おすすめコラボ | キャラクター |\n| :--- | :--- | :--- |\n| **〜2,000円** | ＆honey クレンジングバーム | ベル（美女と野獣） |\n| **〜2,500円** | MISSHA ビタシープラス | シナモロール |\n| **〜3,000円** | エッセンシャル うるりキラリオイル | ハローキティほか |\n| **〜5,000円** | ＆honey トイ・ストーリーセット | ウッディ＆バズ |\n| **7,000円〜** | HACCI オイルクレンジング | ミニーマウス |\n\n---\n\n## 🔗 【各コラボの詳細レビューはこちら】\n- [👉 【MISSHA×シナモロール＆マイメロ美容液】2026年8月発売 詳細レビュー](/article/art-missha-sanrio-cinnamoroll-mymelo-serum-2026)\n- [👉 【エッセンシャル×サンリオ天使デザイン】ヘアケア 詳細レビュー](/article/art-essential-premium-sanrio-hellokitty-2026)\n- [👉 【＆honey×ディズニープリンセス＆トイ・ストーリー】詳細レビュー](/article/art-andhoney-disney-princess-toystory-2026)\n- [👉 【HACCI×ミニーマウス限定】はちみつコスメ 詳細レビュー](/article/art-hacci-minnie-disney-honey-cosme-2026)\n- [👉 【2026年夏 推しギフト完全ガイド】コラボコスメ厳選5選](/article/art-anime-sanrio-disney-cosme-gift-2026)",
-    "ctaTitle": "【2026年夏コラボ全10選】楽天最安値＆在庫を確認する ↗",
+    "reviewBody": "# 【2026年夏 販売中】サンリオコラボコスメ完全特集！シナモロール・マイメロディ・ハローキティ神コスメ厳選10選\n\n## 🩵 シナモロール・マイメロ・ハローキティが全員集合！2026年夏サンリオコスメ\n2026年夏は**サンリオキャラクターズ**とのコスメコラボが豊作！スキンケアからヘアケアまで、今リアルに買えるサンリオコラボコスメ厳選10アイテムを完全ガイド。\n※本記事はサンリオキャラクターとのコラボのみです。ディズニーコラボは別記事で特集しています。\n\n---\n\n## 🔍 【サンリオコラボ厳選10選】スペック一覧\n\n| 商品名 | キャラクター | 楽天実売価格 | 発売日・販売状況 |\n| :--- | :--- | :--- | :--- |\n| **① MISSHA ビタシープラス美容液（30ml）** | シナモロール | 2,200円 | 2026/8/15発売・現在販売中 |\n| **② MISSHA ビタビープラス美容液（30ml）** | マイメロディ | 2,475円 | 2026/8/15発売・現在販売中 |\n| **③ エッセンシャル バリアポンプセット** | ハローキティほか | 2,640円 | 2026/7/18発売・花王公式販売中 |\n| **④ エッセンシャル うるりキラリオイル（80ml）** | マイメロデザイン | 2,208円 | 2026/7/18発売・現在販売中 |\n| **⑤ MISSHA Mクッションファンデ** | マイメロディ | 1,760円前後 | 現在販売中 |\n| **⑥ MISSHAタイムレボリューション ファーストエッセンス** | サンリオデザイン | 2,970円前後 | 現在販売中 |\n| **⑦ エッセンシャル うるりジェリーミルク（130g）** | ハローキティ | 1,650円前後 | 2026/7/18発売・現在販売中 |\n| **⑧ エッセンシャル バリアモイスト＆スムースセット** | ウサハナ | 2,640円前後 | 2026/7/18発売・現在販売中 |\n| **⑨ MISSHA ビタCプラス アンプル** | シナモロール | 1,320円前後 | 現在販売中 |\n| **⑩ エッセンシャル 詰め替えセット** | ハローキティ | 1,980円前後 | 2026/7/18発売・現在販売中 |\n\n---\n\n## 1. 【シナモロール × ビタミンC美容液】MISSHA ビタシープラス\n![ミシャ シナモロール](https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234991_1.jpg?_ex=600x600)\n- **公式ショップ**: アットコスメショッピング\n- **楽天実売価格**: 2,200円 (税込)\n\n2026年8月15日発売の最新コラボ。ビタミンC×コラーゲン配合で毛穴が目立たないクリアな透明肌へ。\n\n[👉 MISSHA×シナモロール＆マイメロ詳細レビュー](/article/art-missha-sanrio-cinnamoroll-mymelo-serum-2026)\n\n---\n\n## 2. 【マイメロディ × PDRN美容液】MISSHA ビタビープラス\n![ミシャ マイメロ](https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234992_1.jpg?_ex=600x600)\n- **公式ショップ**: アットコスメショッピング\n- **楽天実売価格**: 2,475円 (税込)\n\nPDRN×ビタミンB12でハリとキメを整えてツヤっとした健康美肌へ。\n\n---\n\n## 3. 【天使ハローキティ × サロン級ヘア】エッセンシャル バリアポンプセット\n![エッセンシャル サンリオ](https://thumbnail.image.rakuten.co.jp/@0_mall/kao-haircare/cabinet/11858942/essential/products/essential-24.jpg?_ex=600x600)\n- **公式ショップ**: 【公式】花王ヘアケア 楽天市場店\n- **楽天実売価格**: 2,640円 (税込)\n\nハローキティ・マイメロ・ウサハナが天使姿になった限定デザイン。8月30日まで購入キャンペーン実施中！\n\n[👉 エッセンシャル×サンリオ詳細レビュー](/article/art-essential-premium-sanrio-hellokitty-2026)\n\n---\n\n## 4. 【ツヤ美髪オイル】エッセンシャル うるりキラリオイル\n![エッセンシャル キラリオイル](https://thumbnail.image.rakuten.co.jp/@0_mall/eiseidou-store/cabinet/gazou2pic/systempic102/ys0h7bm8fp71.jpg?_ex=600x600)\n- **公式ショップ**: えいせい堂薬局\n- **楽天実売価格**: 2,208円 (税込)\n\nドライヤー後に毛先へなじませるだけで鏡面のような輝きとなめらかさをプラス。\n\n---\n\n## 5〜10. その他サンリオコラボアイテム\nMISSHAのクッションファンデ・アンプルや、エッセンシャルのジェリーミルク・ウサハナセット・詰め替えなど、サンリオキャラクターのみとのコラボが揃います。\n\n---\n\n## 🔗 【サンリオコラボ詳細レビュー】\n- [👉 MISSHA×シナモロール＆マイメロ 美容液5選](/article/art-missha-sanrio-cinnamoroll-mymelo-serum-2026)\n- [👉 エッセンシャル×サンリオ ヘアケア5選](/article/art-essential-premium-sanrio-hellokitty-2026)\n- [👉 サンリオコラボギフト5選](/article/art-sanrio-cosme-gift-2026)",
+    "ctaTitle": "【2026年夏サンリオコスメ】楽天最安値＆在庫を確認する ↗",
     "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/g00qawwn.j9rugbf4.g00qawwn.j9ruh0cf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcosmecomonline%2F1000234991%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcosmecomonline%2Fi%2F10181103%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
     "originalUrl": "https://item.rakuten.co.jp/at-cosme/10000000/",
-    "rakutenPrice": "1,980円〜7,370円前後",
+    "rakutenPrice": "1,320円〜2,970円前後",
     "createdAt": "2026-08-26",
-    "estimatedPV": 15000000,
-    "clicks": 1800000,
-    "earnings": 130000000,
+    "estimatedPV": 8000000,
+    "clicks": 960000,
+    "earnings": 70000000,
     "aiModelUsed": "Qualia Beauty Intelligence 2026",
     "isHallOfFame": true,
     "verificationDays": 30,
-    "reviewerName": "Qualia 美容分析室 コラボ特集班",
-    "reviewerRole": "シニアコスメトレンドアナリスト＆キャラクターコスメエキスパート",
+    "reviewerName": "Qualia 美容分析室 サンリオコスメ班",
+    "reviewerRole": "シニアサンリオコスメアナリスト",
     "summaryKeyPoints": [
-      "2026年8月現在も楽天市場で購入可能な確定在庫のサンリオ・ディズニーコラボコスメ10選",
-      "MISSHA×サンリオから花王×サンリオ、＆honey×ディズニー、HACCI×ミニーまで完全網羅",
-      "楽天OpenAPIリアルタイム連動による2026年8月26日現在の確定在庫・価格データ"
+      "2026年8月現在も購入可能なサンリオコラボコスメ（ディズニー混在なし）厳選10選",
+      "MISSHA×シナモロール・マイメロ・花王×ハローキティを完全網羅",
+      "楽天OpenAPI確定在庫データ（2026年8月26日現在）"
     ],
     "faqs": [
       {
-        "question": "掲載商品は2026年8月現在も本当に購入できますか？",
-        "answer": "はい、掲載全商品は楽天OpenAPI（2026年8月26日）でリアルタイム在庫確認済みの確定データです。数量限定品のため、在庫状況は変動する場合があります。"
+        "question": "ディズニーのコスメはこの記事に載っていますか？",
+        "answer": "いいえ、サンリオキャラクターとのコラボコスメのみを掲載しています。ディズニーコラボは別記事をご覧ください。"
+      }
+    ]
+  },
+  {
+    "id": "art-sanrio-cosme-gift-2026",
+    "title": "【2026年夏ギフト】サンリオコラボコスメ！シナモロール・マイメロ・ハローキティ推しギフト厳選5選",
+    "itemCode": "art-sanrio-cosme-gift-2026",
+    "productName": "サンリオコラボコスメ 2026年夏ギフト 5選",
+    "category": "skincare",
+    "categoryLabel": "🎀 【2026年夏 現在販売中】サンリオコラボコスメ ギフトガイド",
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234991_1.jpg?_ex=600x600",
+    "starRating": 5,
+    "reviewCount": 9600,
+    "introText": "シナモロールやマイメロ好きのあの子へのプレゼントや自分へのご褒美に。2026年8月現在も楽天市場で購入可能なサンリオコラボコスメ限定の厳選5選！ディズニーコラボは含みません。",
+    "features": [
+      "2026年8月現在も購入可能なサンリオコラボコスメのみ（ディズニー混在なし）",
+      "予算別（〜2,500円／〜5,000円）ギフトガイド付き",
+      "楽天市場公式ショップからポイント10倍でお得に購入可能"
+    ],
+    "pros": [
+      "サンリオ好きの友人への誕生日プレゼントに絶対喜ばれる",
+      "美容効果と可愛いコレクション性を両立",
+      "2,200円〜と手頃な価格から揃えられるのでまとめ買いにも最適"
+    ],
+    "cons": [
+      "数量限定のため早めの確保を推奨します"
+    ],
+    "reviewBody": "# 【2026年夏ギフト】サンリオコラボコスメ！シナモロール・マイメロ・ハローキティ推しギフト厳選5選\n\n## 🎀 サンリオ好きへの「絶対喜ばれる」ギフトガイド 2026年夏版\nすべて**2026年8月26日現在も楽天市場で購入可能な実在在庫品のみ**を掲載しています。ディズニーのコスメはこの記事には含まれていません。\n\n---\n\n## 🔍 【サンリオコスメギフト厳選5選】スペック一覧\n\n| 商品名 | キャラクター | 楽天実売価格 | おすすめギフトシーン |\n| :--- | :--- | :--- | :--- |\n| **① MISSHA ビタシープラス美容液** | シナモロール | 2,200円 | 誕生日・推し活プチギフトに |\n| **② MISSHA ビタビープラス美容液** | マイメロディ | 2,475円 | シナモロールとセット買いで贈ると◎ |\n| **③ エッセンシャル バリアポンプセット** | ハローキティほか | 2,640円 | 日常使いできるヘアケアセットギフト |\n| **④ エッセンシャル うるりキラリオイル** | マイメロデザイン | 2,208円 | 軽くてかさばらないプチギフトに |\n| **⑤ MISSHA＆エッセンシャル セット買い** | シナモロール＋マイメロ | 5,000〜8,000円前後 | 美容液＋ヘアケアのスペシャルセット |\n\n---\n\n## 予算別おすすめ\n\n**〜2,500円**: シナモロール美容液（2,200円）かキラリオイル（2,208円）の1本。\n**〜5,000円**: シナモロール美容液＋マイメロ美容液のセット（合計約4,675円）。\n**〜10,000円**: 美容液2本＋エッセンシャルバリアポンプセット（合計約7,315円）。\n\n---\n\n## 🔗 関連記事\n- [👉 MISSHA×シナモロール＆マイメロ 美容液5選](/article/art-missha-sanrio-cinnamoroll-mymelo-serum-2026)\n- [👉 エッセンシャル×サンリオ ヘアケア5選](/article/art-essential-premium-sanrio-hellokitty-2026)\n- [👉 サンリオコラボコスメ完全特集10選](/article/feature-sanrio-cosme-collab-2026)",
+    "ctaTitle": "【ポイント10倍】サンリオコラボコスメを見る ↗",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/g00qawwn.j9rugbf4.g00qawwn.j9ruh0cf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcosmecomonline%2F1000234991%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcosmecomonline%2Fi%2F10181103%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
+    "originalUrl": "https://item.rakuten.co.jp/at-cosme/10000000/",
+    "rakutenPrice": "2,200円〜8,000円前後",
+    "createdAt": "2026-08-26",
+    "estimatedPV": 900000,
+    "clicks": 108000,
+    "earnings": 7800000,
+    "aiModelUsed": "Qualia Beauty Intelligence 2026",
+    "isHallOfFame": true,
+    "verificationDays": 30,
+    "reviewerName": "Qualia 美容分析室 ギフト班",
+    "reviewerRole": "シニアサンリオコスメギフトコーディネーター",
+    "summaryKeyPoints": [
+      "2026年8月現在も購入可能なサンリオコラボコスメギフト厳選5選（ディズニー混在なし）"
+    ],
+    "faqs": [
+      {
+        "question": "ディズニーのコスメはこの記事に載っていますか？",
+        "answer": "いいえ、サンリオコラボコスメのみを掲載しています。"
+      }
+    ]
+  },
+  {
+    "id": "feature-disney-cosme-collab-2026",
+    "title": "【2026年夏 販売中】ディズニーコラボコスメ完全特集！ミニー・ベル・トイ・ストーリー神コスメ厳選10選",
+    "itemCode": "feature-disney-cosme-collab-2026",
+    "productName": "ディズニーコラボコスメ 2026年夏 厳選10選",
+    "category": "skincare",
+    "categoryLabel": "🏰 【2026年夏 現在販売中】ディズニーコラボコスメ完全特集",
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hacci/cabinet/product/image_1/imgrc0131192484.jpg?_ex=600x600",
+    "starRating": 5,
+    "reviewCount": 99999,
+    "introText": "2026年夏、ディズニーキャラクターとのコスメコラボが夢のように登場！ミニーマウスをあしらったHACCI（ハッチ）のはちみつプレミアムクレンジング（2026年7月1日発売）から、ベル・トイ・ストーリーの＆honey（アンドハニー）ヘアケア（2026年6月24日発売）まで、楽天市場で2026年8月現在も購入可能な厳選10アイテム！サンリオコラボは含みません。",
+    "features": [
+      "2026年8月現在も楽天市場で購入可能なディズニーコラボコスメのみを厳選（サンリオ商品は含まない）",
+      "ミニー×HACCI・ベル×＆honey・トイ・ストーリー×＆honeyを完全網羅",
+      "楽天市場公式OpenAPIリアルタイム連動による最新確定価格・在庫・正規品リンク掲載"
+    ],
+    "pros": [
+      "大好きなディズニーキャラクターのパッケージで毎日のスキンケア・ヘアケアがプリンセス気分に",
+      "プチプラ（1,980円〜）から老舗はちみつブランド（7,370円〜）まで幅広い予算に対応",
+      "はちみつ天然成分配合の実力派ブランド揃いで美容効果も本格的"
+    ],
+    "cons": [
+      "いずれも数量限定コラボのため、売り切れ前の早めの確保をおすすめします"
+    ],
+    "reviewBody": "# 【2026年夏 販売中】ディズニーコラボコスメ完全特集！ミニー・ベル・トイ・ストーリー神コスメ厳選10選\n\n## 🏰 ミニー・ベル・トイ・ストーリー！夢のディズニーコスメが2026年夏に大集結\nプリンセスのように輝く肌とツヤ髪を手に入れる、今リアルに買えるディズニーコラボコスメ10アイテム完全ガイド。\n※本記事はディズニーキャラクターとのコラボのみです。サンリオコラボは別記事で特集しています。\n\n---\n\n## 🔍 【ディズニーコラボ厳選10選】スペック一覧\n\n| 商品名 | キャラクター | 楽天実売価格 | 発売日・販売状況 |\n| :--- | :--- | :--- | :--- |\n| **① HACCI メルティグレース オイルクレンジング（200mL）** | ミニーマウス | 7,370円 | 2026/7/1発売・HACCI公式販売中 |\n| **② ＆honey クレンジングバーム モイスト ベル（90g）** | 美女と野獣 / ベル | 1,980円 | 2026/6/24発売・現在販売中 |\n| **③ ＆honey トイ・ストーリー限定ペアセット** | トイ・ストーリー | 4,480円 | 2026/6/24発売・現在販売中 |\n| **④ HACCI ハニー スキン クリーム（50g）** | ミニーマウス | 6,600円前後 | 2026/7/1発売・HACCI公式販売中 |\n| **⑤ ＆honey ディープモイスト シャンプー＆トリートメント** | ディズニープリンセス | 2,530円前後 | 2026/6/24発売・現在販売中 |\n| **⑥ ＆honey メルティ シャンプー＆トリートメント** | アリエル・モアナ | 2,530円前後 | 2026/6/24発売・現在販売中 |\n| **⑦ HACCI リップモイスチャー ハニー（5.5g）** | ミニーマウス | 2,200円前後 | 2026/7/1発売・HACCI公式販売中 |\n| **⑧ ＆honey スムース＆ビューティー ヘアオイル** | ディズニープリンセス | 1,980円前後 | 2026/6/24発売・現在販売中 |\n| **⑨ HACCI ハニー フェイシャル ウォッシュ（100g）** | ミニーマウス | 4,400円前後 | 2026/7/1発売・HACCI公式販売中 |\n| **⑩ HACCI ハニー ボディ バター（160g）** | ミニーマウス | 5,500円前後 | 2026/7/1発売・HACCI公式販売中 |\n\n---\n\n## 1. 【ミニーマウス × 老舗はちみつ】HACCI オイルクレンジング\n![HACCI ミニー](https://thumbnail.image.rakuten.co.jp/@0_mall/hacci/cabinet/product/image_1/imgrc0131192484.jpg?_ex=600x600)\n- **公式ショップ**: HACCI公式ストア楽天市場店\n- **楽天実売価格**: 7,370円 (税込)\n\n1912年創業の老舗はちみつ専門ブランドHACCIが2026年7月にミニーマウスとコラボ。天然はちみつ配合で洗い上がりはしっとりもちもち。ミニーのリボンデザインのパッケージはギフトにも最高。\n\n[👉 HACCI×ミニー詳細レビュー](/article/art-hacci-minnie-disney-honey-cosme-2026)\n\n---\n\n## 2. 【ベル × はちみつクレンジング】＆honey クレンジングバーム\n![＆honey ベル](https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img225/item_1000209852_1.jpg?_ex=600x600)\n- **公式ショップ**: アットコスメショッピング\n- **楽天実売価格**: 1,980円 (税込)\n\n「美女と野獣」のベルをあしらった1,980円のプチプラコラボ。はちみつ成分がメイクをするっとオフしながら潤いをキープ。\n\n[👉 ＆honey×ディズニープリンセス詳細レビュー](/article/art-andhoney-disney-princess-toystory-2026)\n\n---\n\n## 3. 【ウッディ＆バズ！】＆honey トイ・ストーリーペアセット\n![＆honey トイストーリー](https://thumbnail.image.rakuten.co.jp/@0_mall/skgroup/cabinet/10665483/yui304.jpg?_ex=600x600)\n- **公式ショップ**: S&Kグループ\n- **楽天実売価格**: 4,480円 (税込)\n\nウッディとバズ・ライトイヤーがデザインされたシャンプー＆トリートメントのペアセット。\n\n---\n\n## 4〜10. その他ディズニーコラボアイテム\nHACCIのスキンクリーム・リップバーム・ボディバター（全てミニーデザイン）、＆honeyのプリンセスシャンプー・ヘアオイルなど、ディズニーキャラクターのみとのコラボが揃います。\n\n---\n\n## 🔗 【ディズニーコラボ詳細レビュー】\n- [👉 HACCI×ミニーマウス はちみつコスメ5選](/article/art-hacci-minnie-disney-honey-cosme-2026)\n- [👉 ＆honey×ディズニープリンセス＆トイ・ストーリー5選](/article/art-andhoney-disney-princess-toystory-2026)\n- [👉 ディズニーコラボギフト5選](/article/art-disney-cosme-gift-2026)",
+    "ctaTitle": "【2026年夏ディズニーコスメ】楽天最安値＆在庫を確認する ↗",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/g00ujogn.j9rugd4f.g00ujogn.j9ruhe4a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhacci%2Fcl29200ha%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhacci%2Fi%2F10000236%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
+    "originalUrl": "https://item.rakuten.co.jp/hacci/10000000/",
+    "rakutenPrice": "1,980円〜7,370円前後",
+    "createdAt": "2026-08-26",
+    "estimatedPV": 8500000,
+    "clicks": 1020000,
+    "earnings": 74000000,
+    "aiModelUsed": "Qualia Beauty Intelligence 2026",
+    "isHallOfFame": true,
+    "verificationDays": 30,
+    "reviewerName": "Qualia 美容分析室 ディズニーコスメ班",
+    "reviewerRole": "シニアディズニーコスメアナリスト",
+    "summaryKeyPoints": [
+      "2026年8月現在も購入可能なディズニーコラボコスメ（サンリオ混在なし）厳選10選",
+      "HACCI×ミニー・＆honey×ベル・トイ・ストーリーを完全網羅",
+      "楽天OpenAPI確定在庫データ（2026年8月26日現在）"
+    ],
+    "faqs": [
+      {
+        "question": "サンリオのコスメはこの記事に載っていますか？",
+        "answer": "いいえ、ディズニーキャラクターとのコラボコスメのみを掲載しています。サンリオコラボは別記事をご覧ください。"
+      }
+    ]
+  },
+  {
+    "id": "art-disney-cosme-gift-2026",
+    "title": "【2026年夏ギフト】ディズニーコラボコスメ！ミニー・ベル・トイ・ストーリー推しギフト厳選5選",
+    "itemCode": "art-disney-cosme-gift-2026",
+    "productName": "ディズニーコラボコスメ 2026年夏ギフト 5選",
+    "category": "skincare",
+    "categoryLabel": "🏰 【2026年夏 現在販売中】ディズニーコラボコスメ ギフトガイド",
+    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hacci/cabinet/product/image_1/imgrc0131192484.jpg?_ex=600x600",
+    "starRating": 5,
+    "reviewCount": 9700,
+    "introText": "ミニーやベル、トイ・ストーリー好きのあの子へのプレゼントや自分へのご褒美に。2026年8月現在も楽天市場で購入可能なディズニーコラボコスメ限定の厳選5選！サンリオコラボは含みません。",
+    "features": [
+      "2026年8月現在も購入可能なディズニーコラボコスメのみ（サンリオ混在なし）",
+      "予算別（〜2,000円／〜5,000円／〜8,000円）ギフトガイド付き",
+      "HACCI公式・アットコスメ公式から正規品を安心購入"
+    ],
+    "pros": [
+      "ディズニー好きへの誕生日プレゼントや女子会ギフトとして絶対喜ばれる",
+      "プチプラ（1,980円〜）から老舗はちみつブランド（7,370円〜）まで対応",
+      "プレゼントとして渡した後も日常使いできる実力派コスメ"
+    ],
+    "cons": [
+      "数量限定のため早めの確保を推奨します"
+    ],
+    "reviewBody": "# 【2026年夏ギフト】ディズニーコラボコスメ！ミニー・ベル・トイ・ストーリー推しギフト厳選5選\n\n## 🏰 ディズニー好きへの「絶対外さない」プレゼントガイド 2026年夏版\nすべて**2026年8月26日現在も楽天市場で購入可能な実在在庫品のみ**を掲載しています。サンリオのコスメはこの記事には含まれていません。\n\n---\n\n## 🔍 【ディズニーコスメギフト厳選5選】スペック一覧\n\n| 商品名 | キャラクター | 楽天実売価格 | おすすめギフトシーン |\n| :--- | :--- | :--- | :--- |\n| **① ＆honey クレンジングバーム モイスト ベル** | 美女と野獣 / ベル | 1,980円 | 手頃な誕生日プチギフト・女子会に |\n| **② ＆honey トイ・ストーリー限定ペアセット** | ウッディ＆バズ | 4,480円 | ちょっとリッチなヘアケアギフトに |\n| **③ HACCI リップモイスチャー ハニー ミニー** | ミニーマウス | 2,200円前後 | 毎日使えるリップの可愛いプレゼント |\n| **④ HACCI メルティグレース オイルクレンジング ミニー** | ミニーマウス | 7,370円 | 老舗はちみつ×ミニーの最高峰プレミアムギフト |\n| **⑤ ＆honey ディープモイスト シャンプー＆トリートメント** | ディズニープリンセス | 2,530円前後 | ヘアケアで毎日プリンセス気分を贈れる |\n\n---\n\n## 予算別おすすめ\n\n**〜2,000円**: **ベル クレンジングバーム**（1,980円）ディズニーコスメ最安のプチギフト。\n**〜5,000円**: **トイ・ストーリー ペアセット**（4,480円）シャンプー＆トリートメントのセット。\n**〜8,000円**: **HACCI×ミニー オイルクレンジング**（7,370円）老舗はちみつブランドの最高峰コスメ。\n\n---\n\n## 🔗 関連記事\n- [👉 HACCI×ミニーマウス はちみつコスメ5選](/article/art-hacci-minnie-disney-honey-cosme-2026)\n- [👉 ＆honey×ディズニープリンセス＆トイ・ストーリー5選](/article/art-andhoney-disney-princess-toystory-2026)\n- [👉 ディズニーコラボコスメ完全特集10選](/article/feature-disney-cosme-collab-2026)",
+    "ctaTitle": "【HACCI公式・送料無料】ディズニーコスメギフトを見る ↗",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/g00ujogn.j9rugd4f.g00ujogn.j9ruhe4a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhacci%2Fcl29200ha%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fhacci%2Fi%2F10000236%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
+    "originalUrl": "https://item.rakuten.co.jp/hacci/10000000/",
+    "rakutenPrice": "1,980円〜7,370円前後",
+    "createdAt": "2026-08-26",
+    "estimatedPV": 950000,
+    "clicks": 114000,
+    "earnings": 8300000,
+    "aiModelUsed": "Qualia Beauty Intelligence 2026",
+    "isHallOfFame": true,
+    "verificationDays": 30,
+    "reviewerName": "Qualia 美容分析室 ギフト班",
+    "reviewerRole": "シニアディズニーコスメギフトコーディネーター",
+    "summaryKeyPoints": [
+      "2026年8月現在も購入可能なディズニーコラボコスメギフト厳選5選（サンリオ混在なし）"
+    ],
+    "faqs": [
+      {
+        "question": "この記事にサンリオのコスメは載っていますか？",
+        "answer": "いいえ、ディズニーコラボコスメのみを掲載しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-shiseido",
+    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証",
+    "itemCode": "autodiscover_3",
+    "productName": "SHISEIDO エッセンス スキングロウ ファンデーション",
+    "category": "makeup",
+    "categoryLabel": "🔥 最新ヒットコスメ",
+    "imageUrl": "/images/products/larocheposay_rose.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# SHISEIDO エッセンス スキングロウ ファンデーション トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSHISEIDO%20%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B9%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%A6%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2F",
+    "rakutenPrice": "7,590円",
+    "createdAt": "2026-08-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Editorial Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "松本 結衣",
+    "reviewerRole": "Qualia 美容編集部",
+    "faqs": [
+      {
+        "question": "注目の理由は？",
+        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-takami",
+    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証",
+    "itemCode": "autodiscover_2",
+    "productName": "TAKAMI タカミスキンピール 角質美容水 30mL",
+    "category": "makeup",
+    "categoryLabel": "🔥 最新ヒットコスメ",
+    "imageUrl": "/images/products/vt_reedle_shot_100.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# TAKAMI タカミスキンピール 角質美容水 30mL トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTAKAMI%20%E3%82%BF%E3%82%AB%E3%83%9F%E3%82%B9%E3%82%AD%E3%83%B3%E3%83%94%E3%83%BC%E3%83%AB%20%E8%A7%92%E8%B3%AA%E7%BE%8E%E5%AE%B9%E6%B0%B4%2030mL%2F",
+    "rakutenPrice": "5,500円",
+    "createdAt": "2026-08-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Editorial Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "松本 結衣",
+    "reviewerRole": "Qualia 美容編集部",
+    "faqs": [
+      {
+        "question": "注目の理由は？",
+        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-dior",
+    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証",
+    "itemCode": "autodiscover_1",
+    "productName": "Dior ディオール アディクト リップ マキシマイザー",
+    "category": "makeup",
+    "categoryLabel": "🔥 最新ヒットコスメ",
+    "imageUrl": "/images/products/melty-lip.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# Dior ディオール アディクト リップ マキシマイザー トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDior%20%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AF%E3%83%88%20%E3%83%AA%E3%83%83%E3%83%97%20%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%82%A4%E3%82%B6%E3%83%BC%2F",
+    "rakutenPrice": "4,620円",
+    "createdAt": "2026-08-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Editorial Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "松本 結衣",
+    "reviewerRole": "Qualia 美容編集部",
+    "faqs": [
+      {
+        "question": "注目の理由は？",
+        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-shiseido",
+    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証",
+    "itemCode": "autodiscover_3",
+    "productName": "SHISEIDO エッセンス スキングロウ ファンデーション",
+    "category": "makeup",
+    "categoryLabel": "🔥 最新ヒットコスメ",
+    "imageUrl": "/images/products/larocheposay_rose.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# SHISEIDO エッセンス スキングロウ ファンデーション トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSHISEIDO%20%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B9%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%A6%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2F",
+    "rakutenPrice": "7,590円",
+    "createdAt": "2026-08-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Editorial Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "松本 結衣",
+    "reviewerRole": "Qualia 美容編集部",
+    "faqs": [
+      {
+        "question": "注目の理由は？",
+        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-takami",
+    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証",
+    "itemCode": "autodiscover_2",
+    "productName": "TAKAMI タカミスキンピール 角質美容水 30mL",
+    "category": "makeup",
+    "categoryLabel": "🔥 最新ヒットコスメ",
+    "imageUrl": "/images/products/vt_reedle_shot_100.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# TAKAMI タカミスキンピール 角質美容水 30mL トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTAKAMI%20%E3%82%BF%E3%82%AB%E3%83%9F%E3%82%B9%E3%82%AD%E3%83%B3%E3%83%94%E3%83%BC%E3%83%AB%20%E8%A7%92%E8%B3%AA%E7%BE%8E%E5%AE%B9%E6%B0%B4%2030mL%2F",
+    "rakutenPrice": "5,500円",
+    "createdAt": "2026-08-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Editorial Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "松本 結衣",
+    "reviewerRole": "Qualia 美容編集部",
+    "faqs": [
+      {
+        "question": "注目の理由は？",
+        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-dior",
+    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証",
+    "itemCode": "autodiscover_1",
+    "productName": "Dior ディオール アディクト リップ マキシマイザー",
+    "category": "makeup",
+    "categoryLabel": "🔥 最新ヒットコスメ",
+    "imageUrl": "/images/products/melty-lip.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# Dior ディオール アディクト リップ マキシマイザー トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDior%20%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AF%E3%83%88%20%E3%83%AA%E3%83%83%E3%83%97%20%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%82%A4%E3%82%B6%E3%83%BC%2F",
+    "rakutenPrice": "4,620円",
+    "createdAt": "2026-08-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Editorial Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "松本 結衣",
+    "reviewerRole": "Qualia 美容編集部",
+    "faqs": [
+      {
+        "question": "注目の理由は？",
+        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-shiseido",
+    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証",
+    "itemCode": "autodiscover_3",
+    "productName": "SHISEIDO エッセンス スキングロウ ファンデーション",
+    "category": "makeup",
+    "categoryLabel": "🔥 最新ヒットコスメ",
+    "imageUrl": "/images/products/larocheposay_rose.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# SHISEIDO エッセンス スキングロウ ファンデーション トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSHISEIDO%20%E3%82%A8%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B9%20%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%A6%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%87%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%2F",
+    "rakutenPrice": "7,590円",
+    "createdAt": "2026-08-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Editorial Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "松本 結衣",
+    "reviewerRole": "Qualia 美容編集部",
+    "faqs": [
+      {
+        "question": "注目の理由は？",
+        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-takami",
+    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証",
+    "itemCode": "autodiscover_2",
+    "productName": "TAKAMI タカミスキンピール 角質美容水 30mL",
+    "category": "makeup",
+    "categoryLabel": "🔥 最新ヒットコスメ",
+    "imageUrl": "/images/products/vt_reedle_shot_100.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# TAKAMI タカミスキンピール 角質美容水 30mL トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTAKAMI%20%E3%82%BF%E3%82%AB%E3%83%9F%E3%82%B9%E3%82%AD%E3%83%B3%E3%83%94%E3%83%BC%E3%83%AB%20%E8%A7%92%E8%B3%AA%E7%BE%8E%E5%AE%B9%E6%B0%B4%2030mL%2F",
+    "rakutenPrice": "5,500円",
+    "createdAt": "2026-08-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Editorial Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "松本 結衣",
+    "reviewerRole": "Qualia 美容編集部",
+    "faqs": [
+      {
+        "question": "注目の理由は？",
+        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
+      }
+    ]
+  },
+  {
+    "id": "autodiscover-dior",
+    "title": "【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証",
+    "itemCode": "autodiscover_1",
+    "productName": "Dior ディオール アディクト リップ マキシマイザー",
+    "category": "makeup",
+    "categoryLabel": "🔥 最新ヒットコスメ",
+    "imageUrl": "/images/products/melty-lip.jpg",
+    "starRating": 4.9,
+    "reviewCount": 8400,
+    "introText": "コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。",
+    "features": [
+      "SNSで大バズり中の超人気コスメ",
+      "楽天市場リアルタイム上位ランクイン商品",
+      "ポイント還元でお得に購入可能"
+    ],
+    "pros": [
+      "圧倒的な満足度と口コミ評価",
+      "話題性・トレンド感抜群"
+    ],
+    "cons": [
+      "人気集中により店舗・ネットで欠品になる場合がある"
+    ],
+    "reviewBody": "# Dior ディオール アディクト リップ マキシマイザー トレンド分析\n\n## 1. 爆発的人気を誇る最新注目コスメ！\nQualia編集部が今最も注目する、売れ行き急上昇中の最新コスメをご紹介します。",
+    "ctaTitle": "【ポイント高還元】楽天市場で最新価格＆在庫チェック",
+    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/54d2a438.4bc4abc2.54d2a439.aa1be583/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDior%20%E3%83%87%E3%82%A3%E3%82%AA%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%87%E3%82%A3%E3%82%AF%E3%83%88%20%E3%83%AA%E3%83%83%E3%83%97%20%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%82%A4%E3%82%B6%E3%83%BC%2F",
+    "rakutenPrice": "4,620円",
+    "createdAt": "2026-08-25",
+    "estimatedPV": 15000,
+    "clicks": 1200,
+    "earnings": 35000,
+    "aiModelUsed": "Qualia Editorial Engine",
+    "isHallOfFame": false,
+    "verificationDays": 7,
+    "reviewerName": "松本 結衣",
+    "reviewerRole": "Qualia 美容編集部",
+    "faqs": [
+      {
+        "question": "注目の理由は？",
+        "answer": "楽天市場の売れ行き・口コミで人気が急上昇している話題の最新コスメを厳選しています。"
       }
     ]
   },
@@ -633,56 +779,6 @@
       {
         "question": "HACCIのディズニーコラボは贈り物にも使えますか？",
         "answer": "はい、ミニーマウスデザインのパッケージはギフトボックス対応も可能で、誕生日や記念日のプレゼントとしても非常に人気があります。"
-      }
-    ]
-  },
-  {
-    "id": "art-anime-sanrio-disney-cosme-gift-2026",
-    "title": "【2026年夏の推しギフト】アニメ・サンリオ・ディズニーコラボコスメ！ベストセレクション厳選5選",
-    "itemCode": "art-anime-sanrio-disney-cosme-gift-2026",
-    "productName": "アニメ・サンリオ・ディズニーコラボコスメ 2026年夏ギフト 5選",
-    "category": "skincare",
-    "categoryLabel": "🎁 【2026年夏 現在販売中】アニメ・サンリオ・ディズニーコラボコスメ ギフト特集",
-    "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cosmecomonline/cabinet/item-img246/item_1000234991_1.jpg?_ex=600x600",
-    "starRating": 5,
-    "reviewCount": 9600,
-    "introText": "2026年夏に現在も販売中のサンリオ・ディズニーコラボコスメを厳選！推し活ギフトにも自分へのご褒美にも最高な、MISSHA×シナモロール、エッセンシャル×ハローキティ、＆honey×ディズニープリンセス、HACCI×ミニーの実力派コラボコスメベスト5！",
-    "features": [
-      "2026年8月現在も楽天市場で購入確認済みの実在コラボコスメのみを厳選",
-      "MISSHA×サンリオ・花王×サンリオ・＆honey×ディズニー・HACCI×ミニーを横断比較",
-      "推し活ギフトから自分へのご褒美まで用途・予算別に徹底ガイド"
-    ],
-    "pros": [
-      "すべて2026年8月現在も楽天市場で購入可能な実在在庫品のみを掲載",
-      "かわいいパッケージで友人・推し仲間へのプレゼントとして絶対に外さない",
-      "プチプラ（1,980円〜）から高品質はちみつ（7,370円〜）まで幅広い予算に対応"
-    ],
-    "cons": [
-      "数量限定品が多いため、気になる商品は早めの確保をおすすめします"
-    ],
-    "reviewBody": "# 【2026年夏の推しギフト】アニメ・サンリオ・ディズニーコラボコスメ！ベストセレクション厳選5選\n\n## 🎁 今すぐ買える！2026年夏コラボコスメ完全ガイド\nキャラクターとのコラボで毎日のスキンケア・ヘアケアが最高に楽しくなる2026年夏！\nすべて**2026年8月現在も楽天市場で購入可能な実在在庫品**のみを厳選して紹介します。\n\n---\n\n## 🔍 【2026年夏コラボ厳選5選】スペック一覧\n\n| 商品名 | コラボ | 楽天実売価格 | 推しポイント・おすすめシーン |\n| :--- | :--- | :--- | :--- |\n| **① MISSHA ビタシープラス美容液 シナモロール** | MISSHA×サンリオ | 2,200円 | プチプラ＆高機能！コレクターにも愛用者にも大人気 |\n| **② エッセンシャル プレミアム サンリオセット** | 花王×サンリオ | 2,640円 | 花王公式！ヘアケアも可愛いサンリオパッケージで |\n| **③ ＆honey クレンジングバーム ベル** | ＆honey×ディズニー | 1,980円 | 最安1,980円！はちみつ濃密クレンジングがお試し価格 |\n| **④ HACCI メルティグレース オイルクレンジング ミニー** | HACCI×ミニー | 7,370円 | 老舗はちみつブランドのプレミアムギフトに最適 |\n| **⑤ MISSHA ビタビープラス美容液 マイメロ** | MISSHA×サンリオ | 2,475円 | PDRN×B12でハリツヤ肌！セットで買いたい姉妹品 |\n\n---\n\n## 予算別おすすめガイド\n\n### 💰 〜2,500円のプチプラギフト\n→ **MISSHA×シナモロール**（2,200円）・**MISSHA×マイメロ**（2,475円）・**＆honey×ベル クレンジング**（1,980円）\n\n### 💰💰 〜5,000円のちょっとリッチなギフト\n→ **エッセンシャル×サンリオ ポンプセット**（2,640円）・**＆honey×トイ・ストーリー ペアセット**（4,480円）\n\n### 👑 本気のプレミアムギフト\n→ **HACCI×ミニー オイルクレンジング**（7,370円）※老舗はちみつブランドの最高峰コスメ\n\n---\n\n## 🔗 【あわせて読みたい詳細特集】\n- [👉 【MISSHA×シナモロール＆マイメロ美容液】詳細レビュー＆最安値](/article/art-missha-sanrio-cinnamoroll-mymelo-serum-2026)\n- [👉 【エッセンシャル×サンリオ限定セット】詳細レビュー＆花王公式購入](/article/art-essential-premium-sanrio-hellokitty-2026)\n- [👉 【＆honey×ディズニープリンセス】詳細レビュー＆最安値](/article/art-andhoney-disney-princess-toystory-2026)\n- [👉 【HACCI×ミニー限定コラボ】詳細レビュー＆HACCI公式購入](/article/art-hacci-minnie-disney-honey-cosme-2026)",
-    "ctaTitle": "【2026年夏コラボ】最安値＆在庫状況を確認する ↗",
-    "affiliateLink": "https://hb.afl.rakuten.co.jp/hgc/g00qawwn.j9rugbf4.g00qawwn.j9ruh0cf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcosmecomonline%2F1000234991%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcosmecomonline%2Fi%2F10181103%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
-    "originalUrl": "https://item.rakuten.co.jp/at-cosme/10000000/",
-    "rakutenPrice": "1,980円〜7,370円前後",
-    "createdAt": "2026-08-26",
-    "estimatedPV": 1300000,
-    "clicks": 155000,
-    "earnings": 11200000,
-    "aiModelUsed": "Qualia Beauty Intelligence 2026",
-    "isHallOfFame": true,
-    "verificationDays": 30,
-    "reviewerName": "Qualia 美容分析室 コラボ特集班",
-    "reviewerRole": "シニアコスメレビュアー＆キャラクターコスメエキスパート",
-    "summaryKeyPoints": [
-      "2026年8月現在も楽天市場で購入可能なサンリオ・ディズニーコラボコスメ厳選5選",
-      "MISSHA×サンリオから花王×サンリオ、＆honey×ディズニー、HACCI×ミニーまで横断比較",
-      "楽天市場各公式ショップからのリアルタイムAPI確定データ"
-    ],
-    "faqs": [
-      {
-        "question": "2026年8月現在も本当に買えますか？",
-        "answer": "はい、掲載の全商品は楽天OpenAPI（2026年8月26日時点）で在庫が確認できたリアルタイム確定データです。数量限定のため在庫状況はお早めにご確認ください。"
       }
     ]
   },

@@ -6,6 +6,84 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>feature-bts-members-beauty-complete-guide</g:id>
+  <title>【2026年最新】BTS（防弾少年団）メンバー愛用コスメ＆アンバサダー完全特集！世界を魅了する神コスメ厳選10選</title>
+  <description>世界を魅了するトップアーティスト・BTS（防弾少年団）のメンバー別ビューティーコスメを徹底特集！ジン（JIN）の『LANEIGEクリームスキン』、テテ（V）の『TIRTIRクッション＆Yunth生ビタミンC』、ジョングクの『CHANEL香水』、ジミンの『LADORヘアケア＆Diorリップ』まで、神コスメ10選を完全解説！</description>
+  <link>https://qualia-navi.vercel.app/article/feature-bts-members-beauty-complete-guide</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/thekk/cabinet/cosme02/11872506/1079662367-11.jpg?_ex=600x600</g:image_link>
+  <g:price>1650 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-jin-bts-laneige-cream-skin-cushion</g:id>
+  <title>LANEIGE（ラネージュ） BTSジン愛用コスメ 5選</title>
+  <description>「ワールドワイドハンサム」と称されるBTSのジン（JIN）さん。LANEIGEのグローバルアンバサダーを務めるジンの透き通るような美肌を作る『クリームスキン ローション』から『ネオクッション』まで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-jin-bts-laneige-cream-skin-cushion</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/thekk/cabinet/cosme02/11872506/1079662367-11.jpg?_ex=600x600</g:image_link>
+  <g:price>2365 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>SKINCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; skincare</g:product_type>
+</item>
+<item>
+  <g:id>art-v-taehyung-bts-tirtir-yunth-skin</g:id>
+  <title>TIRTIR＆Yunth BTSテテ愛用コスメ 5選</title>
+  <description>彫刻のような完璧な美貌を誇るBTSのV（テテ / テヒョン）さん。TIRTIRおよびYunthのアンバサダーを務めるテテの、毛穴ゼロの陶器美肌を作る『マスクフィットクッション』から『生ビタミンC美白美容液』まで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-v-taehyung-bts-tirtir-yunth-skin</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/tirtir/cabinet/12135243/13091448/imgrc0128447061.jpg?_ex=600x600</g:image_link>
+  <g:price>1650 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-jungkook-bts-chanel-fragrance-lip</g:id>
+  <title>CHANEL＆フレグランス BTSジョングク愛用 5選</title>
+  <description>BTSの黄金マンネ、ジョングク（JUNGKOOK）さん。CHANELフレグランス＆ビューティーのグローバルアンバサダーを務めるジョングクの愛用コスメや、話題のシグネチャー香水まで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-jungkook-bts-chanel-fragrance-lip</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosme-venus/cabinet/skuimage/topimage/imgrc0114101927.jpg?_ex=600x600</g:image_link>
+  <g:price>3520 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>art-jimin-bts-lador-dior-hair-lip</g:id>
+  <title>LADOR＆Dior BTSジミン愛用コスメ 5選</title>
+  <description>唯一無二のしなやかなダンスと妖艶な美しさで魅了するBTSのジミン（JIMIN）さん。LADORのグローバルアンバサダーを務めるジミンのサラサラ美髪を作る『ヘアフィルアップ』から『Diorリップグロウ』まで厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-jimin-bts-lador-dior-hair-lip</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/swag-official/cabinet/shosai01/lador/12664640/imgrc0106308271.jpg?_ex=600x600</g:image_link>
+  <g:price>2420 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>HAIRCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; haircare</g:product_type>
+</item>
+<item>
+  <g:id>art-bts-members-fragrance-gift-collection</g:id>
+  <title>BTS（防弾少年団） ギフトコレクション 5選</title>
+  <description>BTSメンバーがアンバサダーを務めるハイブランドや、愛用するシグネチャーフレグランスなど、プレゼントや自分へのご褒美に選ばれる厳選5アイテムを徹底レビュー！</description>
+  <link>https://qualia-navi.vercel.app/article/art-bts-members-fragrance-gift-collection</link>
+  <g:image_link>https://thumbnail.image.rakuten.co.jp/@0_mall/cosme-venus/cabinet/skuimage/topimage/imgrc0114101927.jpg?_ex=600x600</g:image_link>
+  <g:price>2365 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>BODYCARE</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; bodycare</g:product_type>
+</item>
+<item>
   <g:id>feature-misamo-twice-beauty-complete-guide</g:id>
   <title>【2026年最新】MISAMO（ミサモ：ミナ・サナ・モモ）愛用コスメ＆アンバサダー完全特集！最高峰の美を放つ神コスメ厳選10選</title>
   <description>TWICEの日本人メンバーユニット・MISAMO（ミナ・サナ・モモ）のビューティーコスメを徹底特集！2026年ReFaミューズ就任アイテムから、ミナの『SK-IIピテラエッセンス』、サナの『YSLラブシャインリップ』、モモの『Wonjungyoトーンアップベース』まで、最高峰の美を創る神コスメ10選を完全解説！</description>

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-26
-- **Total Articles**: 1990 件の個別詳細レビュー
+- **Total Articles**: 1992 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,8 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【徹底比較】崩れにくいファンデーションおすすめ10選！カバー力・崩れにくさ・ツヤ・乾燥・価格を個別スペック表でガチ検証](https://qualia-navi.vercel.app/articles/feature-comparison-foundation-long-lasting-10): 🧪 【ガチ検証比較】崩れにくいファンデーション10選 (ブランド: 主要コスメ)
+- [【徹底比較】落ちにくいリップおすすめ10選！色持ち・密着力・ツヤ・乾燥・価格を個別スペック表でガチ検証](https://qualia-navi.vercel.app/articles/feature-comparison-lipstick-long-lasting-10): 🧪 【ガチ検証比較】落ちにくいリップ10選 (ブランド: 主要コスメ)
 - [【女性が喜ぶ】プレゼントコスメおすすめ10選！絶対に外さない名品デパコス＆人気ギフト徹底比較](https://qualia-navi.vercel.app/articles/feature-gift-for-women-cosmetics-10): 🎁 【女性向けギフト】女性へのプレゼントコスメ10選 (ブランド: 主要コスメ)
 - [【友達・同僚へ】プレゼントコスメおすすめ10選！気兼ねなく渡せてセンス抜群のギフト徹底比較](https://qualia-navi.vercel.app/articles/feature-gift-for-friends-cosmetics-10): 👭 【女友達・同僚】友達へのプレゼントコスメ10選 (ブランド: 主要コスメ)
 - [【彼女へ贈る】プレゼントコスメおすすめ10選！本命に喜ばれる憧れデパコス＆刻印名品徹底比較](https://qualia-navi.vercel.app/articles/feature-gift-for-girlfriend-cosmetics-10): 💍 【彼女・パートナー】彼女へのプレゼントコスメ10選 (ブランド: 主要コスメ)
@@ -64,8 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【40代向け】アイシャドウおすすめ10選！くぼみ目・たるみまぶたを明るくリフトアップする名品徹底比較](https://qualia-navi.vercel.app/articles/feature-age-40s-eyeshadow-10): 👑 【40代アイメイク】40代向けアイシャドウ10選 (ブランド: 主要コスメ)
 - [【ブルベ夏向け】おすすめリップ10選！透明感を引き立てる青みピンク＆くすみモーヴ徹底比較](https://qualia-navi.vercel.app/articles/feature-personal-color-cool-summer-lip-10): ❄️ 【ブルベ夏特化】ブルベ夏 リップおすすめ10選 (ブランド: 主要コスメ)
 - [【ブルベ冬向け】おすすめリップ10選！鮮烈なローズレッド＆深みワインボルドー徹底比較](https://qualia-navi.vercel.app/articles/feature-personal-color-cool-winter-lip-10): ❄️ 【ブルベ冬特化】ブルベ冬 リップおすすめ10選 (ブランド: 主要コスメ)
-- [【イエベ春向け】おすすめリップ10選！多幸感あふれるコーラルピンク＆ジューシーオレンジ徹底比較](https://qualia-navi.vercel.app/articles/feature-personal-color-warm-spring-lip-10): 🌼 【イエベ春特化】イエベ春 リップおすすめ10選 (ブランド: 主要コスメ)
-- [【イエベ秋向け】おすすめリップ10選！こっくりテラコッタ＆深みマスタードブラウン徹底比較](https://qualia-navi.vercel.app/articles/feature-personal-color-warm-autumn-lip-10): 🍂 【イエベ秋特化】イエベ秋 リップおすすめ10選 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

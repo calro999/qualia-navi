@@ -350,6 +350,185 @@ export const INITIAL_ARTICLES: RakutenProductArticle[] =
  */
 export const INITIAL_BLOG_POSTS: BlogPost[] = [
   {
+    id: 'blog-niacinamide-wrinkle-brightening-2026',
+    slug: 'niacinamide-wrinkle-brightening-2026',
+    title: '【シワ改善×美白】ナイアシンアミド高配合の神コスメ・美容液10選',
+    subtitle: 'AnuaダークスポットセラムからONE BY KOSE、コスメデコルテまで！大人のシワとくすみを同時ケアする名品を徹底比較。',
+    targetGender: 'unisex',
+    coverImage: 'https://shop.r10s.jp/anuajapan/cabinet/10467510/11810334/anua00093_2800_cou.jpg',
+    authorId: 'author-tachibana',
+    authorName: '橘 えりか',
+    authorRole: 'Qualia Navi コスメ＆美容編集長',
+    authorAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+    createdAt: '2026-08-26',
+    readTimeMinutes: 8,
+    introText: '「目元や口元の小ジワが気になり始めた」「顔全体のくすみやハリ不足を一気にケアしたい」…そんな大人の肌悩みに最も頼れる成分が【ナイアシンアミド（ビタミンB3）】です。今回は、ナイアシンアミド10%配合のAnuaダークスポットセラムをはじめ、シワ改善と美白のダブル認可を受けた実力派コスメ10選を徹底レビューします！',
+    recommendedItemCodes: ["art-feat5-anua-niacin-darkspot", "art-feat5-decorte-ipshot", "art-feat5-orbis-wrinkle-bright", "art-feat5-nameraka-wrinkle-serum", "art-feat5-drcilabo-enrich-lift", "art-feat5-muji-wrinkle-serum", "art-feat5-sofina-basecare", "art-feat5-laroche-n10-serum", "art-feat5-elixir-wrinkle-cream", "art-feat5-kose-the-wrinkless"],
+    isHallOfFame: true,
+    contentMarkdown: `## なぜ今「ナイアシンアミド」がコスメ界で最も選ばれているのか？
+
+ナイアシンアミドは、厚生労働省から**「シワ改善」**と**「美白（メラニンの生成を抑えシミ・そばかすを防ぐ）」**の両方で効果が認められている稀有なスーパースター成分です。
+
+さらに、肌のバリア機能に不可欠な**「セラミドの合成を促進する」**働きや、**「過剰な皮脂分泌を抑えて毛穴を引き締める」**作用も兼ね備えており、刺激が少なく敏感肌でも朝晩使いやすいのが最大の特長です。
+
+---
+
+## 🎯 目的別！ナイアシンアミドコスメの選び方
+
+### 1. 【高濃度10%でくすみ・肌トーンを一掃】
+👉 **[Anua ダークスポットセラム](/articles/art-feat5-anua-niacin-darkspot)**、**[ラ ロッシュ ポゼ N10 セラム](/articles/art-feat5-laroche-n10-serum)**
+- ナイアシンアミド10%の圧倒的パワーで、色ムラやくすんだ素肌をクリアにトーンアップ。
+
+### 2. 【目元・口元の深いシワをピンポイント改善】
+👉 **[ONE BY KOSE ザ リンクレス W](/articles/art-feat5-kose-the-wrinkless)**、**[コスメデコルテ iP.Shot アドバンスト](/articles/art-feat5-decorte-ipshot)**、**[資生堂 エリクシール リンクルクリーム](/articles/art-feat5-elixir-wrinkle-cream)**
+- 表皮と真皮へダイレクトに届き、刻まれた年齢サインをふっくら押し上げる濃密密着クリーム。
+
+### 3. 【顔全体に惜しみなく使って全顔リフト】
+👉 **[オルビス リンクルブライトセラム](/articles/art-feat5-orbis-wrinkle-bright)**、**[なめらか本舗 薬用リンクル美容液](/articles/art-feat5-nameraka-wrinkle-serum)**
+- 全顔にスルスル伸び広がり、毎日のデイリーケアでたるみ毛穴やハリ不足を予防。
+
+### 4. 【時短で完了する高機能オールインワン・炭酸泡】
+👉 **[ドクターシーラボ エンリッチリフトEX](/articles/art-feat5-drcilabo-enrich-lift)**、**[ソフィーナiP ベースケア セラム](/articles/art-feat5-sofina-basecare)**
+- 忙しい朝晩でも1本で濃密なリフト＆浸透ケアを完結。
+
+---
+
+楽天市場の公式・認定ショップでは、ポイント高還元や限定セットでお得に手に入ります。ぜひ今すぐチェックしてみてください！`
+  },
+  {
+    id: 'blog-morning-makeup-prep-2026',
+    slug: 'morning-makeup-prep-2026',
+    title: '【朝用スキンケア決定版】メイク崩れ・テカリを徹底ブロックする先行美容液＆下地10選',
+    subtitle: 'Anuaアゼライン酸、カネボウ朝クリーム、クレ・ド・ポー下地…夕方までドロドロ崩れ知らずの極上肌へ！',
+    targetGender: 'unisex',
+    coverImage: 'https://shop.r10s.jp/boundless/cabinet/10359033/13049356/imgrc0144289620.jpg',
+    authorId: 'author-hasumi',
+    authorName: '蓮見 拓真',
+    authorRole: 'Qualia Navi 統括編集長',
+    authorAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    createdAt: '2026-08-26',
+    readTimeMinutes: 8,
+    introText: '「お昼過ぎにはTゾーンがテカってファンデがドロドロ」「夕方になると乾燥して毛穴落ちする」「朝のスキンケアと下地の相性が悪くてモロモロが出る」…そんな朝のメイク崩れ悩みを解決する【朝用スキンケア＆先行下地10選】を徹底解説します！',
+    recommendedItemCodes: ["art-feat6-anua-azelaic-morning", "art-feat6-kanebo-fresh-day-cream", "art-feat6-pauljoe-primer", "art-feat6-maquillage-skin-sensor", "art-feat6-primavista-skin-protect", "art-feat6-cledepeau-voile", "art-feat6-decorte-sun-cc", "art-feat6-dalba-mist-serum", "art-feat6-astalift-duv-clear", "art-feat6-clarins-fix-makeup"],
+    isHallOfFame: true,
+    contentMarkdown: `## なぜ「朝のスキンケア」でメイクの持ちが9割決まるのか？
+
+日中のメイク崩れの主な原因は、**「①過剰な皮脂分泌によるドロドロ崩れ」**と**「②肌の水分不足（インナードライ）によるカサつき崩れ」**の2つです。
+
+夜と同じ重たい油分クリームを朝に塗るとファンデーションが滑って崩れ、逆にさっぱりしすぎると日中の乾燥で皮脂が暴走してしまいます。
+
+正解は、**「皮脂抑制成分（アゼライン酸等）でテカリの元を抑え」「朝専用の水分保持クリームや高機能下地でピタッと密着させる」**ことです。
+
+---
+
+## 🌅 朝の鉄壁ルーティン！目的別アイテムガイド
+
+### 1. 【皮脂抑制＆テカリ防止】日中のあぶら浮きを根本ブロック
+👉 **[Anua アゼライン酸15 カーミングセラム](/articles/art-feat6-anua-azelaic-morning)**、**[プリマヴィスタ スキンプロテクトベース](/articles/art-feat6-primavista-skin-protect)**
+- Tゾーンや小鼻の皮脂分泌をピタッと抑え、一日中サラサラ肌をキープ。
+
+### 2. 【乾燥崩れ防止＆極上のツヤ】一日中乾かない朝用保湿
+👉 **[カネボウ フレッシュ デイ クリーム](/articles/art-feat6-kanebo-fresh-day-cream)**、**[ポール＆ジョー プライマー](/articles/art-feat6-pauljoe-primer)**
+- 赤ちゃんの胎脂発想クリームやシャンパンパールが、乾燥知らずのうるおい発光肌を演出。
+
+### 3. 【毛穴レス＆素肌格上げ】デパコス級の美肌フィルター
+👉 **[クレ・ド・ポー ボーテ ヴォワールコレクチュールn](/articles/art-feat6-cledepeau-voile)**、**[マキアージュ ドラマティックスキンセンサーベース NEO](/articles/art-feat6-maquillage-skin-sensor)**
+- 塗った瞬間から毛穴や小ジワを消去し、13時間化粧持ちを実現。
+
+### 4. 【時短＆日中リフレッシュミスト】
+👉 **[コスメデコルテ サンシェルター CC](/articles/art-feat6-decorte-sun-cc)**、**[ダルバ スプレーセラム](/articles/art-feat6-dalba-mist-serum)**、**[クラランス フィックス メイクアップ](/articles/art-feat6-clarins-fix-makeup)**
+- メイクの仕上げや日中の水分補給で、プロ級のメイク持ちをロック。
+
+---
+
+朝の仕込みを変えるだけで、夕方の鏡を見るのが楽しみになります。ぜひ楽天市場でお得に手に入れてみてください！`
+  },
+  {
+    id: 'blog-pdrn-glutathione-trend-2026',
+    slug: 'pdrn-glutathione-trend-2026',
+    title: '【2026年トレンド直撃】PDRN・白玉グルタチオン配合の韓国美容液10選',
+    subtitle: 'VT PDRNエッセンス、メディキューブ、リジュラン…韓国現地オリーブヤングで爆売れ中の最先端成分を徹底比較！',
+    targetGender: 'unisex',
+    coverImage: 'https://shop.r10s.jp/roseroseshop/cabinet/09833634/imgrc0112208919.jpg',
+    authorId: 'author-tachibana',
+    authorName: '橘 えりか',
+    authorRole: 'Qualia Navi コスメ＆美容編集長',
+    authorAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+    createdAt: '2026-08-26',
+    readTimeMinutes: 8,
+    introText: '美容大国・韓国で今もっとも熱い注目を浴びているのが、サーモン注射発想の【PDRN】と、白玉点滴発想の【高純度グルタチオン】。クリニックの施術級の効果を自宅で手軽に体験できるとSNSでも話題沸騰中です。今回は、2026年の最先端トレンドを牽引する【PDRN＆白玉グルタチオン韓国美容液10選】を徹底紹介します！',
+    recommendedItemCodes: ["art-feat7-vt-pdrn-essence", "art-feat7-medicube-pdrn-ampoule", "art-feat7-anua-darkspot-txa", "art-feat7-numbuzin-pad-glutathione", "art-feat7-iope-retinol-super", "art-feat7-cnp-propolis-ampoule", "art-feat7-rejuran-dual-ampoule", "art-feat7-biohealboh-3d-ampoule", "art-feat7-goodal-vitac-serum", "art-feat7-hera-hydro-ampoule"],
+    isHallOfFame: true,
+    contentMarkdown: `## なぜ「PDRN」と「グルタチオン」が韓国スキンケアを席巻しているのか？
+
+- **🧬 PDRN（ポリデオキシリボヌクレオチド）**: サーモンのDNAから抽出された成分で、肌の自己再生力を高め、ダメージを受けた肌組織の修復・ハリ弾力の向上を促します。
+- **✨ グルタチオン**: 強力な抗酸化作用を持ち、くすみの元となるメラニンを無色化へと導く白玉点滴の主成分。
+
+この2大成分は、**「肌の密度・ハリを高める（PDRN）」**と**「圧倒的な発光透明感を与える（グルタチオン）」**という究極のシナジーを生み出します。
+
+---
+
+## 🌟 トレンド直撃！注目の韓国最先端美容液
+
+### 1. 【PDRNによる肌再生＆リフティング】
+👉 **[VT PDRN エッセンス 100](/articles/art-feat7-vt-pdrn-essence)**、**[メディキューブ PDRN ピンクペプチドアンプル](/articles/art-feat7-medicube-pdrn-ampoule)**、**[リジュラン デュアル エフェクト アンプル](/articles/art-feat7-rejuran-dual-ampoule)**
+- 植物性・医療発想のPDRNがしぼんだ肌をふっくら押し上げ、毛穴の目立たない弾力肌へ。
+
+### 2. 【高純度グルタチオン＆美白トーンアップ】
+👉 **[ナンバーズイン 5番 白玉グルタチオン フィルムパッド](/articles/art-feat7-numbuzin-pad-glutathione)**、**[Anua ダークスポットセラム](/articles/art-feat7-anua-darkspot-txa)**、**[グーダル 青みかん ビタC セラム](/articles/art-feat7-goodal-vitac-serum)**
+- くすみ痕や日焼けダメージをリセットし、素肌から澄み渡る白玉美肌へ。
+
+### 3. 【肌密度強化＆ラグジュアリー水光ツヤ】
+👉 **[IOPE レチノール スーパーバウンス セラム](/articles/art-feat7-iope-retinol-super)**、**[バイオヒールボ 3D アンプル](/articles/art-feat7-biohealboh-3d-ampoule)**、**[HERA ハイドロ アンプル](/articles/art-feat7-hera-hydro-ampoule)**
+- 低刺激レチノールやプロバイオティクスが肌の立体感を際立たせる極上の仕上がり。
+
+---
+
+韓国トレンドの最前線を走る実力派コスメを、楽天市場の公式ショップでぜひ体感してください！`
+  },
+  {
+    id: 'blog-acne-scar-pore-repair-2026',
+    slug: 'acne-scar-pore-repair-2026',
+    title: '【繰り返す肌荒れ脱却】毛穴詰まり・ニキビ跡・凸凹肌をなめらかに整えるリペアコスメ10選',
+    subtitle: 'Anuaアゼライン酸50ml、メラノCC、ケアセラAP、アベンヌ…凸凹肌をなめらかに修復する神アイテム！',
+    targetGender: 'unisex',
+    coverImage: 'https://shop.r10s.jp/anuajapan/cabinet/11120557/11837514/azelaicacid_big.jpg',
+    authorId: 'author-hasumi',
+    authorName: '蓮見 拓真',
+    authorRole: 'Qualia Navi 統括編集長',
+    authorAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    createdAt: '2026-08-26',
+    readTimeMinutes: 8,
+    introText: '「ニキビが治っても赤みや茶色い跡が残る」「小鼻やあご周りのザラつき・毛穴詰まりが繰り返す」「クレーターや凸凹した肌を手触りよくなめらかにしたい」…そんなしつこい肌トラブルを断ち切る【毛穴詰まり・ニキビ跡・凸凹肌リペアコスメ10選】を皮膚科学視点で徹底解説します！',
+    recommendedItemCodes: ["art-feat8-anua-azelaic-50ml", "art-feat8-melano-cc-spot-serum", "art-feat8-ceracolla-ap-lotion", "art-feat8-avene-cicalfate-cream", "art-feat8-mentholatum-acnes25-mist", "art-feat8-orbis-clearful-liquid", "art-feat8-curel-face-cream", "art-feat8-drk-abc-g-serum", "art-feat8-zoskin-balancertoner", "art-feat8-dprogram-acne-emulsion"],
+    isHallOfFame: true,
+    contentMarkdown: `## なぜ「ニキビ跡と凸凹」は自己流ケアでは治りにくいのか？
+
+ニキビが治った後の赤みや色素沈着、凸凹は、毛穴の深部で起きた強い炎症によって**「メラノサイトの過剰活性化」**と**「真皮コラーゲンの損傷」**が生じている状態です。
+
+これらを滑らかに整えるためには、**「①アゼライン酸やビタミンCでメラニンと皮脂を抑える」「②7種セラミドやCICAで角層バリアを完全修復する」「③マイルドな酸やレチノールでターンオーバーを促す」**という計画的なリペアケアが不可欠です。
+
+---
+
+## 🛡️ 悩み別！肌リペアの最強布陣
+
+### 1. 【ニキビ跡の赤み・皮脂・凸凹を集中ケア】
+👉 **[Anua アゼライン酸15 カーミングセラム 50ml](/articles/art-feat8-anua-azelaic-50ml)**、**[メラノCC 薬用しみ集中対策プレミアム美容液](/articles/art-feat8-melano-cc-spot-serum)**
+- アゼライン酸15%と高濃度ビタミンCが、頑固な赤みと毛穴詰まりをスピード改善。
+
+### 2. 【傷ついた肌バリアの根本修復】
+👉 **[ケアセラ AP フェイス＆ボディ乳液](/articles/art-feat8-ceracolla-ap-lotion)**、**[アベンヌ シカルファットプラス](/articles/art-feat8-avene-cicalfate-cream)**、**[キュレル 潤浸保湿フェイスクリーム](/articles/art-feat8-curel-face-cream)**
+- 7種天然型セラミドやアベンヌCICAが、薄くなった角層を鉄壁ガード。
+
+### 3. 【毛穴の詰まり解消＆pHコントロール】
+👉 **[オルビス クリアフル クレンジング](/articles/art-feat8-orbis-clearful-liquid)**、**[ゼオスキン バランサートナー](/articles/art-feat8-zoskin-balancertoner)**、**[ドクターケイ ABC-G リペアセラム](/articles/art-feat8-drk-abc-g-serum)**
+- オイルカット洗浄と弱酸性トナーが、ニキビのできにくい滑らかな肌環境を構築。
+
+---
+
+繰り返す肌荒れループを断ち切り、なめらかな素肌を手に入れましょう。楽天市場の認定ショップでお得にチェックしてみてください！`
+  },
+  {
     id: 'blog-transparency-whitening-2026',
     slug: 'transparency-whitening-serum-2026',
     title: '【2026年最新】くすみ肌を脱却！圧倒的透明感を引き出す神コスメ・美白美容液10選',

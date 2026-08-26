@@ -6,6 +6,149 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>feature-2026-autumn-master-cosmetics-guide</g:id>
+  <title>2026年秋コスメおすすめ10選｜今買いたい新作・トレンドコスメ</title>
+  <description>2026年秋のメイクトレンドを完全網羅！リップ、アイシャドウ、チーク、ファンデーション、プチプラ、デパコス、韓国コスメ、ブラウンリップ、ピンクリップ、血色感メイクまで、今買うべきおすすめ10大テーマを楽天公式API直接取得データとともに徹底比較解説！</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-master-cosmetics-guide</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-lip-suqqu-moisture-glaze-rouge.jpg</g:image_link>
+  <g:price>660 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>ALL</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; all</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-lip-recommended-10</g:id>
+  <title>2026年秋リップおすすめ10選（SUQQU・KATE・CHANEL・YSLほか厳選）</title>
+  <description>2026年秋のリップトレンドは、マット一辺倒から「むっちりとした濃密なツヤ膜」と「深みのあるくすみニュアンス」の融合へと進化。SUQQUのモイスチャーグレイズルージュを筆頭に、ひと塗りで唇に立体的な厚みを与え、乾燥しやすい秋の唇を一日中トリートメントしながら旬の洒落顔を演出します。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-lip-recommended-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-lip-suqqu-moisture-glaze-rouge.jpg</g:image_link>
+  <g:price>4900 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>LIP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; lip</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-eyeshadow-recommended-10</g:id>
+  <title>2026年秋アイシャドウおすすめ10選（ルナソル・SUQQU・ディオール・エクセルほか厳選）</title>
+  <description>2026年秋のアイシャドウは、重厚なマットではなく「透け感のあるレイヤード」と「微細な濡れツヤパール」が主役。ルナソルのアイカラーレーションNは、進化した粉質がまぶたに吸い付くように密着し、重ねても濁らずに澄んだ陰影を作り出します。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-eyeshadow-recommended-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-eye-lunasol-eye-coloration-n.jpg</g:image_link>
+  <g:price>7700 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-blush-recommended-10</g:id>
+  <title>2026年秋チークおすすめ10選（SUQQU・エクセル・セザンヌ・NARSほか厳選）</title>
+  <description>2026年秋のチークは、単に色を乗せるだけでなく「骨格を引き締めながら肌の透明感を引き出す」役割が重視されます。SUQQUのグラデーションチークは、チークカラーとコントロールカラーが美しく溶け合い、大人の肌に上品な血色と立体ツヤを与えます。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-blush-recommended-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-cheek-suqqu-pure-color-blush.jpg</g:image_link>
+  <g:price>4600 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-foundation-recommended-10</g:id>
+  <title>2026年秋ファンデーションおすすめ10選（資生堂・コスメデコルテ・SUQQU・KANEBOほか厳選）</title>
+  <description>2026年秋のファンデーションは、スキンケアとメイクの境界線を完全に無くした「美容液ファンデ」がトレンドの頂点に。資生堂エッセンススキングロウは、ナイアシンアミドとケフィア発酵エキスを高配合し、落とした後の素肌まで美しく整えます。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-foundation-recommended-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-found-shiseido-revitalessence-glow.jpg</g:image_link>
+  <g:price>7040 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-budget-cosme-recommended-10</g:id>
+  <title>2026年秋プチプラコスメおすすめ10選（キャンメイク・セザンヌ・KATE・エクセルほか厳選）</title>
+  <description>2026年秋のプチプラコスメは、デパコスと見紛うほどの粉質進化と機能性を獲得。キャンメイクのマシュマロフィニッシュパウダーAbloomは、5色のブレンドパウダーが肌のトーンを補正し、ふんわりとした陶器肌を一日中キープします。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-budget-cosme-recommended-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-petit-canmake-mushmallow-powder-abloom.jpg</g:image_link>
+  <g:price>1034 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-luxury-depacos-recommended-10</g:id>
+  <title>2026年秋デパコスおすすめ10選（コスメデコルテ・SUQQU・ディオール・クレドポーほか厳選）</title>
+  <description>2026年秋のデパコス界を牽引するコスメデコルテのゼンウェアシリーズ。墨のように滑らかに伸び広がり、薄膜でありながら毛穴や色ムラを完璧にカモフラージュ。時間が経つほど素肌の品格が際立ちます。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-luxury-depacos-recommended-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-depa-decorte-zen-wear-glow.jpg</g:image_link>
+  <g:price>4290 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-korean-cosme-recommended-10</g:id>
+  <title>2026年秋韓国コスメおすすめ10選（デイジーク・fwee・TIRTIR・rom&amp;ndほか厳選）</title>
+  <description>韓国コスメの2026年秋のテーマは「オータムミュート」。彩度を抑えた柔らかいアッシュベージュやウォームブラウンが、目元に深みと儚げな透明感を与えます。デイジークの多色パレットは捨て色なしの神配色。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-korean-cosme-recommended-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-korea-dasique-mood-shadow-palette-autumn.jpg</g:image_link>
+  <g:price>3750 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>K-BEAUTY</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; k-beauty</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-brown-lip-recommended-10</g:id>
+  <title>2026年秋のブラウンリップ10選（KATE・ロムアンド・フジコ・シャネルほか厳選）</title>
+  <description>秋メイクの主役といえばブラウンリップ。KATEのリップモンスター05ダークフィグは、ブラウン初心者でも顔色が悪く見えない「絶妙な赤みと透け感」を兼ね備え、マスクや飲食でも落ちない圧倒的な密着ジェル膜を形成します。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-brown-lip-recommended-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-brownlip-kate-lip-monster-05-darkfig.jpg</g:image_link>
+  <g:price>1339 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>LIP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; lip</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-pink-lip-recommended-10</g:id>
+  <title>2026年秋のピンクリップ10選（ディオール・ヴィセ・オペラ・セザンヌほか厳選）</title>
+  <description>秋のピンクリップは、甘すぎない「くすみローズ」「モーヴピンク」「粘膜ピンク」がトレンド。ディオールのリップグロウは、チェリーオイル配合で24時間潤いを与えながら、唇本来の自然な血色ピンクを引き出します。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-pink-lip-recommended-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-pinklip-dior-addict-lip-glow-pink.jpg</g:image_link>
+  <g:price>3310 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>LIP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; lip</g:product_type>
+</item>
+<item>
+  <g:id>feature-2026-autumn-rosy-complexion-makeup-10</g:id>
+  <title>2026年秋の血色感メイクコスメ10選（セザンヌ・ヴィセ・キャンメイク・コスメデコルテほか厳選）</title>
+  <description>秋の乾燥や冷えによる顔のくすみを払い、内側からぽっと上気したような温もりと立体ツヤを与える「血色感メイク」。セザンヌのフェイスグロウカラーは、オイル高配合のぷにぷにペーストが肌に溶け込み、多幸感あふれる生ツヤを宿します。</description>
+  <link>https://qualia-navi.vercel.app/article/feature-2026-autumn-rosy-complexion-makeup-10</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/aut26-sub-kesshoku-cezanne-face-glow-color-01.jpg</g:image_link>
+  <g:price>660 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
   <g:id>art-gift-chanel-chance-eau-tendre-hair-mist</g:id>
   <title>シャネル チャンス オー タンドゥル ヘア ミスト</title>
   <description>「シャネル チャンス オー タンドゥル ヘア ミスト」の徹底効果検証！楽天市場の認定ショップ「おしゃれcafe楽天市場店」（最安価格: 9,980円 (税込)）からリアルタイムAPI直接取得した確定アフィリエイト情報と、リアルな口コミ・30日間の検証結果をお届けします。</description>

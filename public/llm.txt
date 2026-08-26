@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-26
-- **Total Articles**: 1945 件の個別詳細レビュー
+- **Total Articles**: 1950 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,11 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【1,000円以下】デパコス級おすすめコスメ10選！プチプラの常識を覆す神クオリティ名品徹底比較](https://qualia-navi.vercel.app/articles/feature-price-dupes-under-1000-10): 💰 【プチプラ限界突破】1,000円以下おすすめコスメ10選 (ブランド: 主要コスメ)
+- [【2,000円以下】デパコス級おすすめコスメ10選！ドラコス・韓国コスメの実力派名品徹底比較](https://qualia-navi.vercel.app/articles/feature-price-dupes-under-2000-10): ✨ 【高コスパ実力派】2,000円以下おすすめコスメ10選 (ブランド: 主要コスメ)
+- [【3,000円以下】デパコス級おすすめコスメ10選！プロも絶賛する上質クオリティ名品徹底比較](https://qualia-navi.vercel.app/articles/feature-price-dupes-under-3000-10): 💎 【プロ絶賛クオリティ】3,000円以下おすすめコスメ10選 (ブランド: 主要コスメ)
+- [【5,000円以下】デパコス級おすすめコスメ10選！贅沢トリートメント＆高級仕上がり名品徹底比較](https://qualia-navi.vercel.app/articles/feature-price-dupes-under-5000-10): 👑 【贅沢仕上がり】5,000円以下おすすめコスメ10選 (ブランド: 主要コスメ)
+- [【1万円以下】超大人気デパコスおすすめ10選！圧倒的オーラと至高の美肌を宿す最高峰名品徹底比較](https://qualia-navi.vercel.app/articles/feature-price-luxury-depacos-under-10000-10): 💎 【最高峰デパコス】1万円以下超大人気デパコス10選 (ブランド: 主要コスメ)
 - [【クマ消し】クマ隠しコンシーラーおすすめ10選！青クマ・茶クマ・黒クマを瞬時に飛ばす神アイテム徹底比較](https://qualia-navi.vercel.app/articles/feature-concealer-dark-circles-10): 👁️ 【目元悩み特化】クマ隠しコンシーラー10選 (ブランド: 主要コスメ)
 - [【赤み・跡消し】ニキビ跡を隠すコンシーラー10選！赤み・凹凸をピタッと密着カバーする名品徹底比較](https://qualia-navi.vercel.app/articles/feature-concealer-acne-scars-10): 🎯 【肌トラブル特化】ニキビ跡を隠すコンシーラー10選 (ブランド: 主要コスメ)
 - [【毛穴レス】毛穴を隠すコンシーラーおすすめ10選！開き毛穴や凹凸をフラットに埋めるポアプライマー徹底比較](https://qualia-navi.vercel.app/articles/feature-concealer-pore-blur-10): ✨ 【凹凸補正特化】毛穴を隠すコンシーラー10選 (ブランド: 主要コスメ)
@@ -61,11 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年秋】秋におすすめの韓国リップ10選！果汁シロップツヤ＆オータムミュートカラー徹底比較](https://qualia-navi.vercel.app/articles/feature-autumn-korean-lips-collection-10): 🇰🇷 【秋韓国リップ特集】秋におすすめの韓国リップ10選 (ブランド: 主要コスメ)
 - [【ブルベ夏向け】秋リップおすすめ10選！くすみモーヴ＆ダスティローズで透明感を際立たせる名品徹底比較](https://qualia-navi.vercel.app/articles/feature-autumn-lips-cool-summer-10): ❄️ 【ブルベ夏特集】ブルベ夏 秋リップ10選 (ブランド: 主要コスメ)
 - [【ブルベ冬向け】秋リップおすすめ10選！深紅ボルドー＆ダークチェリーで圧倒的オーラを放つ名品徹底比較](https://qualia-navi.vercel.app/articles/feature-autumn-lips-cool-winter-10): ❄️ 【ブルベ冬特集】ブルベ冬 秋リップ10選 (ブランド: 主要コスメ)
-- [【イエベ春向け】秋リップおすすめ10選！温もりコーラルブラウン＆テラコッタで多幸感を彩る名品徹底比較](https://qualia-navi.vercel.app/articles/feature-autumn-lips-warm-spring-10): 🌼 【イエベ春特集】イエベ春 秋リップ10選 (ブランド: 主要コスメ)
-- [【イエベ秋向け】秋リップおすすめ10選！マスタードブラウン＆深みテラコッタで魅せる決定版徹底比較](https://qualia-navi.vercel.app/articles/feature-autumn-lips-warm-autumn-10): 🍂 【イエベ秋特集】イエベ秋 秋リップ10選 (ブランド: 主要コスメ)
-- [【落ちにくい】秋リップおすすめ10選！マスク・飲食でも色ツヤが絶対に消えない最強リップ徹底比較](https://qualia-navi.vercel.app/articles/feature-autumn-lips-long-lasting-stay-10): 🔒 【機能特化特集】落ちにくい秋リップ10選 (ブランド: 主要コスメ)
-- [【色持ち抜群】秋リップおすすめ10選！ティント処方で自然な血色が夕方まで持続する名品徹底比較](https://qualia-navi.vercel.app/articles/feature-autumn-lips-tint-color-retention-10): ✨ 【機能特化特集】色持ちのいい秋リップ10選 (ブランド: 主要コスメ)
-- [【ツヤ系】秋リップおすすめ10選！ぷるんと弾む水光ガラス玉ツヤで魅せる名品徹底比較](https://qualia-navi.vercel.app/articles/feature-autumn-lips-glossy-glow-10): 💎 【機能特化特集】ツヤ系秋リップ10選 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

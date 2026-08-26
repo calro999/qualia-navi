@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-26
-- **Total Articles**: 1959 件の個別詳細レビュー
+- **Total Articles**: 1969 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,16 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【20代向け】ファンデーションおすすめ10選！毛穴レス＆崩れ知らずの素肌美を叶える神アイテム徹底比較](https://qualia-navi.vercel.app/articles/feature-age-20s-foundation-10): 🌸 【20代ベースメイク】20代向けファンデーション10選 (ブランド: 主要コスメ)
+- [【30代向け】ファンデーションおすすめ10選！初期エイジング・乾燥・くすみを光で飛ばす名品徹底比較](https://qualia-navi.vercel.app/articles/feature-age-30s-foundation-10): 🌿 【30代ベースメイク】30代向けファンデーション10選 (ブランド: 主要コスメ)
+- [【40代向け】ファンデーションおすすめ10選！たるみ毛穴・深刻な乾燥・黄ぐすみをカバーする神コスメ徹底比較](https://qualia-navi.vercel.app/articles/feature-age-40s-foundation-10): 👑 【40代ベースメイク】40代向けファンデーション10選 (ブランド: 主要コスメ)
+- [【50代向け】ファンデーションおすすめ10選！シワに入り込まない・極上リフト艶肌を叶える最高峰徹底比較](https://qualia-navi.vercel.app/articles/feature-age-50s-foundation-10): 💎 【50代ベースメイク】50代向けファンデーション10選 (ブランド: 主要コスメ)
+- [【20代向け】スキンケアおすすめ10選！毛穴・ニキビ・水分油分バランスを整える美肌育成名品徹底比較](https://qualia-navi.vercel.app/articles/feature-age-20s-skincare-10): 🌸 【20代スキンケア】20代向けスキンケア10選 (ブランド: 主要コスメ)
+- [【30代向け】スキンケアおすすめ10選！ファーストエイジング・くすみ・毛穴たるみを集中ケア徹底比較](https://qualia-navi.vercel.app/articles/feature-age-30s-skincare-10): 🌿 【30代スキンケア】30代向けスキンケア10選 (ブランド: 主要コスメ)
+- [【40代向け】スキンケアおすすめ10選！シワ改善・濃密ハリ・たるみ引き上げを叶える高機能名品徹底比較](https://qualia-navi.vercel.app/articles/feature-age-40s-skincare-10): 👑 【40代スキンケア】40代向けスキンケア10選 (ブランド: 主要コスメ)
+- [【50代向け】スキンケアおすすめ10選！最高峰プレミアムエイジングケア＆濃密リッチ再生徹底比較](https://qualia-navi.vercel.app/articles/feature-age-50s-skincare-10): 💎 【50代スキンケア】50代向けスキンケア10選 (ブランド: 主要コスメ)
+- [【40代向け】化粧下地おすすめ10選！くすみ補正・小ジワ消し・極上ツヤ仕込み名品徹底比較](https://qualia-navi.vercel.app/articles/feature-age-40s-primer-10): 👑 【40代化粧下地】40代向け化粧下地10選 (ブランド: 主要コスメ)
+- [【40代向け】アイシャドウおすすめ10選！くぼみ目・たるみまぶたを明るくリフトアップする名品徹底比較](https://qualia-navi.vercel.app/articles/feature-age-40s-eyeshadow-10): 👑 【40代アイメイク】40代向けアイシャドウ10選 (ブランド: 主要コスメ)
 - [【ブルベ夏向け】おすすめリップ10選！透明感を引き立てる青みピンク＆くすみモーヴ徹底比較](https://qualia-navi.vercel.app/articles/feature-personal-color-cool-summer-lip-10): ❄️ 【ブルベ夏特化】ブルベ夏 リップおすすめ10選 (ブランド: 主要コスメ)
 - [【ブルベ冬向け】おすすめリップ10選！鮮烈なローズレッド＆深みワインボルドー徹底比較](https://qualia-navi.vercel.app/articles/feature-personal-color-cool-winter-lip-10): ❄️ 【ブルベ冬特化】ブルベ冬 リップおすすめ10選 (ブランド: 主要コスメ)
 - [【イエベ春向け】おすすめリップ10選！多幸感あふれるコーラルピンク＆ジューシーオレンジ徹底比較](https://qualia-navi.vercel.app/articles/feature-personal-color-warm-spring-lip-10): 🌼 【イエベ春特化】イエベ春 リップおすすめ10選 (ブランド: 主要コスメ)
@@ -56,16 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【乾燥肌向け】化粧下地おすすめ10選！美容液80%以上で一日中潤い・粉ふき知らずの保湿下地徹底比較](https://qualia-navi.vercel.app/articles/feature-primer-dry-skin-moisture-10): 💧 【高保湿特化】乾燥肌向け化粧下地10選 (ブランド: 主要コスメ)
 - [【混合肌向け】化粧下地おすすめ10選！Tゾーンのテカリと頬の乾燥を同時に整えるバランス下地徹底比較](https://qualia-navi.vercel.app/articles/feature-primer-combination-skin-balance-10): ⚖️ 【水分油分バランス特化】混合肌向け化粧下地10選 (ブランド: 主要コスメ)
 - [【透明感・美白見え】トーンアップ下地おすすめ10選！くすみを飛ばしてパッと明るい発光肌を作る名品徹底比較](https://qualia-navi.vercel.app/articles/feature-primer-tone-up-bright-10): ✨ 【透明感・トーンアップ特化】トーンアップ下地10選 (ブランド: 主要コスメ)
-- [【毛穴カバー】毛穴を隠せるファンデーション10選！凹凸フラット＆至高の陶器肌を叶える名品徹底比較](https://qualia-navi.vercel.app/articles/feature-foundation-pore-coverage-10): ✨ 【毛穴悩み特化】毛穴を隠せるファンデーション10選 (ブランド: 主要コスメ)
-- [【毛穴落ち防止】毛穴落ちしにくいファンデーション10選！夕方でもドット状に崩れない密着美肌ルポ徹底比較](https://qualia-navi.vercel.app/articles/feature-foundation-poreless-stay-10): 🛡️ 【毛穴悩み特化】毛穴落ちしにくいファンデーション10選 (ブランド: 主要コスメ)
-- [【鉄壁キープ】崩れにくいファンデーション10選！猛暑・マスク・皮脂に負けない24時間ラスティング徹底比較](https://qualia-navi.vercel.app/articles/feature-foundation-long-lasting-10): 🔒 【耐久特化】崩れにくいファンデーション10選 (ブランド: 主要コスメ)
-- [【混合肌向け】ファンデーションおすすめ10選！TゾーンのテカリとUゾーンの乾燥を両立ケアする名品徹底比較](https://qualia-navi.vercel.app/articles/feature-foundation-combination-skin-10): ⚖️ 【肌質別特化】混合肌向けファンデーション10選 (ブランド: 主要コスメ)
-- [【乾燥肌向け】ファンデーションおすすめ10選！美容液80%以上配合で一日中うるおい続く高保湿ルポ徹底比較](https://qualia-navi.vercel.app/articles/feature-foundation-dry-skin-moist-10): 💧 【肌質別特化】乾燥肌向けファンデーション10選 (ブランド: 主要コスメ)
-- [【脂性肌・オイリー肌向け】ファンデーションおすすめ10選！皮脂吸着パウダーでテカリ知らずのサラサラ肌徹底比較](https://qualia-navi.vercel.app/articles/feature-foundation-oily-skin-matte-10): 🔥 【肌質別特化】脂性肌向けファンデーション10選 (ブランド: 主要コスメ)
-- [【水光・生ツヤ】ツヤ肌になれるファンデーションおすすめ10選！内側から発光する水光肌ルポ徹底比較](https://qualia-navi.vercel.app/articles/feature-foundation-dewy-glow-skin-10): 💎 【仕上がり特化】ツヤ肌になれるファンデーション10選 (ブランド: 主要コスメ)
-- [【素肌感・薄膜】素肌感のあるファンデーションおすすめ10選！厚塗り感ゼロで元から美肌に見せる名品徹底比較](https://qualia-navi.vercel.app/articles/feature-foundation-natural-bare-skin-10): 🌿 【仕上がり特化】素肌感のあるファンデーション10選 (ブランド: 主要コスメ)
-- [【2026年最新】2026秋リップおすすめ10選！トレンドのむっちり濃密艶＆深みカラー名品ルージュ徹底比較](https://qualia-navi.vercel.app/articles/feature-2026-autumn-lip-trends-top10): 💄 【秋リップ特集】2026秋リップおすすめ10選 (ブランド: 主要コスメ)
-- [【2026年秋】秋におすすめのブラウンリップ10選！肌色を明るく魅せる垢抜けブラウン徹底比較](https://qualia-navi.vercel.app/articles/feature-autumn-brown-lips-collection-10): 🤎 【秋ブラウンリップ特集】秋におすすめのブラウンリップ10選 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

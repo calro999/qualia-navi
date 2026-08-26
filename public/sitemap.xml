@@ -88,12 +88,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/feature-autumn-lips-ultimate-master-hub-2026</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/articles/feature-2026-autumn-lip-trends-top10</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
@@ -197,6 +191,12 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/articles/feature-autumn-lips-moisturizing-care-10</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/feature-autumn-lips-ultimate-master-hub-2026</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>

@@ -349,6 +349,200 @@ export const INITIAL_ARTICLES: RakutenProductArticle[] =
  * 徹底的に肉付けされたSEO・検索流入強化版 美肌特集ブログ記事
  */
 export const INITIAL_BLOG_POSTS: BlogPost[] = [
+  {
+    id: 'blog-transparency-whitening-2026',
+    slug: 'transparency-whitening-serum-2026',
+    title: '【2026年最新】くすみ肌を脱却！圧倒的透明感を引き出す神コスメ・美白美容液10選',
+    subtitle: 'AnuaダークスポットセラムからHAKU、メラノCCまで。ナイアシンアミド・トラネキサム酸・高濃度ビタミンCの最先端美白を徹底比較！',
+    targetGender: 'unisex',
+    coverImage: 'https://shop.r10s.jp/anuajapan/cabinet/10467510/11810334/anua00093_2800_cou.jpg',
+    authorId: 'author-tachibana',
+    authorName: '橘 えりか',
+    authorRole: 'Qualia Navi コスメ＆美容編集長',
+    authorAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+    createdAt: '2026-08-26',
+    readTimeMinutes: 8,
+    introText: '「夕方になると顔がどんよりくすむ」「シミ予備軍やニキビ痕の色素沈着をなんとかしたい」「ファンデーションのトーンを上げたい」と悩んでいませんか？今回は、SNSや楽天で爆発的な人気を誇るAnua（アヌア）ダークスポットセラムを筆頭に、美容皮膚科医やコスメアナリストが成分と実力で厳選した【圧倒的透明感を叶える神コスメ10選】を徹底解説します！',
+    recommendedItemCodes: ["art-feat1-anua-darkspot", "art-feat1-melano-cc-premium", "art-feat1-manyo-galac", "art-feat1-nature-rep-vitapair", "art-feat1-drcilabo-vc100", "art-feat1-shiseido-haku", "art-feat1-innisfree-vitc", "art-feat1-hadalabo-shirojyun", "art-feat1-curel-whitening", "art-feat1-cosrx-vitc23"],
+    isHallOfFame: true,
+    contentMarkdown: `## なぜ今、大人女子＆メンズに「透明感特化スキンケア」が必要なのか？
+
+紫外線ダメージや摩擦、睡眠不足、スマホのブルーライトなど、私たちの肌は日々過酷なストレスに晒されています。その結果、メラニンの蓄積による**「シミ・そばかす」**や、ターンオーバーの乱れによる**「角質肥厚・くすみ」**、さらには炎症による**「色ムラ」**が肌の透明感を奪ってしまいます。
+
+透明感を取り戻すためには、ただ保湿するだけでなく、**「メラニン生成抑制（トラネキサム酸・アルブチン）」「メラニン移行ブロック（ナイアシンアミド）」「還元・抗酸化（ビタミンC）」**という多角的なアプローチが不可欠です。
+
+---
+
+## 🎯 目的・肌質別！透明感コスメの選び方ガイド
+
+### 1. くすみ・色ムラ・肌トーンを一気に底上げしたい方
+👉 **[Anua ダークスポットセラム](/articles/art-feat1-anua-darkspot)**
+- ナイアシンアミド10%＋TXA4%＋アルブチン2%のトリプル処方で、塗った直後からくすみを飛ばす圧倒的透明感セラム。
+
+### 2. 毛穴の黒ずみ・シミをプチプラで狙い撃ちしたい方
+👉 **[ロート製薬 メラノCC 薬用プレミアム美容液](/articles/art-feat1-melano-cc-premium)**、**[COSRX ザ・ビタミンC23 セラム](/articles/art-feat1-cosrx-vitc23)**
+- 濃密なピュアビタミンCが角層深部へ浸透。毛穴の引き締めとシミ予防を1,000円〜2,000円台で両立。
+
+### 3. 肌のキメを整えてガラスのようなツヤ肌を作りたい方
+👉 **[魔女工場 ガラクナイアシン2.0エッセンス](/articles/art-feat1-manyo-galac)**、**[イニスフリー ビタミンC ブライトセラム](/articles/art-feat1-innisfree-vitc)**
+- ガラクトミセス発酵成分や緑茶酵素が古い角質を優しくオフし、光を均一に反射する極上美肌へ。
+
+### 4. 敏感肌で美白美容液の刺激が心配な方
+👉 **[ネイチャーリパブリック ビタペアC](/articles/art-feat1-nature-rep-vitapair)**、**[キュレル 美白ケア 美容液](/articles/art-feat1-curel-whitening)**
+- CICA成分やセラミド配合で、肌荒れを防ぎながら穏やかにトーンアップ。
+
+---
+
+## 💡 透明感を引き出すプロ直伝の塗り方テクニック
+1. **洗顔直後に導入エッセンスを投入**: 魔女工場のガラクナイアシン等で肌を柔軟にし、成分の浸透ルートを確保。
+2. **美白美容液はハンドプレスで押し込む**: こすらず、手のひらの体温でじっくり角層へ密着させる。
+3. **朝のビタミンCケア後は必ず日焼け止めを**: 紫外線防御を徹底することで、美白成分の効果が最大限に持続します。
+
+楽天市場の公式・認定ショップでは、ポイント還元やお買い物マラソンを併用することで、実質最安値でお得に手に入れることができます！ぜひ今すぐ気になるアイテムをチェックしてみてください。`
+  },
+  {
+    id: 'blog-kbeauty-trending-serums-2026',
+    slug: 'kbeauty-trending-serums-2026',
+    title: '【SNSで大バズり】即効トーンアップ＆垢抜けが叶う韓国美容液・スキンケア10選',
+    subtitle: 'Anua、VTリードルショット、トリデン、ナンバーズイン…Qoo10・楽天で売れまくりの神アイテムを徹底比較！',
+    targetGender: 'unisex',
+    coverImage: 'https://shop.r10s.jp/anuajapan/cabinet/10467510/11810334/anua00093_2800_cou.jpg',
+    authorId: 'author-hasumi',
+    authorName: '蓮見 拓真',
+    authorRole: 'Qualia Navi 統括編集長',
+    authorAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    createdAt: '2026-08-26',
+    readTimeMinutes: 8,
+    introText: 'TikTokやInstagram、YouTubeで「肌が劇的に変わる！」と大バズりしている韓国スキンケア。しかし「種類が多すぎてどれを買えばいいかわからない」「自分の肌に合うものは？」と悩む方も多いはず。今回は、圧倒的人気のAnuaダークスポットセラムをはじめ、韓国現地のオリーブヤングや楽天ランキング上位を独占する【本気で垢抜ける韓国神美容液10選】を徹底レビューします！',
+    recommendedItemCodes: ["art-feat2-anua-darkspot", "art-feat2-vt-reedle-100", "art-feat2-torriden-divein", "art-feat2-numbuzin-no5", "art-feat2-abib-heartleaf", "art-feat2-mediheal-teatree", "art-feat2-klairs-vitdrop", "art-feat2-manyo-bifida", "art-feat2-cosrx-propolis", "art-feat2-skinfood-carrot"],
+    isHallOfFame: true,
+    contentMarkdown: `## なぜ韓国美容液はここまで日本で熱狂的な支持を集めているのか？
+
+韓国コスメの最大の強みは、**「最新の皮膚科学トレンドを取り入れた高濃度・高機能処方」**と**「続けやすいコストパフォーマンス」**の両立です。
+
+クリニックの施術発想（白玉点滴、ニードルピーリング、高純度アンプル）を自宅で毎日手軽に体験できるため、使って数日で肌の手触りやメイクノリの劇的な変化を実感するユーザーが続出しています。
+
+---
+
+## 🌟 肌悩み別！今買うべき韓国美容液マップ
+
+### 1. 【トーンアップ＆色ムラケア】白玉美肌を目指すなら
+👉 **[Anua ダークスポットセラム](/articles/art-feat2-anua-darkspot)**、**[ナンバーズイン 5番 白玉グルタチオンC美容液](/articles/art-feat2-numbuzin-no5)**
+- ナイアシンアミドや高純度グルタチオンが肌のどんより感を一掃。まるで美肌フィルターをかけたような発光肌へ。
+
+### 2. 【毛穴・キメの引き締め】スキンケアの浸透を高めたいなら
+👉 **[VT リードルショット 100](/articles/art-feat2-vt-reedle-100)**
+- 天然美容針が心地よくチクチク刺激し、美容成分の通り道を開通。翌朝のつるつる感は一度味わうと病みつきに。
+
+### 3. 【インナードライ・乾燥テカリ】水分をゴクゴク補給するなら
+👉 **[Torriden ダイブイン セラム](/articles/art-feat2-torriden-divein)**
+- 5重ヒアルロン酸がベタつきゼロで肌を満たし、夕方の乾燥崩れや皮脂浮きを完全ブロック。
+
+### 4. 【赤み・火照り・ニキビ肌荒れ】トラブルを急冷鎮静するなら
+👉 **[Abib ドクダミエッセンス](/articles/art-feat2-abib-heartleaf)**、**[メディヒール ティーツリー エッセンス](/articles/art-feat2-mediheal-teatree)**
+- 智異山ドクダミやティーツリーが、マスク荒れや赤ら顔をスーッとクールダウン。
+
+---
+
+## 🛍️ 失敗しない！韓国コスメ購入のポイント
+大人気アイテムは偽物や並行輸入品が出回るリスクがあるため、**「楽天市場の公式ショップまたは認定優良代理店」**から購入するのが最も安全で確実です。お買い物マラソンやクーポンを活用して、お得に憧れの韓国美肌を手に入れましょう！`
+  },
+  {
+    id: 'blog-pore-sebum-control-2026',
+    slug: 'pore-sebum-control-2026',
+    title: '【毛穴レス・テカリ撲滅】皮脂トラブル＆開き毛穴を撃退する集中ケアコスメ10選',
+    subtitle: 'Anuaアゼライン酸、タカミスキンピール、メラノCC酵素洗顔…頑固な角栓・黒ずみ・ドロドロ皮脂を根本から浄化！',
+    targetGender: 'unisex',
+    coverImage: 'https://shop.r10s.jp/anuajapan/cabinet/11120557/11837514/azelaicacid_big.jpg',
+    authorId: 'author-hasumi',
+    authorName: '蓮見 拓真',
+    authorRole: 'Qualia Navi 統括編集長',
+    authorAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    createdAt: '2026-08-26',
+    readTimeMinutes: 8,
+    introText: '「お昼過ぎにはTゾーンがテカってメイクが崩れる」「小鼻の黒ずみ（いちご鼻）や頬の開き毛穴がファンデで隠れない」…そんな頑固な皮脂＆毛穴悩みを抱えていませんか？今回は、大注目のAnuaアゼライン酸セラムをはじめ、皮膚科学に基づき毛穴の元凶へアプローチする【最強の毛穴レス・皮脂対策コスメ10選】を厳選紹介します！',
+    recommendedItemCodes: ["art-feat3-anua-azelaic", "art-feat3-cosdebaha-azelaic", "art-feat3-melano-cc-wash", "art-feat3-obagi-c10", "art-feat3-drg-red-blemish", "art-feat3-takami-skinpeel", "art-feat3-curel-sebum", "art-feat3-kanebo-mud-wash", "art-feat3-laroche-peel", "art-feat3-innisfree-powder"],
+    isHallOfFame: true,
+    contentMarkdown: `## なぜ「皮脂と毛穴」はケアを間違えると悪化してしまうのか？
+
+テカリや毛穴が気になるからといって、あぶらとり紙で皮脂を取りすぎたり、強力なスクラブでゴシゴシ擦りすぎたりしていませんか？
+
+過剰な脱脂や摩擦は、肌のバリア機能を壊して**「防衛反応としてさらに過剰な皮脂を分泌させる」**という最悪の悪循環を生み出します。
+
+現代の毛穴・皮脂ケアの正解は、**「①過剰な皮脂分泌そのものを成分で抑制する（アゼライン酸・ビタミンC）」「②酵素やマイルドな酸で角栓を溶かす（プロテアーゼ・サリチル酸）」「③インナードライを防いで水分で満たす（CICA・セラミド）」**の3ステップです。
+
+---
+
+## 🎯 段階別！おすすめ毛穴・テカリ対策アイテム
+
+### 1. 【皮脂抑制＆赤み改善】テカリ・開き毛穴の根本アプローチ
+👉 **[Anua アゼライン酸15 インテンスカーミングセラム](/articles/art-feat3-anua-azelaic)**、**[CosDeBAHA アゼライン酸10%セラム](/articles/art-feat3-cosdebaha-azelaic)**
+- 世界基準の皮脂ケア成分「アゼライン酸」が高濃度配合され、Tゾーンのテカリと毛穴の広がりを根本からブロック。
+
+### 2. 【黒ずみ・角栓除去】毎日の洗顔でつるつるに磨く
+👉 **[メラノCC ディープクリア酵素洗顔](/articles/art-feat3-melano-cc-wash)**、**[KANEBO スクラビング マッド ウォッシュ](/articles/art-feat3-kanebo-mud-wash)**
+- 酵素とクレイが毛穴の奥のタンパク質汚れを吸着分解。ざらつきを即座にリセット。
+
+### 3. 【角質柔軟・ターンオーバー正常化】毛穴の詰まりにくい肌へ
+👉 **[タカミスキンピール](/articles/art-feat3-takami-skinpeel)**、**[ラ ロッシュ ポゼ エファクラ ピールケア セラム](/articles/art-feat3-laroche-peel)**
+- 摩擦レスで角層の生まれ変わりをサポートし、キメが整った毛穴レス肌を育成。
+
+### 4. 【日中テカリ防止】夕方までサラサラ肌をキープ
+👉 **[イニスフリー ノーセバム ミネラルパウダー](/articles/art-feat3-innisfree-powder)**、**[キュレル 皮脂トラブルケア 保湿ジェル](/articles/art-feat3-curel-sebum)**
+- メイクの仕上げに仕込むことで、マスク蒸れや猛暑の汗・皮脂崩れを徹底防御。
+
+---
+
+毛穴レスな陶器肌は、正しいアイテム選びから始まります。ぜひ自分の肌質に合ったアイテムを楽天市場でお得に手に入れて、自信の持てる素肌を目指しましょう！`
+  },
+  {
+    id: 'blog-cica-calming-skin-trouble-2026',
+    slug: 'cica-calming-skin-trouble-2026',
+    title: '【赤み・大人ニキビ撃退】繰り返す肌荒れを救うCICA＆鎮静スキンケア10選',
+    subtitle: 'Anuaドクダミトナー、VT CICAマスク、ラロッシュポゼB5+…荒れた素肌を急速レスキューする名品たち。',
+    targetGender: 'unisex',
+    coverImage: 'https://shop.r10s.jp/boundless/cabinet/10359033/13049356/imgrc0144289620.jpg',
+    authorId: 'author-tachibana',
+    authorName: '橘 えりか',
+    authorRole: 'Qualia Navi コスメ＆美容編集長',
+    authorAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+    createdAt: '2026-08-26',
+    readTimeMinutes: 8,
+    introText: '「季節の変わり目や生理前に必ず肌荒れする」「マスクの摩擦や紫外線で頬が赤くヒリヒリする」「繰り返す大人ニキビを根本から落ち着かせたい」…そんなゆらぎ肌の救急箱として、今絶対に持っておくべきなのが鎮静スキンケア。今回は、大ヒットのAnuaアゼライン酸CICAセラムやドクダミトナーをはじめ、美容皮膚科医も太鼓判を押す【最強のCICA・肌荒れ鎮静コスメ10選】を徹底解説します！',
+    recommendedItemCodes: ["art-feat4-anua-azelaic-cica", "art-feat4-anua-heartleaf-toner", "art-feat4-vt-cica-mask", "art-feat4-drjart-cicapair", "art-feat4-laroche-cicaplast", "art-feat4-manyo-panthetoin", "art-feat4-mediheal-mask", "art-feat4-abib-gummy-mask", "art-feat4-ihada-balm", "art-feat4-innisfree-bija"],
+    isHallOfFame: true,
+    contentMarkdown: `## なぜ今「CICA・ドクダミ・鎮静ケア」が必須なのか？
+
+現代人の肌は、PM2.5、花粉、エアコンによる急激な乾燥、ストレス、マスク摩擦など、常に微弱な炎症リスクにさらされています。
+
+この**「隠れ炎症」**を放置すると、肌のバリア機能が低下し、ニキビや赤ら顔、さらには早期のエイジング（シミ・たるみ）へと発展してしまいます。
+
+CICA（ツボクサエキス）やドクダミ、ティーツリー、パンテノールなどの鎮静成分は、肌の炎症シグナルを穏やかに抑え、傷ついた角層バリアを急速に修復する働きを持っています。
+
+---
+
+## 🌿 症状別！肌荒れレスキューアイテムの選び方
+
+### 1. 【赤み・ポツポツニキビの集中鎮静】
+👉 **[Anua アゼライン酸15 CICA セラム](/articles/art-feat4-anua-azelaic-cica)**、**[メディヒール ティーツリー マスク](/articles/art-feat4-mediheal-mask)**
+- アゼライン酸とCICAの相乗効果で、赤みと皮脂トラブルを即座にクールダウン。
+
+### 2. 【日々のゆらぎ予防＆水分補給】
+👉 **[Anua ドクダミ77% スージングトナー](/articles/art-feat4-anua-heartleaf-toner)**、**[VT CICA デイリースージングマスク](/articles/art-feat4-vt-cica-mask)**
+- ドクダミとシカリオが毎日の肌バリアを強化。コットンパックで赤みを急速リセット。
+
+### 3. 【皮むけ・極度の乾燥・レーザー後の保護】
+👉 **[ラ ロッシュ ポゼ シカプラスト B5+](/articles/art-feat4-laroche-cicaplast)**、**[イハダ 薬用バーム](/articles/art-feat4-ihada-balm)**
+- 高濃度パンテノールや高精製ワセリンが肌の上に鉄壁の保護シールドを形成。
+
+### 4. 【角層バリアの根本強化】
+👉 **[Dr.Jart+ シカペア クリーム](/articles/art-feat4-drjart-cicapair)**、**[魔女工場 パンテトイン トナー](/articles/art-feat4-manyo-panthetoin)**
+- エクトインや高純度CICAが肌の基礎体力を引き上げ、トラブルに負けない強い素肌へ。
+
+---
+
+肌荒れが起きた時は、あれこれアイテムを足すのではなく、信頼できる鎮静コスメでシンプルにケアすることが早期回復の近道です。ぜひ楽天市場の公式ショップで常備コスメを確保しておきましょう！`
+  },
 
   {
     "id": "blog-body-mist-top10-comparison",

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-29
-- **Total Articles**: 2969 件の個別詳細レビュー
+- **Total Articles**: 2970 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,16 +31,17 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
-- [【2026年最新】30代の開き毛穴・たるみ毛穴を隠すファンデーションおすすめ10選！毛穴落ちしない神アイテム完全比較](https://qualia-navi.vercel.app/articles/art-wf-30s-keana-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】40代のシミ・肝斑を厚塗り感なく隠すファンデーションおすすめ10選！コンシーラーいらずの最強カバー完全比較](https://qualia-navi.vercel.app/articles/art-wf-40s-shimi-cover-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】乾燥肌でも崩れないファンデーションおすすめ10選！粉吹き・乾燥小ジワを防ぐ保湿密着ファンデ完全比較](https://qualia-navi.vercel.app/articles/art-wf-kansouhada-kuzurenai-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】敏感肌でも安心して使えるファンデーションおすすめ10選！肌荒れ・赤みを防ぐ低刺激＆石鹸落ち完全比較](https://qualia-navi.vercel.app/articles/art-wf-binkanhada-tsukaeru-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】ブルベ夏に似合う神リップおすすめ10選！透明感爆発の青みピンク・モーヴ・ローズ完全比較](https://qualia-navi.vercel.app/articles/art-wf-burubenatsu-niau-lip-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】イエベ秋に似合うアイシャドウおすすめ10選！深みテラコッタ・マスタード・カーキ完全比較](https://qualia-navi.vercel.app/articles/art-wf-yebeaki-niau-eyeshadow-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】唇が荒れない・皮剥けしないリップおすすめ10選！敏感な唇を保護する薬用＆高保湿完全比較](https://qualia-navi.vercel.app/articles/art-wf-kuchibiru-arenai-lip-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】マスクにつかないリップおすすめ10選！色移りゼロ＆一日中発色が続く最強ティント完全比較](https://qualia-navi.vercel.app/articles/art-wf-mask-tsukanai-lip-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】夕方くすまないファンデーションおすすめ10選！酸化・皮脂による顔色の濁りを防ぐ発光美肌完全比較](https://qualia-navi.vercel.app/articles/art-wf-yuugata-kusumanai-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】髪がサラサラ＆いい匂いになるヘアケア・フレグランスおすすめ10選！モテ美髪アイテム完全比較](https://qualia-navi.vercel.app/articles/art-wf-hair-sarasara-fragrance-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【メガネの鼻パッド荒れ・くっきり赤み跡を撃退】痛くない＆色素沈着を防ぐ神アイテムおすすめ10選徹底比較](https://qualia-navi.vercel.app/articles/art-wf-megane-hanaate-skin-care-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】30代の開き毛穴・たるみ毛穴を隠すファンデーションおすすめ10選！毛穴落ちしない神アイテム徹底比較](https://qualia-navi.vercel.app/articles/art-wf-30s-keana-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】40代のシミ・肝斑を厚塗り感なく隠すファンデーションおすすめ10選！コンシーラーいらずの最強カバー徹底比較](https://qualia-navi.vercel.app/articles/art-wf-40s-shimi-cover-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】乾燥肌でも1日中カサつかない＆崩れないファンデーションおすすめ10選！夕方まで潤い続く神コスメ徹底比較](https://qualia-navi.vercel.app/articles/art-wf-kansouhada-kuzurenai-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】肌荒れ・敏感肌でも安心して使える低刺激ファンデーションおすすめ10選！石鹸オフ＆薬用処方完全比較](https://qualia-navi.vercel.app/articles/art-wf-binkanhada-tsukaeru-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】ブルベ夏に似合う神リップおすすめ10選！透明感爆発の青みピンク＆粘膜カラー徹底比較](https://qualia-navi.vercel.app/articles/art-wf-burubenatsu-niau-lip-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】イエベ秋に似合う神アイシャドウおすすめ10選！深みテラコッタ＆ゴールドブラウン徹底比較](https://qualia-navi.vercel.app/articles/art-wf-yebeaki-niau-eyeshadow-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】皮むけ・乾燥知らず！唇が絶対に荒れない高保湿神リップおすすめ10選徹底比較](https://qualia-navi.vercel.app/articles/art-wf-kuchibiru-arenai-lip-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】食事しても落ちない＆マスクにつかない最強神リップおすすめ10選！ツヤも色持ちも諦めない徹底比較](https://qualia-navi.vercel.app/articles/art-wf-mask-tsukanai-lip-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】夕方になっても顔色がくすまない！一日中透明感をキープする神ファンデーションおすすめ10選徹底比較](https://qualia-navi.vercel.app/articles/art-wf-yuugata-kusumanai-foundation-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【2026年最新】すれ違いざまに良い香り！髪がサラサラにまとまる神ヘアオイル＆ミストおすすめ10選徹底比較](https://qualia-navi.vercel.app/articles/art-wf-hair-sarasara-fragrance-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】崩れにくいコスメおすすめ10選！汗・皮脂・マスクでも夕方まで美肌が続く最強ベースメイク完全比較](https://qualia-navi.vercel.app/articles/art-cosme-kuzureninui-longlasting-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】落ちにくいコスメおすすめ10選！飲食しても色ツヤが続く神リップ＆アイメイク完全比較](https://qualia-navi.vercel.app/articles/art-cosme-ochinikui-lip-tint-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】高保湿コスメおすすめ10選！砂漠肌をうるツヤに満たすセラミド・ヒアルロン酸名品完全比較](https://qualia-navi.vercel.app/articles/art-cosme-kouhoshitsu-moisture-2026): コスメ検証 (ブランド: 主要コスメ)
@@ -65,7 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新】20代おすすめコスメ10選！毛穴・くすみ・乾燥を防ぐスキンケア＆旬顔トレンドメイク完全比較](https://qualia-navi.vercel.app/articles/art-cosme-osusume-20s-2026-best10): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】30代おすすめコスメ10選！乾燥・くすみ・初期シワを本格ケアする大人の名品完全比較](https://qualia-navi.vercel.app/articles/art-cosme-osusume-30s-2026-best10): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】40代おすすめコスメ10選！ハリ・たるみ・シミ悩みに応える本格エイジングケア完全比較](https://qualia-navi.vercel.app/articles/art-cosme-osusume-40s-2026-best10): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】50代おすすめコスメ10選！深刻な乾燥・くすみ・ハリ低下を克服するプレミアムコスメ完全比較](https://qualia-navi.vercel.app/articles/art-cosme-osusume-50s-2026-best10): コスメ検証 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

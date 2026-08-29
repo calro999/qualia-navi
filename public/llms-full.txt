@@ -78,7 +78,21 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 2905 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 2907 Product Reviews)
+
+### 【上品な明るさ・白浮きゼロの選び方】茶色系白髪染め最強おすすめ10選！赤み防止・透明感ブラウン・ダメージ補修・口コミ徹底比較2026
+- **URL**: https://qualia-navi.vercel.app/articles/art-gray-hair-brown-10-ranking-comparison-2026
+- **Brand**: コスメブランド
+- **Category**: コスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。
+
+### 【自然な黒髪に染まる選び方】黒系白髪染め最強おすすめ10選！不自然な真っ黒回避・生え際密着・ダメージレス・口コミ徹底比較2026
+- **URL**: https://qualia-navi.vercel.app/articles/art-gray-hair-black-10-ranking-comparison-2026
+- **Brand**: コスメブランド
+- **Category**: コスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。
 
 ### 【理想の爽快感・サラサラ髪が見つかる選び方】ドライシャンプー最強おすすめ10選！ベタつき皮脂・頭皮のニオイ・白残り防止・口コミ徹底比較2026
 - **URL**: https://qualia-navi.vercel.app/articles/art-dry-shampoo-10-ranking-comparison-2026

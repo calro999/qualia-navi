@@ -78,7 +78,21 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 2913 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 2915 Product Reviews)
+
+### 【大人の唇の縦ジワ・皮むけ・くすみ改善】女性用リップケア＆唇美容液最強おすすめ10選！プランパー・夜用パック・高保湿・口コミ徹底比較2026
+- **URL**: https://qualia-navi.vercel.app/articles/art-womens-lip-care-dryness-10-ranking-comparison-2026
+- **Brand**: コスメブランド
+- **Category**: コスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。
+
+### 【男の唇の荒れ・皮むけ・ひび割れを即効治す】メンズリップクリーム最強おすすめ10選！テカらない・高保湿持続・医薬品・口コミ徹底比較2026
+- **URL**: https://qualia-navi.vercel.app/articles/art-mens-lip-care-dryness-10-ranking-comparison-2026
+- **Brand**: コスメブランド
+- **Category**: コスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。
 
 ### 【大人のシワ・たるみ・毛穴・くすみを全方位ケア】女性用アンチエイジングスキンケア最強おすすめ10選！レチノール・ナイアシンアミド・幹細胞・口コミ徹底比較2026
 - **URL**: https://qualia-navi.vercel.app/articles/art-womens-anti-aging-10-ranking-comparison-2026

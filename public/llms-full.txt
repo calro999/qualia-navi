@@ -78,7 +78,21 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 2907 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 2909 Product Reviews)
+
+### 【女性の乾燥フケ・かゆみ・頭皮トラブル解消】女性用フケ・頭皮かゆみケア最強おすすめ10選！美髪ツヤ・低刺激アミノ酸・抗真菌・口コミ徹底比較2026
+- **URL**: https://qualia-navi.vercel.app/articles/art-womens-scalp-dandruff-10-ranking-comparison-2026
+- **Brand**: コスメブランド
+- **Category**: コスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。
+
+### 【男のフケ・かゆみ・頭皮臭を根本撃退】メンズ用フケ・頭皮かゆみケア最強おすすめ10選！脂性フケ・乾燥フケ・抗真菌・口コミ徹底比較2026
+- **URL**: https://qualia-navi.vercel.app/articles/art-mens-scalp-dandruff-10-ranking-comparison-2026
+- **Brand**: コスメブランド
+- **Category**: コスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。
 
 ### 【上品な明るさ・白浮きゼロの選び方】茶色系白髪染め最強おすすめ10選！赤み防止・透明感ブラウン・ダメージ補修・口コミ徹底比較2026
 - **URL**: https://qualia-navi.vercel.app/articles/art-gray-hair-brown-10-ranking-comparison-2026

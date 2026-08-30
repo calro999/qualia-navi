@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-08-30
-- **Total Articles**: 3059 件の個別詳細レビュー
+- **Total Articles**: 3069 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,16 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【湿気でも落ちない上向きカール】ホットビューラーおすすめ人気10選！USB充電式＆火傷しない安全設計比較](https://qualia-navi.vercel.app/articles/art-peri-heated-eyelash-curler-usb-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【唇の日焼け・くすみを完全ガード】UVカットリップクリームおすすめ人気10選！SPF配合・荒れない高保湿比較](https://qualia-navi.vercel.app/articles/art-peri-uv-lip-cream-spf-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【目立たず触らず治す】ニキビパッチ＆スポッツケアおすすめ人気10選！メイクの上から貼れる超薄型比較](https://qualia-navi.vercel.app/articles/art-peri-acne-patch-spots-care-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【マスカラのダマを瞬時に解消】スクリューブラシ＆金属製まつ毛コームおすすめ10選！繊細セパレート比較](https://qualia-navi.vercel.app/articles/art-peri-screw-brush-eyebrow-lash-comb-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【ワキ汗ジミ・嫌なニオイを根本遮断】薬用ロールオン制汗剤＆クリームおすすめ10選！服に汗ジミを作らない最強比較](https://qualia-navi.vercel.app/articles/art-peri-medicated-roll-on-deodorant-sweat-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【アイロンの熱ダメージをゼロに】ヒートプロテクトヘアオイル＆ミルクおすすめ10選！カール＆ストレートキープ比較](https://qualia-navi.vercel.app/articles/art-peri-heat-protect-hair-oil-iron-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【化粧水〜クリームまで1個で完結】薬用シワ改善＆美白オールインワンジェルおすすめ10選！大人の手抜きなし時短ケア比較](https://qualia-navi.vercel.app/articles/art-peri-medicated-all-in-one-gel-antiaging-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【ちゅるんとガラスツヤ】プランパーリップオイルおすすめ人気10選！縦ジワを飛ばしてボリュームUP比較](https://qualia-navi.vercel.app/articles/art-peri-plump-lip-oil-glass-shine-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【ささくれ・二枚爪を防ぐ】ネイルオイル＆キューティクルオイルおすすめ人気10選！持ち歩きペンタイプ比較](https://qualia-navi.vercel.app/articles/art-peri-nail-cuticle-oil-pen-care-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【生え際・分け目の白髪を瞬間カバー】白髪隠しスティック＆マスカラおすすめ人気10選！手につかない自然な仕上がり比較](https://qualia-navi.vercel.app/articles/art-peri-gray-hair-cover-stick-mascara-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【ポーチが軽くなる＆お直しに便利】ミニサイズコスメ＆トラベルセットおすすめ人気10選！デパコス・プチプラ比較](https://qualia-navi.vercel.app/articles/art-peri-portable-mini-cosme-travel-set-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【縦ジワ消滅・ぷるんと弾む】薬用リップ美容液おすすめ人気10選！チューブ型高保湿エッセンス比較](https://qualia-navi.vercel.app/articles/art-peri-medicated-lip-essence-serum-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【朝の頑固なハネ・うねりを瞬間リセット】寝ぐせ直しウォーターおすすめ10選！アイロンの熱から守るミスト比較](https://qualia-navi.vercel.app/articles/art-peri-bed-hair-water-styling-mist-2026): コスメ検証 (ブランド: 主要コスメ)
@@ -56,16 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【シワ改善と美白を一本で両立】ナイアシンアミド配合スキンケアおすすめ10選！敏感肌でも使える万能成分比較](https://qualia-navi.vercel.app/articles/art-peri-niacinamide-serum-lotion-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【塗るだけで脱色級の垢抜け眉】眉マスカラおすすめ人気10選！自眉の黒さをしっかり消す高発色比較](https://qualia-navi.vercel.app/articles/art-peri-eyebrow-mascara-bleach-effect-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【A反応を出さない】初心者向けレチノールスキンケアおすすめ10選！皮剥けしない低刺激アイテムと正しい使い方](https://qualia-navi.vercel.app/articles/art-peri-retinol-beginner-skincare-guide-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【光で影とくすみを消す】ハイライトおすすめ人気10選！目元のクマ消し＆内側発光ツヤ肌比較](https://qualia-navi.vercel.app/articles/art-peri-highlighter-kuma-glow-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【繰り返す肌荒れ・赤みを鎮静】CICA（シカ）クリームおすすめ人気10選！VT・ドクタージャルト等の効果比較](https://qualia-navi.vercel.app/articles/art-peri-cica-cream-skin-calming-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【雨の日も風でも崩れない】前髪キープミスト＆スプレーおすすめ人気10選！パリパリに固まらない自然な束感比較](https://qualia-navi.vercel.app/articles/art-peri-bangs-keep-mist-spray-humidity-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【翌朝ぷるんとした赤ちゃん唇】リップスリーピングマスクおすすめ人気10選！ラネージュ等の夜用高保湿ケア比較](https://qualia-navi.vercel.app/articles/art-peri-lip-sleeping-mask-night-care-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【手を汚さずメイクの上から塗り直せる】日焼け止めスティックおすすめ人気10選！サラサラ＆白浮きなしUV比較](https://qualia-navi.vercel.app/articles/art-peri-uv-stick-sunscreen-touch-up-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【猛暑・マスクでも鉄壁キープ】メイクキープミストおすすめ人気10選！コーセー等の皮脂＆汗崩れ防止スプレー比較](https://qualia-navi.vercel.app/articles/art-peri-makeup-keep-mist-spray-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【サロン帰りのスッキリ頭皮】炭酸シャンプーおすすめ人気10選！頭皮のニオイ・ベタつき・皮脂詰まり解消比較](https://qualia-navi.vercel.app/articles/art-peri-carbonated-shampoo-scalp-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【唇が荒れない＆色持ち持続】高保湿リップティントおすすめ人気10選！皮剥けしないオイルティント徹底比較](https://qualia-navi.vercel.app/articles/art-peri-lip-tint-moist-are-nai-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【毛穴の黒ずみ・角栓を吸着洗浄】クレイ・泥洗顔料おすすめ人気10選！つっぱらず透明感が出る泥パック洗顔比較](https://qualia-navi.vercel.app/articles/art-peri-clay-facial-wash-keana-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【水光肌と圧倒的カバー力】韓国クッションファンデーションおすすめ10選！TIRTIR・クリオ等の崩れにくさ比較](https://qualia-navi.vercel.app/articles/art-peri-korean-cushion-foundation-ranking-2026): コスメ検証 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

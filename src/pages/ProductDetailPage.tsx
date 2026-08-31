@@ -47,7 +47,113 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
     );
   }
 
+  // ── コンテンツ型記事（features/introText/rakutenPriceなし）の場合は専用レイアウト ──
+  const isContentArticle = !!(article as any).content && !article.features;
+
+  if (isContentArticle) {
+    const ca = article as any;
+    const reviewer2 = AUTHOR_PROFILES.find((a) => a.name === ca.author) || AUTHOR_PROFILES[0];
+    return (
+      <div className="py-6 px-4 sm:px-6">
+        <div className="max-w-4xl mx-auto space-y-6">
+          <button
+            onClick={() => onNavigate('/')}
+            className="flex items-center gap-1.5 text-xs font-bold text-rose-600 hover:text-rose-800 transition"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span>コスメ一覧へ戻る</span>
+          </button>
+
+          <article className="qualia-glass-card rounded-3xl p-6 sm:p-10 space-y-8 border border-rose-100">
+            {/* Breadcrumb */}
+            <nav className="flex items-center gap-2 text-xs sm:text-sm text-slate-500 flex-wrap">
+              <button onClick={() => onNavigate('/')} className="hover:text-rose-600 transition">コスメTOP</button>
+              <span>/</span>
+              <span className="text-rose-700 font-bold bg-rose-50 px-2.5 py-0.5 rounded-md text-xs border border-rose-100">
+                {ca.category}
+              </span>
+              <span>/</span>
+              <span className="text-slate-800 font-bold truncate max-w-[200px]">{ca.title}</span>
+            </nav>
+
+            {/* Title */}
+            <div className="space-y-3">
+              <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 leading-tight font-serif-brand">
+                {ca.title}
+              </h1>
+              <p className="text-sm text-slate-600 leading-relaxed">{ca.description}</p>
+            </div>
+
+            {/* Reviewer Meta */}
+            <div
+              onClick={() => onNavigate(`/authors/${reviewer2.id}`)}
+              className="bg-rose-50/70 p-4 rounded-2xl border border-rose-100 flex items-center justify-between cursor-pointer hover:bg-rose-100/80 transition"
+            >
+              <div className="flex items-center gap-3">
+                <img
+                  src={reviewer2.avatarUrl}
+                  alt={reviewer2.name}
+                  className="w-12 h-12 rounded-xl object-cover border border-rose-300 shadow-xs"
+                />
+                <div>
+                  <p className="text-xs font-extrabold text-slate-900 flex items-center gap-1">
+                    <ShieldCheck className="w-3.5 h-3.5 text-rose-600" /> 記事担当: {reviewer2.name}
+                  </p>
+                  <p className="text-[11px] text-slate-600 font-medium">担当部門: {reviewer2.assignedDepartment || reviewer2.role}</p>
+                </div>
+              </div>
+              <span className="text-xs text-rose-700 font-bold hidden sm:inline">プロフィール ➔</span>
+            </div>
+
+            {/* Main Content */}
+            <div className="prose max-w-none text-slate-800 leading-relaxed font-normal">
+              <MarkdownRenderer content={ca.content} onNavigate={onNavigate} />
+            </div>
+
+            {/* Beginner Guide Banner（このページ自身には表示しない） */}
+            {ca.id !== RAKUTEN_BEGINNER_GUIDE_ID && (
+              <RakutenBeginnerGuideBanner onNavigate={onNavigate} />
+            )}
+
+            {/* Related Products */}
+            <div className="pt-10 border-t border-slate-200 space-y-6">
+              <h3 className="text-lg sm:text-xl font-extrabold text-slate-900 font-serif-brand">関連おすすめコスメ</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                {articles
+                  .filter((a) => a.id !== ca.id && a.features)
+                  .slice(0, 3)
+                  .map((rel) => (
+                    <div
+                      key={rel.id}
+                      onClick={() => onNavigate(`/articles/${rel.id}`)}
+                      className="bg-white p-4 rounded-2xl border border-slate-200 hover:border-rose-300 transition cursor-pointer flex flex-col justify-between group shadow-xs"
+                    >
+                      <div className="relative aspect-video rounded-xl overflow-hidden mb-3 bg-slate-100 border border-slate-100">
+                        <img
+                          src={getRakutenOptimizedImageUrl(rel.imageUrl)}
+                          alt={rel.productName || rel.title}
+                          referrerPolicy="no-referrer"
+                          onError={handleImageError}
+                          className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform"
+                        />
+                      </div>
+                      <div className="text-xs text-slate-900 font-bold group-hover:text-rose-600 transition flex items-center justify-between font-serif-brand">
+                        <span className="line-clamp-1">{rel.productName || rel.title}</span>
+                        <span>➔</span>
+                      </div>
+                    </div>
+                  ))}
+              </div>
+            </div>
+            <InternalLinkMesh currentArticleId={ca.id} category={ca.category} />
+          </article>
+        </div>
+      </div>
+    );
+  }
+
   const reviewer = AUTHOR_PROFILES.find((a) => a.name === article.reviewerName) || AUTHOR_PROFILES[0];
+
   const uniqueArticles = deduplicateArticles(articles);
   const relatedProducts = uniqueArticles
     .filter((a) => a.id !== article.id && a.category === article.category)

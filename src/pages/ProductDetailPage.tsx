@@ -15,15 +15,60 @@ interface ProductDetailPageProps {
   onNavigate: (path: string) => void;
 }
 
-/** Markdown+生HTML混在コンテンツをHTMLに変換する（生HTMLブロックはそのまま通す） */
+/** Markdown+生HTML混在コンテンツをHTMLに変換する（テーブル・番号付きリスト・生HTML対応） */
 function convertMixedContentToHtml(content: string): string {
   if (!content) return '';
   const lines = content.split('\n');
   const result: string[] = [];
+  let inTable = false;
+  let tableHeaders: string[] = [];
+  let tableRows: string[][] = [];
+
+  const flushTable = () => {
+    if (inTable && tableHeaders.length > 0) {
+      let tableHtml = '<div style="overflow-x:auto;margin:24px 0;border:1px solid #e2e8f0;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,0.05);"><table style="width:100%;border-collapse:collapse;text-align:left;font-size:0.875rem;">';
+      tableHtml += '<thead style="background:#f8fafc;border-bottom:2px solid #e2e8f0;"><tr>';
+      tableHeaders.forEach(th => {
+        tableHtml += `<th style="padding:10px 14px;font-weight:700;color:#334155;">${inlineMarkdown(th)}</th>`;
+      });
+      tableHtml += '</tr></thead><tbody>';
+      tableRows.forEach((row, rIdx) => {
+        const bg = rIdx % 2 === 0 ? '#ffffff' : '#fdfaf9';
+        tableHtml += `<tr style="background:${bg};border-bottom:1px solid #f1f5f9;">`;
+        row.forEach(td => {
+          tableHtml += `<td style="padding:10px 14px;color:#475569;vertical-align:top;">${inlineMarkdown(td)}</td>`;
+        });
+        tableHtml += '</tr>';
+      });
+      tableHtml += '</tbody></table></div>';
+      result.push(tableHtml);
+    }
+    inTable = false;
+    tableHeaders = [];
+    tableRows = [];
+  };
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     const trimmed = line.trim();
+
+    // テーブルの処理
+    if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+      const cells = trimmed.split('|').slice(1, -1).map(c => c.trim());
+      // セパレーター行（|:---|:---|等）
+      if (cells.every(c => c.replace(/[:\-]/g, '') === '')) {
+        inTable = true;
+        continue;
+      }
+      if (!inTable && tableHeaders.length === 0) {
+        tableHeaders = cells;
+      } else {
+        tableRows.push(cells);
+      }
+      continue;
+    } else if (inTable) {
+      flushTable();
+    }
 
     // 空行
     if (!trimmed) {
@@ -56,10 +101,19 @@ function convertMixedContentToHtml(content: string): string {
       continue;
     }
 
-    // Markdown list item
+    // 番号付きリスト (1. 2. 3. など)
+    const numMatch = trimmed.match(/^(\d+)\.\s+(.*)$/);
+    if (numMatch) {
+      const num = numMatch[1];
+      const text = numMatch[2];
+      result.push(`<div style="display:flex;gap:10px;align-items:flex-start;padding:10px 14px;margin:6px 0;background:#ffffff;border-radius:12px;border:1px solid #fee2e2;box-shadow:0 1px 2px rgba(0,0,0,0.02);font-size:0.92rem;"><span style="background:#f43f5e;color:#ffffff;font-weight:800;border-radius:50%;width:22px;height:22px;display:flex;align-items:center;justify-content:center;font-size:0.75rem;flex-shrink:0;margin-top:2px;">${num}</span><span style="color:#1e293b;line-height:1.6;">${inlineMarkdown(text)}</span></div>`);
+      continue;
+    }
+
+    // 通常の箇条書きリスト item
     if (trimmed.startsWith('- ') || trimmed.startsWith('* ') || trimmed.startsWith('・')) {
       const text = trimmed.replace(/^[-*・]\s*/, '');
-      result.push(`<div style="display:flex;gap:8px;align-items:flex-start;padding:8px 12px;margin:4px 0;background:#fff1f2;border-radius:10px;border:1px solid #fecdd3;font-size:0.9rem;"><span style="color:#f43f5e;font-weight:800;flex-shrink:0;">✦</span><span>${inlineMarkdown(text)}</span></div>`);
+      result.push(`<div style="display:flex;gap:8px;align-items:flex-start;padding:8px 12px;margin:4px 0;background:#fff1f2;border-radius:10px;border:1px solid #fecdd3;font-size:0.9rem;"><span style="color:#f43f5e;font-weight:800;flex-shrink:0;">✦</span><span style="color:#334155;line-height:1.6;">${inlineMarkdown(text)}</span></div>`);
       continue;
     }
 
@@ -76,10 +130,16 @@ function convertMixedContentToHtml(content: string): string {
       continue;
     }
 
+    // コードブロック行（``` は無視して中身を出力）
+    if (trimmed.startsWith('```')) {
+      continue;
+    }
+
     // Normal paragraph
     result.push(`<p style="color:#334155;font-size:0.95rem;line-height:1.8;margin-bottom:1rem;">${inlineMarkdown(trimmed)}</p>`);
   }
 
+  flushTable();
   return result.join('\n');
 }
 

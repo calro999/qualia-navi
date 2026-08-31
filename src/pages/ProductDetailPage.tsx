@@ -107,14 +107,19 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
 
   React.useEffect(() => {
     if (article) {
-      const jsonLd = generateProductJsonLd(article as any, window.location.origin);
-      updateSeoGeoMetadata({
-        title: `【2026年最新】${article.productName || article.title}の口コミ・評判・最安値を徹底比較検証 | Qualia Navi`,
-        description: article.introText,
-        imageUrl: article.imageUrl,
-        urlPath: `/articles/${article.id}`,
-        jsonLdSchema: jsonLd
-      });
+      try {
+        const jsonLd = generateProductJsonLd(article as any, window.location.origin);
+        updateSeoGeoMetadata({
+          title: `【2026年最新】${article.productName || article.title}の口コミ・評判・最安値を徹底比較検証 | Qualia Navi`,
+          description: article.introText || (article as any).description || '',
+          imageUrl: article.imageUrl || (article as any).image || '',
+          urlPath: `/articles/${article.id}`,
+          jsonLdSchema: jsonLd
+        });
+      } catch (e) {
+        // コンテンツ型記事等でSEOメタ生成に失敗しても表示は続行
+        console.warn('[ProductDetailPage] SEO metadata generation failed:', e);
+      }
     }
   }, [article]);
 

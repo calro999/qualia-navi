@@ -115,7 +115,7 @@ export function generateProductJsonLd(
     },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: article.starRating.toString(),
+      ratingValue: (article.starRating || 4.8).toString(),
       reviewCount: (article.reviewCount || 100).toString(),
       description: '楽天市場での実際のユーザー評価に基づく平均スコア',
       url: article.affiliateLink

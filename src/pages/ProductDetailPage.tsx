@@ -15,6 +15,93 @@ interface ProductDetailPageProps {
   onNavigate: (path: string) => void;
 }
 
+/** Markdown+生HTML混在コンテンツをHTMLに変換する（生HTMLブロックはそのまま通す） */
+function convertMixedContentToHtml(content: string): string {
+  if (!content) return '';
+  const lines = content.split('\n');
+  const result: string[] = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    // 空行
+    if (!trimmed) {
+      result.push('');
+      continue;
+    }
+
+    // 生HTMLタグで始まる行はそのまま通す
+    if (trimmed.startsWith('<')) {
+      result.push(line);
+      continue;
+    }
+
+    // Markdown H1
+    if (trimmed.startsWith('# ')) {
+      const text = trimmed.replace(/^#\s+/, '');
+      result.push(`<h2 style="font-size:1.5rem;font-weight:800;color:#0f172a;margin:2rem 0 1rem;padding-bottom:0.5rem;border-bottom:2px solid #f43f5e;">${inlineMarkdown(text)}</h2>`);
+      continue;
+    }
+    // Markdown H2
+    if (trimmed.startsWith('## ')) {
+      const text = trimmed.replace(/^##\s+/, '');
+      result.push(`<h3 style="font-size:1.25rem;font-weight:800;color:#0f172a;margin:1.5rem 0 0.75rem;border-left:4px solid #f43f5e;padding-left:12px;">${inlineMarkdown(text)}</h3>`);
+      continue;
+    }
+    // Markdown H3
+    if (trimmed.startsWith('### ')) {
+      const text = trimmed.replace(/^###\s+/, '');
+      result.push(`<h4 style="font-size:1.1rem;font-weight:700;color:#1e293b;margin:1.25rem 0 0.5rem;">${inlineMarkdown(text)}</h4>`);
+      continue;
+    }
+
+    // Markdown list item
+    if (trimmed.startsWith('- ') || trimmed.startsWith('* ') || trimmed.startsWith('・')) {
+      const text = trimmed.replace(/^[-*・]\s*/, '');
+      result.push(`<div style="display:flex;gap:8px;align-items:flex-start;padding:8px 12px;margin:4px 0;background:#fff1f2;border-radius:10px;border:1px solid #fecdd3;font-size:0.9rem;"><span style="color:#f43f5e;font-weight:800;flex-shrink:0;">✦</span><span>${inlineMarkdown(text)}</span></div>`);
+      continue;
+    }
+
+    // Markdown blockquote
+    if (trimmed.startsWith('> ')) {
+      const text = trimmed.replace(/^>\s*/, '');
+      result.push(`<blockquote style="border-left:4px solid #cbd5e1;background:#f8fafc;padding:12px 16px;margin:12px 0;border-radius:0 10px 10px 0;font-style:italic;color:#475569;font-size:0.9rem;">${inlineMarkdown(text)}</blockquote>`);
+      continue;
+    }
+
+    // Markdown HR
+    if (trimmed === '---') {
+      result.push('<hr style="border:none;border-top:2px dashed #fecdd3;margin:2rem 0;" />');
+      continue;
+    }
+
+    // Normal paragraph
+    result.push(`<p style="color:#334155;font-size:0.95rem;line-height:1.8;margin-bottom:1rem;">${inlineMarkdown(trimmed)}</p>`);
+  }
+
+  return result.join('\n');
+}
+
+/** インラインMarkdown（太字・リンク・画像・コード）をHTMLに変換 */
+function inlineMarkdown(text: string): string {
+  return text
+    // 画像 ![alt](url)
+    .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" style="max-width:100%;border-radius:12px;margin:8px 0;" loading="lazy" />')
+    // リンク [text](url)
+    .replace(/\[(.*?)\]\((.*?)\)/g, (_, label, href) => {
+      const isAffiliate = href.includes('rakuten') || href.includes('hb.afl');
+      if (isAffiliate || label.includes('🛍️') || label.includes('楽天')) {
+        return `<a href="${href}" target="_blank" rel="nofollow noopener noreferrer sponsored" style="display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#f43f5e,#e11d48);color:#fff;font-weight:800;font-size:0.9rem;padding:10px 20px;border-radius:12px;text-decoration:none;margin:8px 0;box-shadow:0 2px 8px rgba(244,63,94,0.3);">🛒 ${label} ↗</a>`;
+      }
+      return `<a href="${href}" target="_blank" rel="noopener noreferrer" style="color:#e11d48;font-weight:700;text-decoration:underline;">${label}</a>`;
+    })
+    // 太字 **text**
+    .replace(/\*\*(.*?)\*\*/g, '<strong style="font-weight:800;color:#0f172a;background:#ffe4e6;padding:1px 4px;border-radius:4px;">$1</strong>')
+    // インラインコード `text`
+    .replace(/`(.*?)`/g, '<code style="font-family:monospace;font-size:0.85em;color:#e11d48;background:#fff1f2;padding:2px 6px;border-radius:4px;">$1</code>');
+}
+
 export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDetailPageProps) {
   const article = articles.find((a) => a.id === articleId || a.itemCode === articleId);
 
@@ -105,10 +192,11 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
               <span className="text-xs text-rose-700 font-bold hidden sm:inline">プロフィール ➔</span>
             </div>
 
-            {/* Main Content */}
-            <div className="prose max-w-none text-slate-800 leading-relaxed font-normal">
-              <MarkdownRenderer content={ca.content} onNavigate={onNavigate} />
-            </div>
+            {/* Main Content - 生HTMLとMarkdownの混在コンテンツをそのままレンダリング */}
+            <div
+              className="prose max-w-none text-slate-800 leading-relaxed font-normal content-article-body"
+              dangerouslySetInnerHTML={{ __html: convertMixedContentToHtml(ca.content) }}
+            />
 
             {/* Beginner Guide Banner（このページ自身には表示しない） */}
             {ca.id !== RAKUTEN_BEGINNER_GUIDE_ID && (

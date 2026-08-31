@@ -4,6 +4,7 @@ import { MarkdownRenderer } from '../components/MarkdownRenderer';
 import { getRakutenOptimizedImageUrl, handleImageError } from '../utils/imageHelper';
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
 import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft } from 'lucide-react';
+import { RakutenBeginnerGuideBanner } from '../components/RakutenBeginnerGuideBanner';
 
 
 const CoverImage = ({ src, alt, className, loading }: { src: string | string[], alt: string, className?: string, loading?: 'lazy' | 'eager' }) => {
@@ -215,6 +216,9 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
           <div className="prose max-w-none text-slate-800 leading-relaxed border-t border-slate-200 pt-8 font-normal">
             <MarkdownRenderer content={comparison.contentMarkdown} onNavigate={onNavigate} />
           </div>
+
+          {/* 初めて楽天市場を利用する方向けの安心購入・攻略ガイドへの導線 */}
+          <RakutenBeginnerGuideBanner onNavigate={onNavigate} />
         </article>
 
         {/* Related Articles Section */}

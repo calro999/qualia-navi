@@ -4,6 +4,7 @@ import { MarkdownRenderer } from '../components/MarkdownRenderer';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { generateBlogPostJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
 import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft } from 'lucide-react';
+import { RakutenBeginnerGuideBanner } from '../components/RakutenBeginnerGuideBanner';
 
 interface BlogPostPageProps {
   postId: string;
@@ -147,6 +148,9 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
               </div>
             </div>
           )}
+
+          {/* 初めて楽天市場を利用する方向けの安心購入・攻略ガイドへの導線 */}
+          <RakutenBeginnerGuideBanner onNavigate={onNavigate} />
         </article>
       </div>
     </div>

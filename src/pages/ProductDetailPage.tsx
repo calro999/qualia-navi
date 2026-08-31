@@ -7,6 +7,7 @@ import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHel
 import { generateProductJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
 import { ShoppingCart, ExternalLink, Star, CheckCircle, ShieldCheck, ArrowLeft } from 'lucide-react';
 import { getCleanAffiliateLink, deduplicateArticles } from '../utils/productUtils';
+import { RakutenBeginnerGuideBanner, RAKUTEN_BEGINNER_GUIDE_ID } from '../components/RakutenBeginnerGuideBanner';
 
 interface ProductDetailPageProps {
   articleId: string;
@@ -250,6 +251,11 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
                 ))}
               </div>
             </div>
+          )}
+
+          {/* 初めて楽天市場を利用する方向けの安心購入・攻略ガイドへの導線 */}
+          {article.id !== RAKUTEN_BEGINNER_GUIDE_ID && (
+            <RakutenBeginnerGuideBanner onNavigate={onNavigate} />
           )}
 
           {/* Related Products & Comparison */}

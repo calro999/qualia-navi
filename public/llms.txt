@@ -31,10 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
-- [【楽天初心者必読】楽天市場でコスメを買う完全ガイド！メリット・買い方・ポイント還元・返品ルールまで徹底解説](https://qualia-navi.vercel.app/articles/art-rakuten-cosme-beginner-complete-guide-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【楽天初心者必読】楽天市場でコスメを買う完全ガイド！メリット・買い方・ポイント還元・返品ルールまで徹底解説](https://qualia-navi.vercel.app/articles/art-rakuten-cosme-beginner-complete-guide-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【ブーツやパンプスの足のニオイを無臭化】足用消臭制汗クリームおすすめ10選！朝塗って夜までサラサラ比較](https://qualia-navi.vercel.app/articles/art-peri-foot-deodorant-cream-smell-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【地肌に直接塗って保湿する】頭皮用スカルプトリートメント＆パックおすすめ10選！フケ・かゆみ・乾燥改善比較](https://qualia-navi.vercel.app/articles/art-peri-scalp-hair-treatment-pack-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【メイクの上から日中の乾燥小ジワを消す】スティック美容液おすすめ10選！目元・口元の夕方カサつき解消比較](https://qualia-navi.vercel.app/articles/art-peri-stick-serum-wrinkle-touchup-2026): コスメ検証 (ブランド: 主要コスメ)

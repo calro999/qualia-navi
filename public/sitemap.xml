@@ -88,12 +88,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/articles/art-rakuten-cosme-beginner-complete-guide-2026</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>daily</changefreq>
@@ -107,6 +101,12 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-rakuten-cosme-beginner-complete-guide-2026</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>

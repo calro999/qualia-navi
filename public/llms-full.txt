@@ -3,7 +3,7 @@
 > 日本最大級のコスメ・美容徹底検証メディア 全記事＆全コンテンツ統合アーカイブ
 
 - Domain: https://qualia-navi.vercel.app
-- Last Mod: 2026-09-01
+- Last Mod: 2026-09-02
 - Format: Markdown (Optimized for LLM Context Windows & Retrieval Augmented Generation)
 
 ---
@@ -78,7 +78,21 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3108 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3110 Product Reviews)
+
+### 【2026年最新】頭皮のニオイ・ベタつき・フケを根本リセット！最強頭皮スクラブ・ヘッドスパおすすめ10選！毛穴クレンジング完全比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-scalp-scrub-head-spa-cleanse-10sen-2026
+- **Brand**: コスメブランド
+- **Category**: コスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。
+
+### 【2026年最新】毛穴引き締め＆くすみ即効リセット！最強炭酸パック・炭酸ガスパックおすすめ10選！サロン級ホームケア完全比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-sparkling-carbonated-face-pack-10sen-2026
+- **Brand**: コスメブランド
+- **Category**: コスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。
 
 ### 【2026年最新】肌荒れ・赤み・ニキビを防ぐ最強シカクリームおすすめ10選！ツボクサエキスの鎮静保湿力徹底比較
 - **URL**: https://qualia-navi.vercel.app/articles/art-cica-cream-skin-calming-repair-10sen-2026

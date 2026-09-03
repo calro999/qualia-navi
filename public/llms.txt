@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-03
-- **Total Articles**: 3117 件の個別詳細レビュー
+- **Total Articles**: 3118 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新】二重幅にたまらない＆ラメ落ちゼロ！最強リキッドアイシャドウ・グリッターおすすめ10選！濡れツヤ透け感完全比較](https://qualia-navi.vercel.app/articles/art-liquid-eyeshadow-glitter-shimmer-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】くすみ・古い角質・毛穴ザラつきを一掃！最強拭き取り化粧水・トナーパッドおすすめ10選！浸透力UP完全比較](https://qualia-navi.vercel.app/articles/art-wiping-toner-peeling-lotion-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】内側から濡れツヤ発光！最強ハイライトスティック・グロウスティックおすすめ10選！ヨレない立体小顔完全比較](https://qualia-navi.vercel.app/articles/art-highlight-stick-glow-balm-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】すっぴんでも可愛く血色チャージ！最強色付きリップバームおすすめ10選！荒れない・高保湿・ちゅるんツヤ完全比較](https://qualia-navi.vercel.app/articles/art-tinted-lip-balm-sheer-color-moist-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
@@ -65,7 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【朝の洗顔代わり＆ゴワつきリセット】保湿系ふき取り化粧水おすすめ10選！つっぱらず毛穴をつるつるにする比較](https://qualia-navi.vercel.app/articles/art-peri-gentle-wipe-lotion-exfoliating-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【抜きすぎた眉・薄眉が生えてくる】眉毛美容液おすすめ人気10選！自眉を濃く太く育てるケア比較](https://qualia-navi.vercel.app/articles/art-peri-eyebrow-growth-serum-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【朝の時短＆摩擦ゼロ洗顔】敏感肌向けポンプ式泡洗顔料おすすめ10選！つっぱらず潤い残す人気比較](https://qualia-navi.vercel.app/articles/art-peri-pump-foam-face-wash-sensitive-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【自眉のように1本1本描ける】極細アイブロウペンシルおすすめ人気10選！折れにくく落ちない名品比較](https://qualia-navi.vercel.app/articles/art-peri-ultra-fine-eyebrow-pencil-2026): コスメ検証 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

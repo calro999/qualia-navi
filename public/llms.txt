@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-03
-- **Total Articles**: 3113 件の個別詳細レビュー
+- **Total Articles**: 3114 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新】頑固な黒ずみ毛穴・角栓をつるんと落とす！最強クレンジングジェルおすすめ10選！温感＆摩擦レスW洗顔不要完全比較](https://qualia-navi.vercel.app/articles/art-cleansing-gel-pore-blackhead-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】二の腕のザラつき・首元・ヒップの黒ずみを全身つるすべに！最強レチノールボディクリームおすすめ10選！美肌引き締め完全比較](https://qualia-navi.vercel.app/articles/art-retinol-body-cream-smooth-skin-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】メイクの上から塗り直せる！最強日焼け止めパウダー・UVフェイスパウダーおすすめ10選！テカリ防止＆白浮きなし完全比較](https://qualia-navi.vercel.app/articles/art-uv-powder-sunscreen-touchup-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】細胞レベルで若返る！最強ヒト幹細胞エクソソーム美容液おすすめ10選！ハリ・弾力・たるみ毛穴改善完全比較](https://qualia-navi.vercel.app/articles/art-exosome-stem-cell-serum-aging-care-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
@@ -65,7 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【一晩でガサガサ唇を立て直す】夜用集中リップパックおすすめ人気10選！高密着ナイトトリートメント比較](https://qualia-navi.vercel.app/articles/art-peri-overnight-lip-pack-repair-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【頭皮のコリをほぐしてリフトアップ】スカルプシャンプーブラシおすすめ人気10選！ukaケンザン等の硬さ比較](https://qualia-navi.vercel.app/articles/art-peri-scalp-massage-shampoo-brush-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【運転・外出時の手の甲の日焼けを防止】UVカットハンドクリームおすすめ人気10選！SPF配合・ベタつかない比較](https://qualia-navi.vercel.app/articles/art-peri-hand-uv-sunscreen-cream-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【ワンプッシュで濃密もちもち泡】炭酸泡洗顔料おすすめ人気10選！くすみ・毛穴の黒ずみを洗い流す比較](https://qualia-navi.vercel.app/articles/art-peri-carbonated-foam-face-wash-2026): コスメ検証 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

@@ -78,7 +78,14 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3114 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3115 Product Reviews)
+
+### 【2026年最新】すっぴんでも可愛く血色チャージ！最強色付きリップバームおすすめ10選！荒れない・高保湿・ちゅるんツヤ完全比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-tinted-lip-balm-sheer-color-moist-10sen-2026
+- **Brand**: コスメブランド
+- **Category**: コスメ
+- **Score**: 4.5 / 5.0
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。
 
 ### 【2026年最新】頑固な黒ずみ毛穴・角栓をつるんと落とす！最強クレンジングジェルおすすめ10選！温感＆摩擦レスW洗顔不要完全比較
 - **URL**: https://qualia-navi.vercel.app/articles/art-cleansing-gel-pore-blackhead-10sen-2026

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-04
-- **Total Articles**: 3149 件の個別詳細レビュー
+- **Total Articles**: 3150 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【2026年最新】ビタミンC美容液おすすめ最強10選！毛穴・シミ・くすみを消し去る神美白セラム徹底比較](https://qualia-navi.vercel.app/articles/art-vitamin-c-pore-brightening-serum-10sen-2026): 🍋 ビタミンC・毛穴シミ美白美容液 (ブランド: 主要コスメ)
 - [【2026年最新】崩れない最強リキッドファンデーションおすすめ10選！毛穴レス＆素肌美を叶える神ファンデ徹底比較](https://qualia-navi.vercel.app/articles/art-liquid-foundation-long-lasting-poreless-10sen-2026): ✨ 崩れない最強リキッドファンデーション (ブランド: 主要コスメ)
 - [【2026年最新】美髪ヘアオイル＆ヘアミルクおすすめ最強10選！パサつき・うねりを消し去る神トリートメント徹底比較](https://qualia-navi.vercel.app/articles/art-hair-oil-milk-repair-treatment-10sen-2026): 💇‍♀️ 美髪ヘアオイル＆ヘアミルク (ブランド: 主要コスメ)
 - [【2026年最新】まつ毛美容液おすすめ最強10選！マツエク級の自まつ毛を育てる神まつ育セラム徹底比較](https://qualia-navi.vercel.app/articles/art-eyelash-serum-growth-conditioning-10sen-2026): 👁️ まつ毛美容液（まつ育セラム） (ブランド: 主要コスメ)
@@ -65,7 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新】二重幅にたまらない＆ラメ落ちゼロ！最強リキッドアイシャドウ・グリッターおすすめ10選！濡れツヤ透け感完全比較](https://qualia-navi.vercel.app/articles/art-liquid-eyeshadow-glitter-shimmer-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】くすみ・古い角質・毛穴ザラつきを一掃！最強拭き取り化粧水・トナーパッドおすすめ10選！浸透力UP完全比較](https://qualia-navi.vercel.app/articles/art-wiping-toner-peeling-lotion-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】内側から濡れツヤ発光！最強ハイライトスティック・グロウスティックおすすめ10選！ヨレない立体小顔完全比較](https://qualia-navi.vercel.app/articles/art-highlight-stick-glow-balm-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】すっぴんでも可愛く血色チャージ！最強色付きリップバームおすすめ10選！荒れない・高保湿・ちゅるんツヤ完全比較](https://qualia-navi.vercel.app/articles/art-tinted-lip-balm-sheer-color-moist-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

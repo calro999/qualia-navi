@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-05
-- **Total Articles**: 3159 件の個別詳細レビュー
+- **Total Articles**: 3163 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【マツパ後美容液おすすめ】マツエク長持ちコーティング剤＆セルフまつ毛パーマ束感キープ人気ランキング](https://qualia-navi.vercel.app/articles/art-lash-perm-coating-serum-aftercare-guide-2026): コスメ検証 (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新中華コスメ】白湯メイク・純欲メイクを作る名品コスメ10選！透け感マット＆ちゅるんツヤ](https://qualia-navi.vercel.app/articles/art-cbeauty-trend-baiyu-junyoku-makeup-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【花粉・PM2.5・寒暖差】肌荒れを防ぐ微粒子バリアミスト＆低刺激プロテクト下地10選](https://qualia-navi.vercel.app/articles/art-pollen-pm25-temp-diff-skin-barrier-mist-protect-base-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【バレずに青髭・ニキビ跡を消す】メンズ向けオレンジコンシーラー＆BBクリームおすすめ10選](https://qualia-navi.vercel.app/articles/art-mens-beard-shadow-acne-scar-orange-concealer-bb-guide-2026): コスメ検証 (ブランド: 主要コスメ)
@@ -62,10 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (ブランド: 主要コスメ)
-- [【2026年最新】宮脇咲良プロデュース「MOLAK（モラク）」カラコン人気色・おすすめ10選徹底比較！全色レポ＆水光グラデ・韓国アイドル風アイ診断](https://qualia-navi.vercel.app/articles/art-molak-miyawaki-sakura-colorcon-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】白石麻衣（まいやん）プロデュース「feliamo（フェリアモ）」カラコン人気色・おすすめ10選徹底比較！全色レポ＆男性ウケ・自然に盛れる選び方診断](https://qualia-navi.vercel.app/articles/art-feliamo-shiraishi-mai-colorcon-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】指原莉乃プロデュース「TOPARDS（トパーズ）」カラコン人気色・おすすめ10選徹底比較！全色レポ＆パーソナルカラー別似合う色診断](https://qualia-navi.vercel.app/articles/art-topards-sashihara-rino-colorcon-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】乾燥・かゆみ・黒ずみを根本保湿！最強デリケートゾーンオイル・フェムケアオイルおすすめ10選！会陰マッサージ完全比較](https://qualia-navi.vercel.app/articles/art-femcare-delicate-zone-oil-serum-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

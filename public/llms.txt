@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-05
-- **Total Articles**: 3156 件の個別詳細レビュー
+- **Total Articles**: 3157 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧の一部)
+- [【バレずに青髭・ニキビ跡を消す】メンズ向けオレンジコンシーラー＆BBクリームおすすめ10選](https://qualia-navi.vercel.app/articles/art-mens-beard-shadow-acne-scar-orange-concealer-bb-guide-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【ブルベ夏×骨格ウェーブ】儚げ透明感を最大化するベース＆淡色モテリップ10選](https://qualia-navi.vercel.app/articles/art-cool-summer-wave-translucent-makeup-lip-guide-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【ドクターエルシア】ダブルセラムバームファンデーション口コミ・色選び＆詰め替えレフィルお得セット徹底レビュー！美容液マーブルで叶う生ツヤ肌の秘密](https://qualia-navi.vercel.app/articles/art-dralthea-double-serum-balm-foundation-review-guide): コスメ検証 (ブランド: 主要コスメ)
 - [【イエベ春×顔タイプフレッシュ】多幸感を引き出す垢抜け神コスメ10選＆メイク完全手順](https://qualia-navi.vercel.app/articles/art-warm-spring-fresh-makeup-cosmetics-guide-2026): コスメ検証 (ブランド: 主要コスメ)
@@ -65,7 +66,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新】乾燥・かゆみ・黒ずみを根本保湿！最強デリケートゾーンオイル・フェムケアオイルおすすめ10選！会陰マッサージ完全比較](https://qualia-navi.vercel.app/articles/art-femcare-delicate-zone-oil-serum-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】黒より盛れる抜け感アイ！最強ニュアンスカラーマスカラおすすめ10選！目力キープ＆色素薄い系完全比較](https://qualia-navi.vercel.app/articles/art-nuance-color-mascara-sheer-eyes-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [【2026年最新】人中短縮＆ぽってり唇！最強リップライナー・リップペンシルおすすめ10選！落ちないオーバーリップ完全比較](https://qualia-navi.vercel.app/articles/art-lip-liner-pencil-overlip-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
-- [【2026年最新】二重幅にたまらない＆ラメ落ちゼロ！最強リキッドアイシャドウ・グリッターおすすめ10選！濡れツヤ透け感完全比較](https://qualia-navi.vercel.app/articles/art-liquid-eyeshadow-glitter-shimmer-10sen-2026): コスメ検証 (ブランド: 主要コスメ)
 - [Full Article List & Complete Database](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines

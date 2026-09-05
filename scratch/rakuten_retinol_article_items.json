@@ -1,0 +1,92 @@
+{
+  "obagi": {
+    "key": "obagi",
+    "kw": "オバジ C25 セラム ネオ",
+    "label": "オバジC25セラム NEO（高濃度ピュアビタミンC）",
+    "res": {
+      "rawName": "オバジC25セラム ネオ(12ml)【Obagi(オバジ)】",
+      "shopName": "楽天24 コスメ館",
+      "price": "11,000円 (税込)",
+      "priceNum": 11000,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00ufaun.j9ruga30.g00ufaun.j9ruh25a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakuten24-cosmetics%2F4987241199891%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Frakuten24-cosmetics%2Fi%2F10054568%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
+      "imageUrl": "https://shop.r10s.jp/rakuten24-cosmetics/cabinet/891/4987241199891.jpg",
+      "reviewAvg": 4.5,
+      "reviewCount": 2
+    }
+  },
+  "cosrx": {
+    "key": "cosrx",
+    "kw": "COSRX ビタミンC23",
+    "label": "COSRX RX ザ・ビタミンC23セラム",
+    "res": {
+      "rawName": "【9/5限定！P10倍】スパセ限定★20%OFF+P5倍＋GIFT付★[COSRX 公式]「RX ザ・ビタミンC23セラム 2世代 (20g) 単品」 純粋ビタミンC美容液 韓国コスメ 美容液 ブライトニング 無香料 高濃度 角栓 トーンアップ 毛穴",
+      "shopName": "COSRX楽天市場店",
+      "price": "2,144円 (税込)",
+      "priceNum": 2144,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u50in.j9rug9f5.g00u50in.j9ruh1d6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcosrx-official%2Ftherx_vitamin23%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fcosrx-official%2Fi%2F10000202%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
+      "imageUrl": "https://shop.r10s.jp/cosrx-official/cabinet/09045645/13757805/13822635/imgrc0118621220.jpg",
+      "reviewAvg": 4.28,
+      "reviewCount": 686
+    }
+  },
+  "elixir": {
+    "key": "elixir",
+    "kw": "エリクシール レチノパワー リンクルクリーム",
+    "label": "資生堂 エリクシール レチノパワー リンクルクリーム",
+    "res": {
+      "rawName": "＼9/5が超買い時! P20%還元確定+10%OFF／【資生堂認定ショップ】25.9.21new! エリクシール シュペリエル レチノパワー リンクルクリーム ba",
+      "shopName": "コスメティック やよい",
+      "price": "6,600円 (税込)",
+      "priceNum": 6600,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00t3lin.j9rugb21.g00t3lin.j9ruh7c2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyayoi-cosme%2F21468-m%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fyayoi-cosme%2Fi%2F10014729%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
+      "imageUrl": "https://shop.r10s.jp/yayoi-cosme/cabinet/rakulogo/rakulogo19/09041184_02698.jpg",
+      "reviewAvg": 4.7,
+      "reviewCount": 2794
+    }
+  },
+  "innisfree": {
+    "key": "innisfree",
+    "kw": "イニスフリー レチノール シカ",
+    "label": "イニスフリー レチノール シカ リペア セラム",
+    "res": {
+      "rawName": "スーパーSALE25%OFF★＼No.1肌トラブルケア美容液／【公式】レチノール シカ リペア セラム 美容液 クリーム 美容液 スキンケア 低刺激 保湿 innisfree 国内発送 化粧品 肌荒れ 乾燥 毛穴 イニスフリー 韓国コスメ 角質ケア エイジングケア 毛穴ケア 脂性肌 化粧品",
+      "shopName": "INNISFREE公式ショップ 楽天市場店",
+      "price": "3,168円 (税込)",
+      "priceNum": 3168,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00th3ln.j9rug0ce.g00th3ln.j9ruheca/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finnisfree-official%2F131173569%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Finnisfree-official%2Fi%2F10001509%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
+      "imageUrl": "https://shop.r10s.jp/innisfree-official/cabinet/09973004/13716576/131173569_02ss.jpg",
+      "reviewAvg": 4.46,
+      "reviewCount": 1023
+    }
+  },
+  "kiehls": {
+    "key": "kiehls",
+    "kw": "キールズ レチノール",
+    "label": "キールズ DS RTN リニューイング セラム（マイクロレチノール）",
+    "res": {
+      "rawName": "ポイント最大38倍★9/4 20:00~ 9/11 01:59★【公式】キールズ レチノール美容液 30mL 50mL 10mL セット kiehl's kiehls レチノール ギフト 毛穴 しわ たるみ ハリ 保湿 角質 低刺激 クリーム スキンケア セラミド 肌荒れ ニキビ ナイアシンアミド 送料無料",
+      "shopName": "キールズ公式オンラインストア",
+      "price": "3,520円 (税込)",
+      "priceNum": 3520,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u02pn.j9rugc80.g00u02pn.j9ruh0b4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkiehls%2Fww0124kie%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fkiehls%2Fi%2F10000083%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
+      "imageUrl": "https://shop.r10s.jp/kiehls/cabinet/12823851/12823857/13844294/rtn.jpg",
+      "reviewAvg": 4.69,
+      "reviewCount": 6808
+    }
+  },
+  "anua": {
+    "key": "anua",
+    "kw": "アヌア ナイアシンアミド セラム",
+    "label": "Anua（アヌア） ナイアシンアミド10% TXA4%セラム",
+    "res": {
+      "rawName": "【5日限定クーポン】ポイントバック25％+2個購入クーポンあり＼2025上半期ベスコス／【Anua公式】【ダークスポットセラム 30ml】 ナイアシンアミド トラネキサム酸 TXA アルブチン 美容液 セラム 透明感 トーンアップ くすみ アヌア anua 韓国コスメ",
+      "shopName": "ANUA Official 楽天市場店",
+      "price": "2,950円 (税込)",
+      "priceNum": 2950,
+      "affiliateUrl": "https://hb.afl.rakuten.co.jp/hgc/g00u6mzn.j9rug390.g00u6mzn.j9ruhd31/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanuajapan%2Fanua00093%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fanuajapan%2Fi%2F10000282%2F&rafcid=wsc_i_is_1a3cdfd9-2aec-4b42-8290-1c53603b0012",
+      "imageUrl": "https://shop.r10s.jp/anuajapan/cabinet/13407197/2q_ss_txa.jpg",
+      "reviewAvg": 4.6,
+      "reviewCount": 2680
+    }
+  }
+}

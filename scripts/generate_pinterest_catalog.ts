@@ -51,7 +51,7 @@ articles.forEach(art => {
   const description = escapeXml(rawDesc.slice(0, 500));
   
   // 自ドメインの商品詳細直URL（アフィリエイトURLは絶対に含めない）
-  const link = escapeXml(`${domain}/article/${art.id}`);
+  const link = escapeXml(`${domain}/articles/${art.id}`);
   
   // 高画質画像URL
   let imageUrl = art.imageUrl || art.image || '';

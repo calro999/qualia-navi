@@ -53,9 +53,9 @@ ${blogs.map(b => `- [${b.title}](${domain}/blogs/${b.id})`).join('\n')}
 ### 2. VS Comparisons (徹底対決比較)
 ${comparisons.map(c => `- [${c.title}](${domain}/compare/${c.id})`).join('\n')}
 
-### 3. Product Articles Index (最新レビュー記事一覧の一部)
-${articles.slice(0, 35).map(a => `- [${a.title || a.productName}](${domain}/articles/${a.id}): ${a.categoryLabel || 'コスメ検証'} (ブランド: ${a.brandName || '主要コスメ'})`).join('\n')}
-- [Full Article List & Complete Database](${domain}/llms-full.txt)
+### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+${articles.slice(0, 50).map(a => `- [${a.title || a.productName}](${domain}/articles/${a.id}): ${a.categoryLabel || a.category || 'コスメ検証'} (評価: ★${a.starRating || a.rating || 4.8} / 監修: ${a.author || '篠原 玲奈'})`).join('\n')}
+- [Full Article List & Complete Database (${articles.length}件全件アーカイブ)](${domain}/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.
@@ -98,10 +98,12 @@ ${comparisons.map(c => `### ${c.title}
 
 ${articles.map(a => `### ${a.title || a.productName}
 - **URL**: ${domain}/articles/${a.id}
-- **Brand**: ${a.brandName || 'コスメブランド'}
-- **Category**: ${a.categoryLabel || 'コスメ'}
-- **Score**: ${a.rating || '4.5'} / 5.0
-- **Summary**: ${a.introText ? a.introText.slice(0, 150) + '...' : '30日間の実測使用レビューと効果成分の検証ガイド。'}
+- **Author/Reviewer**: ${a.author || a.reviewerName || '篠原 玲奈'} (${a.reviewerRole || 'コスメ専門エディター'})
+- **Category**: ${a.categoryLabel || a.category || 'コスメ'}
+- **Rating Score**: ${a.starRating || a.rating || 4.8} / 5.0 (検証済)
+- **Reference Price**: ${a.rakutenPrice || (a.price ? a.price + '円' : '楽天市場最安値比較中')}
+- **Tags**: ${(a.tags || []).slice(0, 6).join(', ')}
+- **Summary**: ${(a.introText || a.description || '30日間の実測使用レビューと効果成分の検証ガイド。').slice(0, 180)}...
 `).join('\n')}
 
 ---

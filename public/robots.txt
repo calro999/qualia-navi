@@ -43,3 +43,5 @@ Allow: /
 
 # LLM Context Documents & Sitemaps
 Sitemap: https://qualia-navi.vercel.app/sitemap.xml
+Sitemap: https://qualia-navi.vercel.app/llms.txt
+Sitemap: https://qualia-navi.vercel.app/llms-full.txt

@@ -3,7 +3,7 @@
 > 日本最大級のコスメ・美容徹底検証メディア 全記事＆全コンテンツ統合アーカイブ
 
 - Domain: https://qualia-navi.vercel.app
-- Last Mod: 2026-09-05
+- Last Mod: 2026-09-06
 - Format: Markdown (Optimized for LLM Context Windows & Retrieval Augmented Generation)
 
 ---
@@ -78,7 +78,7 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3163 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3160 Product Reviews)
 
 ### 【マツパ後美容液おすすめ】マツエク長持ちコーティング剤＆セルフまつ毛パーマ束感キープ人気ランキング
 - **URL**: https://qualia-navi.vercel.app/articles/art-lash-perm-coating-serum-aftercare-guide-2026
@@ -303,27 +303,6 @@
 - **Category**: 🇰🇷 韓国神スキンケア
 - **Score**: 4.5 / 5.0
 - **Summary**: 毛穴・ニキビ・乾燥を一掃して発光水光肌へ！VT、アヌア、トリデン、ナンバーズイン、バイオヒールボなど、韓国で爆売れ中の神スキンケア10選を徹底検証。...
-
-### 【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証
-- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-shiseido
-- **Brand**: コスメブランド
-- **Category**: 🔥 最新ヒットコスメ
-- **Score**: 4.5 / 5.0
-- **Summary**: コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。...
-
-### 【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証
-- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-takami
-- **Brand**: コスメブランド
-- **Category**: 🔥 最新ヒットコスメ
-- **Score**: 4.5 / 5.0
-- **Summary**: コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。...
-
-### 【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証
-- **URL**: https://qualia-navi.vercel.app/articles/autodiscover-dior
-- **Brand**: コスメブランド
-- **Category**: 🔥 最新ヒットコスメ
-- **Score**: 4.5 / 5.0
-- **Summary**: コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。...
 
 ### 【2026年最新】宮脇咲良プロデュース「MOLAK（モラク）」カラコン人気色・おすすめ10選徹底比較！全色レポ＆水光グラデ・韓国アイドル風アイ診断
 - **URL**: https://qualia-navi.vercel.app/articles/art-molak-miyawaki-sakura-colorcon-10sen-2026

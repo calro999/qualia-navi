@@ -453,5 +453,62 @@ blogs.forEach((blog) => {
   prerenderedCount++;
 });
 
+
+// 4. トップページの静的セマンティックHTML＆WebSite/Organization構造化データ
+const topCanonicalUrl = "https://qualia-navi.vercel.app";
+const topTitle = "【2026年最新】Qualia Navi (クオリア・ナビ) - プチプラ・デパコス・韓国コスメのリアル比較検証メディア";
+const topDesc = "透明感引き立つ最新スキンケア、デパコス・プチプラ、話題の韓国コスメをQualia美容分析室が徹底検証！楽天市場の最安値・口コミ情報をリアルタイムナビゲート。";
+const topJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://qualia-navi.vercel.app/#website",
+      "url": "https://qualia-navi.vercel.app",
+      "name": "Qualia Navi (クオリア・ナビ)",
+      "description": topDesc,
+      "inLanguage": "ja",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://qualia-navi.vercel.app/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://qualia-navi.vercel.app/#organization",
+      "name": "Qualia Navi (クオリア・ナビ)",
+      "url": "https://qualia-navi.vercel.app",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://qualia-navi.vercel.app/og-image.png"
+      },
+      "sameAs": [
+        "https://twitter.com/qualia_navi",
+        "https://www.instagram.com/qualia_navi"
+      ]
+    }
+  ]
+};
+
+let topCustomHtml = templateHtml
+  .replace(/<title>.*?<\/title>/, `<title>${topTitle}</title>`)
+  .replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${topDesc}" />`)
+  .replace("</head>", `
+    <link rel="canonical" href="${topCanonicalUrl}" />
+    <meta property="og:title" content="${topTitle}" />
+    <meta property="og:description" content="${topDesc}" />
+    <meta property="og:url" content="${topCanonicalUrl}" />
+    <meta property="og:image" content="https://qualia-navi.vercel.app/og-image.png" />
+    <script type="application/ld+json">${JSON.stringify(topJsonLd)}</script>
+    </head>
+  `);
+
+fs.writeFileSync(path.join(distDir, "index.html"), topCustomHtml, "utf8");
+console.log("✅ [Prerender Top Page] トップページに WebSite & Organization 構造化データを完全注入しました！");
+
 console.log(`✨ [Prerender Completed] 全 ${prerenderedCount} ページの静的SEO用完全セマンティックHTMLを出力しました！`);
 

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-06
-- **Total Articles**: 3181 件の個別詳細レビュー
+- **Total Articles**: 3185 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【頑固な黒ずみ毛穴・角栓を溶かす】クレンジングバーム＆酵素洗顔パウダーおすすめ10選](https://qualia-navi.vercel.app/articles/art-pore-blackhead-keratin-plug-cleansing-balm-enzyme-powder-10sen-2026): skincare (評価: ★4.8 / 監修: 神崎 舞香)
+- [【イエベ秋×骨格ストレート】深みリッチな陰影美！垢抜けテラコッタ＆上質ツヤコスメ10選](https://qualia-navi.vercel.app/articles/art-warm-autumn-straight-skeleton-rich-makeup-cosme-10sen-2026): makeup (評価: ★4.8 / 監修: 桐谷 遥)
+- [【塗るボトックス＆サーモン注射級】PDRN・ペプチド配合美容液おすすめ10選！ハリ・弾力集中ケア](https://qualia-navi.vercel.app/articles/art-pdrn-peptide-salmon-injection-firmness-elasticity-serum-10sen-2026): skincare (評価: ★4.8 / 監修: 水城 愛佳)
+- [【肌の奥が乾くインナードライ改善】セラミド高配合導入美容液＆保水ジェルおすすめ10選](https://qualia-navi.vercel.app/articles/art-inner-dry-skin-ceramide-hydration-serum-gel-10sen-2026): skincare (評価: ★4.8 / 監修: 水城 愛佳)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【NiziUメイク完全再現】メンバー愛用のリップ・アイシャドウ・ベースメイクまとめ！コーセーや韓国コスメの注目アイテム比較](https://qualia-navi.vercel.app/articles/art-niziu-makeup-cosme-complete-guide): makeup (評価: ★4.8 / 監修: K-Beauty LABO)
 - [【神涙袋が秒で作れる】ウォンジョンヨ（Wonjungyo）メタルシャワーペンシル＆アイシャドウパレット徹底解説！口コミ＆人気色比較](https://qualia-navi.vercel.app/articles/art-wonjungyo-aegyosal-palette-complete-guide): makeup (評価: ★4.8 / 監修: 橘 えりか)
 - [【BLACKPINKジス愛用コスメ】ディオール（Dior）人気リップ＆ファンデ完全特定！クラシックなお嬢様フェイスを作る品番まとめ](https://qualia-navi.vercel.app/articles/art-dior-jisoo-blackpink-makeup-guide): makeup (評価: ★4.8 / 監修: K-Beauty LABO)
-- [【肌荒れ防止×毛穴カバー】タイムシークレット 薬用プレストパウダーの口コミ検証！石けん落ち＆カバー力徹底比較](https://qualia-navi.vercel.app/articles/art-time-secret-mineral-medic-pressed-powder-2026): makeup (評価: ★4.8 / 監修: Dr. 高橋 美紀)
-- [【予算5,000円】女性が絶対に喜ぶデパコス＆コスメギフトセットおすすめ10選！センスのいいプレゼント徹底比較](https://qualia-navi.vercel.app/articles/art-sachiko-gift-budget-5000-depacos): gift (評価: ★4.8 / 監修: 神崎 美咲)
-- [【2026年最新】ビタミンC美容液おすすめ最強10選！毛穴・シミ・くすみを消し去る神美白セラム徹底比較](https://qualia-navi.vercel.app/articles/art-vitamin-c-pore-brightening-serum-10sen-2026): 🍋 ビタミンC・毛穴シミ美白美容液 (評価: ★4.9 / 監修: 白石 綾乃)
-- [【2026年最新】崩れない最強リキッドファンデーションおすすめ10選！毛穴レス＆素肌美を叶える神ファンデ徹底比較](https://qualia-navi.vercel.app/articles/art-liquid-foundation-long-lasting-poreless-10sen-2026): ✨ 崩れない最強リキッドファンデーション (評価: ★4.9 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3181件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3185件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

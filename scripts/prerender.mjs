@@ -240,30 +240,98 @@ articles.forEach((art, index) => {
     related.push(...fillers.filter(f => f.id !== articleId));
   }
 
-  // 構造化データ (JSON-LD) - Product & FAQPage
-  const jsonLd = {
+  // 構造化データ (JSON-LD) - Product, Article, FAQPage, BreadcrumbList
+  const jsonLdGraph = {
     "@context": "https://schema.org",
-    "@type": "Product",
-    "name": art.productName || art.title || title,
-    "image": image,
-    "description": description,
-    "brand": {
-      "@type": "Brand",
-      "name": art.brandName || "Qualia Navi Verified"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": art.starRating || art.rating || 4.8,
-      "reviewCount": art.reviewCount || 1200
-    },
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "JPY",
-      "price": String(art.rakutenPrice || art.price || "2000").replace(/[^0-9]/g, '') || "2000",
-      "availability": "https://schema.org/InStock",
-      "url": art.affiliateLink || art.affiliateUrl || canonicalUrl
-    }
+    "@graph": [
+      {
+        "@type": "Product",
+        "@id": `${canonicalUrl}#product`,
+        "name": art.productName || art.title || title,
+        "image": image,
+        "description": description,
+        "brand": {
+          "@type": "Brand",
+          "name": art.brandName || "Qualia Navi Verified"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": art.starRating || art.rating || 4.8,
+          "reviewCount": art.reviewCount || 1200
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "JPY",
+          "price": String(art.rakutenPrice || art.price || "2000").replace(/[^0-9]/g, "") || "2000",
+          "availability": "https://schema.org/InStock",
+          "url": art.affiliateLink || art.affiliateUrl || canonicalUrl
+        }
+      },
+      {
+        "@type": "Article",
+        "@id": `${canonicalUrl}#article`,
+        "headline": title,
+        "description": description,
+        "image": image,
+        "datePublished": art.createdAt || art.date || "2026-09-01",
+        "dateModified": art.updatedAt || art.createdAt || art.date || "2026-09-07",
+        "author": {
+          "@type": "Person",
+          "name": art.author || art.reviewerName || "篠原 玲奈",
+          "jobTitle": art.reviewerRole || "コスメ・スキンケア専門エディター"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Qualia Navi (クオリアナビ)",
+          "url": "https://qualia-navi.vercel.app",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://qualia-navi.vercel.app/og-image.png"
+          }
+        },
+        "mainEntityOfPage": canonicalUrl
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${canonicalUrl}#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "ホーム",
+            "item": "https://qualia-navi.vercel.app"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": categoryLabel,
+            "item": "https://qualia-navi.vercel.app"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": title,
+            "item": canonicalUrl
+          }
+        ]
+      }
+    ]
   };
+
+  if (art.faqs && art.faqs.length > 0) {
+    jsonLdGraph["@graph"].push({
+      "@type": "FAQPage",
+      "@id": `${canonicalUrl}#faq`,
+      "mainEntity": art.faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+  }
 
   const parsedBody = markdownToSemanticHtml(art.reviewBody || art.content || '');
 
@@ -333,7 +401,7 @@ articles.forEach((art, index) => {
       <meta property="og:description" content="${description}" />
       <meta property="og:url" content="${canonicalUrl}" />
       <meta property="og:image" content="${image}" />
-      <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+      <script type="application/ld+json">${JSON.stringify(jsonLdGraph)}</script>
       </head>
     `)
     .replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);

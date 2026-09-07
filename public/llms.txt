@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-07
-- **Total Articles**: 3217 件の個別詳細レビュー
+- **Total Articles**: 3224 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,13 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【首の横シワ・胸元のたるみ撃退】年齢サインに先手必勝！濃密ネッククリーム＆デコルテ美容液おすすめ10選](https://qualia-navi.vercel.app/articles/art-neck-decollete-wrinkle-firming-cream-serum-10sen-2026): skincare (評価: ★4.8 / 監修: 蓮見 拓真)
+- [【夕方のペタンコ前髪・頭皮臭を10秒リセット】サラふわ復活！持ち歩きドライシャンプー＆パウダー10選](https://qualia-navi.vercel.app/articles/art-dry-shampoo-bangs-greasy-reset-powder-10sen-2026): haircare (評価: ★4.8 / 監修: 蓮見 拓真)
+- [【ストッキングが引っかからない！ひび割れかかと集中補修】履くだけパック＆高濃度尿素フットクリーム10選](https://qualia-navi.vercel.app/articles/art-cracked-heel-foot-peeling-urea-cream-care-10sen-2026): bodycare (評価: ★4.8 / 監修: 蓮見 拓真)
+- [【イエベ春×骨格ストレート】上質ツヤ肌＆多幸感コーラルで主役級！立体リッチメイクコスメ10選](https://qualia-navi.vercel.app/articles/art-warm-spring-straight-skeleton-rich-glow-coral-makeup-10sen-2026): makeup (評価: ★4.8 / 監修: 蓮見 拓真)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
+- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【小鼻のクレーター毛穴・凸凹を埋める】塗るあぶらとり紙！ポアプライマー＆皮脂ブロックベース10選](https://qualia-navi.vercel.app/articles/art-pore-primer-oil-block-base-crater-flat-skin-10sen-2026): makeup (評価: ★4.8 / 監修: 蓮見 拓真)
 - [【翌朝ぷるん！唇の皮むけ・ガサガサ即効修復】高保湿スリーピングリップマスク＆濃密バーム10選](https://qualia-navi.vercel.app/articles/art-sleeping-lip-mask-chapped-peeling-lips-repair-10sen-2026): skincare (評価: ★4.8 / 監修: 水城 愛佳)
 - [【マツエク長持ち＆毛穴汚れ吸着】摩擦レスでするんと落ちる！温感クレンジングジェルおすすめ10選](https://qualia-navi.vercel.app/articles/art-hot-cleansing-gel-eyelash-extension-safe-pore-10sen-2026): skincare (評価: ★4.8 / 監修: 神崎 舞香)
@@ -74,14 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3217件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3224件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

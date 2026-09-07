@@ -78,7 +78,7 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3244 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3248 Product Reviews)
 
 ### 【頑固な角栓・黒ずみ毛穴がポロポロ落ちる】W洗顔不要！とろける高保湿クレンジングバーム10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-cleansing-balm-blackhead-pore-clog-removal-10sen-2026
@@ -29275,6 +29275,42 @@
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
 - **Summary**: イエベ春のクリアで明るい肌色と、骨格ウェーブの華奢で柔らかな曲線を最大限に引き立てるコスメ特集。儚げで愛らしい妖精のようなドーリーフェイスを作る珠玉の10アイテムをセレクト。...
+
+### 【唇荒れ・縦ジワ集中ケア】高保湿リップバーム＆リップオイルおすすめ10選！ぷるんと潤う神トリートメント
+- **URL**: https://qualia-navi.vercel.app/articles/art-lip-balm-oil-deep-moisture-chapped-lips-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: リップケア
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: ガサガサ皮むけや乾燥による縦ジワを寝ている間に集中リペア。セラミド・ヒアルロン酸・植物オイルを高濃度配合し、ちゅるんとしたガラス玉のような血色唇へ導く高保湿リップ10選を楽天公式データで徹底解説。...
+
+### 【毛穴ブラー＆テカリ防止】フェイスパウダーおすすめ10選！陶器肌が夕方まで崩れないサラサラ神パウダー
+- **URL**: https://qualia-navi.vercel.app/articles/art-face-powder-pore-blurring-sebum-control-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: ベースメイク
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: Tゾーンのテカリ、小鼻の毛穴落ち、マスク擦れを徹底防御！ひと塗りで陶器のようなフォギー美肌を作り出し、夕方までサラサラが持続する実力派フェイスパウダー10選を比較紹介。...
+
+### 【CICA＆ティーツリー鎮静コスメ】ゆらぎ肌・赤み・大人ニキビを速攻レスキュー！肌再生ケア10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-cica-teatree-skin-calming-trouble-care-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: スキンケア
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 季節の変わり目のゆらぎ肌、マスク摩擦による赤み、繰り返す大人ニキビを穏やかに鎮めるCICA（ツボクサエキス）＆ティーツリー名品コスメ10選。シートマスクからリペアクリームまで徹底比較。...
+
+### 【ブルベ夏×骨格ウェーブ】儚げラベンダー＆モーブピンクメイク！透明感と甘さを極める神コスメ10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-cool-summer-wave-skeleton-lavender-feminine-makeup-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: パーソナルカラーメイク
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: ブルーベース・サマーの青みを含んだ透明美肌と、骨格ウェーブの華奢でフェミニンな雰囲気が最も美しく際立つコスメを厳選。青みピンク・ラベンダー・儚げモーブで作る極上フェミニンメイク10選。...
 
 
 ---

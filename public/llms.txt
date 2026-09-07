@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-07
-- **Total Articles**: 3189 件の個別詳細レビュー
+- **Total Articles**: 3193 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【医薬部外品】シワ改善×シミ予防を1本で！トラネキサム酸＆ナイアシンアミド配合クリーム10選](https://qualia-navi.vercel.app/articles/art-quasi-drug-wrinkle-spot-prevention-cream-10sen-2026): skincare (評価: ★4.8 / 監修: 神崎 舞香)
+- [【イエベ秋×顔タイプ大人顔】洗練された都会美！深みブラウン＆セミマットチーク10選](https://qualia-navi.vercel.app/articles/art-warm-autumn-adult-face-chic-brown-semi-matte-10sen-2026): makeup (評価: ★4.8 / 監修: 桐谷 遥)
+- [【二の腕のブツブツ・お尻の黒ずみ解消】尿素＆サリチル酸配合ボディスクラブ＆薬用ミルク10選](https://qualia-navi.vercel.app/articles/art-upper-arm-bumps-hip-darkening-urea-salicylic-acid-body-scrub-10sen-2026): bodycare (評価: ★4.8 / 監修: 水城 愛佳)
+- [【痛くないのに縦ジワ消滅】ぷっくり唇を作るカプサイシン＆ヒアルロン酸リッププランパー10選](https://qualia-navi.vercel.app/articles/art-lip-plumper-no-pain-vertical-lines-volume-up-10sen-2026): makeup (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【夕方になってもくすまない・毛穴落ちしない】皮脂崩れ防止パウダー＆ラベンダー補正下地10選](https://qualia-navi.vercel.app/articles/art-dullness-pore-drop-prevention-powder-lavender-base-10sen-2026): makeup (評価: ★4.8 / 監修: 蓮見 拓真)
 - [【ブルベ冬×骨格ナチュラル】洗練モードを引き出す！深みベリーリップ＆濡れ感シルバーラメ10選](https://qualia-navi.vercel.app/articles/art-cool-winter-natural-skeleton-berry-lip-silver-glitter-10sen-2026): makeup (評価: ★4.8 / 監修: 桐谷 遥)
 - [【頭皮のベタつき・ニオイ・細毛を根本ケア】炭酸スカルプシャンプー＆頭皮美容液おすすめ10選](https://qualia-navi.vercel.app/articles/art-scalp-carbonic-shampoo-serum-odor-hair-thinning-care-10sen-2026): haircare (評価: ★4.8 / 監修: 佐々木 健一)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【日中のテカリ・皮脂くずれ完全阻止】ソフィーナiP スキンケアUV「02」の口コミ検証！美容液UV下地の塗り方比較](https://qualia-navi.vercel.app/articles/art-sofina-ip-skincare-uv-02-review): skincare (評価: ★4.8 / 監修: 神崎 美咲)
 - [【ゆらぎ肌・赤みを速攻鎮静】ラロッシュポゼ「トレリアン ダーマアレルゴ セラム」口コミ検証！敏感肌用バリア美容液徹底比較](https://qualia-navi.vercel.app/articles/art-larocheposay-dermallergo-salicylic-guide): skincare (評価: ★4.8 / 監修: Dr. 高橋 美紀)
 - [【プチプラ最強のカバー力】セザンヌ パレットコンシーラー ハイカバー＆ストレッチコンシーラー口コミ比較！クマ・シミ・小鼻赤み消去術](https://qualia-navi.vercel.app/articles/art-cezanne-palette-stretch-concealer-review): makeup (評価: ★4.8 / 監修: 神崎 美咲)
-- [【元祖神ブラウン】ちふれ口紅「748」の口コミ検証！イエベ秋の垢抜けリップ＆白くならない除光液徹底比較](https://qualia-navi.vercel.app/articles/art-chifure-lip-748-nail-remover-guide): lip (評価: ★4.8 / 監修: 橘 えりか)
-- [【透けるキレイ色】オペラ（OPERA）リップティントの口コミ・本音レビュー！荒れない落ちない人気色ランキング](https://qualia-navi.vercel.app/articles/art-opera-lip-tint-review-guide): lip (評価: ★4.8 / 監修: 橘 えりか)
-- [【ピタッと密着ハイカバー】ケイト（KATE）スティックコンシーラーの口コミ検証！ニキビ跡・シミ・テカリを防ぐ塗り方](https://qualia-navi.vercel.app/articles/art-kate-stick-concealer-review-guide): makeup (評価: ★4.8 / 監修: 神崎 美咲)
-- [【最高峰の肌再生】エスティローダー「リニュートリィブ」の口コミと効果徹底検証！大人の贅沢エイジングケア](https://qualia-navi.vercel.app/articles/art-estee-lauder-re-nutriv-luxury-skincare-guide): skincare (評価: ★4.8 / 監修: Dr. 高橋 美紀)
-- [Full Article List & Complete Database (3189件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3193件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

@@ -3,7 +3,7 @@
 > 日本最大級のコスメ・美容徹底検証メディア 全記事＆全コンテンツ統合アーカイブ
 
 - Domain: https://qualia-navi.vercel.app
-- Last Mod: 2026-09-06
+- Last Mod: 2026-09-07
 - Format: Markdown (Optimized for LLM Context Windows & Retrieval Augmented Generation)
 
 ---
@@ -78,7 +78,43 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3185 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3189 Product Reviews)
+
+### 【夕方になってもくすまない・毛穴落ちしない】皮脂崩れ防止パウダー＆ラベンダー補正下地10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-dullness-pore-drop-prevention-powder-lavender-base-10sen-2026
+- **Author/Reviewer**: 蓮見 拓真 (コスメ専門エディター)
+- **Category**: makeup
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 14600円
+- **Tags**: 夕方 くすまない 下地, 毛穴落ち しない パウダー, ラベンダー 下地 透明感 おすすめ, 皮脂崩れ防止 下地 おすすめ, エレガンス ラプードル 崩れない, コスメデコルテ ルースパウダー 00
+- **Summary**: 夕方になると顔がどんより黄ぐすみする、小鼻や頬のファンデーションが毛穴落ちしてドロドロに崩れる悩みを一掃！黄みを打ち消して透明感を宿す「ラベンダー・ブルー補正下地」と、皮脂を吸着して一日中サラサラ陶器肌をキープする「名品フェイスパウダー」を徹底比較。楽天市場で高評価を獲得している神コスメ10選の実売データを完全網羅。...
+
+### 【ブルベ冬×骨格ナチュラル】洗練モードを引き出す！深みベリーリップ＆濡れ感シルバーラメ10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-cool-winter-natural-skeleton-berry-lip-silver-glitter-10sen-2026
+- **Author/Reviewer**: 桐谷 遥 (コスメ専門エディター)
+- **Category**: makeup
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 1337円
+- **Tags**: ブルベ冬 骨格ナチュラル メイク, ブルベ冬 リップ ベリー, ブルベ冬 アイシャドウ ラメ, 骨格ナチュラル コスメ おすすめ, KATE ラスボス ブルベ冬, ロムアンド フィグフィグ
+- **Summary**: ウィンタータイプのコントラスト際立つシャープな透明感と、骨格ナチュラルのフレーム美・スタイリッシュさを最大化！深みベリー・プラムカラーの落ちないリップと、青みや濡れ感を引き立てるシルバー偏光ラメアイシャドウを厳選。楽天市場で高評価のモード系神コスメ10選の実売データを完全網羅。...
+
+### 【頭皮のベタつき・ニオイ・細毛を根本ケア】炭酸スカルプシャンプー＆頭皮美容液おすすめ10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-scalp-carbonic-shampoo-serum-odor-hair-thinning-care-10sen-2026
+- **Author/Reviewer**: 佐々木 健一 (コスメ専門エディター)
+- **Category**: haircare
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 5598円
+- **Tags**: 頭皮 スカルプシャンプー おすすめ, 頭皮 ニオイ 改善 シャンプー, 頭皮 美容液 育毛 女性, 炭酸シャンプー 比較 おすすめ, スカルプD シャンプー, ミルボン プラーミア クリアスパフォーム
+- **Summary**: 夕方になると頭皮が脂っぽくベタつく、分け目のニオイが気になる、髪が細くなってトップがペタんこになる悩みを頭皮環境から根こそぎ改善！毛穴より微細な高濃度炭酸泡で皮脂汚れを浮かし出すスカルプシャンプーと、育毛・血行促進有効成分配合の頭皮美容液を徹底比較。楽天市場で絶賛される名品10選の実売データを完全網羅。...
+
+### 【色素沈着しない＆自まつ毛が伸びる】高濃度まつ毛美容液＆まつ毛パーマ長持ちコーティング10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-eyelash-serum-no-pigmentation-lash-lift-coating-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: makeup
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 7900円
+- **Tags**: まつ毛美容液 色素沈着なし おすすめ, まつ毛 伸びる 美容液 ランキング, まつ毛パーマ コーティング剤 おすすめ, ラッシュアディクト 効果 口コミ, まつパ 長持ち コーティング, スカルプD まつ毛美容液 プレミアム
+- **Summary**: 「まぶたの黒ずみ（色素沈着）が怖くてまつ毛美容液を使えない」「まつ毛パーマの持ちを良くしてバラつきを防ぎたい」悩みに完全回答！プロスタグランジン誘導体フリーの安心処方美容液と、パーマの束感キープ＆トリートメントを同時に叶えるクリアコーティング剤を徹底比較。楽天市場で高評価の最新10選の実売データを完全網羅。...
 
 ### 【頑固な黒ずみ毛穴・角栓を溶かす】クレンジングバーム＆酵素洗顔パウダーおすすめ10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-pore-blackhead-keratin-plug-cleansing-balm-enzyme-powder-10sen-2026

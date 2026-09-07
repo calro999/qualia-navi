@@ -8,8 +8,8 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 ## Site Information
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
-- **Last Mod**: 2026-09-06
-- **Total Articles**: 3185 件の個別詳細レビュー
+- **Last Mod**: 2026-09-07
+- **Total Articles**: 3189 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【夕方になってもくすまない・毛穴落ちしない】皮脂崩れ防止パウダー＆ラベンダー補正下地10選](https://qualia-navi.vercel.app/articles/art-dullness-pore-drop-prevention-powder-lavender-base-10sen-2026): makeup (評価: ★4.8 / 監修: 蓮見 拓真)
+- [【ブルベ冬×骨格ナチュラル】洗練モードを引き出す！深みベリーリップ＆濡れ感シルバーラメ10選](https://qualia-navi.vercel.app/articles/art-cool-winter-natural-skeleton-berry-lip-silver-glitter-10sen-2026): makeup (評価: ★4.8 / 監修: 桐谷 遥)
+- [【頭皮のベタつき・ニオイ・細毛を根本ケア】炭酸スカルプシャンプー＆頭皮美容液おすすめ10選](https://qualia-navi.vercel.app/articles/art-scalp-carbonic-shampoo-serum-odor-hair-thinning-care-10sen-2026): haircare (評価: ★4.8 / 監修: 佐々木 健一)
+- [【色素沈着しない＆自まつ毛が伸びる】高濃度まつ毛美容液＆まつ毛パーマ長持ちコーティング10選](https://qualia-navi.vercel.app/articles/art-eyelash-serum-no-pigmentation-lash-lift-coating-10sen-2026): makeup (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【頑固な黒ずみ毛穴・角栓を溶かす】クレンジングバーム＆酵素洗顔パウダーおすすめ10選](https://qualia-navi.vercel.app/articles/art-pore-blackhead-keratin-plug-cleansing-balm-enzyme-powder-10sen-2026): skincare (評価: ★4.8 / 監修: 神崎 舞香)
 - [【イエベ秋×骨格ストレート】深みリッチな陰影美！垢抜けテラコッタ＆上質ツヤコスメ10選](https://qualia-navi.vercel.app/articles/art-warm-autumn-straight-skeleton-rich-makeup-cosme-10sen-2026): makeup (評価: ★4.8 / 監修: 桐谷 遥)
 - [【塗るボトックス＆サーモン注射級】PDRN・ペプチド配合美容液おすすめ10選！ハリ・弾力集中ケア](https://qualia-navi.vercel.app/articles/art-pdrn-peptide-salmon-injection-firmness-elasticity-serum-10sen-2026): skincare (評価: ★4.8 / 監修: 水城 愛佳)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【透けるキレイ色】オペラ（OPERA）リップティントの口コミ・本音レビュー！荒れない落ちない人気色ランキング](https://qualia-navi.vercel.app/articles/art-opera-lip-tint-review-guide): lip (評価: ★4.8 / 監修: 橘 えりか)
 - [【ピタッと密着ハイカバー】ケイト（KATE）スティックコンシーラーの口コミ検証！ニキビ跡・シミ・テカリを防ぐ塗り方](https://qualia-navi.vercel.app/articles/art-kate-stick-concealer-review-guide): makeup (評価: ★4.8 / 監修: 神崎 美咲)
 - [【最高峰の肌再生】エスティローダー「リニュートリィブ」の口コミと効果徹底検証！大人の贅沢エイジングケア](https://qualia-navi.vercel.app/articles/art-estee-lauder-re-nutriv-luxury-skincare-guide): skincare (評価: ★4.8 / 監修: Dr. 高橋 美紀)
-- [【落ちないのに極上ツヤ】シャネル「ルージュ アリュール ラック」＆リップボーム口コミ徹底検証！人気色・使い心地比較](https://qualia-navi.vercel.app/articles/art-chanel-rouge-allure-laque-lipcream-guide): lip (評価: ★4.8 / 監修: 橘 えりか)
-- [【NiziUメイク完全再現】メンバー愛用のリップ・アイシャドウ・ベースメイクまとめ！コーセーや韓国コスメの注目アイテム比較](https://qualia-navi.vercel.app/articles/art-niziu-makeup-cosme-complete-guide): makeup (評価: ★4.8 / 監修: K-Beauty LABO)
-- [【神涙袋が秒で作れる】ウォンジョンヨ（Wonjungyo）メタルシャワーペンシル＆アイシャドウパレット徹底解説！口コミ＆人気色比較](https://qualia-navi.vercel.app/articles/art-wonjungyo-aegyosal-palette-complete-guide): makeup (評価: ★4.8 / 監修: 橘 えりか)
-- [【BLACKPINKジス愛用コスメ】ディオール（Dior）人気リップ＆ファンデ完全特定！クラシックなお嬢様フェイスを作る品番まとめ](https://qualia-navi.vercel.app/articles/art-dior-jisoo-blackpink-makeup-guide): makeup (評価: ★4.8 / 監修: K-Beauty LABO)
-- [Full Article List & Complete Database (3185件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3189件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

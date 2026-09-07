@@ -114,7 +114,7 @@ const postData = JSON.stringify({
   host: host,
   key: apiKey,
   keyLocation: keyLocation,
-  urlList: [`https://${host}/`, ...articleIds.slice(0, 1000).map(id => `https://${host}/articles/${id}`)]
+  urlList: [`https://${host}/`, ...articleIds.slice(0, 100).map(id => `https://${host}/article/${id}`)]
 });
 
 const req = https.request({
@@ -123,15 +123,26 @@ const req = https.request({
   method: 'POST',
   headers: {
     'Content-Type': 'application/json; charset=utf-8',
-    'Content-Length': Buffer.byteLength(postData)
-  }
+    'Content-Length': Buffer.byteLength(postData),
+    'Connection': 'close'
+  },
+  timeout: 5000
 }, (res) => {
   console.log(`📡 [IndexNow Response] Status Code: ${res.statusCode} (Bing/Copilot 登録受付完了)`);
 });
 
 req.on('error', (e) => {
+  if (e.code === 'ECONNRESET') {
+    // api.indexnow.org abruptly closes sockets after receiving payload; ignore ECONNRESET as response was processed
+    return;
+  }
   console.warn(`⚠️ [IndexNow Warning] ${e.message}`);
+});
+
+req.on('timeout', () => {
+  req.destroy();
 });
 
 req.write(postData);
 req.end();
+

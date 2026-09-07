@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-07
-- **Total Articles**: 3240 件の個別詳細レビュー
+- **Total Articles**: 3244 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -81,7 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【医薬部外品】シワ改善×シミ予防を1本で！トラネキサム酸＆ナイアシンアミド配合クリーム10選](https://qualia-navi.vercel.app/articles/art-quasi-drug-wrinkle-spot-prevention-cream-10sen-2026): skincare (評価: ★4.8 / 監修: 神崎 舞香)
 - [【イエベ秋×顔タイプ大人顔】洗練された都会美！深みブラウン＆セミマットチーク10選](https://qualia-navi.vercel.app/articles/art-warm-autumn-adult-face-chic-brown-semi-matte-10sen-2026): makeup (評価: ★4.8 / 監修: 桐谷 遥)
 - [【二の腕のブツブツ・お尻の黒ずみ解消】尿素＆サリチル酸配合ボディスクラブ＆薬用ミルク10選](https://qualia-navi.vercel.app/articles/art-upper-arm-bumps-hip-darkening-urea-salicylic-acid-body-scrub-10sen-2026): bodycare (評価: ★4.8 / 監修: 水城 愛佳)
-- [Full Article List & Complete Database (3240件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3244件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

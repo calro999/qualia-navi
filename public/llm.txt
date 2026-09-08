@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-08
-- **Total Articles**: 3381 件の個別詳細レビュー
+- **Total Articles**: 3384 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,9 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【頭皮用EMS＆赤色LED電気ブラシ10選】頭筋から引き上げる！顔のたるみ・薄毛・白髪予防を叶える神美容機器](https://qualia-navi.vercel.app/articles/art-scalp-ems-red-led-electric-brush-lift-10sen-2026): 美容家電 (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【背中ニキビ・ざらつき専用薬用ボディミスト10選】逆さ噴射OK！サリチル酸×CICAで魅せる美背中へ](https://qualia-navi.vercel.app/articles/art-back-acne-body-mist-salicylic-acid-cica-10sen-2026): ボディケア (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【薬用美白リンクルアイクリーム10選】目元のシワ・茶クマ・青クマ・影だるみを一撃リペア！](https://qualia-navi.vercel.app/articles/art-whitening-wrinkle-eye-cream-dark-circles-10sen-2026): アイケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【ブルベ冬×骨格ストレート・漆黒ライナー＆深紅リップ10選】シャープな直線美と洗練コントラスト！](https://qualia-navi.vercel.app/articles/art-cool-winter-straight-skeleton-red-lip-liner-10sen-2026): メイクアップ (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【シルクナイトキャップ＆枕カバー10選】寝返りの摩擦ゼロで翌朝アホ毛・枝毛を防ぐ美髪ケア！](https://qualia-navi.vercel.app/articles/art-silk-night-cap-pillowcase-hair-damage-10sen-2026): ヘアケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【マグネシウム＆炭酸バスソルト・入浴剤10選】むくみ・冷え・肩こりを深部から温めてデトックス！](https://qualia-navi.vercel.app/articles/art-magnesium-carbonic-acid-bath-salt-detox-10sen-2026): ボディケア (評価: ★4.8 / 監修: 篠原 玲奈)
@@ -78,10 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【雨の日の広がり・パサつきをストンとまとめる】サロン帰りのツヤ髪へ！熱ダメージ補修ヘアオイル＆セラム10選](https://qualia-navi.vercel.app/articles/art-hair-oil-frizzy-curly-damage-repair-heat-protect-10sen-2026): haircare (評価: ★4.8 / 監修: 蓮見 拓真)
 - [【ブルベ冬×骨格ストレート】圧倒的オーラを放つ純欲ディープレッド＆彫り深ハイライト！劇的美人コスメ10選](https://qualia-navi.vercel.app/articles/art-cool-winter-straight-skeleton-contrast-red-highlight-10sen-2026): makeup (評価: ★4.8 / 監修: 蓮見 拓真)
 - [【頭皮のベタつき・毛穴詰まり・ニオイを一掃】サロン級の爽快感！炭酸ヘッドスパシャンプー＆スカルプスクラブ10選](https://qualia-navi.vercel.app/articles/art-scalp-cleansing-carbonated-shampoo-scrub-odor-10sen-2026): haircare (評価: ★4.8 / 監修: 蓮見 拓真)
-- [【飲食しても落ちない！色ツヤ長持ち】乾燥＆皮むけ知らずの進化系ティント＆リッププランパー10選](https://qualia-navi.vercel.app/articles/art-long-lasting-lip-tint-no-transfer-plumper-10sen-2026): makeup (評価: ★4.8 / 監修: 蓮見 拓真)
-- [【背中ニキビ・二の腕のブツブツをつるんとなめらかに】角質オフ＆毛穴引き締め！薬用ボディスクラブ10選](https://qualia-navi.vercel.app/articles/art-body-scrub-back-acne-rough-skin-smoothing-10sen-2026): bodycare (評価: ★4.8 / 監修: 蓮見 拓真)
-- [【イエベ秋×骨格ウェーブ】華奢なデコルテに映える深みテラコッタ＆多幸感ゴールドラメ！大人上品コスメ10選](https://qualia-navi.vercel.app/articles/art-warm-autumn-wave-skeleton-deep-terracotta-glitter-10sen-2026): makeup (評価: ★4.8 / 監修: 蓮見 拓真)
-- [Full Article List & Complete Database (3381件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3384件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

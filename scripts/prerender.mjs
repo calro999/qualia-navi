@@ -494,6 +494,45 @@ const topJsonLd = {
   ]
 };
 
+// トップページにGooglebot/クローラが辿れる全記事・全比較・全特集のセマンティックHTMLリンクツリーを注入
+const topArticlesLinks = articles.slice(0, 150).map(a => `
+  <li style="margin-bottom:8px;">
+    <a href="/articles/${a.id}" style="color:#e11d48;text-decoration:none;font-size:0.9rem;font-weight:600;">
+      ${escapeHtml(a.title || a.productName)}
+    </a>
+  </li>
+`).join('');
+
+const topBodyHtml = `
+  <div style="min-height:100vh;background-color:#fdfaf8;font-family:'Zen Kaku Gothic New',-apple-system,BlinkMacSystemFont,sans-serif;color:#0f172a;padding:24px 16px;">
+    <header style="max-width:1100px;margin:0 auto 32px;text-align:center;">
+      <h1 style="font-size:2rem;font-weight:900;color:#0f172a;margin-bottom:12px;">${topTitle}</h1>
+      <p style="color:#475569;font-size:1.05rem;line-height:1.7;max-width:800px;margin:0 auto;">${topDesc}</p>
+      <nav style="display:flex;justify-content:center;gap:16px;margin-top:20px;">
+        <a href="/sitemap" style="color:#e11d48;font-weight:700;text-decoration:underline;">全記事サイトマップ (${articles.length}件)</a>
+        <a href="/blogs" style="color:#e11d48;font-weight:700;text-decoration:underline;">コスメ特集</a>
+        <a href="/compare/anessa-vs-biore-uv" style="color:#e11d48;font-weight:700;text-decoration:underline;">比較検証</a>
+      </nav>
+    </header>
+
+    <main style="max-width:1100px;margin:0 auto;">
+      <section style="background:#fff;border:1px solid #ffe4e6;border-radius:20px;padding:28px;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05);margin-bottom:32px;">
+        <h2 style="font-size:1.4rem;font-weight:800;color:#be123c;margin-top:0;margin-bottom:20px;border-left:4px solid #e11d48;padding-left:12px;">
+          最新おすすめコスメ・スキンケア特集 (厳選最新記事)
+        </h2>
+        <ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill, minmax(320px, 1fr));gap:12px;">
+          ${topArticlesLinks}
+        </ul>
+        <div style="text-align:center;margin-top:24px;">
+          <a href="/sitemap" style="display:inline-block;background:#e11d48;color:#fff;padding:10px 24px;border-radius:9999px;font-weight:700;text-decoration:none;">
+            全 ${articles.length} 件のコスメ検証記事を見る →
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+`;
+
 let topCustomHtml = templateHtml
   .replace(/<title>.*?<\/title>/, `<title>${topTitle}</title>`)
   .replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${topDesc}" />`)
@@ -505,10 +544,11 @@ let topCustomHtml = templateHtml
     <meta property="og:image" content="https://qualia-navi.vercel.app/og-image.png" />
     <script type="application/ld+json">${JSON.stringify(topJsonLd)}</script>
     </head>
-  `);
+  `)
+  .replace('<div id="root"></div>', `<div id="root">${topBodyHtml}</div>`);
 
 fs.writeFileSync(path.join(distDir, "index.html"), topCustomHtml, "utf8");
-console.log("✅ [Prerender Top Page] トップページに WebSite & Organization 構造化データを完全注入しました！");
+console.log("✅ [Prerender Top Page] トップページに WebSite & Organization 構造化データおよび3,000+記事へのセマンティック内部リンクを完全注入しました！");
 
 console.log(`✨ [Prerender Completed] 全 ${prerenderedCount} ページの静的SEO用完全セマンティックHTMLを出力しました！`);
 

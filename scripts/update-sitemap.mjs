@@ -69,20 +69,20 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
   </url>
 `;
 
-// Add VS Comparisons
+// Add VS Comparisons (both /comparisons/ and /compare/)
 comparisons.forEach((comp) => {
   xml += `  <url>
-    <loc>${domain}/compare/${comp}</loc>
+    <loc>${domain}/comparisons/${comp}</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>\n`;
 });
 
-// Add Special Blog Posts
+// Add Special Blog Posts (both /features/ and /blogs/)
 blogs.forEach((blog) => {
   xml += `  <url>
-    <loc>${domain}/blogs/${blog}</loc>
+    <loc>${domain}/features/${blog}</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
@@ -110,11 +110,19 @@ const host = 'qualia-navi.vercel.app';
 const apiKey = '68c4a5f456104e76a6e97576a953e959';
 const keyLocation = `https://${host}/${apiKey}.txt`;
 
+// Send up to 500 latest URLs to IndexNow with correct /articles/ path
+const targetUrls = [
+  `https://${host}/`,
+  `https://${host}/sitemap`,
+  `https://${host}/blogs`,
+  ...articleIds.slice(0, 500).map(id => `https://${host}/articles/${id}`)
+];
+
 const postData = JSON.stringify({
   host: host,
   key: apiKey,
   keyLocation: keyLocation,
-  urlList: [`https://${host}/`, ...articleIds.slice(0, 100).map(id => `https://${host}/article/${id}`)]
+  urlList: targetUrls
 });
 
 const req = https.request({

@@ -78,7 +78,43 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3418 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3422 Product Reviews)
+
+### 【イエベ春×顔タイプアクティブキュート専用】ポピーオレンジ＆ゴールドラメ！目ヂカラ爆発POPメイク10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-warm-spring-active-cute-poppy-orange-makeup-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: メイクアップ
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: イエベ春のクリアな多幸感と、アクティブキュートの印象的な強い目ヂカラが奇跡の融合！くすまない鮮やかなポピーオレンジと大粒ゴールドラメで、子供っぽくならずに圧倒的な華やかさとモードな可愛さを放つ神コスメ10選を徹底検証。...
+
+### 【サファイア冷却IPL光美容器10選】氷冷無痛！VIO・ヒゲ・全身サロン級ムダ毛ケア＆美肌フラッシュ
+- **URL**: https://qualia-navi.vercel.app/articles/art-sapphire-cooling-ipl-hair-removal-device-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: 美容家電
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: サロンに通う手間も痛みもゼロへ！皮膚表面を瞬時に氷点下（5〜10℃）まで冷却する「サファイアクリスタル冷却技術」と高出力IPLフラッシュを融合。デリケートなVIOゾーンや剛毛なヒゲも全く痛くなく、フォトフェイシャル美肌効果も同時に得られる最新家庭用光美容器10選を徹底比較。...
+
+### 【レチノール×スクワラン夜用リップバーム10選】唇の皮むけ・ひび割れ・血色不良を翌朝ぷるぷる再生！
+- **URL**: https://qualia-navi.vercel.app/articles/art-retinol-squalane-lip-sleeping-mask-balm-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: リップケア
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: どんな高保湿リップクリームを塗っても皮が剥ける、ひび割れて血がにじむ、くすんで紫色に見える重度ダメージ唇を集中リペア！微小カプセル化レチノールと高純度植物性スクワランを濃厚配合した、寝ている間に唇の組織を再生する夜用リップマスク10選を徹底検証。...
+
+### 【レスベラトロール×赤ワインポリフェノール美容液10選】紫外線サビ肌を即効リセット！肌寿命延伸エイジングケア
+- **URL**: https://qualia-navi.vercel.app/articles/art-resveratrol-polyphenol-antioxidant-serum-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: 美容液
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: ビタミンCの数百倍の抗酸化力を持つスーパーポリフェノール「レスベラトロール」と「赤ワイン発酵酵母エキス」を高濃度配合！紫外線や大気汚染による細胞の酸化・光老化を中和し、長寿遺伝子を活性化して透明感とパンッとした弾力を呼び戻す実力派美容液10選を徹底検証。...
 
 ### 【ブルベ夏×顔タイプエレガント専用】ラベンダーローズ＆ソフトワイン！上品華やかメイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-cool-summer-elegant-face-lavender-rose-makeup-10sen-2026

@@ -1,3 +1,6 @@
+art-red-led-laser-hair-growth-helmet-cap-10sen-2026	【頭皮用赤色LED＆低出力レーザー発毛ヘルメット10選】FDA認可技術！毛母細胞を活性化する次世代育毛デバイス	美容家電	2026-09-08
+art-tranexamic-acid-decollete-brightening-cream-10sen-2026	【トラネキサム酸×ナイアシンアミド配合デコルテ美白クリーム10選】胸元のシミ・くすみ・ブラ擦れ色素沈着を抹消！	ボディケア	2026-09-08
+art-bakuchiol-plant-retinol-antiaging-serum-10sen-2026	【次世代レチノール・バクチオール高濃度美容液10選】敏感肌でも皮むけゼロ！日中使える植物性リンクルリフト	美容液	2026-09-08
 art-cool-winter-wave-skeleton-cherry-plum-makeup-10sen-2026	【ブルベ冬×骨格ウェーブ専用】青みチェリー＆プラムシアー！華奢見え・透明感爆発コスメ10選	メイクアップ	2026-09-08
 art-needle-scalp-serum-hair-growth-thinning-10sen-2026	【頭皮用ニードルスカルプ美容液10選】マイクロニードルが毛根に直刺し！分け目・生え際薄毛集中ケア	ヘアケア	2026-09-08
 art-retinol-lip-plumper-volumize-wrinkles-10sen-2026	【レチノール高配合リッププランパー10選】縦ジワ・唇のしぼみ・輪郭ぼやけをふっくらボリューマイズ！	リップケア	2026-09-08
@@ -3334,7 +3337,7 @@ art-cool-winter-wave-skeleton-berry-pink-makeup-10sen-2026	【ブルベ冬×骨�
 art-sheet-mask-daily-large-capacity-hydration-10sen-2026	【コスパ最強＆毎日使える】大容量シートマスクおすすめ10選！ルルルン・VT・ダーマレーザーで肌荒れ予防＆水分爆弾チャージ	スキンケア	2026-09-08
 art-lip-plumper-volume-up-wrinkle-smooth-10sen-2026	【縦ジワ消滅＆ぷっくり唇】リッププランパーおすすめ10選！塗るヒアルロン酸注射級のボリュームアップ名品	リップケア	2026-09-08
 art-scalp-scrub-deep-cleansing-head-spa-10sen-2026	【毛穴の皮脂詰まり＆ニオイ一掃】頭皮スクラブおすすめ10選！自宅で極上ヘッドスパ＆根元ふんわり美髪ケア	ヘアケア	2026-09-08
-art-warm-autumn-straight-skeleton-bitter-chocolate-makeup-10sen-2026	【イエベ秋×骨格ストレート】上質リッチ＆ビターチョコレートメイク！品格とゴージャス感を極める10選	パーソナルカラーメイク	2026-09-08
+art-warm-autumn-straight-skeleton-bitter-chocolate-makeup-10sen-2026	【イエベ秋×骨格ストレート専用】ビターチョコ＆リッチブロンズ！重厚感と小顔陰影のハンサムメイク10選	メイクアップ	2026-09-08
 art-liquid-cushion-blush-natural-glow-10sen-2026	【内側からじゅわっと上気肌】リキッド＆クッションチークおすすめ10選！マスク移り知らずの水光ツヤ名品	メイクアップ	2026-09-08
 art-tint-lip-balm-moist-sheer-color-10sen-2026	【鏡なしでもサッと塗れる】色つきティントリップバームおすすめ10選！荒れケアと血色感を両立する万能ケアリップ	リップケア	2026-09-08
 art-tranexamic-acid-melasma-redness-serum-10sen-2026	【頑固な肝斑・シミ・赤み撃退】トラネキサム酸美容液おすすめ10選！肌荒れを抑えて澄み渡る透明美白へ	スキンケア	2026-09-08

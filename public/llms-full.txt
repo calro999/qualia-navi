@@ -78,7 +78,34 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3396 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3399 Product Reviews)
+
+### 【頭皮用赤色LED＆低出力レーザー発毛ヘルメット10選】FDA認可技術！毛母細胞を活性化する次世代育毛デバイス
+- **URL**: https://qualia-navi.vercel.app/articles/art-red-led-laser-hair-growth-helmet-cap-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: 美容家電
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 育毛剤や飲み薬の限界を超えて毛根深層へ光エネルギーを照射！アメリカFDA（食品医薬品局）で薄毛治療として認可された「LLLT（低出力レーザー治療）」と「650nm高輝度赤色LED」を頭皮全体に同時照射する最新発毛ヘルメット・レーザーキャップ10選を徹底比較。...
+
+### 【トラネキサム酸×ナイアシンアミド配合デコルテ美白クリーム10選】胸元のシミ・くすみ・ブラ擦れ色素沈着を抹消！
+- **URL**: https://qualia-navi.vercel.app/articles/art-tranexamic-acid-decollete-brightening-cream-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: ボディケア
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 年齢が出やすい首筋からデコルテライン、下着やブラジャーの摩擦による谷間の黒ずみ・茶色いシミ・くすみを全方位ブライトニング！抗炎症＆メラニン生成を遮断する「薬用トラネキサム酸」とシワ改善成分「ナイアシンアミド」を贅沢配合した実力派デコルテクリーム10選。...
+
+### 【次世代レチノール・バクチオール高濃度美容液10選】敏感肌でも皮むけゼロ！日中使える植物性リンクルリフト
+- **URL**: https://qualia-navi.vercel.app/articles/art-bakuchiol-plant-retinol-antiaging-serum-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: 美容液
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: レチノールのシワ改善・ハリ向上効果はそのままに、赤み・皮むけ（A反応）や紫外線分解のデメリットを完全克服！アーユルヴェーダ生薬オランダビユから抽出された天然成分「バクチオール」高配合美容液10選を徹底検証。敏感肌や朝のメイク前にも安心して使える次世代エイジングケア。...
 
 ### 【ブルベ冬×骨格ウェーブ専用】青みチェリー＆プラムシアー！華奢見え・透明感爆発コスメ10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-cool-winter-wave-skeleton-cherry-plum-makeup-10sen-2026
@@ -30104,14 +30131,14 @@
 - **Tags**: 
 - **Summary**: 普段のシャンプーでは落ちない毛穴の酸化皮脂やスタイリング剤の蓄積汚れをごっそりオフ！海塩や死海のミネラル配合で、夕方の頭皮臭を予防し根元から立ち上がるサラサラ髪へ導く頭皮スクラブ10選を徹底検証。...
 
-### 【イエベ秋×骨格ストレート】上質リッチ＆ビターチョコレートメイク！品格とゴージャス感を極める10選
+### 【イエベ秋×骨格ストレート専用】ビターチョコ＆リッチブロンズ！重厚感と小顔陰影のハンサムメイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-warm-autumn-straight-skeleton-bitter-chocolate-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: パーソナルカラーメイク
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
-- **Summary**: イエベ秋の重厚で洗練された温かみと、骨格ストレートのメリハリあるグラマラスな骨格美を最高峰の気品へ。深みビターブラウン、熟成テラコッタ、上質サテンで作る圧巻のゴージャス顔10選。...
+- **Summary**: イエベ秋なのに中途半端な淡いカラーだと顔がぼやけて太って見える、骨格ストレートのグラマラスなメリハリに薄いメイクが負けてしまう…そんな悩みを一撃解消！深みのあるビターチョコレートとリッチブロンズで、引き締まった陰影美と都会的な気品を宿す神コスメ10選。...
 
 ### 【内側からじゅわっと上気肌】リキッド＆クッションチークおすすめ10選！マスク移り知らずの水光ツヤ名品
 - **URL**: https://qualia-navi.vercel.app/articles/art-liquid-cushion-blush-natural-glow-10sen-2026

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-08
-- **Total Articles**: 3446 件の個別詳細レビュー
+- **Total Articles**: 3450 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【ブルベ夏×顔タイプフレッシュ専用】アイシーブルー＆ソフトミント！涼しげな透明感と清潔感を引き出すピュアメイク10選](https://qualia-navi.vercel.app/articles/art-cool-summer-fresh-icy-blue-makeup-10sen-2026): コスメ・スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【高濃度ヘナ＆インディゴ天然100％白髪染めトリートメント10選】化学染料ジアミン完全フリー！敏感頭皮を傷めずツヤ染め](https://qualia-navi.vercel.app/articles/art-natural-henna-indigo-gray-hair-dye-10sen-2026): コスメ・スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【超音波キャビテーション×EMSボディ痩身美顔器10選】太もも・二の腕・お腹の頑固なセルライト溶解！引き締め自宅エステ](https://qualia-navi.vercel.app/articles/art-ultrasonic-cavitation-ems-slimming-10sen-2026): コスメ・スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【高濃度トラネキサム酸×ナイアシンアミド美白乳液10選】肝斑・シミ・ニキビ跡の色素沈着をトリプル遮断！透明感復活](https://qualia-navi.vercel.app/articles/art-tranexamic-niacinamide-whitening-emulsion-10sen-2026): コスメ・スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【イエベ秋×骨格ストレート専用】リッチブロンズ＆シナモンテラコッタ！グラマラスな骨感を活かす上質洗練メイク10選](https://qualia-navi.vercel.app/articles/art-warm-autumn-straight-bronze-terracotta-makeup-10sen-2026): コスメ・スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【高濃度ペプチド×ヒト幹細胞まつ毛美容液10選】まつエク級の自まつ毛育成！色素沈着ゼロ処方でハリコシ＆濃密ロング](https://qualia-navi.vercel.app/articles/art-peptide-stem-cell-eyelash-serum-10sen-2026): コスメ・スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【RF（ラジオ波）×EMS首専用リフトアップ美顔器10選】温熱深層照射で皮下組織をタイトニング！二重アゴ＆首たるみ解消](https://qualia-navi.vercel.app/articles/art-rf-ems-neck-lift-double-chin-10sen-2026): コスメ・スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【針スピキュールファンデーション10選】メイク中ずっと小顔リフト＆美肌再生！V3超え神ファンデ](https://qualia-navi.vercel.app/articles/art-spicule-needle-cushion-foundation-v-lift-10sen-2026): ファンデーション (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【頭皮用赤色LED＆低出力レーザー発毛ヘルメット10選】FDA認可技術！毛母細胞を活性化する次世代育毛デバイス](https://qualia-navi.vercel.app/articles/art-red-led-laser-hair-growth-helmet-cap-10sen-2026): 美容家電 (評価: ★4.8 / 監修: 篠原 玲奈)
-- [【トラネキサム酸×ナイアシンアミド配合デコルテ美白クリーム10選】胸元のシミ・くすみ・ブラ擦れ色素沈着を抹消！](https://qualia-navi.vercel.app/articles/art-tranexamic-acid-decollete-brightening-cream-10sen-2026): ボディケア (評価: ★4.8 / 監修: 篠原 玲奈)
-- [【次世代レチノール・バクチオール高濃度美容液10選】敏感肌でも皮むけゼロ！日中使える植物性リンクルリフト](https://qualia-navi.vercel.app/articles/art-bakuchiol-plant-retinol-antiaging-serum-10sen-2026): 美容液 (評価: ★4.8 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3446件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3450件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

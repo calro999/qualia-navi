@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-08
-- **Total Articles**: 3388 件の個別詳細レビュー
+- **Total Articles**: 3392 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【イエベ春×骨格ナチュラル専用】透け感アプリコット＆スモーキーコーラル！抜け感ヘルシーコスメ10選](https://qualia-navi.vercel.app/articles/art-warm-spring-natural-skeleton-apricot-coral-makeup-10sen-2026): メイクアップ (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【超音波トリートメント導入アイロン10選】サロン帰りのツルツル美髪！毎秒100万回振動ヘアケアギア](https://qualia-navi.vercel.app/articles/art-ultrasonic-treatment-hair-iron-repair-10sen-2026): 美容家電 (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【レチノール高配合ハンドクリーム10選】手の血管浮き・シミ・老け手をふっくら若返らせる！](https://qualia-navi.vercel.app/articles/art-retinol-hand-cream-veins-spots-antiaging-10sen-2026): ハンドケア (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【アゼライン酸高濃度美容液10選】酒さ・赤ら顔・皮脂トラブル・頑固な毛穴詰まりを集中鎮静！](https://qualia-navi.vercel.app/articles/art-azelaic-acid-serum-rosacea-pores-sebum-10sen-2026): 美容液 (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【ブルベ夏×骨格ストレート専用】上品モーヴピンク＆セミマット！着太り・老け見え回避の垢抜けコスメ10選](https://qualia-navi.vercel.app/articles/art-cool-summer-straight-skeleton-mauve-pink-makeup-10sen-2026): メイクアップ (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【頭皮用炭酸クレンジングシャンプー10選】頭皮の臭い・毛穴詰まり・ベタつきを炭酸スパ泡で一撃リセット！](https://qualia-navi.vercel.app/articles/art-carbonic-acid-scalp-shampoo-cleansing-10sen-2026): ヘアケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【レチノール首用ネッククリーム10選】スマホ首の横ジワ・たるみ・デコルテの年齢サインを撃退！](https://qualia-navi.vercel.app/articles/art-retinol-neck-cream-antiaging-wrinkle-10sen-2026): ボディケア (評価: ★4.8 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【頑固な角栓・黒ずみ毛穴がポロポロ落ちる】W洗顔不要！とろける高保湿クレンジングバーム10選](https://qualia-navi.vercel.app/articles/art-cleansing-balm-blackhead-pore-clog-removal-10sen-2026): skincare (評価: ★4.8 / 監修: 蓮見 拓真)
-- [【ゴワつく肌がぐんぐん吸い込む！】化粧水の浸透力を劇的底上げする炭酸・発酵・オイル導入美容液10選](https://qualia-navi.vercel.app/articles/art-booster-serum-skin-penetration-softening-10sen-2026): skincare (評価: ★4.8 / 監修: 蓮見 拓真)
-- [【オイルより潤う！毛先までちゅるん】ベタつかず水分を補給する高浸透アウトバスヘアミルク10選](https://qualia-navi.vercel.app/articles/art-hair-milk-inner-dry-hydration-leave-in-10sen-2026): haircare (評価: ★4.8 / 監修: 蓮見 拓真)
-- [【イエベ秋×骨格ストレート】深みカーキ＆ゴールドラメで魅せる！洗練された都会派ハンサムリッチコスメ10選](https://qualia-navi.vercel.app/articles/art-warm-autumn-straight-skeleton-chic-handsome-rich-makeup-10sen-2026): makeup (評価: ★4.8 / 監修: 蓮見 拓真)
-- [【手肌の血管浮き・乾燥小ジワを若見え補修】べたつかないのに高保湿！ナイアシンアミド配合ハンドセラム10選](https://qualia-navi.vercel.app/articles/art-anti-aging-hand-cream-dry-cracked-vein-care-10sen-2026): bodycare (評価: ★4.8 / 監修: 蓮見 拓真)
-- [Full Article List & Complete Database (3388件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3392件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

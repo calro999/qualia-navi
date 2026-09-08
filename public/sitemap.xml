@@ -88,6 +88,24 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-takami</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://qualia-navi.vercel.app/articles/art-cleansing-balm-blackhead-pore-clog-removal-10sen-2026</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>daily</changefreq>
@@ -203,24 +221,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/articles/art-warm-spring-straight-skeleton-rich-glow-coral-makeup-10sen-2026</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-takami</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -19829,6 +19829,30 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/articles/art-warm-spring-natural-skeleton-terracotta-orange-makeup-10sen-2026</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-pore-cleansing-balm-blackhead-removal-10sen-2026</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-full-coverage-crease-proof-concealer-10sen-2026</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-scalp-serum-hair-density-volume-growth-10sen-2026</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-cool-winter-wave-skeleton-berry-pink-dolly-makeup-10sen-2026</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>

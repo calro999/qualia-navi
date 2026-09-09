@@ -97,7 +97,19 @@ function convertMixedContentToHtml(content: string): string {
     // Markdown H3
     if (trimmed.startsWith('### ')) {
       const text = trimmed.replace(/^###\s+/, '');
-      result.push(`<h4 style="font-size:1.1rem;font-weight:700;color:#1e293b;margin:1.25rem 0 0.5rem;">${inlineMarkdown(text)}</h4>`);
+      result.push(`<h4 style="font-size:1.15rem;font-weight:700;color:#1e293b;margin:1.5rem 0 0.75rem;background:#fff1f2;padding:8px 14px;border-radius:10px;border-left:4px solid #f43f5e;">${inlineMarkdown(text)}</h4>`);
+      continue;
+    }
+    // Markdown H4
+    if (trimmed.startsWith('#### ')) {
+      const text = trimmed.replace(/^####\s+/, '');
+      result.push(`<h5 style="font-size:1.02rem;font-weight:700;color:#334155;margin:1.25rem 0 0.5rem;padding-bottom:4px;border-bottom:1px dashed #cbd5e1;display:flex;align-items:center;gap:6px;"><span style="color:#f43f5e;font-size:0.85em;">✦</span>${inlineMarkdown(text)}</h5>`);
+      continue;
+    }
+    // Markdown H5
+    if (trimmed.startsWith('##### ')) {
+      const text = trimmed.replace(/^#####\s+/, '');
+      result.push(`<h6 style="font-size:0.95rem;font-weight:700;color:#475569;margin:1rem 0 0.5rem;">${inlineMarkdown(text)}</h6>`);
       continue;
     }
 

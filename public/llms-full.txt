@@ -78,7 +78,7 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3434 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3438 Product Reviews)
 
 ### 【ブルベ冬×顔タイプクール専用】アイシーシルバー＆ディープブラックベリー！モードで圧倒的な美女オーラを放つ主役メイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-cool-winter-cool-icy-silver-makeup-10sen-2026
@@ -30985,6 +30985,42 @@
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: イエベ秋, 骨格ナチュラル, テラコッタリップ, ビターショコラ, こなれメイク, マットリップ
 - **Summary**: シックでリッチな「イエベ秋（オータム）」と、スタイリッシュなフレーム感を持つ「骨格ナチュラル」のための最強こなれメイク特集。テラコッタ、マスタード、ビターショコラ、マットスフレ質感で、洗練された大人のリラクシー美を極める名品コスメ10選。...
+
+### 【高純度ヒト型セラミド5種×マデカッソシド集中修復クリーム10選】季節の変わり目の乾燥・粉吹き・ピリつきを完全遮断！秋枯れ肌バリア再生
+- **URL**: https://qualia-navi.vercel.app/articles/art-human-ceramide-madecassoside-barrier-repair-cream-10sen-2026
+- **Author/Reviewer**: [object Object] (コスメ専門エディター)
+- **Category**: スキンケア
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: ヒト型セラミド, マデカッソシド, バリア機能, 粉吹き肌, 敏感肌クリーム, 乾燥肌改善
+- **Summary**: 夏の紫外線でボロボロになった肌バリアを集中再構築！人間の角層細胞間脂質と同一構造を持つ「ヒト型セラミド（EOP/NP/AP/NG/AG）」と高純度CICA「マデカッソシド」を黄金比配合した、粉吹き・ヒリつき・超乾燥肌向けレスキュークリーム10選を徹底比較。...
+
+### 【RF高周波×ポレーション浸透リフト美顔器10選】たるみ毛穴・フェイスラインのゆるみを自宅で引き上げる本格温感ギア
+- **URL**: https://qualia-navi.vercel.app/articles/art-rf-radio-frequency-electroporation-face-lift-10sen-2026
+- **Author/Reviewer**: [object Object] (コスメ専門エディター)
+- **Category**: 美顔器・美容家電
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: RF美顔器, ラジオ波, エレクトロポレーション, たるみ毛穴, リフトアップ, ほうれい線
+- **Summary**: 美容クリニックのサーマクールやハイフに通う前に！肌深部を心地よく温めるマルチポーラRF（ラジオ波）と高分子美容成分を針なしで浸透させるエレクトロポレーションを搭載した本格リフト美顔器10選を徹底比較。ヤーマン等の最新機種も完全網羅。...
+
+### 【薬用CICA×グリチルリチン酸2K配合スカルプローション10選】頭皮の乾燥フケ・かゆみ・赤みを抑える潤い頭皮美容液
+- **URL**: https://qualia-navi.vercel.app/articles/art-cica-dipotassium-glycyrrhizate-scalp-lotion-10sen-2026
+- **Author/Reviewer**: [object Object] (コスメ専門エディター)
+- **Category**: ヘアケア
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: スカルプローション, 頭皮保湿, フケ対策, 頭皮のかゆみ, グリチルリチン酸2K, CICA
+- **Summary**: 「頭皮をかくとパラパラ白いフケが落ちる」「頭がかゆくて集中できない」「分け目が赤く炎症している」悩みを薬用鎮静処方で解決！抗炎症の有効成分グリチルリチン酸2Kと高純度CICA、セラミドを贅沢配合した頭皮保湿ローション10選を徹底比較。...
+
+### 【ブルベ冬×骨格ウェーブ専用】漆黒ブラック＆クリムゾンレッド！華奢な首元とコントラストを引き立てるドラマティックレディメイク10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-winter-cool-wave-crimson-red-contrast-makeup-10sen-2026
+- **Author/Reviewer**: [object Object] (コスメ専門エディター)
+- **Category**: メイクアップ
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: ブルベ冬, 骨格ウェーブ, 赤リップ, クリムゾンレッド, ボルドーリップ, コントラストメイク
+- **Summary**: 圧倒的な存在感を放つ「ブルベ冬（ウィンター）」と、女性らしく華奢な曲線美を持つ「骨格ウェーブ」のための最高峰ドラマティックメイク特集。鮮烈な真紅（クリムゾンレッド）、青みボルドー、澄んだシルバーラメで、白肌とメリハリを引き立てる名品コスメ10選。...
 
 
 ---

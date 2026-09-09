@@ -78,7 +78,7 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3487 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3491 Product Reviews)
 
 ### 【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証
 - **URL**: https://qualia-navi.vercel.app/articles/autodiscover-shiseido
@@ -31462,6 +31462,42 @@
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
 - **Summary**: パーソナルカラー「イエベ秋（オータム）」×骨格診断「ウェーブ」に完璧に似合うコスメを徹底厳選！深みのあるテラコッタやアプリコットの温もりを、華奢で柔らかな骨格に合わせて重くならず軽やかに纏う大人のソフトフェミニンメイク10選を完全解説。...
+
+### 【マデカッソシド×LHA・PHA配合ピーリングトナーパッド10選】いちご鼻の角栓・肌荒れ・毛穴のザラつきを摩擦レスで拭き取る韓国発素肌リセットケア
+- **URL**: https://qualia-navi.vercel.app/articles/art-madecassoside-lha-pha-peeling-toner-pad-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: スキンケア
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 朝の洗顔代わりやメイク前のキメ整えに大ヒット！従来のAHA/BHAのようなピリピリ感を排除した第4世代マイルド角質ケア成分「LHA・PHA」と、CICA濃縮成分「マデカッソシド」をたっぷり浸透させた楽天高評価おすすめトナーパッド10選を徹底比較！...
+
+### 【サロン級高周波RF×パルスEMS家庭用リフトアップ美顔器10選】ほうれい線・フェイスラインのたるみ・ゴルゴラインを根本引き締める最新エイジングケアギア
+- **URL**: https://qualia-navi.vercel.app/articles/art-salon-rf-pulse-ems-facial-device-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: 美容家電
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 加齢による顔のたるみ、深くなるほうれい線、もたつく二重あごを自宅で撃退！サロン級のマルチポーラRF温熱で真皮コラーゲンを収縮させ、深層表情筋を動かすパルスEMSで驚異のリフトアップを叶える楽天市場高評価おすすめ美顔器10選を徹底比較！...
+
+### 【高濃度ヘマチン×ケラチン配合サロン級ダメージ補修シャンプー10選】白髪予防・カラー退色防止・うねり補修を同時に叶えるアミノ酸系髪質改善ケア
+- **URL**: https://qualia-navi.vercel.app/articles/art-salon-hematin-keratin-damage-repair-shampoo-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: ヘアケア
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 日々のシャンプーでサロン帰りの美髪を作る！毛髪の主成分ケラチンと瞬時に強固結合する「ヘマチン」を濃密配合し、カラー剤の残留過酸化水素を除去して色持ちを劇的に高め、加齢による細毛・うねりを芯から再構築する楽天高評価シャンプー10選を徹底比較！...
+
+### 【ブルベ冬×骨格ウェーブ専用】青みプラム＆アイシーシルバー！華奢ボディと透明感を極限まで際立たせるドラマティックフェミニンメイク10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-winter-cool-wave-plum-icy-silver-makeup-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: メイクアップ
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: パーソナルカラー「ブルベ冬（ウィンター）」×骨格診断「ウェーブ」に完璧に似合うコスメを徹底厳選！青みを含んだディーププラムやワイン、繊細なアイシーシルバーラメで、華奢な骨格美と吸い込まれるような透明感を両立させる大人フェミニンメイク10選を完全解説。...
 
 
 ---

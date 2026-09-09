@@ -38,7 +38,6 @@ art-electroporation-ems-scalp-brush-hair-growth-10sen-2026
 art-salicylic-lactic-acid-foot-peeling-pack-10sen-2026
 art-liposome-glutathione-vitamin-c-whitening-cream-10sen-2026
 art-warm-spring-active-cute-poppy-orange-makeup-10sen-2026
-art-sapphire-cooling-ipl-hair-removal-device-10sen-2026
 art-retinol-squalane-lip-sleeping-mask-balm-10sen-2026
 art-resveratrol-polyphenol-antioxidant-serum-10sen-2026
 art-cool-summer-elegant-face-lavender-rose-makeup-10sen-2026
@@ -3444,3 +3443,7 @@ art-tranexamic-acid-arbutin-whitening-melasma-serum-10sen-2026
 art-thermal-jojoba-enzyme-cleansing-balm-10sen-2026
 art-female-medicinal-hair-growth-essence-10sen-2026
 art-autumn-warm-wave-maple-cinnamon-makeup-10sen-2026
+art-pure-retinol-niacinamide-wrinkle-eye-cream-10sen-2026
+art-sapphire-cooling-ipl-hair-removal-device-10sen-2026
+art-raw-keratin-acid-heat-hair-mask-pack-10sen-2026
+art-winter-cool-straight-plum-silver-makeup-10sen-2026

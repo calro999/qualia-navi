@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-09
-- **Total Articles**: 3446 件の個別詳細レビュー
+- **Total Articles**: 3449 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -71,7 +71,6 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【サリチル酸×乳酸かかと角質フットパック10選】履くだけでごっそり脱皮！生まれたての赤ちゃん足裏へ](https://qualia-navi.vercel.app/articles/art-salicylic-lactic-acid-foot-peeling-pack-10sen-2026): ボディケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【リポソーム化グルタチオン美白クリーム10選】寝ている間に肌サビ脱色！黄ぐすみ・頑固ジミを徹底漂白](https://qualia-navi.vercel.app/articles/art-liposome-glutathione-vitamin-c-whitening-cream-10sen-2026): 乳液・クリーム (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【イエベ春×顔タイプアクティブキュート専用】ポピーオレンジ＆ゴールドラメ！目ヂカラ爆発POPメイク10選](https://qualia-navi.vercel.app/articles/art-warm-spring-active-cute-poppy-orange-makeup-10sen-2026): メイクアップ (評価: ★4.8 / 監修: 篠原 玲奈)
-- [【サファイア冷却IPL光美容器10選】氷冷無痛！VIO・ヒゲ・全身サロン級ムダ毛ケア＆美肌フラッシュ](https://qualia-navi.vercel.app/articles/art-sapphire-cooling-ipl-hair-removal-device-10sen-2026): 美容家電 (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【レチノール×スクワラン夜用リップバーム10選】唇の皮むけ・ひび割れ・血色不良を翌朝ぷるぷる再生！](https://qualia-navi.vercel.app/articles/art-retinol-squalane-lip-sleeping-mask-balm-10sen-2026): リップケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【レスベラトロール×赤ワインポリフェノール美容液10選】紫外線サビ肌を即効リセット！肌寿命延伸エイジングケア](https://qualia-navi.vercel.app/articles/art-resveratrol-polyphenol-antioxidant-serum-10sen-2026): 美容液 (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【ブルベ夏×顔タイプエレガント専用】ラベンダーローズ＆ソフトワイン！上品華やかメイク10選](https://qualia-navi.vercel.app/articles/art-cool-summer-elegant-face-lavender-rose-makeup-10sen-2026): メイクアップ (評価: ★4.8 / 監修: 篠原 玲奈)
@@ -81,7 +80,8 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【イエベ秋×顔タイプフレッシュ専用】テラコッタベージュ＆シアーオリーブ！大人カジュアル抜け感メイク10選](https://qualia-navi.vercel.app/articles/art-warm-autumn-fresh-face-terracotta-olive-makeup-10sen-2026): メイクアップ (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【頭皮用ファインバブルシャワーヘッド10選】ナノバブル×塩素除去！頭皮の臭い・抜け毛・毛穴皮脂を一掃](https://qualia-navi.vercel.app/articles/art-fine-bubble-scalp-shower-head-hair-growth-10sen-2026): バス・ヘアケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【グリコール酸10%×乳酸ボディピーリング10選】二の腕のブツブツ・お尻のざらつき・背中ニキビ跡を一撃つるつる！](https://qualia-navi.vercel.app/articles/art-glycolic-acid-body-peeling-lotion-kp-roughness-10sen-2026): ボディケア (評価: ★4.8 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3446件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [【ミトコンドリア活性化NMN・PQQ美容液10選】肌細胞の発電所を再起動！深層疲労肌・黄ぐすみを根本再生](https://qualia-navi.vercel.app/articles/art-mitochondria-nmn-pqq-antiaging-serum-10sen-2026): 美容液 (評価: ★4.8 / 監修: 篠原 玲奈)
+- [Full Article List & Complete Database (3449件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

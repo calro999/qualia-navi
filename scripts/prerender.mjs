@@ -221,7 +221,7 @@ let prerenderedCount = 0;
 
 // 1. 各記事のプリレンダリング
 articles.forEach((art, index) => {
-  const articleId = art.id;
+  const articleId = art.id || art.slug;
   const canonicalUrl = `https://qualia-navi.vercel.app/articles/${articleId}`;
   const title = escapeHtml(art.title || `${art.productName || 'コスメ'} 徹底検証・口コミ`);
   const description = escapeHtml(art.introText || art.description || `${art.productName || 'コスメ'}の成分、効果、口コミ、最安値を徹底解説。`);

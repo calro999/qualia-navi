@@ -88,6 +88,24 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-takami</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://qualia-navi.vercel.app/articles/art-cool-winter-cool-icy-silver-makeup-10sen-2026</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
@@ -131,24 +149,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/articles/art-high-purity-azelaic-acid-20-sebum-acne-10sen-2026</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-takami</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -20777,6 +20777,30 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/articles/art-winter-cool-straight-plum-silver-makeup-10sen-2026</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-carbonic-clay-raw-enzyme-cleansing-powder-10sen-2026</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-salon-plasma-shower-facial-device-10sen-2026</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-pure-argan-marula-damage-repair-hair-oil-10sen-2026</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://qualia-navi.vercel.app/articles/art-spring-warm-natural-juicy-orange-makeup-10sen-2026</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>

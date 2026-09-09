@@ -1,3 +1,6 @@
+autodiscover-shiseido
+autodiscover-takami
+autodiscover-dior
 art-cool-winter-cool-icy-silver-makeup-10sen-2026
 art-peptide-panthenol-female-scalp-essence-10sen-2026
 art-ultrasonic-thermal-cold-skin-scrubber-10sen-2026
@@ -3447,3 +3450,7 @@ art-pure-retinol-niacinamide-wrinkle-eye-cream-10sen-2026
 art-sapphire-cooling-ipl-hair-removal-device-10sen-2026
 art-raw-keratin-acid-heat-hair-mask-pack-10sen-2026
 art-winter-cool-straight-plum-silver-makeup-10sen-2026
+art-carbonic-clay-raw-enzyme-cleansing-powder-10sen-2026
+art-salon-plasma-shower-facial-device-10sen-2026
+art-pure-argan-marula-damage-repair-hair-oil-10sen-2026
+art-spring-warm-natural-juicy-orange-makeup-10sen-2026

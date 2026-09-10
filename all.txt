@@ -3513,3 +3513,7 @@ art-pure-vitamin-c25-glutathione-pore-serum-10sen-2026	【ピュアビタミンC
 art-portable-carbonic-acid-mist-facial-device-10sen-2026	【高圧ナノ炭酸ミスト美顔器10選】シュッと3秒で瞬間リフトアップ！ボーア効果で血流促進・むくみ消去・くすみ晴らしを叶える携帯スプレーギア
 art-hematin-cmc-damage-repair-hair-pack-10sen-2026	【高濃度ヘマチン×CMC配合サロン専売濃密ヘアパック10選】加齢うねり・縮毛矯正・ブリーチ毛の空洞化を完全充填！芯から潤うシルク髪質改善ケア
 art-autumn-warm-straight-terracotta-bronze-makeup-10sen-2026	【イエベ秋×骨格ストレート専用】リッチテラコッタ＆ブロンズゴールド！ハリのある上質ボディと温もりある肌色を引き立てる王道クラシックメイク10選
+art-tranexamic-acid-glycyrrhizin-whitening-emulsion-10sen-2026	【高濃度トラネキサム酸×グリチルリチン酸2K配合薬用美白乳液10選】肝斑・紫外線シミ・大人ニキビ後の色素沈着を徹底ブロック！抗炎症＆メラニン還元を両立する高保湿白雪ミルクケア
+art-rf-cryo-cooling-thermal-facial-device-10sen-2026	【高周波RF×冷却クライオ複合温冷美顔器10選】温めてほぐし冷やしてキュッと瞬間毛穴レス！たるみ引き締め・コラーゲン活性・キメ整えを叶える最新サロン級ギア
+art-silk-keratin-acid-heat-night-repair-hair-serum-10sen-2026	【高純度シルクケラチン×酸熱トリートメント配合夜用ヘアセラム10選】寝ている間の枕摩擦・うねり・乾燥パサつきを完全ブロック！翌朝アイロンなしでするんとまとまる美髪集中ナイトリペア
+art-cool-summer-wave-sakura-pink-lavender-makeup-10sen-2026	【ブルベ夏×骨格ウェーブ専用】サクラピンク＆ペールラベンダー！守りたくなる儚げな透明感を引き出すピュアモテメイク10選

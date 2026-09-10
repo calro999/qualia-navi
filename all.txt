@@ -3537,3 +3537,7 @@ art-galactomyces-niacinamide-fermented-toner-10sen-2026	【高濃度ガラクト
 art-led-photofacial-mask-rf-beauty-device-10sen-2026	【LED光エステ×高周波RF複合フォトフェイシャルマスク美顔器10選】かぶるだけで全顔ハンズフリー美肌再生！赤色LEDコラーゲン活性＆近赤外線リフトを叶える最新フェイスギア
 art-cbd-menthol-crackling-carbonic-scalp-serum-10sen-2026	【高純度CBD×メントール配合炭酸スカルプクラッキングセラム10選】パチパチ弾ける炭酸泡で頭皮の熱とストレスを瞬間冷却！血流促進・頭皮のベタつき消臭・自律神経リセット
 art-warm-spring-straight-peach-champagne-makeup-10sen-2026	【イエベ春×骨格ストレート専用】ジューシーピーチ＆シャンパンゴールド！ハリのある上質グラマラスを引き立てる王道多幸感リッチメイク10選
+art-pha-gluconolactone-mild-peeling-serum-10sen-2026	【次世代マイルドピーリングPHA（グルコノラクトン）配合水光美容液10選】AHA・BHAで皮むけした敏感肌でも安心！水分を引き込みながら毛穴詰まり・ゴワつきを溶かす韓国発「水光ピーリング」ケア
+art-keratin-silk-acid-heat-sleeping-hair-mask-10sen-2026	【高純度ケラチン×シルク配合酸熱スリーピングヘアマスク10選】寝ている間に集中浸透＆形状記憶！翌朝アイロンを当てるだけでサラサラ真っ直ぐなストレートが完成する夜用髪質改善パック
+art-cool-winter-wave-berry-plum-icy-mauve-makeup-10sen-2026	【ブルベ冬×骨格ウェーブ専用】ベリープラム＆アイシーモーブ！華奢な上半身にドラマティックな透明感を宿す大人儚げウィンターメイク10選
+art-sapphire-cooling-ice-ipl-hair-removal-gear-10sen-2026	【サファイア冷却IPL光美容器10選】痛みゼロでVIO・ヒゲ・全身スベスベ！氷感サファイアクリスタル冷却＆サロン級ハイパワー連射を搭載した最新おうち脱毛ギア

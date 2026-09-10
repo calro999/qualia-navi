@@ -494,13 +494,27 @@ const topJsonLd = {
   ]
 };
 
-// トップページにGooglebot/クローラが辿れる全記事・全比較・全特集のセマンティックHTMLリンクツリーを注入
-const topArticlesLinks = articles.slice(0, 150).map(a => `
-  <li style="margin-bottom:8px;">
-    <a href="/articles/${a.id}" style="color:#e11d48;text-decoration:none;font-size:0.9rem;font-weight:600;">
-      ${escapeHtml(a.title || a.productName)}
-    </a>
-  </li>
+// トップページにGooglebot/クローラが辿れる主要カテゴリ・厳選特集カードを整理して注入
+const topFeaturedArticles = articles.slice(0, 12);
+const topArticlesCards = topFeaturedArticles.map(a => `
+  <article style="background:#ffffff;border:1px solid #f1f5f9;border-radius:16px;padding:16px;display:flex;flex-direction:column;justify-content:between;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
+    <div>
+      <span style="font-size:0.75rem;font-weight:700;color:#e11d48;background:#fff1f2;padding:4px 8px;border-radius:6px;display:inline-block;margin-bottom:8px;">
+        ${escapeHtml(a.categoryLabel || a.category || '注目コスメ')}
+      </span>
+      <h3 style="font-size:0.95rem;font-weight:700;line-height:1.4;margin:0 0 8px;color:#0f172a;">
+        <a href="/articles/${a.id || a.slug}" style="color:#0f172a;text-decoration:none;">
+          ${escapeHtml(a.title || a.productName)}
+        </a>
+      </h3>
+      <p style="font-size:0.8rem;color:#64748b;line-height:1.5;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">
+        ${escapeHtml(a.introText || a.description || '')}
+      </p>
+    </div>
+    <div style="margin-top:12px;padding-top:8px;border-top:1px solid #f8fafc;display:flex;justify-content:space-between;align-items:center;">
+      <span style="font-size:0.8rem;font-weight:700;color:#e11d48;">検証レビューを見る ➔</span>
+    </div>
+  </article>
 `).join('');
 
 const topBodyHtml = `
@@ -510,22 +524,27 @@ const topBodyHtml = `
       <p style="color:#475569;font-size:1.05rem;line-height:1.7;max-width:800px;margin:0 auto;">${topDesc}</p>
       <nav style="display:flex;justify-content:center;gap:16px;margin-top:20px;">
         <a href="/sitemap" style="color:#e11d48;font-weight:700;text-decoration:underline;">全記事サイトマップ (${articles.length}件)</a>
-        <a href="/blogs" style="color:#e11d48;font-weight:700;text-decoration:underline;">コスメ特集</a>
-        <a href="/compare/anessa-vs-biore-uv" style="color:#e11d48;font-weight:700;text-decoration:underline;">比較検証</a>
+        <a href="/features" style="color:#e11d48;font-weight:700;text-decoration:underline;">コスメ特集</a>
+        <a href="/comparisons" style="color:#e11d48;font-weight:700;text-decoration:underline;">比較検証</a>
       </nav>
     </header>
 
     <main style="max-width:1100px;margin:0 auto;">
       <section style="background:#fff;border:1px solid #ffe4e6;border-radius:20px;padding:28px;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05);margin-bottom:32px;">
-        <h2 style="font-size:1.4rem;font-weight:800;color:#be123c;margin-top:0;margin-bottom:20px;border-left:4px solid #e11d48;padding-left:12px;">
-          最新おすすめコスメ・スキンケア特集 (厳選最新記事)
-        </h2>
-        <ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill, minmax(320px, 1fr));gap:12px;">
-          ${topArticlesLinks}
-        </ul>
-        <div style="text-align:center;margin-top:24px;">
-          <a href="/sitemap" style="display:inline-block;background:#e11d48;color:#fff;padding:10px 24px;border-radius:9999px;font-weight:700;text-decoration:none;">
-            全 ${articles.length} 件のコスメ検証記事を見る →
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;border-left:4px solid #e11d48;padding-left:12px;">
+          <h2 style="font-size:1.35rem;font-weight:800;color:#be123c;margin:0;">
+            今週の注目厳選コスメ検証特集
+          </h2>
+          <a href="/sitemap" style="font-size:0.85rem;color:#e11d48;font-weight:700;text-decoration:none;">
+            一覧を見る ➔
+          </a>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));gap:16px;">
+          ${topArticlesCards}
+        </div>
+        <div style="text-align:center;margin-top:28px;">
+          <a href="/sitemap" style="display:inline-block;background:#e11d48;color:#fff;padding:12px 32px;border-radius:9999px;font-weight:700;text-decoration:none;box-shadow:0 4px 10px rgba(225,29,72,0.2);">
+            全 ${articles.length} 件のコスメ検証アーカイブを見る →
           </a>
         </div>
       </section>

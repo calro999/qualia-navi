@@ -3629,3 +3629,7 @@ art-bicarbonate-ion-medicinal-bath-tablet-10sen-2026
 art-ems-waterproof-head-spa-scalp-massager-10sen-2026
 art-buttocks-hip-exfoliating-scrub-10sen-2026
 art-silk-tubular-long-hair-night-cap-10sen-2026
+art-tongue-cleaner-brush-gel-oral-care-10sen-2026
+art-ladies-electric-face-and-nose-trimmer-10sen-2026
+art-hand-sweat-antiperspirant-gel-cream-10sen-2026
+art-hydrolyzed-egg-shell-membrane-serum-10sen-2026

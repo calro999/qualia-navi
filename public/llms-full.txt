@@ -839,7 +839,7 @@
 ### 【ブルベ夏×骨格ストレート専用】ペールライラック＆ローズトープ！ハリのある上質グラマラスを引き立てる大人の清楚フェミニン夏メイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-cool-summer-straight-lilac-rose-taupe-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -848,7 +848,7 @@
 ### 【高純度エルカラクトン配合熱反応型ヘアオイル10選】アイロン熱でキューティクルを完全接着！うねり・パサつき・アホ毛を夕方まで封じ込める形状記憶リペアオイル
 - **URL**: https://qualia-navi.vercel.app/articles/art-elcalactone-gamma-docosalactone-heat-hair-oil-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -857,7 +857,7 @@
 ### 【電気バリブラシ型EMSスカルプ美顔器10選】頭皮の筋膜をほぐして顔全体をギュッと引き上げ！薄毛・白髪予防とフェイスリフトを同時に叶える最新ブラシギア
 - **URL**: https://qualia-navi.vercel.app/articles/art-electric-brush-ems-rf-scalp-facial-device-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -866,7 +866,7 @@
 ### 【高濃度トラネキサム酸×純粋ビタミンC配合薬用美白シートマスク10選】日焼け後のメラニン爆発を先回り沈静化！シミ・そばかす・くすみを同時に還元する集中白雪パック
 - **URL**: https://qualia-navi.vercel.app/articles/art-tranexamic-vitamin-c-whitening-sheet-mask-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: スキンケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32150,7 +32150,7 @@
 ### 【高濃度トラネキサム酸×グリチルリチン酸2K配合薬用美白乳液10選】肝斑・紫外線シミ・大人ニキビ後の色素沈着を徹底ブロック！抗炎症＆メラニン還元を両立する高保湿白雪ミルクケア
 - **URL**: https://qualia-navi.vercel.app/articles/art-tranexamic-acid-glycyrrhizin-whitening-emulsion-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: スキンケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32159,7 +32159,7 @@
 ### 【高周波RF×冷却クライオ複合温冷美顔器10選】温めてほぐし冷やしてキュッと瞬間毛穴レス！たるみ引き締め・コラーゲン活性・キメ整えを叶える最新サロン級ギア
 - **URL**: https://qualia-navi.vercel.app/articles/art-rf-cryo-cooling-thermal-facial-device-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: 美容家電
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32168,7 +32168,7 @@
 ### 【高純度シルクケラチン×酸熱トリートメント配合夜用ヘアセラム10選】寝ている間の枕摩擦・うねり・乾燥パサつきを完全ブロック！翌朝アイロンなしでするんとまとまる美髪集中ナイトリペア
 - **URL**: https://qualia-navi.vercel.app/articles/art-silk-keratin-acid-heat-night-repair-hair-serum-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32177,7 +32177,7 @@
 ### 【ブルベ夏×骨格ウェーブ専用】サクラピンク＆ペールラベンダー！守りたくなる儚げな透明感を引き出すピュアモテメイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-cool-summer-wave-sakura-pink-lavender-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32186,7 +32186,7 @@
 ### 【アゼライン酸高濃度×ナイアシンアミド配合赤み鎮静美容液10選】酒さ・毛穴の詰まり・小鼻の赤み・繰り返す皮脂トラブルを根本リセット！皮膚科治療レベルのなめらか陶器肌ケア
 - **URL**: https://qualia-navi.vercel.app/articles/art-azelaic-acid-niacinamide-redness-pore-serum-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: スキンケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32195,7 +32195,7 @@
 ### 【超音波ウォーターピーリング×EMS複合美顔器10選】毎秒25,000回振動で黒ずみ角栓を吹き飛ばす！毛穴レス＆表情筋引き締めを叶える最強お風呂場美肌ギア
 - **URL**: https://qualia-navi.vercel.app/articles/art-ultrasonic-water-peeling-ems-pore-scrubber-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: 美容家電
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32204,7 +32204,7 @@
 ### 【高純度ヘマチン×ペプチド配合白髪・頭皮エイジングケア薬用スカルプエッセンス10選】メラニン生成細胞を覚醒させ根本から立ち上がる漆黒の艶髪へ！抜け毛・薄毛・ペタンコ分け目を撃退する育毛美容液
 - **URL**: https://qualia-navi.vercel.app/articles/art-hematin-peptide-gray-hair-scalp-essence-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32213,7 +32213,7 @@
 ### 【イエベ春×骨格ナチュラル専用】コーラルベージュ＆アプリコットテラコッタ！ヘルシーな骨感を活かして垢抜ける大人カジュアル春メイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-warm-spring-natural-coral-apricot-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32222,7 +32222,7 @@
 ### 【ヒト幹細胞エクソソーム×純粋レチノール配合夜用アイクリーム10選】目の下のくぼみ・ちりめん小ジワ・上まぶたのたるみを集中ふっくら！皮膚再生医療着想の目元密着リペア
 - **URL**: https://qualia-navi.vercel.app/articles/art-exosome-pure-retinol-aging-eye-cream-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: スキンケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32231,7 +32231,7 @@
 ### 【高圧ナノバブル美肌シャワーヘッド10選】毛穴より微細な0.001mmウルトラファインバブルで毛穴黒ずみ・頭皮皮脂を水だけで吸着洗浄！節水＆肌水分量UPを両立する最強バスギア
 - **URL**: https://qualia-navi.vercel.app/articles/art-nanobubble-microbubble-beauty-shower-head-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32240,7 +32240,7 @@
 ### 【高濃度ケラチン×エルカラクトン配合ヘアアイロン用ヒートプロテクトミスト10選】200℃の熱をツヤに変えて1日中うねりゼロを形状記憶！雨の日の湿気にも負けないサラツヤストレートキープ
 - **URL**: https://qualia-navi.vercel.app/articles/art-keratin-elcalactone-heat-protect-hair-mist-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32249,7 +32249,7 @@
 ### 【ブルベ冬×骨格ストレート専用】ワインボルドー＆アイシーシルバー！グラマラスな立体美を引き立てる圧倒的美人コントラストメイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-cool-winter-straight-bordeaux-silver-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32258,7 +32258,7 @@
 ### 【サリチル酸×ティーツリー配合薬用ニキビパッチ＆クリアジェル10選】突然の赤ニキビ・黄ニキビを一晩で密閉鎮静！メイクの上から貼れる超極薄ハイドロコロイド速攻ケア
 - **URL**: https://qualia-navi.vercel.app/articles/art-salicylic-acid-teatree-acne-patch-spot-gel-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32267,7 +32267,7 @@
 ### 【超音波トリートメントアイロン10選】毎秒100万回振動でトリートメント分子をナノ化深部浸透！サロン帰りのツヤとまとまりを自宅で再現する防水美髪ギア
 - **URL**: https://qualia-navi.vercel.app/articles/art-ultrasonic-treatment-iron-carepro-type-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32276,7 +32276,7 @@
 ### 【高純度PDRN（サーモンDNA）配合美容液10選】韓国発リジュラン（サーモン注射）着想！細胞レベルで肌密度を再生し毛穴・小ジワ・赤ら顔を立て直す次世代スキンブースター
 - **URL**: https://qualia-navi.vercel.app/articles/art-pdrn-salmon-dna-skin-rejuvenation-serum-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: スキンケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32285,7 +32285,7 @@
 ### 【イエベ秋×骨格ウェーブ専用】シナモンブラウン＆カシスローズ！華奢な上半身に大人の色気を宿すアンニュイフェミニン秋メイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-warm-autumn-wave-cinnamon-cassis-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32294,7 +32294,7 @@
 ### 【ヒト型セラミド5種×高純度ワセリン配合薬用高保湿バーム10選】花粉・激しい乾燥皮むけ・粉吹き・ピリピリ肌荒れを鉄壁シールド！全顔に使える低刺激レスキューバーム
 - **URL**: https://qualia-navi.vercel.app/articles/art-human-ceramide-pure-petrolatum-moisture-balm-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: スキンケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32303,7 +32303,7 @@
 ### 【EMS温感カッサ美顔器10選】顔のコリ・二重あご・エラ張りをグイッと流して瞬間シャープ！筋膜リリースと微弱電流リフトを同時に叶える最新電動カッサギア
 - **URL**: https://qualia-navi.vercel.app/articles/art-ems-thermal-kassa-guasha-facial-device-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: 美容家電
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32312,7 +32312,7 @@
 ### 【高濃度ケラチン原液×ヘマチン配合髪質改善ブースター10選】いつものシャンプー前に塗るだけでサロン級のケラチン架橋！ブリーチ毛・加齢うねり・パサつきを芯から再生する洗い流す集中原液ケア
 - **URL**: https://qualia-navi.vercel.app/articles/art-keratin-hematin-pre-shampoo-booster-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32321,7 +32321,7 @@
 ### 【ブルベ夏×骨格ナチュラル専用】スモーキーモーヴ＆ピンクラベンダー！スタイリッシュな骨感を活かして垢抜ける大人モードフェミニン夏メイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-cool-summer-natural-smoky-mauve-lavender-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32330,7 +32330,7 @@
 ### 【高濃度ガラクトミセス×ナイアシンアミド配合発酵化粧水10選】SK-II発想！くすみ・毛穴の開き・ゴワつきをリセットし内側から発光する水光肌へ導く酵母発酵スキンケア
 - **URL**: https://qualia-navi.vercel.app/articles/art-galactomyces-niacinamide-fermented-toner-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: スキンケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32339,7 +32339,7 @@
 ### 【LED光エステ×高周波RF複合フォトフェイシャルマスク美顔器10選】かぶるだけで全顔ハンズフリー美肌再生！赤色LEDコラーゲン活性＆近赤外線リフトを叶える最新フェイスギア
 - **URL**: https://qualia-navi.vercel.app/articles/art-led-photofacial-mask-rf-beauty-device-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: 美容家電
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32348,7 +32348,7 @@
 ### 【高純度CBD×メントール配合炭酸スカルプクラッキングセラム10選】パチパチ弾ける炭酸泡で頭皮の熱とストレスを瞬間冷却！血流促進・頭皮のベタつき消臭・自律神経リセット
 - **URL**: https://qualia-navi.vercel.app/articles/art-cbd-menthol-crackling-carbonic-scalp-serum-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32357,7 +32357,7 @@
 ### 【イエベ春×骨格ストレート専用】ジューシーピーチ＆シャンパンゴールド！ハリのある上質グラマラスを引き立てる王道多幸感リッチメイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-warm-spring-straight-peach-champagne-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32366,7 +32366,7 @@
 ### 【次世代マイルドピーリングPHA（グルコノラクトン）配合水光美容液10選】AHA・BHAで皮むけした敏感肌でも安心！水分を引き込みながら毛穴詰まり・ゴワつきを溶かす韓国発「水光ピーリング」ケア
 - **URL**: https://qualia-navi.vercel.app/articles/art-pha-gluconolactone-mild-peeling-serum-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: スキンケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32375,7 +32375,7 @@
 ### 【高純度ケラチン×シルク配合酸熱スリーピングヘアマスク10選】寝ている間に集中浸透＆形状記憶！翌朝アイロンを当てるだけでサラサラ真っ直ぐなストレートが完成する夜用髪質改善パック
 - **URL**: https://qualia-navi.vercel.app/articles/art-keratin-silk-acid-heat-sleeping-hair-mask-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32384,7 +32384,7 @@
 ### 【ブルベ冬×骨格ウェーブ専用】ベリープラム＆アイシーモーブ！華奢な上半身にドラマティックな透明感を宿す大人儚げウィンターメイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-cool-winter-wave-berry-plum-icy-mauve-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32393,7 +32393,7 @@
 ### 【サファイア冷却IPL光美容器10選】痛みゼロでVIO・ヒゲ・全身スベスベ！氷感サファイアクリスタル冷却＆サロン級ハイパワー連射を搭載した最新おうち脱毛ギア
 - **URL**: https://qualia-navi.vercel.app/articles/art-sapphire-cooling-ice-ipl-hair-removal-gear-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32402,7 +32402,7 @@
 ### 【高濃度CICA×パンテノール配合薬用シカクリーム10選】マスク摩擦・日焼け後のほてり・突発的な赤み肌荒れを鉄壁鎮静！水分保持バリアを緊急修復する韓国皮膚科発想レスキュークリーム
 - **URL**: https://qualia-navi.vercel.app/articles/art-cica-panthenol-skin-repair-calming-cream-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: スキンケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32411,7 +32411,7 @@
 ### 【EMSマイクロカレント目元美顔器10選】眼輪筋のコリと衰えを電気刺激でダイレクトトレーニング！スマホ老眼・まぶたのたるみ・目の下のクマをスッキリ解消するウェアラブルアイギア
 - **URL**: https://qualia-navi.vercel.app/articles/art-ems-microcurrent-eye-care-device-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: 美容家電
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32420,7 +32420,7 @@
 ### 【高純度セラミド×ホホバ種子油配合頭皮クレンジングバーム10選】シャンプー前の乾いた頭皮に揉み込んで酸化皮脂をごっそり溶かす！頭皮のニオイ・ベタつき・フケを根本リセットする至高のヘッドスパ
 - **URL**: https://qualia-navi.vercel.app/articles/art-ceramide-jojoba-scalp-cleansing-balm-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: ヘアケア
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 
@@ -32429,7 +32429,7 @@
 ### 【イエベ秋×骨格ナチュラル専用】ディープテラコッタ＆マスタードアンバー！スタイリッシュな骨感を活かす大人モードカジュアル秋メイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-warm-autumn-natural-terracotta-amber-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
-- **Category**: コスメ
+- **Category**: メイクアップ
 - **Rating Score**: 4.8 / 5.0 (検証済)
 - **Reference Price**: 楽天市場最安値比較中
 - **Tags**: 

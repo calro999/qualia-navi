@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-10
-- **Total Articles**: 3616 件の個別詳細レビュー
+- **Total Articles**: 3620 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【グルタチオン配合白玉トーンアップUV下地10選】SPF50+で紫外線遮断＆素肌から透明感発光！くすみを飛ばして夕方まで崩れない最新美白日焼け止めプライマー](https://qualia-navi.vercel.app/articles/art-glutathione-white-tone-up-uv-primer-10sen-2026): ベースメイク・日焼け止め (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【高浸透ケラチン×加水分解シルク配合自爪補強ネイル美容液10選】ジェルネイルで薄くなった爪・二枚爪・縦スジ・割れ爪を芯から再生する深層補修ケア](https://qualia-navi.vercel.app/articles/art-keratin-silk-nail-repair-serum-10sen-2026): ネイルケア (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【塩素除去×ウルトラファインバブル浄水シャワーヘッド10選】水道水の残留塩素を99%カット！アトピー・敏感肌・髪のパサつき・頭皮乾燥を救う最新美肌ギア](https://qualia-navi.vercel.app/articles/art-chlorine-removal-purifying-shower-head-10sen-2026): バスグッズ・美容家電 (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【安定型ハイドロキノン2%〜5%配合スポット集中美白クリーム10選】頑固な濃いシミ・肝斑・ニキビ跡の色素沈着を漂白！皮膚科処方発想の夜用ピンポイントリペア](https://qualia-navi.vercel.app/articles/art-hydroquinone-spot-cream-10sen-2026): スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【頭皮・前髪用ポンポンパウダー10選】夕方の束感前髪・ペタンコ頭皮・皮脂のニオイを秒速リセット！ふんわりサラサラが復活する携帯スカルプパウダー](https://qualia-navi.vercel.app/articles/art-scalp-bangs-oil-control-hair-powder-10sen-2026): ヘアケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【高濃度塩化マグネシウムオイルスプレー10選】肩こり・脚のむくみ・こむら返り・眼精疲労を救う！皮膚から直接吸収する経皮マグネシウム補給法](https://qualia-navi.vercel.app/articles/art-transdermal-magnesium-oil-spray-10sen-2026): ボディケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【韓国エステ級モデリングマスク10選】珪藻土×アルギン酸が肌に完全密着！毛穴引き締め・圧倒的水分爆弾を届ける自宅サロン用ゴムパック](https://qualia-navi.vercel.app/articles/art-korean-modeling-pack-alginate-rubber-mask-10sen-2026): スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【高濃度コウジ酸配合薬用美白美容液10選】メラニン生成酵素チロシナーゼを根元封鎖！頑固な年齢シミ・黄ぐすみ・肝斑を集中分解する透明感セラム徹底比較](https://qualia-navi.vercel.app/articles/art-kojic-acid-whitening-spot-clarifying-serum-10sen-2026): skincare (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【イエベ春×骨格ナチュラル専用コスメ10選】フレッシュアプリコット＆ピスタチオゴールド！こなれカジュアルを格上げする抜け感ピュアメイク徹底ガイド](https://qualia-navi.vercel.app/articles/art-warm-spring-natural-apricot-pistachio-makeup-10sen-2026): makeup (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【白髪ケア頭皮用美容液10選】メラノサイトを再活性化して白髪の発生を根本ブロック！染めずに黒髪を取り戻す最新スカルプエッセンス徹底比較](https://qualia-navi.vercel.app/articles/art-gray-hair-darkenyl-hematin-scalp-lotion-10sen-2026): haircare (評価: ★4.8 / 監修: 篠原 玲奈)
-- [【温熱ネックマッサージャー×高周波EMS首肩ほぐしギア10選】デスクワークの慢性首こり・肩甲骨ガチガチ・ストレートネックを深層温熱ケア！最新首掛けリラクギア徹底比較](https://qualia-navi.vercel.app/articles/art-neck-massager-ems-thermal-stiff-neck-device-10sen-2026): beauty-device (評価: ★4.8 / 監修: 篠原 玲奈)
-- [【高純度PDRN（サーモンDNA）配合美容液10選】美容医療リジュランの驚異を自宅で再現！萎んだ毛穴・ニキビ跡・小ジワを細胞レベルで再構築する皮膚再生ブースター徹底比較](https://qualia-navi.vercel.app/articles/art-pdrn-salmon-dna-cica-repair-serum-10sen-2026): skincare (評価: ★4.8 / 監修: 篠原 玲奈)
-- [【イエベ秋×骨格ウェーブ専用コスメ10選】アプリコットベージュ＆メープルローズ！ソフトな曲線美を活かす温もり多幸感ナチュラルメイク徹底ガイド](https://qualia-navi.vercel.app/articles/art-warm-autumn-wave-apricot-maple-makeup-10sen-2026): makeup (評価: ★4.8 / 監修: 篠原 玲奈)
-- [【炭酸濃度10,000ppm超！高濃度炭酸濃密泡スカルプシャンプー10選】毛穴に詰まった酸化皮脂臭・フケ・ベタつきを高圧オフ！自宅ヘッドスパ頭皮デトックス比較](https://qualia-navi.vercel.app/articles/art-carbonated-scalp-shampoo-dense-foam-10sen-2026): haircare (評価: ★4.8 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3616件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3620件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

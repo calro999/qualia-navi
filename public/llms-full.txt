@@ -78,7 +78,7 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3531 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3535 Product Reviews)
 
 ### 【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証
 - **URL**: https://qualia-navi.vercel.app/articles/autodiscover-shiseido
@@ -31852,6 +31852,42 @@
 
 ### 【イエベ秋×骨格ウェーブ専用】シナモンブラウン＆カシスローズ！華奢な上半身に大人の色気を宿すアンニュイフェミニン秋メイク10選
 - **URL**: https://qualia-navi.vercel.app/articles/art-warm-autumn-wave-cinnamon-cassis-makeup-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: コスメ
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。...
+
+### 【ヒト型セラミド5種×高純度ワセリン配合薬用高保湿バーム10選】花粉・激しい乾燥皮むけ・粉吹き・ピリピリ肌荒れを鉄壁シールド！全顔に使える低刺激レスキューバーム
+- **URL**: https://qualia-navi.vercel.app/articles/art-human-ceramide-pure-petrolatum-moisture-balm-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: コスメ
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。...
+
+### 【EMS温感カッサ美顔器10選】顔のコリ・二重あご・エラ張りをグイッと流して瞬間シャープ！筋膜リリースと微弱電流リフトを同時に叶える最新電動カッサギア
+- **URL**: https://qualia-navi.vercel.app/articles/art-ems-thermal-kassa-guasha-facial-device-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: コスメ
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。...
+
+### 【高濃度ケラチン原液×ヘマチン配合髪質改善ブースター10選】いつものシャンプー前に塗るだけでサロン級のケラチン架橋！ブリーチ毛・加齢うねり・パサつきを芯から再生する洗い流す集中原液ケア
+- **URL**: https://qualia-navi.vercel.app/articles/art-keratin-hematin-pre-shampoo-booster-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: コスメ
+- **Rating Score**: 4.8 / 5.0 (検証済)
+- **Reference Price**: 楽天市場最安値比較中
+- **Tags**: 
+- **Summary**: 30日間の実測使用レビューと効果成分の検証ガイド。...
+
+### 【ブルベ夏×骨格ナチュラル専用】スモーキーモーヴ＆ピンクラベンダー！スタイリッシュな骨感を活かして垢抜ける大人モードフェミニン夏メイク10選
+- **URL**: https://qualia-navi.vercel.app/articles/art-cool-summer-natural-smoky-mauve-lavender-makeup-10sen-2026
 - **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
 - **Category**: コスメ
 - **Rating Score**: 4.8 / 5.0 (検証済)

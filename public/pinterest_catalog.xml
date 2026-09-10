@@ -6,6 +6,45 @@
 <description>Qualia Navi - トレンドコスメ・美容アイテムの公式トレンドガイドカタログ</description>
 
 <item>
+  <g:id>autodiscover-shiseido</g:id>
+  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
+  <g:price>7590 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-takami</g:id>
+  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/articles/autodiscover-takami</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
+  <g:price>5500 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
+  <g:id>autodiscover-dior</g:id>
+  <title>Dior ディオール アディクト リップ マキシマイザー</title>
+  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
+  <link>https://qualia-navi.vercel.app/articles/autodiscover-dior</link>
+  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
+  <g:price>4620 JPY</g:price>
+  <g:availability>in_stock</g:availability>
+  <g:condition>new</g:condition>
+  <g:brand>MAKEUP</g:brand>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
+  <g:product_type>コスメ &gt; makeup</g:product_type>
+</item>
+<item>
   <g:id>art-rakuten-lancome-genifique</g:id>
   <title>ランコム ジェニフィック</title>
   <description>福岡市天神・博多エリア（美容感度抜群・美肌菌バリアケア注目地）の美意識の高い層や美容感度トップのユーザーの間で熱烈な支持を集める「ランコム ジェニフィック」。楽天市場のランコム 公式ショップにおける最新価格（12,430円 (税込)）やポイント還元、リアルな肌変化、AI即答サマリーに対応した徹底解説をお届けします。</description>
@@ -82,45 +121,6 @@
   <g:brand>SKINCARE</g:brand>
   <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
   <g:product_type>コスメ &gt; skincare</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
-  <link>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
-  <link>https://qualia-navi.vercel.app/articles/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
-  <link>https://qualia-navi.vercel.app/articles/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
 </item>
 <item>
   <g:id>art-cool-winter-cool-icy-silver-makeup-10sen-2026</g:id>
@@ -305,45 +305,6 @@ Tゾーンや小鼻がギトギトにテカるのに頬は突っ張るインナ�
   <g:brand>コスメ・スキンケア</g:brand>
   <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
   <g:product_type>コスメ &gt; コスメ・スキンケア</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-shiseido</g:id>
-  <title>SHISEIDO エッセンス スキングロウ ファンデーション</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「SHISEIDO エッセンス スキングロウ ファンデーション」のリアルな評価と最安値をレビュー。</description>
-  <link>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg</g:image_link>
-  <g:price>7590 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-takami</g:id>
-  <title>TAKAMI タカミスキンピール 角質美容水 30mL</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「TAKAMI タカミスキンピール 角質美容水 30mL」のリアルな評価と最安値をレビュー。</description>
-  <link>https://qualia-navi.vercel.app/articles/autodiscover-takami</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/vt_reedle_shot_100.jpg</g:image_link>
-  <g:price>5500 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
-</item>
-<item>
-  <g:id>autodiscover-dior</g:id>
-  <title>Dior ディオール アディクト リップ マキシマイザー</title>
-  <description>コスメ好きの間で空前の大ヒット！いま大注目のバズコスメ「Dior ディオール アディクト リップ マキシマイザー」のリアルな評価と最安値をレビュー。</description>
-  <link>https://qualia-navi.vercel.app/articles/autodiscover-dior</link>
-  <g:image_link>https://qualia-navi.vercel.app/images/products/melty-lip.jpg</g:image_link>
-  <g:price>4620 JPY</g:price>
-  <g:availability>in_stock</g:availability>
-  <g:condition>new</g:condition>
-  <g:brand>MAKEUP</g:brand>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics</g:google_product_category>
-  <g:product_type>コスメ &gt; makeup</g:product_type>
 </item>
 <item>
   <g:id>art-cool-summer-fresh-icy-blue-makeup-10sen-2026</g:id>

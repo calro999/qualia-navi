@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-10
-- **Total Articles**: 3511 件の個別詳細レビュー
+- **Total Articles**: 3515 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -81,7 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [紫外線サビ肌を即効リセット！肌寿命延伸エイジングケア！レスベラトロール×赤ワインポリフェノール美容液おすすめ10選](https://qualia-navi.vercel.app/articles/art-resveratrol-polyphenol-antioxidant-serum-10sen-2026): 美容液 (評価: ★4.8 / 監修: 篠原 玲奈)
 - [ラベンダーローズ＆ソフトワイン！上品華やかメイク！【ブルベ夏×顔タイプエレガント】おすすめコスメ10選](https://qualia-navi.vercel.app/articles/art-cool-summer-elegant-face-lavender-rose-makeup-10sen-2026): メイクアップ (評価: ★4.8 / 監修: 篠原 玲奈)
 - [ぽっこりお腹・二の腕・太もものセルライトを温熱撃退！自宅エステ級ボディメイク！キャビテーション×ラジオ波×EMS複合家庭用痩身美顔器おすすめ10選](https://qualia-navi.vercel.app/articles/art-cavitation-rf-ems-body-slimming-device-10sen-2026): 美容家電 (評価: ★4.8 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3511件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3515件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

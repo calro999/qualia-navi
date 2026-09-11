@@ -78,7 +78,43 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3619 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3623 Product Reviews)
+
+### 【足裏樹液シート＆竹酢・木酢デトックスパッチ10選】貼って寝るだけで翌朝ドロドロ余剰水分スッキリ！立ち仕事・夕方のパンパン脚を癒すフットパッチ比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-foot-sap-sheet-bamboo-vinegar-detox-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: ボディケア
+- **Rating Score**: 4.29 / 5.0 (検証済)
+- **Reference Price**: ¥1,000円
+- **Tags**: 
+- **Summary**: 立ち仕事や長時間のデスクワークで夕方パンパンにむくむ脚に、貼って寝るだけの「足裏樹液シート」おすすめ10選！天然竹酢液・木酢液・遠赤外線パウダーが寝ている間に足裏の汗・余剰水分をしっかり吸収し、翌朝足が羽のように軽くなる人気ケアを徹底検証。...
+
+### 【耳つぼジュエリー＆チタン粒シール10選】貼るだけでピアス見えしながらフェイスリフト＆食欲コントロール！テレビ紹介で大バズりの耳つぼ温活ダイエットシール比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-ear-acupressure-jewelry-auriculotherapy-stickers-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: ボディケア
+- **Rating Score**: 4.59 / 5.0 (検証済)
+- **Reference Price**: ¥780円
+- **Tags**: 
+- **Summary**: めざましテレビなどメディアで話題沸騰の「耳つぼジュエリー＆耳つぼシール」おすすめ10選！スワロフスキー風の上品な輝きでピアスのように楽しみながら、チタン粒や金粒のツボ刺激でフェイスラインの引き締めや自律神経・食欲抑制をサポートする最新イヤーセラピー。...
+
+### 【まつげパーマ・マツエク専用カールキープコーティング剤10選】サロン帰りの上向き束感を夕方まで完全ロック！皮脂・摩擦から守り持ちを2倍にする神エッセンス比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-lash-perm-curl-up-coating-essence-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: メイクアップ
+- **Rating Score**: 4.61 / 5.0 (検証済)
+- **Reference Price**: ¥2,980円
+- **Tags**: 
+- **Summary**: まつ毛パーマ（ラッシュリフト）やマツエクの持ちを劇的に伸ばす「まつ毛コーティング美容液」おすすめ10選！トレンドのアイドル級「束感まつ毛」をひと塗りで演出しながら、乾燥・寝相の摩擦・皮脂からまつ毛をガードする実力派サロン専売品を徹底検証。...
+
+### 【充電式エアーアイウォーマー＆ホットアイマスク10選】PC・スマホの眼精疲労を一撃リフレッシュ！温熱×空気圧マッサージ×Bluetooth音楽で極上安眠へ誘う目元ギア比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-rechargeable-eye-warmer-massager-air-heat-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: 美容家電・エチケットギア
+- **Rating Score**: 4.54 / 5.0 (検証済)
+- **Reference Price**: ¥9,980円
+- **Tags**: 
+- **Summary**: 毎日のデスクワークやスマホのブルーライトで酷使した目元をじんわり癒す「充電式ホットアイウォーマー」厳選10選！使い捨てアイマスクにはない包み込む温熱・エア加圧マッサージ・Bluetoothヒーリング音楽機能を備えた人気モデル（ラルーナ等）を徹底比較。...
 
 ### 【高密度デンタルフロス＆フロアフロス10選】歯ブラシでは届かない歯間プラークをごっそり絡め取る！唾液で広がる痛くないイタリア製エキスパンド糸フロス比較
 - **URL**: https://qualia-navi.vercel.app/articles/art-high-density-dental-floss-fluorfloss-10sen-2026

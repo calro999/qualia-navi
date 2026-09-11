@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-11
-- **Total Articles**: 3651 件の個別詳細レビュー
+- **Total Articles**: 3655 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【水で貼るだけ眉毛タトゥーシール＆6Dリアル眉ステッカー10選】汗・皮脂・擦れでも最長1週間消えない！自眉のような立体毛並みを再現する時短アートメイクシール比較](https://qualia-navi.vercel.app/articles/art-water-transfer-eyebrow-tattoo-sticker-10sen-2026): メイクアップ (評価: ★4.19 / 監修: 篠原 玲奈)
+- [【部分用ポイントつけまつげ＆のり不要ワンホン束感マツエク10選】自まつ毛の隙間に数束足すだけで劇的デカ目！ピンセット不要で1秒装着できる韓国アイドルまつ毛比較](https://qualia-navi.vercel.app/articles/art-individual-cluster-false-eyelashes-glue-free-10sen-2026): メイクアップ (評価: ★4.44 / 監修: 篠原 玲奈)
+- [【お出かけ前1分！白髪リタッチスティック＆部分用白髪隠し10選】生え際・分け目のキラッと光る白髪をサッと隠す！手や頭皮を汚さずゴワつかない速乾カバー比較](https://qualia-navi.vercel.app/articles/art-quick-gray-hair-retouch-stick-mascara-cover-10sen-2026): ヘアケア・白髪染め (評価: ★3.82 / 監修: 篠原 玲奈)
+- [【ドライヤー時間を半減！超吸水ヘアドライタオル10選】綿タオルの5倍吸水！ゴシゴシ擦らず巻くだけで熱ダメージを防ぎ美髪を守る速乾マイクロファイバー比較](https://qualia-navi.vercel.app/articles/art-ultra-absorbent-quick-dry-hair-towel-wrap-10sen-2026): ヘアケア (評価: ★4.38 / 監修: 篠原 玲奈)
 - [【まつげパーマ用シリコンロット＆立ち上げラッシュリフト10選】根元からグッと立ち上げてまぶたを重く見せない！サロン専売級セルフまつパ用ロッド徹底比較](https://qualia-navi.vercel.app/articles/art-eyelash-perm-silicone-rods-lift-curler-10sen-2026): メイクアップ (評価: ★4.22 / 監修: 篠原 玲奈)
 - [【天然無添加シアバター100%バーム＆高保湿オーガニック10選】手のひらの体温でとろける！指先・リップ・かかと・パサつく毛先まで全身守る万能保湿ケア比較](https://qualia-navi.vercel.app/articles/art-pure-unrefined-shea-butter-organic-balm-10sen-2026): ボディケア (評価: ★4.5 / 監修: 篠原 玲奈)
 - [【大人の超自然ナチュラルつけまつげ10選】つけているのがバレない極細透明軸！自まつ毛に溶け込んでマツエク級の上品な目元をつくる人気アイラッシュ比較](https://qualia-navi.vercel.app/articles/art-natural-false-eyelashes-transparent-band-10sen-2026): メイクアップ (評価: ★4.72 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【コードレス口腔洗浄器＆ウォーターフロス10選】強力ジェット水流で歯周ポケット・歯間・矯正器具の汚れを完全洗浄！お風呂で使える防水オーラルケア徹底比較](https://qualia-navi.vercel.app/articles/art-cordless-water-flosser-jet-washer-portable-10sen-2026): オーラルケア (評価: ★4.37 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3651件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3655件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-11
-- **Total Articles**: 3667 件の個別詳細レビュー
+- **Total Articles**: 3671 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【高濃度塩化マグネシウム入浴剤・バスフレーク10選】にがり温泉で芯から温活！筋肉疲労・肩こり・睡眠の質を高める経皮マグネシウム入浴料比較](https://qualia-navi.vercel.app/articles/art-magnesium-chloride-bath-flakes-relax-10sen-2026): ボディケア (評価: ★4.83 / 監修: 篠原 玲奈)
+- [【水なしメイクブラシクリーナースポンジ10選】くるくる撫でるだけで3秒色落ち！アイシャドウの混色を防ぎブラシを傷めず清潔キープするドライスポンジ比較](https://qualia-navi.vercel.app/articles/art-dry-makeup-brush-cleaner-sponge-10sen-2026): メイクアップ (評価: ★4.21 / 監修: 篠原 玲奈)
+- [【濡れツヤ生ハイライトパウダー10選】粉っぽさゼロで内側から発光する水光肌！毛穴落ちせず立体的な透明感と艶を宿す微細パールハイライター比較](https://qualia-navi.vercel.app/articles/art-dewy-wet-glow-powder-highlighter-10sen-2026): メイクアップ (評価: ★4.44 / 監修: 篠原 玲奈)
+- [【防音・安眠イヤーマフ＆快眠耳栓10選】横向き寝でも耳が痛くならない！家族のいびき・生活騒音・外部の音を遮断して朝まで熟睡できる睡眠グッズ比較](https://qualia-navi.vercel.app/articles/art-soundproof-sleep-earmuffs-ear-warmer-10sen-2026): ヘルスケア (評価: ★4.53 / 監修: 篠原 玲奈)
 - [【濃密泡立て器・マイクロバブルフォーマー10選】あわわ等で生クリーム級のもちもち泡！手洗い洗顔の摩擦ダメージをゼロにして毛穴汚れを吸着オフする人気泡立てグッズ比較](https://qualia-navi.vercel.app/articles/art-microbubble-face-wash-foamer-awa-hour-10sen-2026): スキンケア (評価: ★4.6 / 監修: 篠原 玲奈)
 - [【最高級天然シルク100%シュシュ10選】結び跡がつかない＆摩擦ダメージゼロ！寝ている間もお出かけも美髪を守りツヤを与える大人上品シルクヘアゴム比較](https://qualia-navi.vercel.app/articles/art-pure-silk-scrunchie-hair-damage-prevention-10sen-2026): ヘアケア (評価: ★4.56 / 監修: 篠原 玲奈)
 - [【大人上品バナナクリップ10選】挟むだけで3秒でまとまる美髪オフィスヘア！毛量が多くても崩れないリボン＆シンプル大人可愛いヘアアクセサリー比較](https://qualia-navi.vercel.app/articles/art-volumizing-banana-hair-clip-ribbon-accessory-10sen-2026): ヘアケア (評価: ★4.41 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【高保湿スキンケアバスミルク＆乳白色液体入浴剤10選】お風呂上がりの粉吹き・カサつきゼロへ！全身美容液に浸かるような極上の潤いとミルキーな香りを徹底比較](https://qualia-navi.vercel.app/articles/art-deep-moisture-bath-milk-ceramide-skin-care-10sen-2026): ボディケア (評価: ★4.58 / 監修: 篠原 玲奈)
 - [【足裏樹液シート＆竹酢・木酢デトックスパッチ10選】貼って寝るだけで翌朝ドロドロ余剰水分スッキリ！立ち仕事・夕方のパンパン脚を癒すフットパッチ比較](https://qualia-navi.vercel.app/articles/art-foot-sap-sheet-bamboo-vinegar-detox-10sen-2026): ボディケア (評価: ★4.29 / 監修: 篠原 玲奈)
 - [【耳つぼジュエリー＆チタン粒シール10選】貼るだけでピアス見えしながらフェイスリフト＆食欲コントロール！テレビ紹介で大バズりの耳つぼ温活ダイエットシール比較](https://qualia-navi.vercel.app/articles/art-ear-acupressure-jewelry-auriculotherapy-stickers-10sen-2026): ボディケア (評価: ★4.59 / 監修: 篠原 玲奈)
-- [【まつげパーマ・マツエク専用カールキープコーティング剤10選】サロン帰りの上向き束感を夕方まで完全ロック！皮脂・摩擦から守り持ちを2倍にする神エッセンス比較](https://qualia-navi.vercel.app/articles/art-lash-perm-curl-up-coating-essence-10sen-2026): メイクアップ (評価: ★4.61 / 監修: 篠原 玲奈)
-- [【充電式エアーアイウォーマー＆ホットアイマスク10選】PC・スマホの眼精疲労を一撃リフレッシュ！温熱×空気圧マッサージ×Bluetooth音楽で極上安眠へ誘う目元ギア比較](https://qualia-navi.vercel.app/articles/art-rechargeable-eye-warmer-massager-air-heat-10sen-2026): 美容家電・エチケットギア (評価: ★4.54 / 監修: 篠原 玲奈)
-- [【高密度デンタルフロス＆フロアフロス10選】歯ブラシでは届かない歯間プラークをごっそり絡め取る！唾液で広がる痛くないイタリア製エキスパンド糸フロス比較](https://qualia-navi.vercel.app/articles/art-high-density-dental-floss-fluorfloss-10sen-2026): オーラルケア (評価: ★4.65 / 監修: 篠原 玲奈)
-- [【高濃度ハトムギエキス原液＆ヨクイニン美容液10選】首元・目元のポツポツ角質粒・肌のザラつきを滑らかリセット！漢方由来のターンオーバー正常化ケア徹底比較](https://qualia-navi.vercel.app/articles/art-pure-hatomugi-extract-yokuinin-skin-roughness-10sen-2026): 美容液 (評価: ★4.53 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3667件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3671件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

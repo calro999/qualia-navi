@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-11
-- **Total Articles**: 3659 件の個別詳細レビュー
+- **Total Articles**: 3663 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【高濃度ティーツリー配合鎮静シートマスク10選】大人ニキビ・赤み・マスク荒れをハーブの力で先回り沈静！毛穴を引き締めて皮脂トラブルを防ぐ薬用フェイスパック比較](https://qualia-navi.vercel.app/articles/art-teatree-calming-sheet-mask-acne-pore-care-10sen-2026): スキンケア (評価: ★4.69 / 監修: 篠原 玲奈)
+- [【高吸水マイクロファイバー・タオルキャップ10選】お風呂上がりにかぶるだけで水滴ゼロ！ロングヘアもすっぽり収まりドライヤー時間を半分にする人気ドライキャップ比較](https://qualia-navi.vercel.app/articles/art-microfiber-quick-dry-hair-towel-cap-10sen-2026): ヘアケア (評価: ★4.7 / 監修: 篠原 玲奈)
+- [【本物の金木犀（キンモクセイ）香るヘアオイル10選】秋の街角を歩くような甘く優しい芳香！パサつく毛先をしっとり補修しながら極上のツヤ髪へ導く人気エッセンス比較](https://qualia-navi.vercel.app/articles/art-fragrant-osmanthus-hair-essence-oil-10sen-2026): ヘアケア (評価: ★3.87 / 監修: 篠原 玲奈)
+- [【持ち歩けるデリケートゾーン消臭ミストスプレー10選】生理中やおりものの気になるニオイ・ムレ・不快感を外出先で即リセット！弱酸性フェミニンケア比較](https://qualia-navi.vercel.app/articles/art-feminine-deodorant-mist-spray-sensitive-care-10sen-2026): ボディケア (評価: ★4.81 / 監修: 篠原 玲奈)
 - [【ナノ微粒子フェイススチーマー＆卓上美顔スチーマー10選】クレンジング前に毛穴を開いて角栓・黒ずみを浮かせる！エステ級の深層保湿スチームギア比較](https://qualia-navi.vercel.app/articles/art-nano-mist-facial-steamer-deep-cleansing-pore-care-10sen-2026): 美顔器・美容家電 (評価: ★4.54 / 監修: 篠原 玲奈)
 - [【サロン監修高保湿ネイルオイル＆キューティクル美容液10選】爪周りのカサつき・ささくれ・縦じわを即効リセット！ベタつかずポーチに入れて持ち歩ける人気ケア比較](https://qualia-navi.vercel.app/articles/art-salon-grade-cuticle-nail-oil-pen-serum-10sen-2026): ネイルケア (評価: ★4.68 / 監修: 篠原 玲奈)
 - [【シリコン製足裏フットブラシマット10選】立ったまま擦るだけで足指の隙間・頑固な角質・強烈な足臭を一掃！お風呂で爽快泡立ちフットケアマット比較](https://qualia-navi.vercel.app/articles/art-silicone-foot-scrubber-mat-odor-removal-10sen-2026): ボディケア (評価: ★4.62 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【微弱電流マイクロカレント美顔ローラー10選】充電不要・転がすだけでフェイスラインをギュッと引き締め！むくみ・二重あご・ほうれい線を撃退する極上マッサージギア](https://qualia-navi.vercel.app/articles/art-microcurrent-face-roller-contouring-device-10sen-2026): 美顔器・美容家電 (評価: ★4.48 / 監修: 篠原 玲奈)
 - [【重曹＆クエン酸入浴剤・天然美肌バスソルト10選】自宅で本格炭酸泉！毛穴汚れ・加齢臭・塩素を除去して生まれたて素肌へ導く重炭酸温活ケア](https://qualia-navi.vercel.app/articles/art-baking-soda-citric-acid-carbonated-bath-10sen-2026): ボディケア (評価: ★4.81 / 監修: 篠原 玲奈)
 - [【ナノガラス製爪やすり＆ネイルシャイナー10選】5秒磨くだけでトップコート不要の濡れツヤ！爪を傷めず形を整える半永久ガラス爪磨き徹底比較](https://qualia-navi.vercel.app/articles/art-nano-glass-nail-file-shiner-buffer-10sen-2026): ネイルケア (評価: ★4.53 / 監修: 篠原 玲奈)
-- [【オーガニックよもぎ蒸しパッド＆温座シート10選】下半身の芯からポカポカ温活！冷え・生理痛・更年期の不調をじんわり和らげる骨盤温熱パット比較](https://qualia-navi.vercel.app/articles/art-organic-yomogi-warm-sheet-pad-care-10sen-2026): ボディケア (評価: ★4.36 / 監修: 篠原 玲奈)
-- [【痛くない韓国あかすりタオル＆ボディミトン10選】撫でるだけで角質がごっそり！二の腕・背中のザラつきを一掃してシルク肌をつくる最新垢すり比較](https://qualia-navi.vercel.app/articles/art-korean-exfoliating-bath-towel-glove-10sen-2026): ボディケア (評価: ★4.16 / 監修: 篠原 玲奈)
-- [【薬用ミョウバンスプレー＆消臭ストーン10選】ワキガ・足の強烈なニオイ・汗ジミを根本ブロック！天然アルム石パワーで毛穴を引き締める最強デオドラント](https://qualia-navi.vercel.app/articles/art-medicinal-myoban-deodorant-spray-crystal-10sen-2026): ボディケア (評価: ★3.94 / 監修: 篠原 玲奈)
-- [【高純度天然100%ヒマシ油＆キャスターオイル10選】エドガー・ケイシー温熱湿布から頭皮クレンジング・まつ毛ケアまで！濃密粘度で巡りを整える万能美容オイル](https://qualia-navi.vercel.app/articles/art-organic-pure-castor-oil-hair-scalp-pack-10sen-2026): スキンケア (評価: ★4.59 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3659件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3663件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

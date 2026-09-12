@@ -221,17 +221,19 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
       <div className="py-6 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto space-y-6">
           <button
-            onClick={() => onNavigate('/')}
-            className="flex items-center gap-1.5 text-xs font-bold text-rose-600 hover:text-rose-800 transition"
+            onClick={() => onNavigate(article.id.includes('10sen') || article.title.includes('10選') ? '/features' : '/')}
+            className="flex items-center gap-1.5 text-xs font-bold text-rose-600 hover:text-rose-800 transition cursor-pointer"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span>コスメ一覧へ戻る</span>
+            <span>{article.id.includes('10sen') || article.title.includes('10選') ? '特集記事一覧へ戻る' : 'コスメ図鑑へ戻る'}</span>
           </button>
 
           <article className="qualia-glass-card rounded-3xl p-6 sm:p-10 space-y-8 border border-rose-100">
             {/* Breadcrumb */}
             <nav className="flex items-center gap-2 text-xs sm:text-sm text-slate-500 flex-wrap">
               <button onClick={() => onNavigate('/')} className="hover:text-rose-600 transition">コスメTOP</button>
+              <span>/</span>
+              <button onClick={() => onNavigate('/features')} className="hover:text-rose-600 transition">記事特集</button>
               <span>/</span>
               <span className="text-rose-700 font-bold bg-rose-50 px-2.5 py-0.5 rounded-md text-xs border border-rose-100">
                 {ca.category}

@@ -37,11 +37,11 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
     <div className="py-6 px-4 sm:px-6">
       <div className="max-w-4xl mx-auto space-y-6">
         <button
-          onClick={() => onNavigate('/blogs')}
-          className="flex items-center gap-1.5 text-xs font-bold text-rose-600 hover:text-rose-800 transition"
+          onClick={() => onNavigate('/features')}
+          className="flex items-center gap-1.5 text-xs font-bold text-rose-600 hover:text-rose-800 transition cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>美肌ブログ一覧へ戻る</span>
+          <span>記事特集一覧へ戻る</span>
         </button>
 
         <article className="qualia-glass-card rounded-3xl p-6 sm:p-10 space-y-8 border border-rose-100">
@@ -51,8 +51,8 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
               コスメTOP
             </button>
             <span>/</span>
-            <button onClick={() => onNavigate('/blogs')} className="hover:text-rose-600 transition">
-              ブログ一覧
+            <button onClick={() => onNavigate('/features')} className="hover:text-rose-600 transition">
+              記事特集
             </button>
             <span>/</span>
             <span className="text-slate-800 font-bold truncate max-w-[200px]">

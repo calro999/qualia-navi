@@ -3,14 +3,13 @@ import { RakutenProductArticle } from '../types';
 import { CATEGORIES, INITIAL_COMPARISONS } from '../data';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
-import { Sparkles, ShoppingCart, ExternalLink, Star, Search } from 'lucide-react';
+import { Sparkles, ShoppingCart, ExternalLink, Star, Search, BookMarked, Layers, ArrowRight } from 'lucide-react';
+import { deduplicateArticles, getCleanAffiliateLink } from '../utils/productUtils';
 
 interface ProductListPageProps {
   articles: RakutenProductArticle[];
   onNavigate: (path: string) => void;
 }
-
-import { deduplicateArticles, getCleanAffiliateLink } from '../utils/productUtils';
 
 export function ProductListPage({ articles, onNavigate }: ProductListPageProps) {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -20,8 +19,8 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
 
   useEffect(() => {
     updateSeoGeoMetadata({
-      title: '【2026年最新】Qualia Navi - プチプラ・デパコス・韓国コスメのリアル比較検証',
-      description: '人気コスメ、スキンケア、プチプラ・ドラコス・韓国コスメをQualia美容分析室が実地検証！失敗しないコスメ選びをサポートします。',
+      title: '【2026年最新】注目コスメ図鑑 - プチプラ・デパコス・韓国コスメの実地検証・リアルタイム価格一覧 | Qualia Navi',
+      description: '人気コスメ、スキンケア、デパコス・ドラコス・韓国コスメを網羅したコスメ図鑑。Qualia美容分析室が実地検証したスペックやレビュー、最安値をチェック。',
       urlPath: '/',
       jsonLdSchema: [
         {
@@ -46,13 +45,20 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
     });
   }, []);
 
-  const filteredArticles = useMemo(() => {
-    // 重複商品を統一化（名寄せ）
-    const unique = deduplicateArticles(articles);
+  // 1. コスメ図鑑：特集記事（10選・ブログ等）を除外した「個別コスメアイテム」のみを抽出・名寄せ
+  const encyclopediaArticles = useMemo(() => {
+    const singleOnly = articles.filter(a => 
+      !a.id.includes('10sen') && 
+      !a.title.includes('10選') && 
+      !a.id.startsWith('feat-') && 
+      !a.id.startsWith('blog-')
+    );
+    return deduplicateArticles(singleOnly);
+  }, [articles]);
 
-    const filtered = unique.filter((art) => {
-      const matchCat =
-        selectedCategory === 'all' || art.category === selectedCategory;
+  const filteredArticles = useMemo(() => {
+    return encyclopediaArticles.filter((art) => {
+      const matchCat = selectedCategory === 'all' || art.category === selectedCategory;
       const matchQuery =
         !searchQuery ||
         art.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -60,9 +66,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
         art.introText.toLowerCase().includes(searchQuery.toLowerCase());
       return matchCat && matchQuery;
     });
-
-    return filtered;
-  }, [articles, selectedCategory, searchQuery]);
+  }, [encyclopediaArticles, selectedCategory, searchQuery]);
 
   const displayedComparisons = showAllComparisons ? INITIAL_COMPARISONS : INITIAL_COMPARISONS.slice(0, 4);
   const displayedArticles = filteredArticles.slice(0, visibleProductCount);
@@ -70,21 +74,44 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
 
   return (
     <div className="space-y-10 pb-16">
-      {/* Hero Header Section */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-rose-500 via-rose-600 to-pink-600 text-white p-8 sm:p-10 shadow-lg space-y-3">
+      {/* Hero Header Section - コスメ図鑑としてのデザイン */}
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-rose-500 via-rose-600 to-pink-600 text-white p-8 sm:p-10 shadow-lg space-y-4">
         <div className="relative z-10 max-w-2xl space-y-2">
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-bold">
-            <Sparkles className="w-3.5 h-3.5 text-amber-200" />
-            <span>2026 BEAUTY & COSMETICS TREND NAVI</span>
+            <BookMarked className="w-3.5 h-3.5 text-amber-200" />
+            <span>2026 BEAUTY ENCYCLOPEDIA & CATALOG</span>
           </div>
           <h1 className="text-2xl sm:text-4xl font-extrabold leading-tight tracking-tight font-serif-brand">
-            自分にピッタリが見つかる。<br />プチプラ・デパコス・韓国コスメ徹底比較
+            コスメ図鑑・注目アイテム完全ガイド
           </h1>
           <p className="text-rose-50 text-xs sm:text-sm font-medium leading-relaxed opacity-95">
-            Qualia 美容分析室のコレクター＆編集部が実際に試して比較検証。楽天市場のリアルタイム価格と限定ポイント還元情報をナビゲートします。
+            プチプラ・デパコス・韓国コスメの実力派アイテムを1品ずつプロ目線で徹底解剖。スペック、成分特徴、楽天市場の最新価格やリアルな評判を網羅したコスメデータベースです。
           </p>
         </div>
-        
+
+        {/* 特集記事一覧へのバナー導線 */}
+        <div 
+          onClick={() => onNavigate('/features')}
+          className="relative z-10 bg-white/15 hover:bg-white/25 border border-white/30 rounded-2xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 cursor-pointer transition-all duration-300 group"
+        >
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-white text-rose-600 flex items-center justify-center shrink-0 shadow-sm group-hover:scale-105 transition-transform">
+              <Sparkles className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="text-xs font-black tracking-wide text-amber-200 flex items-center gap-1">
+                <span>NEW FEATURE</span>
+              </div>
+              <p className="text-sm font-bold text-white leading-tight">
+                「人気10選」「悩み別比較」など読み応え抜群の特集記事ギャラリーはこちら
+              </p>
+            </div>
+          </div>
+          <div className="flex items-center gap-1.5 text-xs font-black text-white bg-white/20 px-4 py-2 rounded-xl group-hover:bg-white group-hover:text-rose-600 transition-colors shrink-0">
+            <span>特集記事一覧を見る</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </div>
+        </div>
       </div>
 
       {/* VS Comparison Featured Grid */}
@@ -122,7 +149,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           <div className="flex justify-center pt-2">
             <button
               onClick={() => setShowAllComparisons(true)}
-              className="px-6 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold rounded-full transition-colors flex items-center gap-2"
+              className="px-6 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold rounded-full transition-colors flex items-center gap-2 cursor-pointer"
             >
               ＋ 他の比較を見る
             </button>
@@ -138,7 +165,10 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
             {CATEGORIES.map((cat) => (
               <button
                 key={cat.id}
-                onClick={() => setSelectedCategory(cat.slug)}
+                onClick={() => {
+                  setSelectedCategory(cat.slug);
+                  setVisibleProductCount(12);
+                }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
                   selectedCategory === cat.slug
                     ? 'gold-btn'
@@ -155,7 +185,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
             <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="コスメ名・キーワード検索..."
+              placeholder="コスメ名・ブランド検索..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-9 pr-4 py-2 bg-slate-50 border border-rose-200 rounded-xl text-xs sm:text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-400 transition"
@@ -179,7 +209,15 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
         )}
       </div>
 
-      {/* Product Grid */}
+      {/* Encyclopedia Section Header */}
+      <div className="flex items-center justify-between border-l-4 border-rose-500 pl-4">
+        <h2 className="text-lg sm:text-xl font-bold font-serif-brand text-slate-900 flex items-center gap-2">
+          <Layers className="w-5 h-5 text-rose-600" />
+          <span>注目コスメ図鑑（全{filteredArticles.length}アイテム）</span>
+        </h2>
+      </div>
+
+      {/* Product Grid - コスメ図鑑カード */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {displayedArticles.map((art) => (
           <div
@@ -188,7 +226,7 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           >
             {/* Product Image & Badges */}
             <div 
-              className="relative aspect-[4/3] bg-gradient-to-br from-slate-50 via-rose-50/20 to-pink-50/30 p-4 flex items-center justify-center overflow-hidden cursor-pointer border-b border-rose-100"
+              className="relative aspect-square bg-gradient-to-br from-slate-50 via-rose-50/20 to-pink-50/30 p-6 flex items-center justify-center overflow-hidden cursor-pointer border-b border-rose-100"
               onClick={() => onNavigate(`/articles/${art.id}`)}
             >
               <img
@@ -238,15 +276,15 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
               <div className="pt-4 border-t border-slate-100 space-y-3">
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-slate-500 font-medium">楽天市場最安値参考:</span>
-                  <span className="font-extrabold text-rose-600 text-sm">{art.rakutenPrice}</span>
+                  <span className="font-extrabold text-rose-600 text-sm">{art.rakutenPrice || '価格要確認'}</span>
                 </div>
 
                 <div className="grid grid-cols-2 gap-2">
                   <button
                     onClick={() => onNavigate(`/articles/${art.id}`)}
-                    className="py-2.5 px-3 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs rounded-xl border border-slate-200 transition text-center"
+                    className="py-2.5 px-3 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs rounded-xl border border-slate-200 transition text-center cursor-pointer"
                   >
-                    詳細レビュー
+                    図鑑詳細を見る
                   </button>
                   <a
                     href={getCleanAffiliateLink(art)}
@@ -270,10 +308,10 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
         <div className="flex justify-center pt-8">
           <button
             onClick={() => setVisibleProductCount((prev) => prev + 12)}
-            className="px-8 py-3 bg-white border border-rose-200 hover:border-rose-400 text-rose-600 font-bold rounded-full shadow-sm hover:shadow transition-all flex items-center gap-2"
+            className="px-8 py-3 bg-white border border-rose-200 hover:border-rose-400 text-rose-600 font-bold rounded-full shadow-sm hover:shadow transition-all flex items-center gap-2 cursor-pointer"
           >
             <span className="text-lg">＋</span>
-            <span>さらに読み込む</span>
+            <span>コスメ図鑑の続きを読み込む</span>
           </button>
         </div>
       )}

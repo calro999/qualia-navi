@@ -54,7 +54,7 @@ export default function App() {
     }
 
     if (currentPath === '/features') {
-      return <FeatureListPage onNavigate={navigateTo} />;
+      return <FeatureListPage articles={articles} onNavigate={navigateTo} />;
     }
 
     if (currentPath.startsWith('/features/')) {

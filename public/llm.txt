@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-12
-- **Total Articles**: 3710 件の個別詳細レビュー
+- **Total Articles**: 3714 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【首のシワ・たるみ改善ネッククリーム10選】スマホ首や年齢サインに！ナイアシンアミド＆レチノール配合でデコルテまでハリを与える人気首元ケア比較](https://qualia-navi.vercel.app/articles/art-neck-wrinkle-care-cream-stick-firming-10sen-2026): スキンケア (評価: ★4.38 / 監修: 篠原 玲奈)
+- [【プロ仕様キューティクルニッパー＆甘皮処理セット10選】ささくれ・硬い角質を痛くなく精密カット！サロン帰りの美しい自爪を作る人気ネイルニッパー比較](https://qualia-navi.vercel.app/articles/art-cuticle-nipper-nail-care-set-stainless-10sen-2026): ネイルケア (評価: ★4.66 / 監修: 篠原 玲奈)
+- [【使い捨てヘアカラー用イヤーキャップ10選】白髪染め・セルフカラーの耳汚れを完全防止！シャワーやパーマ時にも役立つ防水耳カバー比較](https://qualia-navi.vercel.app/articles/art-disposable-hair-color-ear-caps-protective-10sen-2026): ヘアケア (評価: ★4.5 / 監修: 篠原 玲奈)
+- [【ゾクゾク快感ワイヤーヘッドスパ10選】かぶせるだけで全身鳥肌のリフレッシュ！頭皮のツボを刺激して眼精疲労＆ストレスをほぐす人気頭皮マッサージャー比較](https://qualia-navi.vercel.app/articles/art-head-spa-wire-octopus-massager-relax-10sen-2026): リラクゼーション (評価: ★3.33 / 監修: 篠原 玲奈)
 - [【完全防水・吸盤付きバスピロー10選】お風呂のフチが痛くならない！首・肩こりをほぐして極上の半身浴タイムを叶える人気お風呂枕比較](https://qualia-navi.vercel.app/articles/art-waterproof-bath-pillow-neck-rest-10sen-2026): バスグッズ (評価: ★4.11 / 監修: 篠原 玲奈)
 - [【ナノガラス製かかとやすり・角質削り10選】撫でるだけで赤ちゃんのようなつるすべ素足！削り粉が散らず皮膚を痛めない人気ガラスヤスリ比較](https://qualia-navi.vercel.app/articles/art-nano-glass-foot-callus-remover-10sen-2026): ボディケア (評価: ★4.71 / 監修: 篠原 玲奈)
 - [【折りたたみ式シリコン足湯バケツ10選】深型＆保温で足先からポカポカ！使わない時は数センチの隙間にすっきり収納できる人気フットバス比較](https://qualia-navi.vercel.app/articles/art-foldable-silicone-foot-bath-basin-10sen-2026): ヘルスケア (評価: ★4.26 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【濃密泡立て器・マイクロバブルフォーマー10選】あわわ等で生クリーム級のもちもち泡！手洗い洗顔の摩擦ダメージをゼロにして毛穴汚れを吸着オフする人気泡立てグッズ比較](https://qualia-navi.vercel.app/articles/art-microbubble-face-wash-foamer-awa-hour-10sen-2026): スキンケア (評価: ★4.6 / 監修: 篠原 玲奈)
 - [【最高級天然シルク100%シュシュ10選】結び跡がつかない＆摩擦ダメージゼロ！寝ている間もお出かけも美髪を守りツヤを与える大人上品シルクヘアゴム比較](https://qualia-navi.vercel.app/articles/art-pure-silk-scrunchie-hair-damage-prevention-10sen-2026): ヘアケア (評価: ★4.56 / 監修: 篠原 玲奈)
 - [【大人上品バナナクリップ10選】挟むだけで3秒でまとまる美髪オフィスヘア！毛量が多くても崩れないリボン＆シンプル大人可愛いヘアアクセサリー比較](https://qualia-navi.vercel.app/articles/art-volumizing-banana-hair-clip-ribbon-accessory-10sen-2026): ヘアケア (評価: ★4.41 / 監修: 篠原 玲奈)
-- [【濡れ髪専用デタングリングブラシ10選】お風呂上がり・トリートメント時に絡まりを一瞬でほどく！タングルティーザー等傷んだ毛先も引っかからない人気ヘアブラシ比較](https://qualia-navi.vercel.app/articles/art-detangling-wet-hair-brush-tangle-teezer-10sen-2026): ヘアケア (評価: ★4.53 / 監修: 篠原 玲奈)
-- [【高濃度ティーツリー配合鎮静シートマスク10選】大人ニキビ・赤み・マスク荒れをハーブの力で先回り沈静！毛穴を引き締めて皮脂トラブルを防ぐ薬用フェイスパック比較](https://qualia-navi.vercel.app/articles/art-teatree-calming-sheet-mask-acne-pore-care-10sen-2026): スキンケア (評価: ★4.69 / 監修: 篠原 玲奈)
-- [【高吸水マイクロファイバー・タオルキャップ10選】お風呂上がりにかぶるだけで水滴ゼロ！ロングヘアもすっぽり収まりドライヤー時間を半分にする人気ドライキャップ比較](https://qualia-navi.vercel.app/articles/art-microfiber-quick-dry-hair-towel-cap-10sen-2026): ヘアケア (評価: ★4.7 / 監修: 篠原 玲奈)
-- [【本物の金木犀（キンモクセイ）香るヘアオイル10選】秋の街角を歩くような甘く優しい芳香！パサつく毛先をしっとり補修しながら極上のツヤ髪へ導く人気エッセンス比較](https://qualia-navi.vercel.app/articles/art-fragrant-osmanthus-hair-essence-oil-10sen-2026): ヘアケア (評価: ★3.87 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3710件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3714件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

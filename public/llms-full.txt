@@ -78,7 +78,43 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 3735 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 3739 Product Reviews)
+
+### 【純銅＆ステンレス製舌スクレーパー10選】撫でるだけで白い舌苔をごっそり除去！味蕾を傷つけず朝の口臭を根本リセットする人気舌クリーナー比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-tongue-scraper-pure-copper-stainless-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: オーラルケア
+- **Rating Score**: 4.56 / 5.0 (検証済)
+- **Reference Price**: ¥550円
+- **Tags**: 
+- **Summary**: 歯ブラシで舌をゴシゴシ擦って味覚や粘膜を傷つけるのはNG！インド伝統アーユルヴェーダ発想の「純銅＆医療用ステンレス製舌スクレーパー（タンスクレーパー）」おすすめ10選！朝起きてすぐに数秒撫でるだけで、口臭の原因菌と舌苔を優しくかき出す大ヒット器具を徹底比較。...
+
+### 【ハイドロコロイド極薄密着ニキビパッチ10選】メイクの上から目立たない！滲出液を吸水して早く治しCICA＆ティーツリーで鎮静する人気スポットパッチ比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-hydrocolloid-invisible-pimple-patch-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: スキンケア
+- **Rating Score**: 4.51 / 5.0 (検証済)
+- **Reference Price**: ¥880円
+- **Tags**: 
+- **Summary**: できたての赤ニキビや潰れかけのニキビを外部刺激から守り、滲出液を吸収してスピーディーに鎮静化する「ハイドロコロイドニキビパッチ」おすすめ10選！上からファンデーションを重ねてもフチが目立たない0.01mm極薄マットフィルムやVT CICA配合の人気パッチを徹底解説。...
+
+### 【高純度レチノール配合ボディミルク＆クリーム10選】二の腕・デコルテ・お尻のザラつきを集中ケア！全身のハリツヤ弾力を取り戻す人気エイジングボディケア比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-retinol-body-milk-lotion-firming-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: ボディケア
+- **Rating Score**: 4.35 / 5.0 (検証済)
+- **Reference Price**: ¥2,401円
+- **Tags**: 
+- **Summary**: フェイスケアの主役「レチノール」を全身に惜しみなくチャージ！二の腕やお尻のザラつき、首元・デコルテの小じわやハリ不足をなめらかに整える「レチノール配合ボディクリーム（ボディローション）」おすすめ10選！iHerbやSNSで爆発的人気のアドバンスドクリニカルズ等を徹底検証。...
+
+### 【二の腕のブツブツ対策・薬用石鹸＆クリーム10選】毛孔性苔癬のサメ肌・赤いザラつきを根本洗浄！重曹＆尿素で角質を柔らかくほぐす人気ボディソープ比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-keratosis-pilaris-urea-body-soap-10sen-2026
+- **Author/Reviewer**: 篠原 玲奈 (コスメ専門エディター)
+- **Category**: ボディケア
+- **Rating Score**: 4.53 / 5.0 (検証済)
+- **Reference Price**: ¥535円
+- **Tags**: 
+- **Summary**: ノースリーブや水着を着るのを諦めていた「二の腕の赤いブツブツ・サメ肌（毛孔性苔癬）」を優しく洗い流す「二の腕用角質ケア石鹸＆尿素クリーム」おすすめ10選！ペリカン石鹸の重曹せっけんをはじめ、毛穴に詰まった硬い角栓を溶かしてつるつる素肌へ導く人気アイテムを徹底解説。...
 
 ### 【衝撃吸収・アーチサポート機能性インソール10選】立ち仕事・偏平足・足底腱膜の痛みを軽減！靴に入れるだけで疲労を劇的に減らす人気中敷き比較
 - **URL**: https://qualia-navi.vercel.app/articles/art-shock-absorbing-arch-support-insole-10sen-2026

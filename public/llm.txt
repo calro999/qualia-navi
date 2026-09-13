@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-13
-- **Total Articles**: 3735 件の個別詳細レビュー
+- **Total Articles**: 3739 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【純銅＆ステンレス製舌スクレーパー10選】撫でるだけで白い舌苔をごっそり除去！味蕾を傷つけず朝の口臭を根本リセットする人気舌クリーナー比較](https://qualia-navi.vercel.app/articles/art-tongue-scraper-pure-copper-stainless-10sen-2026): オーラルケア (評価: ★4.56 / 監修: 篠原 玲奈)
+- [【ハイドロコロイド極薄密着ニキビパッチ10選】メイクの上から目立たない！滲出液を吸水して早く治しCICA＆ティーツリーで鎮静する人気スポットパッチ比較](https://qualia-navi.vercel.app/articles/art-hydrocolloid-invisible-pimple-patch-10sen-2026): スキンケア (評価: ★4.51 / 監修: 篠原 玲奈)
+- [【高純度レチノール配合ボディミルク＆クリーム10選】二の腕・デコルテ・お尻のザラつきを集中ケア！全身のハリツヤ弾力を取り戻す人気エイジングボディケア比較](https://qualia-navi.vercel.app/articles/art-retinol-body-milk-lotion-firming-10sen-2026): ボディケア (評価: ★4.35 / 監修: 篠原 玲奈)
+- [【二の腕のブツブツ対策・薬用石鹸＆クリーム10選】毛孔性苔癬のサメ肌・赤いザラつきを根本洗浄！重曹＆尿素で角質を柔らかくほぐす人気ボディソープ比較](https://qualia-navi.vercel.app/articles/art-keratosis-pilaris-urea-body-soap-10sen-2026): ボディケア (評価: ★4.53 / 監修: 篠原 玲奈)
 - [【衝撃吸収・アーチサポート機能性インソール10選】立ち仕事・偏平足・足底腱膜の痛みを軽減！靴に入れるだけで疲労を劇的に減らす人気中敷き比較](https://qualia-navi.vercel.app/articles/art-shock-absorbing-arch-support-insole-10sen-2026): ヘルスケア (評価: ★4 / 監修: 篠原 玲奈)
 - [【小顔リフトアップVライン美顔ベルト10選】二重あご＆フェイスラインのたるみを物理的に引き上げ！自宅や睡眠中に装着するだけの人気フェイスバンド比較](https://qualia-navi.vercel.app/articles/art-v-line-lifting-face-belt-double-chin-10sen-2026): フェイスケア (評価: ★3.94 / 監修: 篠原 玲奈)
 - [【電動かかと角質リムーバー10選】高速回転ローラーで頑固なガサガサかかとを自動研磨！削り粉吸引＆完全防水でお風呂でも使える人気フットケア機器比較](https://qualia-navi.vercel.app/articles/art-electric-heel-callus-remover-roller-10sen-2026): ボディケア (評価: ★4.21 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3735件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3739件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

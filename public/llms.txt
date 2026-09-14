@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-14
-- **Total Articles**: 3763 件の個別詳細レビュー
+- **Total Articles**: 3767 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【美姿勢・猫背矯正サポーター＆背筋ベルト10選】巻き肩・スマホ首を自然に後ろへ牽引！薄型で服の下に目立たない人気姿勢補正サポーター比較](https://qualia-navi.vercel.app/articles/art-posture-corrector-back-support-belt-10sen-2026): ヘルスケア (評価: ★4.46 / 監修: 篠原 玲奈)
+- [【アルミ保温ヘアトリートメントキャップ10選】体温反射でサロンスチーム効果！トリートメントやヘアカラーの浸透力を高める人気加温キャップ比較](https://qualia-navi.vercel.app/articles/art-aluminum-insulation-hair-treatment-cap-10sen-2026): ヘアケア (評価: ★4.25 / 監修: 篠原 玲奈)
+- [【表情筋トレーニング・美顔エクササイズ10選】口元を動かしてほうれい線＆たるみ撃退！口輪筋を鍛えてシャープなフェイスラインを作る人気グッズ比較](https://qualia-navi.vercel.app/articles/art-facial-muscle-trainer-jawline-exerciser-10sen-2026): フェイスケア (評価: ★4.76 / 監修: 篠原 玲奈)
+- [【冷却アイジェルマスク＆目元クールパッド10選】冷蔵庫で冷やして乗せるだけ！朝の腫れぼったい目・充血・眼精疲労を急速アイシングする人気アイピロー比較](https://qualia-navi.vercel.app/articles/art-reusable-under-eye-cooling-gel-pads-10sen-2026): アイケア・アイウェア (評価: ★4.55 / 監修: 篠原 玲奈)
 - [【伸縮式バスタブラック＆お風呂テーブル10選】スマホ・タブレット・半身浴ドリンク置きに！水切り抜群でカビにくい人気バスタブトレー比較](https://qualia-navi.vercel.app/articles/art-extendable-bathtub-caddy-tray-rack-10sen-2026): バスグッズ (評価: ★4.54 / 監修: 篠原 玲奈)
 - [【ロールオン式頭皮マッサージブラシ＆スカルプエッセンス10選】金属ボールで直接ツボ押し！手を汚さず育毛美容液を毛根へ届ける人気頭皮ケア比較](https://qualia-navi.vercel.app/articles/art-scalp-massage-tonic-roller-ball-10sen-2026): ヘアケア (評価: ★2 / 監修: 篠原 玲奈)
 - [【爪磨き4WAYブロック＆高弾力ネイルバッファー10選】爪の縦ジワ・凹凸を補正してサロン級の濡れツヤ！トップコート不要で輝く人気爪やすり比較](https://qualia-navi.vercel.app/articles/art-sponge-nail-buffer-block-4way-10sen-2026): ネイルケア (評価: ★3.6 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【小鼻専用シリコン洗顔ブラシ＆フィンガーパッド10選】指にはめてくるくる撫でるだけ！毛穴の黒ずみ・角栓・ザラつきをつるんとオフする人気極細ブラシ比較](https://qualia-navi.vercel.app/articles/art-silicone-finger-pore-cleansing-brush-10sen-2026): スキンケア (評価: ★4.33 / 監修: 篠原 玲奈)
 - [【ボンネット型ヘアドライヤーフード＆速乾キャップ10選】かぶるだけで手ぶら温風速乾！トリートメント浸透・ヘアマスク加温にも使える人気ドライキャップ比較](https://qualia-navi.vercel.app/articles/art-soft-hood-bonnet-hair-dryer-attachment-10sen-2026): ヘアケア (評価: ★4 / 監修: 篠原 玲奈)
 - [【携帯用UV-C歯ブラシ除菌ケース10選】深紫外線99.9%除菌＆ファン乾燥！ポーチやオフィスで濡れた歯ブラシの雑菌・ニオイを防ぐ人気除菌ホルダー比較](https://qualia-navi.vercel.app/articles/art-portable-uv-c-toothbrush-sanitizer-case-10sen-2026): オーラルケア (評価: ★4.32 / 監修: 篠原 玲奈)
-- [【痛快！足つぼマッサージマット10選】乗るだけで足裏の反射区をダイレクト刺激！夕方の足のむくみ・冷え・疲労をリセットする人気健康歩行マット比較](https://qualia-navi.vercel.app/articles/art-foot-acupressure-mat-health-walk-10sen-2026): ヘルスケア (評価: ★4.69 / 監修: 篠原 玲奈)
-- [【小鼻専用シリコン洗顔ブラシ＆フィンガーパッド10選】指にはめてくるくる撫でるだけ！毛穴の黒ずみ・角栓・ザラつきをつるんとオフする人気極細ブラシ比較](https://qualia-navi.vercel.app/articles/art-silicone-finger-pore-cleansing-brush-10sen-2026): スキンケア (評価: ★4.33 / 監修: 篠原 玲奈)
-- [【ボンネット型ヘアドライヤーフード＆速乾キャップ10選】かぶるだけで手ぶら温風速乾！トリートメント浸透・ヘアマスク加温にも使える人気ドライキャップ比較](https://qualia-navi.vercel.app/articles/art-soft-hood-bonnet-hair-dryer-attachment-10sen-2026): ヘアケア (評価: ★4 / 監修: 篠原 玲奈)
-- [【首のシワ・たるみ改善ネッククリーム10選】スマホ首や年齢サインに！ナイアシンアミド＆レチノール配合でデコルテまでハリを与える人気首元ケア比較](https://qualia-navi.vercel.app/articles/art-neck-wrinkle-care-cream-stick-firming-10sen-2026): スキンケア (評価: ★4.38 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3763件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3767件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

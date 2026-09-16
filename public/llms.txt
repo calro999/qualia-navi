@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-16
-- **Total Articles**: 3866 件の個別詳細レビュー
+- **Total Articles**: 3870 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【2026最新】充電式ホットビューラーおすすめ人気10選！USB急速充電＆夕方まで落ちない上向き上質カール](https://qualia-navi.vercel.app/articles/art-cordless-rechargeable-heated-eyelash-curler-10sen-2026): メイクツール (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【2026最新】スパチュラ内蔵クレンジングバームおすすめ人気10選！衛生フタ収納・毛穴角栓＆濃いメイクをとろけるオフ](https://qualia-navi.vercel.app/articles/art-cleansing-balm-spatula-holder-integrated-10sen-2026): スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【2026最新】洗顔用吸水リストバンドおすすめ人気10選！袖濡れ・床の水浸しを防ぐマイクロファイバー手首バンド](https://qualia-navi.vercel.app/articles/art-wash-face-wristband-absorbent-armband-10sen-2026): メイクツール (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【2026最新】シカレチノール美容液おすすめ人気10選！毛穴・キメ・ハリを刺激レスで整えるCICA×レチノール処方](https://qualia-navi.vercel.app/articles/art-cica-retinol-pore-serum-smooth-skin-10sen-2026): スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026最新】ヒートブラシおすすめ人気10選！とかすだけで簡単サラツヤストレート・朝の時短＆火傷しにくいヘアアイロンブラシ](https://qualia-navi.vercel.app/articles/art-ionic-straightening-heat-brush-hair-iron-10sen-2026): ヘアケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026最新】大容量コットンパフおすすめ人気10選！毛羽立たない・化粧水がムダにならないスキンケア＆拭き取り用](https://qualia-navi.vercel.app/articles/art-lint-free-cotton-pads-puff-skincare-10sen-2026): スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026最新】夜用スリーピングリップマスクおすすめ人気10選！寝ている間にぷるぷる高保湿・縦じわ皮むけ集中補修](https://qualia-navi.vercel.app/articles/art-overnight-sleeping-lip-mask-repair-10sen-2026): スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【最新ヒットコスメ】いま一番売れている話題コスメ！Dior ディオール アディクト リップ マキシマイザー 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-dior): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
 - [【メガネくもり止めクロス＆ジェル10選】拭くだけで24時間視界クリア！マスク・温かい食事・寒暖差でも白く曇らない人気曇り止めクロス比較](https://qualia-navi.vercel.app/articles/art-anti-fog-glasses-cloth-cleaner-10sen-2026): アイケア・アイウェア (評価: ★4.55 / 監修: 篠原 玲奈)
 - [【オーガニック固形シャンプーバー10選】液体シャンプー3本分の美容成分を濃縮！頭皮スッキリ＆キシまないエシカルな人気石鹸シャンプー比較](https://qualia-navi.vercel.app/articles/art-natural-solid-shampoo-bar-organic-10sen-2026): ヘアケア (評価: ★4.49 / 監修: 篠原 玲奈)
-- [【セラミックキューティクルプッシャー10選】オイルインで爪を傷つけない！爪の根元の頑固なルーズスキンを削り落とす甘皮処理ストーンペン比較](https://qualia-navi.vercel.app/articles/art-ceramic-cuticle-pusher-stone-pen-10sen-2026): ネイルケア (評価: ★4.28 / 監修: 篠原 玲奈)
-- [【コラーゲン配合スリーピングリップマスク10選】寝ている間に縦じわ・ガサガサ皮剥けを集中密閉補修！翌朝ぷるぷる唇を叶える夜用リップパック比較](https://qualia-navi.vercel.app/articles/art-collagen-plumping-lip-sleeping-mask-10sen-2026): リップケア (評価: ★4.5 / 監修: 篠原 玲奈)
-- [【純銅＆ステンレス製舌スクレーパー10選】撫でるだけで白い舌苔をごっそり除去！味蕾を傷つけず朝の口臭を根本リセットする人気舌クリーナー比較](https://qualia-navi.vercel.app/articles/art-tongue-scraper-pure-copper-stainless-10sen-2026): オーラルケア (評価: ★4.56 / 監修: 篠原 玲奈)
-- [【ハイドロコロイド極薄密着ニキビパッチ10選】メイクの上から目立たない！滲出液を吸水して早く治しCICA＆ティーツリーで鎮静する人気スポットパッチ比較](https://qualia-navi.vercel.app/articles/art-hydrocolloid-invisible-pimple-patch-10sen-2026): スキンケア (評価: ★4.51 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3866件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3870件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

@@ -4,6 +4,33 @@
   "framework": "vite",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/articles/(.*)/",
+      "destination": "/articles/$1",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/(.*)/",
+      "destination": "/blogs/$1",
+      "permanent": true
+    },
+    {
+      "source": "/compare/(.*)/",
+      "destination": "/compare/$1",
+      "permanent": true
+    },
+    {
+      "source": "/comparisons/(.*)",
+      "destination": "/compare/$1",
+      "permanent": true
+    },
+    {
+      "source": "/features/(.*)",
+      "destination": "/articles/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!assets/|images/|api/|.*\\..*).*)",

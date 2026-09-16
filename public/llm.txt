@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-16
-- **Total Articles**: 3834 件の個別詳細レビュー
+- **Total Articles**: 3838 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -81,7 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【二の腕のブツブツ対策・薬用石鹸＆クリーム10選】毛孔性苔癬のサメ肌・赤いザラつきを根本洗浄！重曹＆尿素で角質を柔らかくほぐす人気ボディソープ比較](https://qualia-navi.vercel.app/articles/art-keratosis-pilaris-urea-body-soap-10sen-2026): ボディケア (評価: ★4.53 / 監修: 篠原 玲奈)
 - [【衝撃吸収・アーチサポート機能性インソール10選】立ち仕事・偏平足・足底腱膜の痛みを軽減！靴に入れるだけで疲労を劇的に減らす人気中敷き比較](https://qualia-navi.vercel.app/articles/art-shock-absorbing-arch-support-insole-10sen-2026): ヘルスケア (評価: ★4 / 監修: 篠原 玲奈)
 - [【小顔リフトアップVライン美顔ベルト10選】二重あご＆フェイスラインのたるみを物理的に引き上げ！自宅や睡眠中に装着するだけの人気フェイスバンド比較](https://qualia-navi.vercel.app/articles/art-v-line-lifting-face-belt-double-chin-10sen-2026): フェイスケア (評価: ★3.94 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3834件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3838件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

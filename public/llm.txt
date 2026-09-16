@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-09-16
-- **Total Articles**: 3882 件の個別詳細レビュー
+- **Total Articles**: 3886 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,10 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【2026最新】背中用ロングボディブラシおすすめ人気10選！肩甲骨まで届く湾曲柄・極細毛＆シリコンで背中ニキビ・毛穴スッキリ](https://qualia-navi.vercel.app/articles/art-long-handle-back-body-shower-brush-10sen-2026): ボディケア (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【2026最新】デリケートゾーン泡ソープおすすめ人気10選！弱酸性フェムケア・ニオイ＆かゆみを摩擦レスで洗う専用ウォッシュ](https://qualia-navi.vercel.app/articles/art-feminine-wash-foam-soap-gentle-acidic-10sen-2026): ボディケア (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【2026最新】ハンディUV-LEDネイルライトおすすめ人気10選！充電式ペン型・大きなパーツ仮硬化＆セルフジェルネイル時短](https://qualia-navi.vercel.app/articles/art-handheld-cordless-uv-led-nail-light-pen-10sen-2026): メイクツール (評価: ★4.8 / 監修: 篠原 玲奈)
+- [【2026最新】メイク直しペンおすすめ人気10選！アイラインのにじみ・パンダ目・リップはみ出しをピンポイント消去](https://qualia-navi.vercel.app/articles/art-makeup-remover-correction-pen-eraser-10sen-2026): メイクツール (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026最新】メイクスポンジスタンドおすすめ人気10選！通気性抜群でカビ・雑菌を防ぐエッグパフホルダー＆携帯ケース](https://qualia-navi.vercel.app/articles/art-makeup-sponge-holder-drying-stand-hygiene-10sen-2026): メイクツール (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026最新】洗い流さないリップスクラブおすすめ人気10選！シュガースティックで角質オフ＆高保湿ぷるぷる唇](https://qualia-navi.vercel.app/articles/art-leave-on-sugar-lip-scrub-stick-balm-10sen-2026): スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026最新】前髪パウダーおすすめ人気10選！おでこの皮脂・汗によるベタつき前髪をポンポン瞬時にサラサラ復活](https://qualia-navi.vercel.app/articles/art-bangs-reset-powder-oil-control-forehead-10sen-2026): メイクツール (評価: ★4.8 / 監修: 篠原 玲奈)
@@ -77,11 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【背中用ロングボディシェーバー10選】手が届かない背中のムダ毛・産毛を一人で安全シェービング！折りたたみ伸縮ハンドル付き人気ボディカミソリ比較](https://qualia-navi.vercel.app/articles/art-back-hair-shaver-extendable-handle-10sen-2026): ボディケア (評価: ★4.09 / 監修: 篠原 玲奈)
 - [【シルク製ヒートレスカーラー10選】熱ダメージゼロで寝ている間に極上巻き髪！朝のコテ不要で韓国風ウェーブが完成する人気カーリングバンド比較](https://qualia-navi.vercel.app/articles/art-heatless-curling-rod-headband-silk-10sen-2026): ヘアケア (評価: ★4 / 監修: 篠原 玲奈)
 - [【睡眠用・歯ぎしり防止マウスピース10選】朝起きた時の顎の疲れ・エラ張りを予防！お湯で自分の歯型に成形できる薄型ナイトガード比較](https://qualia-navi.vercel.app/articles/art-teeth-grinding-mouthpiece-sleep-jaw-10sen-2026): オーラルケア (評価: ★4.17 / 監修: 篠原 玲奈)
-- [【靴用強力消臭パウダー10選】靴の中に振り入れるだけでバクテリア全滅！スニーカーや革靴の染み付いた足の悪臭を無臭化する人気消臭粉比較](https://qualia-navi.vercel.app/articles/art-shoe-odor-deodorant-powder-grand-10sen-2026): ボディケア (評価: ★4.69 / 監修: 篠原 玲奈)
-- [【靴擦れ防止・かかと保護パッド＆クッションテープ10選】痛い靴擦れ・皮剥け・かかとパカパカを完全防止！貼るだけでフィットする人気フットケア比較](https://qualia-navi.vercel.app/articles/art-shoe-blister-prevention-cushion-tape-10sen-2026): ボディケア (評価: ★4.49 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！SHISEIDO エッセンス スキングロウ ファンデーション 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-shiseido): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [【最新ヒットコスメ】いま一番売れている話題コスメ！TAKAMI タカミスキンピール 角質美容水 30mL 徹底検証](https://qualia-navi.vercel.app/articles/autodiscover-takami): 🔥 最新ヒットコスメ (評価: ★4.9 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (3882件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3886件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

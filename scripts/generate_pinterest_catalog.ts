@@ -47,7 +47,8 @@ articles.forEach(art => {
   const title = escapeXml(rawTitle.slice(0, 150)); // Pinterestのタイトル上限文字数ガード
   
   // 説明文
-  const rawDesc = art.introText || art.content || art.title || '人気コスメのトレンドレビュー';
+  let rawDesc = art.introText || (typeof art.content === 'string' ? art.content : art.content?.lead) || art.description || art.title || '人気コスメのトレンドレビュー';
+  if (typeof rawDesc !== 'string') rawDesc = String(rawDesc || '');
   const description = escapeXml(rawDesc.slice(0, 500));
   
   // 自ドメインの商品詳細直URL（アフィリエイトURLは絶対に含めない）

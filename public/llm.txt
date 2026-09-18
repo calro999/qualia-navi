@@ -8,8 +8,8 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 ## Site Information
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
-- **Last Mod**: 2026-09-17
-- **Total Articles**: 4024 件の個別詳細レビュー
+- **Last Mod**: 2026-09-18
+- **Total Articles**: 4029 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -31,6 +31,11 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [rom&nd ジューシーラスティングティント VS KATE リップモンスター](https://qualia-navi.vercel.app/compare/romand-vs-kate)
 
 ### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
+- [【2026年最新】首の横ジワ・たるみを改善するネックパッチ＆レチノールクリームおすすめ10選！スマホ首の深いシワを伸ばす人気集中ケア比較](https://qualia-navi.vercel.app/articles/art-longtail-neck-horizontal-wrinkles-retinol-microneedle-patch-2026): 🌙 スキンケア・首の横ジワ集中パッチ特集 (評価: ★4.1 / 監修: 高橋 美咲)
+- [【2026年最新】汗でも消えない眉ティント＆眉コートおすすめ10選！プール・温泉でも眉尻を3日間キープする人気落ちないアイブロウ比較](https://qualia-navi.vercel.app/articles/art-longtail-eyebrow-tint-waterproof-brow-coat-sweat-2026): ✍️ アイブロウ・消えない眉ティント特集 (評価: ★4.94 / 監修: 佐藤 舞)
+- [【2026年最新】つむじ・分け目のパッカーン割れを直すコーム＆ミストおすすめ10選！頑固な生え癖をリセットしてふんわり立ち上げる人気ケア比較](https://qualia-navi.vercel.app/articles/art-longtail-hair-parting-crown-split-reset-comb-mist-2026): 💇‍♀️ スカルプ＆ヘア・つむじ分け目割れリセット特集 (評価: ★4.94 / 監修: 渡辺 紗江)
+- [【2026年最新】ささくれ・硬い甘皮を治すネイルオイル＆保湿手袋おすすめ10選！寝ている間に指先をつるつるにする人気ケア比較](https://qualia-navi.vercel.app/articles/art-longtail-hangnails-hardened-cuticle-night-repair-gloves-2026): 🧤 ハンド＆ネイル・ささくれ集中補修特集 (評価: ★4.35 / 監修: 前田 美波)
+- [【2026年最新】太ももの股擦れ防止クリーム＆インナーパンツおすすめ10選！擦れて痛い赤み・黒ずみを防ぐ人気ケア比較](https://qualia-navi.vercel.app/articles/art-longtail-thigh-chafing-friction-stick-inner-pants-2026): 🩳 ボディケア・太もも股擦れ対策特集 (評価: ★2 / 監修: 井上 友里)
 - [【2026年最新】ほうれい線・小鼻のファンデ溜まりを直すスポンジ＆バームおすすめ10選！シワの溝に入り込んだヨレを消す人気お直し比較](https://qualia-navi.vercel.app/articles/art-longtail-creased-smile-lines-makeup-retouch-sponge-balm-2026): ✨ ベースメイク・ほうれい線ファンデヨレ直し特集 (評価: ★4.94 / 監修: 高橋 美咲)
 - [【2026年最新】まつ毛パーマ・マツエク長持ちコーティング剤おすすめ10選！サロン帰りの韓国風束感まつ毛を作る人気クリア美容液比較](https://qualia-navi.vercel.app/articles/art-longtail-lash-lift-coating-serum-bundle-lash-2026): 👁️ アイメイク・まつパ束感コーティング特集 (評価: ★4.78 / 監修: 前田 美波)
 - [【2026年最新】頑固な寝癖を30秒で直すスプレー＆ヒートブラシおすすめ10選！忙しい朝に水不要でサラサラストレートにする人気ケア比較](https://qualia-navi.vercel.app/articles/art-longtail-bedhead-fast-straightening-mist-heat-brush-2026): 💇‍♀️ ヘアケア・朝の時短寝癖直し特集 (評価: ★4.94 / 監修: 渡辺 紗江)
@@ -76,12 +81,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026年最新】前髪立ち上げカーラークリップおすすめ10選！挟むだけで韓国アイドル風ふんわりトップ＆かきあげ前髪が作れる人気カーラー比較](https://qualia-navi.vercel.app/articles/art-longtail-korean-bangs-hair-roller-clip-root-volume-2026): 💇‍♀️ ヘアスタイリング・前髪カーラー特集 (評価: ★4.7 / 監修: 木村 さやか)
 - [【2026年最新】ワンタフトブラシおすすめ10選！普通の歯ブラシでは届かない奥歯・親知らず・歯並びの汚れを完全除去する人気部分磨きブラシ比較](https://qualia-navi.vercel.app/articles/art-longtail-one-tuft-brush-point-polishing-plaque-2026): 🦷 オーラルケア・ワンタフトブラシ特集 (評価: ★4.41 / 監修: 井上 友里)
 - [【2026年最新】カプサイシン配合リッププランパーおすすめ10選！ピリピリ刺激で唇がぷっくり膨らむ最強ボリュームリップ比較](https://qualia-navi.vercel.app/articles/art-longtail-capsaicin-lip-plumper-volume-up-2026): 💄 リッププランパー・唇ボリューム特集 (評価: ★4.89 / 監修: 佐藤 舞)
-- [【2026年最新】デリケートゾーン・脇の黒ずみ美白クリームおすすめ10選！医薬部外品で色素沈着をケアする人気薬用クリーム比較](https://qualia-navi.vercel.app/articles/art-longtail-delicate-zone-whitening-cream-medicinal-2026): 🌸 デリケートゾーン・薬用美白特集 (評価: ★4.19 / 監修: 篠原 玲奈)
-- [【2026年最新】眉毛スタンプおすすめ10選！ポンと押すだけで左右対称の美眉が完成する人気時短アイブロウ比較](https://qualia-navi.vercel.app/articles/art-longtail-eyebrow-stamp-stencil-template-symmetry-2026): ✍️ アイブロウ・時短メイク特集 (評価: ★4.2 / 監修: 木村 さやか)
-- [【2026年最新】首のポツポツ・イボケアおすすめ10選！ハトムギ＆高濃度杏仁オイルでなめらか美首を作る人気美容液比較](https://qualia-navi.vercel.app/articles/art-longtail-neck-skin-tag-oil-apricot-coix-seed-2026): 🌿 首元ケア・角質粒なめらか特集 (評価: ★4.26 / 監修: 高橋 美咲)
-- [【2026年最新】靴の消臭パウダーおすすめ10選！グランズレメディなど魔法の粉で足の強烈なニオイが消える人気消臭剤比較](https://qualia-navi.vercel.app/articles/art-longtail-shoe-odor-remover-powder-grans-remedy-2026): 👟 靴・足裏消臭・フットケア特集 (評価: ★4.59 / 監修: 井上 友里)
-- [【2026年最新】脇の汗ジミ防止スプレー＆直貼り極薄フィルムおすすめ10選！グレーの服でも絶対シミない服の撥水ガード比較](https://qualia-navi.vercel.app/articles/art-longtail-sweat-stain-prevention-spray-armpit-film-2026): 👕 脇汗対策・汗ジミ防止特集 (評価: ★4 / 監修: 松本 梨花)
-- [Full Article List & Complete Database (4024件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (4029件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

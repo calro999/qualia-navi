@@ -3,7 +3,7 @@
 > 日本最大級のコスメ・美容徹底検証メディア 全記事＆全コンテンツ統合アーカイブ
 
 - Domain: https://qualia-navi.vercel.app
-- Last Mod: 2026-09-17
+- Last Mod: 2026-09-18
 - Format: Markdown (Optimized for LLM Context Windows & Retrieval Augmented Generation)
 
 ---
@@ -78,7 +78,52 @@
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All 4024 Product Reviews)
+## 3. 全製品レビュー記事一覧 (All 4029 Product Reviews)
+
+### 【2026年最新】首の横ジワ・たるみを改善するネックパッチ＆レチノールクリームおすすめ10選！スマホ首の深いシワを伸ばす人気集中ケア比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-longtail-neck-horizontal-wrinkles-retinol-microneedle-patch-2026
+- **Author/Reviewer**: 高橋 美咲 (スキンケアアドバイザー・エイジングケアセラピスト)
+- **Category**: 🌙 スキンケア・首の横ジワ集中パッチ特集
+- **Rating Score**: 4.1 / 5.0 (検証済)
+- **Reference Price**: 1,485円 (税込)
+- **Tags**: 🌙 スキンケア・首の横ジワ集中パッチ特集, 2026年最新, 実機検証, 楽天最安値, 口コミ評判, セルフケア
+- **Summary**: 「下を向いてスマホを見る時間が長く、首にクッキリ2本の横ジワが刻まれてしまった」「首元が老けて見えるせいでハイネックしか着られない」…極細の美容液針が角質層の深部まで直接届くマイクロニードルパッチと高濃度レチノールで、ピンと張った若見え首元を叶える最新ケアを徹底解説。...
+
+### 【2026年最新】汗でも消えない眉ティント＆眉コートおすすめ10選！プール・温泉でも眉尻を3日間キープする人気落ちないアイブロウ比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-longtail-eyebrow-tint-waterproof-brow-coat-sweat-2026
+- **Author/Reviewer**: 佐藤 舞 (パーソナルカラー実務検定1級・コスメライター)
+- **Category**: ✍️ アイブロウ・消えない眉ティント特集
+- **Rating Score**: 4.94 / 5.0 (検証済)
+- **Reference Price**: 2,480円 (税込)
+- **Tags**: ✍️ アイブロウ・消えない眉ティント特集, 2026年最新, 実機検証, 楽天最安値, 口コミ評判, セルフケア
+- **Summary**: 「夕方になると眉尻が消えて麻呂眉になってしまう」「スポーツやジム、プールで眉毛が全部落ちるのが恥ずかしい」…角質層を自然なアッシュブラウンに染着させ、朝のメイク時間を劇的に短縮する最新眉ティントと強力撥水眉コートを徹底レビュー。...
+
+### 【2026年最新】つむじ・分け目のパッカーン割れを直すコーム＆ミストおすすめ10選！頑固な生え癖をリセットしてふんわり立ち上げる人気ケア比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-longtail-hair-parting-crown-split-reset-comb-mist-2026
+- **Author/Reviewer**: 渡辺 紗江 (サロンスタイリスト・ヘアメイクアドバイザー)
+- **Category**: 💇‍♀️ スカルプ＆ヘア・つむじ分け目割れリセット特集
+- **Rating Score**: 4.94 / 5.0 (検証済)
+- **Reference Price**: 2,480円 (税込)
+- **Tags**: 💇‍♀️ スカルプ＆ヘア・つむじ分け目割れリセット特集, 2026年最新, 実機検証, 楽天最安値, 口コミ評判, セルフケア
+- **Summary**: 「後頭部のつむじがパカッと割れて地肌が丸見えになる」「前髪の生え癖でいつも同じ分け目になってペタンコになる」…絡み合った毛根の交差を解きほぐす特殊コームと、熱反応型ボリュームミストで頭頂部に自然なふんわり感を復元する神技を徹底解説。...
+
+### 【2026年最新】ささくれ・硬い甘皮を治すネイルオイル＆保湿手袋おすすめ10選！寝ている間に指先をつるつるにする人気ケア比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-longtail-hangnails-hardened-cuticle-night-repair-gloves-2026
+- **Author/Reviewer**: 前田 美波 (JNECネイリスト技能検定1級・爪育セラピスト)
+- **Category**: 🧤 ハンド＆ネイル・ささくれ集中補修特集
+- **Rating Score**: 4.35 / 5.0 (検証済)
+- **Reference Price**: 1,590円 (税込)
+- **Tags**: 🧤 ハンド＆ネイル・ささくれ集中補修特集, 2026年最新, 実機検証, 楽天最安値, 口コミ評判, セルフケア
+- **Summary**: 「爪の周りのささくれを引っ張って出血して化膿した」「指先がカチカチに硬化して服に引っかかる」…爪母（マトリクス）に高濃度ケラチンとセラミドを補給し、純シルク手袋で一晩密封パックして指先のささくれを一掃する集中補修ケアを徹底検証。...
+
+### 【2026年最新】太ももの股擦れ防止クリーム＆インナーパンツおすすめ10選！擦れて痛い赤み・黒ずみを防ぐ人気ケア比較
+- **URL**: https://qualia-navi.vercel.app/articles/art-longtail-thigh-chafing-friction-stick-inner-pants-2026
+- **Author/Reviewer**: 井上 友里 (コスメ成分スペシャリスト・皮膚衛生アドバイザー)
+- **Category**: 🩳 ボディケア・太もも股擦れ対策特集
+- **Rating Score**: 2 / 5.0 (検証済)
+- **Reference Price**: 1,980円 (税込)
+- **Tags**: 🩳 ボディケア・太もも股擦れ対策特集, 2026年最新, 実機検証, 楽天最安値, 口コミ評判, セルフケア
+- **Summary**: 「夏や歩行時に太ももの内側が擦れてヒリヒリ痛む」「股擦れの摩擦で内ももが茶色く黒ずんでしまった」…皮膚表面に見えない保護膜を作り摩擦抵抗をゼロにする直塗りスティックと、めくれ上がらない極薄シルクインナーで快適に歩ける最新対策を徹底解説。...
 
 ### 【2026年最新】ほうれい線・小鼻のファンデ溜まりを直すスポンジ＆バームおすすめ10選！シワの溝に入り込んだヨレを消す人気お直し比較
 - **URL**: https://qualia-navi.vercel.app/articles/art-longtail-creased-smile-lines-makeup-retouch-sponge-balm-2026

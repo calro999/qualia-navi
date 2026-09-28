@@ -1,141 +1,249 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { INITIAL_ARTICLES, INITIAL_BLOG_POSTS, INITIAL_COMPARISONS } from '../data';
-import { ArrowRight, Sparkles } from 'lucide-react';
-import { motion } from 'framer-motion';
-
-
-const CoverImage = ({ src, alt, className, loading }: { src: string | string[], alt: string, className?: string, loading?: 'lazy' | 'eager' }) => {
-  if (Array.isArray(src)) {
-    return (
-      <div className={`grid grid-cols-2 gap-0.5 w-full h-full bg-slate-100 ${className}`}>
-        {src.map((url, i) => (
-          <img key={i} src={url} alt={`${alt} ${i+1}`} className="w-full h-full object-cover" loading={loading} />
-        ))}
-      </div>
-    );
-  }
-  return <img src={src} alt={alt} className={`w-full h-full object-cover ${className || ''}`} loading={loading} />;
-};
-
+import { ArrowRight, Sparkles, Swords, BookOpen, Star } from 'lucide-react';
+import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 
 interface InternalLinkMeshProps {
   currentArticleId: string;
   category: string;
+  onNavigate?: (path: string) => void;
 }
 
-export function InternalLinkMesh({ currentArticleId, category }: InternalLinkMeshProps) {
-  // Get 4 random articles from same category
-  const relatedArticles = INITIAL_ARTICLES
-    .filter(a => a.category === category && a.id !== currentArticleId)
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 4);
+export function InternalLinkMesh({ currentArticleId, category, onNavigate }: InternalLinkMeshProps) {
+  const currentArticle = useMemo(() => {
+    return INITIAL_ARTICLES.find(a => a.id === currentArticleId || a.itemCode === currentArticleId);
+  }, [currentArticleId]);
 
-  // Get 2 random features
-  const relatedFeatures = INITIAL_BLOG_POSTS
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 2);
+  // 1. この商品が登場する比較記事（VS対決）を最優先で抽出
+  const directComparisons = useMemo(() => {
+    const itemCode = currentArticle?.itemCode || currentArticleId;
+    return INITIAL_COMPARISONS.filter(c => 
+      c.productItemCodeA === itemCode || 
+      c.productItemCodeB === itemCode || 
+      c.productItemCodeA === currentArticleId || 
+      c.productItemCodeB === currentArticleId ||
+      c.title.includes(currentArticle?.productName || '') ||
+      c.title.includes(currentArticle?.title?.slice(0, 8) || '')
+    );
+  }, [currentArticle, currentArticleId]);
 
-  // Get 1 random comparison
-  const relatedComparison = INITIAL_COMPARISONS
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 1);
+  // 関連する比較記事（該当商品が直接ない場合は同一カテゴリから抽出）
+  const displayedComparisons = useMemo(() => {
+    if (directComparisons.length >= 2) {
+      return directComparisons.slice(0, 3);
+    }
+    const additional = INITIAL_COMPARISONS.filter(c => !directComparisons.includes(c));
+    return [...directComparisons, ...additional].slice(0, 3);
+  }, [directComparisons]);
 
-  if (relatedArticles.length === 0) return null;
+  // 2. 同一カテゴリの関連コスメ（最大4件）
+  const relatedArticles = useMemo(() => {
+    return INITIAL_ARTICLES
+      .filter(a => a.category === category && a.id !== currentArticleId)
+      .slice(0, 4);
+  }, [category, currentArticleId]);
+
+  // 3. 関連する特集記事（最大2件）
+  const relatedFeatures = useMemo(() => {
+    return INITIAL_BLOG_POSTS.slice(0, 2);
+  }, []);
+
+  const handleClick = (e: React.MouseEvent, path: string) => {
+    if (onNavigate) {
+      e.preventDefault();
+      onNavigate(path);
+    }
+  };
 
   return (
-    <section className="mt-16 pt-12 border-t border-gray-100 dark:border-gray-800">
-      <div className="flex items-center gap-2 mb-8">
-        <Sparkles className="w-6 h-6 text-pink-500" />
-        <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-rose-400">
-          あわせて読みたい注目アイテム
-        </h3>
-      </div>
+    <section className="mt-16 pt-12 border-t border-rose-100 space-y-12">
+      {/* ⚔️ VS対決比較セクション (このコスメが登場する比較 or 注目比較) */}
+      {displayedComparisons.length > 0 && (
+        <div className="space-y-6">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-600 text-white flex items-center justify-center shadow-xs">
+                <Swords className="w-4 h-4" />
+              </div>
+              <div>
+                <h3 className="text-base sm:text-lg font-black text-slate-900 font-serif-brand">
+                  {directComparisons.length > 0 ? 'このコスメが登場するガチンコ対決比較' : '注目のガチンコVS対決比較'}
+                </h3>
+                <p className="text-[11px] text-slate-500">
+                  プロアナリストが使用感・成分・コスパを直接対決検証
+                </p>
+              </div>
+            </div>
+            {onNavigate && (
+              <button
+                onClick={() => onNavigate('/comparisons')}
+                className="text-xs font-bold text-purple-600 hover:text-purple-800 flex items-center gap-1 cursor-pointer"
+              >
+                <span>比較一覧 (全227件)</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
+            )}
+          </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-        {relatedArticles.map((article, idx) => (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: idx * 0.1 }}
-            key={article.id}
-          >
-            <a 
-              href={`/articles/${article.id}`}
-              className="group block bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 h-full flex flex-col"
-            >
-              <div className="relative h-48 overflow-hidden bg-gray-50 dark:bg-gray-900">
-                <img 
-                  src={article.imageUrl} 
-                  alt={article.title}
-                  className="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {displayedComparisons.map((comp) => (
+              <a
+                key={comp.id}
+                href={`/comparisons/${comp.id}`}
+                onClick={(e) => handleClick(e, `/comparisons/${comp.id}`)}
+                className="bg-white rounded-2xl p-4 border border-purple-100 hover:border-purple-300 shadow-xs hover:shadow-md transition-all flex flex-col justify-between group cursor-pointer"
+              >
+                <div className="space-y-3">
+                  <div className="relative aspect-video rounded-xl overflow-hidden bg-slate-100 border border-slate-100">
+                    <img
+                      src={comp.coverImage}
+                      alt={comp.title}
+                      referrerPolicy="no-referrer"
+                      onError={handleImageError}
+                      className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <span className="absolute top-2 left-2 px-2 py-0.5 bg-purple-600 text-white font-extrabold text-[10px] rounded-md shadow-xs">
+                      VS対決
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] font-bold text-purple-700 bg-purple-50 px-2 py-0.5 rounded-full inline-block mb-1">
+                      {comp.targetUserCategory}
+                    </span>
+                    <h4 className="text-xs sm:text-sm font-bold text-slate-900 line-clamp-2 leading-snug group-hover:text-purple-600 transition-colors font-serif-brand">
+                      {comp.title}
+                    </h4>
+                  </div>
+                </div>
+
+                <div className="pt-3 mt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-extrabold text-purple-600 group-hover:translate-x-1 transition-transform">
+                  <span>勝者判定を見る</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 🛍️ あわせて読みたい関連コスメ */}
+      {relatedArticles.length > 0 && (
+        <div className="space-y-6">
+          <div className="flex items-center gap-2">
+            <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-rose-500 to-pink-500 text-white flex items-center justify-center shadow-xs">
+              <Sparkles className="w-4 h-4" />
+            </div>
+            <div>
+              <h3 className="text-base sm:text-lg font-black text-slate-900 font-serif-brand">
+                同カテゴリの注目コスメ
+              </h3>
+              <p className="text-[11px] text-slate-500">
+                あわせて比較検討したい実力派アイテム
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            {relatedArticles.map((art) => (
+              <a
+                key={art.id}
+                href={`/articles/${art.id}`}
+                onClick={(e) => handleClick(e, `/articles/${art.id}`)}
+                className="bg-white rounded-2xl p-3.5 border border-rose-100 hover:border-rose-300 shadow-xs hover:shadow-md transition-all flex flex-col justify-between group cursor-pointer"
+              >
+                <div className="space-y-2.5">
+                  <div className="relative aspect-square rounded-xl overflow-hidden bg-slate-50 border border-slate-100 flex items-center justify-center p-2">
+                    <img
+                      src={getRakutenOptimizedImageUrl(art.imageUrl)}
+                      alt={art.productName || art.title}
+                      referrerPolicy="no-referrer"
+                      onError={handleImageError}
+                      className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <span className="absolute top-1.5 right-1.5 px-1.5 py-0.5 bg-white/90 text-amber-500 font-black text-[10px] rounded-md flex items-center gap-0.5 shadow-2xs">
+                      <Star className="w-3 h-3 fill-amber-400" />
+                      {(art.starRating || 4.8).toFixed(1)}
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] font-bold text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded-md">
+                      {art.categoryLabel || art.category}
+                    </span>
+                    <h4 className="text-xs font-bold text-slate-900 line-clamp-2 leading-snug group-hover:text-rose-600 transition-colors mt-1">
+                      {art.productName || art.title}
+                    </h4>
+                  </div>
+                </div>
+
+                <div className="pt-2 mt-2 border-t border-slate-100 flex items-center justify-between text-[11px]">
+                  <span className="font-extrabold text-rose-600">{art.rakutenPrice || art.priceRange}</span>
+                  <ArrowRight className="w-3 h-3 text-slate-400 group-hover:translate-x-1 group-hover:text-rose-600 transition-all" />
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 📖 編集部おすすめ特集記事 */}
+      {relatedFeatures.length > 0 && (
+        <div className="space-y-6">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-amber-500 to-orange-500 text-white flex items-center justify-center shadow-xs">
+                <BookOpen className="w-4 h-4" />
+              </div>
+              <div>
+                <h3 className="text-base sm:text-lg font-black text-slate-900 font-serif-brand">
+                  編集部おすすめ特集記事
+                </h3>
+                <p className="text-[11px] text-slate-500">
+                  プロがまとめる最新トレンド・選び方
+                </p>
+              </div>
+            </div>
+            {onNavigate && (
+              <button
+                onClick={() => onNavigate('/features')}
+                className="text-xs font-bold text-amber-700 hover:text-amber-900 flex items-center gap-1 cursor-pointer"
+              >
+                <span>特集一覧</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
+            )}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {relatedFeatures.map((feat) => (
+              <a
+                key={feat.id}
+                href={`/features/${feat.id}`}
+                onClick={(e) => handleClick(e, `/features/${feat.id}`)}
+                className="bg-white rounded-2xl p-4 border border-amber-100 hover:border-amber-300 shadow-xs hover:shadow-md transition-all flex gap-4 items-center group cursor-pointer"
+              >
+                <img
+                  src={feat.coverImage}
+                  alt={feat.title}
+                  referrerPolicy="no-referrer"
+                  onError={handleImageError}
+                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl object-contain bg-slate-50 border border-slate-100 group-hover:scale-105 transition-transform shrink-0"
                 />
-              </div>
-              <div className="p-4 flex-grow flex flex-col justify-between">
-                <div>
-                  <span className="text-xs font-semibold text-pink-500 bg-pink-50 dark:bg-pink-500/10 px-2 py-1 rounded-full mb-3 inline-block">
-                    {article.categoryLabel}
+                <div className="space-y-1.5 flex-1 min-w-0">
+                  <span className="text-[10px] font-extrabold text-amber-800 bg-amber-50 px-2 py-0.5 rounded-full">
+                    特集レポート
                   </span>
-                  <h4 className="font-bold text-gray-900 dark:text-white text-sm line-clamp-3 mb-2 group-hover:text-pink-500 transition-colors">
-                    {article.title}
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900 line-clamp-2 leading-snug group-hover:text-amber-700 transition-colors font-serif-brand">
+                    {feat.title}
                   </h4>
+                  <p className="text-[11px] text-slate-500 line-clamp-1">
+                    {feat.subtitle || feat.introText}
+                  </p>
                 </div>
-                <div className="flex items-center text-sm font-medium text-pink-500 mt-4">
-                  詳細を見る <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </div>
-            </a>
-          </motion.div>
-        ))}
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {/* Features */}
-        {relatedFeatures.map((feature, idx) => (
-          <a 
-            key={`feat-${feature.id}`}
-            href={`/features/${feature.id}`}
-            className="col-span-1 block relative rounded-2xl overflow-hidden group shadow-md"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 to-gray-900/20 z-10" />
-            <CoverImage 
-              src={feature.coverImage} 
-              alt={feature.title}
-              className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700"
-              loading="lazy"
-            />
-            <div className="absolute bottom-0 left-0 p-5 z-20 w-full">
-              <span className="text-xs font-bold text-white bg-purple-500 px-2 py-1 rounded-md mb-2 inline-block">
-                特集記事
-              </span>
-              <h4 className="text-white font-bold line-clamp-2">{feature.title}</h4>
-            </div>
-          </a>
-        ))}
-        
-        {/* Comparison */}
-        {relatedComparison.map((comp) => (
-          <a 
-            key={`comp-${comp.id}`}
-            href={`/compare/${comp.id}`}
-            className="col-span-1 block relative rounded-2xl overflow-hidden group shadow-md"
-          >
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 to-gray-900/20 z-10" />
-            <CoverImage 
-              src={comp.coverImage || "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600"} 
-              alt={comp.title}
-              className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700"
-              loading="lazy"
-            />
-            <div className="absolute bottom-0 left-0 p-5 z-20 w-full">
-              <span className="text-xs font-bold text-white bg-blue-500 px-2 py-1 rounded-md mb-2 inline-block">
-                徹底比較
-              </span>
-              <h4 className="text-white font-bold line-clamp-2">{comp.title}</h4>
-            </div>
-          </a>
-        ))}
-      </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </section>
   );
 }

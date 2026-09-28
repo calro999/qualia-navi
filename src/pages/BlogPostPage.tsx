@@ -1,6 +1,8 @@
 import React from 'react';
 import { INITIAL_BLOG_POSTS, INITIAL_ARTICLES, AUTHOR_PROFILES } from '../data';
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
+import { TableOfContents } from '../components/TableOfContents';
+import { ShareButtons } from '../components/ShareButtons';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { generateBlogPostJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
 import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft } from 'lucide-react';
@@ -19,9 +21,9 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
       const jsonLd = generateBlogPostJsonLd(post as any, window.location.origin);
       updateSeoGeoMetadata({
         title: `${post.title} | Qualia Navi`,
-        description: post.introText,
+        description: post.introText || post.subtitle,
         imageUrl: post.coverImage,
-        urlPath: `/blogs/${post.id}`,
+        urlPath: `/features/${post.id}`,
         jsonLdSchema: jsonLd
       });
     }
@@ -101,10 +103,16 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
             />
           </div>
 
+          {/* 目次 (Table of Contents) */}
+          <TableOfContents content={post.contentMarkdown || ''} />
+
           {/* Article Body Content */}
           <div className="prose max-w-none text-slate-800 leading-relaxed border-t border-slate-200 pt-8">
             <MarkdownRenderer content={post.contentMarkdown || ''} onNavigate={onNavigate} />
           </div>
+
+          {/* SNS Share & Bookmark Buttons */}
+          <ShareButtons title={post.title} description={post.subtitle} />
 
           {/* 📌 記事本文の「完全な最下部（まとめの下）」に「🛍️ この検証記事で紹介している注目コスメ」を設置！ */}
           {recommendedItems.length > 0 && (

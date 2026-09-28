@@ -10,11 +10,25 @@ import { ProductComparisonPage } from './pages/ProductComparisonPage';
 import { AuthorListPage } from './pages/AuthorListPage';
 import { AuthorDetailPage } from './pages/AuthorDetailPage';
 import { SitemapPage } from './pages/SitemapPage';
-import { Sparkles, ShoppingBag, Users } from 'lucide-react';
+import { Sparkles, ShoppingBag, Users, Heart } from 'lucide-react';
 import { RakutenProductArticle } from './types';
+import { ReadingProgressBar } from './components/ReadingProgressBar';
+import { FavoritesModal } from './components/FavoritesModal';
+import { getFavoriteIds } from './utils/favorites';
 
 export default function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
+  const [isFavoritesOpen, setIsFavoritesOpen] = useState(false);
+  const [favoriteCount, setFavoriteCount] = useState(0);
+
+  useEffect(() => {
+    setFavoriteCount(getFavoriteIds().length);
+    const handleUpdate = () => {
+      setFavoriteCount(getFavoriteIds().length);
+    };
+    window.addEventListener('qualia_favorites_updated', handleUpdate);
+    return () => window.removeEventListener('qualia_favorites_updated', handleUpdate);
+  }, []);
 
   // Router navigation helper
   const navigateTo = (path: string) => {
@@ -175,6 +189,21 @@ export default function App() {
               <Users className="w-3.5 h-3.5 text-rose-500" />
               <span>Qualia 美容分析室 (12名)</span>
             </button>
+
+            {/* お気に入りモーダル呼び出しボタン */}
+            <button
+              onClick={() => setIsFavoritesOpen(true)}
+              className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200"
+              title="お気に入りコスメリスト"
+            >
+              <Heart className={`w-3.5 h-3.5 ${favoriteCount > 0 ? 'fill-rose-500 text-rose-500' : 'text-rose-500'}`} />
+              <span>キープ</span>
+              {favoriteCount > 0 && (
+                <span className="bg-rose-500 text-white text-[10px] font-black px-1.5 py-0.2 rounded-full">
+                  {favoriteCount}
+                </span>
+              )}
+            </button>
           </div>
         </div>
       </header>
@@ -183,6 +212,17 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-4 py-6">
         {renderCurrentPage()}
       </main>
+
+      {/* Favorites Modal */}
+      <FavoritesModal
+        isOpen={isFavoritesOpen}
+        onClose={() => setIsFavoritesOpen(false)}
+        articles={articles}
+        onNavigate={navigateTo}
+      />
+
+      {/* Reading Progress Bar */}
+      <ReadingProgressBar />
 
       {/* Footer */}
       <footer className="bg-slate-50 border-t border-rose-100 mt-20 pt-16 pb-10">

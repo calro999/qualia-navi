@@ -21,9 +21,28 @@ if (existsSync(jsonPath)) {
   });
 }
 
+// Extract feature / blog URLs from data.ts
+const featureUrls = [];
+const dataTsPath = resolve(process.cwd(), 'src', 'data.ts');
+if (existsSync(dataTsPath)) {
+  const content = readFileSync(dataTsPath, 'utf8');
+  const startIdx = content.indexOf('export const INITIAL_BLOG_POSTS: BlogPost[] = [');
+  const endIdx = content.indexOf('export const INITIAL_COMPARISONS: ProductComparison[] = [');
+  if (startIdx !== -1 && endIdx !== -1) {
+    const block = content.slice(startIdx, endIdx);
+    const matches = [...block.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"slug":\s*"([^"]+)"/g)];
+    matches.forEach(m => {
+      featureUrls.push(`https://${host}/features/${m[1]}`);
+      if (m[2] !== m[1]) featureUrls.push(`https://${host}/features/${m[2]}`);
+    });
+  }
+}
+
 const urlList = [
   `https://${host}/`,
   `https://${host}/blogs`,
+  `https://${host}/features`,
+  ...featureUrls,
   ...articleIds.slice(0, 1000).map(id => `https://${host}/articles/${id}`)
 ];
 

@@ -35,6 +35,9 @@ export interface RakutenProductArticle {
   priceRange?: string;
   isHallOfFame?: boolean;
   buyIntentKeywords?: string[];
+  content?: string;
+  description?: string;
+  author?: string;
 }
 
 export interface AuthorProfile {

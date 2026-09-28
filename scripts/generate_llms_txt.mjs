@@ -25,10 +25,19 @@ const comparisons = [
   { id: 'romand-vs-kate', title: 'rom&nd ジューシーラスティングティント VS KATE リップモンスター' }
 ];
 
-const blogs = [
-  { id: 'blog-men-summer-2026', title: '2026年最新【メンズコスメ徹底検証】夏汗・ニオイ・皮脂くずれ完全対策ガイド' },
-  { id: 'blog-women-summer-2026', title: '2026年夏【ベスコス＆トレンド美容】透明感爆上げ・紫外線＆汗に負けない徹底解説' }
-];
+// Extract all blog posts dynamically from data.ts
+const blogs = [];
+const dataTsPath = path.resolve(process.cwd(), 'src', 'data.ts');
+if (fs.existsSync(dataTsPath)) {
+  const content = fs.readFileSync(dataTsPath, 'utf8');
+  const startIdx = content.indexOf('export const INITIAL_BLOG_POSTS: BlogPost[] = [');
+  const endIdx = content.indexOf('export const INITIAL_COMPARISONS: ProductComparison[] = [');
+  if (startIdx !== -1 && endIdx !== -1) {
+    const block = content.slice(startIdx, endIdx);
+    const matches = [...block.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"title":\s*"([^"]+)"/g)];
+    matches.forEach(m => blogs.push({ id: m[1], title: m[2] }));
+  }
+}
 
 // Build concise llms.txt
 let llmsText = `# Qualia Navi (クオリア・ナビ)

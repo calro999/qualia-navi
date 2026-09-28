@@ -35,8 +35,8 @@ export function FeatureListPage({ articles, onNavigate }: FeatureListPageProps) 
       authorName: post.authorName || 'Qualia 美容分析室',
       authorRole: post.authorRole || '専属ビューティーアナリスト',
       authorAvatar: post.authorAvatar,
-      category: 'skincare',
-      categoryLabel: 'スキンケア特集',
+      category: post.title.includes('メイク') || post.title.includes('コフレ') || post.title.includes('ファンデ') ? 'makeup' : 'skincare',
+      categoryLabel: post.title.includes('コフレ') ? 'ホリデーコフレ特集' : post.title.includes('ファンデ') ? 'ベースメイク特集' : 'スキンケア特集',
       readTime: post.readTimeMinutes || 8,
       isBlog: true,
       linkPath: `/features/${post.id}`

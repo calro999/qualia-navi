@@ -45,10 +45,18 @@ const comparisons = [
   'romand-vs-kate'
 ];
 
-const blogs = [
-  'blog-men-summer-2026',
-  'blog-women-summer-2026'
-];
+// Extract all blog post IDs and slugs from data.ts
+const blogs = [];
+const blogStartIdx = content.indexOf('export const INITIAL_BLOG_POSTS: BlogPost[] = [');
+const blogEndIdx = content.indexOf('export const INITIAL_COMPARISONS: ProductComparison[] = [');
+if (blogStartIdx !== -1 && blogEndIdx !== -1) {
+  const block = content.slice(blogStartIdx, blogEndIdx);
+  const idMatches = [...block.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"slug":\s*"([^"]+)"/g)];
+  idMatches.forEach(m => {
+    if (!blogs.includes(m[1])) blogs.push(m[1]);
+    if (!blogs.includes(m[2])) blogs.push(m[2]);
+  });
+}
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -110,11 +118,14 @@ const host = 'qualia-navi.vercel.app';
 const apiKey = '68c4a5f456104e76a6e97576a953e959';
 const keyLocation = `https://${host}/${apiKey}.txt`;
 
-// Send up to 500 latest URLs to IndexNow with correct /articles/ path
+// Send up to 500 latest URLs to IndexNow with correct /articles/ and /features/ path
 const targetUrls = [
   `https://${host}/`,
   `https://${host}/sitemap`,
   `https://${host}/blogs`,
+  `https://${host}/features`,
+  ...blogs.map(b => `https://${host}/features/${b}`),
+  ...comparisons.map(c => `https://${host}/comparisons/${c}`),
   ...articleIds.slice(0, 500).map(id => `https://${host}/articles/${id}`)
 ];
 

@@ -1,8 +1,11 @@
 import React from 'react';
 import { INITIAL_COMPARISONS, INITIAL_ARTICLES } from '../data';
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
+import { TableOfContents } from '../components/TableOfContents';
+import { ShareButtons } from '../components/ShareButtons';
 import { getRakutenOptimizedImageUrl, handleImageError } from '../utils/imageHelper';
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
+import { generateOptimizedComparisonTitle } from '../utils/seoKeywords';
 import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft } from 'lucide-react';
 import { RakutenBeginnerGuideBanner } from '../components/RakutenBeginnerGuideBanner';
 
@@ -34,9 +37,9 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
 
   React.useEffect(() => {
     updateSeoGeoMetadata({
-      title: `${comparison.title} | Qualia Navi`,
+      title: generateOptimizedComparisonTitle(comparison),
       description: comparison.subtitle,
-      urlPath: `/compare/${comparison.id}`
+      urlPath: `/comparisons/${comparison.id}`
     });
   }, [comparison]);
 
@@ -199,6 +202,9 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
             </div>
           </div>
 
+          {/* 目次 */}
+          <TableOfContents content={comparison.contentMarkdown || ''} />
+
           {/* Comparison Points Matrix */}
           <div className="space-y-4 pt-8 border-t border-slate-200">
             <h3 className="text-lg font-extrabold text-slate-900 font-serif-brand">使用シーン別・勝者判定マトリクス</h3>
@@ -216,6 +222,9 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
           <div className="prose max-w-none text-slate-800 leading-relaxed border-t border-slate-200 pt-8 font-normal">
             <MarkdownRenderer content={comparison.contentMarkdown} onNavigate={onNavigate} />
           </div>
+
+          {/* SNS Share & Bookmark */}
+          <ShareButtons title={comparison.title} description={comparison.subtitle} />
 
           {/* 初めて楽天市場を利用する方向けの安心購入・攻略ガイドへの導線 */}
           <RakutenBeginnerGuideBanner onNavigate={onNavigate} />

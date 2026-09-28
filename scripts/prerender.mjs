@@ -34,10 +34,19 @@ const comparisons = [
   { id: 'romand-vs-kate', title: '【韓国リップ対決】ロムアンド vs KATE 人気色＆ツヤ持ち比較' }
 ];
 
-const blogs = [
-  { id: 'blog-men-summer-2026', title: '【2026年最新】メンズ夏の身だしなみ＆制汗・スキンケア完全ガイド' },
-  { id: 'blog-women-summer-2026', title: '【2026年最新】猛暑でも崩れない！夏コスメ＆UV対策おすすめベストセラー' }
-];
+// Extract all blog posts dynamically from data.ts
+const blogs = [];
+const dataTsPath = path.join(projectRoot, 'src', 'data.ts');
+if (fs.existsSync(dataTsPath)) {
+  const content = fs.readFileSync(dataTsPath, 'utf8');
+  const startIdx = content.indexOf('export const INITIAL_BLOG_POSTS: BlogPost[] = [');
+  const endIdx = content.indexOf('export const INITIAL_COMPARISONS: ProductComparison[] = [');
+  if (startIdx !== -1 && endIdx !== -1) {
+    const block = content.slice(startIdx, endIdx);
+    const matches = [...block.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"slug":\s*"([^"]+)"[\s\S]*?"title":\s*"([^"]+)"[\s\S]*?"subtitle":\s*"([^"]+)"/g)];
+    matches.forEach(m => blogs.push({ id: m[1], slug: m[2], title: m[3], subtitle: m[4] }));
+  }
+}
 
 function escapeHtml(str) {
   if (!str) return '';
@@ -223,8 +232,29 @@ let prerenderedCount = 0;
 articles.forEach((art, index) => {
   const articleId = art.id || art.slug;
   const canonicalUrl = `https://qualia-navi.vercel.app/articles/${articleId}`;
-  const title = escapeHtml(art.title || `${art.productName || 'コスメ'} 徹底検証・口コミ`);
-  const description = escapeHtml(art.introText || art.description || `${art.productName || 'コスメ'}の成分、効果、口コミ、最安値を徹底解説。`);
+  
+  // ロングテールSEO最適化タイトル
+  const rawName = art.productName || art.title || 'コスメ';
+  const rawCategory = art.categoryLabel || art.category || '';
+  let benefitKw = '口コミ評判・最安値';
+  if (rawCategory.includes('スキンケア') || rawCategory.includes('skincare')) {
+    benefitKw = '口コミ・保湿効果・最安値本音レビュー';
+  } else if (rawCategory.includes('UV') || rawCategory.includes('日焼け止め') || rawCategory.includes('suncare')) {
+    benefitKw = '焼けない？口コミ・落とし方・最安値検証';
+  } else if (rawCategory.includes('リップ') || rawCategory.includes('メイク') || rawCategory.includes('makeup')) {
+    benefitKw = '色持ち・口コミ・最安値本音レビュー';
+  } else if (rawCategory.includes('ヘアケア') || rawCategory.includes('haircare')) {
+    benefitKw = 'ツヤ・まとまり口コミ・最安値比較';
+  }
+  const fullTitleText = rawName.includes('【') && rawName.includes('】') ? rawName : `【2026年最新】${rawName}の${benefitKw} | Qualia Navi`;
+  const title = escapeHtml(fullTitleText);
+
+  // クリック率（CTR）最適化ディスクリプション
+  const rawPrice = art.rakutenPrice ? `参考価格: ${art.rakutenPrice}。` : '';
+  const rawPros = art.pros && art.pros.length > 0 ? `注目ポイント: ${art.pros.slice(0, 2).join('、')}。` : '';
+  const fullDescText = `【2026最新】${rawName}のリアルな口コミ・使い心地・成分特徴をQualia美容分析室が徹底検証！${rawPros}${rawPrice}楽天市場の最安値・在庫情報をリアルタイムでお届けします。`.slice(0, 155);
+  const description = escapeHtml(fullDescText);
+
   const image = normalizeImageUrl(art.imageUrl || art.image);
   const categoryLabel = escapeHtml(art.categoryLabel || art.category || '美容・コスメ特集');
 
@@ -392,12 +422,13 @@ articles.forEach((art, index) => {
   `;
 
   // HTMLメタ挿入
+  const cleanHeadTitle = title.includes('| Qualia Navi') ? title : `${title} | Qualia Navi`;
   let customHtml = templateHtml
-    .replace(/<title>.*?<\/title>/, `<title>${title} | Qualia Navi</title>`)
+    .replace(/<title>.*?<\/title>/, `<title>${cleanHeadTitle}</title>`)
     .replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${description}" />`)
     .replace('</head>', `
       <link rel="canonical" href="${canonicalUrl}" />
-      <meta property="og:title" content="${title}" />
+      <meta property="og:title" content="${cleanHeadTitle}" />
       <meta property="og:description" content="${description}" />
       <meta property="og:url" content="${canonicalUrl}" />
       <meta property="og:image" content="${image}" />
@@ -434,11 +465,11 @@ comparisons.forEach((comp) => {
   prerenderedCount++;
 });
 
-// 3. ブログページのプリレンダリング
+// 3. ブログ・特集ページのプリレンダリング
 blogs.forEach((blog) => {
-  const canonicalUrl = `https://qualia-navi.vercel.app/blogs/${blog.id}`;
+  const canonicalUrl = `https://qualia-navi.vercel.app/features/${blog.slug || blog.id}`;
   const title = escapeHtml(blog.title);
-  const description = escapeHtml(`${blog.title}の特選ガイド。プロが選ぶおすすめコスメ＆ケアアイテム情報。`);
+  const description = escapeHtml(blog.subtitle || `${blog.title}の特選ガイド。プロが選ぶおすすめコスメ＆ケアアイテム情報。`);
 
   let customHtml = templateHtml
     .replace(/<title>.*?<\/title>/, `<title>${title} | Qualia Navi</title>`)
@@ -446,11 +477,26 @@ blogs.forEach((blog) => {
     .replace('</head>', `<link rel="canonical" href="${canonicalUrl}" /></head>`)
     .replace('<div id="root"></div>', `<div id="root"><article style="padding:24px 20px;max-width:860px;margin:0 auto;"><h1 style="font-size:1.85rem;line-height:1.45;color:#0f172a;font-weight:800;">${title}</h1><p style="color:#475569;font-size:1.05rem;line-height:1.7;">${description}</p></article></div>`);
 
-  const targetDir = path.join(distDir, 'blogs', blog.id);
-  fs.mkdirSync(targetDir, { recursive: true });
-  fs.writeFileSync(path.join(targetDir, 'index.html'), customHtml, 'utf8');
+  // /blogs/
+  const targetDirBlog = path.join(distDir, 'blogs', blog.id);
+  fs.mkdirSync(targetDirBlog, { recursive: true });
+  fs.writeFileSync(path.join(targetDirBlog, 'index.html'), customHtml, 'utf8');
   fs.writeFileSync(path.join(distDir, 'blogs', `${blog.id}.html`), customHtml, 'utf8');
-  prerenderedCount++;
+
+  // /features/
+  const targetDirFeatId = path.join(distDir, 'features', blog.id);
+  fs.mkdirSync(targetDirFeatId, { recursive: true });
+  fs.writeFileSync(path.join(targetDirFeatId, 'index.html'), customHtml, 'utf8');
+  fs.writeFileSync(path.join(distDir, 'features', `${blog.id}.html`), customHtml, 'utf8');
+
+  if (blog.slug && blog.slug !== blog.id) {
+    const targetDirFeatSlug = path.join(distDir, 'features', blog.slug);
+    fs.mkdirSync(targetDirFeatSlug, { recursive: true });
+    fs.writeFileSync(path.join(targetDirFeatSlug, 'index.html'), customHtml, 'utf8');
+    fs.writeFileSync(path.join(distDir, 'features', `${blog.slug}.html`), customHtml, 'utf8');
+  }
+
+  prerenderedCount += 2;
 });
 
 

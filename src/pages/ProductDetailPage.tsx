@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { RakutenProductArticle } from '../types';
 import { AUTHOR_PROFILES, INITIAL_COMPARISONS } from '../data';
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
+import { TableOfContents } from '../components/TableOfContents';
+import { ShareButtons } from '../components/ShareButtons';
 import { InternalLinkMesh } from '../components/InternalLinkMesh';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { generateProductJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
-import { ShoppingCart, ExternalLink, Star, CheckCircle, ShieldCheck, ArrowLeft } from 'lucide-react';
+import { generateOptimizedProductTitle, generateOptimizedProductDescription } from '../utils/seoKeywords';
+import { isFavorite, toggleFavorite } from '../utils/favorites';
+import { ShoppingCart, ExternalLink, Star, CheckCircle, ShieldCheck, ArrowLeft, Heart } from 'lucide-react';
 import { getCleanAffiliateLink, deduplicateArticles } from '../utils/productUtils';
 import { RakutenBeginnerGuideBanner, RAKUTEN_BEGINNER_GUIDE_ID } from '../components/RakutenBeginnerGuideBanner';
 
@@ -176,14 +180,31 @@ function inlineMarkdown(text: string): string {
 
 export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDetailPageProps) {
   const article = articles.find((a) => a.id === articleId || a.itemCode === articleId);
+  const [favorited, setFavorited] = useState(false);
+
+  useEffect(() => {
+    if (article) {
+      setFavorited(isFavorite(article.id) || (article.itemCode ? isFavorite(article.itemCode) : false));
+    }
+  }, [article]);
+
+  const handleToggleFavorite = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (!article) return;
+    const targetId = article.id || article.itemCode;
+    const nextState = toggleFavorite(targetId);
+    setFavorited(nextState);
+  };
 
   React.useEffect(() => {
     if (article) {
       try {
         const jsonLd = generateProductJsonLd(article as any, window.location.origin);
+        const optTitle = generateOptimizedProductTitle(article);
+        const optDesc = generateOptimizedProductDescription(article);
         updateSeoGeoMetadata({
-          title: `【2026年最新】${article.productName || article.title}の口コミ・評判・最安値を徹底比較検証 | Qualia Navi`,
-          description: article.introText || (article as any).description || '',
+          title: optTitle,
+          description: optDesc,
           imageUrl: article.imageUrl || (article as any).image || '',
           urlPath: `/articles/${article.id}`,
           jsonLdSchema: jsonLd
@@ -229,18 +250,32 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
           </button>
 
           <article className="qualia-glass-card rounded-3xl p-6 sm:p-10 space-y-8 border border-rose-100">
-            {/* Breadcrumb */}
-            <nav className="flex items-center gap-2 text-xs sm:text-sm text-slate-500 flex-wrap">
-              <button onClick={() => onNavigate('/')} className="hover:text-rose-600 transition">コスメTOP</button>
-              <span>/</span>
-              <button onClick={() => onNavigate('/features')} className="hover:text-rose-600 transition">記事特集</button>
-              <span>/</span>
-              <span className="text-rose-700 font-bold bg-rose-50 px-2.5 py-0.5 rounded-md text-xs border border-rose-100">
-                {ca.category}
-              </span>
-              <span>/</span>
-              <span className="text-slate-800 font-bold truncate max-w-[200px]">{ca.title}</span>
-            </nav>
+            {/* Breadcrumb & Favorite */}
+            <div className="flex items-center justify-between gap-4 flex-wrap">
+              <nav className="flex items-center gap-2 text-xs sm:text-sm text-slate-500 flex-wrap">
+                <button onClick={() => onNavigate('/')} className="hover:text-rose-600 transition">コスメTOP</button>
+                <span>/</span>
+                <button onClick={() => onNavigate('/features')} className="hover:text-rose-600 transition">記事特集</button>
+                <span>/</span>
+                <span className="text-rose-700 font-bold bg-rose-50 px-2.5 py-0.5 rounded-md text-xs border border-rose-100">
+                  {ca.category}
+                </span>
+                <span>/</span>
+                <span className="text-slate-800 font-bold truncate max-w-[200px]">{ca.title}</span>
+              </nav>
+
+              <button
+                onClick={handleToggleFavorite}
+                className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all shadow-xs cursor-pointer border ${
+                  favorited
+                    ? 'bg-rose-500 text-white border-rose-500'
+                    : 'bg-white hover:bg-rose-50 text-rose-600 border-rose-200'
+                }`}
+              >
+                <Heart className={`w-4 h-4 ${favorited ? 'fill-white' : ''}`} />
+                <span>{favorited ? 'キープ中' : 'キープ・お気に入り'}</span>
+              </button>
+            </div>
 
             {/* Title */}
             <div className="space-y-3">
@@ -271,11 +306,17 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
               <span className="text-xs text-rose-700 font-bold hidden sm:inline">プロフィール ➔</span>
             </div>
 
-            {/* Main Content - 生HTMLとMarkdownの混在コンテンツをそのままレンダリング */}
+            {/* 目次 */}
+            <TableOfContents content={ca.content || ''} />
+
+            {/* Main Content */}
             <div
               className="prose max-w-none text-slate-800 leading-relaxed font-normal content-article-body"
               dangerouslySetInnerHTML={{ __html: convertMixedContentToHtml(ca.content) }}
             />
+
+            {/* SNS Share */}
+            <ShareButtons title={ca.title} description={ca.description} />
 
             {/* Beginner Guide Banner（このページ自身には表示しない） */}
             {ca.id !== RAKUTEN_BEGINNER_GUIDE_ID && (
@@ -312,7 +353,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
                   ))}
               </div>
             </div>
-            <InternalLinkMesh currentArticleId={ca.id} category={ca.category} />
+            <InternalLinkMesh currentArticleId={ca.id} category={ca.category} onNavigate={onNavigate} />
           </article>
         </div>
       </div>
@@ -346,20 +387,34 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
         </button>
 
         <article className="qualia-glass-card rounded-3xl p-6 sm:p-10 space-y-8 border border-rose-100">
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-xs sm:text-sm text-slate-500 flex-wrap">
-            <button onClick={() => onNavigate('/')} className="hover:text-rose-600 transition">
-              コスメTOP
+          {/* Breadcrumb & Favorite */}
+          <div className="flex items-center justify-between gap-4 flex-wrap">
+            <nav className="flex items-center gap-2 text-xs sm:text-sm text-slate-500 flex-wrap">
+              <button onClick={() => onNavigate('/')} className="hover:text-rose-600 transition">
+                コスメTOP
+              </button>
+              <span>/</span>
+              <span className="text-rose-700 font-bold bg-rose-50 px-2.5 py-0.5 rounded-md text-xs border border-rose-100">
+                {article.categoryLabel || article.category}
+              </span>
+              <span>/</span>
+              <span className="text-slate-800 font-bold truncate max-w-[200px]">
+                {article.productName || article.title}
+              </span>
+            </nav>
+
+            <button
+              onClick={handleToggleFavorite}
+              className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all shadow-xs cursor-pointer border ${
+                favorited
+                  ? 'bg-rose-500 text-white border-rose-500'
+                  : 'bg-white hover:bg-rose-50 text-rose-600 border-rose-200'
+              }`}
+            >
+              <Heart className={`w-4 h-4 ${favorited ? 'fill-white' : ''}`} />
+              <span>{favorited ? 'キープ中' : 'キープ・お気に入り'}</span>
             </button>
-            <span>/</span>
-            <span className="text-rose-700 font-bold bg-rose-50 px-2.5 py-0.5 rounded-md text-xs border border-rose-100">
-              {article.categoryLabel || article.category}
-            </span>
-            <span>/</span>
-            <span className="text-slate-800 font-bold truncate max-w-[200px]">
-              {article.productName || article.title}
-            </span>
-          </nav>
+          </div>
 
           {/* Title Header */}
           <div className="space-y-3">
@@ -397,6 +452,9 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
             </div>
             <span className="text-xs text-rose-700 font-bold hidden sm:inline">プロフィール ➔</span>
           </div>
+
+          {/* 目次 */}
+          <TableOfContents content={article.reviewBody || ''} />
 
           {/* Intro Block */}
           <div className="bg-slate-900 text-white p-6 sm:p-8 rounded-3xl shadow-md space-y-2">
@@ -505,6 +563,10 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
           <div className="prose max-w-none text-slate-800 leading-relaxed font-normal mt-8 pt-8 border-t border-slate-200">
             <MarkdownRenderer content={article.reviewBody} onNavigate={onNavigate} />
           </div>
+
+          {/* SNS Share & Bookmark Buttons */}
+          <ShareButtons title={article.title} description={article.introText} />
+
           {/* FAQ Section */}
           {article.faqs && article.faqs.length > 0 && (
             <div className="mt-8 pt-8 border-t border-slate-200 space-y-6">
@@ -539,7 +601,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
             
             {relatedComparison && (
               <div 
-                onClick={() => onNavigate(`/compare/${relatedComparison.id}`)}
+                onClick={() => onNavigate(`/comparisons/${relatedComparison.id}`)}
                 className="mb-4 bg-gradient-to-r from-rose-50 to-pink-50 border border-rose-200 p-5 rounded-2xl cursor-pointer hover:shadow-md transition group"
               >
                 <div className="flex items-center gap-2 mb-2">
@@ -574,7 +636,7 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
               ))}
             </div>
           </div>
-          <InternalLinkMesh currentArticleId={article.id} category={article.category} />
+          <InternalLinkMesh currentArticleId={article.id} category={article.category} onNavigate={onNavigate} />
         </article>
       </div>
     </div>

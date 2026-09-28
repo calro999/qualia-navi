@@ -3,8 +3,9 @@ import { RakutenProductArticle } from '../types';
 import { CATEGORIES, INITIAL_COMPARISONS } from '../data';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
-import { Sparkles, ShoppingCart, ExternalLink, Star, Search, BookMarked, Layers, ArrowRight } from 'lucide-react';
+import { Sparkles, ShoppingCart, ExternalLink, Star, Search, BookMarked, Layers, ArrowRight, Heart } from 'lucide-react';
 import { deduplicateArticles, getCleanAffiliateLink } from '../utils/productUtils';
+import { isFavorite, toggleFavorite, getFavoriteIds } from '../utils/favorites';
 
 interface ProductListPageProps {
   articles: RakutenProductArticle[];
@@ -16,6 +17,22 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [showAllComparisons, setShowAllComparisons] = useState<boolean>(false);
   const [visibleProductCount, setVisibleProductCount] = useState<number>(12);
+  const [favoriteIds, setFavoriteIds] = useState<string[]>([]);
+
+  useEffect(() => {
+    setFavoriteIds(getFavoriteIds());
+    const handleUpdate = () => {
+      setFavoriteIds(getFavoriteIds());
+    };
+    window.addEventListener('qualia_favorites_updated', handleUpdate);
+    return () => window.removeEventListener('qualia_favorites_updated', handleUpdate);
+  }, []);
+
+  const handleToggleCardFavorite = (id: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    toggleFavorite(id);
+    setFavoriteIds(getFavoriteIds());
+  };
 
   useEffect(() => {
     updateSeoGeoMetadata({
@@ -117,29 +134,52 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
       {/* VS Comparison Featured Grid */}
       <div className="space-y-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-lg sm:text-xl font-bold font-serif-brand text-slate-900 flex items-center gap-2 border-l-4 border-rose-500 pl-3">
-            <span>⚔️ 目的別コスメガチンコ比較</span>
-          </h2>
+          <div className="flex items-center gap-2">
+            <span className="text-xl">⚔️</span>
+            <h2 className="text-lg sm:text-xl font-bold font-serif-brand text-slate-900 border-l-4 border-rose-500 pl-3">
+              注目のコスメVS対決比較（全{INITIAL_COMPARISONS.length}件）
+            </h2>
+          </div>
+          <button
+            onClick={() => onNavigate('/comparisons')}
+            className="text-xs font-bold text-rose-600 hover:text-rose-800 flex items-center gap-1 cursor-pointer transition-colors"
+          >
+            <span>すべての比較を見る ➔</span>
+          </button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {displayedComparisons.map((comp) => (
             <div
               key={comp.id}
               onClick={() => onNavigate(`/comparisons/${comp.id}`)}
-              className="qualia-glass-card p-5 rounded-2xl cursor-pointer hover:border-rose-300 transition-all duration-300 group flex flex-col justify-between"
+              className="qualia-glass-card rounded-2xl p-3.5 cursor-pointer hover:border-purple-300 transition-all duration-300 group flex flex-col justify-between shadow-xs hover:shadow-md"
             >
-              <div className="space-y-2">
-                <span className="inline-block px-2.5 py-0.5 bg-rose-100 text-rose-700 text-xs font-bold rounded-md">
-                  {comp.targetUserCategory}
-                </span>
-                <h3 className="font-extrabold text-slate-900 text-base leading-snug group-hover:text-rose-600 transition-colors font-serif-brand">
-                  {comp.title}
-                </h3>
+              <div className="space-y-2.5">
+                <div className="relative aspect-video rounded-xl overflow-hidden bg-slate-100 border border-slate-100">
+                  <img
+                    src={comp.coverImage}
+                    alt={comp.title}
+                    referrerPolicy="no-referrer"
+                    onError={handleImageError}
+                    className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <span className="absolute top-2 left-2 px-2 py-0.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-black text-[10px] rounded-md shadow-xs">
+                    VS対決
+                  </span>
+                </div>
+                <div>
+                  <span className="inline-block px-2 py-0.5 bg-purple-50 text-purple-700 text-[10px] font-bold rounded-md mb-1">
+                    {comp.targetUserCategory}
+                  </span>
+                  <h3 className="font-extrabold text-slate-900 text-xs sm:text-sm leading-snug group-hover:text-purple-600 transition-colors font-serif-brand line-clamp-2">
+                    {comp.title}
+                  </h3>
+                </div>
               </div>
 
-              <div className="pt-3 mt-3 border-t border-rose-100 flex items-center justify-between text-xs font-bold text-rose-600 group-hover:translate-x-1 transition-transform">
-                <span>比較結果を見る</span>
+              <div className="pt-2.5 mt-2.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-purple-600 group-hover:translate-x-1 transition-transform">
+                <span>勝敗判定を見る</span>
                 <span>➔</span>
               </div>
             </div>
@@ -149,9 +189,9 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           <div className="flex justify-center pt-2">
             <button
               onClick={() => setShowAllComparisons(true)}
-              className="px-6 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold rounded-full transition-colors flex items-center gap-2 cursor-pointer"
+              className="px-6 py-2.5 bg-purple-50 hover:bg-purple-100 text-purple-700 text-xs font-bold rounded-full transition-colors flex items-center gap-2 cursor-pointer border border-purple-200 shadow-xs"
             >
-              ＋ 他の比較を見る
+              <span>＋ 比較記事をもっと見る（全{INITIAL_COMPARISONS.length}件）</span>
             </button>
           </div>
         )}
@@ -247,6 +287,19 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
                 <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
                 {(typeof art.starRating === 'number' ? art.starRating : 4.8).toFixed(1)}
               </span>
+
+              {/* Keep (Favorite) Button */}
+              <button
+                onClick={(e) => handleToggleCardFavorite(art.id, e)}
+                title="お気に入りにキープ"
+                className={`absolute bottom-3 right-3 p-2 rounded-full backdrop-blur-md transition-all shadow-xs ${
+                  favoriteIds.includes(art.id)
+                    ? 'bg-rose-500 text-white shadow-rose-300'
+                    : 'bg-white/90 text-slate-400 hover:text-rose-500 hover:bg-white border border-slate-200/60'
+                }`}
+              >
+                <Heart className={`w-4 h-4 ${favoriteIds.includes(art.id) ? 'fill-white' : ''}`} />
+              </button>
             </div>
 
             {/* Product Info */}

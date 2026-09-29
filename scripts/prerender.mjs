@@ -43,8 +43,19 @@ if (fs.existsSync(dataTsPath)) {
   const endIdx = content.indexOf('export const INITIAL_COMPARISONS: ProductComparison[] = [');
   if (startIdx !== -1 && endIdx !== -1) {
     const block = content.slice(startIdx, endIdx);
-    const matches = [...block.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"slug":\s*"([^"]+)"[\s\S]*?"title":\s*"([^"]+)"[\s\S]*?"subtitle":\s*"([^"]+)"/g)];
-    matches.forEach(m => blogs.push({ id: m[1], slug: m[2], title: m[3], subtitle: m[4] }));
+    // id and slug are guaranteed, title is guaranteed, subtitle or excerpt is optional
+    const matches = [...block.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"slug":\s*"([^"]+)"[\s\S]*?"title":\s*"([^"]+)"/g)];
+    matches.forEach(m => {
+      const id = m[1];
+      const slug = m[2];
+      const title = m[3];
+      // find excerpt or subtitle within the same object
+      const itemStart = block.indexOf(`"id": "${id}"`);
+      const itemEnd = block.indexOf('}', itemStart);
+      const itemBlock = itemStart !== -1 && itemEnd !== -1 ? block.slice(itemStart, itemEnd) : '';
+      const subMatch = itemBlock.match(/"subtitle":\s*"([^"]+)"/) || itemBlock.match(/"excerpt":\s*"([^"]+)"/);
+      blogs.push({ id, slug, title, subtitle: subMatch ? subMatch[1] : '' });
+    });
   }
 }
 

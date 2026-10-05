@@ -67,7 +67,7 @@ export default function App() {
       );
     }
 
-    if (currentPath === '/features') {
+    if (currentPath === '/features' || currentPath === '/blogs') {
       return <FeatureListPage articles={articles} onNavigate={navigateTo} />;
     }
 
@@ -81,12 +81,32 @@ export default function App() {
       );
     }
 
-    if (currentPath === '/comparisons') {
+    if (currentPath.startsWith('/blogs/')) {
+      const postId = currentPath.replace('/blogs/', '');
+      return (
+        <BlogPostPage
+          postId={postId}
+          onNavigate={navigateTo}
+        />
+      );
+    }
+
+    if (currentPath === '/comparisons' || currentPath === '/compare') {
       return <ComparisonListPage onNavigate={navigateTo} />;
     }
 
     if (currentPath.startsWith('/comparisons/')) {
       const compareId = currentPath.replace('/comparisons/', '');
+      return (
+        <ProductComparisonPage
+          compareId={compareId}
+          onNavigate={navigateTo}
+        />
+      );
+    }
+
+    if (currentPath.startsWith('/compare/')) {
+      const compareId = currentPath.replace('/compare/', '');
       return (
         <ProductComparisonPage
           compareId={compareId}
@@ -123,6 +143,12 @@ export default function App() {
 
   return (
     <div className="min-h-screen qualia-light-bg text-slate-800 font-sans selection:bg-rose-500 selection:text-white">
+      {/* 景品表示法・ステマ規制対応 PR / アフィリエイト広告開示バー */}
+      <div className="bg-rose-50/90 border-b border-rose-100 text-slate-500 text-[11px] py-1.5 px-4 text-center">
+        <span className="inline-block bg-rose-200/80 text-rose-800 font-bold px-1.5 py-0.5 rounded mr-1.5 text-[10px]">PR</span>
+        当サイトは楽天アフィリエイト等の広告プログラムを利用して商品をご紹介しています。価格・在庫状況は各ECサイトの最新情報をご確認ください。
+      </div>
+
       {/* Top Header Navigation */}
       <header className="bg-white/95 backdrop-blur-md border-b border-rose-100 sticky top-0 z-30 shadow-xs">
         <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4 flex flex-col sm:flex-row items-center justify-between gap-3">

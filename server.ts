@@ -82,7 +82,10 @@ app.get("/sitemap.xml", (req, res) => {
   xml += `  </url>\n`;
 
   // Category Pages
-  const categories = ['gadgets', 'pc', 'kitchen', 'beauty', 'fashion', 'books-games'];
+  const categories = [
+    'skincare', 'suncare', 'makeup', 'lip', 'device', 
+    'k-beauty', 'bodycare', 'haircare', 'oralcare', 'supplement'
+  ];
   categories.forEach(cat => {
     xml += `  <url>\n`;
     xml += `    <loc>${baseUrl}/?category=${cat}</loc>\n`;
@@ -95,7 +98,7 @@ app.get("/sitemap.xml", (req, res) => {
   // Articles
   INITIAL_ARTICLES.forEach(article => {
     xml += `  <url>\n`;
-    xml += `    <loc>${baseUrl}/article/${article.id}</loc>\n`;
+    xml += `    <loc>${baseUrl}/articles/${article.id}</loc>\n`;
     xml += `    <lastmod>${article.createdAt ? new Date(article.createdAt).toISOString() : now}</lastmod>\n`;
     xml += `    <changefreq>weekly</changefreq>\n`;
     xml += `    <priority>0.9</priority>\n`;

@@ -9,7 +9,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-10-05
-- **Total Articles**: 5634 件の個別詳細レビュー
+- **Total Articles**: 1395 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
@@ -225,7 +225,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026冬最新】【国内正規品】Obagi オバジX フレームリフトムースウォッシュ (炭酸泡洗顔) の口コミ評判・成分・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b44-wash-3-me10000194): スキンケア・洗顔料・洗顔フォーム・保湿洗顔・アミノ酸洗顔・炭酸泡洗顔・クッション泡・カネボウ・オルビス・オバジ・ポーラ・ミノン・2026冬スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026冬最新】【店舗ご新規様限定送料無料クーポンあり】オルビス ユードット フォーミングウォッシュの口コミ評判・成分・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b44-wash-2-op10000567): スキンケア・洗顔料・洗顔フォーム・保湿洗顔・アミノ酸洗顔・炭酸泡洗顔・クッション泡・カネボウ・オルビス・オバジ・ポーラ・ミノン・2026冬スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026冬最新】●ポイント10倍＆割引クーポン●KANEBO カネボウ コンフォート ストレッチィ の口コミ評判・成分・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b44-wash-1-va10008077): スキンケア・洗顔料・洗顔フォーム・保湿洗顔・アミノ酸洗顔・炭酸泡洗顔・クッション泡・カネボウ・オルビス・オバジ・ポーラ・ミノン・2026冬スキンケア (評価: ★4.8 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (5634件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (1395件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

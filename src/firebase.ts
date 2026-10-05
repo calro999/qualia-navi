@@ -127,7 +127,7 @@ export function subscribeToSettings(
     if (docSnap.exists()) {
       const data = docSnap.data();
       onUpdate({
-        associateId: data.associateId || 'mattan0290c-22',
+        associateId: data.associateId || '54d2a438.4bc4abc2.54d2a439.aa1be583',
         fallbackAdUrl: data.fallbackAdUrl || 'https://www.rakuten.co.jp',
       });
     }

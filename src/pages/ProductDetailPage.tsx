@@ -179,8 +179,29 @@ function inlineMarkdown(text: string): string {
 }
 
 export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDetailPageProps) {
-  const article = articles.find((a) => a.id === articleId || a.itemCode === articleId);
+  const catalogArticle = articles.find((a) => a.id === articleId || a.itemCode === articleId);
+  const [article, setArticle] = useState<RakutenProductArticle | null>(catalogArticle || null);
   const [favorited, setFavorited] = useState(false);
+
+  useEffect(() => {
+    const current = articles.find((a) => a.id === articleId || a.itemCode === articleId);
+    if (current && current.content) {
+      setArticle(current);
+    } else {
+      fetch(`/data/articles/${articleId}.json`)
+        .then(res => res.ok ? res.json() : null)
+        .then(data => {
+          if (data) {
+            setArticle(data);
+          } else if (current) {
+            setArticle(current);
+          }
+        })
+        .catch(() => {
+          if (current) setArticle(current);
+        });
+    }
+  }, [articleId, articles]);
 
   useEffect(() => {
     if (article) {

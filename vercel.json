@@ -16,24 +16,24 @@
       "permanent": true
     },
     {
+      "source": "/features/(.*)/",
+      "destination": "/features/$1",
+      "permanent": true
+    },
+    {
       "source": "/compare/(.*)/",
       "destination": "/compare/$1",
       "permanent": true
     },
     {
-      "source": "/comparisons/(.*)",
-      "destination": "/compare/$1",
-      "permanent": true
-    },
-    {
-      "source": "/features/(.*)",
-      "destination": "/articles/$1",
+      "source": "/comparisons/(.*)/",
+      "destination": "/comparisons/$1",
       "permanent": true
     }
   ],
   "rewrites": [
     {
-      "source": "/((?!assets/|images/|api/|.*\\..*).*)",
+      "source": "/((?!assets/|images/|api/|data/|.*\\..*).*)",
       "destination": "/index.html"
     }
   ]

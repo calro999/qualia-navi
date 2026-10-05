@@ -9,15 +9,33 @@ interface AuthorDetailPageProps {
 }
 
 export function AuthorDetailPage({ authorId, onNavigate }: AuthorDetailPageProps) {
-  const author = AUTHOR_PROFILES.find((a) => a.id === authorId) || AUTHOR_PROFILES[0];
+  const author = AUTHOR_PROFILES.find((a) => a.id === authorId);
 
   React.useEffect(() => {
-    updateSeoGeoMetadata({
-      title: `${author.name} (${author.role}) プロフィール | Qualia 美容分析室`,
-      description: author.bio,
-      urlPath: `/authors/${author.id}`
-    });
+    if (author) {
+      updateSeoGeoMetadata({
+        title: `${author.name} (${author.role}) プロフィール | Qualia 美容分析室`,
+        description: author.bio,
+        urlPath: `/authors/${author.id}`
+      });
+    }
   }, [author]);
+
+  if (!author) {
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-16 text-center qualia-glass-card rounded-3xl space-y-4 my-8 border border-rose-100">
+        <h2 className="text-xl font-bold text-slate-800 font-serif-brand">
+          指定されたメンバープロフィールが見つかりませんでした。
+        </h2>
+        <button
+          onClick={() => onNavigate('/authors')}
+          className="gold-btn px-6 py-2.5 rounded-xl transition cursor-pointer"
+        >
+          メンバー一覧へ戻る
+        </button>
+      </div>
+    );
+  }
 
   return (
     <div className="py-6 px-4 sm:px-6">

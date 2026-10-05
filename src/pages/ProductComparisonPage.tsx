@@ -30,18 +30,36 @@ interface ProductComparisonPageProps {
 }
 
 export function ProductComparisonPage({ compareId, onNavigate }: ProductComparisonPageProps) {
-  const comparison = INITIAL_COMPARISONS.find((c) => c.id === compareId || c.slug === compareId) || INITIAL_COMPARISONS[0];
-
-  const itemA = INITIAL_ARTICLES.find((a) => a.itemCode === comparison.productItemCodeA || a.id === comparison.productItemCodeA) || INITIAL_ARTICLES[0];
-  const itemB = INITIAL_ARTICLES.find((a) => a.itemCode === comparison.productItemCodeB || a.id === comparison.productItemCodeB) || INITIAL_ARTICLES[2];
+  const comparison = INITIAL_COMPARISONS.find((c) => c.id === compareId || c.slug === compareId);
 
   React.useEffect(() => {
-    updateSeoGeoMetadata({
-      title: generateOptimizedComparisonTitle(comparison),
-      description: comparison.subtitle,
-      urlPath: `/comparisons/${comparison.id}`
-    });
+    if (comparison) {
+      updateSeoGeoMetadata({
+        title: generateOptimizedComparisonTitle(comparison),
+        description: comparison.subtitle,
+        urlPath: `/comparisons/${comparison.id}`
+      });
+    }
   }, [comparison]);
+
+  if (!comparison) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-16 text-center qualia-glass-card rounded-3xl space-y-4 my-8 border border-rose-100">
+        <h2 className="text-xl font-bold text-slate-800 font-serif-brand">
+          指定された対決比較ページが見つかりませんでした。
+        </h2>
+        <button
+          onClick={() => onNavigate('/comparisons')}
+          className="gold-btn px-6 py-2.5 rounded-xl transition cursor-pointer"
+        >
+          比較一覧へ戻る
+        </button>
+      </div>
+    );
+  }
+
+  const itemA = INITIAL_ARTICLES.find((a) => a.itemCode === comparison.productItemCodeA || a.id === comparison.productItemCodeA) || INITIAL_ARTICLES[0];
+  const itemB = INITIAL_ARTICLES.find((a) => a.itemCode === comparison.productItemCodeB || a.id === comparison.productItemCodeB) || INITIAL_ARTICLES[1];
 
   const relatedArticles = React.useMemo(() => {
     return INITIAL_ARTICLES.filter(

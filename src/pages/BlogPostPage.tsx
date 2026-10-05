@@ -14,7 +14,7 @@ interface BlogPostPageProps {
 }
 
 export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
-  const post = INITIAL_BLOG_POSTS.find((p) => p.id === postId || p.slug === postId) || INITIAL_BLOG_POSTS[0];
+  const post = INITIAL_BLOG_POSTS.find((p) => p.id === postId || p.slug === postId);
 
   React.useEffect(() => {
     if (post) {
@@ -28,6 +28,22 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
       });
     }
   }, [post]);
+
+  if (!post) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-16 text-center qualia-glass-card rounded-3xl space-y-4 my-8 border border-rose-100">
+        <h2 className="text-xl font-bold text-slate-800 font-serif-brand">
+          指定された特集記事が見つかりませんでした。
+        </h2>
+        <button
+          onClick={() => onNavigate('/features')}
+          className="gold-btn px-6 py-2.5 rounded-xl transition cursor-pointer"
+        >
+          記事特集一覧へ戻る
+        </button>
+      </div>
+    );
+  }
 
   const recommendedItems = INITIAL_ARTICLES.filter((item) =>
     post.recommendedItemCodes?.includes(item.itemCode) || post.recommendedItemCodes?.includes(item.id)

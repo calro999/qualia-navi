@@ -1,5 +1,5 @@
 import { RakutenProductArticle, AuthorProfile, BlogPost, ProductComparison, CategorySpec } from './types';
-import generatedArticlesJson from './data/articles.json';
+import catalogJson from './data/catalog.json';
 
 export const CATEGORIES: CategorySpec[] = [
   { id: 'all', name: 'すべて', slug: 'all', icon: 'Sparkles', description: '注目コスメ・美容アイテム全一覧' },
@@ -341,8 +341,8 @@ const DEFAULT_ARTICLES: RakutenProductArticle[] = [
 ];
 
 export const INITIAL_ARTICLES: RakutenProductArticle[] = 
-  (generatedArticlesJson && Array.isArray(generatedArticlesJson) && generatedArticlesJson.length > 0)
-    ? (generatedArticlesJson as RakutenProductArticle[])
+  (catalogJson && Array.isArray(catalogJson) && catalogJson.length > 0)
+    ? (catalogJson as unknown as RakutenProductArticle[])
     : DEFAULT_ARTICLES;
 
 /**

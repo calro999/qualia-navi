@@ -5,11 +5,11 @@ const host = 'qualia-navi.vercel.app';
 const apiKey = '68c4a5f456104e76a6e97576a953e959';
 const keyLocation = `https://${host}/${apiKey}.txt`;
 
-// 今回追加した3記事のスラッグ
+// 今回追加した3特集記事のスラッグ
 const featureSlugs = [
   'winter-high-potency-vitamin-c-serum-pore-2026',
   'winter-deep-moist-hydrating-facial-cleanser-foam-2026',
-  'winter-hydrogel-modeling-mask-pack-intensive-hydrate-2026'
+  'winter-deep-hydrating-hydrogel-mask-modeling-pack-2026'
 ];
 
 // 今回追加したアイテムIDを読み込む

@@ -14,12 +14,12 @@ const targetUrls = [
   `https://${host}/blogs`,
   `https://${host}/features`,
   // 3つの新規冬特集記事
-  `https://${host}/features/winter-body-cream-butter-heel-repair-balm-2026`,
-  `https://${host}/features/winter-hydrating-setting-loose-face-powder-2026`,
-  `https://${host}/features/winter-hair-oil-milk-anti-static-leave-in-treatment-2026`,
-  `https://${host}/features/feat-winter-body-cream-butter-heel-repair-balm-2026`,
-  `https://${host}/features/feat-winter-hydrating-setting-loose-face-powder-2026`,
-  `https://${host}/features/feat-winter-hair-oil-milk-anti-static-leave-in-treatment-2026`
+  `https://${host}/features/winter-rough-skin-keratosis-body-peeling-lotion-2026`,
+  `https://${host}/features/winter-feminine-care-delicate-oil-wash-2026`,
+  `https://${host}/features/winter-hair-growth-serum-scalp-essence-women-2026`,
+  `https://${host}/features/feat-winter-rough-skin-keratosis-body-peeling-lotion-2026`,
+  `https://${host}/features/feat-winter-feminine-care-delicate-oil-wash-2026`,
+  `https://${host}/features/feat-winter-hair-growth-serum-scalp-essence-women-2026`
 ];
 
 // 新規作成されたarticles.json内の第50弾商品URLを追加

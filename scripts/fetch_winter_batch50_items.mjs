@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 import { searchRakutenDirect } from './rakuten_direct_client.mjs';
 
 function sleep(ms) {
@@ -8,23 +9,23 @@ function sleep(ms) {
 async function fetchWinterBatch50Items() {
   console.log('❄️ [11-12月冬コスメ 第50弾] 楽天OpenAPIからリアルタイムで最新30アイテムを厳選取得します...');
 
-  // --- テーマ1: 【粉ふき乾燥ボディ＆ひび割れかかとを即効レスキュー】高保湿ボディミルク＆濃厚ボディバター・パーツ集中リペアバーム 10選 ---
-  console.log('\n=== テーマ1: 高保湿ボディミルク＆濃厚ボディバター・集中リペアバーム ===');
-  const bodyConfigs = [
-    { brand: 'lauramercier_amber_vanilla', name: 'ローラ メルシエ ホイップトボディクリーム アンバーバニラ 300g 甘く官能的な香りと至高の高保湿', query: 'ローラメルシエ ボディクリーム アンバーバニラ 300g' },
-    { brand: 'loccitane_shea_body_cream', name: 'ロクシタン シア リッチボディクリーム 200ml シアバター25%配合 超濃密高保湿', query: 'ロクシタン シア リッチボディクリーム 200ml' },
-    { brand: 'thebodyshop_body_butter_shea', name: 'THE BODY SHOP ザ・ボディショップ ボディバター シア 200ml 96時間高保湿 ヴィーガン処方', query: 'ボディショップ ボディバター シア 200ml' },
-    { brand: 'sabon_repair_body_cream', name: 'SABON サボン リペアボディクリーム パチュリ・ラベンダー・バニラ 200ml ジェリコローズ 集中修復', query: 'SABON リペアボディクリーム 200ml' },
-    { brand: 'neutrogena_cica_emulsion', name: 'ニュートロジーナ ノルウェーフォーミュラ インテンスリペア CICA エマルジョン 250ml 純度99%グリセリン', query: 'ニュートロジーナ CICA エマルジョン 250ml' },
-    { brand: 'yuskin_medicated_cream_120g', name: 'ユースキン 120g ポンプ または ボトル 指定医薬部外品 ひび あかぎれ しもやけ ビタミン系クリーム', query: 'ユースキン 120g' },
-    { brand: 'houseofrose_moist_barrier_rich', name: 'ハウス オブ ローゼ モイストバリア リッチボディクリーム 180g セラミド配合 高保湿粉ふき防止', query: 'ハウスオブローゼ モイストバリア ボディクリーム' },
-    { brand: 'clarins_moisture_rich_body_lotion', name: 'クラランス モイスチャー リッチ ボディ ローション 200ml シアバター ハリ弾力', query: 'クラランス モイスチャー リッチ ボディ ローション 200ml' },
-    { brand: 'curel_deep_moisture_spray_250g', name: 'キュレル ディープモイスチャースプレー 250g 医薬部外品 セラミド機能成分 全身保湿スプレー', query: 'キュレル ディープモイスチャースプレー 250g' },
-    { brand: 'curel_moisture_balm_70g', name: 'キュレル モイスチャーバーム 70g 医薬部外品 濃厚バーム ひび割れ粉ふき かかと・ひじ集中ケア', query: 'キュレル モイスチャーバーム 70g' }
+  // --- テーマ1: 【高保湿PHA/AHAボディピーリング美容液＆角質柔軟ミルク・スクラブ】 10選 ---
+  console.log('\n=== テーマ1: ボディ角質ケア・二の腕ザラつき・ひじひざ黒ずみ対策 ===');
+  const bodyPeelConfigs = [
+    { brand: 'takami_skinpeel_body', name: 'TAKAMI タカミスキンピールボディ 200g 塗る角質ケアゲル 首元 ひじ ひざ かかと 全身なめらか', query: 'タカミスキンピールボディ 200g' },
+    { brand: 'paulas_choice_bha_body', name: 'ポーラチョイス 2% BHA ボディローション 210ml サリチル酸 毛穴ケア 二の腕ザラつき 角質', query: 'ポーラチョイス 2% BHA ボディローション' },
+    { brand: 'rohto_zarapro_a', name: 'ロート製薬 メンソレータム ザラプロA 35g 第3類医薬品 尿素配合 サメ肌 二の腕ブツブツ軟化', query: 'ザラプロA 35g' },
+    { brand: 'sabon_body_scrub_plv', name: 'SABON サボン ボディスクラブ パチュリ・ラベンダー・バニラ 600g 死海ソルト ボタニカルオイル', query: 'SABON ボディスクラブ 600g パチュリ ラベンダー バニラ' },
+    { brand: 'drci_body_pink', name: 'ドクターシーラボ 薬用ボディ・ピンク 50g 医薬部外品 持続型ビタミンC 黒ずみ くすみケア', query: 'ドクターシーラボ 薬用ボディ ピンク 50g' },
+    { brand: 'cleansing_research_body_soap', name: 'BCL クレンジングリサーチ ボディピールソープ 480ml AHAリンゴ酸配合 全身角質つるつる泡', query: 'クレンジングリサーチ ボディピールソープ' },
+    { brand: 'nivea_royal_blue_whitening', name: 'ニベア ロイヤルブルーボディミルク 美白 200g 医薬部外品 ビタミンC誘導体 高保水 大人のくすみ', query: 'ニベア ロイヤルブルーボディミルク 美白 200g' },
+    { brand: 'zahrne_cream_eisai', name: 'エーザイ ザーネクリーム 100g 医薬部外品 天然型ビタミンE グリチルリチン酸 肌荒れ ひじ ひざ', query: 'ザーネクリーム 100g' },
+    { brand: 'house_of_rose_oh_baby', name: 'ハウスオブローゼ Oh! Baby ボディ スムーザー N 570g 温泉水 スクラブ 角質ケア ひじ ひざ', query: 'ハウスオブローゼ Oh Baby ボディ スムーザー N 570g' },
+    { brand: 'curel_moisture_balm', name: 'キュレル モイスチャーバーム 70g 医薬部外品 セラミド機能成分 ひじ かかと 濃厚高密着バーム', query: 'キュレル モイスチャーバーム 70g' }
   ];
 
-  const bodyItems = [];
-  for (const cfg of bodyConfigs) {
+  const bodyPeelItems = [];
+  for (const cfg of bodyPeelConfigs) {
     try {
       const res = await searchRakutenDirect(cfg.query, 6, '-reviewCount');
       const valid = res.find(it => {
@@ -36,7 +37,7 @@ async function fetchWinterBatch50Items() {
       if (valid) {
         valid.brandKey = cfg.brand;
         valid.displayBrand = cfg.name;
-        bodyItems.push(valid);
+        bodyPeelItems.push(valid);
         console.log(`✅ [${cfg.brand}] ${valid.itemName.slice(0, 35)} (${valid.priceFormatted})`);
       } else {
         console.warn(`⚠️ 見つかりませんでした: ${cfg.query}`);
@@ -47,30 +48,30 @@ async function fetchWinterBatch50Items() {
     await sleep(1300);
   }
 
-  // --- テーマ2: 【暖房乾燥でも粉浮きゼロ＆極上シルク肌】高保湿フェイスパウダー＆しっとり美容液ルースパウダー 10選 ---
-  console.log('\n=== テーマ2: 高保湿フェイスパウダー＆しっとり美容液ルースパウダー ===');
-  const powderConfigs = [
-    { brand: 'decorte_loose_powder_new', name: 'コスメデコルテ ルース パウダー 20g 2024リニューアル 光のヴェール 生ツヤ高保湿パウダー', query: 'コスメデコルテ ルース パウダー 20g' },
-    { brand: 'elegance_la_poudre_haute_nuance', name: 'エレガンス ラ プードル オートニュアンス 8.8g プレストパウダー 至高の透明感・耐皮脂・粉感ゼロ', query: 'エレガンス ラ プードル オートニュアンス 8.8g' },
-    { brand: 'nars_light_reflecting_setting_powder', name: 'NARS ナーズ ライトリフレクティングセッティングパウダー プレスト N 10g リフ粉 光反射毛穴レス', query: 'NARS ライトリフレクティングセッティングパウダー プレスト N' },
-    { brand: 'givenchy_prisme_libre_loose_powder', name: 'GIVENCHY ジバンシイ プリズム・リーブル 4色ルースパウダー 極上のオーラ肌・寒冷くすみ補正', query: 'ジバンシイ プリズム リーブル ルースパウダー' },
-    { brand: 'lauramercier_translucent_ultra_blur', name: 'ローラ メルシエ トランスルーセント ルース セッティング パウダー ウルトラブラー 20g ヒアルロン酸配合', query: 'ローラメルシエ ウルトラブラー 20g' },
-    { brand: 'suqqu_oil_rich_glow_loose_powder', name: 'SUQQU スック オイル リッチ グロウ ルース パウダー 15g 美容オイル高配合 濡れツヤ肌', query: 'SUQQU オイル リッチ グロウ ルース パウダー 15g' },
-    { brand: 'kanebo_milano_collection_face_powder', name: 'カネボウ ミラノコレクション フェースアップパウダー 24g ヒアルロン酸・ローヤルゼリー 芸術的仕上がり', query: 'ミラノコレクション フェースアップパウダー 24g' },
-    { brand: 'chacott_finishing_powder_moist', name: 'チャコット・コスメティクス フィニッシングパウダー モイスト 20g アルガンオイル・シアバター 高保湿', query: 'チャコット フィニッシングパウダー モイスト 20g' },
-    { brand: 'canmake_silky_loose_moist_powder', name: 'キャンメイク シルキールースモイストパウダー 6.0g 保湿成分27種配合 プチプラしっとり生ツヤパウダー', query: 'キャンメイク シルキールースモイストパウダー' },
-    { brand: 'innisfree_no_sebum_moisture_powder', name: 'イニスフリー ノーセバム モイスチャー パウダー 5g 天然ミネラル 植物性保湿パウダー 乾燥崩れ防止', query: 'イニスフリー ノーセバム モイスチャー パウダー' }
+  // --- テーマ2: 【高保湿フェミニンオイル＆低刺激薬用デリケートゾーンソープ（フェムケア）】 10選 ---
+  console.log('\n=== テーマ2: 高保湿フェミニンオイル＆低刺激デリケートゾーンソープ ===');
+  const femConfigs = [
+    { brand: 'iroha_intimate_wash_foam', name: 'iroha INTIMATE CARE イロハ インティメートウォッシュ フォームタイプ 150ml 弱酸性 濃密泡ソープ', query: 'iroha インティメートウォッシュ フォームタイプ' },
+    { brand: 'iroha_intimate_oil', name: 'iroha INTIMATE CARE イロハ インティメート デリケートオイル 30ml 植物性高保湿オイル', query: 'iroha インティメート オイル 30ml' },
+    { brand: 'argital_delicate_hygiene_soap', name: 'ARGITAL アルジタル デリケートハイジーンソープ 250ml シチリア海泥 スキンピュア 天然精油', query: 'アルジタル デリケートハイジーンソープ 250ml' },
+    { brand: 'intime_organique_rose_lotion', name: 'アンティーム オーガニック ローズローション 100g デリケートゾーン 保湿潤滑ジェル', query: 'アンティーム ローズローション 100g' },
+    { brand: 'laugh_intimate_wash', name: 'laugh. ラフドット インティメートウォッシュ 100ml 弱酸性 デリケートゾーンケア フローラケア', query: 'ラフドット インティメートウォッシュ' },
+    { brand: 'maputi_white_cream', name: 'MAPUTI マプティ オーガニック フレグランス ホワイトクリーム 100ml デリケートゾーン 黒ずみ 保湿', query: 'MAPUTI ホワイトクリーム 100ml' },
+    { brand: 'collage_furfur_soap_pink', name: '持田ヘルスケア コラージュフルフル 泡石鹸 ピンク 300ml 医薬部外品 抗真菌 抗カビ 低刺激', query: 'コラージュフルフル 泡石鹸 ピンク 300ml' },
+    { brand: 'tres_maria_soap', name: 'トレスマリア ソープ 180g デリケートゾーン専用 弱酸性 国産 低刺激 アミノ酸洗浄料', query: 'トレスマリア ソープ 180g' },
+    { brand: 'uka_lip_nail_fem', name: 'ウカ uka オーガニック フェミニン オイル または ウォッシュ デリケートケア', query: 'uka デリケートケア' },
+    { brand: 'laurier_delicate_foam', name: '花王 ロリエ デリケート泡ウォッシュ 150ml 弱酸性 もっちり泡 デリケートゾーン専用ソープ', query: 'ロリエ デリケート泡ウォッシュ 150ml' }
   ];
 
-  const powderItems = [];
-  for (const cfg of powderConfigs) {
+  const femItems = [];
+  for (const cfg of femConfigs) {
     try {
       const res = await searchRakutenDirect(cfg.query, 6, '-reviewCount');
       const valid = res.find(it => it.imageUrl && it.itemPrice > 0 && !it.itemName.includes('中古') && !it.itemName.includes('訳あり'));
       if (valid) {
         valid.brandKey = cfg.brand;
         valid.displayBrand = cfg.name;
-        powderItems.push(valid);
+        femItems.push(valid);
         console.log(`✅ [${cfg.brand}] ${valid.itemName.slice(0, 35)} (${valid.priceFormatted})`);
       } else {
         console.warn(`⚠️ 見つかりませんでした: ${cfg.query}`);
@@ -81,30 +82,30 @@ async function fetchWinterBatch50Items() {
     await sleep(1300);
   }
 
-  // --- テーマ3: 【ニット静電気＆マフラー擦れのパサつき毛先を密着補修】高保湿ヘアオイル＆濃密アウトバスヘアミルク 10選 ---
-  console.log('\n=== テーマ3: 高保湿ヘアオイル＆濃密アウトバスヘアミルク ===');
-  const hairConfigs = [
-    { brand: 'orbis_essence_in_hair_milk', name: 'オルビス エッセンスインヘアミルク 140g 無香料 浸透美容液成分配合 うるおい毛先補修', query: 'オルビス エッセンスインヘアミルク 140g' },
-    { brand: 'moroccanoil_treatment_original', name: 'モロッカンオイル トリートメント 100ml アルガンオイル配合 冬の静電気防止・ツヤ髪', query: 'モロッカンオイル トリートメント 100ml' },
-    { brand: 'kerastase_oleo_relax_serum', name: 'ケラスターゼ DP フルイド オレオ リラックス 100ml くせ毛・広がり・乾燥毛用 至高のアウトバスオイル', query: 'ケラスターゼ フルイド オレオ リラックス 100ml' },
-    { brand: 'milbon_elujuda_emulsion_plus', name: 'ミルボン ディーセス エルジューダ エマルジョン+ 120g バオバブエキス配合 硬毛・乾燥毛用ミルク', query: 'ミルボン エルジューダ エマルジョン+ 120g' },
-    { brand: 'refa_lock_oil_100ml', name: 'MTG ReFa リファ ロックオイル 100ml アイロン前の熱保護 スタイリングキープ ツヤ髪オイル', query: 'リファ ロックオイル 100ml' },
-    { brand: 'track_oil_no3_kinmokusei', name: 'track トラック オイル No.3 90ml 金木犀の香り 天然由来成分99.19% 濃密ツヤ束感リッチオイル', query: 'トラック オイル No.3 90ml' },
-    { brand: 'napla_n_dot_polish_oil_150ml', name: 'ナプラ N. エヌドット ポリッシュオイル 150ml シアバター配合 天然由来オイル 保湿・ウェット質感', query: 'エヌドット ポリッシュオイル 150ml' },
-    { brand: 'lacasta_hair_emulsion_80ml', name: 'ラ・カスタ アロマエステ ヘアエマルジョン 80ml オーガニック植物成分配合 洗い流さないヘアトリートメント', query: 'ラカスタ アロマエステ ヘアエマルジョン 80ml' },
-    { brand: 'uka_hair_oil_windy_lady', name: 'uka ウカ ヘアオイル ウィンディレディ 50ml 強風・乾燥・静電気から髪を守るなめらかオイル', query: 'uka ヘアオイル ウィンディレディ' },
-    { brand: 'oshimatsubaki_camellia_oil_60ml', name: '大島椿 椿油 60ml 天然椿油100% 髪・頭皮・肌のマルチ保湿 静電気・乾燥防止の伝統名品', query: '大島椿 60ml 椿油' }
+  // --- テーマ3: 【女性用薬用育毛美容液＆高機能スカルプエッセンス】 10選 ---
+  console.log('\n=== テーマ3: 女性用薬用育毛美容液＆高機能スカルプエッセンス ===');
+  const hairGrowthConfigs = [
+    { brand: 'shiseido_adenovital_powershot', name: '資生堂 サブリミック アデノバイタル スカルプ パワーショット 120ml 医薬部外品 薬用育毛エッセンス', query: 'アデノバイタル スカルプ パワーショット 120ml' },
+    { brand: 'scalpd_beaute_medical_estrology', name: 'アンファー スカルプD ボーテ 薬用スカルプセラム メディカルエストロジー 80ml 女性ホルモン 育毛剤', query: 'スカルプD ボーテ メディカルエストロジー 80ml' },
+    { brand: 'mynature_hair_growth_lotion', name: 'マイナチュレ 薬用育毛剤 120ml 医薬部外品 女性用 無添加 センブリエキス グリチルリチン酸', query: 'マイナチュレ 薬用育毛剤 120ml' },
+    { brand: 'wicot_medicated_scalp_serum', name: 'wicot ウィコット 薬用スカルプセラム 100ml 医薬部外品 日本初COSMOSオーガニック認証 薬用育毛剤', query: 'wicot 薬用スカルプセラム 100ml' },
+    { brand: 'regenne_scalp_essence', name: '大正製薬 リジェンヌ 薬用スカルプエッセンス 130g 医薬部外品 女性用 頭皮保湿 抜け毛予防', query: 'リジェンヌ 薬用スカルプエッセンス 130g' },
+    { brand: 'ca101_hair_essence', name: 'CA101 薬用ブラックヘアハーブ 120ml 医薬部外品 頭皮用美容液 育毛 薄毛 抜け毛 ボリューム', query: 'CA101 薬用ブラックヘアハーブ 120ml' },
+    { brand: 'aveda_invati_ultra_advanced_serum', name: 'AVEDA アヴェダ インヴァティ ウルトラ アドバンス スカルプ セラム 150ml エイジングスカルプケア', query: 'アヴェダ インヴァティ アドバンス スカルプ セラム 150ml' },
+    { brand: 'kerastase_genesis_serum', name: 'KERASTASE ケラスターゼ GN ジェネシス セラム フォーティファイ 90ml スカルプ美容液 根元ケア', query: 'ケラスターゼ ジェネシス セラム フォーティファイ 90ml' },
+    { brand: 'lebel_viege_medicate_essence', name: 'LebeL ルベル ヴィージェ メディケートエッセンス 100ml 医薬部外品 薬用育毛エッセンス 女性用', query: 'ルベル ヴィージェ メディケートエッセンス 100ml' },
+    { brand: 'pola_growing_shot_bk', name: 'POLA ポーラ グローイングショット BK 170ml 医薬部外品 薬用育毛美容液 黒髪 美髪 ハリコシ', query: 'ポーラ グローイングショット BK 170ml' }
   ];
 
-  const hairItems = [];
-  for (const cfg of hairConfigs) {
+  const hairGrowthItems = [];
+  for (const cfg of hairGrowthConfigs) {
     try {
       const res = await searchRakutenDirect(cfg.query, 6, '-reviewCount');
       const valid = res.find(it => it.imageUrl && it.itemPrice > 0 && !it.itemName.includes('中古') && !it.itemName.includes('訳あり'));
       if (valid) {
         valid.brandKey = cfg.brand;
         valid.displayBrand = cfg.name;
-        hairItems.push(valid);
+        hairGrowthItems.push(valid);
         console.log(`✅ [${cfg.brand}] ${valid.itemName.slice(0, 35)} (${valid.priceFormatted})`);
       } else {
         console.warn(`⚠️ 見つかりませんでした: ${cfg.query}`);
@@ -115,24 +116,19 @@ async function fetchWinterBatch50Items() {
     await sleep(1300);
   }
 
-  console.log(`\n🎉 第50弾 取得完了結果:`);
-  console.log(`- テーマ1 (ボディミルク＆ボディバター・バーム): ${bodyItems.length}/10 アイテム`);
-  console.log(`- テーマ2 (高保湿フェイスパウダー・ルースパウダー): ${powderItems.length}/10 アイテム`);
-  console.log(`- テーマ3 (アウトバスヘアオイル＆ヘアミルク): ${hairItems.length}/10 アイテム`);
-
-  const output = {
-    theme1_body: bodyItems,
-    theme2_powder: powderItems,
-    theme3_hair: hairItems,
-    fetchedAt: new Date().toISOString()
+  const result = {
+    theme1_body_peel: bodyPeelItems,
+    theme2_fem_care: femItems,
+    theme3_hair_growth: hairGrowthItems
   };
 
-  fs.mkdirSync('scratch', { recursive: true });
-  fs.writeFileSync('scratch/rakuten_winter_batch50_items.json', JSON.stringify(output, null, 2), 'utf8');
-  console.log('💾 scratch/rakuten_winter_batch50_items.json に保存完了しました！');
+  const outputPath = path.resolve('scratch/rakuten_winter_batch50_items.json');
+  fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), 'utf8');
+  console.log(`\n🎉 第50弾アイテムの楽天API取得が完了しました！ 保存先: ${outputPath}`);
+  console.log(`取得件数: ボディ角質ケア=${bodyPeelItems.length}件, フェムケア=${femItems.length}件, 育毛スカルプ=${hairGrowthItems.length}件`);
 }
 
 fetchWinterBatch50Items().catch(err => {
-  console.error('致命的エラー:', err);
+  console.error('Fatal fetch error:', err);
   process.exit(1);
 });

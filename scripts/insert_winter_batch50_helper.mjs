@@ -4,16 +4,16 @@ import path from 'path';
 // 保存された楽天API取得データを読み込む
 const batch50Data = JSON.parse(fs.readFileSync('scratch/rakuten_winter_batch50_items.json', 'utf8'));
 
-// --- テーマ1: 高保湿ボディミルク＆濃厚ボディバター・集中リペアバーム 厳選10商品 ---
-export const bodyItemsRaw = batch50Data.theme1_body;
+// --- テーマ1: ボディ角質ケア 厳選10商品 ---
+export const bodyPeelItemsRaw = batch50Data.theme1_body_peel;
 
-// --- テーマ2: 高保湿フェイスパウダー＆しっとり美容液ルースパウダー 厳選10商品 ---
-export const powderItemsRaw = batch50Data.theme2_powder;
+// --- テーマ2: 高保湿フェムケア・デリケートゾーンケア 厳選10商品 ---
+export const femItemsRaw = batch50Data.theme2_fem_care;
 
-// --- テーマ3: 高保湿ヘアオイル＆濃密アウトバスヘアミルク 厳選10商品 ---
-export const hairItemsRaw = batch50Data.theme3_hair;
+// --- テーマ3: 女性用薬用育毛美容液＆スカルプエッセンス 厳選10商品 ---
+export const hairGrowthItemsRaw = batch50Data.theme3_hair_growth;
 
-console.log(`第50弾 選定アイテム数: ボディケア=${bodyItemsRaw.length}, フェイスパウダー=${powderItemsRaw.length}, ヘアケア=${hairItemsRaw.length}`);
+console.log(`第50弾 選定アイテム数: ボディ角質ケア=${bodyPeelItemsRaw.length}, フェムケア=${femItemsRaw.length}, 育毛スカルプ=${hairGrowthItemsRaw.length}`);
 
 // 個別商品記事のID生成と登録
 const nowStr = new Date().toISOString();
@@ -21,23 +21,23 @@ const articlesJsonPath = path.resolve('src/data/articles.json');
 let existingArticles = JSON.parse(fs.readFileSync(articlesJsonPath, 'utf8'));
 
 function createProductArticle(item, category, tagList, featureSlug, idx) {
-  const catKey = category === 'body' ? 'bdy' : category === 'powder' ? 'pwd' : 'har';
+  const catKey = category === 'body_peel' ? 'bdp' : category === 'fem_care' ? 'fem' : 'hrg';
   const id = `art-winter-b50-${catKey}-${idx+1}-${item.itemCode.replace(/[^a-zA-Z0-9]/g, '').slice(-10)}`;
   
-  let catName = 'ボディケア・ボディクリーム・ボディミルク・ボディバター・かかとケア・ひび割れ対策・高保湿パーツケア・2026冬ボディケア';
-  let descType = '11〜12月の本格的な乾燥と寒さでタイツやニットが擦れて粉をふくすね、ひび割れやすいかかと・ひじ・手肌を、純度99%グリセリンやシアバター、セラミドで濃密シールドする冬の集中レスキューボディケア';
-  if (category === 'powder') {
-    catName = 'ベースメイク・フェイスパウダー・ルースパウダー・プレストパウダー・乾燥崩れ防止・ツヤ肌キープ・毛穴レス・2026冬ベースメイク';
-    descType = '暖房砂漠のオフィスでも粉浮き・ちりめんジワ・毛穴落ちを一切起こさず、光のヴェールとしっとり美容液成分で一日中透き通るようなシルク肌をキープする冬の乾燥知らずフェイスパウダー';
-  } else if (category === 'hair') {
-    catName = 'ヘアケア・アウトバストリートメント・ヘアオイル・ヘアミルク・静電気防止・熱ダメージ補修・ツヤ髪・2026冬ヘアケア';
-    descType = '冬の乾燥大気やマフラー・ニットの静電気摩擦、ドライヤーの熱でパサつく毛先を、浸透ナノカプセルや高純度ボタニカルオイルで内部から補修し天使の輪を宿す冬の集中美髪ケア';
+  let catName = 'ボディケア・角質ケア・ピーリング・ボディスクラブ・二の腕ザラつき・ひじひざ黒ずみ・高保湿・2026冬ボディケア';
+  let descType = '11〜12月の厚手のニット・タイツ摩擦と暖房乾燥で角質肥厚を起こした二の腕のザラつき（毛孔性苔癬）、ひじ・ひざのガサガサ黒ずみを、肌を傷めずケミカルピーリング（BHA/AHA）や濃密ソルト・シュガースクラブで優しくなめらかに整える冬の集中ボディ角質ケア';
+  if (category === 'fem_care') {
+    catName = 'ボディケア・フェムケア・デリケートゾーンケア・フェミニンウォッシュ・保湿オイル・弱酸性・2026冬ボディケア';
+    descType = '防寒タイツや裏起毛インナーによるムレ・摩擦、暖房乾燥で引き起こされる冬のデリケートゾーンの乾燥・かゆみ・ニオイ・黒ずみを、弱酸性アミノ酸泡と高純度ボタニカルオイルで労わりながらバリア機能を守る冬の集中フェムケア';
+  } else if (category === 'hair_growth') {
+    catName = 'ヘアケア・スカルプケア・薬用育毛剤・女性用育毛エッセンス・頭皮美容液・抜け毛予防・ボリュームアップ・2026冬ヘアケア';
+    descType = '夏の紫外線ダメージの蓄積と冬の寒冷血行不良が重なる11〜12月の抜け毛ピーク・分け目のペタンコ髪を救い、女性ホルモン様成分や生薬有効成分で根元から立ち上がるふんわり美髪を育む女性用薬用育毛美容液';
   }
 
   return {
     id: id,
     title: `【2026冬最新】${item.itemName.slice(0, 42)}の口コミ評判・成分・最安値比較`,
-    content: `${item.itemName}は、11〜12月の本格的な冬シーズンにおいて、${descType}として大人気の実力派アイテムです。楽天市場での最新実勢価格は${item.priceFormatted}となっており、「${item.shopName}」をはじめとする信頼性の高い公式・正規取扱ショップにて、お買い物マラソンや各種ポイント還元イベントを活用してお得に購入可能です。冬特有の乾燥や摩擦によるダメージを根本から防ぎ、しっとり上質な肌・髪へと導きます。`,
+    content: `${item.itemName}は、11〜12月の本格的な冬シーズンにおいて、${descType}として大人気の実力派アイテムです。楽天市場での最新実勢価格は${item.priceFormatted}となっており、「${item.shopName}」をはじめとする信頼性の高い公式・正規取扱ショップにて、お買い物マラソンや各種ポイント還元イベントを活用してお得に購入可能です。冬特有の美容悩みを根本から解消し、毎日のケアに確かな手応えをもたらします。`,
     category: catName,
     tags: [...tagList, '2026冬コスメ', '楽天市場正規品', '11月12月人気コスメ'],
     createdAt: nowStr,
@@ -51,16 +51,16 @@ function createProductArticle(item, category, tagList, featureSlug, idx) {
     imageUrl: item.imageUrl,
     shopName: item.shopName,
     reviewAverage: item.reviewAverage || 4.7,
-    reviewCount: item.reviewCount || 230,
+    reviewCount: item.reviewCount || 195,
     featureSlug: featureSlug
   };
 }
 
-export const bodyArticles = bodyItemsRaw.map((it, idx) => createProductArticle(it, 'body', ['ボディミルク', 'ボディバター', '越冬クリーム', 'ロクシタンシア', 'ニュートロジーナCICA', 'ユースキン', '粉ふき肌対策', 'かかとひび割れケア'], 'winter-body-cream-butter-heel-repair-balm-2026', idx));
-export const powderArticles = powderItemsRaw.map((it, idx) => createProductArticle(it, 'powder', ['フェイスパウダー', 'ルースパウダー', 'コスメデコルテパウダー', 'エレガンスラプードル', 'NARSリフ粉', 'ジバンシイプリズムリーブル', '冬の粉浮き防止', '乾燥肌パウダー'], 'winter-hydrating-setting-loose-face-powder-2026', idx));
-export const hairArticles = hairItemsRaw.map((it, idx) => createProductArticle(it, 'hair', ['ヘアオイル', 'ヘアミルク', 'オルビスヘアミルク', 'モロッカンオイル', 'エルジューダエマルジョン', 'リファロックオイル', 'trackオイル', '冬の静電気対策ヘアケア'], 'winter-hair-oil-milk-anti-static-leave-in-treatment-2026', idx));
+export const bodyPeelArticles = bodyPeelItemsRaw.map((it, idx) => createProductArticle(it, 'body_peel', ['二の腕ザラつき', '角質ケア', 'タカミスキンピールボディ', 'ポーラチョイスBHA', 'SABONスクラブ', 'サメ肌改善', 'ひじひざ黒ずみ', '冬のボディケア'], 'winter-rough-skin-keratosis-body-peeling-lotion-2026', idx));
+export const femArticles = femItemsRaw.map((it, idx) => createProductArticle(it, 'fem_care', ['フェムケア', 'デリケートゾーンケア', 'iroha', 'アルジタル', 'フェミニンオイル', '弱酸性ソープ', 'タイツムレ対策', 'デリケートゾーン黒ずみ'], 'winter-feminine-care-delicate-oil-wash-2026', idx));
+export const hairGrowthArticles = hairGrowthItemsRaw.map((it, idx) => createProductArticle(it, 'hair_growth', ['女性用育毛剤', '薬用育毛エッセンス', 'アデノバイタル', 'スカルプDボーテ', 'マイナチュレ', '抜け毛予防', '冬の頭皮ケア', '美髪育毛'], 'winter-hair-growth-serum-scalp-essence-women-2026', idx));
 
-export const allNewArticles = [...bodyArticles, ...powderArticles, ...hairArticles];
+export const allNewArticles = [...bodyPeelArticles, ...femArticles, ...hairGrowthArticles];
 
 const existingIds = new Set(existingArticles.map(a => a.id));
 let addedCount = 0;
@@ -88,7 +88,7 @@ export function renderItemCard(it, art, badgeText, description, pros, cons) {
     <div style="flex: 1 1 300px; min-width: 260px;">
       <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
         <span style="background: #0284c7; color: #fff; font-size: 0.75rem; font-weight: bold; padding: 3px 8px; border-radius: 6px;">${badgeText}</span>
-        <span style="color: #f59e0b; font-size: 0.85rem; font-weight: bold;">★ ${it.reviewAverage || 4.7} (${(it.reviewCount || 230).toLocaleString()}件)</span>
+        <span style="color: #f59e0b; font-size: 0.85rem; font-weight: bold;">★ ${it.reviewAverage || 4.7} (${(it.reviewCount || 195).toLocaleString()}件)</span>
       </div>
       <h3 style="font-size: 1.15rem; font-weight: bold; margin: 0 0 10px 0; color: #0f172a; line-height: 1.45;">
         <a href="${it.affiliateUrl || it.itemUrl}" target="_blank" rel="nofollow sponsored noopener" style="color: #0f172a; text-decoration: none;">

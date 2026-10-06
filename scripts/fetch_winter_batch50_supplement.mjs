@@ -1,32 +1,36 @@
 import fs from 'fs';
+import path from 'path';
 import { searchRakutenDirect } from './rakuten_direct_client.mjs';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function fetchSupplements() {
-  console.log('🔄 [不足分補完リクエスト] 楽天OpenAPIから各テーマが10選になるよう追加取得します...');
+async function supplementBatch50() {
+  console.log('🔄 [第50弾 補完] 各テーマが厳密に10商品ずつになるよう楽天APIから追加取得します...');
+  const jsonPath = path.resolve('scratch/rakuten_winter_batch50_items.json');
+  const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
 
-  const existingData = JSON.parse(fs.readFileSync('scratch/rakuten_winter_batch50_items.json', 'utf8'));
-
-  // テーマ1 不足2件（越冬クリーム、ニベアプレミアムボディミルク）
-  console.log('\n--- テーマ1 補完 ---');
-  const bodySupp = [
-    { brand: 'beehoney_etto_cream_100g', name: 'ハウス オブ ローゼ ビーハニー 越冬クリーム 100g ハチミツ・ローヤルゼリー 冬季限定 全身高保湿クリーム', query: 'ビーハニー 越冬クリーム 100g' },
-    { brand: 'nivea_premium_body_milk_moist', name: '花王 ニベア プレミアムボディミルク モイスチャー 200g 高保水型ヒアルロン酸 超乾燥肌用', query: 'ニベア プレミアムボディミルク モイスチャー 200g' }
+  // --- テーマ1: 不足分5件を補充 ---
+  const t1Supplements = [
+    { brand: 'paulas_choice_bha', name: 'ポーラチョイス スキン パーフェクティング 2% BHA リキッド 角質 毛穴ケア サリチル酸', query: 'ポーラチョイス BHA' },
+    { brand: 'rohto_zarapro', name: 'ロート製薬 メンソレータム ザラプロA 35g 第3類医薬品 サメ肌 二の腕 尿素', query: 'メンソレータム ザラプロ' },
+    { brand: 'house_of_rose_body_smoother', name: 'ハウスオブローゼ ボディ スムーザー N 570g 温泉水 スクラブ ひじ ひざ かかと', query: 'ハウスオブローゼ ボディ スムーザー' },
+    { brand: 'nivea_royal_blue_body', name: 'ニベア ロイヤルブルーボディミルク 美白 200g 医薬部外品 ビタミンC誘導体 うるおい', query: 'ニベア ロイヤルブルー ボディミルク 美白' },
+    { brand: 'yuskin_medicated_cream', name: 'ユースキン 120g ポンプ または ボトル 指定医薬部外品 ひび あかぎれ しもやけ 濃厚保湿', query: 'ユースキン 120g' },
+    { brand: 'drci_body_pink_alt', name: 'ドクターシーラボ 薬用ボディ・ピンク 50g 医薬部外品 バストトップ ひじ ひざ くすみケア', query: '薬用ボディ ピンク' }
   ];
 
-  for (const cfg of bodySupp) {
-    if (existingData.theme1_body.length >= 10) break;
+  for (const cfg of t1Supplements) {
+    if (data.theme1_body_peel.length >= 10) break;
     try {
       const res = await searchRakutenDirect(cfg.query, 6, '-reviewCount');
       const valid = res.find(it => it.imageUrl && it.itemPrice > 0 && !it.itemName.includes('中古') && !it.itemName.includes('訳あり'));
-      if (valid) {
+      if (valid && !data.theme1_body_peel.some(x => x.itemCode === valid.itemCode)) {
         valid.brandKey = cfg.brand;
         valid.displayBrand = cfg.name;
-        existingData.theme1_body.push(valid);
-        console.log(`✅ [テーマ1補完] ${valid.itemName.slice(0, 35)} (${valid.priceFormatted})`);
+        data.theme1_body_peel.push(valid);
+        console.log(`✅ [テーマ1追加: ${cfg.brand}] ${valid.itemName.slice(0, 35)} (${valid.priceFormatted})`);
       }
     } catch (e) {
       console.error(`エラー (${cfg.brand}):`, e.message);
@@ -34,24 +38,23 @@ async function fetchSupplements() {
     await sleep(1300);
   }
 
-  // テーマ2 不足2件（エレガンス、NARS）
-  console.log('\n--- テーマ2 補完 ---');
-  const powderSupp = [
-    { brand: 'elegance_la_poudre_8_8g', name: 'エレガンス ラ プードル オートニュアンス 8.8g プレストパウダー 至高の耐水・耐皮脂・透明感', query: 'エレガンス ラプードル 8.8g' },
-    { brand: 'nars_light_reflecting_pressed', name: 'NARS ナーズ ライトリフレクティングセッティングパウダー プレスト N 10g リフ粉 光反射', query: 'NARS リフ粉 プレスト' },
-    { brand: 'cledepeau_poudre_transparante', name: 'クレ・ド・ポー ボーテ プードルトランスパラントn 26g 至高のダイヤモンドヴェール 保湿ルースパウダー', query: 'クレドポーボーテ プードルトランスパラントn' }
+  // --- テーマ2: 不足分2件を補充 ---
+  const t2Supplements = [
+    { brand: 'pubicare_organic_wash', name: 'ピュビケア オーガニック フェミニン シフォン ソープ 220ml 弱酸性 濃密泡 デリケートソープ', query: 'ピュビケア フェミニン シフォン ソープ' },
+    { brand: 'summers_eve_daily_wash', name: 'サマーズイブ フェミニンウォッシュ ノーマルスキン 237ml 弱酸性 デリケートゾーン ボディウォッシュ', query: 'サマーズイブ デリケートウォッシュ' },
+    { brand: 'tres_maria_soap_alt', name: 'トレスマリア ソープ 180g デリケートゾーン用洗浄料 弱酸性', query: 'トレスマリア' }
   ];
 
-  for (const cfg of powderSupp) {
-    if (existingData.theme2_powder.length >= 10) break;
+  for (const cfg of t2Supplements) {
+    if (data.theme2_fem_care.length >= 10) break;
     try {
       const res = await searchRakutenDirect(cfg.query, 6, '-reviewCount');
       const valid = res.find(it => it.imageUrl && it.itemPrice > 0 && !it.itemName.includes('中古') && !it.itemName.includes('訳あり'));
-      if (valid) {
+      if (valid && !data.theme2_fem_care.some(x => x.itemCode === valid.itemCode)) {
         valid.brandKey = cfg.brand;
         valid.displayBrand = cfg.name;
-        existingData.theme2_powder.push(valid);
-        console.log(`✅ [テーマ2補完] ${valid.itemName.slice(0, 35)} (${valid.priceFormatted})`);
+        data.theme2_fem_care.push(valid);
+        console.log(`✅ [テーマ2追加: ${cfg.brand}] ${valid.itemName.slice(0, 35)} (${valid.priceFormatted})`);
       }
     } catch (e) {
       console.error(`エラー (${cfg.brand}):`, e.message);
@@ -59,23 +62,26 @@ async function fetchSupplements() {
     await sleep(1300);
   }
 
-  // テーマ3 不足1件（ケラスターゼ）
-  console.log('\n--- テーマ3 補完 ---');
-  const hairSupp = [
-    { brand: 'kerastase_oleo_relax_100ml', name: 'ケラスターゼ DP フルイド オレオ リラックス 100ml くせ毛・広がり・乾燥毛用 至高のアウトバスオイル', query: 'ケラスターゼ オレオリラックス 100ml' },
-    { brand: 'loretta_base_care_oil_120ml', name: 'ロレッタ ベースケアオイル 120ml ダマスクローズの香り さらさらツヤ髪 洗い流さないヘアトリートメント', query: 'ロレッタ ベースケアオイル 120ml' }
+  // --- テーマ3: 不足分4件を補充 ---
+  const t3Supplements = [
+    { brand: 'mynature_scalp_lotion', name: 'マイナチュレ 薬用育毛剤 120ml 医薬部外品 女性用 センブリエキス 薄毛 抜け毛 ハリコシ', query: 'マイナチュレ 育毛剤' },
+    { brand: 'wicot_scalp_serum_supp', name: 'wicot 薬用スカルプセラム 100ml 医薬部外品 オーガニック認証 薬用育毛剤 女性用', query: 'wicot 育毛剤' },
+    { brand: 'delmed_hair_essence', name: 'デルメッド ヘアエッセンス 120ml 医薬部外品 薬用育毛剤 女性用 セピアプロ配合 薄毛 抜け毛', query: 'デルメッド ヘアエッセンス 120ml' },
+    { brand: 'mouga_l_essence', name: 'バスクリン モウガL 薬用育毛剤 60ml 医薬部外品 生薬有効成分 女性用 抜け毛予防', query: 'モウガL 60ml' },
+    { brand: 'astalift_scalp_focus_essence', name: '富士フイルム アスタリフト スカルプフォーカス エッセンス 150ml ナノアスタキサンチン 頭皮美容液', query: 'アスタリフト スカルプフォーカス エッセンス' },
+    { brand: 'kaminomoto_ladies_essence', name: '加美乃素 レディース加美乃素EX 150ml 医薬部外品 女性用薬用育毛剤 カミゲン 抜け毛', query: 'レディース加美乃素 150ml' }
   ];
 
-  for (const cfg of hairSupp) {
-    if (existingData.theme3_hair.length >= 10) break;
+  for (const cfg of t3Supplements) {
+    if (data.theme3_hair_growth.length >= 10) break;
     try {
       const res = await searchRakutenDirect(cfg.query, 6, '-reviewCount');
       const valid = res.find(it => it.imageUrl && it.itemPrice > 0 && !it.itemName.includes('中古') && !it.itemName.includes('訳あり'));
-      if (valid) {
+      if (valid && !data.theme3_hair_growth.some(x => x.itemCode === valid.itemCode)) {
         valid.brandKey = cfg.brand;
         valid.displayBrand = cfg.name;
-        existingData.theme3_hair.push(valid);
-        console.log(`✅ [テーマ3補完] ${valid.itemName.slice(0, 35)} (${valid.priceFormatted})`);
+        data.theme3_hair_growth.push(valid);
+        console.log(`✅ [テーマ3追加: ${cfg.brand}] ${valid.itemName.slice(0, 35)} (${valid.priceFormatted})`);
       }
     } catch (e) {
       console.error(`エラー (${cfg.brand}):`, e.message);
@@ -83,16 +89,17 @@ async function fetchSupplements() {
     await sleep(1300);
   }
 
-  console.log(`\n🎉 補完後の最終アイテム数:`);
-  console.log(`- テーマ1: ${existingData.theme1_body.length}/10`);
-  console.log(`- テーマ2: ${existingData.theme2_powder.length}/10`);
-  console.log(`- テーマ3: ${existingData.theme3_hair.length}/10`);
+  // 10件ぴったりにトリミング
+  data.theme1_body_peel = data.theme1_body_peel.slice(0, 10);
+  data.theme2_fem_care = data.theme2_fem_care.slice(0, 10);
+  data.theme3_hair_growth = data.theme3_hair_growth.slice(0, 10);
 
-  fs.writeFileSync('scratch/rakuten_winter_batch50_items.json', JSON.stringify(existingData, null, 2), 'utf8');
-  console.log('💾 更新を scratch/rakuten_winter_batch50_items.json に保存しました！');
+  fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2), 'utf8');
+  console.log(`\n🎉 [補完完了] 全テーマ10商品ずつ確定しました！`);
+  console.log(`テーマ1: ${data.theme1_body_peel.length}件, テーマ2: ${data.theme2_fem_care.length}件, テーマ3: ${data.theme3_hair_growth.length}件`);
 }
 
-fetchSupplements().catch(err => {
-  console.error('補完エラー:', err);
+supplementBatch50().catch(err => {
+  console.error('Supplement error:', err);
   process.exit(1);
 });

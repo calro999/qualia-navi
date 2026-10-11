@@ -9,12 +9,15 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-10-11
-- **Total Articles**: 2475 件の個別詳細レビュー
+- **Total Articles**: 2505 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
 
 ### 1. Special Feature Blogs (特集ブログ)
+- [【2026冬・聖夜の濡れツヤ発光】スティックハイライト＆生ツヤハイライターおすすめ人気10選！シャネル・hince・ディオール・クレドポー徹底比較！乾燥肌でも粉浮きゼロの内側発光ツヤ肌へ](https://qualia-navi.vercel.app/blogs/feat-winter-holiday-glow-highlighter-2026)
+- [【2026冬・静電気＆マフラー摩擦によるアホ毛・浮き毛を即制覇】まとめ髪ポイントリペアブラシ＆アホ毛キープスティックおすすめ人気10選！プリュスオー・アンドハニー・ミルボン徹底比較！固めずサラリと整える美髪の救世主](https://qualia-navi.vercel.app/blogs/feat-winter-hair-point-repair-anti-static-stick-2026)
+- [【2026冬・寒さでくすむ冬肌に透明感とピュアな血色感を宿す】ラベンダー＆ピンク系コントロールカラー・トーンアップ化粧下地おすすめ人気10選！コスメデコルテ・エレガンス・ジルスチュアート・ダルバ徹底比較！血行不良の青白さ・黄ぐすみを光補正する魔法のベースメイク](https://qualia-navi.vercel.app/blogs/feat-winter-lavender-pink-tone-up-color-primer-2026)
 - [【2026冬・唇の乾燥縦ジワ＆皮剥けを即レスキュー】高保湿リッププランパー＆濃密リップ美容液おすすめ人気10選！ディオール・ジルスチュアート・ヴィセ・ラネージュ徹底比較！ふっくら血色感あふれる極上ぷるツヤ唇へ](https://qualia-navi.vercel.app/blogs/feat-winter-hydrating-lip-plumper-serum-2026)
 - [【2026冬・暖房砂漠の乾燥肌を満たす集中保湿】高保湿シートマスク＆濃密フェイスパックおすすめ人気10選！ルルルン・ダーマレーザー・メディヒール・トリデン徹底比較！翌朝の化粧ノリが劇的変化する冬のレスキューマスク](https://qualia-navi.vercel.app/blogs/feat-winter-nourishing-sheet-mask-glow-2026)
 - [【2026冬・静電気＆マフラー摩擦によるパサつきを撃退】濃厚ヘアマスク＆高保湿集中トリートメントおすすめ人気10選！フィーノ・TSUBAKI・ミルボン・ケラスターゼ徹底比較！芯から潤うサロン帰りのとぅるん髪へ](https://qualia-navi.vercel.app/blogs/feat-winter-deep-repair-hair-mask-salon-2026)
@@ -333,7 +336,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026冬最新】【clayence公式】クレイエンス クレイスパ カラートリートメント キャラメルブの口コミ評判・効果・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b77-csh-3-ng10000149): ヘアケア・シャンプー・クリームシャンプー・クレイクリームシャンプー・泡立たないシャンプー・頭皮クレンジング・乾燥フケ対策・サロン級・2026冬 (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026冬最新】コーセー 新 プレディア ファンゴ ヘッドクレンズ SPA+ 250g ..送料無料の口コミ評判・効果・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b77-csh-2-ue10000145): ヘアケア・シャンプー・クリームシャンプー・クレイクリームシャンプー・泡立たないシャンプー・頭皮クレンジング・乾燥フケ対策・サロン級・2026冬 (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026冬最新】【最大3000円OFFクーポン】ココネ クレイクリームシャンプーモイスト380g【本の口コミ評判・効果・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b77-csh-1-fe10104240): ヘアケア・シャンプー・クリームシャンプー・クレイクリームシャンプー・泡立たないシャンプー・頭皮クレンジング・乾燥フケ対策・サロン級・2026冬 (評価: ★4.8 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (2475件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (2505件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

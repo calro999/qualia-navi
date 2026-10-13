@@ -9,12 +9,15 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-10-13
-- **Total Articles**: 2834 件の個別詳細レビュー
+- **Total Articles**: 2864 件の個別詳細レビュー
 - **Total Comparisons**: 10 件の徹底対決比較
 
 ## Main Content Direct Links
 
 ### 1. Special Feature Blogs (特集ブログ)
+- [【急な寒暖差で肌がピリつく季節に】赤みや肌荒れを即効レスキュー！秋のCICA＆ドクダミ鎮静コスメ10選](https://qualia-navi.vercel.app/blogs/feat-autumn-cica-soothing-sensitive-skin-10)
+- [【目元の小ジワや乾燥くまが浮き出る季節に】パサつかず一日中高密着！秋の保湿コンシーラー10選](https://qualia-navi.vercel.app/blogs/feat-autumn-moist-concealer-color-correct-10)
+- [【秋の冷えで血色感が失われる季節に】じゅわっと温もり生ツヤ！秋のマルチカラーバーム＆リップチーク10選](https://qualia-navi.vercel.app/blogs/feat-autumn-multi-color-balm-lip-cheek-10)
 - [【秋のくすみとゴワつきが気になる季節に】透明感を即効チャージ！秋のビタミンC美容液＆角質ふき取り化粧水10選](https://qualia-navi.vercel.app/blogs/feat-autumn-vitamin-c-dullness-pores-10)
 - [【秋の乾燥崩れとテカリが気になる季節に】一日中つけたて美肌！秋のメイクキープミスト＆セッティングパウダー10選](https://qualia-navi.vercel.app/blogs/feat-autumn-setting-spray-powder-dry-shine-10)
 - [【肌寒い夜に心地よく眠れない季節に】秋の夜長を至福の癒しに！ピローミスト＆アロマキャンドル10選](https://qualia-navi.vercel.app/blogs/feat-autumn-pillow-mist-aroma-candle-relax-10)
@@ -369,7 +372,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 - [【2026冬最新】【clayence公式】クレイエンス クレイスパ カラートリートメント キャラメルブの口コミ評判・効果・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b77-csh-3-ng10000149): ヘアケア・シャンプー・クリームシャンプー・クレイクリームシャンプー・泡立たないシャンプー・頭皮クレンジング・乾燥フケ対策・サロン級・2026冬 (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026冬最新】コーセー 新 プレディア ファンゴ ヘッドクレンズ SPA+ 250g ..送料無料の口コミ評判・効果・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b77-csh-2-ue10000145): ヘアケア・シャンプー・クリームシャンプー・クレイクリームシャンプー・泡立たないシャンプー・頭皮クレンジング・乾燥フケ対策・サロン級・2026冬 (評価: ★4.8 / 監修: 篠原 玲奈)
 - [【2026冬最新】【最大3000円OFFクーポン】ココネ クレイクリームシャンプーモイスト380g【本の口コミ評判・効果・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b77-csh-1-fe10104240): ヘアケア・シャンプー・クリームシャンプー・クレイクリームシャンプー・泡立たないシャンプー・頭皮クレンジング・乾燥フケ対策・サロン級・2026冬 (評価: ★4.8 / 監修: 篠原 玲奈)
-- [Full Article List & Complete Database (2834件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (2864件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

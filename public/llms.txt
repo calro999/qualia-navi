@@ -15,6 +15,7 @@ Qualia Navi は、日本の主要コスメブランドの製品を専門編集�
 ## Main Content Direct Links
 
 ### 1. Special Feature Blogs (特集ブログ)
+- [【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する45大特集・450選コンプリートガイド](https://qualia-navi.vercel.app/blogs/feat-autumn-cosmetics-guide-45-series-hub)
 - [【木枯らしでまぶたや目尻がカサつき小ジワが目立つ季節に】高保湿・目元ふっくらアイクリーム10選](https://qualia-navi.vercel.app/blogs/feat-autumn-eye-cream-fine-lines-crow-feet-10)
 - [【入浴後の急激なツッパリ・肌の過乾燥を防ぐ季節に】水分を逃さないお風呂上がり先行フェイシャルオイル10選](https://qualia-navi.vercel.app/blogs/feat-autumn-facial-oil-post-bath-dehydration-10)
 - [【季節の変わり目に肌がピリピリ赤くゆらぐ季節に】肌バリアを立て直す低刺激CICA＆セラミドバーム10選](https://qualia-navi.vercel.app/blogs/feat-autumn-cica-ceramide-calming-balm-10)

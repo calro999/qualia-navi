@@ -10,6 +10,11 @@
 
 ## 1. 特集ブログ (Special Blogs)
 
+### 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する45大特集・450選コンプリートガイド
+- **URL**: https://qualia-navi.vercel.app/blogs/feat-autumn-cosmetics-guide-45-series-hub
+- **Category**: 夏のトレンド美容・メンズ＆ウィメンズ徹底対策
+- **Description**: 2026年最新の汗・皮脂・紫外線対策とベストコスメ徹底解説。
+
 ### 【木枯らしでまぶたや目尻がカサつき小ジワが目立つ季節に】高保湿・目元ふっくらアイクリーム10選
 - **URL**: https://qualia-navi.vercel.app/blogs/feat-autumn-eye-cream-fine-lines-crow-feet-10
 - **Category**: 夏のトレンド美容・メンズ＆ウィメンズ徹底対策

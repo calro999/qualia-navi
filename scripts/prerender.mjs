@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-console.log('🚀 [Prerender] Googlebot/SEO用 完全セマンティックHTMLプリレンダリングを開始します...');
+console.log('🚀 [Prerender] Googlebot/SEO用 完全セマンティックHTMLプリレンダリング（記事・特集・VS比較・一覧全網羅）を開始します...');
 
 const projectRoot = process.cwd();
 const distDir = path.join(projectRoot, 'dist');
@@ -14,62 +14,38 @@ if (!fs.existsSync(templateHtmlPath)) {
 
 const templateHtml = fs.readFileSync(templateHtmlPath, 'utf8');
 
-// 記事データの読み込み
+// 1. 記事データ・特集データ・比較データの読み込み
 const articlesJsonPath = path.join(projectRoot, 'src', 'data', 'articles.json');
-let articles = [];
-if (fs.existsSync(articlesJsonPath)) {
-  articles = JSON.parse(fs.readFileSync(articlesJsonPath, 'utf8'));
-}
+const blogsJsonPath = path.join(projectRoot, 'public', 'data', 'blogs.json');
+const comparisonsJsonPath = path.join(projectRoot, 'public', 'data', 'comparisons.json');
 
-const comparisons = [
-  { id: 'anessa-vs-biore-uv', title: '【日焼け止め対決】アネッサ vs ビオレUV どちらが焼けない？徹底比較2026' },
-  { id: 'deonatulle-vs-8x4men', title: '【デオドラント対決】デオナチュレ vs 8x4MEN 夏のワキ汗・ニオイ対策比較' },
-  { id: 'primavista-vs-larocheposay', title: '【下地対決】プリマヴィスタ vs ラロッシュポゼ テカリ防止とトーンアップ比較' },
-  { id: 'concool-vs-nonio', title: '【口臭ケア対決】コンクールF vs NONIO マウスウォッシュ比較' },
-  { id: 'lipmonster-vs-meltylip', title: '【落ちないリップ対決】リップモンスター vs メルティリップ 保湿＆色持ち比較' },
-  { id: 'ihada-vs-vtcica', title: '【敏感肌シカ対決】IHADA vs VT CICAローション 鎮静保湿力比較' },
-  { id: 'melanocc-vs-kanebo', title: '【ビタミンC美容液対決】メラノCC vs KANEBO 美白＆毛穴ケア比較' },
-  { id: 'andhoney-vs-refa', title: '【美髪ケア対決】&honey vs ReFa ロックオイル ツヤ・まとまり比較' },
-  { id: 'gatsby-ice-vs-biore-hiyashi', title: '【メンズ冷感シート対決】ギャツビー vs ビオレ 猛暑リフレッシュ比較' },
-  { id: 'romand-vs-kate', title: '【韓国リップ対決】ロムアンド vs KATE 人気色＆ツヤ持ち比較' }
-];
-
-// Extract all blog posts dynamically from data.ts
-const blogs = [];
-const dataTsPath = path.join(projectRoot, 'src', 'data.ts');
-if (fs.existsSync(dataTsPath)) {
-  const content = fs.readFileSync(dataTsPath, 'utf8');
-  const startIdx = content.indexOf('export const INITIAL_BLOG_POSTS: BlogPost[] = [');
-  const endIdx = content.indexOf('export const INITIAL_COMPARISONS: ProductComparison[] = [');
-  if (startIdx !== -1 && endIdx !== -1) {
-    const block = content.slice(startIdx, endIdx);
-    // id and slug are guaranteed, title is guaranteed, subtitle or excerpt is optional
-    const matches = [...block.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"slug":\s*"([^"]+)"[\s\S]*?"title":\s*"([^"]+)"/g)];
-    matches.forEach(m => {
-      const id = m[1];
-      const slug = m[2];
-      const title = m[3];
-      // find excerpt or subtitle within the same object
-      const itemStart = block.indexOf(`"id": "${id}"`);
-      const itemEnd = block.indexOf('}', itemStart);
-      const itemBlock = itemStart !== -1 && itemEnd !== -1 ? block.slice(itemStart, itemEnd) : '';
-      const subMatch = itemBlock.match(/"subtitle":\s*"([^"]+)"/) || itemBlock.match(/"excerpt":\s*"([^"]+)"/);
-      blogs.push({ id, slug, title, subtitle: subMatch ? subMatch[1] : '' });
-    });
-  }
-}
+const articles = fs.existsSync(articlesJsonPath)
+  ? JSON.parse(fs.readFileSync(articlesJsonPath, 'utf8'))
+  : [];
+const blogs = fs.existsSync(blogsJsonPath)
+  ? JSON.parse(fs.readFileSync(blogsJsonPath, 'utf8'))
+  : [];
+const comparisons = fs.existsSync(comparisonsJsonPath)
+  ? JSON.parse(fs.readFileSync(comparisonsJsonPath, 'utf8'))
+  : [];
 
 function escapeHtml(str) {
   if (!str) return '';
-  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 function normalizeImageUrl(url) {
-  if (!url) return 'https://qualia-navi.vercel.app/images/products/larocheposay_rose.jpg';
-  if (url.startsWith('http://') || url.startsWith('https://')) {
-    return url;
+  if (!url) return 'https://qualia-navi.vercel.app/og-image.png';
+  const target = Array.isArray(url) ? url[0] : url;
+  if (!target || typeof target !== 'string') return 'https://qualia-navi.vercel.app/og-image.png';
+  if (target.startsWith('http://') || target.startsWith('https://')) {
+    return target;
   }
-  return `https://qualia-navi.vercel.app${url.startsWith('/') ? '' : '/'}${url}`;
+  return `https://qualia-navi.vercel.app${target.startsWith('/') ? '' : '/'}${target}`;
 }
 
 function markdownToSemanticHtml(mdText) {
@@ -111,7 +87,6 @@ function markdownToSemanticHtml(mdText) {
     const line = lines[i];
     const stripped = line.trim();
 
-    // テーブル
     if (stripped.startsWith('|') && stripped.endsWith('|')) {
       const cells = stripped.split('|').slice(1, -1).map(c => {
         let text = c.trim();
@@ -133,7 +108,6 @@ function markdownToSemanticHtml(mdText) {
       flushTable();
     }
     
-    // 生HTMLタグはそのまま通す
     if (stripped.startsWith('<')) {
       if (inUl) { htmlLines.push('</ul>'); inUl = false; }
       if (inOl) { htmlLines.push('</ol>'); inOl = false; }
@@ -143,10 +117,7 @@ function markdownToSemanticHtml(mdText) {
 
     if (stripped.startsWith('- ') || stripped.startsWith('* ') || stripped.startsWith('・')) {
       if (!inUl) {
-        if (inOl) {
-          htmlLines.push('</ol>');
-          inOl = false;
-        }
+        if (inOl) { htmlLines.push('</ol>'); inOl = false; }
         htmlLines.push('<ul style="margin:12px 0 16px 20px;line-height:1.8;list-style-type:disc;">');
         inUl = true;
       }
@@ -157,10 +128,7 @@ function markdownToSemanticHtml(mdText) {
       continue;
     } else if (/^\d+\.\s+/.test(stripped)) {
       if (!inOl) {
-        if (inUl) {
-          htmlLines.push('</ul>');
-          inUl = false;
-        }
+        if (inUl) { htmlLines.push('</ul>'); inUl = false; }
         htmlLines.push('<ol style="margin:12px 0 16px 20px;line-height:1.8;list-style-type:decimal;">');
         inOl = true;
       }
@@ -170,21 +138,11 @@ function markdownToSemanticHtml(mdText) {
       htmlLines.push(`<li style="margin-bottom:6px;">${content}</li>`);
       continue;
     } else {
-      if (inUl) {
-        htmlLines.push('</ul>');
-        inUl = false;
-      }
-      if (inOl) {
-        htmlLines.push('</ol>');
-        inOl = false;
-      }
+      if (inUl) { htmlLines.push('</ul>'); inUl = false; }
+      if (inOl) { htmlLines.push('</ol>'); inOl = false; }
     }
     
-    if (!stripped) {
-      continue;
-    }
-
-    if (stripped.startsWith('```')) {
+    if (!stripped || stripped.startsWith('```')) {
       continue;
     }
     
@@ -210,7 +168,7 @@ function markdownToSemanticHtml(mdText) {
       if (imgMatch) {
         const alt = imgMatch[1];
         const src = normalizeImageUrl(imgMatch[2]);
-        htmlLines.push(`<div style="text-align:center;margin:24px 0;"><img src="${src}" alt="${alt}" style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);" loading="lazy" /></div>`);
+        htmlLines.push(`<div style="text-align:center;margin:24px 0;"><img src="${src}" alt="${alt}" style="max-width:100%;height:auto;border-radius:12px;" loading="lazy" /></div>`);
       }
     } else {
       let p = stripped;
@@ -227,6 +185,34 @@ function markdownToSemanticHtml(mdText) {
   return htmlLines.join('\n');
 }
 
+function buildHtmlPage({ title, description, canonicalUrl, image, jsonLd, bodyHtml }) {
+  const cleanHeadTitle = title.includes('Qualia Navi') ? title : `${title} | Qualia Navi`;
+  return templateHtml
+    .replace(/<title>.*?<\/title>/, `<title>${cleanHeadTitle}</title>`)
+    .replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${description}" />`)
+    .replace('</head>', `
+      <link rel="canonical" href="${canonicalUrl}" />
+      <meta property="og:title" content="${cleanHeadTitle}" />
+      <meta property="og:description" content="${description}" />
+      <meta property="og:url" content="${canonicalUrl}" />
+      <meta property="og:image" content="${image}" />
+      <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+      </head>
+    `)
+    .replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);
+}
+
+function writeRouteFiles(routeParts, html) {
+  const dir = path.join(distDir, ...routeParts);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf8');
+  if (routeParts.length >= 2) {
+    const parentDir = path.join(distDir, ...routeParts.slice(0, -1));
+    const leaf = routeParts[routeParts.length - 1];
+    fs.writeFileSync(path.join(parentDir, `${leaf}.html`), html, 'utf8');
+  }
+}
+
 // Build category map for rich internal linking
 const categoryMap = new Map();
 articles.forEach((art) => {
@@ -239,12 +225,13 @@ articles.forEach((art) => {
 
 let prerenderedCount = 0;
 
-// 1. 各記事のプリレンダリング
+// 1. 全3,074記事のプリレンダリング
 articles.forEach((art, index) => {
   const articleId = art.id || art.slug;
+  if (!articleId) return;
   const canonicalUrl = `https://qualia-navi.vercel.app/articles/${articleId}`;
-  
-  // ロングテールSEO最適化タイトル
+  const isContentArticle = !!(art.content && (!art.features || art.features.length === 0));
+
   const rawName = art.productName || art.title || 'コスメ';
   const rawCategory = art.categoryLabel || art.category || '';
   let benefitKw = '口コミ評判・最安値';
@@ -260,167 +247,116 @@ articles.forEach((art, index) => {
   const fullTitleText = rawName.includes('【') && rawName.includes('】') ? rawName : `【2026年最新】${rawName}の${benefitKw} | Qualia Navi`;
   const title = escapeHtml(fullTitleText);
 
-  // クリック率（CTR）最適化ディスクリプション
   const rawPrice = art.rakutenPrice ? `参考価格: ${art.rakutenPrice}。` : '';
   const rawPros = art.pros && art.pros.length > 0 ? `注目ポイント: ${art.pros.slice(0, 2).join('、')}。` : '';
-  const fullDescText = `【2026最新】${rawName}のリアルな口コミ・使い心地・成分特徴をQualia美容分析室が徹底検証！${rawPros}${rawPrice}楽天市場の最安値・在庫情報をリアルタイムでお届けします。`.slice(0, 155);
+  const fullDescText = (art.description || `【2026最新】${rawName}のリアルな口コミ・使い心地・成分特徴をQualia美容分析室が徹底検証！${rawPros}${rawPrice}楽天市場の最安値・在庫情報をリアルタイムでお届けします。`).slice(0, 155);
   const description = escapeHtml(fullDescText);
-
   const image = normalizeImageUrl(art.imageUrl || art.image);
   const categoryLabel = escapeHtml(art.categoryLabel || art.category || '美容・コスメ特集');
 
-  // Related articles in same category
   const catArticles = categoryMap.get(art.categoryLabel || art.category || 'コスメ特集') || [];
-  const related = catArticles
-    .filter(a => a.id !== articleId)
-    .slice(0, 5);
-  
-  // If not enough related in category, grab from global
+  const related = catArticles.filter(a => a.id !== articleId).slice(0, 5);
   if (related.length < 5) {
     const fillers = articles.slice(index + 1, index + 6 - related.length);
     related.push(...fillers.filter(f => f.id !== articleId));
   }
 
-  // 構造化データ (JSON-LD) - Product, Article, FAQPage, BreadcrumbList
-  const jsonLdGraph = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Product",
-        "@id": `${canonicalUrl}#product`,
-        "name": art.productName || art.title || title,
-        "image": image,
-        "description": description,
-        "brand": {
-          "@type": "Brand",
-          "name": art.brandName || "Qualia Navi Verified"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": art.starRating || art.rating || 4.8,
-          "reviewCount": art.reviewCount || 1200
-        },
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "JPY",
-          "price": String(art.rakutenPrice || art.price || "2000").replace(/[^0-9]/g, "") || "2000",
-          "availability": "https://schema.org/InStock",
-          "url": art.affiliateLink || art.affiliateUrl || canonicalUrl
-        }
+  const graphNodes = [];
+  if (!isContentArticle) {
+    graphNodes.push({
+      "@type": "Product",
+      "@id": `${canonicalUrl}#product`,
+      "name": art.productName || art.title || title,
+      "image": image,
+      "description": description,
+      "brand": {
+        "@type": "Brand",
+        "name": art.brandName || "Qualia Navi Verified"
       },
-      {
-        "@type": "Article",
-        "@id": `${canonicalUrl}#article`,
-        "headline": title,
-        "description": description,
-        "image": image,
-        "datePublished": art.createdAt || art.date || "2026-09-01",
-        "dateModified": art.updatedAt || art.createdAt || art.date || "2026-09-07",
-        "author": {
-          "@type": "Person",
-          "name": art.author || art.reviewerName || "篠原 玲奈",
-          "jobTitle": art.reviewerRole || "コスメ・スキンケア専門エディター"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Qualia Navi (クオリアナビ)",
-          "url": "https://qualia-navi.vercel.app",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://qualia-navi.vercel.app/og-image.png"
-          }
-        },
-        "mainEntityOfPage": canonicalUrl
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": art.starRating || art.rating || 4.8,
+        "reviewCount": art.reviewCount || 120
       },
-      {
-        "@type": "BreadcrumbList",
-        "@id": `${canonicalUrl}#breadcrumb`,
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "ホーム",
-            "item": "https://qualia-navi.vercel.app"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": categoryLabel,
-            "item": "https://qualia-navi.vercel.app"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": title,
-            "item": canonicalUrl
-          }
-        ]
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "JPY",
+        "price": String(art.rakutenPrice || art.price || "2480").replace(/[^0-9]/g, "") || "2480",
+        "availability": "https://schema.org/InStock",
+        "url": art.affiliateLink || art.affiliateUrl || canonicalUrl
       }
-    ]
-  };
+    });
+  }
+
+  graphNodes.push(
+    {
+      "@type": "Article",
+      "@id": `${canonicalUrl}#article`,
+      "headline": title,
+      "description": description,
+      "image": image,
+      "datePublished": art.createdAt || art.date || "2026-10-01",
+      "dateModified": art.updatedAt || art.createdAt || "2026-10-19",
+      "author": {
+        "@type": "Person",
+        "name": art.author || art.reviewerName || "橘 えりか",
+        "jobTitle": art.reviewerRole || "コスメ＆美容編集長"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Qualia Navi (クオリア・ナビ)",
+        "url": "https://qualia-navi.vercel.app"
+      },
+      "mainEntityOfPage": canonicalUrl
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${canonicalUrl}#breadcrumb`,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "コスメ図鑑TOP", "item": "https://qualia-navi.vercel.app" },
+        { "@type": "ListItem", "position": 2, "name": categoryLabel, "item": `https://qualia-navi.vercel.app/?category=${encodeURIComponent(art.category || 'all')}` },
+        { "@type": "ListItem", "position": 3, "name": title, "item": canonicalUrl }
+      ]
+    }
+  );
 
   if (art.faqs && art.faqs.length > 0) {
-    jsonLdGraph["@graph"].push({
+    graphNodes.push({
       "@type": "FAQPage",
       "@id": `${canonicalUrl}#faq`,
       "mainEntity": art.faqs.map(faq => ({
         "@type": "Question",
         "name": faq.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.answer
-        }
+        "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
       }))
     });
   }
 
   const parsedBody = markdownToSemanticHtml(art.reviewBody || art.content || '');
-
-  // 本文HTML (SPAと完全に一致した美しいカードシェル構造で出力し、FOUC・チラつきを防止)
   const bodyHtml = `
-    <div style="min-height:100vh;background-color:#fdfaf8;font-family:'Zen Kaku Gothic New',-apple-system,BlinkMacSystemFont,sans-serif;color:#0f172a;padding:24px 16px;">
+    <div style="min-height:100vh;background-color:#fdfaf8;font-family:sans-serif;color:#0f172a;padding:24px 16px;">
       <div style="max-width:896px;margin:0 auto;">
-        <div style="margin-bottom:16px;">
-          <a href="/" style="display:inline-flex;align-items:center;gap:6px;font-size:0.75rem;font-weight:700;color:#e11d48;text-decoration:none;">
-            ← <span>コスメ一覧へ戻る</span>
-          </a>
-        </div>
-
-        <article style="background:rgba(255,255,255,0.85);backdrop-filter:blur(12px);border:1px solid #ffe4e6;border-radius:24px;padding:32px 24px;box-shadow:0 10px 30px -10px rgba(244,63,94,0.08);">
+        <article style="background:#ffffff;border:1px solid #ffe4e6;border-radius:24px;padding:32px 24px;">
           <nav style="display:flex;align-items:center;gap:8px;font-size:0.8rem;color:#64748b;margin-bottom:20px;flex-wrap:wrap;">
             <a href="/" style="color:#64748b;text-decoration:none;">コスメTOP</a>
             <span>/</span>
-            <span style="color:#be123c;font-weight:700;background:#fff1f2;padding:2px 8px;border-radius:6px;border:1px solid #ffe4e6;">${categoryLabel}</span>
+            <a href="/?category=${encodeURIComponent(art.category || 'all')}" style="color:#be123c;font-weight:700;text-decoration:none;">${categoryLabel}</a>
             <span>/</span>
             <span style="color:#0f172a;font-weight:700;">${title}</span>
           </nav>
-
           <header style="margin-bottom:24px;">
             <h1 style="font-size:1.75rem;line-height:1.4;color:#0f172a;font-weight:900;margin:0 0 12px 0;">${title}</h1>
             <p style="color:#475569;font-size:0.95rem;line-height:1.7;margin:0;">${description}</p>
           </header>
-
           <div class="article-content" style="line-height:1.85;color:#334155;margin-bottom:40px;">
             ${parsedBody}
           </div>
-
-          ${(art.faqs && art.faqs.length) ? `
-          <section style="background:#fff;border:1px solid #f1f5f9;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05);border-radius:16px;padding:24px;margin-bottom:36px;">
-            <h3 style="font-size:1.35rem;margin-top:0;margin-bottom:18px;color:#0f172a;font-weight:800;border-left:4px solid #e11d48;padding-left:12px;">よくある質問 (FAQ)</h3>
-            ${art.faqs.map(faq => `
-              <div style="margin-bottom:18px;padding-bottom:16px;border-bottom:1px dashed #e2e8f0;">
-                <strong style="color:#e11d48;font-size:1.05rem;display:block;margin-bottom:6px;">Q. ${escapeHtml(faq.question)}</strong>
-                <p style="margin:0;color:#475569;line-height:1.7;">A. ${escapeHtml(faq.answer)}</p>
-              </div>
-            `).join('')}
-          </section>` : ''}
-
           ${related.length ? `
           <section style="margin-top:40px;border-top:1px solid #f1f5f9;padding-top:28px;">
             <h3 style="font-size:1.25rem;margin:0 0 16px 0;color:#0f172a;font-weight:800;">✨ 関連おすすめコスメ</h3>
             <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));gap:14px;">
               ${related.map(r => `
-                <a href="/articles/${r.id}" style="display:block;background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px;text-decoration:none;transition:transform 0.2s;">
+                <a href="/articles/${r.id}" style="display:block;background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px;text-decoration:none;">
                   <span style="font-size:0.75rem;font-weight:700;color:#e11d48;display:block;margin-bottom:4px;">${escapeHtml(r.categoryLabel || r.category || 'コスメ')}</span>
                   <h4 style="font-size:0.9rem;line-height:1.4;margin:0;color:#1e293b;font-weight:700;">${escapeHtml(r.title || r.productName || 'おすすめコスメ')}</h4>
                 </a>
@@ -432,86 +368,221 @@ articles.forEach((art, index) => {
     </div>
   `;
 
-  // HTMLメタ挿入
-  const cleanHeadTitle = title.includes('| Qualia Navi') ? title : `${title} | Qualia Navi`;
-  let customHtml = templateHtml
-    .replace(/<title>.*?<\/title>/, `<title>${cleanHeadTitle}</title>`)
-    .replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${description}" />`)
-    .replace('</head>', `
-      <link rel="canonical" href="${canonicalUrl}" />
-      <meta property="og:title" content="${cleanHeadTitle}" />
-      <meta property="og:description" content="${description}" />
-      <meta property="og:url" content="${canonicalUrl}" />
-      <meta property="og:image" content="${image}" />
-      <script type="application/ld+json">${JSON.stringify(jsonLdGraph)}</script>
-      </head>
-    `)
-    .replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);
+  const customHtml = buildHtmlPage({
+    title,
+    description,
+    canonicalUrl,
+    image,
+    jsonLd: { "@context": "https://schema.org", "@graph": graphNodes },
+    bodyHtml
+  });
 
-  const targetDir = path.join(distDir, 'articles', articleId);
-  fs.mkdirSync(targetDir, { recursive: true });
-  fs.writeFileSync(path.join(targetDir, 'index.html'), customHtml, 'utf8');
-
-  // 単一ファイル `/articles/articleId.html` にも出力（フォールバック用）
-  fs.writeFileSync(path.join(distDir, 'articles', `${articleId}.html`), customHtml, 'utf8');
+  writeRouteFiles(['articles', articleId], customHtml);
   prerenderedCount++;
 });
 
-// 2. VS比較ページのプリレンダリング
+// 2. 全229件のVS比較ページの完全セマンティックHTMLプリレンダリング
 comparisons.forEach((comp) => {
-  const canonicalUrl = `https://qualia-navi.vercel.app/compare/${comp.id}`;
-  const title = escapeHtml(comp.title);
-  const description = escapeHtml(`${comp.title}の価格、成分、使用感、どちらが買いかを徹底比較評価。`);
+  if (!comp.id) return;
+  const canonicalUrl = `https://qualia-navi.vercel.app/comparisons/${comp.id}`;
+  const title = escapeHtml(comp.title.includes('【') ? comp.title : `【2026最新比較】${comp.title} どっちがおすすめ？違いを徹底検証`);
+  const description = escapeHtml((comp.verdictSummary || comp.subtitle || `${comp.title}の価格、成分、使用感、どちらが買いかを徹底比較評価。`).slice(0, 155));
+  const image = normalizeImageUrl(comp.coverImage);
+  const parsedBody = markdownToSemanticHtml(comp.contentMarkdown || '');
 
-  let customHtml = templateHtml
-    .replace(/<title>.*?<\/title>/, `<title>${title} | Qualia Navi</title>`)
-    .replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${description}" />`)
-    .replace('</head>', `<link rel="canonical" href="${canonicalUrl}" /></head>`)
-    .replace('<div id="root"></div>', `<div id="root"><article style="padding:24px 20px;max-width:860px;margin:0 auto;"><h1 style="font-size:1.85rem;line-height:1.45;color:#0f172a;font-weight:800;">${title}</h1><p style="color:#475569;font-size:1.05rem;line-height:1.7;">${description}</p></article></div>`);
+  const pointsHtml = Array.isArray(comp.comparisonPoints) && comp.comparisonPoints.length > 0
+    ? `<section style="margin:24px 0;padding:20px;background:#fff1f2;border-radius:16px;">
+        <h2 style="font-size:1.2rem;font-weight:800;margin:0 0 12px;color:#881337;">シーン別・勝敗判定マトリクス</h2>
+        <ul>
+          ${comp.comparisonPoints.map(pt => `<li style="margin-bottom:8px;"><strong>${escapeHtml(pt.scene)}:</strong> ${escapeHtml(pt.reason)}</li>`).join('')}
+        </ul>
+      </section>`
+    : '';
 
-  const targetDir = path.join(distDir, 'compare', comp.id);
-  fs.mkdirSync(targetDir, { recursive: true });
-  fs.writeFileSync(path.join(targetDir, 'index.html'), customHtml, 'utf8');
-  fs.writeFileSync(path.join(distDir, 'compare', `${comp.id}.html`), customHtml, 'utf8');
+  const bodyHtml = `
+    <div style="min-height:100vh;background-color:#fdfaf8;font-family:sans-serif;color:#0f172a;padding:24px 16px;">
+      <article style="max-width:860px;margin:0 auto;background:#fff;padding:32px 24px;border-radius:24px;border:1px solid #ffe4e6;">
+        <nav style="font-size:0.8rem;color:#64748b;margin-bottom:16px;">
+          <a href="/">コスメTOP</a> / <a href="/comparisons">VS比較対決一覧</a> / <span>${title}</span>
+        </nav>
+        <h1 style="font-size:1.8rem;line-height:1.4;color:#0f172a;font-weight:900;margin-bottom:12px;">${title}</h1>
+        <p style="color:#475569;font-size:1rem;line-height:1.7;margin-bottom:20px;">${escapeHtml(comp.subtitle || '')}</p>
+        <div style="background:#0f172a;color:#fff;padding:20px;border-radius:16px;margin-bottom:24px;">
+          <strong style="color:#fcd34d;display:block;margin-bottom:6px;">対決結論 (VERDICT)</strong>
+          <p style="margin:0;line-height:1.7;">${escapeHtml(comp.verdictSummary || '')}</p>
+        </div>
+        ${pointsHtml}
+        <div class="comparison-body" style="line-height:1.85;color:#334155;">
+          ${parsedBody}
+        </div>
+      </article>
+    </div>
+  `;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": title,
+        "description": description,
+        "image": image,
+        "datePublished": comp.createdAt || "2026-10-01",
+        "author": { "@type": "Organization", "name": "Qualia 美容分析室" },
+        "mainEntityOfPage": canonicalUrl
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "コスメTOP", "item": "https://qualia-navi.vercel.app" },
+          { "@type": "ListItem", "position": 2, "name": "VS比較一覧", "item": "https://qualia-navi.vercel.app/comparisons" },
+          { "@type": "ListItem", "position": 3, "name": title, "item": canonicalUrl }
+        ]
+      }
+    ]
+  };
+
+  const customHtml = buildHtmlPage({ title, description, canonicalUrl, image, jsonLd, bodyHtml });
+  writeRouteFiles(['comparisons', comp.id], customHtml);
+  writeRouteFiles(['compare', comp.id], customHtml);
   prerenderedCount++;
 });
 
-// 3. ブログ・特集ページのプリレンダリング
+// 3. 全315件のブログ・特集ページの完全セマンティックHTMLプリレンダリング
 blogs.forEach((blog) => {
-  const canonicalUrl = `https://qualia-navi.vercel.app/features/${blog.slug || blog.id}`;
+  if (!blog.id) return;
+  const canonicalUrl = `https://qualia-navi.vercel.app/features/${blog.id}`;
   const title = escapeHtml(blog.title);
-  const description = escapeHtml(blog.subtitle || `${blog.title}の特選ガイド。プロが選ぶおすすめコスメ＆ケアアイテム情報。`);
+  const description = escapeHtml((blog.introText || blog.subtitle || `${blog.title}の特選ガイド。`).slice(0, 155));
+  const image = normalizeImageUrl(blog.coverImage);
+  const parsedBody = markdownToSemanticHtml(blog.contentMarkdown || '');
 
-  let customHtml = templateHtml
-    .replace(/<title>.*?<\/title>/, `<title>${title} | Qualia Navi</title>`)
-    .replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${description}" />`)
-    .replace('</head>', `<link rel="canonical" href="${canonicalUrl}" /></head>`)
-    .replace('<div id="root"></div>', `<div id="root"><article style="padding:24px 20px;max-width:860px;margin:0 auto;"><h1 style="font-size:1.85rem;line-height:1.45;color:#0f172a;font-weight:800;">${title}</h1><p style="color:#475569;font-size:1.05rem;line-height:1.7;">${description}</p></article></div>`);
+  const bodyHtml = `
+    <div style="min-height:100vh;background-color:#fdfaf8;font-family:sans-serif;color:#0f172a;padding:24px 16px;">
+      <article style="max-width:860px;margin:0 auto;background:#fff;padding:32px 24px;border-radius:24px;border:1px solid #ffe4e6;">
+        <nav style="font-size:0.8rem;color:#64748b;margin-bottom:16px;">
+          <a href="/">コスメTOP</a> / <a href="/features">特集記事一覧</a> / <span>${title}</span>
+        </nav>
+        <h1 style="font-size:1.8rem;line-height:1.4;color:#0f172a;font-weight:900;margin-bottom:12px;">${title}</h1>
+        <p style="color:#475569;font-size:1rem;line-height:1.7;margin-bottom:24px;">${escapeHtml(blog.subtitle || blog.introText || '')}</p>
+        <div class="blog-body" style="line-height:1.85;color:#334155;">
+          ${parsedBody}
+        </div>
+      </article>
+    </div>
+  `;
 
-  // /blogs/
-  const targetDirBlog = path.join(distDir, 'blogs', blog.id);
-  fs.mkdirSync(targetDirBlog, { recursive: true });
-  fs.writeFileSync(path.join(targetDirBlog, 'index.html'), customHtml, 'utf8');
-  fs.writeFileSync(path.join(distDir, 'blogs', `${blog.id}.html`), customHtml, 'utf8');
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "headline": title,
+        "description": description,
+        "image": image,
+        "datePublished": blog.createdAt || "2026-10-01",
+        "author": { "@type": "Person", "name": blog.authorName || "橘 えりか" },
+        "mainEntityOfPage": canonicalUrl
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "コスメTOP", "item": "https://qualia-navi.vercel.app" },
+          { "@type": "ListItem", "position": 2, "name": "特集記事一覧", "item": "https://qualia-navi.vercel.app/features" },
+          { "@type": "ListItem", "position": 3, "name": title, "item": canonicalUrl }
+        ]
+      }
+    ]
+  };
 
-  // /features/
-  const targetDirFeatId = path.join(distDir, 'features', blog.id);
-  fs.mkdirSync(targetDirFeatId, { recursive: true });
-  fs.writeFileSync(path.join(targetDirFeatId, 'index.html'), customHtml, 'utf8');
-  fs.writeFileSync(path.join(distDir, 'features', `${blog.id}.html`), customHtml, 'utf8');
+  const customHtml = buildHtmlPage({ title, description, canonicalUrl, image, jsonLd, bodyHtml });
+  writeRouteFiles(['features', blog.id], customHtml);
+  writeRouteFiles(['blogs', blog.id], customHtml);
+  writeRouteFiles(['blog', blog.id], customHtml);
 
   if (blog.slug && blog.slug !== blog.id) {
-    const targetDirFeatSlug = path.join(distDir, 'features', blog.slug);
-    fs.mkdirSync(targetDirFeatSlug, { recursive: true });
-    fs.writeFileSync(path.join(targetDirFeatSlug, 'index.html'), customHtml, 'utf8');
-    fs.writeFileSync(path.join(distDir, 'features', `${blog.slug}.html`), customHtml, 'utf8');
+    writeRouteFiles(['features', blog.slug], customHtml);
+    writeRouteFiles(['blogs', blog.slug], customHtml);
+    writeRouteFiles(['blog', blog.slug], customHtml);
   }
 
-  prerenderedCount += 2;
+  prerenderedCount++;
 });
 
+// 4. インデックス一覧ページ（/features, /comparisons, /sitemap）のプリレンダリング
+const featuresIndexHtml = buildHtmlPage({
+  title: '【2026年最新】コスメ・美容 特集記事一覧（10選・お悩み別ガイド） | Qualia Navi',
+  description: 'プロ厳選10選や悩み別・成分別・パーソナルカラー別の特集記事全315本以上を網羅。Qualia 美容分析室による徹底検証レポート一覧。',
+  canonicalUrl: 'https://qualia-navi.vercel.app/features',
+  image: 'https://qualia-navi.vercel.app/og-image.png',
+  jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", "name": "コスメ・美容 特集記事一覧", "url": "https://qualia-navi.vercel.app/features" },
+  bodyHtml: `<main style="max-width:1000px;margin:0 auto;padding:24px;"><h1>コスメ・美容 特集記事一覧</h1><ul>${blogs.map(b => `<li><a href="/features/${b.id}">${escapeHtml(b.title)}</a></li>`).join('')}</ul></main>`
+});
+writeRouteFiles(['features'], featuresIndexHtml);
+writeRouteFiles(['blogs'], featuresIndexHtml);
 
-// 4. トップページの静的セマンティックHTML＆WebSite/Organization構造化データ
+const comparisonsIndexHtml = buildHtmlPage({
+  title: '【2026年最新】人気コスメVS対決・徹底比較記事一覧（全229件） | Qualia Navi',
+  description: 'お悩みや目的別に人気コスメをガチンコ比較！成分・使用感・コスパの違いを多角的に分析し、あなたにピッタリの1本を見つけます。',
+  canonicalUrl: 'https://qualia-navi.vercel.app/comparisons',
+  image: 'https://qualia-navi.vercel.app/og-image.png',
+  jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", "name": "人気コスメVS対決・徹底比較記事一覧", "url": "https://qualia-navi.vercel.app/comparisons" },
+  bodyHtml: `<main style="max-width:1000px;margin:0 auto;padding:24px;"><h1>人気コスメVS対決・徹底比較記事一覧</h1><ul>${comparisons.map(c => `<li><a href="/comparisons/${c.id}">${escapeHtml(c.title)}</a></li>`).join('')}</ul></main>`
+});
+writeRouteFiles(['comparisons'], comparisonsIndexHtml);
+writeRouteFiles(['compare'], comparisonsIndexHtml);
+
+// 4.5. 10〜1月 季節別SEOランキングハブの静的プリレンダリング
+const seasonalRankingRoutes = [
+  {
+    path: ['ranking', 'autumn-cosme'],
+    blogId: 'feat-autumn-cosmetics-guide-45-series-hub',
+    title: '【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する45大特集・450選コンプリートガイド | Qualia Navi',
+    desc: '秋の急な乾燥や寒暖差ゆらぎに負けない秋コスメ45大特集・450選を完全網羅。楽天市場の最新価格・レビュー徹底比較。'
+  },
+  {
+    path: ['ranking', 'holiday-coffret'],
+    blogId: 'feat-winter-holiday-coffret-makeup-collection-2026',
+    title: '【2026冬ホリデー・即完売必至の限定コフレ】クリスマスコフレ＆ホリデーメイクアップキット人気おすすめ10選 | Qualia Navi',
+    desc: '年に一度の豪華デパコス限定クリスマスコフレ＆ホリデーメイクアップキットを徹底比較！完売前に手に入れるべき限定名品。'
+  },
+  {
+    path: ['ranking', 'gift-selection'],
+    blogId: 'feat-winter-holiday-cosmetics-gift-guide-2026',
+    title: '【2026冬・絶対外さないホリデーギフト】予算別（3,000円/5,000円/1万円）人気プレゼントコスメ10選 | Qualia Navi',
+    desc: '女友達や大切な人へ、または1年頑張った自分へのご褒美に。予算別に失敗しない冬のホリデーギフト名品を徹底比較。'
+  },
+  {
+    path: ['ranking', 'winter-skincare'],
+    blogId: 'feat-winter-sheet-mask-face-pack-2026',
+    title: '【冬の乾燥くすみ＆ゴワつき一掃】高保湿フェイスパック＆濃密シートマスクおすすめ人気10選 | Qualia Navi',
+    desc: '真冬の過酷な乾燥・暖房ダメージを救う高保湿シートマスク＆フェイスパック名品10選。ぷるぷる水光肌を取り戻す決定版。'
+  }
+];
+
+seasonalRankingRoutes.forEach(r => {
+  const targetBlog = blogs.find(b => b.id === r.blogId) || blogs[0];
+  const pageHtml = buildHtmlPage({
+    title: r.title,
+    description: r.desc,
+    canonicalUrl: `https://qualia-navi.vercel.app/${r.path.join('/')}`,
+    image: normalizeImageUrl(targetBlog.coverImage),
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": r.title,
+      "description": r.desc,
+      "datePublished": "2026-10-15",
+      "dateModified": "2026-10-19",
+      "mainEntityOfPage": `https://qualia-navi.vercel.app/${r.path.join('/')}`
+    },
+    bodyHtml: `<main style="max-width:1000px;margin:0 auto;padding:24px;"><h1>${escapeHtml(r.title)}</h1><p>${escapeHtml(r.desc)}</p><div class="article-content">${markdownToSemanticHtml(targetBlog.contentMarkdown || '')}</div></main>`
+  });
+  writeRouteFiles(r.path, pageHtml);
+  prerenderedCount++;
+});
+
+// 5. トップページの静的セマンティックHTML＆WebSite/Organization構造化データ
 const topCanonicalUrl = "https://qualia-navi.vercel.app";
 const topTitle = "【2026年最新】Qualia Navi (クオリア・ナビ) - プチプラ・デパコス・韓国コスメのリアル比較検証メディア";
 const topDesc = "透明感引き立つ最新スキンケア、デパコス・プチプラ、話題の韓国コスメをQualia美容分析室が徹底検証！楽天市場の最安値・口コミ情報をリアルタイムナビゲート。";
@@ -529,7 +600,7 @@ const topJsonLd = {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://qualia-navi.vercel.app/?q={search_term_string}"
+          "urlTemplate": "https://qualia-navi.vercel.app/?search={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }
@@ -542,89 +613,58 @@ const topJsonLd = {
       "logo": {
         "@type": "ImageObject",
         "url": "https://qualia-navi.vercel.app/og-image.png"
-      },
-      "sameAs": [
-        "https://twitter.com/qualia_navi",
-        "https://www.instagram.com/qualia_navi"
-      ]
+      }
     }
   ]
 };
 
-// トップページにGooglebot/クローラが辿れる主要カテゴリ・厳選特集カードを整理して注入
-const topFeaturedArticles = articles.slice(0, 12);
+const topFeaturedArticles = articles.slice(0, 18);
 const topArticlesCards = topFeaturedArticles.map(a => `
-  <article style="background:#ffffff;border:1px solid #f1f5f9;border-radius:16px;padding:16px;display:flex;flex-direction:column;justify-content:between;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
-    <div>
-      <span style="font-size:0.75rem;font-weight:700;color:#e11d48;background:#fff1f2;padding:4px 8px;border-radius:6px;display:inline-block;margin-bottom:8px;">
-        ${escapeHtml(a.categoryLabel || a.category || '注目コスメ')}
-      </span>
-      <h3 style="font-size:0.95rem;font-weight:700;line-height:1.4;margin:0 0 8px;color:#0f172a;">
-        <a href="/articles/${a.id || a.slug}" style="color:#0f172a;text-decoration:none;">
-          ${escapeHtml(a.title || a.productName)}
-        </a>
-      </h3>
-      <p style="font-size:0.8rem;color:#64748b;line-height:1.5;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">
-        ${escapeHtml(a.introText || a.description || '')}
-      </p>
-    </div>
-    <div style="margin-top:12px;padding-top:8px;border-top:1px solid #f8fafc;display:flex;justify-content:space-between;align-items:center;">
-      <span style="font-size:0.8rem;font-weight:700;color:#e11d48;">検証レビューを見る ➔</span>
-    </div>
+  <article style="background:#ffffff;border:1px solid #f1f5f9;border-radius:16px;padding:16px;">
+    <span style="font-size:0.75rem;font-weight:700;color:#e11d48;background:#fff1f2;padding:4px 8px;border-radius:6px;display:inline-block;margin-bottom:8px;">
+      ${escapeHtml(a.categoryLabel || a.category || '注目コスメ')}
+    </span>
+    <h3 style="font-size:0.95rem;font-weight:700;line-height:1.4;margin:0 0 8px;color:#0f172a;">
+      <a href="/articles/${a.id || a.slug}" style="color:#0f172a;text-decoration:none;">
+        ${escapeHtml(a.title || a.productName)}
+      </a>
+    </h3>
+    <p style="font-size:0.8rem;color:#64748b;line-height:1.5;margin:0;">
+      ${escapeHtml((a.introText || a.description || '').slice(0, 120))}
+    </p>
   </article>
 `).join('');
 
 const topBodyHtml = `
-  <div style="min-height:100vh;background-color:#fdfaf8;font-family:'Zen Kaku Gothic New',-apple-system,BlinkMacSystemFont,sans-serif;color:#0f172a;padding:24px 16px;">
+  <div style="min-height:100vh;background-color:#fdfaf8;font-family:sans-serif;color:#0f172a;padding:24px 16px;">
     <header style="max-width:1100px;margin:0 auto 32px;text-align:center;">
       <h1 style="font-size:2rem;font-weight:900;color:#0f172a;margin-bottom:12px;">${topTitle}</h1>
       <p style="color:#475569;font-size:1.05rem;line-height:1.7;max-width:800px;margin:0 auto;">${topDesc}</p>
-      <nav style="display:flex;justify-content:center;gap:16px;margin-top:20px;">
-        <a href="/sitemap" style="color:#e11d48;font-weight:700;text-decoration:underline;">全記事サイトマップ (${articles.length}件)</a>
-        <a href="/features" style="color:#e11d48;font-weight:700;text-decoration:underline;">コスメ特集</a>
-        <a href="/comparisons" style="color:#e11d48;font-weight:700;text-decoration:underline;">比較検証</a>
+      <nav style="display:flex;justify-content:center;gap:16px;margin-top:20px;flex-wrap:wrap;">
+        <a href="/features" style="color:#e11d48;font-weight:700;">コスメ特集 (${blogs.length}件)</a>
+        <a href="/comparisons" style="color:#e11d48;font-weight:700;">VS比較検証 (${comparisons.length}件)</a>
+        <a href="/sitemap" style="color:#e11d48;font-weight:700;">全記事サイトマップ (${articles.length}件)</a>
       </nav>
     </header>
-
     <main style="max-width:1100px;margin:0 auto;">
-      <section style="background:#fff;border:1px solid #ffe4e6;border-radius:20px;padding:28px;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05);margin-bottom:32px;">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;border-left:4px solid #e11d48;padding-left:12px;">
-          <h2 style="font-size:1.35rem;font-weight:800;color:#be123c;margin:0;">
-            今週の注目厳選コスメ検証特集
-          </h2>
-          <a href="/sitemap" style="font-size:0.85rem;color:#e11d48;font-weight:700;text-decoration:none;">
-            一覧を見る ➔
-          </a>
-        </div>
+      <section style="background:#fff;border:1px solid #ffe4e6;border-radius:20px;padding:28px;margin-bottom:32px;">
+        <h2 style="font-size:1.35rem;font-weight:800;color:#be123c;margin:0 0 20px;">注目コスメ検証レビュー</h2>
         <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));gap:16px;">
           ${topArticlesCards}
-        </div>
-        <div style="text-align:center;margin-top:28px;">
-          <a href="/sitemap" style="display:inline-block;background:#e11d48;color:#fff;padding:12px 32px;border-radius:9999px;font-weight:700;text-decoration:none;box-shadow:0 4px 10px rgba(225,29,72,0.2);">
-            全 ${articles.length} 件のコスメ検証アーカイブを見る →
-          </a>
         </div>
       </section>
     </main>
   </div>
 `;
 
-let topCustomHtml = templateHtml
-  .replace(/<title>.*?<\/title>/, `<title>${topTitle}</title>`)
-  .replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${topDesc}" />`)
-  .replace("</head>", `
-    <link rel="canonical" href="${topCanonicalUrl}" />
-    <meta property="og:title" content="${topTitle}" />
-    <meta property="og:description" content="${topDesc}" />
-    <meta property="og:url" content="${topCanonicalUrl}" />
-    <meta property="og:image" content="https://qualia-navi.vercel.app/og-image.png" />
-    <script type="application/ld+json">${JSON.stringify(topJsonLd)}</script>
-    </head>
-  `)
-  .replace('<div id="root"></div>', `<div id="root">${topBodyHtml}</div>`);
+const topCustomHtml = buildHtmlPage({
+  title: topTitle,
+  description: topDesc,
+  canonicalUrl: topCanonicalUrl,
+  image: 'https://qualia-navi.vercel.app/og-image.png',
+  jsonLd: topJsonLd,
+  bodyHtml: topBodyHtml
+});
 
 fs.writeFileSync(path.join(distDir, "index.html"), topCustomHtml, "utf8");
-console.log("✅ [Prerender Top Page] トップページに WebSite & Organization 構造化データおよび3,000+記事へのセマンティック内部リンクを完全注入しました！");
-
-console.log(`✨ [Prerender Completed] 全 ${prerenderedCount} ページの静的SEO用完全セマンティックHTMLを出力しました！`);
-
+console.log(`✨ [Prerender Completed] 全 ${prerenderedCount} ページ（個別記事:${articles.length}, 特集:${blogs.length}, 比較:${comparisons.length}）の静的SEO用完全セマンティックHTMLを出力しました！`);

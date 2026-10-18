@@ -59,80 +59,58 @@ Sitemap: ${baseUrl}/sitemap.xml
 `);
 });
 
-// Dynamic Sitemap.xml Generator
-import { INITIAL_ARTICLES } from "./src/data";
+// Dynamic / Static Sitemap.xml & llms.txt Handlers
+import fs from "fs";
+import { INITIAL_ARTICLES, INITIAL_BLOG_POSTS, INITIAL_COMPARISONS } from "./src/data";
 
 app.get("/sitemap.xml", (req, res) => {
   res.type("application/xml");
+  const staticSitemapPath = path.join(process.cwd(), "public", "sitemap.xml");
+  if (fs.existsSync(staticSitemapPath)) {
+    return res.sendFile(staticSitemapPath);
+  }
+
   const protocol = req.headers['x-forwarded-proto'] || 'http';
   const host = req.headers.host || 'localhost:3000';
   const baseUrl = `${protocol}://${host}`;
-
-  const now = new Date().toISOString();
+  const now = new Date().toISOString().split('T')[0];
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  xml += `  <url><loc>${baseUrl}/</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
+  xml += `  <url><loc>${baseUrl}/features</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>0.95</priority></url>\n`;
+  xml += `  <url><loc>${baseUrl}/comparisons</loc><lastmod>${now}</lastmod><changefreq>daily</changefreq><priority>0.95</priority></url>\n`;
 
-  // Homepage
-  xml += `  <url>\n`;
-  xml += `    <loc>${baseUrl}/</loc>\n`;
-  xml += `    <lastmod>${now}</lastmod>\n`;
-  xml += `    <changefreq>daily</changefreq>\n`;
-  xml += `    <priority>1.0</priority>\n`;
-  xml += `  </url>\n`;
-
-  // Category Pages
-  const categories = [
-    'skincare', 'suncare', 'makeup', 'lip', 'device', 
-    'k-beauty', 'bodycare', 'haircare', 'oralcare', 'supplement'
-  ];
-  categories.forEach(cat => {
-    xml += `  <url>\n`;
-    xml += `    <loc>${baseUrl}/?category=${cat}</loc>\n`;
-    xml += `    <lastmod>${now}</lastmod>\n`;
-    xml += `    <changefreq>daily</changefreq>\n`;
-    xml += `    <priority>0.8</priority>\n`;
-    xml += `  </url>\n`;
+  INITIAL_BLOG_POSTS.forEach(blog => {
+    xml += `  <url><loc>${baseUrl}/features/${blog.id}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>\n`;
   });
 
-  // Articles
+  INITIAL_COMPARISONS.forEach(comp => {
+    xml += `  <url><loc>${baseUrl}/comparisons/${comp.id}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>\n`;
+  });
+
   INITIAL_ARTICLES.forEach(article => {
-    xml += `  <url>\n`;
-    xml += `    <loc>${baseUrl}/articles/${article.id}</loc>\n`;
-    xml += `    <lastmod>${article.createdAt ? new Date(article.createdAt).toISOString() : now}</lastmod>\n`;
-    xml += `    <changefreq>weekly</changefreq>\n`;
-    xml += `    <priority>0.9</priority>\n`;
-    xml += `  </url>\n`;
+    xml += `  <url><loc>${baseUrl}/articles/${article.id}</loc><lastmod>${now}</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>\n`;
   });
 
   xml += `</urlset>`;
   res.send(xml);
 });
 
-// LLM Index File (/llms.txt) for Perplexity, ChatGPT, and Gemini AI Search Engines
 app.get("/llms.txt", (req, res) => {
   res.type("text/plain; charset=utf-8");
+  const staticLlmsPath = path.join(process.cwd(), "public", "llms.txt");
+  if (fs.existsSync(staticLlmsPath)) {
+    return res.sendFile(staticLlmsPath);
+  }
+
   const protocol = req.headers['x-forwarded-proto'] || 'http';
   const host = req.headers.host || 'localhost:3000';
   const baseUrl = `${protocol}://${host}`;
 
-  let content = `# Qualia Navi - 専門バイヤーの徹底本音レビューメディア
-
-> Qualia Navi は、プロの専門バイヤーが実際に購入し、長期間実機検証したRakutenおすすめガジェット、PC周辺機器、家電、美容アイテム、日用品の本音レビューを提供する検証型メディアです。
-
-## 主なカテゴリ
-- 家電・カメラ: ${baseUrl}/?category=gadgets
-- パソコン・周辺機器: ${baseUrl}/?category=pc
-- ホーム＆キッチン: ${baseUrl}/?category=kitchen
-- ビューティー: ${baseUrl}/?category=beauty
-- ファッション: ${baseUrl}/?category=fashion
-- 本・ゲーム: ${baseUrl}/?category=books-games
-
-## おすすめ・ベストバイ検証記事
-`;
-
-  INITIAL_ARTICLES.forEach(art => {
-    content += `- [${art.title}](${baseUrl}/article/${art.id}): 評価 ${art.starRating}/5.0 | ${art.introText.slice(0, 80)}...\n`;
+  let content = `# Qualia Navi (クオリア・ナビ) - プチプラ・デパコス・韓国コスメ徹底検証メディア\n\n`;
+  INITIAL_ARTICLES.slice(0, 100).forEach(art => {
+    content += `- [${art.title}](${baseUrl}/articles/${art.id}): 評価 ${art.starRating || 4.8}/5.0 | ${(art.introText || '').slice(0, 80)}...\n`;
   });
 
   res.send(content);
@@ -451,9 +429,6 @@ Always output your entire response formatted as a strict single JSON object foll
 });
 
 // Dynamic Meta Tag and JSON-LD Inserter for dynamic articles / SSR fallback
-import fs from "fs";
-import { INITIAL_COMPARISONS, INITIAL_BLOG_POSTS } from "./src/data";
-
 function renderArticleDynamicHtml(htmlTemplate: string, entityId: string, type: 'article' | 'compare' | 'feature', req: express.Request): string {
   let item: any;
   if (type === 'article') {

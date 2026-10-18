@@ -38,6 +38,11 @@ export interface RakutenProductArticle {
   content?: string;
   description?: string;
   author?: string;
+  isContentArticle?: boolean;
+  seasonMonth?: 'oct' | 'nov' | 'dec' | 'jan';
+  parentFeatureSlug?: string;
+  tags?: string[];
+  shopName?: string;
 }
 
 export interface AuthorProfile {

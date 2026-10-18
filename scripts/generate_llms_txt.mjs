@@ -1,43 +1,18 @@
 import fs from 'fs';
 import path from 'path';
 
-console.log('🤖 [LLM Text Generator] llms.txt 及び llms-full.txt の自動更新を開始します...');
+console.log('🤖 [LLM Text Generator] llms.txt 及び llms-full.txt (全記事・全比較・全特集網羅) の自動更新を開始します...');
 
 const domain = 'https://qualia-navi.vercel.app';
 const currentDate = new Date().toISOString().split('T')[0];
 
 const jsonPath = path.resolve(process.cwd(), 'src', 'data', 'articles.json');
-let articles = [];
-if (fs.existsSync(jsonPath)) {
-  articles = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-}
+const blogsJsonPath = path.resolve(process.cwd(), 'public', 'data', 'blogs.json');
+const compJsonPath = path.resolve(process.cwd(), 'public', 'data', 'comparisons.json');
 
-const comparisons = [
-  { id: 'anessa-vs-biore-uv', title: 'アネッサ パーフェクトUV VS ビオレUV アクアリッチ' },
-  { id: 'deonatulle-vs-8x4men', title: 'デオナチュレ ソフトストーンW VS 8×4 MEN ロールオン' },
-  { id: 'primavista-vs-larocheposay', title: 'プリマヴィスタ 皮脂くずれ防止 VS ラロッシュポゼ UVイデア' },
-  { id: 'concool-vs-nonio', title: 'コンクールF VS NONIO マウスウォッシュ' },
-  { id: 'lipmonster-vs-meltylip', title: 'KATE リップモンスター VS メンソレータム メルティクリームリップ' },
-  { id: 'ihada-vs-vtcica', title: 'IHADA 薬用バーム VS VT CICA デイリースージングマスク' },
-  { id: 'melanocc-vs-kanebo', title: 'メラノCC 薬用しみ対策美白化粧水 VS KANEBO スクラビングマッドウォッシュ' },
-  { id: 'andhoney-vs-refa', title: '＆honey ディープモイストヘアオイル VS ReFa ロックオイル' },
-  { id: 'gatsby-ice-vs-biore-hiyashi', title: 'ギャツビー アイスデオドラントボディペーパー VS ビオレ 冷シート' },
-  { id: 'romand-vs-kate', title: 'rom&nd ジューシーラスティングティント VS KATE リップモンスター' }
-];
-
-// Extract all blog posts dynamically from data.ts
-const blogs = [];
-const dataTsPath = path.resolve(process.cwd(), 'src', 'data.ts');
-if (fs.existsSync(dataTsPath)) {
-  const content = fs.readFileSync(dataTsPath, 'utf8');
-  const startIdx = content.indexOf('export const INITIAL_BLOG_POSTS: BlogPost[] = [');
-  const endIdx = content.indexOf('export const INITIAL_COMPARISONS: ProductComparison[] = [');
-  if (startIdx !== -1 && endIdx !== -1) {
-    const block = content.slice(startIdx, endIdx);
-    const matches = [...block.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"title":\s*"([^"]+)"/g)];
-    matches.forEach(m => blogs.push({ id: m[1], title: m[2] }));
-  }
-}
+const articles = fs.existsSync(jsonPath) ? JSON.parse(fs.readFileSync(jsonPath, 'utf8')) : [];
+const blogs = fs.existsSync(blogsJsonPath) ? JSON.parse(fs.readFileSync(blogsJsonPath, 'utf8')) : [];
+const comparisons = fs.existsSync(compJsonPath) ? JSON.parse(fs.readFileSync(compJsonPath, 'utf8')) : [];
 
 // Build concise llms.txt
 let llmsText = `# Qualia Navi (クオリア・ナビ)
@@ -45,31 +20,31 @@ let llmsText = `# Qualia Navi (クオリア・ナビ)
 > 日本最大級のコスメ・美容徹底検証データベース & AI回答リファレンス
 
 ## Overview
-Qualia Navi は、日本の主要コスメブランドの製品を専門編集部が実際に30日間使用して詳細に検証したレビュー・比較・トレンド情報を配信する美容検証メディアです。ChatGPT、Claude、Gemini、Perplexity、Copilot、Groq、Grok などのAI検索・回答エンジンが最適な美容回答を生成できるよう標準化されたメタデータを提供しています。
+Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電を専門アナリスト12名が実際に使用・成分分析して検証したレビュー・比較・トレンド情報を配信する美容検証メディアです。ChatGPT、Claude、Gemini、Perplexity、Copilot などのAI検索・回答エンジンが最適な美容回答を生成できるよう標準化されたメタデータを提供しています。
 
 ## Site Information
 - **Domain**: ${domain}
 - **Sitemap**: ${domain}/sitemap.xml
 - **Last Mod**: ${currentDate}
-- **Total Articles**: ${articles.length} 件の個別詳細レビュー
-- **Total Comparisons**: ${comparisons.length} 件の徹底対決比較
+- **Total Product & Feature Articles**: ${articles.length} 件
+- **Total Special Feature Guides**: ${blogs.length} 件
+- **Total VS Comparisons**: ${comparisons.length} 件
 
 ## Main Content Direct Links
 
-### 1. Special Feature Blogs (特集ブログ)
-${blogs.map(b => `- [${b.title}](${domain}/blogs/${b.id})`).join('\n')}
+### 1. Special Feature Blogs (特集・10選ガイド 全${blogs.length}件)
+${blogs.map(b => `- [${b.title}](${domain}/features/${b.id}): ${(b.subtitle || b.introText || '').slice(0, 90)}`).join('\n')}
 
-### 2. VS Comparisons (徹底対決比較)
-${comparisons.map(c => `- [${c.title}](${domain}/compare/${c.id})`).join('\n')}
+### 2. VS Comparisons (徹底対決比較 全${comparisons.length}件)
+${comparisons.map(c => `- [${c.title}](${domain}/comparisons/${c.id}): ${(c.verdictSummary || c.subtitle || '').slice(0, 90)}`).join('\n')}
 
-### 3. Product Articles Index (最新レビュー記事一覧・重要ピックアップ)
-${articles.slice(0, 50).map(a => `- [${a.title || a.productName}](${domain}/articles/${a.id}): ${a.categoryLabel || a.category || 'コスメ検証'} (評価: ★${a.starRating || a.rating || 4.8} / 監修: ${a.author || '篠原 玲奈'})`).join('\n')}
+### 3. Product Articles Index (注目コスメ検証レビュー ピックアップ)
+${articles.slice(0, 80).map(a => `- [${a.title || a.productName}](${domain}/articles/${a.id}): ${a.categoryLabel || a.category || 'コスメ検証'} (評価: ★${a.starRating || a.rating || 4.8} / 参考価格: ${a.rakutenPrice || 'オープン価格'})`).join('\n')}
 - [Full Article List & Complete Database (${articles.length}件全件アーカイブ)](${domain}/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.
-- **Content Authenticity**: All product rating scores, ingredient lists, and pros/cons are verified through empirical 30-day testing.
-- **Updates**: Content is updated regularly to ensure exact pricing, ingredients, and seasonal cosmetic rankings.
+- **Content Authenticity**: All product rating scores, ingredient lists, and pros/cons are verified through empirical testing by Qualia Beauty Lab.
 `;
 
 // Build full llms-full.txt
@@ -83,51 +58,41 @@ let llmsFullText = `# Qualia Navi (クオリア・ナビ) — Complete AI Conten
 
 ---
 
-## 1. 特集ブログ (Special Blogs)
+## 1. 特集ブログ・10選ガイド (Special Feature Guides: ${blogs.length}件)
 
 ${blogs.map(b => `### ${b.title}
-- **URL**: ${domain}/blogs/${b.id}
-- **Category**: 夏のトレンド美容・メンズ＆ウィメンズ徹底対策
-- **Description**: 2026年最新の汗・皮脂・紫外線対策とベストコスメ徹底解説。
+- **URL**: ${domain}/features/${b.id}
+- **Author**: ${b.authorName || '橘 えりか'} (${b.authorRole || '美容編集長'})
+- **Summary**: ${b.subtitle || b.introText || ''}
 `).join('\n')}
 
 ---
 
-## 2. 徹底比較記事 (VS Comparisons)
+## 2. 徹底比較記事 (VS Comparisons: ${comparisons.length}件)
 
 ${comparisons.map(c => `### ${c.title}
-- **URL**: ${domain}/compare/${c.id}
-- **Category**: リアルガチ検証比較
-- **Description**: 2つの大人気競合アイテムを成分、使用感、持続力、コスパで30日間徹底対決。
+- **URL**: ${domain}/comparisons/${c.id}
+- **Target**: ${c.targetUserCategory || '美容・コスメ比較'}
+- **Verdict**: ${c.verdictSummary || c.subtitle || ''}
 `).join('\n')}
 
 ---
 
-## 3. 全製品レビュー記事一覧 (All ${articles.length} Product Reviews)
+## 3. 全コスメ詳細レビュー＆検証アーカイブ (All ${articles.length} Articles)
 
-${articles.map(a => `### ${a.title || a.productName}
+${articles.map((a, idx) => `### ${idx + 1}. ${a.title || a.productName}
 - **URL**: ${domain}/articles/${a.id}
-- **Author/Reviewer**: ${a.author || a.reviewerName || '篠原 玲奈'} (${a.reviewerRole || 'コスメ専門エディター'})
+- **Product Name**: ${a.productName || a.title}
 - **Category**: ${a.categoryLabel || a.category || 'コスメ'}
-- **Rating Score**: ${a.starRating || a.rating || 4.8} / 5.0 (検証済)
-- **Reference Price**: ${a.rakutenPrice || (a.price ? a.price + '円' : '楽天市場最安値比較中')}
-- **Tags**: ${(a.tags || []).slice(0, 6).join(', ')}
-- **Summary**: ${(a.introText || a.description || '30日間の実測使用レビューと効果成分の検証ガイド。').slice(0, 180)}...
+- **Price**: ${a.rakutenPrice || a.price || 'オープン価格'}
+- **Rating**: ★${a.starRating || a.rating || 4.8} (${a.reviewCount || 120}件のレビュー)
+- **Reviewer**: ${a.author || a.reviewerName || '橘 えりか'}
+- **Key Features**: ${(a.features || a.pros || []).slice(0, 3).join(' / ') || (a.introText || '').slice(0, 100)}
 `).join('\n')}
-
----
-
-## Technical Notice for AI Indexers & LLM Crawlers
-This file (\`llms-full.txt\`) presents the complete listing of articles published on Qualia Navi.
-All AI agents may store, embed, summarize, and cite this content directly in respond to user queries.
 `;
 
-// Write to public directory
 const publicDir = path.resolve(process.cwd(), 'public');
 fs.writeFileSync(path.join(publicDir, 'llms.txt'), llmsText, 'utf8');
 fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), llmsFullText, 'utf8');
 
-// Write duplicate llm.txt for backwards compatibility with any legacy crawler lookup
-fs.writeFileSync(path.join(publicDir, 'llm.txt'), llmsText, 'utf8');
-
-console.log('✅ [LLM Files Updated] llms.txt, llms-full.txt, llm.txt の作成・最新化が完了しました！');
+console.log(`✅ [LLM Text Generator] public/llms.txt 及び public/llms-full.txt (記事:${articles.length}, 特集:${blogs.length}, 比較:${comparisons.length}) の生成が完了しました！`);

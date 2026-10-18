@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { INITIAL_ARTICLES, INITIAL_BLOG_POSTS, INITIAL_COMPARISONS } from '../data';
 import { ArrowRight, Sparkles, Swords, BookOpen, Star } from 'lucide-react';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
+import { deduplicateArticles } from '../utils/productUtils';
 
 interface InternalLinkMeshProps {
   currentArticleId: string;
@@ -14,39 +15,105 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
     return INITIAL_ARTICLES.find(a => a.id === currentArticleId || a.itemCode === currentArticleId);
   }, [currentArticleId]);
 
-  // 1. この商品が登場する比較記事（VS対決）を最優先で抽出
-  const directComparisons = useMemo(() => {
+  // 現在の記事から主要キーワードを抽出（動的マッチング用）
+  const keywordTokens = useMemo(() => {
+    const baseText = `${currentArticle?.productName || ''} ${currentArticle?.title || ''} ${category || ''}`;
+    const kwCandidates = [
+      'CICA', 'シカ', 'レチノール', 'ナイアシンアミド', 'アゼライン酸', 'ビタミンC', 'セラミド',
+      'ヒアルロン酸', 'グルタチオン', 'ドクダミ', 'パンテノール', 'トラネキサム酸',
+      '日焼け止め', 'UV', '下地', 'ファンデ', 'コンシーラー', 'パウダー', 'ハイライト', 'チーク',
+      'リップ', 'ティント', 'プランパー', 'アイシャドウ', 'マスカラ', 'アイライナー', 'まつ毛',
+      'クレンジング', '洗顔', '化粧水', '美容液', '乳液', 'クリーム', 'バーム', 'パック', 'マスク',
+      'アイクリーム', '導入', 'ブースター', 'ヘアオイル', 'ヘアミルク', 'シャンプー', 'トリートメント',
+      'スカルプ', '頭皮', 'ブラシ', '美顔器', 'スチーマー', 'ドライヤー', 'ハンドクリーム', 'ボディ'
+    ];
+    return kwCandidates.filter(kw => baseText.toLowerCase().includes(kw.toLowerCase()));
+  }, [currentArticle, category]);
+
+  // 1. この商品が登場する比較記事（VS対決）またはキーワードが最も近い比較記事を抽出
+  const displayedComparisons = useMemo(() => {
     const itemCode = currentArticle?.itemCode || currentArticleId;
-    return INITIAL_COMPARISONS.filter(c => 
+    const direct = INITIAL_COMPARISONS.filter(c => 
       c.productItemCodeA === itemCode || 
       c.productItemCodeB === itemCode || 
       c.productItemCodeA === currentArticleId || 
       c.productItemCodeB === currentArticleId ||
-      c.title.includes(currentArticle?.productName || '') ||
-      c.title.includes(currentArticle?.title?.slice(0, 8) || '')
+      (currentArticle?.productName && c.title.includes(currentArticle.productName.slice(0, 6)))
     );
-  }, [currentArticle, currentArticleId]);
 
-  // 関連する比較記事（該当商品が直接ない場合は同一カテゴリから抽出）
-  const displayedComparisons = useMemo(() => {
-    if (directComparisons.length >= 2) {
-      return directComparisons.slice(0, 3);
+    if (direct.length >= 3) {
+      return direct.slice(0, 3);
     }
-    const additional = INITIAL_COMPARISONS.filter(c => !directComparisons.includes(c));
-    return [...directComparisons, ...additional].slice(0, 3);
-  }, [directComparisons]);
 
-  // 2. 同一カテゴリの関連コスメ（最大4件）
+    // キーワード一致スコア順で補完
+    const remaining = INITIAL_COMPARISONS.filter(c => !direct.includes(c)).map(c => {
+      const text = `${c.title} ${c.subtitle} ${c.targetUserCategory}`;
+      let score = 0;
+      for (const kw of keywordTokens) {
+        if (text.includes(kw)) score += 3;
+      }
+      return { comp: c, score };
+    });
+    remaining.sort((a, b) => b.score - a.score);
+    return [...direct, ...remaining.map(r => r.comp)].slice(0, 3);
+  }, [currentArticle, currentArticleId, keywordTokens]);
+
+  // 2. 同一カテゴリ＋キーワード類似の個別コスメ（最大4件）
   const relatedArticles = useMemo(() => {
-    return INITIAL_ARTICLES
-      .filter(a => a.category === category && a.id !== currentArticleId)
-      .slice(0, 4);
-  }, [category, currentArticleId]);
+    const singleOnly = deduplicateArticles(
+      INITIAL_ARTICLES.filter(
+        a =>
+          a.id !== currentArticleId &&
+          !(a as any).isContentArticle &&
+          !a.id.includes('10sen') &&
+          !a.title.includes('10選')
+      )
+    );
+    const sameCat = singleOnly.filter(a => a.category === category);
+    const pool = sameCat.length >= 4 ? sameCat : singleOnly;
 
-  // 3. 関連する特集記事（最大2件）
+    const scored = pool.map(a => {
+      const text = `${a.productName || ''} ${a.title || ''} ${a.introText || ''}`;
+      let score = a.category === category ? 5 : 0;
+      for (const kw of keywordTokens) {
+        if (text.includes(kw)) score += 4;
+      }
+      score += (a.starRating || 4.5) * 0.5;
+      return { art: a, score };
+    });
+    scored.sort((a, b) => b.score - a.score);
+    return scored.slice(0, 4).map(s => s.art);
+  }, [category, currentArticleId, keywordTokens]);
+
+  // 3. 現在の記事内容・カテゴリに完全連動した特集記事・10選記事（最大4件）
   const relatedFeatures = useMemo(() => {
-    return INITIAL_BLOG_POSTS.slice(0, 2);
-  }, []);
+    const scoredBlogs = INITIAL_BLOG_POSTS.filter(b => b.id !== currentArticleId).map(b => {
+      const text = `${b.title} ${b.subtitle || ''} ${b.introText || ''}`;
+      let score = 0;
+      if (b.recommendedItemCodes?.includes(currentArticleId) || (currentArticle?.itemCode && b.recommendedItemCodes?.includes(currentArticle.itemCode))) {
+        score += 20;
+      }
+      for (const kw of keywordTokens) {
+        if (text.includes(kw)) score += 5;
+      }
+      if (category === 'skincare' && /化粧水|美容液|クリーム|パック|マスク|クレンジング|洗顔|毛穴|乾燥|CICA/.test(text)) score += 3;
+      if ((category === 'makeup' || category === 'lip') && /メイク|下地|ファンデ|リップ|アイシャドウ|マスカラ|パウダー/.test(text)) score += 3;
+      if (category === 'haircare' && /ヘア|髪|シャンプー|頭皮|スカルプ|ブラシ/.test(text)) score += 3;
+      if (category === 'device' && /美顔器|スチーマー|EMS|LED|ギア|家電/.test(text)) score += 3;
+      if (category === 'bodycare' && /ボディ|ハンド|ネイル|入浴|バス|フット/.test(text)) score += 3;
+      return {
+        id: b.id,
+        title: b.title,
+        subtitle: b.subtitle || b.introText,
+        coverImage: b.coverImage,
+        path: `/features/${b.id}`,
+        score
+      };
+    });
+
+    scoredBlogs.sort((a, b) => b.score - a.score);
+    return scoredBlogs.slice(0, 4);
+  }, [currentArticle, currentArticleId, category, keywordTokens]);
 
   const handleClick = (e: React.MouseEvent, path: string) => {
     if (onNavigate) {
@@ -57,7 +124,7 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
 
   return (
     <section className="mt-16 pt-12 border-t border-rose-100 space-y-12">
-      {/* ⚔️ VS対決比較セクション (このコスメが登場する比較 or 注目比較) */}
+      {/* ⚔️ VS対決比較セクション */}
       {displayedComparisons.length > 0 && (
         <div className="space-y-6">
           <div className="flex items-center justify-between">
@@ -67,10 +134,10 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
               </div>
               <div>
                 <h3 className="text-base sm:text-lg font-black text-slate-900 font-serif-brand">
-                  {directComparisons.length > 0 ? 'このコスメが登場するガチンコ対決比較' : '注目のガチンコVS対決比較'}
+                  あわせてチェックしたいガチンコVS対決比較
                 </h3>
                 <p className="text-[11px] text-slate-500">
-                  プロアナリストが使用感・成分・コスパを直接対決検証
+                  プロアナリストがライバル商品と使用感・成分・コスパを直接対決検証
                 </p>
               </div>
             </div>
@@ -79,7 +146,7 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
                 onClick={() => onNavigate('/comparisons')}
                 className="text-xs font-bold text-purple-600 hover:text-purple-800 flex items-center gap-1 cursor-pointer"
               >
-                <span>比較一覧 (全227件)</span>
+                <span>比較一覧 (全{INITIAL_COMPARISONS.length}件)</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </button>
             )}
@@ -126,6 +193,66 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
         </div>
       )}
 
+      {/* 📖 関連する特集・10選ガイド（記事テーマに動的連動） */}
+      {relatedFeatures.length > 0 && (
+        <div className="space-y-6">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-amber-500 to-orange-500 text-white flex items-center justify-center shadow-xs">
+                <BookOpen className="w-4 h-4" />
+              </div>
+              <div>
+                <h3 className="text-base sm:text-lg font-black text-slate-900 font-serif-brand">
+                  このお悩み・テーマに関連する厳選特集レポート
+                </h3>
+                <p className="text-[11px] text-slate-500">
+                  プロが徹底比較した「おすすめ10選」・選び方完全ガイド
+                </p>
+              </div>
+            </div>
+            {onNavigate && (
+              <button
+                onClick={() => onNavigate('/features')}
+                className="text-xs font-bold text-amber-700 hover:text-amber-900 flex items-center gap-1 cursor-pointer"
+              >
+                <span>特集一覧</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
+            )}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {relatedFeatures.map((feat) => (
+              <a
+                key={feat.id}
+                href={feat.path}
+                onClick={(e) => handleClick(e, feat.path)}
+                className="bg-white rounded-2xl p-4 border border-amber-100 hover:border-amber-300 shadow-xs hover:shadow-md transition-all flex gap-4 items-center group cursor-pointer"
+              >
+                <img
+                  src={feat.coverImage}
+                  alt={feat.title}
+                  referrerPolicy="no-referrer"
+                  onError={handleImageError}
+                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl object-contain bg-slate-50 border border-slate-100 group-hover:scale-105 transition-transform shrink-0"
+                />
+                <div className="space-y-1.5 flex-1 min-w-0">
+                  <span className="text-[10px] font-extrabold text-amber-800 bg-amber-50 px-2 py-0.5 rounded-full">
+                    厳選特集10選
+                  </span>
+                  <h4 className="text-xs sm:text-sm font-bold text-slate-900 line-clamp-2 leading-snug group-hover:text-amber-700 transition-colors font-serif-brand">
+                    {feat.title}
+                  </h4>
+                  <p className="text-[11px] text-slate-500 line-clamp-1">
+                    {feat.subtitle}
+                  </p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* 🛍️ あわせて読みたい関連コスメ */}
       {relatedArticles.length > 0 && (
         <div className="space-y-6">
@@ -135,10 +262,10 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
             </div>
             <div>
               <h3 className="text-base sm:text-lg font-black text-slate-900 font-serif-brand">
-                同カテゴリの注目コスメ
+                同カテゴリで比較検討したい実力派コスメ
               </h3>
               <p className="text-[11px] text-slate-500">
-                あわせて比較検討したい実力派アイテム
+                成分・コスパ・仕上がりが近い注目アイテム
               </p>
             </div>
           </div>
@@ -178,66 +305,6 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
                 <div className="pt-2 mt-2 border-t border-slate-100 flex items-center justify-between text-[11px]">
                   <span className="font-extrabold text-rose-600">{art.rakutenPrice || art.priceRange}</span>
                   <ArrowRight className="w-3 h-3 text-slate-400 group-hover:translate-x-1 group-hover:text-rose-600 transition-all" />
-                </div>
-              </a>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* 📖 編集部おすすめ特集記事 */}
-      {relatedFeatures.length > 0 && (
-        <div className="space-y-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-amber-500 to-orange-500 text-white flex items-center justify-center shadow-xs">
-                <BookOpen className="w-4 h-4" />
-              </div>
-              <div>
-                <h3 className="text-base sm:text-lg font-black text-slate-900 font-serif-brand">
-                  編集部おすすめ特集記事
-                </h3>
-                <p className="text-[11px] text-slate-500">
-                  プロがまとめる最新トレンド・選び方
-                </p>
-              </div>
-            </div>
-            {onNavigate && (
-              <button
-                onClick={() => onNavigate('/features')}
-                className="text-xs font-bold text-amber-700 hover:text-amber-900 flex items-center gap-1 cursor-pointer"
-              >
-                <span>特集一覧</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            )}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {relatedFeatures.map((feat) => (
-              <a
-                key={feat.id}
-                href={`/features/${feat.id}`}
-                onClick={(e) => handleClick(e, `/features/${feat.id}`)}
-                className="bg-white rounded-2xl p-4 border border-amber-100 hover:border-amber-300 shadow-xs hover:shadow-md transition-all flex gap-4 items-center group cursor-pointer"
-              >
-                <img
-                  src={feat.coverImage}
-                  alt={feat.title}
-                  referrerPolicy="no-referrer"
-                  onError={handleImageError}
-                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl object-contain bg-slate-50 border border-slate-100 group-hover:scale-105 transition-transform shrink-0"
-                />
-                <div className="space-y-1.5 flex-1 min-w-0">
-                  <span className="text-[10px] font-extrabold text-amber-800 bg-amber-50 px-2 py-0.5 rounded-full">
-                    特集レポート
-                  </span>
-                  <h4 className="text-xs sm:text-sm font-bold text-slate-900 line-clamp-2 leading-snug group-hover:text-amber-700 transition-colors font-serif-brand">
-                    {feat.title}
-                  </h4>
-                  <p className="text-[11px] text-slate-500 line-clamp-1">
-                    {feat.subtitle || feat.introText}
-                  </p>
                 </div>
               </a>
             ))}

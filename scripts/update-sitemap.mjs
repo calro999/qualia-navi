@@ -2,28 +2,16 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
 import https from 'https';
 
-console.log('🌐 [Sitemap & IndexNow] XMLサイトマップの自動更新およびBing IndexNow送信を開始します...');
+console.log('🌐 [Sitemap & IndexNow] 全3,600+ページのXMLサイトマップ自動更新およびBing IndexNow送信を開始します...');
 
 const domain = 'https://qualia-navi.vercel.app';
 const currentDate = new Date().toISOString().split('T')[0];
 
-const dataPath = resolve(process.cwd(), 'src', 'data.ts');
-const content = readFileSync(dataPath, 'utf8');
-
-// Extract all article IDs from data.ts
+// 1. Extract article IDs from articles.json
 const articleIds = [];
-const artMatches = content.matchAll(/id:\s*['"](art-.*?|topic-.*?|autodiscover-.*?)['"]/g);
-for (const m of artMatches) {
-  if (!articleIds.includes(m[1])) {
-    articleIds.push(m[1]);
-  }
-}
-
-// Extract article IDs from articles.json
 const jsonPath = resolve(process.cwd(), 'src', 'data', 'articles.json');
 if (existsSync(jsonPath)) {
-  const jsonContent = readFileSync(jsonPath, 'utf8');
-  const articles = JSON.parse(jsonContent);
+  const articles = JSON.parse(readFileSync(jsonPath, 'utf8'));
   articles.forEach(art => {
     if (art.id && !articleIds.includes(art.id)) {
       articleIds.push(art.id);
@@ -31,102 +19,166 @@ if (existsSync(jsonPath)) {
   });
 }
 
-// Extract all comparison IDs from data.ts
-const comparisons = [
-  'anessa-vs-biore-uv',
-  'deonatulle-vs-8x4men',
-  'primavista-vs-larocheposay',
-  'concool-vs-nonio',
-  'lipmonster-vs-meltylip',
-  'ihada-vs-vtcica',
-  'melanocc-vs-kanebo',
-  'andhoney-vs-refa',
-  'gatsby-ice-vs-biore-hiyashi',
-  'romand-vs-kate'
-];
-
-// Extract all blog post IDs and slugs from data.ts
-const blogs = [];
-const blogStartIdx = content.indexOf('export const INITIAL_BLOG_POSTS: BlogPost[] = [');
-const blogEndIdx = content.indexOf('export const INITIAL_COMPARISONS: ProductComparison[] = [');
-if (blogStartIdx !== -1 && blogEndIdx !== -1) {
-  const block = content.slice(blogStartIdx, blogEndIdx);
-  const idMatches = [...block.matchAll(/"id":\s*"([^"]+)"[\s\S]*?"slug":\s*"([^"]+)"/g)];
-  idMatches.forEach(m => {
-    if (!blogs.includes(m[1])) blogs.push(m[1]);
-    if (!blogs.includes(m[2])) blogs.push(m[2]);
+// 2. Extract all 229 comparison IDs from public/data/comparisons.json
+const comparisons = [];
+const compJsonPath = resolve(process.cwd(), 'public', 'data', 'comparisons.json');
+if (existsSync(compJsonPath)) {
+  const compList = JSON.parse(readFileSync(compJsonPath, 'utf8'));
+  compList.forEach(c => {
+    if (c.id && !comparisons.includes(c.id)) {
+      comparisons.push(c.id);
+    }
   });
 }
 
+// 3. Extract all 315 blog post IDs from public/data/blogs.json
+const blogs = [];
+const blogJsonPath = resolve(process.cwd(), 'public', 'data', 'blogs.json');
+if (existsSync(blogJsonPath)) {
+  const blogList = JSON.parse(readFileSync(blogJsonPath, 'utf8'));
+  blogList.forEach(b => {
+    if (b.id && !blogs.includes(b.id)) {
+      blogs.push(b.id);
+    }
+  });
+}
+
+// 4. Authors (12 profiles)
+const authors = [
+  'author-hasumi',
+  'author-tachibana',
+  'author-inoue',
+  'author-sasaki',
+  'author-takahashi',
+  'author-watanabe',
+  'author-ito',
+  'author-yamamoto',
+  'author-nakamura',
+  'author-kobayashi',
+  'author-kato',
+  'author-yoshida'
+];
+
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage -->
+  <!-- Main Hub Pages -->
   <url>
     <loc>${domain}/</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Blog Index -->
   <url>
-    <loc>${domain}/blogs</loc>
+    <loc>${domain}/features</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>${domain}/comparisons</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>${domain}/authors</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${domain}/sitemap</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- 10-12-1 Month Seasonal Ranking Hubs -->
+  <url>
+    <loc>${domain}/ranking/autumn-cosme</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>${domain}/ranking/holiday-coffret</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>${domain}/ranking/gift-selection</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>${domain}/ranking/winter-skincare</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.98</priority>
   </url>
 `;
 
-// Add VS Comparisons (both /comparisons/ and /compare/)
+// Add Author Pages
+authors.forEach((authorId) => {
+  xml += `  <url>
+    <loc>${domain}/authors/${authorId}</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>\n`;
+});
+
+// Add All 229 VS Comparisons (canonical /comparisons/)
 comparisons.forEach((comp) => {
   xml += `  <url>
     <loc>${domain}/comparisons/${comp}</loc>
     <lastmod>${currentDate}</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>\n`;
 });
 
-// Add Special Blog Posts (both /features/ and /blogs/)
+// Add All 315 Special Feature Blog Posts (canonical /features/)
 blogs.forEach((blog) => {
   xml += `  <url>
     <loc>${domain}/features/${blog}</loc>
     <lastmod>${currentDate}</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>\n`;
 });
 
-// Add All Product Articles
+// Add All 3,074 Product & Content Articles
 articleIds.forEach((art) => {
   xml += `  <url>
     <loc>${domain}/articles/${art}</loc>
     <lastmod>${currentDate}</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>\n`;
 });
 
 xml += `</urlset>`;
 
+const totalUrls = 5 + authors.length + comparisons.length + blogs.length + articleIds.length;
 const outputPath = resolve(process.cwd(), 'public', 'sitemap.xml');
 writeFileSync(outputPath, xml, 'utf8');
-console.log(`✅ [Sitemap Updated] sitemap.xml を全 ${articleIds.length + comparisons.length + blogs.length + 2} URL で最新化しました。`);
+console.log(`✅ [Sitemap Updated] sitemap.xml を全 ${totalUrls} URL (記事:${articleIds.length}, 特集:${blogs.length}, 比較:${comparisons.length}, 著者:${authors.length}) で完全最新化しました。`);
 
 // Send IndexNow Ping
 const host = 'qualia-navi.vercel.app';
 const apiKey = '68c4a5f456104e76a6e97576a953e959';
 const keyLocation = `https://${host}/${apiKey}.txt`;
 
-// Send up to 500 latest URLs to IndexNow with correct /articles/ and /features/ path
 const targetUrls = [
   `https://${host}/`,
   `https://${host}/sitemap`,
-  `https://${host}/blogs`,
   `https://${host}/features`,
-  ...blogs.map(b => `https://${host}/features/${b}`),
-  ...comparisons.map(c => `https://${host}/comparisons/${c}`),
-  ...articleIds.slice(0, 500).map(id => `https://${host}/articles/${id}`)
+  `https://${host}/comparisons`,
+  ...blogs.slice(0, 150).map(b => `https://${host}/features/${b}`),
+  ...comparisons.slice(0, 150).map(c => `https://${host}/comparisons/${c}`),
+  ...articleIds.slice(0, 300).map(id => `https://${host}/articles/${id}`)
 ];
 
 const postData = JSON.stringify({
@@ -151,10 +203,7 @@ const req = https.request({
 });
 
 req.on('error', (e) => {
-  if (e.code === 'ECONNRESET') {
-    // api.indexnow.org abruptly closes sockets after receiving payload; ignore ECONNRESET as response was processed
-    return;
-  }
+  if (e.code === 'ECONNRESET') return;
   console.warn(`⚠️ [IndexNow Warning] ${e.message}`);
 });
 
@@ -164,4 +213,3 @@ req.on('timeout', () => {
 
 req.write(postData);
 req.end();
-

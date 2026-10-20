@@ -3,6 +3,7 @@ import { RakutenProductArticle } from '../types';
 import { CATEGORIES, INITIAL_COMPARISONS, INITIAL_BLOG_POSTS } from '../data';
 import { CosmeDiagnosisWidget } from '../components/CosmeDiagnosisWidget';
 import { SeasonalSpotlightHub, SeasonMonthKey } from '../components/SeasonalSpotlightHub';
+import { AgeDemographicNav } from '../components/AgeDemographicNav';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
 import { Sparkles, ShoppingCart, ExternalLink, Star, Search, BookMarked, Layers, ArrowRight, Heart, Flame, BookOpen, Calendar } from 'lucide-react';
@@ -246,6 +247,9 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           setVisibleProductCount(12);
         }}
       />
+
+      {/* 🧭 年代別の悩みはこちらから！特設ナビゲーションハブ */}
+      <AgeDemographicNav onNavigate={onNavigate} />
 
       {/* 🧭 30秒パーソナルコスメ診断ウィジェット */}
       <CosmeDiagnosisWidget articles={articles} onNavigate={onNavigate} />

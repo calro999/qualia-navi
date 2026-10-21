@@ -117,7 +117,7 @@ export function CosmeDiagnosisWidget({ articles, onNavigate }: CosmeDiagnosisWid
   };
 
   return (
-    <section className="bg-gradient-to-br from-white via-rose-50/40 to-pink-50/60 rounded-3xl p-6 sm:p-8 border-2 border-rose-200 shadow-sm space-y-6">
+    <section id="diagnosis-widget" className="bg-gradient-to-br from-white via-rose-50/40 to-pink-50/60 rounded-3xl p-6 sm:p-8 border-2 border-rose-200 shadow-sm space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-rose-100 pb-4">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-rose-500 to-pink-500 text-white flex items-center justify-center shadow-xs shrink-0">

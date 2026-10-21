@@ -233,6 +233,9 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
         </div>
       </div>
 
+      {/* 🧭 年代別の悩みはこちらから！特設ナビゲーションハブ */}
+      <AgeDemographicNav onNavigate={onNavigate} />
+
       {/* 🍁🎄🎁🎍 10月・11月・12月・1月 秋冬＆ホリデー集中攻略ハブ */}
       <SeasonalSpotlightHub
         articles={articles}
@@ -247,9 +250,6 @@ export function ProductListPage({ articles, onNavigate }: ProductListPageProps) 
           setVisibleProductCount(12);
         }}
       />
-
-      {/* 🧭 年代別の悩みはこちらから！特設ナビゲーションハブ */}
-      <AgeDemographicNav onNavigate={onNavigate} />
 
       {/* 🧭 30秒パーソナルコスメ診断ウィジェット */}
       <CosmeDiagnosisWidget articles={articles} onNavigate={onNavigate} />

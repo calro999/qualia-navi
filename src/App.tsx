@@ -190,8 +190,8 @@ export default function App() {
   return (
     <div className="min-h-screen qualia-light-bg text-slate-800 font-sans selection:bg-rose-500 selection:text-white">
       {/* 景品表示法・ステマ規制対応 PR / アフィリエイト広告開示バー */}
-      <div className="bg-rose-50/90 border-b border-rose-100 text-slate-500 text-[11px] py-1.5 px-4 text-center">
-        <span>【PR】当サイトは楽天市場アフィリエイトプログラムに参加しており、適格販売により収入を得ています。掲載価格・ポイント倍率は最新の楽天市場情報に基づきます。</span>
+      <div className="bg-rose-50/90 border-b border-rose-100 text-slate-500 text-[11px] py-1.5 px-4 text-center leading-relaxed">
+        <span>【PR】当サイトは楽天市場アフィリエイトプログラムに参加しており、適格販売により収入を得ています。掲載している商品価格・ポイント還元率・在庫状況等は記事作成・更新時点のものであり、各ショップの販売状況によって変動する場合があります。最新の正確な情報につきましては各楽天市場ページにてご確認ください。</span>
       </div>
 
       {/* 読了プログレスバー */}
@@ -415,7 +415,10 @@ export default function App() {
             </div>
           </div>
 
-          <div className="pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+          <div className="pt-8 border-t border-slate-800 text-center text-xs text-slate-500 space-y-2">
+            <p className="max-w-3xl mx-auto text-[11px] text-slate-400 leading-relaxed">
+              【免責事項・広告開示】当サイトは楽天市場アフィリエイトプログラムの参加者です。掲載している商品価格、ポイント倍率、送料、在庫状況等の情報は、記事作成または最終データ更新時点の調査に基づく参考情報です。各ショップのセールや価格改定により常に変動する可能性がありますので、ご購入の際は必ず遷移先の各楽天市場商品ページにて最新の販売条件をご確認ください。
+            </p>
             <p>© 2026 Qualia Navi (クオリア・ナビ). All Rights Reserved.</p>
           </div>
         </div>

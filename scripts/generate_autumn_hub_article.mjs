@@ -9,6 +9,7 @@ export function getAutumnHubArticleContent() {
       name: "乾燥・ゴワつき・バリア崩れ【スキンケア・導入・鎮静】",
       desc: "夏の紫外線ダメージによる角質肥厚、10℃以上の寒暖差、入浴後の過乾燥を根本から救うスキンケア名品。",
       slugs: [
+        "autumn-enzyme-face-wash-powder-pores-dullness-10",
         "autumn-booster-serum-stiff-skin-absorption-10",
         "autumn-booster-serum-dry-skin-10",
         "autumn-facial-oil-post-bath-dehydration-10",
@@ -37,6 +38,7 @@ export function getAutumnHubArticleContent() {
       name: "皮剥け・縦ジワ・くすみ【リップケア＆秋色トレンドリップ】",
       desc: "マスクや冷風で荒れ果てた唇を植物オイルとヒアルロン酸で満たし、深み血色を演出するリップ特集。",
       slugs: [
+        "autumn-lip-scrub-gommage-peeling-flaky-lips-10",
         "autumn-lip-oil-plumper-cracked-lips-10",
         "autumn-lip-sleeping-mask-scrub-peeling-10",
         "autumn-best-lip-cosme-ranking-10",
@@ -73,6 +75,7 @@ export function getAutumnHubArticleContent() {
       name: "乾燥崩れ防止・垢抜け秋メイク【ベース＆カラーメイク】",
       desc: "粉吹きや毛穴落ちを防ぎ、しっとり濡れツヤと琥珀のような深みを両立する秋メイク特集。",
       slugs: [
+        "autumn-moist-makeup-setting-spray-dry-skin-10",
         "autumn-best-moist-basemake-foundation-10",
         "autumn-moist-concealer-color-correct-10",
         "autumn-setting-spray-powder-dry-shine-10",
@@ -131,16 +134,16 @@ ${cat.desc}
   }
 
   return `
-# 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する45大特集・450選コンプリートガイド
+# 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する48大特集・480選コンプリートガイド
 
 秋の深まりとともに、私たちの肌や髪、体調には急激な変化が押し寄せてきます。
 「朝晩の冷え込みで化粧水が弾かれるように浸透しない」「洗顔後や入浴後、脱衣所で肌がバリバリにつっぱる」「日中にふと鏡を見ると目元や首元に乾燥小ジワが浮き出ている」「セーターを脱ぐたびに髪がパチパチ爆発する」……。
 
 秋は、**夏の紫外線ダメージの蓄積（メラニン沈着・角質肥厚）**に、**急激な湿度の低下（過乾燥）**と**10℃以上の寒暖差による自律神経の乱れ**が同時に直撃する、1年で最も過酷なビューティーの曲がり角です。
 
-Qualia Navi編集部では、これまで第1弾から第15弾にわたり、美容皮膚科学とコスメ成分分析の観点から**「季節の具体的でリアルなお悩み」**に徹底フォーカスした45大特集・全450選の徹底検証を行ってきました。
+Qualia Navi編集部では、これまで第1弾から第15弾にわたり、美容皮膚科学とコスメ成分分析の観点から**「季節の具体的でリアルなお悩み」**に徹底フォーカスした48大特集・全480選の徹底検証を行ってきました。
 
-本ページは、その全45記事を肌悩み・パーツ・シーン別に体系化した**「2026秋コスメ完全攻略ハブ（総合目次）」**です。
+本ページは、その全48記事を肌悩み・パーツ・シーン別に体系化した**「2026秋コスメ完全攻略ハブ（総合目次）」**です。
 今あなたの肌や髪が発しているSOSサインに合わせて、最適な解決策と名品を見つけてください。
 
 ---

@@ -1,4 +1,6 @@
+// scripts/generate_autumn_hub_article.mjs
 import fs from 'fs';
+import path from 'path';
 
 const postsMeta = JSON.parse(fs.readFileSync('scripts/autumn_posts_meta.json', 'utf8'));
 
@@ -6,9 +8,10 @@ export function getAutumnHubArticleContent() {
   // カテゴリ別グループ化
   const categories = [
     {
-      name: "乾燥・ゴワつき・バリア崩れ【スキンケア・導入・鎮静】",
-      desc: "夏の紫外線ダメージによる角質肥厚、10℃以上の寒暖差、入浴後の過乾燥を根本から救うスキンケア名品。",
+      name: "乾燥・ゴワつき・毛穴・バリア崩れ【スキンケア・クレンジング・鎮静】",
+      desc: "夏の紫外線ダメージによる角質肥厚、10℃以上の寒暖差、毛穴詰まりや入浴後の過乾燥を根本から救うスキンケア名品。",
       slugs: [
+        "autumn-moist-cleansing-gel-balm-pores-10",
         "autumn-warming-massage-gel-cream-dullness-10",
         "autumn-enzyme-face-wash-powder-pores-dullness-10",
         "autumn-booster-serum-stiff-skin-absorption-10",
@@ -59,9 +62,11 @@ export function getAutumnHubArticleContent() {
       ]
     },
     {
-      name: "手荒れ・ささくれ・粉吹き乾燥【ハンド・ネイル＆ボディケア】",
-      desc: "お湯での手洗いや入浴後の急激なツッパリ、かかとのガサガサを濃密シアバターとセラミドで包み込む全身ケア。",
+      name: "手荒れ・ささくれ・冷え・粉吹き乾燥【ハンド・ネイル・フット＆入浴バスケア】",
+      desc: "お湯での手洗いや入浴後の急激なツッパリ、足先の冷えとかかとのひび割れを濃厚オイルヴェールで包み込む全身ケア。",
       slugs: [
+        "autumn-moist-bath-oil-body-care-cold-dry-10",
+        "autumn-moist-foot-cream-cold-dry-heels-10",
         "autumn-hand-nail-cream-chapped-skin-10",
         "autumn-hand-cream-nail-oil-chapped-10",
         "autumn-nail-oil-hand-serum-dry-10",
@@ -69,14 +74,15 @@ export function getAutumnHubArticleContent() {
         "autumn-body-milk-butter-flaky-skin-10",
         "autumn-moist-body-wash-dry-itch-10",
         "autumn-bath-salt-soak-dry-cold-10",
-        "autumn-body-scrub-heel-cracked-dry-10",
-        "autumn-moist-foot-cream-cold-dry-heels-10"
+        "autumn-body-scrub-heel-cracked-dry-10"
       ]
     },
     {
-      name: "乾燥崩れ防止・垢抜け秋メイク【ベース＆カラーメイク】",
+      name: "乾燥崩れ防止・クマ影消し・垢抜け秋メイク【ベース＆カラーメイク】",
       desc: "粉吹きや毛穴落ちを防ぎ、しっとり濡れツヤと琥珀のような深みを両立する秋メイク特集。",
       slugs: [
+        "autumn-hydrating-concealer-under-eye-dark-circles-10",
+        "autumn-moist-liquid-cream-blush-cheek-10",
         "autumn-moist-makeup-setting-spray-dry-skin-10",
         "autumn-best-moist-basemake-foundation-10",
         "autumn-moist-concealer-color-correct-10",
@@ -85,8 +91,7 @@ export function getAutumnHubArticleContent() {
         "autumn-best-eyeshadow-palette-10",
         "autumn-single-eyeshadow-wet-glow-10",
         "autumn-best-nuance-eye-accent-mascara-10",
-        "autumn-best-blush-cheek-cosme-10",
-        "autumn-moist-liquid-cream-blush-cheek-10"
+        "autumn-best-blush-cheek-cosme-10"
       ]
     },
     {
@@ -137,35 +142,93 @@ ${cat.desc}
   }
 
   return `
-# 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する51大特集・510選コンプリートガイド
+# 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する54大特集・540選コンプリートガイド
 
-秋の深まりとともに、私たちの肌や髪、体調には急激な変化が押し寄せてきます。
-「朝晩の冷え込みで化粧水が弾かれるように浸透しない」「洗顔後や入浴後、脱衣所で肌がバリバリにつっぱる」「日中にふと鏡を見ると目元や首元に乾燥小ジワが浮き出ている」「セーターを脱ぐたびに髪がパチパチ爆発する」……。
+秋の深まりとともに、私たちの肌や髪、心身には季節特有の複雑な変化が押し寄せます。
+「朝晩と日中の急激な寒暖差」「湿度の急低下によるバリア機能の乱れ」「夏の紫外線ダメージによる遅れてきた角質肥厚やくすみ」「暖房によるインナードライ」など、秋の悩みは多岐にわたります。
 
-秋は、**夏の紫外線ダメージの蓄積（メラニン沈着・角質肥厚）**に、**急激な湿度の低下（過乾燥）**と**10℃以上の寒暖差による自律神経の乱れ**が同時に直撃する、1年で最も過酷なビューティーの曲がり角です。
+Qualia Navi編集部では、これまで第1弾から第18弾にわたり、読者の皆様から寄せられたリアルな季節の悩みに寄り添い、楽天市場の最新データ・プロの成分検証に基づいた**合計54の専門テーマ・全540商品**を徹底レビューしてきました。
 
-Qualia Navi編集部では、これまで第1弾から第15弾にわたり、美容皮膚科学とコスメ成分分析の観点から**「季節の具体的でリアルなお悩み」**に徹底フォーカスした51大特集・全510選の徹底検証を行ってきました。
-
-本ページは、その全51記事を肌悩み・パーツ・シーン別に体系化した**「2026秋コスメ完全攻略ハブ（総合目次）」**です。
-今あなたの肌や髪が発しているSOSサインに合わせて、最適な解決策と名品を見つけてください。
+本まとめページは、今まさにあなたが直面している「肌・髪・身体の秋の悩み」から、最適な解決特集へと直感的にアクセスできる**総合インデックス・コンプリートハブ**です。
 
 ---
 
-## 🧭 お悩み・パーツ別クイックナビゲーション
+## 🍂 カテゴリ別・秋の54大特集インデックス
 
 ${sectionContent}
 
 ---
 
-## 🍁 美容エディターが提言する「秋のスキンケア3原則」
+## 💡 美容編集長が教える！秋のお手入れで失敗しないための「3大美肌ルール」
 
-### 1. 「水分の通り道」を確保してから与える（角質ほぐし・ブースター）
-夏の紫外線で厚く硬くなった角質層には、どれほど高級な化粧水を与えても表面を滑り落ちてしまいます。まずは導入美容液や酵素洗顔、弱酸性柔軟水で角層をほぐし、うるおいの通り道を整えることがすべての基本です。
+1. **「夏仕様」のスキンケアを無理に続けない**
+   さっぱりタイプの化粧水や皮脂吸着重視の下地を秋も使い続けていると、肌内部の水分蒸散が加速し、急激な乾燥小ジワや粉吹きの引き金になります。導入美容液や美容オイルを1品プラスし、うるおいを抱え込む土台を作りましょう。
 
-### 2. 「脱衣所0分」のスピード保湿（先行オイル・ミスト）
-入浴後の肌は、浴室を出た瞬間から水分が急激に蒸散する「過乾燥ゾーン」へ突入します。体を拭く前に濡れた肌へ1〜2滴のスクワランやホホバオイルを馴染ませることで、入浴前の水分量を完全にキープできます。
+2. **「落とすケア」こそ最も高保湿なものへシフトする**
+   秋の肌トラブルの大半は、洗顔・クレンジングでの皮脂奪いすぎに起因します。厚みのあるジェルやバーム、酵素洗顔パウダーを肌状態に合わせて使い分け、肌のバリア膜（NMF）を死守することが肝心です。
 
-### 3. デリケートパーツは「専用ラッピング」（アイ・ネック・リップ）
-顔の他の部位に比べて皮膚が卵の薄皮のように薄い目元や首元、唇は、全顔用のクリームだけでは摩擦や乾燥風を耐えきれません。高密着なレチノール・ペプチド・シアバターの専用バームで厚めにラッピングする習慣が、5年後・10年後の若々しさを決定づけます。
+3. **入浴後・洗顔後の「3分以内保湿」を徹底する**
+   お湯に浸かった後の皮膚は、角質細胞の間隔が広がり最も水分が逃げやすい無防備な状態。バスオイルで湯上がり乾燥を防ぎ、上がったら3分以内に導入美容液やフェイスオイルをなじませて潤いのフタをしましょう。
+
+---
+
+## 📌 あなたにぴったりの特集を見つけて、秋の美しさをアップデート！
+
+上記の各リンクから、各テーマごとの詳しい成分比較、使用感レビュー、楽天市場の最安値・ポイント還元情報をご覧いただけます。
+季節の変わり目を健やかでツヤやかな美しい素肌で乗り切りましょう！
 `;
+}
+
+// ハブ記事を src/data.ts に反映
+export function updateHubInSrcData() {
+  const dataTsPath = path.resolve('src/data.ts');
+  let dataTsContent = fs.readFileSync(dataTsPath, 'utf8');
+
+  const hubId = "feat-autumn-cosmetics-guide-45-series-hub";
+  const hubIdx = dataTsContent.indexOf(`"id": "${hubId}"`);
+  if (hubIdx === -1) {
+    console.error('❌ src/data.ts にハブ記事が見つかりません');
+    return;
+  }
+
+  // ハブ記事オブジェクトの開始位置（直前の波括弧）
+  const objStart = dataTsContent.lastIndexOf('{', hubIdx);
+  // 次の記事の開始位置
+  const nextPostMarker = '{\n    "id": "feat-autumn-eye-cream-fine-lines-crow-feet-10"';
+  const objEnd = dataTsContent.indexOf(nextPostMarker, hubIdx);
+
+  if (objStart === -1 || objEnd === -1) {
+    console.error('❌ ハブ記事の境界が見つかりません');
+    return;
+  }
+
+  const newHubContent = getAutumnHubArticleContent();
+
+  const newHubPost = {
+    id: "feat-autumn-cosmetics-guide-45-series-hub",
+    slug: "autumn-cosmetics-guide-45-series-hub",
+    title: "【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する54大特集・540選コンプリートガイド",
+    subtitle: "第1弾〜第18弾の全54大特集・厳選540商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴バスケアまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
+    targetGender: "unisex",
+    authorId: "author-tachibana",
+    authorName: "橘 えりか",
+    authorRole: "Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括",
+    authorAvatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+    createdAt: "2026-10-22",
+    readTimeMinutes: 52,
+    introText: "第1弾〜第18弾の全54大特集・厳選540商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴バスケアまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
+    isHallOfFame: true,
+    coverImage: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&auto=format&fit=crop&q=80",
+    recommendedItemCodes: postsMeta.slice(0, 10).map(p => `blog-${p.slug}`),
+    contentMarkdown: newHubContent
+  };
+
+  const replacement = JSON.stringify(newHubPost, null, 2) + ',\n  ';
+  const updatedTs = dataTsContent.slice(0, objStart) + replacement + dataTsContent.slice(objEnd);
+  fs.writeFileSync(dataTsPath, updatedTs, 'utf8');
+  console.log('✅ src/data.ts 内のハブ記事を54大特集・540選仕様へアップデート完了！');
+}
+
+if (process.argv[1] && process.argv[1].endsWith('generate_autumn_hub_article.mjs')) {
+  updateHubInSrcData();
 }

@@ -9,7 +9,7 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-10-22
-- **Total Product & Feature Articles**: 3206 件
+- **Total Product & Feature Articles**: 3236 件
 - **Total Special Feature Guides**: 327 件
 - **Total VS Comparisons**: 233 件
 
@@ -660,7 +660,7 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 - [【2026冬最新】＜リニューアル！＞初回限定 炭酸パック ジェル Co2 パック 炭酸ケア 炭酸美容 の口コミ評判・効果・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b76-co2-3-na10000856): スキンケア・パック・炭酸パック・生炭酸ガスパック・ボーア効果・血行促進・冷えくすみ・毛穴引き締め・おこもり美容・サロン専売品・2026冬 (評価: ★4.8 / 参考価格: オープン価格)
 - [【2026冬最新】ドクター メディオン 炭酸パック スパ オキシジェル 10回分 (酸素パック/CO2の口コミ評判・効果・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b76-co2-2-co10052040): スキンケア・パック・炭酸パック・生炭酸ガスパック・ボーア効果・血行促進・冷えくすみ・毛穴引き締め・おこもり美容・サロン専売品・2026冬 (評価: ★4.8 / 参考価格: オープン価格)
 - [【2026冬最新】【公式公認店/クーポン利用で18,018円/ヘアオイル付/楽天1位】エニシーグローパの口コミ評判・効果・最安値比較](https://qualia-navi.vercel.app/articles/art-winter-b76-co2-1-re10001781): スキンケア・パック・炭酸パック・生炭酸ガスパック・ボーア効果・血行促進・冷えくすみ・毛穴引き締め・おこもり美容・サロン専売品・2026冬 (評価: ★4.8 / 参考価格: オープン価格)
-- [Full Article List & Complete Database (3206件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3236件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

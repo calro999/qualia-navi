@@ -8,9 +8,10 @@ export function getAutumnHubArticleContent() {
   // カテゴリ別グループ化
   const categories = [
     {
-      name: "乾燥・ゴワつき・毛穴・バリア崩れ【スキンケア・ミスト・鎮静】",
-      desc: "夏の紫外線ダメージによる角質肥厚、10℃以上の寒暖差、毛穴詰まりや暖房による日中乾燥を根本から救うスキンケア名品。",
+      name: "乾燥・ゴワつき・毛穴・バリア崩れ【スキンケア・ミスト・鎮静・マルチオイル】",
+      desc: "夏の紫外線ダメージによる角質肥厚、10℃以上の寒暖差、毛穴詰まりや暖房による日中乾燥を根本から救うスキンケア＆天然マルチオイル名品。",
       slugs: [
+        "autumn-pure-jojoba-multi-organic-oil-dry-10",
         "autumn-hydrating-facial-mist-spray-dry-skin-10",
         "autumn-moist-cleansing-gel-balm-pores-10",
         "autumn-warming-massage-gel-cream-dullness-10",
@@ -28,9 +29,10 @@ export function getAutumnHubArticleContent() {
       ]
     },
     {
-      name: "木枯らし・眼精疲労・青クマ・老け見え【アイケア・目元温熱・ネック】",
-      desc: "皮膚が薄く皮脂腺が極めて少ない目元・首元を摩擦と冷え・ブルーライトから守り抜くパーツ特化ケア。",
+      name: "木枯らし・眼精疲労・青クマ・抜け毛弱り【アイケア・目元温熱・まつ毛美容液・ネック】",
+      desc: "皮膚が薄く皮脂腺が極めて少ない目元・首元や、秋風と乾燥で抜けやすく弱るまつ毛を保護・補修し、ハリを取り戻す特化ケア。",
       slugs: [
+        "autumn-eyelash-nourishing-serum-damage-repair-10",
         "autumn-warming-eye-care-hot-mask-fatigue-10",
         "autumn-eye-cream-fine-lines-crow-feet-10",
         "autumn-eye-cream-wrinkles-dark-circles-10",
@@ -67,9 +69,10 @@ export function getAutumnHubArticleContent() {
       ]
     },
     {
-      name: "手荒れ・黒ずみ・冷え・湯冷め・全身温活【ハンド・フット＆入浴ミルク・ソルトケア】",
-      desc: "お湯での手洗いや入浴後の急激なツッパリ、手足の先の冷え込みと頑固な疲労を高保湿バスミルク・エプソムソルト・重炭酸で温め包み込む全身ケア。",
+      name: "手肌血管浮き・手荒れ・黒ずみ・湯冷め・全身温活【ハンド・フット＆入浴ミルク・ソルトケア】",
+      desc: "お湯での手洗いや入浴後の急激なツッパリ、手肌の小ジワや血管浮き、手足の先の冷え込みと頑固な疲労を薬用ハンドセラム・高保湿バスミルク・エプソムソルトで温め包み込む全身ケア。",
       slugs: [
+        "autumn-anti-aging-hand-serum-whitening-wrinkle-10",
         "autumn-moist-bath-milk-dry-skin-body-10",
         "autumn-epsom-salt-magnesium-bath-cold-soak-10",
         "autumn-body-peeling-gel-rough-elbow-knee-10",
@@ -154,18 +157,18 @@ ${cat.desc}
   }
 
   return `
-# 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する66大特集・660選コンプリートガイド
+# 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する69大特集・690選コンプリートガイド
 
 秋の深まりとともに、私たちの肌や髪、心身には季節特有の複雑な変化が押し寄せます。
 「朝晩と日中の急激な寒暖差」「湿度の急低下によるバリア機能の乱れ」「夏の紫外線ダメージによる遅れてきた角質肥厚やくすみ」「暖房によるインナードライ」など、秋の悩みは多岐にわたります。
 
-Qualia Navi編集部では、これまで第1弾から第22弾にわたり、読者の皆様から寄せられたリアルな季節の悩みに寄り添い、楽天市場の最新データ・プロの成分検証に基づいた**合計66の専門テーマ・全660商品**を徹底レビューしてきました。
+Qualia Navi編集部では、これまで第1弾から第23弾にわたり、読者の皆様から寄せられたリアルな季節の悩みに寄り添い、楽天市場の最新データ・プロの成分検証に基づいた**合計69の専門テーマ・全690商品**を徹底レビューしてきました。
 
 本まとめページは、今まさにあなたが直面している「肌・髪・身体・心身の秋の悩み」から、最適な解決特集へと直感的にアクセスできる**総合インデックス・コンプリートハブ**です。
 
 ---
 
-## 🍂 カテゴリ別・秋の66大特集インデックス
+## 🍂 カテゴリ別・秋の69大特集インデックス
 
 ${sectionContent}
 

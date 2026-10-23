@@ -1,5 +1,26 @@
 [
   {
+    "series": 23,
+    "slug": "autumn-pure-jojoba-multi-organic-oil-dry-10",
+    "category": "マルチスキンケアオイル",
+    "concern": "頭皮のフケかゆみ・髪の静電気パサつき・全身の粉ふき乾燥",
+    "shortTitle": "高純度オーガニックホホバオイル10選"
+  },
+  {
+    "series": 23,
+    "slug": "autumn-eyelash-nourishing-serum-damage-repair-10",
+    "category": "アイゾーンケア",
+    "concern": "秋の抜け毛・乾燥パサつき・まつ毛パーマのダメージ補修",
+    "shortTitle": "高濃度補修まつ毛美容液10選"
+  },
+  {
+    "series": 23,
+    "slug": "autumn-anti-aging-hand-serum-whitening-wrinkle-10",
+    "category": "ハンド＆ボディケア",
+    "concern": "秋の冷え・手肌の血管浮き・小ジワ・くすみ改善",
+    "shortTitle": "薬用美白＆高保湿ハンドセラム10選"
+  },
+  {
     "series": 22,
     "slug": "autumn-moist-bath-milk-dry-skin-body-10",
     "category": "ボディケア",

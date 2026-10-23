@@ -20,16 +20,16 @@ const newHubContent = getAutumnHubArticleContent();
 const newHubPost = {
   id: "feat-autumn-cosmetics-guide-45-series-hub",
   slug: "autumn-cosmetics-guide-45-series-hub",
-  title: "【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する63大特集・630選コンプリートガイド",
-  subtitle: "第1弾〜第21弾の全63大特集・厳選630商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴ミネラル温活・肘膝ボディピーリングまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
+  title: "【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する66大特集・660選コンプリートガイド",
+  subtitle: "第1弾〜第22弾の全66大特集・厳選660商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴ミルク＆温活・リップライナーまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
   targetGender: "unisex",
   authorId: "author-tachibana",
   authorName: "橘 えりか",
   authorRole: "Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括",
   authorAvatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
   createdAt: "2026-10-23",
-  readTimeMinutes: 62,
-  introText: "第1弾〜第21弾の全63大特集・厳選630商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴ミネラル温活・肘膝ボディピーリングまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
+  readTimeMinutes: 65,
+  introText: "第1弾〜第22弾の全66大特集・厳選660商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴ミルク＆温活・リップライナーまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
   isHallOfFame: true,
   coverImage: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&auto=format&fit=crop&q=80",
   recommendedItemCodes: postsMeta.slice(0, 10).map(p => `blog-${p.slug}`),
@@ -39,4 +39,4 @@ const newHubPost = {
 const replacement = JSON.stringify(newHubPost, null, 2) + ',\n\n';
 const updatedTs = dataTsContent.slice(0, objStart) + replacement + dataTsContent.slice(objEnd);
 fs.writeFileSync(dataTsPath, updatedTs, 'utf8');
-console.log('✅ src/data.ts のハブ記事を63大特集・630選仕様に置換完了しました！');
+console.log('✅ src/data.ts のハブ記事を66大特集・660選仕様に置換完了しました！');

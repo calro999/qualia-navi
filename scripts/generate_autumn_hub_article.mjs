@@ -27,9 +27,10 @@ export function getAutumnHubArticleContent() {
       ]
     },
     {
-      name: "木枯らし・摩擦シワ・老け見え【アイケア・ネック・クレンジング】",
-      desc: "皮膚が薄く皮脂腺が極めて少ない目元・首元・唇を摩擦と風から守り抜くパーツ特化ケア。",
+      name: "木枯らし・眼精疲労・青クマ・老け見え【アイケア・目元温熱・ネック】",
+      desc: "皮膚が薄く皮脂腺が極めて少ない目元・首元を摩擦と冷え・ブルーライトから守り抜くパーツ特化ケア。",
       slugs: [
+        "autumn-warming-eye-care-hot-mask-fatigue-10",
         "autumn-eye-cream-fine-lines-crow-feet-10",
         "autumn-eye-cream-wrinkles-dark-circles-10",
         "autumn-neck-decollete-cream-chapped-wrinkles-10",
@@ -40,8 +41,9 @@ export function getAutumnHubArticleContent() {
     },
     {
       name: "皮剥け・縦ジワ・くすみ【リップケア＆秋色トレンドリップ】",
-      desc: "マスクや冷風で荒れ果てた唇を植物オイルとヒアルロン酸で満たし、深み血色を演出するリップ特集。",
+      desc: "マスクや冷風で荒れ果てた唇を植物オイルとセラミドで満たし、深み血色を演出するリップ特集。",
       slugs: [
+        "autumn-intensive-lip-treatment-night-mask-10",
         "autumn-lip-scrub-gommage-peeling-flaky-lips-10",
         "autumn-lip-oil-plumper-cracked-lips-10",
         "autumn-lip-sleeping-mask-scrub-peeling-10",
@@ -78,9 +80,10 @@ export function getAutumnHubArticleContent() {
       ]
     },
     {
-      name: "乾燥崩れ防止・クマ影消し・垢抜け秋メイク【ベース＆カラーメイク】",
+      name: "乾燥崩れ防止・クマ影消し・粉浮き防止【ベース＆カラーメイク】",
       desc: "粉吹きや毛穴落ちを防ぎ、しっとり濡れツヤと琥珀のような深みを両立する秋メイク特集。",
       slugs: [
+        "autumn-hydrating-serum-primer-base-dry-skin-10",
         "autumn-hydrating-concealer-under-eye-dark-circles-10",
         "autumn-moist-liquid-cream-blush-cheek-10",
         "autumn-moist-makeup-setting-spray-dry-skin-10",
@@ -142,18 +145,18 @@ ${cat.desc}
   }
 
   return `
-# 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する54大特集・540選コンプリートガイド
+# 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する57大特集・570選コンプリートガイド
 
 秋の深まりとともに、私たちの肌や髪、心身には季節特有の複雑な変化が押し寄せます。
 「朝晩と日中の急激な寒暖差」「湿度の急低下によるバリア機能の乱れ」「夏の紫外線ダメージによる遅れてきた角質肥厚やくすみ」「暖房によるインナードライ」など、秋の悩みは多岐にわたります。
 
-Qualia Navi編集部では、これまで第1弾から第18弾にわたり、読者の皆様から寄せられたリアルな季節の悩みに寄り添い、楽天市場の最新データ・プロの成分検証に基づいた**合計54の専門テーマ・全540商品**を徹底レビューしてきました。
+Qualia Navi編集部では、これまで第1弾から第19弾にわたり、読者の皆様から寄せられたリアルな季節の悩みに寄り添い、楽天市場の最新データ・プロの成分検証に基づいた**合計57の専門テーマ・全570商品**を徹底レビューしてきました。
 
 本まとめページは、今まさにあなたが直面している「肌・髪・身体の秋の悩み」から、最適な解決特集へと直感的にアクセスできる**総合インデックス・コンプリートハブ**です。
 
 ---
 
-## 🍂 カテゴリ別・秋の54大特集インデックス
+## 🍂 カテゴリ別・秋の57大特集インデックス
 
 ${sectionContent}
 
@@ -177,58 +180,4 @@ ${sectionContent}
 上記の各リンクから、各テーマごとの詳しい成分比較、使用感レビュー、楽天市場の最安値・ポイント還元情報をご覧いただけます。
 季節の変わり目を健やかでツヤやかな美しい素肌で乗り切りましょう！
 `;
-}
-
-// ハブ記事を src/data.ts に反映
-export function updateHubInSrcData() {
-  const dataTsPath = path.resolve('src/data.ts');
-  let dataTsContent = fs.readFileSync(dataTsPath, 'utf8');
-
-  const hubId = "feat-autumn-cosmetics-guide-45-series-hub";
-  const hubIdx = dataTsContent.indexOf(`"id": "${hubId}"`);
-  if (hubIdx === -1) {
-    console.error('❌ src/data.ts にハブ記事が見つかりません');
-    return;
-  }
-
-  // ハブ記事オブジェクトの開始位置（直前の波括弧）
-  const objStart = dataTsContent.lastIndexOf('{', hubIdx);
-  // 次の記事の開始位置
-  const nextPostMarker = '{\n    "id": "feat-autumn-eye-cream-fine-lines-crow-feet-10"';
-  const objEnd = dataTsContent.indexOf(nextPostMarker, hubIdx);
-
-  if (objStart === -1 || objEnd === -1) {
-    console.error('❌ ハブ記事の境界が見つかりません');
-    return;
-  }
-
-  const newHubContent = getAutumnHubArticleContent();
-
-  const newHubPost = {
-    id: "feat-autumn-cosmetics-guide-45-series-hub",
-    slug: "autumn-cosmetics-guide-45-series-hub",
-    title: "【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する54大特集・540選コンプリートガイド",
-    subtitle: "第1弾〜第18弾の全54大特集・厳選540商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴バスケアまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
-    targetGender: "unisex",
-    authorId: "author-tachibana",
-    authorName: "橘 えりか",
-    authorRole: "Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括",
-    authorAvatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
-    createdAt: "2026-10-22",
-    readTimeMinutes: 52,
-    introText: "第1弾〜第18弾の全54大特集・厳選540商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴バスケアまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
-    isHallOfFame: true,
-    coverImage: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&auto=format&fit=crop&q=80",
-    recommendedItemCodes: postsMeta.slice(0, 10).map(p => `blog-${p.slug}`),
-    contentMarkdown: newHubContent
-  };
-
-  const replacement = JSON.stringify(newHubPost, null, 2) + ',\n  ';
-  const updatedTs = dataTsContent.slice(0, objStart) + replacement + dataTsContent.slice(objEnd);
-  fs.writeFileSync(dataTsPath, updatedTs, 'utf8');
-  console.log('✅ src/data.ts 内のハブ記事を54大特集・540選仕様へアップデート完了！');
-}
-
-if (process.argv[1] && process.argv[1].endsWith('generate_autumn_hub_article.mjs')) {
-  updateHubInSrcData();
 }

@@ -23,6 +23,7 @@ export interface RakutenProductArticle {
   affiliateLink: string; // 楽天アフィリエイトURL
   rakutenPrice: string; // 楽天最安値・価格
   createdAt: string;
+  updatedAt?: string;
   estimatedPV: number;
   clicks: number;
   earnings: number;
@@ -75,6 +76,7 @@ export interface BlogPost {
   authorRole: string;
   authorAvatar: string;
   createdAt: string;
+  updatedAt?: string;
   readTimeMinutes: number;
   introText: string;
   recommendedItemCodes: string[];
@@ -100,6 +102,7 @@ export interface ProductComparison {
   verdictSummary: string;
   contentMarkdown: string;
   createdAt: string;
+  updatedAt?: string;
   coverImage?: string;
 }
 

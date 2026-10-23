@@ -84,21 +84,20 @@ function cleanRakutenItemName(rawName, fallbackText = '') {
 }
 
 /**
- * 40文字スライス等で末尾が不自然に切れたタイトルを完全修復する
+ * タイトルを整理する（すでにブラッシュアップされている場合はそのまま活かす）
  */
 function buildCleanTitle(art, cleanProdName, isContentArticle) {
   const rawTitle = art.title ? String(art.title).trim() : '';
+  if (rawTitle && !rawTitle.startsWith('【ポイント') && !rawTitle.includes('★') && rawTitle.length >= 15) {
+    return rawTitle;
+  }
   if (isContentArticle && rawTitle) return rawTitle;
 
   const isAutumn = (art.id && art.id.includes('autumn')) || rawTitle.includes('2026秋') || (art.category && art.category.includes('2026秋'));
   const seasonPrefix = isAutumn ? '【2026秋最新】' : '【2026冬最新】';
   const suffix = isAutumn ? 'の口コミ評判・仕上がり・最安値比較' : 'の口コミ評判・効果・最安値比較';
 
-  if (!rawTitle || rawTitle.includes('の口コミ評判')) {
-    return `${seasonPrefix}${cleanProdName}${suffix}`;
-  }
-
-  return rawTitle;
+  return `${seasonPrefix}${cleanProdName}${suffix}`;
 }
 
 /**
@@ -328,9 +327,11 @@ articles.forEach(art => {
     /10選|総まとめ|完全ガイド/.test(rawTitle);
 
   const rawBody = art.reviewBody || art.content || art.introText || art.description || '';
-  const cleanProdName = isContentArticle
-    ? (art.productName || rawTitle)
-    : cleanRakutenItemName(art.itemName || art.productName || rawTitle, rawBody);
+  const cleanProdName = art.productName && !art.productName.startsWith('【')
+    ? art.productName
+    : (isContentArticle
+        ? (art.productName || rawTitle)
+        : cleanRakutenItemName(art.itemName || art.productName || rawTitle, rawBody));
 
   const cleanTitle = buildCleanTitle(art, cleanProdName, isContentArticle);
   const { slug: normCatSlug, label: normCatLabel } = normalizeCategory(art);

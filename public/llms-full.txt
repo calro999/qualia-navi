@@ -8,7 +8,22 @@
 
 ---
 
-## 1. 特集ブログ・10選ガイド (Special Feature Guides: 333件)
+## 1. 特集ブログ・10選ガイド (Special Feature Guides: 336件)
+
+### 【急な乾燥と冷えによる頭皮のフケ・かゆみに】薬用高保湿スカルプローション＆頭皮美容液10選
+- **URL**: https://qualia-navi.vercel.app/features/feat-autumn-scalp-lotion-dry-itch-dandruff-10
+- **Author**: 林 祥平 (Qualia Navi メンズ美容・ヘア＆スカルプ担当スペシャリスト)
+- **Summary**: 夏の紫外線疲労と秋の湿度低下で乱れた頭皮バリアを集中補修！抗炎症成分＆生体アミノ酸・炭酸微細泡でフケやかゆみ・秋の抜け毛を徹底予防する実力派スカルプケア完全比較
+
+### 【乾燥小ジワの粉落ちを防ぎ濡れツヤ宿す】大人のぷっくり涙袋！高保湿スティックアイシャドウ10選
+- **URL**: https://qualia-navi.vercel.app/features/feat-autumn-moist-stick-eyeshadow-aegyo-sal-10
+- **Author**: 高橋 凛 (Qualia Navi スキンケア研究コレクター / 乾燥肌・バリア機能担当)
+- **Summary**: パウダーが粉飛びする秋の乾燥まぶたにオイルワックスベースがスルスル密着！大人のくぼみ目やくすみを上品なパールと光で飛ばし一日中ヨレない立体アイを叶える名品完全ガイド
+
+### 【秋の冷え・湯冷め・疲労を芯から温める】高濃度炭酸入浴剤＆薬用重炭酸タブレット10選
+- **URL**: https://qualia-navi.vercel.app/features/feat-autumn-carbonic-acid-bath-tablet-cold-warm-10
+- **Author**: 橘 えりか (Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括)
+- **Summary**: 手足の冷えと秋の夜長の睡眠不足をぬるめ温浴で一掃！お湯に24時間溶け込み続ける中性重炭酸イオンが血流を劇的に促進し就寝時まで足先ポカポカが続く本格温活入浴剤完全網羅
 
 ### 【秋風と乾燥による唇の皮剥け・縦ジワに】翌朝ぷるん！高保湿リップトリートメント＆ナイトマスク10選
 - **URL**: https://qualia-navi.vercel.app/features/feat-autumn-intensive-lip-treatment-night-mask-10
@@ -100,10 +115,10 @@
 - **Author**: 林 祥平 (Qualia Navi メンズ美容・ヘア＆スカルプ担当スペシャリスト)
 - **Summary**: 30代の肌乾燥・血だらけ髭剃り・目元のクマ・ほうれい線・抜け毛の悩みを全て解消！機能は同じなのに安くて大容量なお得コスメを楽天APIから直撃紹介
 
-### 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する57大特集・570選コンプリートガイド
+### 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する60大特集・600選コンプリートガイド
 - **URL**: https://qualia-navi.vercel.app/features/feat-autumn-cosmetics-guide-45-series-hub
 - **Author**: 橘 えりか (Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括)
-- **Summary**: 第1弾〜第19弾の全57大特集・厳選570商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴バスケア・目元温熱まで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ
+- **Summary**: 第1弾〜第20弾の全60大特集・厳選600商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴温活ケア・目元涙袋まで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ
 
 ### 【木枯らしでまぶたや目尻がカサつき小ジワが目立つ季節に】高保湿・目元ふっくらアイクリーム10選
 - **URL**: https://qualia-navi.vercel.app/features/feat-autumn-eye-cream-fine-lines-crow-feet-10
@@ -2848,7 +2863,7 @@
 
 ---
 
-## 3. 全コスメ詳細レビュー＆検証アーカイブ (All 3266 Articles)
+## 3. 全コスメ詳細レビュー＆検証アーカイブ (All 3296 Articles)
 
 ### 1. 【2026年最新】黒龍堂 プライバシー 新世代マスカラリムーバー (ポイントメイク用クレンジング)は本当に良い？口コミ・テクスチャー・肌質別の相性を徹底検証レビュー
 - **URL**: https://qualia-navi.vercel.app/articles/art-winter-b78-msr-10-ox10009955
@@ -32241,6 +32256,276 @@
 - **Category**: bodycare
 - **Price**: 16800
 - **Rating**: ★2.5 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3267. パルガ スカルプローション S&E 120ml 頭皮ローション スカルプケア 女性 レディース 【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-1-10000064
+- **Product Name**: パルガ スカルプローション S&E 120ml 頭皮ローション スカルプケア 女性 レディース 【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 4180
+- **Rating**: ★4.79 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3268. SHIAGE 80g 選べる本数 炭酸スプレー 頭皮保湿 頭皮ケア スカルプケア 頭皮化粧水 ヘ【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-2-10000234
+- **Product Name**: SHIAGE 80g 選べる本数 炭酸スプレー 頭皮保湿 頭皮ケア スカルプケア 頭皮化粧水 ヘ【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 2980
+- **Rating**: ★4.66 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3269. Dr.ウィラード スカルプウォーター 220mL 頭皮 化粧水 頭皮化粧水 スカルプローション 【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-3-10000006
+- **Product Name**: Dr.ウィラード スカルプウォーター 220mL 頭皮 化粧水 頭皮化粧水 スカルプローション 【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 4620
+- **Rating**: ★4.46 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3270. ルシード ヘアトニック 詰替 1000ml 業務用 マンダム LUCIDO サロン専売品 男性用【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-4-10000193
+- **Product Name**: ルシード ヘアトニック 詰替 1000ml 業務用 マンダム LUCIDO サロン専売品 男性用【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 2759
+- **Rating**: ★4.47 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3271. Waphyto スキャルプローション 120mL 頭皮ケア 頭皮 化粧水 スカルプ ケア 頭皮マ【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-5-10000017
+- **Product Name**: Waphyto スキャルプローション 120mL 頭皮ケア 頭皮 化粧水 スカルプ ケア 頭皮マ【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 4620
+- **Rating**: ★4.53 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3272. スタイルシリカ 1000ml  ブローローション 頭皮化粧水 スカルプローション シリカ ケイ素【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-6-10000036
+- **Product Name**: スタイルシリカ 1000ml  ブローローション 頭皮化粧水 スカルプローション シリカ ケイ素【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 6850
+- **Rating**: ★4.62 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3273. NEW SHIAGE 80g 頭皮保湿ケアにオススメの炭酸 ヘッドスパ♪ 炭酸 ヘッドスパ 柑橘【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-7-10005079
+- **Product Name**: NEW SHIAGE 80g 頭皮保湿ケアにオススメの炭酸 ヘッドスパ♪ 炭酸 ヘッドスパ 柑橘【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 2490
+- **Rating**: ★4.33 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3274. NOV nov ノブ　スカルプローション 80ml 常盤薬品 保湿 フケ ふけ かゆみ におい 【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-8-10003858
+- **Product Name**: NOV nov ノブ　スカルプローション 80ml 常盤薬品 保湿 フケ ふけ かゆみ におい 【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 1650
+- **Rating**: ★4 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3275. スカルプローション スカルプケア ボリューム 乾燥くせ毛 フケ ふけ かゆみ 抜毛 予防 頭皮ケ【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-9-10000023
+- **Product Name**: スカルプローション スカルプケア ボリューム 乾燥くせ毛 フケ ふけ かゆみ 抜毛 予防 頭皮ケ【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 19800
+- **Rating**: ★4 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3276. レラ・パルガ スカルプローション 120mlセンブリエキス・ビワ葉エキスなど10種の植物エキス配【秋コスメ2026・薬用・高保湿スカルプローション】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-scl-10-10000283
+- **Product Name**: レラ・パルガ スカルプローション 120mlセンブリエキス・ビワ葉エキスなど10種の植物エキス配【秋コスメ2026・薬用・高保湿スカルプローション】
+- **Category**: haircare
+- **Price**: 4180
+- **Rating**: ★4.5 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3277. ボビイ ブラウン ロングウェア クリーム シャドウ スティック | アイシャドウ クリームアイシ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-1-10000798
+- **Product Name**: ボビイ ブラウン ロングウェア クリーム シャドウ スティック | アイシャドウ クリームアイシ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 5170
+- **Rating**: ★4.69 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3278. 涙袋 スティック アイシャドウ パール アイライン プチプラ カラーライナー 韓国コスメ アイム【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-2-10000003
+- **Product Name**: 涙袋 スティック アイシャドウ パール アイライン プチプラ カラーライナー 韓国コスメ アイム【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 1320
+- **Rating**: ★4.65 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3279. ウィッチズポーチ フィットスティックシャドウ 1.5g Witch's Pouch スティックア【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-3-10005045
+- **Product Name**: ウィッチズポーチ フィットスティックシャドウ 1.5g Witch's Pouch スティックア【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 1080
+- **Rating**: ★4.3 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3280. ボビイ ブラウン ミニ ロングウェア クリーム シャドウスティック | スティックアイシャドウ 【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-4-10001460
+- **Product Name**: ボビイ ブラウン ミニ ロングウェア クリーム シャドウスティック | スティックアイシャドウ 【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 2970
+- **Rating**: ★4.68 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3281. &be スティックアイシャドウ｜アイカラー グラデーション 高発色 高密着 アイメイク 立体メイ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-5-10000113
+- **Product Name**: &be スティックアイシャドウ｜アイカラー グラデーション 高発色 高密着 アイメイク 立体メイ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 2420
+- **Rating**: ★4.53 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3282. ボビイ ブラウン BOBBI BROWN ロングウェア クリーム シャドウ スティック 選べるカ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-6-10066574
+- **Product Name**: ボビイ ブラウン BOBBI BROWN ロングウェア クリーム シャドウ スティック 選べるカ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 4060
+- **Rating**: ★4.71 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3283. クリームスティックシャドウ アイシャドウ 落ちない にじまない 汗 水に強い シャドウ スティッ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-7-10000155
+- **Product Name**: クリームスティックシャドウ アイシャドウ 落ちない にじまない 汗 水に強い シャドウ スティッ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 1980
+- **Rating**: ★4.08 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3284. cs162#アイシャドウ スティック 当日発送 2type 20color アイシャドウ 韓国コ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-8-10001375
+- **Product Name**: cs162#アイシャドウ スティック 当日発送 2type 20color アイシャドウ 韓国コ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 749
+- **Rating**: ★3.83 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3285. スティック アイシャドウ リップ メイクセット コフレ 涙袋 ティントリップ イエベ ブルベ パ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-9-10000011
+- **Product Name**: スティック アイシャドウ リップ メイクセット コフレ 涙袋 ティントリップ イエベ ブルベ パ【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 4059
+- **Rating**: ★4.75 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3286. ランキング受賞！国内発送 Peripera(ペリペラ) ムード イン シェード アイ スティック【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-shd-10-10002558
+- **Product Name**: ランキング受賞！国内発送 Peripera(ペリペラ) ムード イン シェード アイ スティック【秋コスメ2026・高保湿スティックアイシャドウ・涙袋ライナー】
+- **Category**: makeup
+- **Price**: 1540
+- **Rating**: ★5 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3287. BARTH 中性重炭酸入浴剤 9錠 バース 3回分 | 入浴剤 ギフト プレゼント 女性 男性 【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-1-10000011
+- **Product Name**: BARTH 中性重炭酸入浴剤 9錠 バース 3回分 | 入浴剤 ギフト プレゼント 女性 男性 【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 990
+- **Rating**: ★4.35 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3288. ≪公式店≫トリーツ スプリング シリーズ一部ゆうパケット対象商品 入浴料 ヨル スキンケア 保湿【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-2-10002667
+- **Product Name**: ≪公式店≫トリーツ スプリング シリーズ一部ゆうパケット対象商品 入浴料 ヨル スキンケア 保湿【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 616
+- **Rating**: ★4.74 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3289. ベビタブ 重炭酸入浴剤 100錠 乾燥肌 敏感肌 冷え性 保湿 温浴 入浴剤 沐浴剤 無添加 無【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-3-10000000
+- **Product Name**: ベビタブ 重炭酸入浴剤 100錠 乾燥肌 敏感肌 冷え性 保湿 温浴 入浴剤 沐浴剤 無添加 無【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 6980
+- **Rating**: ★4.55 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3290. ホットタブ HOT TAB お試し3種セット 入浴剤 プチギフト セット 夏バテ対策 重炭酸入浴【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-4-10000060
+- **Product Name**: ホットタブ HOT TAB お試し3種セット 入浴剤 プチギフト セット 夏バテ対策 重炭酸入浴【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 2970
+- **Rating**: ★4.61 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3291. 重炭酸入浴剤 ホットタブ 90錠2袋セット 180錠  重炭酸 睡眠の質 改善 高める ウェルネ【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-5-10000073
+- **Product Name**: 重炭酸入浴剤 ホットタブ 90錠2袋セット 180錠  重炭酸 睡眠の質 改善 高める ウェルネ【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 13860
+- **Rating**: ★4.85 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3292. まるで美容液♪送料無料 30g×10袋入 入浴剤 ラグウル らぐうる とろみ バスソルト 癒やし【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-6-10000030
+- **Product Name**: まるで美容液♪送料無料 30g×10袋入 入浴剤 ラグウル らぐうる とろみ バスソルト 癒やし【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 2640
+- **Rating**: ★4.64 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3293. レビュー記入で300円クーポンプレゼント♪ 薬用ホットタブ 重炭酸湯Classic 90錠 ホッ【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-7-10000613
+- **Product Name**: レビュー記入で300円クーポンプレゼント♪ 薬用ホットタブ 重炭酸湯Classic 90錠 ホッ【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 4580
+- **Rating**: ★4.71 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3294. キューサイ WELTAB (約10 日分) ( 薬用 重炭酸 入浴剤 疲労回復 冷え 温感 ゆず【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-8-10000716
+- **Product Name**: キューサイ WELTAB (約10 日分) ( 薬用 重炭酸 入浴剤 疲労回復 冷え 温感 ゆず【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 3500
+- **Rating**: ★4.69 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3295. 入浴剤 ギフト 重炭酸 プレゼント モイスクル 20錠 炭酸 冷え タブレット 保湿成分配合 疲【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-9-10215595
+- **Product Name**: 入浴剤 ギフト 重炭酸 プレゼント モイスクル 20錠 炭酸 冷え タブレット 保湿成分配合 疲【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 2380
+- **Rating**: ★4.44 (120件のレビュー)
+- **Reviewer**: 美肌ケア・コスメ選定委員会
+- **Key Features**: 
+
+### 3296. 薬用入浴剤 肌荒れ対策 薬用 重炭酸SPA 10錠入り / 1錠 （60） 炭酸入浴剤 重炭酸 【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **URL**: https://qualia-navi.vercel.app/articles/art-autumn20-2026-crb-10-10000015
+- **Product Name**: 薬用入浴剤 肌荒れ対策 薬用 重炭酸SPA 10錠入り / 1錠 （60） 炭酸入浴剤 重炭酸 【秋コスメ2026・高濃度炭酸入浴剤・重炭酸タブレット】
+- **Category**: bodycare
+- **Price**: 2530
+- **Rating**: ★4.67 (120件のレビュー)
 - **Reviewer**: 美肌ケア・コスメ選定委員会
 - **Key Features**: 
 

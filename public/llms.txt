@@ -9,13 +9,16 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-10-23
-- **Total Product & Feature Articles**: 3296 件
-- **Total Special Feature Guides**: 336 件
+- **Total Product & Feature Articles**: 3326 件
+- **Total Special Feature Guides**: 339 件
 - **Total VS Comparisons**: 233 件
 
 ## Main Content Direct Links
 
-### 1. Special Feature Blogs (特集・10選ガイド 全336件)
+### 1. Special Feature Blogs (特集・10選ガイド 全339件)
+- [【暖房と秋風による日中の粉吹き乾燥に】高保湿ミスト化粧水＆オイルインスプレー10選](https://qualia-navi.vercel.app/features/feat-autumn-hydrating-facial-mist-spray-dry-skin-10): 水だけスプレーの過乾燥を防ぐオイルイン2層式＆等張水処方！プロポリスやホワイトトリュフ配合でメイクの上からでも崩さず一日中うるおい水光ツヤ肌を死守する携帯ミスト完全比較
+- [【衣類摩擦と乾燥による肘・膝の黒ずみに】薬用高保湿ボディピーリングジェル10選](https://qualia-navi.vercel.app/features/feat-autumn-body-peeling-gel-rough-elbow-knee-10): タイツや厚着の摩擦と秋の代謝停滞で硬化した古い角質を摩擦レスに優しくオフ！ハトムギ・CICA・酵素配合で肘・膝・ヒップのザラつきをリセットし吸い付くつるすべ肌へ導く実力派完全ガイド
+- [【秋の冷え・むくみ・疲労を芯からほぐす】高純度エプソムソルト・マグネシウム入浴剤10選](https://qualia-navi.vercel.app/features/feat-autumn-epsom-salt-magnesium-bath-cold-soak-10): 塩分ゼロで風呂釜を傷めない純度99%硫酸マグネシウムの温活パワー！経皮マグネシウム補給で筋肉の強ばりをゆるめドッサリ深部発汗と極上つるすべ美肌を叶える名品完全網羅
 - [【急な乾燥と冷えによる頭皮のフケ・かゆみに】薬用高保湿スカルプローション＆頭皮美容液10選](https://qualia-navi.vercel.app/features/feat-autumn-scalp-lotion-dry-itch-dandruff-10): 夏の紫外線疲労と秋の湿度低下で乱れた頭皮バリアを集中補修！抗炎症成分＆生体アミノ酸・炭酸微細泡でフケやかゆみ・秋の抜け毛を徹底予防する実力派スカルプケア完全比較
 - [【乾燥小ジワの粉落ちを防ぎ濡れツヤ宿す】大人のぷっくり涙袋！高保湿スティックアイシャドウ10選](https://qualia-navi.vercel.app/features/feat-autumn-moist-stick-eyeshadow-aegyo-sal-10): パウダーが粉飛びする秋の乾燥まぶたにオイルワックスベースがスルスル密着！大人のくぼみ目やくすみを上品なパールと光で飛ばし一日中ヨレない立体アイを叶える名品完全ガイド
 - [【秋の冷え・湯冷め・疲労を芯から温める】高濃度炭酸入浴剤＆薬用重炭酸タブレット10選](https://qualia-navi.vercel.app/features/feat-autumn-carbonic-acid-bath-tablet-cold-warm-10): 手足の冷えと秋の夜長の睡眠不足をぬるめ温浴で一掃！お湯に24時間溶け込み続ける中性重炭酸イオンが血流を劇的に促進し就寝時まで足先ポカポカが続く本格温活入浴剤完全網羅
@@ -37,7 +40,7 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 - [【40代の深いシワ・たるみ・頑固なシミを本気で叩く】プチプラ3：デパコス7の黄金比率で挑む！資生堂・SK-II・POLA最高峰エイジングケア完全攻略10選](https://qualia-navi.vercel.app/features/feat-40s-anti-aging-depacos7-petit3-golden-ratio): もう失敗できない40代の年齢肌を医学的エビデンスで押し戻す！最高峰デパコス7割と高機能プチプラ3割の黄金比を力説＆楽天購入が百貨店より圧倒的にお得な理由を完全解説
 - [【50代・60代の全身の悩みを1ページで根本解決】プチプラ8：デパコス2で賢く立て直す！手足の冷え・頑固な乾燥・薄毛・更年期の不調を救う総合処方箋10選](https://qualia-navi.vercel.app/features/feat-50-60s-senior-full-body-rescue-petit8-depacos2): 諦めかけていたシニア世代の火急な悩みを最優先で解決！手足の冷え・大容量保湿・育毛・エクオール・高機能先行ジェリーまで1ページで全方位ケア
 - [【30代男性の老化恐怖を低価格で一撃解決】カミソリ負け・乾燥・目元クマ・ほうれい線・抜け毛を救う楽天爆安メンズ美容グッズまとめ買い全記録](https://qualia-navi.vercel.app/features/feat-30s-mens-anti-aging-budget-cosme-all-in-one): 30代の肌乾燥・血だらけ髭剃り・目元のクマ・ほうれい線・抜け毛の悩みを全て解消！機能は同じなのに安くて大容量なお得コスメを楽天APIから直撃紹介
-- [【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する60大特集・600選コンプリートガイド](https://qualia-navi.vercel.app/features/feat-autumn-cosmetics-guide-45-series-hub): 第1弾〜第20弾の全60大特集・厳選600商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴温活ケア・目元涙袋まで、秋特有のリアルな悩みに寄り添い解決す
+- [【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する63大特集・630選コンプリートガイド](https://qualia-navi.vercel.app/features/feat-autumn-cosmetics-guide-45-series-hub): 第1弾〜第21弾の全63大特集・厳選630商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・入浴ミネラル温活・肘膝ボディピーリングまで、秋特有のリアルな悩み
 - [【木枯らしでまぶたや目尻がカサつき小ジワが目立つ季節に】高保湿・目元ふっくらアイクリーム10選](https://qualia-navi.vercel.app/features/feat-autumn-eye-cream-fine-lines-crow-feet-10): 秋の乾燥風と眼精疲労で深くなる目元のちりめんジワをふっくら押し戻す！ナイアシンアミド＆レチノール高配合で皮膚の薄い目元を濃密保護する名品完全比較
 - [【入浴後の急激なツッパリ・肌の過乾燥を防ぐ季節に】水分を逃さないお風呂上がり先行フェイシャルオイル10選](https://qualia-navi.vercel.app/features/feat-autumn-facial-oil-post-bath-dehydration-10): 脱衣所に出た瞬間から始まる急激な肌の水分蒸発を食い止める！高純度スクワラン＆未精製アルガンオイルで濡れた肌を即密閉する優秀ブースターオイル完全ガイド
 - [【季節の変わり目に肌がピリピリ赤くゆらぐ季節に】肌バリアを立て直す低刺激CICA＆セラミドバーム10選](https://qualia-navi.vercel.app/features/feat-autumn-cica-ceramide-calming-balm-10): 秋の寒暖差や花粉でいつもの化粧水もしみる敏感肌を穏やかに鎮静！ツボクサエキス＆濃密ヒト型セラミドで肌荒れをスピード修復する低刺激バーム完全網羅
@@ -669,7 +672,7 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 - [【口コミ検証】＜リニューアル！＞初回限定 炭酸パック ジェル Co2 パック 炭酸ケアの効果や仕上がりは？愛用者の評判とメリット・デメリットを詳しく解説](https://qualia-navi.vercel.app/articles/art-winter-b76-co2-3-na10000856): 洗顔フォーム・角質ケア (評価: ★4.8 / 参考価格: オープン価格)
 - [【本音レビュー】ドクター メディオン 炭酸パック スパ オキシジェル 10回分のリアルな口コミ評判・効果・使い方をコスメ専門家が徹底検証！](https://qualia-navi.vercel.app/articles/art-winter-b76-co2-2-co10052040): 洗顔フォーム・角質ケア (評価: ★4.8 / 参考価格: オープン価格)
 - [【プロが解説】エニシーグローパック プレシャス PRECIOUS 10回分 ギフト プレゼントの評判・口コミは本当？リアルな使用感とおすすめの使い方を完全網羅](https://qualia-navi.vercel.app/articles/art-winter-b76-co2-1-re10001781): 洗顔フォーム・角質ケア (評価: ★4.8 / 参考価格: オープン価格)
-- [Full Article List & Complete Database (3296件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
+- [Full Article List & Complete Database (3326件全件アーカイブ)](https://qualia-navi.vercel.app/llms-full.txt)
 
 ## Crawling & AI Reference Guidelines
 - **User-Agent Alignment**: All AI Search agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, Amazonbot, etc.) are granted FULL ACCESS.

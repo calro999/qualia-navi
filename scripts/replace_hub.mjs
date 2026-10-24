@@ -20,16 +20,16 @@ const newHubContent = getAutumnHubArticleContent();
 const newHubPost = {
   id: "feat-autumn-cosmetics-guide-45-series-hub",
   slug: "autumn-cosmetics-guide-45-series-hub",
-  title: "【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する72大特集・720選コンプリートガイド",
-  subtitle: "第1弾〜第24弾の全72大特集・厳選720商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高保湿クレンジングミルク・スティックコンシーラー・薬用かかとクリームまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
+  title: "【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する75大特集・750選コンプリートガイド",
+  subtitle: "第1弾〜第25弾の全75大特集・厳選750商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高保湿プレストパウダー・薬用ネッククリーム・高浸透ネイルオイルまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
   targetGender: "unisex",
   authorId: "author-tachibana",
   authorName: "橘 えりか",
   authorRole: "Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括",
   authorAvatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
-  createdAt: "2026-10-23",
-  readTimeMinutes: 70,
-  introText: "第1弾〜第24弾の全72大特集・厳選720商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高保湿クレンジングミルク・スティックコンシーラー・薬用かかとクリームまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
+  createdAt: "2026-10-24",
+  readTimeMinutes: 72,
+  introText: "第1弾〜第25弾の全75大特集・厳選750商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高保湿プレストパウダー・薬用ネッククリーム・高浸透ネイルオイルまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ",
   isHallOfFame: true,
   coverImage: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&auto=format&fit=crop&q=80",
   recommendedItemCodes: postsMeta.slice(0, 10).map(p => `blog-${p.slug}`),
@@ -39,4 +39,4 @@ const newHubPost = {
 const replacement = JSON.stringify(newHubPost, null, 2) + ',\n\n';
 const updatedTs = dataTsContent.slice(0, objStart) + replacement + dataTsContent.slice(objEnd);
 fs.writeFileSync(dataTsPath, updatedTs, 'utf8');
-console.log('✅ src/data.ts のハブ記事を72大特集・720選仕様に置換完了しました！');
+console.log('✅ src/data.ts のハブ記事を75大特集・750選仕様に置換完了しました！');

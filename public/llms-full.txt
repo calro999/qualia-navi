@@ -8,7 +8,22 @@
 
 ---
 
-## 1. 特集ブログ・10選ガイド (Special Feature Guides: 360件)
+## 1. 特集ブログ・10選ガイド (Special Feature Guides: 363件)
+
+### 【唇の皮剥け・深い縦ジワ・口紅割れを即効救命】高保湿リップスリーピングマスク＆濃厚リップバーム10選
+- **URL**: https://qualia-navi.vercel.app/features/feat-autumn-hydrating-lip-sleeping-mask-chapped-10
+- **Author**: 橘 えりか (Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括)
+- **Summary**: 皮脂腺がなく水分蒸散が激しい唇を夜間集中リペア！ベリーコンプレックス・PDRN・高純度セラミド配合で翌朝生まれたてのマシュマロ唇へ導く名品完全比較
+
+### 【粉ふき・毛穴落ち・夕方のベース割れを鉄壁阻止】高保湿美容液化粧下地10選
+- **URL**: https://qualia-navi.vercel.app/features/feat-autumn-hydrating-serum-primer-flaky-skin-10
+- **Author**: 橘 えりか (Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括)
+- **Summary**: 空気の乾燥と寒暖差によるベース崩れを83%以上の美容液成分で完全防止！ナイアシンアミド・PDRN・生ツヤパール配合で一日中みずみずしい発光美肌を保つ名品比較
+
+### 【末端冷え・首肩こり・湯上がり過乾燥を根本解消】薬用高保湿重炭酸入浴剤＆アロマバスソルト10選
+- **URL**: https://qualia-navi.vercel.app/features/feat-autumn-medicinal-bicarbonate-bath-cold-dry-10
+- **Author**: 橘 えりか (Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括)
+- **Summary**: さら湯による肌セラミド流出を防ぎ、重炭酸イオンと硫酸マグネシウムで芯まで温める！入浴後もポカポカとうるおいが持続する温活＆ボディケアの最高峰を徹底比較
 
 ### 【晩秋の目元ちりめんジワ・夕方のまぶた窪みに】高機能アイクリーム10選
 - **URL**: https://qualia-navi.vercel.app/features/feat-autumn-advanced-eye-cream-wrinkle-repair-10
@@ -235,10 +250,10 @@
 - **Author**: 林 祥平 (Qualia Navi メンズ美容・ヘア＆スカルプ担当スペシャリスト)
 - **Summary**: 30代の肌乾燥・血だらけ髭剃り・目元のクマ・ほうれい線・抜け毛の悩みを全て解消！機能は同じなのに安くて大容量なお得コスメを楽天APIから直撃紹介
 
-### 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する84大特集・840選コンプリートガイド
+### 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する87大特集・870選コンプリートガイド
 - **URL**: https://qualia-navi.vercel.app/features/feat-autumn-cosmetics-guide-45-series-hub
 - **Author**: 橘 えりか (Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括)
-- **Summary**: 第1弾〜第28弾の全84大特集・厳選840商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高機能アイクリーム・生ツヤクッションファンデ・薬用高保湿ボディソープまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ
+- **Summary**: 第1弾〜第29弾の全87大特集・厳選870商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高保湿リップマスク・高保湿美容液下地・薬用重炭酸入浴剤まで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ
 
 ### 【木枯らしでまぶたや目尻がカサつき小ジワが目立つ季節に】高保湿・目元ふっくらアイクリーム10選
 - **URL**: https://qualia-navi.vercel.app/features/feat-autumn-eye-cream-fine-lines-crow-feet-10

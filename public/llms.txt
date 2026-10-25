@@ -10,12 +10,15 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
 - **Last Mod**: 2026-10-25
 - **Total Product & Feature Articles**: 3506 件
-- **Total Special Feature Guides**: 360 件
+- **Total Special Feature Guides**: 363 件
 - **Total VS Comparisons**: 233 件
 
 ## Main Content Direct Links
 
-### 1. Special Feature Blogs (特集・10選ガイド 全360件)
+### 1. Special Feature Blogs (特集・10選ガイド 全363件)
+- [【唇の皮剥け・深い縦ジワ・口紅割れを即効救命】高保湿リップスリーピングマスク＆濃厚リップバーム10選](https://qualia-navi.vercel.app/features/feat-autumn-hydrating-lip-sleeping-mask-chapped-10): 皮脂腺がなく水分蒸散が激しい唇を夜間集中リペア！ベリーコンプレックス・PDRN・高純度セラミド配合で翌朝生まれたてのマシュマロ唇へ導く名品完全比較
+- [【粉ふき・毛穴落ち・夕方のベース割れを鉄壁阻止】高保湿美容液化粧下地10選](https://qualia-navi.vercel.app/features/feat-autumn-hydrating-serum-primer-flaky-skin-10): 空気の乾燥と寒暖差によるベース崩れを83%以上の美容液成分で完全防止！ナイアシンアミド・PDRN・生ツヤパール配合で一日中みずみずしい発光美肌を保つ名品比較
+- [【末端冷え・首肩こり・湯上がり過乾燥を根本解消】薬用高保湿重炭酸入浴剤＆アロマバスソルト10選](https://qualia-navi.vercel.app/features/feat-autumn-medicinal-bicarbonate-bath-cold-dry-10): さら湯による肌セラミド流出を防ぎ、重炭酸イオンと硫酸マグネシウムで芯まで温める！入浴後もポカポカとうるおいが持続する温活＆ボディケアの最高峰を徹底比較
 - [【晩秋の目元ちりめんジワ・夕方のまぶた窪みに】高機能アイクリーム10選](https://qualia-navi.vercel.app/features/feat-autumn-advanced-eye-cream-wrinkle-repair-10): 湿度が30%台へ急落し皮膚が最も薄い目元を集中レスキュー！純粋レチノール・ペプチド・セラミド配合で笑いジワと夕方の窪みをふっくら押し返し若々しいハリ眼差しへ導く名品完全比較
 - [【秋の粉ふき・皮脂崩れの同時勃発に】生ツヤ高保湿クッションファンデ10選](https://qualia-navi.vercel.app/features/feat-autumn-hydrating-glow-cushion-foundation-10): 頬はカサつきTゾーンはテカる秋のアンバランス肌を救う！美容液成分70%超と微細メッシュが厚塗り感なく素肌になりすまし夕方まで毛穴落ちゼロの水光ツヤ肌をキープする決定版ガイド
 - [【秋の乾燥粉ふき・全身のムズムズ痒みに】薬用高保湿ボディソープ10選](https://qualia-navi.vercel.app/features/feat-autumn-medicinal-barrier-body-wash-dry-itch-10): 熱いお湯とゴシゴシ洗いによるセラミド流出を完全ストップ！7種の天然型セラミド・シアバター・弱酸性アミノ酸泡でお風呂上がりのつっぱり感をゼロにし吸い付くシルク肌を育む完全網羅
@@ -61,7 +64,7 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 - [【40代の深いシワ・たるみ・頑固なシミを本気で叩く】プチプラ3：デパコス7の黄金比率で挑む！資生堂・SK-II・POLA最高峰エイジングケア完全攻略10選](https://qualia-navi.vercel.app/features/feat-40s-anti-aging-depacos7-petit3-golden-ratio): もう失敗できない40代の年齢肌を医学的エビデンスで押し戻す！最高峰デパコス7割と高機能プチプラ3割の黄金比を力説＆楽天購入が百貨店より圧倒的にお得な理由を完全解説
 - [【50代・60代の全身の悩みを1ページで根本解決】プチプラ8：デパコス2で賢く立て直す！手足の冷え・頑固な乾燥・薄毛・更年期の不調を救う総合処方箋10選](https://qualia-navi.vercel.app/features/feat-50-60s-senior-full-body-rescue-petit8-depacos2): 諦めかけていたシニア世代の火急な悩みを最優先で解決！手足の冷え・大容量保湿・育毛・エクオール・高機能先行ジェリーまで1ページで全方位ケア
 - [【30代男性の老化恐怖を低価格で一撃解決】カミソリ負け・乾燥・目元クマ・ほうれい線・抜け毛を救う楽天爆安メンズ美容グッズまとめ買い全記録](https://qualia-navi.vercel.app/features/feat-30s-mens-anti-aging-budget-cosme-all-in-one): 30代の肌乾燥・血だらけ髭剃り・目元のクマ・ほうれい線・抜け毛の悩みを全て解消！機能は同じなのに安くて大容量なお得コスメを楽天APIから直撃紹介
-- [【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する84大特集・840選コンプリートガイド](https://qualia-navi.vercel.app/features/feat-autumn-cosmetics-guide-45-series-hub): 第1弾〜第28弾の全84大特集・厳選840商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高機能アイクリーム・生ツヤクッションファンデ・薬用高保湿ボディソ
+- [【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する87大特集・870選コンプリートガイド](https://qualia-navi.vercel.app/features/feat-autumn-cosmetics-guide-45-series-hub): 第1弾〜第29弾の全87大特集・厳選870商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高保湿リップマスク・高保湿美容液下地・薬用重炭酸入浴剤まで、秋特
 - [【木枯らしでまぶたや目尻がカサつき小ジワが目立つ季節に】高保湿・目元ふっくらアイクリーム10選](https://qualia-navi.vercel.app/features/feat-autumn-eye-cream-fine-lines-crow-feet-10): 秋の乾燥風と眼精疲労で深くなる目元のちりめんジワをふっくら押し戻す！ナイアシンアミド＆レチノール高配合で皮膚の薄い目元を濃密保護する名品完全比較
 - [【入浴後の急激なツッパリ・肌の過乾燥を防ぐ季節に】水分を逃さないお風呂上がり先行フェイシャルオイル10選](https://qualia-navi.vercel.app/features/feat-autumn-facial-oil-post-bath-dehydration-10): 脱衣所に出た瞬間から始まる急激な肌の水分蒸発を食い止める！高純度スクワラン＆未精製アルガンオイルで濡れた肌を即密閉する優秀ブースターオイル完全ガイド
 - [【季節の変わり目に肌がピリピリ赤くゆらぐ季節に】肌バリアを立て直す低刺激CICA＆セラミドバーム10選](https://qualia-navi.vercel.app/features/feat-autumn-cica-ceramide-calming-balm-10): 秋の寒暖差や花粉でいつもの化粧水もしみる敏感肌を穏やかに鎮静！ツボクサエキス＆濃密ヒト型セラミドで肌荒れをスピード修復する低刺激バーム完全網羅

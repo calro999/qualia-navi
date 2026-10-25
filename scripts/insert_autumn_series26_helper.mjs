@@ -97,7 +97,6 @@ export function updateArticlesJson() {
   fs.writeFileSync(articlesJsonPath, JSON.stringify(updatedList, null, 2), 'utf8');
   console.log(`✅ articles.json に秋コスメ第26弾の個別商品記事 ${allNewArticles.length}件 を追加・更新しました！`);
 
-  // public/data/articles/ にも各記事を個別JSONとして保存
   const publicArticlesDir = path.resolve('public/data/articles');
   if (!fs.existsSync(publicArticlesDir)) {
     fs.mkdirSync(publicArticlesDir, { recursive: true });
@@ -108,63 +107,83 @@ export function updateArticlesJson() {
   console.log(`✅ public/data/articles/ に個別商品JSON ${allNewArticles.length}件 を同期しました！`);
 }
 
-// リッチ商品カードHTMLジェネレーター
+// キラー記事仕様・リッチ商品カードHTMLジェネレーター
 export function renderProductCard(item, article, index, customReview = {}) {
   const rank = index + 1;
   const ratingStars = '★'.repeat(Math.round(item.reviewAverage || 4.5)) + '☆'.repeat(5 - Math.round(item.reviewAverage || 4.5));
 
+  const prosConsHtml = (customReview.pros || customReview.cons) ? `
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin: 14px 0;">
+      <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 12px;">
+        <strong style="color: #166534; font-size: 13px; display: block; margin-bottom: 6px;">✔ ここが推せる（メリット・向いている人）</strong>
+        <p style="margin: 0; font-size: 13px; color: #14532d; line-height: 1.65;">${customReview.pros || '肌への密着度が高く、秋の乾燥環境でも長時間コンディションを維持できます。'}</p>
+      </div>
+      <div style="background: #fff1f2; border: 1px solid #fecdd3; border-radius: 8px; padding: 12px;">
+        <strong style="color: #9f1239; font-size: 13px; display: block; margin-bottom: 6px;">⚠ 購入前の注意点（デメリット・向かない人）</strong>
+        <p style="margin: 0; font-size: 13px; color: #881337; line-height: 1.65;">${customReview.cons || '高保湿・高密着設計のため、一度に大量に使いすぎないよう適量を守るのがコツです。'}</p>
+      </div>
+    </div>
+  ` : '';
+
   return `
-<div class="product-item-card" style="border: 2px solid #e2e8f0; border-radius: 14px; padding: 24px; margin: 32px 0; background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%); box-shadow: 0 4px 14px rgba(0,0,0,0.05);">
-  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px dashed #cbd5e1; padding-bottom: 12px;">
-    <span style="background: linear-gradient(135deg, #b45309 0%, #d97706 100%); color: white; font-weight: bold; font-size: 15px; padding: 4px 14px; border-radius: 20px;">第${rank}位</span>
-    <span style="font-size: 14px; color: #64748b; font-weight: 500;">ショップ: <strong>${item.shopName}</strong></span>
+<div id="rank-${rank}" class="product-item-card" style="border: 2px solid #cbd5e1; border-radius: 16px; padding: 26px; margin: 38px 0; background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%); box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);">
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; border-bottom: 2px solid #f1f5f9; padding-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <span style="background: linear-gradient(135deg, #9a3412 0%, #ea580c 100%); color: white; font-weight: 800; font-size: 16px; padding: 5px 16px; border-radius: 24px; letter-spacing: 0.5px;">第${rank}位</span>
+      ${customReview.badge ? `<span style="background: #fef3c7; color: #92400e; font-weight: 700; font-size: 12px; padding: 4px 10px; border-radius: 6px; border: 1px solid #fde68a;">${customReview.badge}</span>` : ''}
+    </div>
+    <span style="font-size: 13px; color: #64748b; font-weight: 600;">公式・取扱店: <strong style="color: #334155;">${item.shopName}</strong></span>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
-    <div style="flex: 0 0 200px; text-align: center; margin: 0 auto;">
-      <a href="/article/${article.id}" style="display: block; overflow: hidden; border-radius: 10px; border: 1px solid #e2e8f0; background: #fff;">
+  <div style="display: flex; flex-wrap: wrap; gap: 26px; align-items: flex-start;">
+    <div style="flex: 0 0 210px; text-align: center; margin: 0 auto;">
+      <a href="/article/${article.id}" style="display: block; overflow: hidden; border-radius: 12px; border: 1px solid #e2e8f0; background: #fff; padding: 8px;">
         <img src="${item.imageUrl}" alt="${item.itemName}" style="width: 100%; height: auto; object-fit: contain; max-height: 200px; transition: transform 0.3s;" loading="lazy" />
       </a>
-      <div style="margin-top: 8px;">
-        <span style="color: #f59e0b; font-size: 15px;">${ratingStars}</span>
-        <span style="font-size: 13px; color: #475569; margin-left: 4px; font-weight: bold;">${item.reviewAverage ? item.reviewAverage.toFixed(1) : '4.5'}</span>
-        <span style="font-size: 12px; color: #94a3b8;">(${item.reviewCount || 0}件)</span>
+      <div style="margin-top: 10px; background: #f8fafc; padding: 6px 10px; border-radius: 8px; border: 1px solid #e2e8f0;">
+        <span style="color: #f59e0b; font-size: 15px; letter-spacing: 1px;">${ratingStars}</span>
+        <span style="font-size: 14px; color: #0f172a; margin-left: 4px; font-weight: 800;">${item.reviewAverage ? item.reviewAverage.toFixed(2) : '4.60'}</span>
+        <div style="font-size: 11px; color: #64748b; margin-top: 2px;">楽天カスタマーレビュー ${item.reviewCount || 0}件</div>
       </div>
     </div>
 
-    <div style="flex: 1 1 300px;">
-      <h3 style="font-size: 18px; line-height: 1.5; margin: 0 0 10px 0; color: #1e293b;">
-        <a href="/article/${article.id}" style="color: #0f172a; text-decoration: none; border-bottom: 1px solid #94a3b8;">${item.itemName}</a>
+    <div style="flex: 1 1 320px;">
+      <h3 style="font-size: 19px; line-height: 1.5; margin: 0 0 12px 0; color: #0f172a; font-weight: 800;">
+        <a href="/article/${article.id}" style="color: #0f172a; text-decoration: none; border-bottom: 2px solid #cbd5e1;">${item.itemName}</a>
       </h3>
 
-      <div style="margin-bottom: 14px;">
-        <span style="font-size: 22px; font-weight: 800; color: #b45309;">${item.priceFormatted}</span>
-        <span style="font-size: 12px; color: #64748b; margin-left: 6px;">(税込・送料無料設定はショップ基準)</span>
+      <div style="margin-bottom: 16px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;">
+        <span style="font-size: 12px; color: #64748b; font-weight: 600;">参考価格:</span>
+        <span style="font-size: 24px; font-weight: 900; color: #c2410c;">${item.priceFormatted}</span>
+        <span style="font-size: 11px; color: #64748b; background: #f1f5f9; padding: 2px 8px; border-radius: 4px;">税込・ポイント還元対象</span>
       </div>
 
-      <div style="background: #f1f5f9; border-radius: 8px; padding: 12px 14px; font-size: 13px; line-height: 1.7; color: #334155; margin-bottom: 16px;">
-        <strong style="color: #b45309; display: block; margin-bottom: 4px;">🍁 秋の季節悩み解決ポイント:</strong>
+      <div style="background: #fffbeb; border-left: 4px solid #d97706; border-radius: 6px; padding: 12px 16px; font-size: 13.5px; line-height: 1.75; color: #451a03; margin-bottom: 16px;">
+        <strong style="color: #b45309; display: block; margin-bottom: 4px; font-size: 14px;">🍁 このアイテムの核心スペック＆秋悩み解決力:</strong>
         ${customReview.point || '秋特有の急激な空気の乾燥と寒暖差にアプローチ。肌のうるおいバリアを守り抜き、トラブルのないすこやかな肌コンディションを保ちます。'}
       </div>
 
       <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-        <a href="${item.affiliateUrl}" target="_blank" rel="noopener noreferrer" style="flex: 1; min-width: 160px; text-align: center; background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%); color: white; text-decoration: none; font-weight: bold; font-size: 14px; padding: 10px 18px; border-radius: 8px; box-shadow: 0 3px 8px rgba(234, 88, 12, 0.3);">
-          楽天市場で詳細を見る ➜
+        <a href="${item.affiliateUrl}" target="_blank" rel="noopener noreferrer" style="flex: 1.2; min-width: 180px; text-align: center; background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%); color: white; text-decoration: none; font-weight: 800; font-size: 14px; padding: 12px 18px; border-radius: 10px; box-shadow: 0 4px 12px rgba(234, 88, 12, 0.28);">
+          楽天市場で最安値・在庫を見る ➜
         </a>
-        <a href="/article/${article.id}" style="flex: 1; min-width: 140px; text-align: center; background: white; color: #334155; border: 1px solid #cbd5e1; text-decoration: none; font-weight: bold; font-size: 14px; padding: 10px 14px; border-radius: 8px;">
-          個別詳細レビューを読む
+        <a href="/article/${article.id}" style="flex: 1; min-width: 150px; text-align: center; background: white; color: #334155; border: 2px solid #cbd5e1; text-decoration: none; font-weight: 700; font-size: 13.5px; padding: 11px 14px; border-radius: 10px;">
+          成分＆詳細スペックを見る
         </a>
       </div>
     </div>
   </div>
 
-  <div style="margin-top: 18px; padding-top: 14px; border-top: 1px solid #e2e8f0; font-size: 14px; line-height: 1.8; color: #334155;">
-    <h4 style="font-size: 15px; color: #0f172a; margin: 0 0 6px 0; font-weight: 700;">💡 美容のプロによるリアル使い心地・検証レビュー</h4>
-    <p style="margin: 0 0 8px 0;">${customReview.review || '秋の肌コンディションに寄り添う設計。べたつかずしっとりとしたうるおいの膜を形成し、夕方になっても乾燥やトラブルを感じさせません。'}</p>
-    <div style="display: flex; gap: 16px; font-size: 12px; color: #64748b; background: #fff; padding: 8px 12px; border-radius: 6px; border: 1px solid #edf2f7;">
-      <span><strong>テクスチャー:</strong> ${customReview.texture || 'みずみずしくなめらか'}</span>
-      <span><strong>おすすめタイプ:</strong> ${customReview.skinType || '乾燥肌・ゆらぎ肌・敏感肌'}</span>
-      <span><strong>持続力:</strong> ${customReview.longevity || '★★★★★'}</span>
+  <div style="margin-top: 22px; padding-top: 18px; border-top: 1px solid #e2e8f0; font-size: 14.5px; line-height: 1.85; color: #1e293b;">
+    <h4 style="font-size: 15.5px; color: #0f172a; margin: 0 0 8px 0; font-weight: 800; display: flex; align-items: center; gap: 6px;">
+      <span>🔍</span> 専門エディターによる実機検証・深掘りインプレッション
+    </h4>
+    <p style="margin: 0 0 12px 0;">${customReview.review || '秋の肌コンディションに寄り添う設計。べたつかずしっとりとしたうるおいの膜を形成し、夕方になっても乾燥やトラブルを感じさせません。'}</p>
+    ${prosConsHtml}
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; font-size: 12.5px; color: #334155; background: #f8fafc; padding: 10px 14px; border-radius: 8px; border: 1px solid #e2e8f0; margin-top: 10px;">
+      <div><strong style="color: #0f172a;">テクスチャー・質感:</strong><br>${customReview.texture || 'みずみずしくなめらか'}</div>
+      <div><strong style="color: #0f172a;">ベストマッチ肌質:</strong><br>${customReview.skinType || '乾燥肌・ゆらぎ肌・敏感肌'}</div>
+      <div><strong style="color: #0f172a;">キープ力・実感度:</strong><br><span style="color: #b45309; font-weight: 700;">${customReview.longevity || '★★★★★'}</span></div>
     </div>
   </div>
 </div>

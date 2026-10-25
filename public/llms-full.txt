@@ -8,7 +8,22 @@
 
 ---
 
-## 1. 特集ブログ・10選ガイド (Special Feature Guides: 357件)
+## 1. 特集ブログ・10選ガイド (Special Feature Guides: 360件)
+
+### 【晩秋の目元ちりめんジワ・夕方のまぶた窪みに】高機能アイクリーム10選
+- **URL**: https://qualia-navi.vercel.app/features/feat-autumn-advanced-eye-cream-wrinkle-repair-10
+- **Author**: 橘 えりか (Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括)
+- **Summary**: 湿度が30%台へ急落し皮膚が最も薄い目元を集中レスキュー！純粋レチノール・ペプチド・セラミド配合で笑いジワと夕方の窪みをふっくら押し返し若々しいハリ眼差しへ導く名品完全比較
+
+### 【秋の粉ふき・皮脂崩れの同時勃発に】生ツヤ高保湿クッションファンデ10選
+- **URL**: https://qualia-navi.vercel.app/features/feat-autumn-hydrating-glow-cushion-foundation-10
+- **Author**: 松本 結衣 (Qualia Navi ベースメイク・トーンアップ部門専属コレクター)
+- **Summary**: 頬はカサつきTゾーンはテカる秋のアンバランス肌を救う！美容液成分70%超と微細メッシュが厚塗り感なく素肌になりすまし夕方まで毛穴落ちゼロの水光ツヤ肌をキープする決定版ガイド
+
+### 【秋の乾燥粉ふき・全身のムズムズ痒みに】薬用高保湿ボディソープ10選
+- **URL**: https://qualia-navi.vercel.app/features/feat-autumn-medicinal-barrier-body-wash-dry-itch-10
+- **Author**: 林 祥平 (Qualia Navi メンズ美容・ヘア＆スカルプ担当スペシャリスト)
+- **Summary**: 熱いお湯とゴシゴシ洗いによるセラミド流出を完全ストップ！7種の天然型セラミド・シアバター・弱酸性アミノ酸泡でお風呂上がりのつっぱり感をゼロにし吸い付くシルク肌を育む完全網羅
 
 ### 【秋の冷えによる土色くすみ・開き毛穴に】高濃度炭酸パック＆炭酸洗顔10選
 - **URL**: https://qualia-navi.vercel.app/features/feat-autumn-carbonated-pack-foam-dullness-pores-10
@@ -220,10 +235,10 @@
 - **Author**: 林 祥平 (Qualia Navi メンズ美容・ヘア＆スカルプ担当スペシャリスト)
 - **Summary**: 30代の肌乾燥・血だらけ髭剃り・目元のクマ・ほうれい線・抜け毛の悩みを全て解消！機能は同じなのに安くて大容量なお得コスメを楽天APIから直撃紹介
 
-### 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する81大特集・810選コンプリートガイド
+### 【2026秋コスメ総まとめ】乾燥・寒暖差・パーツケア悩みを全方位解決する84大特集・840選コンプリートガイド
 - **URL**: https://qualia-navi.vercel.app/features/feat-autumn-cosmetics-guide-45-series-hub
 - **Author**: 橘 えりか (Qualia Navi コスメ＆美容編集長 / デパコス・スキンケア統括)
-- **Summary**: 第1弾〜第27弾の全81大特集・厳選810商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高濃度炭酸パック・落ちない眉ティント・高保湿クリームシャンプーまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ
+- **Summary**: 第1弾〜第28弾の全84大特集・厳選840商品を完全網羅！スキンケア・ベースメイク・ヘア＆スカルプ・ハンド＆フット・高機能アイクリーム・生ツヤクッションファンデ・薬用高保湿ボディソープまで、秋特有のリアルな悩みに寄り添い解決する総合目次ページ
 
 ### 【木枯らしでまぶたや目尻がカサつき小ジワが目立つ季節に】高保湿・目元ふっくらアイクリーム10選
 - **URL**: https://qualia-navi.vercel.app/features/feat-autumn-eye-cream-fine-lines-crow-feet-10

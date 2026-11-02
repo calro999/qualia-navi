@@ -84,6 +84,19 @@ export function updateSeoGeoMetadata(config: SeoGeoOptions) {
       : [config.jsonLdSchema];
     scriptEl.textContent = JSON.stringify(schemas, null, 2);
   }
+
+  // 4. Send GA4 page_view on SPA route changes
+  if (typeof window !== 'undefined' && (window as any).gtag) {
+    try {
+      (window as any).gtag('event', 'page_view', {
+        page_title: cleanTitle,
+        page_location: fullUrl,
+        page_path: normalizedPath
+      });
+    } catch (e) {
+      // ignore gtag error in local test
+    }
+  }
 }
 
 /**

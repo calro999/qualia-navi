@@ -197,6 +197,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen qualia-light-bg text-slate-800 font-sans selection:bg-rose-500 selection:text-white">
+      {/* アクセシビリティ・スキップリンク */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 z-50 bg-rose-600 text-white font-bold text-xs py-2 px-4 rounded-xl shadow-lg border border-white"
+      >
+        本文へスキップ
+      </a>
+
       {/* 景品表示法・ステマ規制対応 PR / アフィリエイト広告開示バー */}
       <div className="bg-rose-50/90 border-b border-rose-100 text-slate-500 text-[11px] py-1.5 px-4 text-center leading-relaxed">
         <span>【PR】当サイトは楽天市場アフィリエイトプログラムに参加しており、適格販売により収入を得ています。掲載している商品価格・ポイント還元率・在庫状況等は記事作成・更新時点のものであり、各ショップの販売状況によって変動する場合があります。最新の正確な情報につきましては各楽天市場ページにてご確認ください。</span>
@@ -322,7 +330,7 @@ export default function App() {
       </header>
 
       {/* Main Content Area */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 pt-6">
+      <main id="main-content" className="max-w-7xl mx-auto px-4 sm:px-6 pt-6">
         <Suspense fallback={<PageLoadingFallback />}>
           {renderCurrentPage()}
         </Suspense>

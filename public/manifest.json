@@ -1,0 +1,17 @@
+{
+  "name": "Qualia Navi (クオリア・ナビ) - コスメ徹底比較メディア",
+  "short_name": "Qualia Navi",
+  "description": "透明感引き立つ最新スキンケア、デパコス・プチプラ、話題の韓国コスメをQualia美容分析室が徹底検証！楽天市場の最安値・口コミ情報をリアルタイムナビゲート。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fdf2f8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

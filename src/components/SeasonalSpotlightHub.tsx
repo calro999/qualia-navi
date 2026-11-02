@@ -251,6 +251,8 @@ export const SeasonalSpotlightHub: React.FC<SeasonalSpotlightHubProps> = ({
                   src={Array.isArray(pillarBlog.coverImage) ? pillarBlog.coverImage[0] : pillarBlog.coverImage}
                   alt={pillarBlog.title}
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                   onError={handleImageError}
                   className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl object-contain bg-slate-50 border border-slate-200 shrink-0 group-hover:scale-105 transition-transform"
                 />
@@ -299,6 +301,8 @@ export const SeasonalSpotlightHub: React.FC<SeasonalSpotlightHubProps> = ({
                     src={Array.isArray(feat.coverImage) ? feat.coverImage[0] : feat.coverImage}
                     alt={feat.title}
                     referrerPolicy="no-referrer"
+                    loading="lazy"
+                    decoding="async"
                     onError={handleImageError}
                     className="w-14 h-14 rounded-xl object-contain bg-slate-50 border border-slate-100 shrink-0 group-hover:scale-105 transition-transform"
                   />
@@ -358,6 +362,8 @@ export const SeasonalSpotlightHub: React.FC<SeasonalSpotlightHubProps> = ({
                       src={getRakutenOptimizedImageUrl(item.imageUrl)}
                       alt={item.productName || item.title}
                       referrerPolicy="no-referrer"
+                      loading="lazy"
+                      decoding="async"
                       onError={handleImageError}
                       className="w-14 h-14 rounded-xl object-contain bg-slate-50 border border-slate-100 shrink-0 group-hover:scale-105 transition-transform"
                     />

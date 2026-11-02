@@ -37,6 +37,9 @@ const AuthorDetailPage = lazy(() =>
 const SitemapPage = lazy(() =>
   import('./pages/SitemapPage').then((m) => ({ default: m.SitemapPage }))
 );
+const NotFoundPage = lazy(() =>
+  import('./pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage }))
+);
 
 const PageLoadingFallback = () => (
   <div className="min-h-[50vh] flex flex-col items-center justify-center space-y-3">
@@ -85,6 +88,7 @@ export default function App() {
   useEffect(() => {
     const handlePopState = () => {
       setCurrentPath(window.location.pathname + window.location.search);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     window.addEventListener('popstate', handlePopState);
@@ -184,7 +188,11 @@ export default function App() {
       return <SitemapPage onNavigate={navigateTo} />;
     }
 
-    return <ProductListPage articles={articles} onNavigate={navigateTo} />;
+    if (pathnameOnly === '/') {
+      return <ProductListPage articles={articles} onNavigate={navigateTo} />;
+    }
+
+    return <NotFoundPage onNavigate={navigateTo} />;
   };
 
   return (
@@ -222,6 +230,7 @@ export default function App() {
           <div className="flex items-center gap-2 sm:gap-2.5 overflow-x-auto scrollbar-none py-1">
             <button
               onClick={() => navigateTo('/')}
+              aria-label="コスメ図鑑トップページへ"
               className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
                 isArticlesTab
                   ? 'gold-btn'
@@ -234,6 +243,7 @@ export default function App() {
 
             <button
               onClick={() => navigateTo('/features')}
+              aria-label="記事特集一覧へ"
               className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
                 isFeaturesTab
                   ? 'gold-btn'
@@ -246,6 +256,7 @@ export default function App() {
 
             <button
               onClick={() => navigateTo('/comparisons')}
+              aria-label="VS比較・徹底検証一覧へ"
               className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
                 isComparisonsTab
                   ? 'gold-btn'
@@ -258,6 +269,7 @@ export default function App() {
 
             <button
               onClick={() => navigateTo('/authors')}
+              aria-label="専属アナリスト一覧へ"
               className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer ${
                 isAuthorsTab
                   ? 'gold-btn'
@@ -271,6 +283,7 @@ export default function App() {
             {/* 📅 楽天おトク日・ポイントカレンダー呼び出しボタン */}
             <button
               onClick={() => setIsCalendarOpen(true)}
+              aria-label="楽天セール＆ポイント還元カレンダーを開く"
               className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-extrabold transition-all flex-shrink-0 cursor-pointer bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 shadow-2xs"
               title="楽天セール＆ポイント還元カレンダー"
             >
@@ -281,6 +294,7 @@ export default function App() {
             {/* 横断検索モーダル呼び出しボタン */}
             <button
               onClick={() => setIsSearchOpen(true)}
+              aria-label="サイト内検索を開く"
               className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer bg-slate-100 hover:bg-rose-50 text-slate-700 hover:text-rose-700 border border-slate-200"
               title="サイト内横断検索 (Cmd+K)"
             >
@@ -291,6 +305,7 @@ export default function App() {
             {/* お気に入りモーダル呼び出しボタン */}
             <button
               onClick={() => setIsFavoritesOpen(true)}
+              aria-label="お気に入りコスメ一覧を開く"
               className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex-shrink-0 cursor-pointer bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200"
               title="お気に入りコスメリスト・横並び比較"
             >

@@ -63,6 +63,7 @@ export function FavoritesModal({ isOpen, onClose, articles, onNavigate }: Favori
             </div>
             <button
               onClick={onClose}
+              aria-label="お気に入りモーダルを閉じる"
               className="sm:hidden w-8 h-8 rounded-full hover:bg-rose-100 text-slate-400 hover:text-slate-700 flex items-center justify-center transition-colors cursor-pointer"
             >
               <X className="w-5 h-5" />
@@ -94,6 +95,7 @@ export function FavoritesModal({ isOpen, onClose, articles, onNavigate }: Favori
             )}
             <button
               onClick={onClose}
+              aria-label="お気に入りモーダルを閉じる"
               className="hidden sm:flex w-8 h-8 rounded-full hover:bg-rose-100 text-slate-400 hover:text-slate-700 items-center justify-center transition-colors cursor-pointer"
             >
               <X className="w-5 h-5" />

@@ -184,6 +184,7 @@ export function RakutenPointCalendarModal({ isOpen, onClose }: RakutenPointCalen
         <div className="bg-gradient-to-r from-slate-900 via-rose-950 to-slate-900 text-white p-6 relative">
           <button
             onClick={onClose}
+            aria-label="カレンダーモーダルを閉じる"
             className="absolute top-5 right-5 w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition cursor-pointer"
           >
             <X className="w-5 h-5" />

@@ -314,6 +314,8 @@ export function FeatureListPage({ articles, onNavigate }: FeatureListPageProps) 
                 src={feat.imageUrl}
                 alt={feat.title}
                 referrerPolicy="no-referrer"
+                loading="lazy"
+                decoding="async"
                 onError={handleImageError}
                 className="max-h-full max-w-full object-contain drop-shadow-sm group-hover:scale-105 transition-transform duration-500"
               />
@@ -350,8 +352,10 @@ export function FeatureListPage({ articles, onNavigate }: FeatureListPageProps) 
                     src={feat.authorAvatar}
                     alt={feat.authorName}
                     referrerPolicy="no-referrer"
+                    loading="lazy"
+                    decoding="async"
                     onError={handleImageError}
-                    className="w-7 h-7 rounded-lg border border-rose-200 object-cover shadow-xs"
+                    className="w-7 h-7 rounded-lg border border-rose-200 object-cover shadow-xs bg-rose-50"
                   />
                   <span className="text-[11px] font-bold text-slate-700">
                     {feat.authorName}

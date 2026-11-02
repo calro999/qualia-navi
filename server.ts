@@ -11,7 +11,7 @@ const PORT = 3000;
 
 app.use(express.json());
 
-// Initialize server-side Gemini 3.5 client
+// Initialize server-side Gemini client with rotation across latest models
 let ai: GoogleGenAI | null = null;
 if (process.env.GEMINI_API_KEY) {
   ai = new GoogleGenAI({
@@ -27,9 +27,37 @@ if (process.env.GEMINI_API_KEY) {
   console.warn("Warning: GEMINI_API_KEY not found in environment variables. Running in mock mode.");
 }
 
+// 利用可能・最新Geminiモデルローテーション規則（1.5系は完全廃止・絶対使用禁止）
+const LATEST_GEMINI_MODELS = [
+  "gemini-2.5-flash",
+  "gemini-2.5-flash-lite",
+  "gemini-3-flash",
+  "gemini-3.5-flash",
+  "gemini-3.5-flash-lite",
+  "gemini-3.6-flash",
+  "gemini-3.7-flash",
+  "gemini-2.0-flash",
+  "gemini-2.0-flash-lite",
+  "gemini-2.5-pro",
+  "gemini-3.1-pro",
+  "gemini-3.1-flash-lite"
+];
+
+let currentModelIndex = 0;
+function getNextGeminiModel(): string {
+  const model = LATEST_GEMINI_MODELS[currentModelIndex % LATEST_GEMINI_MODELS.length];
+  currentModelIndex = (currentModelIndex + 1) % LATEST_GEMINI_MODELS.length;
+  return model;
+}
+
 // Robots.txt for Search Engines and AI Crawlers (GEO / LLMO Optimized)
 app.get("/robots.txt", (req, res) => {
   res.type("text/plain");
+  const staticRobotsPath = path.join(process.cwd(), "public", "robots.txt");
+  if (fs.existsSync(staticRobotsPath)) {
+    return res.sendFile(staticRobotsPath);
+  }
+
   const protocol = req.headers['x-forwarded-proto'] || 'http';
   const host = req.headers.host || 'localhost:3000';
   const baseUrl = `${protocol}://${host}`;
@@ -359,44 +387,61 @@ Rakutenで買うからこそ最高の保証と即納スピード
 レスポンスは必ず以下のJSONスキーマに合わせてください（markdownブロックで囲わずJSON。日本語で記述してください）。
 `;
 
-    const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
-      contents: prompt,
-      config: {
-        systemInstruction: `You are the world's most talented Rakuten Affiliate copywriter and conversion rates optimization (CRO) engineer.
+    // モデルローテーション（最新対応モデル群から順次選択、失敗時は別モデルへ自動フォールバック）
+    let response: any = null;
+    let usedModel = "";
+    const modelsToTry = [getNextGeminiModel(), getNextGeminiModel(), getNextGeminiModel()];
+
+    for (const modelCandidate of modelsToTry) {
+      try {
+        usedModel = modelCandidate;
+        response = await ai.models.generateContent({
+          model: modelCandidate,
+          contents: prompt,
+          config: {
+            systemInstruction: `You are the world's most talented Rakuten Affiliate copywriter and conversion rates optimization (CRO) engineer.
 Your primary language is Japanese. Your tone is incredibly passionate, informative, deeply detailed, and transparent but highly persuasive.
 You know how to convert raw product features into absolute life-changing experiences for the consumer.
 CRITICAL: Never output markdown formatting symbols like '#', '##', '###', '*', or '\`'. All text paragraphs must be plain text.
 Always output your entire response formatted as a strict single JSON object following the JSON schema, block formatting should be pure JSON only.`,
-        responseMimeType: "application/json",
-        responseSchema: {
-          type: Type.OBJECT,
-          properties: {
-            title: { type: Type.STRING, description: "思わず目が留まる魅力的な日本語記事タイトル" },
-            starRating: { type: Type.NUMBER, description: "製品への評価点数 (4.0から4.9までの小数)" },
-            introText: { type: Type.STRING, description: "読者の心をつかむ冒頭引き込み文 (80文字〜150文字程度)" },
-            features: {
-              type: Type.ARRAY,
-              items: { type: Type.STRING },
-              description: "この製品が誇る主な売りポイント・際立つ特徴 3個"
-            },
-            pros: {
-              type: Type.ARRAY,
-              items: { type: Type.STRING },
-              description: "実際に手に入れて得られる強烈なメリット・良い点 3個"
-            },
-            cons: {
-              type: Type.ARRAY,
-              items: { type: Type.STRING },
-              description: "正直に伝えるデメリットや留意点 2個"
-            },
-            reviewBody: { type: Type.STRING, description: "Markdownで整理された説得力の高い詳細レビュー本文" },
-            ctaTitle: { type: Type.STRING, description: "リンク周辺に設置するユーザーの背中を押す高コンバージョンなCTA文言・案内" }
-          },
-          required: ["title", "starRating", "introText", "features", "pros", "cons", "reviewBody", "ctaTitle"]
-        }
+            responseMimeType: "application/json",
+            responseSchema: {
+              type: Type.OBJECT,
+              properties: {
+                title: { type: Type.STRING, description: "思わず目が留まる魅力的な日本語記事タイトル" },
+                starRating: { type: Type.NUMBER, description: "製品への評価点数 (4.0から4.9までの小数)" },
+                introText: { type: Type.STRING, description: "読者の心をつかむ冒頭引き込み文 (80文字〜150文字程度)" },
+                features: {
+                  type: Type.ARRAY,
+                  items: { type: Type.STRING },
+                  description: "この製品が誇る主な売りポイント・際立つ特徴 3個"
+                },
+                pros: {
+                  type: Type.ARRAY,
+                  items: { type: Type.STRING },
+                  description: "実際に手に入れて得られる強烈なメリット・良い点 3個"
+                },
+                cons: {
+                  type: Type.ARRAY,
+                  items: { type: Type.STRING },
+                  description: "正直に伝えるデメリットや留意点 2個"
+                },
+                reviewBody: { type: Type.STRING, description: "Markdownで整理された説得力の高い詳細レビュー本文" },
+                ctaTitle: { type: Type.STRING, description: "リンク周辺に設置するユーザーの背中を押す高コンバージョンなCTA文言・案内" }
+              },
+              required: ["title", "starRating", "introText", "features", "pros", "cons", "reviewBody", "ctaTitle"]
+            }
+          }
+        });
+        if (response && response.text) break;
+      } catch (err) {
+        console.warn(`[Gemini Rotation] Model ${modelCandidate} failed, trying next model in pool...`, err);
       }
-    });
+    }
+
+    if (!response || !response.text) {
+      throw new Error("All rotated Gemini models failed to generate content.");
+    }
 
     const outputJson = JSON.parse(response.text?.trim() || "{}");
 
@@ -419,7 +464,7 @@ Always output your entire response formatted as a strict single JSON object foll
       estimatedPV: Math.floor(Math.random() * 5) + 5,
       clicks: 0,
       earnings: 0,
-      aiModelUsed: "Gemini 3.5 Flash"
+      aiModelUsed: usedModel || "gemini-3.5-flash"
     });
 
   } catch (error) {

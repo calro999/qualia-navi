@@ -76,7 +76,11 @@ export function AuthorDetailPage({ authorId, onNavigate }: AuthorDetailPageProps
             <img
               src={author.avatarUrl}
               alt={author.name}
-              className="w-28 h-28 rounded-3xl border-2 border-rose-400 object-cover shadow-md shrink-0"
+              referrerPolicy="no-referrer"
+              loading="lazy"
+              decoding="async"
+              onError={handleImageError}
+              className="w-28 h-28 rounded-3xl border-2 border-rose-400 object-cover shadow-md shrink-0 bg-rose-50"
             />
             <div className="space-y-3 text-center sm:text-left">
               <div className="inline-block px-3 py-1 bg-rose-100 text-rose-800 text-xs font-bold rounded-lg">

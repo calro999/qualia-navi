@@ -280,6 +280,8 @@ export function CosmeDiagnosisWidget({ articles, onNavigate }: CosmeDiagnosisWid
                         src={getRakutenOptimizedImageUrl(item.imageUrl)}
                         alt={name}
                         referrerPolicy="no-referrer"
+                        loading="lazy"
+                        decoding="async"
                         onError={handleImageError}
                         className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform"
                       />

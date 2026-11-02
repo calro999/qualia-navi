@@ -1,6 +1,7 @@
 import React from 'react';
 import { AUTHOR_PROFILES } from '../data';
 import { updateSeoGeoMetadata } from '../utils/seoGeo';
+import { handleImageError } from '../utils/imageHelper';
 import { Award, Crown, Sparkles, CheckCircle } from 'lucide-react';
 
 interface AuthorListPageProps {
@@ -56,7 +57,11 @@ export function AuthorListPage({ onNavigate }: AuthorListPageProps) {
                   <img
                     src={author.avatarUrl}
                     alt={author.avatarAlt || author.name}
-                    className="w-20 h-20 rounded-2xl border-2 border-rose-300 object-cover shrink-0 shadow-sm group-hover:scale-105 transition-transform"
+                    referrerPolicy="no-referrer"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleImageError}
+                    className="w-20 h-20 rounded-2xl border-2 border-rose-300 object-cover shrink-0 shadow-sm group-hover:scale-105 transition-transform bg-rose-50"
                   />
                   <div className="space-y-1">
                     <div className="inline-block px-2.5 py-0.5 bg-rose-100 text-rose-800 text-[11px] font-black rounded-md">
@@ -105,7 +110,11 @@ export function AuthorListPage({ onNavigate }: AuthorListPageProps) {
                   <img
                     src={author.avatarUrl}
                     alt={author.avatarAlt || author.name}
-                    className="w-16 h-16 rounded-2xl border border-rose-200 object-cover shrink-0 shadow-xs group-hover:scale-105 transition-transform"
+                    referrerPolicy="no-referrer"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleImageError}
+                    className="w-16 h-16 rounded-2xl border border-rose-200 object-cover shrink-0 shadow-xs group-hover:scale-105 transition-transform bg-rose-50"
                   />
                   <div className="space-y-1">
                     <span className="inline-block px-2 py-0.5 bg-slate-100 text-slate-800 text-[10px] font-bold rounded-md border border-slate-200">

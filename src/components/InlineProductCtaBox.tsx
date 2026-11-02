@@ -71,6 +71,8 @@ export function InlineProductCtaBox({ article, variant = 'mid' }: InlineProductC
               src={getRakutenOptimizedImageUrl(article.imageUrl)}
               alt={productName}
               referrerPolicy="no-referrer"
+              loading="lazy"
+              decoding="async"
               onError={handleImageError}
               className="w-16 h-16 sm:w-20 sm:h-20 rounded-xl object-contain bg-white p-1.5 border border-rose-100 shrink-0 shadow-2xs"
             />
@@ -140,6 +142,8 @@ export function InlineProductCtaBox({ article, variant = 'mid' }: InlineProductC
               src={getRakutenOptimizedImageUrl(article.imageUrl)}
               alt={productName}
               referrerPolicy="no-referrer"
+              loading="lazy"
+              decoding="async"
               onError={handleImageError}
               className="max-h-full max-w-full object-contain"
             />

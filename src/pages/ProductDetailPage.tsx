@@ -15,6 +15,7 @@ import { ShoppingCart, Star, CheckCircle, ShieldCheck, ArrowLeft, Heart, Calenda
 import { getCleanAffiliateLink, deduplicateArticles } from '../utils/productUtils';
 import { RakutenBeginnerGuideBanner, RAKUTEN_BEGINNER_GUIDE_ID } from '../components/RakutenBeginnerGuideBanner';
 import { NextActionGuide } from '../components/NextActionGuide';
+import { ComplianceNotice } from '../components/ComplianceNotice';
 
 interface ProductDetailPageProps {
   articleId: string;
@@ -149,7 +150,7 @@ function convertMixedContentToHtml(content: string): string {
 
 function inlineMarkdown(text: string): string {
   return text
-    .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" style="max-width:100%;border-radius:12px;margin:8px 0;" loading="lazy" />')
+    .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" style="max-width:100%;border-radius:12px;margin:8px 0;" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=\'/images/placeholder.svg\';" />')
     .replace(/\[(.*?)\]\((.*?)\)/g, (_, label, href) => {
       const isAffiliate = href.includes('rakuten') || href.includes('hb.afl');
       if (isAffiliate || label.includes('🛍️') || label.includes('楽天')) {
@@ -166,6 +167,7 @@ function inlineMarkdown(text: string): string {
 export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDetailPageProps) {
   const catalogArticle = articles.find((a) => a.id === articleId || a.itemCode === articleId);
   const [article, setArticle] = useState<RakutenProductArticle | null>(catalogArticle || null);
+  const [isLoading, setIsLoading] = useState<boolean>(!catalogArticle || !(catalogArticle.reviewBody || catalogArticle.content));
   const [favorited, setFavorited] = useState(false);
   const promo = useRakutenPromoMicrocopy();
 
@@ -173,8 +175,10 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
     const current = articles.find((a) => a.id === articleId || a.itemCode === articleId);
     if (current && (current.reviewBody || current.content)) {
       setArticle(current);
+      setIsLoading(false);
     } else {
       if (current) setArticle(current);
+      setIsLoading(true);
       fetch(`/data/articles/${articleId}.json`)
         .then(res => res.ok ? res.json() : null)
         .then(data => {
@@ -184,6 +188,9 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
         })
         .catch(() => {
           // keep catalog fallback
+        })
+        .finally(() => {
+          setIsLoading(false);
         });
     }
   }, [articleId, articles]);
@@ -249,6 +256,15 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
       }
     }
   };
+
+  if (isLoading && !article) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-24 text-center qualia-glass-card rounded-3xl space-y-4 my-8">
+        <div className="w-10 h-10 border-4 border-rose-200 border-t-rose-600 rounded-full animate-spin mx-auto" />
+        <p className="text-sm font-bold text-slate-600">最新コスメ検証データを読み込み中...</p>
+      </div>
+    );
+  }
 
   if (!article) {
     return (
@@ -759,6 +775,9 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
 
           {/* あなたにおすすめの次の一手（回遊・直帰防止） */}
           <NextActionGuide currentCategory={article.category} onNavigate={onNavigate} />
+
+          {/* 薬機法・景品表示法・広告ガイドライン遵守のコンプライアンス開示 */}
+          <ComplianceNotice className="mt-8" />
 
           {/* Dynamic Internal Link Mesh (VS対決・関連特集・同カテゴリコスメ) */}
           <InternalLinkMesh currentArticleId={article.id} category={article.category} onNavigate={onNavigate} />

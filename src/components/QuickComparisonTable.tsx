@@ -77,6 +77,8 @@ export function QuickComparisonTable({ items, title = '今回比較・検証し�
                         src={getRakutenOptimizedImageUrl(item.imageUrl)}
                         alt={name}
                         referrerPolicy="no-referrer"
+                        loading="lazy"
+                        decoding="async"
                         onError={handleImageError}
                         onClick={() => onNavigate && onNavigate(`/articles/${item.id}`)}
                         className="w-12 h-12 rounded-xl object-contain bg-white p-1 border border-slate-200 shrink-0 cursor-pointer hover:scale-105 transition-transform"

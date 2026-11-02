@@ -139,6 +139,8 @@ export function ComparisonListPage({ onNavigate }: ComparisonListPageProps) {
                   src={comp.coverImage}
                   alt={comp.title}
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                   onError={handleImageError}
                   className="max-h-full max-w-full object-contain drop-shadow-md group-hover:scale-105 transition-transform duration-500"
                 />

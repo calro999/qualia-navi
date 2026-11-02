@@ -166,6 +166,8 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
                       src={comp.coverImage}
                       alt={comp.title}
                       referrerPolicy="no-referrer"
+                      loading="lazy"
+                      decoding="async"
                       onError={handleImageError}
                       className="w-full h-full object-contain bg-white group-hover:scale-105 transition-transform duration-300"
                     />
@@ -233,6 +235,8 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
                   src={feat.coverImage}
                   alt={feat.title}
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                   onError={handleImageError}
                   className="w-20 h-20 sm:w-24 sm:h-24 rounded-xl object-contain bg-slate-50 border border-slate-100 group-hover:scale-105 transition-transform shrink-0"
                 />
@@ -284,6 +288,8 @@ export function InternalLinkMesh({ currentArticleId, category, onNavigate }: Int
                       src={getRakutenOptimizedImageUrl(art.imageUrl)}
                       alt={art.productName || art.title}
                       referrerPolicy="no-referrer"
+                      loading="lazy"
+                      decoding="async"
                       onError={handleImageError}
                       className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
                     />

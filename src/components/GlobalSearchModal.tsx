@@ -144,6 +144,7 @@ export function GlobalSearchModal({ isOpen, onClose, articles, onNavigate }: Glo
           )}
           <button
             onClick={onClose}
+            aria-label="検索モーダルを閉じる"
             className="w-8 h-8 rounded-full hover:bg-rose-100 text-slate-400 hover:text-slate-700 flex items-center justify-center transition cursor-pointer shrink-0"
           >
             <X className="w-5 h-5" />

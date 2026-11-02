@@ -12,6 +12,7 @@ import { getCleanAffiliateLink, deduplicateArticles } from '../utils/productUtil
 import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft, Star, ArrowRight } from 'lucide-react';
 import { RakutenBeginnerGuideBanner } from '../components/RakutenBeginnerGuideBanner';
 import { NextActionGuide } from '../components/NextActionGuide';
+import { ComplianceNotice } from '../components/ComplianceNotice';
 
 interface BlogPostPageProps {
   postId: string;
@@ -295,6 +296,9 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
 
           {/* あなたにおすすめの次の一手（回遊・直帰防止） */}
           <NextActionGuide currentCategory={inferredCategory} onNavigate={onNavigate} />
+
+          {/* 薬機法・景品表示法・広告ガイドライン遵守のコンプライアンス開示 */}
+          <ComplianceNotice className="mt-8" />
 
           {/* 動的内部リンクメッシュ（関連VS比較・関連特集・関連コスメ） */}
           <InternalLinkMesh

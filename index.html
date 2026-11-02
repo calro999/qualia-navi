@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#fdf2f8" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="canonical" href="https://qualia-navi.vercel.app/" />
     <link rel="alternate" hreflang="ja" href="https://qualia-navi.vercel.app/" />
     <link rel="dns-prefetch" href="https://images.unsplash.com" />
     <link rel="dns-prefetch" href="https://thumbnail.image.rakuten.co.jp" />
@@ -14,17 +17,19 @@
     <meta name="keywords" content="Qualia Navi,クオリアナビ,コスメ,美容,スキンケア,UVケア,韓国コスメ,デパコス,プチプラ,楽天市場,コスメランキング,おすすめ,比較" />
 
     <!-- Open Graph / Facebook / LINE -->
+    <meta property="og:site_name" content="Qualia Navi (クオリア・ナビ)" />
+    <meta property="og:locale" content="ja_JP" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://qualia-navi.vercel.app/" />
     <meta property="og:title" content="【2026年最新】Qualia Navi - 人気コスメ徹底比較ナビ" />
     <meta property="og:description" content="最新スキンケア・注目コスメを楽天市場からリアルタイム比較！失敗しないコスメ選びをサポート。" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&auto=format&fit=crop&q=80" />
+    <meta property="og:image" content="https://qualia-navi.vercel.app/images/og-default.svg" />
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="【2026年最新】Qualia Navi - 人気コスメ徹底比較ナビ" />
     <meta name="twitter:description" content="最新スキンケア・注目コスメを楽天市場からリアルタイム比較！失敗しないコスメ選びをサポート。" />
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&auto=format&fit=crop&q=80" />
+    <meta name="twitter:image" content="https://qualia-navi.vercel.app/images/og-default.svg" />
 
     <!-- Google Fonts for Modern Premium Aesthetics -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +46,7 @@
       gtag('config', 'G-CBD7Q42GXH');
     </script>
   </head>
-  <body class="font-sans antialiased text-slate-800 bg-gradient-to-br from-sky-50 via-purple-50/50 to-indigo-50/40 selection:bg-purple-500 selection:text-white min-h-screen">
+  <body class="font-sans antialiased text-slate-800 qualia-light-bg selection:bg-rose-500 selection:text-white min-h-screen">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

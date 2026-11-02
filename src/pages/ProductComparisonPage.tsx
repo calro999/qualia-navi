@@ -11,6 +11,7 @@ import { generateOptimizedComparisonTitle } from '../utils/seoKeywords';
 import { getCleanAffiliateLink } from '../utils/productUtils';
 import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft, Trophy, ArrowRight, Star } from 'lucide-react';
 import { RakutenBeginnerGuideBanner } from '../components/RakutenBeginnerGuideBanner';
+import { ComplianceNotice } from '../components/ComplianceNotice';
 
 interface ProductComparisonPageProps {
   compareId: string;
@@ -23,20 +24,48 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
 
   const itemA = React.useMemo(() => {
     if (!comparison) return INITIAL_ARTICLES[0];
-    return (
-      INITIAL_ARTICLES.find(
-        (a) => a.itemCode === comparison.productItemCodeA || a.id === comparison.productItemCodeA
-      ) || INITIAL_ARTICLES[0]
+    const found = INITIAL_ARTICLES.find(
+      (a) => a.itemCode === comparison.productItemCodeA || a.id === comparison.productItemCodeA
     );
+    if (found) return found;
+
+    // カタログに未登録だった場合のスマートフォールバック（無関係な商品へのすり替わりを防止）
+    const titleParts = comparison.title.replace(/^【.*?】/, '').split(/\s+vs\s+/i);
+    const inferredName = titleParts[0]?.trim() || '注目コスメA';
+    return {
+      id: comparison.productItemCodeA,
+      title: inferredName,
+      productName: inferredName,
+      imageUrl: comparison.coverImage || '/images/placeholder.svg',
+      rakutenPrice: '楽天市場で確認',
+      rating: 4.8,
+      category: 'skincare',
+      introText: comparison.subtitle,
+      affiliateLink: `https://hb.afl.rakuten.co.jp/hgc/g00s54yn.j9rug64b.g00s54yn.j9ruh971/?pc=${encodeURIComponent('https://search.rakuten.co.jp/search/mall/' + inferredName)}`
+    } as any;
   }, [comparison]);
 
   const itemB = React.useMemo(() => {
     if (!comparison) return INITIAL_ARTICLES[1];
-    return (
-      INITIAL_ARTICLES.find(
-        (a) => a.itemCode === comparison.productItemCodeB || a.id === comparison.productItemCodeB
-      ) || INITIAL_ARTICLES[1]
+    const found = INITIAL_ARTICLES.find(
+      (a) => a.itemCode === comparison.productItemCodeB || a.id === comparison.productItemCodeB
     );
+    if (found) return found;
+
+    // カタログに未登録だった場合のスマートフォールバック（無関係な商品へのすり替わりを防止）
+    const titleParts = comparison.title.replace(/^【.*?】/, '').split(/\s+vs\s+/i);
+    const inferredName = titleParts[1]?.split(/\s+/)[0]?.trim() || '注目コスメB';
+    return {
+      id: comparison.productItemCodeB,
+      title: inferredName,
+      productName: inferredName,
+      imageUrl: comparison.coverImage || '/images/placeholder.svg',
+      rakutenPrice: '楽天市場で確認',
+      rating: 4.8,
+      category: 'skincare',
+      introText: comparison.subtitle,
+      affiliateLink: `https://hb.afl.rakuten.co.jp/hgc/g00s54yn.j9rug64b.g00s54yn.j9ruh971/?pc=${encodeURIComponent('https://search.rakuten.co.jp/search/mall/' + inferredName)}`
+    } as any;
   }, [comparison]);
 
   React.useEffect(() => {
@@ -422,6 +451,9 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
 
           {/* 初めて楽天市場を利用する方向けの安心購入・攻略ガイドへの導線 */}
           <RakutenBeginnerGuideBanner onNavigate={onNavigate} />
+
+          {/* 薬機法・景品表示法・広告ガイドライン遵守のコンプライアンス開示 */}
+          <ComplianceNotice className="mt-8" />
 
           {/* 動的内部リンクメッシュ */}
           <InternalLinkMesh

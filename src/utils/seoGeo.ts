@@ -22,7 +22,7 @@ export function updateSeoGeoMetadata(config: SeoGeoOptions) {
   const fullUrl = `https://qualia-navi.vercel.app${normalizedPath}`;
   const fullImage = config.imageUrl
     ? (config.imageUrl.startsWith('http') ? config.imageUrl : `https://qualia-navi.vercel.app${config.imageUrl}`)
-    : 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&auto=format&fit=crop&q=80';
+    : 'https://qualia-navi.vercel.app/images/og-default.svg';
 
   // 1. Update Document Title (重複付与防止)
   const cleanTitle = config.title.includes('Qualia Navi')

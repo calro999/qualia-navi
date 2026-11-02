@@ -1,4 +1,5 @@
 import React from 'react';
+import { handleImageError } from '../utils/imageHelper';
 
 interface MarkdownRendererProps {
   content: string;
@@ -95,7 +96,15 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
           const src = imgMatch[2];
           return (
             <div key={pIdx} className="my-6 flex justify-center">
-              <img src={src} alt={altText} referrerPolicy="no-referrer" className="max-w-full sm:max-w-md w-auto rounded-xl shadow-lg border border-slate-200 bg-white p-2" loading="lazy" />
+              <img
+                src={src}
+                alt={altText}
+                referrerPolicy="no-referrer"
+                className="max-w-full sm:max-w-md w-auto rounded-xl shadow-lg border border-slate-200 bg-white p-2"
+                loading="lazy"
+                decoding="async"
+                onError={handleImageError}
+              />
             </div>
           );
         }
@@ -373,6 +382,8 @@ export function MarkdownRenderer({ content, onNavigate }: MarkdownRendererProps)
               referrerPolicy="no-referrer"
               className="max-w-full sm:max-w-md max-h-80 w-auto rounded-xl object-contain bg-white p-2 shadow-xs hover:scale-102 transition-transform duration-300"
               loading="lazy"
+              decoding="async"
+              onError={handleImageError}
             />
             <p className="text-xs font-bold text-slate-500 mt-3 text-center bg-white px-3 py-1 rounded-full border border-slate-200">
               {altText}

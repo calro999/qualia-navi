@@ -532,6 +532,64 @@ const comparisonsIndexHtml = buildHtmlPage({
 writeRouteFiles(['comparisons'], comparisonsIndexHtml);
 writeRouteFiles(['compare'], comparisonsIndexHtml);
 
+// 4.1. サイトマップ（/sitemap）のプリレンダリング
+const sitemapHtml = buildHtmlPage({
+  title: 'サイトマップ・全コンテンツインデックス | Qualia Navi',
+  description: 'Qualia Naviの全記事・美肌特集・VS徹底比較検証・コスメ図鑑の完全サイトマップインデックス。',
+  canonicalUrl: 'https://qualia-navi.vercel.app/sitemap',
+  image: 'https://qualia-navi.vercel.app/og-image.png',
+  jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", "name": "Qualia Navi サイトマップ", "url": "https://qualia-navi.vercel.app/sitemap" },
+  bodyHtml: `<main style="max-width:1000px;margin:0 auto;padding:24px;">
+    <h1>サイトマップ・全コンテンツインデックス</h1>
+    <section>
+      <h2>特集記事 (${blogs.length}件)</h2>
+      <ul>${blogs.slice(0, 50).map(b => `<li><a href="/features/${b.id}">${escapeHtml(b.title)}</a></li>`).join('')}</ul>
+    </section>
+    <section>
+      <h2>VS比較検証 (${comparisons.length}件)</h2>
+      <ul>${comparisons.slice(0, 50).map(c => `<li><a href="/comparisons/${c.id}">${escapeHtml(c.title)}</a></li>`).join('')}</ul>
+    </section>
+    <section>
+      <h2>コスメ図鑑 (${articles.length}件)</h2>
+      <ul>${articles.slice(0, 100).map(a => `<li><a href="/articles/${a.id}">${escapeHtml(a.productName || a.title)}</a></li>`).join('')}</ul>
+    </section>
+  </main>`
+});
+writeRouteFiles(['sitemap'], sitemapHtml);
+
+// 4.2. 専属アナリスト一覧（/authors）のプリレンダリング
+const authorsHtml = buildHtmlPage({
+  title: 'Qualia 美容分析室 メンバー一覧（編集長・アナリスト12名） | Qualia Navi',
+  description: 'Qualia Naviの統括編集長・美容編集長および日本人コスメコレクター10名による専門アナリストチームのプロフィール紹介です。',
+  canonicalUrl: 'https://qualia-navi.vercel.app/authors',
+  image: 'https://qualia-navi.vercel.app/og-image.png',
+  jsonLd: { "@context": "https://schema.org", "@type": "AboutPage", "name": "Qualia 美容分析室 メンバー一覧", "url": "https://qualia-navi.vercel.app/authors" },
+  bodyHtml: `<main style="max-width:1000px;margin:0 auto;padding:24px;">
+    <h1>Qualia 美容分析室 メンバー一覧</h1>
+    <p>コスメの長期間実体験テストや使用感比較に基づき、客観的で信頼性の高い検証レポートを発信する専門アナリストチームです。</p>
+    <ul>
+      <li><a href="/authors/author-hasumi">蓮見 拓真 (Qualia Navi 統括編集長)</a></li>
+      <li><a href="/authors/author-tachibana">橘 えりか (Qualia Navi 美容編集長)</a></li>
+    </ul>
+  </main>`
+});
+writeRouteFiles(['authors'], authorsHtml);
+
+// 4.3. 404 Not Found ページの静的生成 (Vercelエッジ対応)
+const notFoundHtml = buildHtmlPage({
+  title: '404 ページが見つかりませんでした | Qualia Navi',
+  description: 'お探しのページは見つかりませんでした。',
+  canonicalUrl: 'https://qualia-navi.vercel.app/404',
+  image: 'https://qualia-navi.vercel.app/og-image.png',
+  bodyHtml: `<main style="max-width:700px;margin:60px auto;text-align:center;padding:24px;">
+    <h1>404 - ページが見つかりませんでした</h1>
+    <p>アクセスされたページは移動または削除された可能性があります。</p>
+    <p><a href="/" style="color:#e11d48;font-weight:700;">コスメ図鑑トップページへ戻る</a></p>
+  </main>`
+});
+fs.writeFileSync(path.join(distDir, '404.html'), notFoundHtml, 'utf8');
+writeRouteFiles(['404'], notFoundHtml);
+
 // 4.5. 10〜1月 季節別SEOランキングハブの静的プリレンダリング
 const seasonalRankingRoutes = [
   {

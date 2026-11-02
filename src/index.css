@@ -77,3 +77,44 @@
   transform: translateY(-1px);
   box-shadow: 0 6px 22px rgba(225, 29, 72, 0.35);
 }
+
+/* 印刷（Print）時最適化：ヘッダー、フローティングバー、CTAボタン、読了ゲージ等を非表示化しコンテンツを明瞭化 */
+@media print {
+  header,
+  footer,
+  .reading-progress-bar,
+  #qualia-mobile-cta,
+  button,
+  .print-hidden {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt !important;
+  }
+
+  article {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  a {
+    text-decoration: underline !important;
+    color: #000000 !important;
+  }
+}
+
+/* アニメーション軽減モード（prefers-reduced-motion）対応 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -12,6 +12,7 @@ import { getCleanAffiliateLink } from '../utils/productUtils';
 import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft, Trophy, ArrowRight, Star } from 'lucide-react';
 import { RakutenBeginnerGuideBanner } from '../components/RakutenBeginnerGuideBanner';
 import { ComplianceNotice } from '../components/ComplianceNotice';
+import { StickyMobileCtaBar } from '../components/StickyMobileCtaBar';
 
 interface ProductComparisonPageProps {
   compareId: string;
@@ -463,6 +464,14 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
           />
         </article>
       </div>
+
+      {/* モバイル閲覧時の高CVRフローティングCTAバー (エントリーAを優先表示) */}
+      <StickyMobileCtaBar
+        title={nameA}
+        imageUrl={itemA.imageUrl}
+        price={itemA.rakutenPrice || '楽天市場で最安値を見る'}
+        affiliateUrl={cleanUrlA}
+      />
     </div>
   );
 }

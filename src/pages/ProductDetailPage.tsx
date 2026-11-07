@@ -16,6 +16,7 @@ import { getCleanAffiliateLink, deduplicateArticles } from '../utils/productUtil
 import { RakutenBeginnerGuideBanner, RAKUTEN_BEGINNER_GUIDE_ID } from '../components/RakutenBeginnerGuideBanner';
 import { NextActionGuide } from '../components/NextActionGuide';
 import { ComplianceNotice } from '../components/ComplianceNotice';
+import { StickyMobileCtaBar } from '../components/StickyMobileCtaBar';
 
 interface ProductDetailPageProps {
   articleId: string;
@@ -783,6 +784,14 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
           <InternalLinkMesh currentArticleId={article.id} category={article.category} onNavigate={onNavigate} />
         </article>
       </div>
+
+      {/* モバイル閲覧時の高CVRフローティングCTAバー */}
+      <StickyMobileCtaBar
+        title={article.productName || article.title}
+        imageUrl={article.imageUrl}
+        price={article.rakutenPrice || '楽天市場で最安値を見る'}
+        affiliateUrl={getCleanAffiliateLink(article)}
+      />
     </div>
   );
 }

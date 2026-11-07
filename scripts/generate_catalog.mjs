@@ -88,7 +88,7 @@ function cleanRakutenItemName(rawName, fallbackText = '') {
  */
 function buildCleanTitle(art, cleanProdName, isContentArticle) {
   const rawTitle = art.title ? String(art.title).trim() : '';
-  if (rawTitle && !rawTitle.startsWith('【ポイント') && !rawTitle.includes('★') && rawTitle.length >= 15) {
+  if (rawTitle && !rawTitle.startsWith('【ポイント') && rawTitle.length >= 12) {
     return rawTitle;
   }
   if (isContentArticle && rawTitle) return rawTitle;
@@ -391,28 +391,24 @@ articles.forEach(art => {
 
   const catalogEntry = {
     id,
-    itemCode: art.itemCode || id,
+    itemCode: art.itemCode && art.itemCode !== id ? art.itemCode : id,
     title: cleanTitle,
     productName: cleanProdName,
     category: normCatSlug,
     categoryLabel: normCatLabel,
     seasonMonth,
     parentFeatureSlug,
-    tags: Array.isArray(art.tags) ? art.tags.slice(0, 8) : undefined,
+    tags: Array.isArray(art.tags) ? art.tags.slice(0, 5) : undefined,
     price: priceStr,
     rakutenPrice: priceStr,
-    priceRange: art.priceRange || priceStr,
     imageUrl: art.imageUrl || art.image || '',
     affiliateLink,
-    originalUrl: art.originalUrl || affiliateLink,
-    rating: starRating,
     starRating,
     reviewCount,
     introText: cleanIntro,
-    description: (art.description || cleanIntro).slice(0, 165),
-    features: features.slice(0, 4),
-    pros: pros.slice(0, 3),
-    cons: cons.slice(0, 2),
+    features: features.slice(0, 2),
+    pros: pros.slice(0, 2),
+    cons: cons.slice(0, 1),
     reviewerName: art.reviewerName || art.author || '橘 えりか',
     reviewerRole: art.reviewerRole || '専属コスメアナリスト',
     ctaTitle: art.ctaTitle || '楽天市場で最安値・在庫をチェックする 👉',

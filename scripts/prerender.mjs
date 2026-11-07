@@ -39,9 +39,9 @@ function escapeHtml(str) {
 }
 
 function normalizeImageUrl(url) {
-  if (!url) return 'https://qualia-navi.vercel.app/og-image.png';
+  if (!url) return 'https://qualia-navi.vercel.app/images/og-default.svg';
   const target = Array.isArray(url) ? url[0] : url;
-  if (!target || typeof target !== 'string') return 'https://qualia-navi.vercel.app/og-image.png';
+  if (!target || typeof target !== 'string') return 'https://qualia-navi.vercel.app/images/og-default.svg';
   if (target.startsWith('http://') || target.startsWith('https://')) {
     return target;
   }

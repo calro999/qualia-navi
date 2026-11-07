@@ -106,19 +106,8 @@ export default function App() {
   const [articles] = useState<RakutenProductArticle[]>(INITIAL_ARTICLES);
 
   const renderCurrentPage = () => {
-    if (pathnameOnly.startsWith('/articles/')) {
-      const articleId = pathnameOnly.replace('/articles/', '');
-      return (
-        <ProductDetailPage
-          articleId={articleId}
-          articles={articles}
-          onNavigate={navigateTo}
-        />
-      );
-    }
-
-    if (pathnameOnly.startsWith('/article/')) {
-      const articleId = pathnameOnly.replace('/article/', '');
+    if (pathnameOnly.startsWith('/article/') || pathnameOnly.startsWith('/articles/')) {
+      const articleId = pathnameOnly.replace(/^\/articles?\//, '');
       return (
         <ProductDetailPage
           articleId={articleId}

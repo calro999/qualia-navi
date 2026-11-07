@@ -115,7 +115,7 @@ export function generateProductJsonLd(
   );
   const imageUrl = (article.imageUrl && typeof article.imageUrl === 'string' && article.imageUrl.startsWith('http'))
     ? article.imageUrl
-    : `${domain}${article.imageUrl || '/og-image.png'}`;
+    : `${domain}${article.imageUrl || '/images/og-default.svg'}`;
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -181,7 +181,7 @@ export function generateProductJsonLd(
       mpn: article.itemCode || article.id,
       brand: {
         '@type': 'Brand',
-        name: (article as any).brandName || 'Qualia Verified Pick'
+        name: (article as any).brandName || ((article.productName || '').match(/^([A-Za-z0-9＆&・\-\s]{2,20}|[ァ-ヶー・]{2,15})/)?.[1]?.trim()) || 'コスメブランド公式・正規取扱'
       },
       review: {
         '@type': 'Review',

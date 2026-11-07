@@ -5,7 +5,8 @@ import { RakutenProductArticle } from '../types';
  * 対象商品の個別商品ページ直リンクに安全に補正・ガードする関数
  */
 export function getCleanAffiliateLink(article: RakutenProductArticle): string {
-  const { affiliateLink, originalUrl, itemCode } = article;
+  const affiliateLink = article.affiliateLink || (article as any).affiliateUrl;
+  const { originalUrl, itemCode } = article;
   
   if (originalUrl && originalUrl.includes('item.rakuten.co.jp')) {
     return originalUrl;

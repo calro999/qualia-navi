@@ -258,7 +258,7 @@ export function generateBlogJsonLd(
     description: post.introText || post.subtitle,
     image: [fullImg],
     datePublished: post.createdAt || '2026-10-01',
-    dateModified: post.createdAt || '2026-10-19',
+    dateModified: post.updatedAt || post.createdAt || '2026-11-15',
     author: {
       '@type': 'Person',
       name: post.authorName || '橘 えりか',

@@ -32,7 +32,39 @@ const QUICK_FEATURE_TAGS = [
   '入浴剤'
 ];
 
-function classifyFeatureCategory(title: string, rawCategory = ''): { slug: string; label: string; season: SeasonMonthKey } {
+function classifyFeatureCategory(title: string, rawCategory = '', postId = ''): { slug: string; label: string; season: SeasonMonthKey } {
+  const featMatch = String(postId || '').match(/^feat-(\d{4})-(\d{2})-(.+)$/);
+  if (featMatch) {
+    const mNum = featMatch[2];
+    const gSlug = featMatch[3];
+    const seasonByMonth: Record<string, SeasonMonthKey> = {
+      '10': 'oct',
+      '11': 'nov',
+      '12': 'dec',
+      '01': 'jan'
+    };
+    const season: SeasonMonthKey = seasonByMonth[mNum] || 'nov';
+    if (gSlug === 'monthly-cosme-grand-hub') {
+      return { slug: 'skincare', label: '月間24ジャンル総合ハブ', season };
+    }
+    if (gSlug === 'lipstick' || gSlug === 'lip-tint') {
+      return { slug: 'lip', label: 'リップ・口紅特集', season };
+    }
+    if (['eyeshadow', 'eye-makeup', 'eyebrow', 'cheek', 'highlight', 'primer', 'foundation', 'concealer', 'face-powder', 'keep-mist'].includes(gSlug)) {
+      return { slug: 'makeup', label: 'ベース＆メイク特集', season };
+    }
+    if (gSlug === 'shampoo' || gSlug === 'hair-oil') {
+      return { slug: 'haircare', label: 'ヘアケア特集', season };
+    }
+    if (gSlug === 'body-care' || gSlug === 'fragrance') {
+      return { slug: 'bodycare', label: 'ボディ＆フレグランス特集', season };
+    }
+    if (gSlug === 'beauty-device') {
+      return { slug: 'device', label: '美容家電＆ツール特集', season };
+    }
+    return { slug: 'skincare', label: 'スキンケア特集', season };
+  }
+
   const t = `${title} ${rawCategory}`;
 
   let slug = 'skincare';
@@ -92,8 +124,9 @@ export function FeatureListPage({ articles, onNavigate }: FeatureListPageProps) 
   // 1. 特集記事（10選記事およびブログ記事）を統合して抽出
   const allFeatureArticles = useMemo(() => {
     const blogList = INITIAL_BLOG_POSTS.map(post => {
-      const { slug, label, season } = classifyFeatureCategory(post.title);
+      const { slug, label, season } = classifyFeatureCategory(post.title, '', post.id);
       const isPillar =
+        /^feat-\d{4}-\d{2}-/.test(post.id) ||
         post.id.includes('hub') ||
         post.title.includes('総まとめ') ||
         post.title.includes('クリスマスコフレ') ||

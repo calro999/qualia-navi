@@ -1,52 +1,74 @@
-name: Qualia Navi Rakuten Cosmetics Auto Generator
+name: Monthly Cosme Hub Auto Updater
 
 on:
   schedule:
-    # 2時間ごとに自動更新 (0:00, 2:00, 4:00... UTC)
+    # 2時間おきに実行（1回あたり最大3ジャンル×1日8回＝全24ジャンルを1日1商品ずつ成長）
     - cron: '0 */2 * * *'
   workflow_dispatch:
+    inputs:
+      target_month:
+        description: '対象年月 (YYYY-MM、空欄ならJST現在月・月替わり時は自動作成)'
+        required: false
+        default: ''
+      max_genres:
+        description: '1回あたり更新する最大ジャンル数 (デフォルト: 3)'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monthly-hub-auto-updater
+  cancel-in-progress: false
 
 jobs:
-  auto-generate-articles:
+  update-monthly-hubs:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
+    timeout-minutes: 20
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        persist-credentials: true
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
 
-    - name: Run Qualia Navi Rakuten Article Generator
-      env:
-        RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
-        RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
-        RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        python scripts/generate_qualia_articles.py
-        python scripts/fix_all_affiliate_links.py
+      - name: Install dependencies
+        run: npm ci
 
-    - name: Commit and push generated cosmetics data
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        if [ -f src/data/articles.json ]; then
-          git add src/data/articles.json
-          if [ -d public/images/products ]; then
-            git add public/images/products/
+      - name: Run Monthly Hub Auto Updater (3 genres / run + Monthly Rollover)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+        run: |
+          ARGS="--max-genres=${{ github.event.inputs.max_genres || '3' }}"
+          if [ -n "${{ github.event.inputs.target_month }}" ]; then
+            ARGS="$ARGS --month=${{ github.event.inputs.target_month }}"
           fi
-          if ! git diff --cached --exit-code; then
-            git commit -m "chore: auto-generate Rakuten cosmetics articles from articles.yml [skip ci]"
-            git push origin HEAD:${{ github.ref }}
-          else
-            echo "No changes in generated articles."
+          node scripts/auto_update_monthly_hubs.mjs $ARGS
+
+      - name: Update Sitemap & IndexNow
+        run: node scripts/update-sitemap.mjs || true
+
+      - name: Verify TypeScript Build Safety
+        run: npm run lint
+
+      - name: Commit & Push Updated Hub Parts and Compiled Data
+        run: |
+          git config user.name "Qualia Navi Auto Bot"
+          git config user.email "bot@qualia-navi.example.com"
+          git add content/hub-items/ content/hub-pages/ src/data.ts public/data/blogs.json public/sitemap.xml
+          if git diff --staged --quiet; then
+            echo "ℹ️ 本日分の更新・変更はありませんでした。"
+            exit 0
           fi
-        fi
+          git commit -m "feat(hubs): auto update monthly cosme hubs (max 3 genres)"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "${{ github.ref_name }}"

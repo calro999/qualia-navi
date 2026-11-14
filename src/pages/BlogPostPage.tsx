@@ -23,8 +23,10 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
   const post = INITIAL_BLOG_POSTS.find((p) => p.id === postId || p.slug === postId);
   const promo = useRakutenPromoMicrocopy();
 
+  const isMonthlyHub = Boolean(post && /^feat-\d{4}-\d{2}-/.test(post.id));
+
   const recommendedItems = useMemo(() => {
-    if (!post) return [];
+    if (!post || isMonthlyHub) return [];
     const direct = INITIAL_ARTICLES.filter(
       (item) =>
         post.recommendedItemCodes?.includes(item.itemCode) ||
@@ -169,7 +171,11 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
                   <div className="text-xs font-bold text-slate-900 flex items-center gap-1">
                     <ShieldCheck className="w-4 h-4 text-rose-600" /> 執筆・検証: {author.name} ({author.role})
                   </div>
-                  <div className="text-[11px] text-slate-500">{post.createdAt} ・ 読了目安約{post.readTimeMinutes}分</div>
+                  <div className="text-[11px] text-slate-500">
+                    {post.createdAt}
+                    {post.updatedAt && post.updatedAt !== post.createdAt ? `（最終更新: ${post.updatedAt}）` : ''}
+                    {' ・ '}読了目安約{post.readTimeMinutes}分
+                  </div>
                 </div>
               </div>
               <span className="text-xs text-rose-700 font-bold hidden sm:inline">プロフィール ➔</span>

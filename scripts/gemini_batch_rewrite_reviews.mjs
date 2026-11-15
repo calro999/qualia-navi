@@ -174,7 +174,7 @@ async function main() {
 
       if (!needsRewrite) continue;
 
-      const items = readHubItemsFromDir(genreDir).filter(i => i.__file === f);
+      const items = readHubItemsFromDir(genreDir).filter(i => i._filename === f);
       if (items.length === 0) continue;
       const item = items[0];
 

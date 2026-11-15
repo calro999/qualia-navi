@@ -18,6 +18,14 @@ on:
         description: '1回あたり更新する最大ジャンル数 (デフォルト: 3)'
         required: false
         default: '3'
+      batch_rewrite_reviews:
+        description: '既存レビューをGeminiで一括リライト (true/false)'
+        required: false
+        default: 'false'
+      rewrite_genre:
+        description: 'リライト対象ジャンルslug (空欄なら全ジャンル、例: lipstick)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -52,14 +60,26 @@ jobs:
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
           RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
         run: |
-          ARGS="--max-genres=${{ github.event.inputs.max_genres || '3' }}"
-          if [ -n "${{ github.event.inputs.target_month }}" ]; then
-            ARGS="$ARGS --month=${{ github.event.inputs.target_month }}"
+          if [ "${{ github.event.inputs.batch_rewrite_reviews }}" = "true" ]; then
+            echo "🚀 既存レビューをGeminiで一括リライト実行中..."
+            REWRITE_ARGS="--force-all"
+            if [ -n "${{ github.event.inputs.target_month }}" ]; then
+              REWRITE_ARGS="$REWRITE_ARGS --month=${{ github.event.inputs.target_month }}"
+            fi
+            if [ -n "${{ github.event.inputs.rewrite_genre }}" ]; then
+              REWRITE_ARGS="$REWRITE_ARGS --genre=${{ github.event.inputs.rewrite_genre }}"
+            fi
+            node scripts/gemini_batch_rewrite_reviews.mjs $REWRITE_ARGS
+          else
+            ARGS="--max-genres=${{ github.event.inputs.max_genres || '3' }}"
+            if [ -n "${{ github.event.inputs.target_month }}" ]; then
+              ARGS="$ARGS --month=${{ github.event.inputs.target_month }}"
+            fi
+            if [ -n "${{ github.event.inputs.target_date }}" ]; then
+              ARGS="$ARGS --date=${{ github.event.inputs.target_date }}"
+            fi
+            node scripts/auto_update_monthly_hubs.mjs $ARGS
           fi
-          if [ -n "${{ github.event.inputs.target_date }}" ]; then
-            ARGS="$ARGS --date=${{ github.event.inputs.target_date }}"
-          fi
-          node scripts/auto_update_monthly_hubs.mjs $ARGS
 
       - name: Verify Content Quality, Affiliate Links, Appeal & Layout Integrity
         run: node scripts/verify_monthly_hubs_quality.mjs

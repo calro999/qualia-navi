@@ -161,15 +161,16 @@ async function main() {
       const filePath = path.join(genreDir, f);
       const rawContent = fs.readFileSync(filePath, 'utf8');
 
-      // 既にgeminiで作成されたものや、ノイズのないものを判定
-      // ユーザーが指摘した「注目カテゴリ」やショップキャプション混入、あるいは全置換
-      const needsRewrite = rawContent.includes('注目カテゴリ') ||
-                           rawContent.includes('リリーアンナ') ||
-                           rawContent.includes('株式会社') ||
-                           rawContent.includes('定休日') ||
-                           process.argv.includes('--force-all');
+      // 既にGemini等で再生成済み（定型句やショップ文がなく、2段落かつ十分な長さがあるもの）はスキップ
+      const isAlreadyClean = !rawContent.includes('注目カテゴリ') &&
+                             !rawContent.includes('リリーアンナ') &&
+                             !rawContent.includes('株式会社') &&
+                             !rawContent.includes('定休日') &&
+                             !rawContent.includes('判断材料として機能する一品です') &&
+                             !rawContent.includes('処方軸に') &&
+                             !rawContent.includes('候補へ上がりやすい特性を持ちます');
 
-      if (!needsRewrite) continue;
+      if (isAlreadyClean && !process.argv.includes('--force-rewrite')) continue;
 
       const items = readHubItemsFromDir(genreDir).filter(i => i._filename === f);
       if (items.length === 0) continue;
@@ -190,6 +191,8 @@ async function main() {
           fs.writeFileSync(filePath, stringifyHubItemMd(item), 'utf8');
           console.log(`    ✅ 成功 (${geminiResult.model}): ${f}`);
           updatedCount++;
+          // APIレートリミット対策として800msインターバル
+          await new Promise(r => setTimeout(r, 800));
         }
       } catch (err) {
         console.error(`    ❌ 失敗: ${err.message}`);

@@ -61,6 +61,9 @@ jobs:
           fi
           node scripts/auto_update_monthly_hubs.mjs $ARGS
 
+      - name: Verify Content Quality, Affiliate Links, Appeal & Layout Integrity
+        run: node scripts/verify_monthly_hubs_quality.mjs
+
       - name: Update Sitemap & IndexNow
         run: node scripts/update-sitemap.mjs || true
 

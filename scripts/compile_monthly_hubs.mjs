@@ -120,47 +120,47 @@ function buildComparisonTableHtml(rankedItems, latestDate) {
       const count = Number(item.reviewCount || 0).toLocaleString();
       const name = escapeHtml(item.cleanName || item.productName);
       const price = escapeHtml(item.price || '');
-      const point = escapeHtml((item.featurePoint || '').slice(0, 68));
+      const point = escapeHtml(item.featurePoint || '');
       const aff = escapeHtml(item.affiliateUrl || '#');
       const isNew = item.addedDate === latestDate;
       const rankBadgeBg =
-        rank === 1 ? '#f59e0b' : rank === 2 ? '#64748b' : rank === 3 ? '#b45309' : '#e2e8f0';
-      const rankBadgeColor = rank <= 3 ? '#ffffff' : '#334155';
+        rank === 1 ? '#f59e0b' : rank === 2 ? '#64748b' : rank === 3 ? '#b45309' : '#f1f5f9';
+      const rankBadgeColor = rank <= 3 ? '#ffffff' : '#475569';
 
-      return `<tr style="border-bottom:1px solid #f1f5f9;">
-  <td style="padding:10px 8px;text-align:center;vertical-align:middle;">
-    <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:9999px;background:${rankBadgeBg};color:${rankBadgeColor};font-weight:900;font-size:12px;">${rank}</span>
+      return `<tr style="border-bottom:1px solid #f1f5f9;transition:background 0.15s ease;">
+  <td style="padding:12px 6px;text-align:center;vertical-align:middle;width:48px;">
+    <span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:9999px;background:${rankBadgeBg};color:${rankBadgeColor};font-weight:900;font-size:12px;">${rank}</span>
   </td>
-  <td style="padding:10px 10px;vertical-align:middle;">
-    <div style="font-weight:800;font-size:13px;color:#0f172a;line-height:1.4;">
-      ${isNew ? '<span style="display:inline-block;background:#e11d48;color:#fff;font-size:10px;padding:1px 6px;border-radius:4px;margin-right:4px;">NEW</span>' : ''}
-      <a href="#rank-${rank}" style="color:#0f172a;text-decoration:underline;">${name}</a>
+  <td style="padding:12px 10px;vertical-align:middle;min-width:180px;">
+    <div style="font-weight:800;font-size:13px;color:#0f172a;line-height:1.45;word-break:break-word;">
+      ${isNew ? '<span style="display:inline-block;background:#e11d48;color:#fff;font-size:10px;font-weight:900;padding:2px 6px;border-radius:4px;margin-right:4px;vertical-align:middle;">NEW</span>' : ''}
+      <a href="#rank-${rank}" style="color:#0f172a;text-decoration:underline;text-underline-offset:2px;">${name}</a>
     </div>
-    <div style="font-size:11.5px;color:#64748b;margin-top:3px;">${point}</div>
+    <div style="font-size:11.5px;color:#64748b;margin-top:4px;line-height:1.5;word-break:break-word;">${point}</div>
   </td>
-  <td style="padding:10px 8px;text-align:center;vertical-align:middle;white-space:nowrap;">
-    <div style="font-weight:900;color:#d97706;font-size:13px;">★ ${rating}</div>
-    <div style="font-size:11px;color:#64748b;">(${count}件)</div>
+  <td style="padding:12px 8px;text-align:center;vertical-align:middle;width:90px;">
+    <div style="font-weight:900;color:#d97706;font-size:13px;white-space:nowrap;">★ ${rating}</div>
+    <div style="font-size:11px;color:#64748b;white-space:nowrap;">(${count}件)</div>
   </td>
-  <td style="padding:10px 8px;text-align:center;vertical-align:middle;white-space:nowrap;font-weight:800;color:#be123c;font-size:13px;">
-    ${price}
+  <td style="padding:12px 8px;text-align:center;vertical-align:middle;width:110px;">
+    <div style="font-weight:800;color:#be123c;font-size:13px;line-height:1.3;word-break:break-word;">${price}</div>
   </td>
-  <td style="padding:10px 8px;text-align:center;vertical-align:middle;white-space:nowrap;">
-    <a href="${aff}" target="_blank" rel="nofollow noopener noreferrer sponsored" style="display:inline-block;padding:6px 12px;border-radius:8px;background:linear-gradient(135deg,#ea580c,#e11d48);color:#fff;font-size:11.5px;font-weight:800;text-decoration:none;">楽天公式・最安 ↗</a>
+  <td style="padding:12px 8px;text-align:center;vertical-align:middle;width:120px;">
+    <a href="${aff}" target="_blank" rel="nofollow noopener noreferrer sponsored" style="display:inline-flex;align-items:center;justify-content:center;padding:7px 12px;border-radius:8px;background:linear-gradient(135deg,#ea580c,#e11d48);color:#fff;font-size:11.5px;font-weight:800;text-decoration:none;white-space:nowrap;box-shadow:0 2px 6px rgba(225,29,72,0.2);">楽天公式 ↗</a>
   </td>
 </tr>`;
     })
     .join('\n');
 
-  return `<div style="overflow-x:auto;border:1.5px solid #fecdd3;border-radius:16px;background:#ffffff;margin:18px 0;box-shadow:0 2px 10px rgba(0,0,0,0.03);">
-  <table style="width:100%;border-collapse:collapse;min-width:640px;text-align:left;">
+  return `<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;border:1.5px solid #fecdd3;border-radius:16px;background:#ffffff;margin:20px 0;box-shadow:0 2px 10px rgba(0,0,0,0.03);">
+  <table style="width:100%;border-collapse:collapse;min-width:600px;text-align:left;table-layout:auto;">
     <thead>
       <tr style="background:#fff1f2;border-bottom:2px solid #fecdd3;font-size:12px;color:#881337;">
-        <th style="padding:10px 8px;text-align:center;width:54px;">順位</th>
+        <th style="padding:10px 6px;text-align:center;width:48px;">順位</th>
         <th style="padding:10px 10px;">商品名・注目ポイント</th>
-        <th style="padding:10px 8px;text-align:center;width:96px;">星評価</th>
+        <th style="padding:10px 8px;text-align:center;width:90px;">星評価</th>
         <th style="padding:10px 8px;text-align:center;width:110px;">参考価格</th>
-        <th style="padding:10px 8px;text-align:center;width:120px;">購入・在庫</th>
+        <th style="padding:10px 8px;text-align:center;width:120px;text-align:center;">購入・詳細</th>
       </tr>
     </thead>
     <tbody>

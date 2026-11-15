@@ -28,6 +28,7 @@ const ARRAY_KEYS = ['pros', 'cons'];
  * 1商品分の Frontmatter + レビュー本文を Markdown 文字列へシリアライズする
  */
 export function stringifyHubItemMd(data, reviewMarkdown) {
+  const content = reviewMarkdown !== undefined ? reviewMarkdown : (data.reviewMarkdown || '');
   const lines = ['---'];
   for (const key of SCALAR_KEYS) {
     const val = data[key];
@@ -47,7 +48,7 @@ export function stringifyHubItemMd(data, reviewMarkdown) {
   }
   lines.push('---');
   lines.push('');
-  lines.push(String(reviewMarkdown || '').trim());
+  lines.push(String(content || '').trim());
   lines.push('');
   return lines.join('\n');
 }

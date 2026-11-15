@@ -18,11 +18,8 @@ import { compileAllMonthlyHubs } from './compile_monthly_hubs.mjs';
  */
 const GEMINI_ROTATION_MODELS = [
   'gemini-2.5-flash',
-  'gemini-2.0-flash',
   'gemini-2.5-flash-lite',
-  'gemini-3.1-flash-lite',
-  'gemini-2.5-pro',
-  'gemini-2.0-flash-lite'
+  'gemini-3.1-flash-lite'
 ];
 
 const BANNED_PHRASES = [

@@ -2,12 +2,16 @@ name: Monthly Cosme Hub Auto Updater
 
 on:
   schedule:
-    # 2時間おきに実行（1回あたり最大3ジャンル×1日8回＝全24ジャンルを1日1商品ずつ成長）
+    # 2時間おきに実行（1回あたり最大3ジャンル×1日8回＝全24ジャンルを1日1商品ずつ追加・育成）
     - cron: '0 */2 * * *'
   workflow_dispatch:
     inputs:
       target_month:
         description: '対象年月 (YYYY-MM、空欄ならJST現在月・月替わり時は自動作成)'
+        required: false
+        default: ''
+      target_date:
+        description: '対象日付 (YYYY-MM-DD、空欄ならJST現在日)'
         required: false
         default: ''
       max_genres:
@@ -30,12 +34,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
-      - name: Setup Node.js 20
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
@@ -51,6 +55,9 @@ jobs:
           ARGS="--max-genres=${{ github.event.inputs.max_genres || '3' }}"
           if [ -n "${{ github.event.inputs.target_month }}" ]; then
             ARGS="$ARGS --month=${{ github.event.inputs.target_month }}"
+          fi
+          if [ -n "${{ github.event.inputs.target_date }}" ]; then
+            ARGS="$ARGS --date=${{ github.event.inputs.target_date }}"
           fi
           node scripts/auto_update_monthly_hubs.mjs $ARGS
 
@@ -69,6 +76,8 @@ jobs:
             echo "ℹ️ 本日分の更新・変更はありませんでした。"
             exit 0
           fi
-          git commit -m "feat(hubs): auto update monthly cosme hubs (max 3 genres)"
-          git pull --rebase origin "${{ github.ref_name }}"
-          git push origin "${{ github.ref_name }}"
+          git commit -m "feat(hubs): auto update monthly cosme hubs (max 3 genres) [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin "${{ github.ref_name }}" && git push origin "${{ github.ref_name }}" && break || sleep 3
+          done
+

@@ -120,47 +120,42 @@ function buildComparisonTableHtml(rankedItems, latestDate) {
       const count = Number(item.reviewCount || 0).toLocaleString();
       const name = escapeHtml(item.cleanName || item.productName);
       const price = escapeHtml(item.price || '');
-      const point = escapeHtml(item.featurePoint || '');
       const aff = escapeHtml(item.affiliateUrl || '#');
       const isNew = item.addedDate === latestDate;
       const rankBadgeBg =
         rank === 1 ? '#f59e0b' : rank === 2 ? '#64748b' : rank === 3 ? '#b45309' : '#f1f5f9';
       const rankBadgeColor = rank <= 3 ? '#ffffff' : '#475569';
 
-      return `<tr style="border-bottom:1px solid #f1f5f9;transition:background 0.15s ease;">
-  <td style="padding:12px 6px;text-align:center;vertical-align:middle;width:48px;">
-    <span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:9999px;background:${rankBadgeBg};color:${rankBadgeColor};font-weight:900;font-size:12px;">${rank}</span>
+      return `<tr style="border-bottom:1px solid #f1f5f9;">
+  <td style="padding:10px 4px;text-align:center;vertical-align:middle;width:12%;">
+    <span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:9999px;background:${rankBadgeBg};color:${rankBadgeColor};font-weight:900;font-size:11px;">${rank}</span>
   </td>
-  <td style="padding:12px 10px;vertical-align:middle;min-width:180px;">
-    <div style="font-weight:800;font-size:13px;color:#0f172a;line-height:1.45;word-break:break-word;">
-      ${isNew ? '<span style="display:inline-block;background:#e11d48;color:#fff;font-size:10px;font-weight:900;padding:2px 6px;border-radius:4px;margin-right:4px;vertical-align:middle;">NEW</span>' : ''}
+  <td style="padding:10px 6px;vertical-align:middle;width:48%;">
+    <div style="font-weight:700;font-size:12px;color:#0f172a;line-height:1.4;word-break:break-word;">
+      ${isNew ? '<span style="display:inline-block;background:#e11d48;color:#fff;font-size:9px;font-weight:800;padding:1px 4px;border-radius:4px;margin-right:3px;vertical-align:middle;">NEW</span>' : ''}
       <a href="#rank-${rank}" style="color:#0f172a;text-decoration:underline;text-underline-offset:2px;">${name}</a>
     </div>
-    <div style="font-size:11.5px;color:#64748b;margin-top:4px;line-height:1.5;word-break:break-word;">${point}</div>
   </td>
-  <td style="padding:12px 8px;text-align:center;vertical-align:middle;width:90px;">
-    <div style="font-weight:900;color:#d97706;font-size:13px;white-space:nowrap;">★ ${rating}</div>
-    <div style="font-size:11px;color:#64748b;white-space:nowrap;">(${count}件)</div>
+  <td style="padding:10px 4px;text-align:center;vertical-align:middle;width:20%;">
+    <div style="font-weight:800;color:#d97706;font-size:12px;line-height:1.2;">★${rating}</div>
+    <div style="font-size:10px;color:#64748b;line-height:1.1;">(${count})</div>
   </td>
-  <td style="padding:12px 8px;text-align:center;vertical-align:middle;width:110px;">
-    <div style="font-weight:800;color:#be123c;font-size:13px;line-height:1.3;word-break:break-word;">${price}</div>
-  </td>
-  <td style="padding:12px 8px;text-align:center;vertical-align:middle;width:120px;">
-    <a href="${aff}" target="_blank" rel="nofollow noopener noreferrer sponsored" style="display:inline-flex;align-items:center;justify-content:center;padding:7px 12px;border-radius:8px;background:linear-gradient(135deg,#ea580c,#e11d48);color:#fff;font-size:11.5px;font-weight:800;text-decoration:none;white-space:nowrap;box-shadow:0 2px 6px rgba(225,29,72,0.2);">楽天公式 ↗</a>
+  <td style="padding:10px 6px;text-align:center;vertical-align:middle;width:20%;">
+    <div style="font-weight:800;color:#be123c;font-size:11.5px;line-height:1.2;margin-bottom:4px;word-break:break-all;">${price}</div>
+    <a href="${aff}" target="_blank" rel="nofollow noopener noreferrer sponsored" style="display:inline-block;padding:4px 8px;border-radius:6px;background:linear-gradient(135deg,#ea580c,#e11d48);color:#fff;font-size:10.5px;font-weight:800;text-decoration:none;white-space:nowrap;">公式↗</a>
   </td>
 </tr>`;
     })
     .join('\n');
 
-  return `<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;border:1.5px solid #fecdd3;border-radius:16px;background:#ffffff;margin:20px 0;box-shadow:0 2px 10px rgba(0,0,0,0.03);">
-  <table style="width:100%;border-collapse:collapse;min-width:600px;text-align:left;table-layout:auto;">
+  return `<div style="width:100%;border:1.5px solid #fecdd3;border-radius:14px;background:#ffffff;margin:20px 0;box-shadow:0 2px 8px rgba(0,0,0,0.03);box-sizing:border-box;">
+  <table style="width:100%;border-collapse:collapse;table-layout:fixed;text-align:left;">
     <thead>
-      <tr style="background:#fff1f2;border-bottom:2px solid #fecdd3;font-size:12px;color:#881337;">
-        <th style="padding:10px 6px;text-align:center;width:48px;">順位</th>
-        <th style="padding:10px 10px;">商品名・注目ポイント</th>
-        <th style="padding:10px 8px;text-align:center;width:90px;">星評価</th>
-        <th style="padding:10px 8px;text-align:center;width:110px;">参考価格</th>
-        <th style="padding:10px 8px;text-align:center;width:120px;text-align:center;">購入・詳細</th>
+      <tr style="background:#fff1f2;border-bottom:2px solid #fecdd3;font-size:11.5px;color:#881337;">
+        <th style="padding:9px 4px;text-align:center;width:12%;">順位</th>
+        <th style="padding:9px 6px;width:48%;">商品名</th>
+        <th style="padding:9px 4px;text-align:center;width:20%;">評価</th>
+        <th style="padding:9px 6px;text-align:center;width:20%;">価格・詳細</th>
       </tr>
     </thead>
     <tbody>
@@ -170,7 +165,7 @@ function buildComparisonTableHtml(rankedItems, latestDate) {
 </div>`;
 }
 
-function buildRankedProductBlock(item, rank, latestDate) {
+function buildRankedProductBlock(item, rank, latestDate, isTop10 = true) {
   const rating = Number(item.starRating || 4.5).toFixed(2);
   const count = Number(item.reviewCount || 0).toLocaleString();
   const name = escapeHtml(item.cleanName || item.productName);
@@ -195,6 +190,10 @@ function buildRankedProductBlock(item, rank, latestDate) {
       : rank === 3
       ? '🥉 総合starRating第3位'
       : item.badge || `🏆 注目ランキング第${rank}位`;
+
+  const headingTag = isTop10
+    ? `### 第${rank}位：${item.cleanName || item.productName}`
+    : `#### 第${rank}位：${item.cleanName || item.productName}`;
 
   const prosList = (Array.isArray(item.pros) ? item.pros : [])
     .map((p) => `<li style="margin-bottom:4px;">${escapeHtml(p)}</li>`)
@@ -222,7 +221,7 @@ function buildRankedProductBlock(item, rank, latestDate) {
     : `<span style="background:#f1f5f9;color:#475569;font-size:11px;font-weight:700;padding:3px 10px;border-radius:9999px;">追加日: ${added}</span>`;
 
   return `
-### 第${rank}位：${item.cleanName || item.productName}
+${headingTag}
 
 <div id="rank-${rank}" style="border:2px solid ${rank <= 3 ? '#fda4af' : '#e2e8f0'};border-radius:18px;padding:20px;margin:14px 0 28px 0;background:linear-gradient(180deg,#ffffff 0%,#fffdfd 100%);box-shadow:0 4px 16px rgba(15,23,42,0.04);scroll-margin-top:90px;">
   <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;padding-bottom:12px;margin-bottom:14px;border-bottom:1px dashed #e2e8f0;">
@@ -320,9 +319,19 @@ function compileGenreHub(monthStr, meta, items, allMonths, genres) {
   const monthNav = buildMonthNavigationBanner(monthStr, meta.genreSlug, allMonths);
   const latestSpotlight = buildLatestSpotlightHtml(latestItems, rankLookup);
   const comparisonTable = buildComparisonTableHtml(rankedItems, latestDate);
-  const rankedCards = rankedItems
+  const top10Items = rankedItems.slice(0, 10);
+  const remainingItems = rankedItems.slice(10);
+
+  const top10Cards = top10Items
     .map((item, idx) => buildRankedProductBlock(item, idx + 1, latestDate))
     .join('\n');
+
+  const remainingSection =
+    remainingItems.length > 0
+      ? `## ⭐ 11位以下の人気注目${meta.shortName}（第11位〜第${rankedItems.length}位）\n\n上位10選に続いて、高評価レビューや特色ある成分処方でリピーターから根強く支持されている注目アイテムです。\n\n${remainingItems
+          .map((item, idx) => buildRankedProductBlock(item, idx + 11, latestDate, false))
+          .join('\n')}`
+      : '';
   const genreLinks = buildGenreLinksGrid(monthStr, meta.genreSlug, genres);
 
   const guideMd = (meta.buyingGuide || [])
@@ -349,11 +358,13 @@ ${latestSpotlight}
 
 ${comparisonTable}
 
-## 🏆 starRating順・${meta.genreName} 徹底検証ランキング（第1位〜第${rankedItems.length}位）
+## 🏆 starRating順・${meta.genreName} 徹底検証ランキング（BEST 10）
 
-ここからは、ランキング上位から順に各商品の成分特徴・質感・メリットと購入前の注意点まで1点ずつ詳しく検証します。
+ここからは、総合評価・レビュー実績でトップ10入りを果たした上位商品を、成分特徴・質感・メリットと購入前の注意点まで1点ずつ詳しく検証します。
 
-${rankedCards}
+${top10Cards}
+
+${remainingSection}
 
 ## 💡 ${year}年${month}月に失敗しない${meta.genreName}の選び方ガイド
 

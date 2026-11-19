@@ -166,7 +166,7 @@ const outputPath = resolve(process.cwd(), 'public', 'sitemap.xml');
 writeFileSync(outputPath, xml, 'utf8');
 console.log(`✅ [Sitemap Updated] sitemap.xml を全 ${totalUrls} URL (記事:${articleIds.length}, 特集:${blogs.length}, 比較:${comparisons.length}, 著者:${authors.length}) で完全最新化しました。`);
 
-// Send IndexNow Ping
+// Send Multi-Crawler IndexNow Ping (DuckDuckGo, Bing, Copilot, Seznam, Yandex, Naver)
 const host = 'qualia-navi.vercel.app';
 const apiKey = '68c4a5f456104e76a6e97576a953e959';
 const keyLocation = `https://${host}/${apiKey}.txt`;
@@ -176,10 +176,16 @@ const targetUrls = [
   `https://${host}/sitemap`,
   `https://${host}/features`,
   `https://${host}/comparisons`,
-  ...blogs.slice(0, 150).map(b => `https://${host}/features/${b}`),
-  ...comparisons.slice(0, 150).map(c => `https://${host}/comparisons/${c}`),
-  ...articleIds.slice(0, 300).map(id => `https://${host}/articles/${id}`)
-];
+  `https://${host}/llms.txt`,
+  `https://${host}/llms-full.txt`,
+  `https://${host}/ranking/autumn-cosme`,
+  `https://${host}/ranking/winter-skincare`,
+  `https://${host}/ranking/holiday-coffret`,
+  `https://${host}/ranking/gift-selection`,
+  ...blogs.map(b => `https://${host}/features/${b}`),
+  ...comparisons.map(c => `https://${host}/comparisons/${c}`),
+  ...articleIds.map(id => `https://${host}/articles/${id}`)
+].slice(0, 10000);
 
 const postData = JSON.stringify({
   host: host,
@@ -188,28 +194,42 @@ const postData = JSON.stringify({
   urlList: targetUrls
 });
 
-const req = https.request({
-  hostname: 'api.indexnow.org',
-  path: '/indexnow',
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json; charset=utf-8',
-    'Content-Length': Buffer.byteLength(postData),
-    'Connection': 'close'
-  },
-  timeout: 5000
-}, (res) => {
-  console.log(`📡 [IndexNow Response] Status Code: ${res.statusCode} (Bing/Copilot 登録受付完了)`);
-});
+const endpoints = [
+  { name: 'IndexNow Central (DuckDuckGo/AI)', host: 'api.indexnow.org' },
+  { name: 'Microsoft Bing / Copilot', host: 'www.bing.com' },
+  { name: 'Naver Search Advisor', host: 'searchadvisor.naver.com' },
+  { name: 'Yandex Search Engine', host: 'yandex.com' },
+  { name: 'Seznam Search', host: 'search.seznam.cz' }
+];
 
-req.on('error', (e) => {
-  if (e.code === 'ECONNRESET') return;
-  console.warn(`⚠️ [IndexNow Warning] ${e.message}`);
-});
+endpoints.forEach((ep) => {
+  const req = https.request(
+    {
+      hostname: ep.host,
+      path: '/indexnow',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8',
+        'Content-Length': Buffer.byteLength(postData),
+        'User-Agent': 'QualiaNavi-Universal-IndexNow/3.0',
+        'Connection': 'close'
+      },
+      timeout: 8000
+    },
+    (res) => {
+      console.log(`📡 [IndexNow: ${ep.name}] Status Code: ${res.statusCode} (${targetUrls.length} URLs 送信完了)`);
+    }
+  );
 
-req.on('timeout', () => {
-  req.destroy();
-});
+  req.on('error', (e) => {
+    if (e.code === 'ECONNRESET') return;
+    console.warn(`⚠️ [IndexNow: ${ep.name}] ${e.message}`);
+  });
 
-req.write(postData);
-req.end();
+  req.on('timeout', () => {
+    req.destroy();
+  });
+
+  req.write(postData);
+  req.end();
+});

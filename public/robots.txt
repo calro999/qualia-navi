@@ -2,6 +2,12 @@ User-agent: *
 Allow: /
 
 # Explicit AI Search & LLM Crawler Clearances
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: DuckDuckGo-Favicons-Bot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
@@ -23,10 +29,19 @@ Allow: /
 User-agent: GoogleOther
 Allow: /
 
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: Bytespider
 Allow: /
 
 User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot
 Allow: /
 
 User-agent: Applebot-Extended
@@ -39,6 +54,12 @@ User-agent: Meta-ExternalAgent
 Allow: /
 
 User-agent: Cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 # LLM Context Documents & Sitemaps

@@ -759,4 +759,71 @@ const topCustomHtml = buildHtmlPage({
 });
 
 fs.writeFileSync(path.join(distDir, "index.html"), topCustomHtml, "utf8");
+
+// 4. 固定ページ (privacy, about, contact) のセマンティックHTMLプリレンダリング
+const staticPages = [
+  {
+    route: 'privacy',
+    title: 'プライバシーポリシー | Qualia Navi',
+    desc: 'Qualia Naviの個人情報保護方針、広告配信およびアフィリエイトプログラム参加開示、Cookie等の取り扱いについて定めたプライバシーポリシーです。',
+    body: `
+      <div style="max-width:800px;margin:40px auto;padding:24px;font-family:sans-serif;color:#1e293b;line-height:1.7;">
+        <h1 style="font-size:1.8rem;font-weight:900;color:#0f172a;border-bottom:2px solid #fda4af;padding-bottom:12px;">プライバシーポリシー</h1>
+        <p style="font-size:0.85rem;color:#64748b;">制定日：2026年4月1日 / 最終改定日：2026年11月25日</p>
+        <section style="margin-top:24px;">
+          <h2 style="font-size:1.2rem;font-weight:800;color:#e11d48;">1. 個人情報の収集・利用目的</h2>
+          <p>Qualia Naviでは、お問い合わせ等でお預かりした個人情報を回答・連絡のみに利用し、他の目的では利用しません。</p>
+        </section>
+        <section style="margin-top:24px;">
+          <h2 style="font-size:1.2rem;font-weight:800;color:#e11d48;">2. 広告配信およびアフィリエイトプログラムについて</h2>
+          <p>当サイトは楽天市場アフィリエイト、Amazonアソシエイト・プログラム（参加者）、Yahoo!ショッピング等のアフィリエイトプログラムに参加しており、適格販売により収入を得ています。</p>
+        </section>
+        <section style="margin-top:24px;">
+          <h2 style="font-size:1.2rem;font-weight:800;color:#e11d48;">3. 免責事項・薬機法順守</h2>
+          <p>化粧品の効能表現は化粧品の標榜可能範囲（56項目）を遵守しています。価格・在庫は各ショップで随時変動します。</p>
+        </section>
+        <p style="margin-top:32px;"><a href="/" style="color:#e11d48;font-weight:700;">トップページへ戻る</a></p>
+      </div>
+    `
+  },
+  {
+    route: 'about',
+    title: '当サイトについて（運営指針） | Qualia Navi',
+    desc: 'Qualia Navi（クオリア・ナビ）の運営方針、コスメ検証基準、薬機法・景品表示法コンプライアンス指針についての紹介ページです。',
+    body: `
+      <div style="max-width:800px;margin:40px auto;padding:24px;font-family:sans-serif;color:#1e293b;line-height:1.7;">
+        <h1 style="font-size:1.8rem;font-weight:900;color:#0f172a;border-bottom:2px solid #fda4af;padding-bottom:12px;">当サイトについて（運営指針）</h1>
+        <p>Qualia Naviは、成分・処方設計・使用感スペック・主要モールの実売価格を多角的に分析し、納得して選べるコスメ情報をお届けする専門検証メディアです。</p>
+        <p style="margin-top:32px;"><a href="/" style="color:#e11d48;font-weight:700;">トップページへ戻る</a></p>
+      </div>
+    `
+  },
+  {
+    route: 'contact',
+    title: 'お問い合わせ | Qualia Navi',
+    desc: 'Qualia Naviに関するご質問、掲載内容へのご指摘・修正依頼、情報提供等のお問い合わせページです。',
+    body: `
+      <div style="max-width:800px;margin:40px auto;padding:24px;font-family:sans-serif;color:#1e293b;line-height:1.7;">
+        <h1 style="font-size:1.8rem;font-weight:900;color:#0f172a;border-bottom:2px solid #fda4af;padding-bottom:12px;">お問い合わせ</h1>
+        <p>掲載内容の修正依頼、ご意見等はフォームまたはメールにてご連絡ください。</p>
+        <p style="margin-top:32px;"><a href="/" style="color:#e11d48;font-weight:700;">トップページへ戻る</a></p>
+      </div>
+    `
+  }
+];
+
+for (const sp of staticPages) {
+  const pageDir = path.join(distDir, sp.route);
+  if (!fs.existsSync(pageDir)) fs.mkdirSync(pageDir, { recursive: true });
+  const html = buildHtmlPage({
+    title: sp.title,
+    description: sp.desc,
+    canonicalUrl: `https://qualia-navi.vercel.app/${sp.route}`,
+    image: 'https://qualia-navi.vercel.app/images/og-default.svg',
+    jsonLd: null,
+    bodyHtml: sp.body
+  });
+  fs.writeFileSync(path.join(pageDir, 'index.html'), html, 'utf8');
+}
+
 console.log(`✨ [Prerender Completed] 全 ${prerenderedCount} ページ（個別記事:${articles.length}, 特集:${blogs.length}, 比較:${comparisons.length}）の静的SEO用完全セマンティックHTMLを出力しました！`);

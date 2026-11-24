@@ -185,8 +185,89 @@ function markdownToSemanticHtml(mdText) {
   return htmlLines.join('\n');
 }
 
+// 共通PR表記バナーHTML
+const prBannerHtml = `
+  <div style="background:#fff1f2;border-bottom:1px solid #fecdd3;padding:10px 16px;text-align:center;font-size:0.75rem;color:#475569;line-height:1.6;">
+    <span style="background:#e11d48;color:#fff;font-weight:900;padding:2px 8px;border-radius:6px;margin-right:6px;font-size:0.7rem;">PR</span>
+    <strong style="color:#0f172a;">本記事はプロモーションを含みます</strong>
+    <span style="color:#64748b;margin-left:6px;">（当サイトは楽天市場、Amazonアソシエイト、Yahoo!ショッピング等のアフィリエイトプログラムに参加しており、適格販売により収入を得ています。価格・送料・ポイント還元率は調査日時点のものであり各モールにて変動します）</span>
+  </div>
+`;
+
+// 3モール価格比較ボックスHTML生成関数（Yahoo!ショッピング最優先）
+function buildThreeMallPriceBoxHtml(item, checkDate = '2026年11月調査') {
+  const rawTitle = item.productName || item.title || 'コスメ';
+  const cleanKeyword = rawTitle
+    .replace(/【.*?】/g, ' ')
+    .replace(/\[.*?\]/g, ' ')
+    .replace(/(最新|限定|正規品|公式|徹底検証|口コミ|送料無料|評判|最安値)/g, ' ')
+    .trim()
+    .split(/\s+/)[0] || rawTitle.slice(0, 15);
+  const encoded = encodeURIComponent(cleanKeyword);
+
+  const asin = item.asin;
+  const amazonUrl = asin
+    ? `https://www.amazon.co.jp/dp/${asin}?tag=mattan0290c-22`
+    : `https://www.amazon.co.jp/s?k=${encoded}&tag=mattan0290c-22`;
+  const yahooUrl = `https://shopping.yahoo.co.jp/search?p=${encoded}`;
+  const rakutenUrl = item.affiliateLink || item.affiliateUrl || `https://hb.afl.rakuten.co.jp/hgc/g00uq6dn.j9rug80d.g00uq6dn.j9ruh5c8/?pc=${encodeURIComponent('https://search.rakuten.co.jp/search/mall/' + cleanKeyword + '/')}`;
+  const refPrice = item.rakutenPrice || item.price || 'オープン価格';
+
+  return `
+    <div style="background:#fff;border:2px solid #fda4af;border-radius:20px;padding:20px;margin:24px 0;box-shadow:0 4px 14px rgba(225,29,72,0.06);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:14px;border-bottom:1px solid #ffe4e6;padding-bottom:12px;">
+        <div>
+          <span style="display:inline-block;background:#e11d48;color:#fff;font-size:11px;font-weight:800;padding:3px 10px;border-radius:9999px;margin-bottom:6px;">主要3モール価格・在庫比較</span>
+          <h3 style="font-size:1.1rem;font-weight:900;color:#0f172a;margin:0;">${escapeHtml(rawTitle)}</h3>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.75rem;color:#64748b;font-weight:700;">参考価格（税込）</div>
+          <div style="font-size:1.2rem;font-weight:900;color:#e11d48;">${escapeHtml(String(refPrice))}</div>
+          <div style="font-size:0.7rem;color:#94a3b8;margin-top:2px;">確認日: ${checkDate}</div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));gap:12px;margin-bottom:14px;">
+        <div style="background:#fef2f2;border:1.5px solid #ff0033;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+              <strong style="color:#0f172a;font-size:0.9rem;">Yahoo!ショッピング</strong>
+              <span style="background:#ffe4e6;color:#e11d48;font-size:10px;font-weight:800;padding:2px 6px;border-radius:6px;">PayPay還元</span>
+            </div>
+            <p style="font-size:0.75rem;color:#64748b;margin:0;line-height:1.4;">送料無料ライン・付与ポイントは各出店ストアにより異なります</p>
+          </div>
+          <a href="${yahooUrl}" target="_blank" rel="nofollow sponsored noopener" style="display:block;text-align:center;background:#ff0033;color:#fff;font-weight:800;font-size:0.85rem;padding:9px;border-radius:8px;text-decoration:none;">Yahoo!で最新価格を見る ❯</a>
+        </div>
+        <div style="background:#fffbeb;border:1.5px solid #ff9900;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+              <strong style="color:#0f172a;font-size:0.9rem;">Amazon</strong>
+              <span style="background:#fef3c7;color:#b45309;font-size:10px;font-weight:800;padding:2px 6px;border-radius:6px;">Prime配送対象</span>
+            </div>
+            <p style="font-size:0.75rem;color:#64748b;margin:0;line-height:1.4;">通常配送2,000円以上またはPrime会員で送料無料</p>
+          </div>
+          <a href="${amazonUrl}" target="_blank" rel="nofollow sponsored noopener" style="display:block;text-align:center;background:#ff9900;color:#0f172a;font-weight:900;font-size:0.85rem;padding:9px;border-radius:8px;text-decoration:none;">Amazonで最新価格を見る ❯</a>
+        </div>
+        <div style="background:#fff1f2;border:1.5px solid #bf0000;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+              <strong style="color:#0f172a;font-size:0.9rem;">楽天市場</strong>
+              <span style="background:#fecdd3;color:#9f1239;font-size:10px;font-weight:800;padding:2px 6px;border-radius:6px;">楽天ポイント</span>
+            </div>
+            <p style="font-size:0.75rem;color:#64748b;margin:0;line-height:1.4;">3,980円以上購入で送料無料ライン対象店舗多数</p>
+          </div>
+          <a href="${rakutenUrl}" target="_blank" rel="nofollow sponsored noopener" style="display:block;text-align:center;background:#bf0000;color:#fff;font-weight:800;font-size:0.85rem;padding:9px;border-radius:8px;text-decoration:none;">楽天市場で最新価格を見る ❯</a>
+        </div>
+      </div>
+      <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:10px 12px;font-size:0.72rem;color:#64748b;line-height:1.5;">
+        <strong style="color:#334155;">※価格・送料・ポイント付与に関する重要事項（有利誤認防止）:</strong> 表記価格は調査日時点の目安です。モール内の出店ストアや開催セールによって実売価格、送料（無料ラインの有無）、ポイント還元率が大きく異なります。「実質最安値」をお探しの際は、送料・獲得予定ポイント・クーポンの適用有無を各ショップの詳細画面にて必ず比較・ご確認ください。
+      </div>
+    </div>
+  `;
+}
+
 function buildHtmlPage({ title, description, canonicalUrl, image, jsonLd, bodyHtml }) {
   const cleanHeadTitle = title.includes('Qualia Navi') ? title : `${title} | Qualia Navi`;
+  // Always replace inside root div safely
   return templateHtml
     .replace(/<title>.*?<\/title>/, `<title>${cleanHeadTitle}</title>`)
     .replace(/<meta name="description" content=".*?"\s*\/?>/, `<meta name="description" content="${description}" />`)
@@ -199,7 +280,7 @@ function buildHtmlPage({ title, description, canonicalUrl, image, jsonLd, bodyHt
       <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
       </head>
     `)
-    .replace('<div id="root"></div>', `<div id="root">${bodyHtml}</div>`);
+    .replace(/<div id="root">([\s\S]*?)<\/div>/, `<div id="root">${bodyHtml}</div>`);
 }
 
 function writeRouteFiles(routeParts, html) {
@@ -342,7 +423,7 @@ articles.forEach((art, index) => {
           <p style="margin:0 0 8px 0;font-size:0.9rem;color:#475569;">
             ${art.rakutenPrice ? `<strong>参考価格:</strong> ${escapeHtml(String(art.rakutenPrice))} ` : ''}
             ${art.shopName ? `| <strong>取扱ショップ:</strong> ${escapeHtml(art.shopName)} ` : ''}
-            ${art.rating ? `| <strong>評価:</strong> ★${escapeHtml(String(art.rating))}（${escapeHtml(String(art.reviewCount || 15))}件）` : ''}
+            ${(art.rating && art.reviewCount && ![8400, 8900].includes(Number(art.reviewCount))) ? `| <strong>評価:</strong> ★${escapeHtml(String(art.rating))}（${escapeHtml(String(art.reviewCount))}件）` : ''}
           </p>
           <a href="${affHref}" target="_blank" rel="nofollow sponsored noopener" style="display:inline-block;background:#e11d48;color:#fff;font-weight:700;font-size:0.85rem;padding:8px 18px;border-radius:8px;text-decoration:none;">楽天市場で詳細・在庫を見る ❯</a>
         </div>
@@ -376,10 +457,12 @@ articles.forEach((art, index) => {
             <span>/</span>
             <span style="color:#0f172a;font-weight:700;">${h1Text}</span>
           </nav>
-          <header style="margin-bottom:24px;">
+          ${prBannerHtml}
+          <header style="margin-bottom:24px;margin-top:16px;">
             <h1 style="font-size:1.75rem;line-height:1.4;color:#0f172a;font-weight:900;margin:0 0 12px 0;">${h1Text}</h1>
             <p style="color:#475569;font-size:0.95rem;line-height:1.7;margin:0;">${escapeHtml(baseIntro || fullDescText)}</p>
           </header>
+          ${buildThreeMallPriceBoxHtml(art)}
           ${specsHtml}
           <div class="article-content" style="line-height:1.85;color:#334155;margin-bottom:40px;">
             ${parsedBody}
@@ -439,8 +522,10 @@ comparisons.forEach((comp) => {
         <nav style="font-size:0.8rem;color:#64748b;margin-bottom:16px;">
           <a href="/">コスメTOP</a> / <a href="/comparisons">VS比較対決一覧</a> / <span>${title}</span>
         </nav>
-        <h1 style="font-size:1.8rem;line-height:1.4;color:#0f172a;font-weight:900;margin-bottom:12px;">${title}</h1>
+        ${prBannerHtml}
+        <h1 style="font-size:1.8rem;line-height:1.4;color:#0f172a;font-weight:900;margin-bottom:12px;margin-top:16px;">${title}</h1>
         <p style="color:#475569;font-size:1rem;line-height:1.7;margin-bottom:20px;">${escapeHtml(comp.subtitle || '')}</p>
+        ${buildThreeMallPriceBoxHtml(comp)}
         <div style="background:#0f172a;color:#fff;padding:20px;border-radius:16px;margin-bottom:24px;">
           <strong style="color:#fcd34d;display:block;margin-bottom:6px;">対決結論 (VERDICT)</strong>
           <p style="margin:0;line-height:1.7;">${escapeHtml(comp.verdictSummary || '')}</p>
@@ -497,8 +582,10 @@ blogs.forEach((blog) => {
         <nav style="font-size:0.8rem;color:#64748b;margin-bottom:16px;">
           <a href="/">コスメTOP</a> / <a href="/features">特集記事一覧</a> / <span>${title}</span>
         </nav>
-        <h1 style="font-size:1.8rem;line-height:1.4;color:#0f172a;font-weight:900;margin-bottom:12px;">${title}</h1>
+        ${prBannerHtml}
+        <h1 style="font-size:1.8rem;line-height:1.4;color:#0f172a;font-weight:900;margin-bottom:12px;margin-top:16px;">${title}</h1>
         <p style="color:#475569;font-size:1rem;line-height:1.7;margin-bottom:24px;">${escapeHtml(blog.subtitle || blog.introText || '')}</p>
+        ${buildThreeMallPriceBoxHtml(blog)}
         <div class="blog-body" style="line-height:1.85;color:#334155;">
           ${parsedBody}
         </div>

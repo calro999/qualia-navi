@@ -44,6 +44,9 @@ export interface RakutenProductArticle {
   parentFeatureSlug?: string;
   tags?: string[];
   shopName?: string;
+  asin?: string;
+  yahooAffiliateUrl?: string; // Yahoo!ショッピング専用アフィリエイトURL（yahoo.jp/短縮リンク等。未設定時はボタン非表示）
+  amazonAffiliateUrl?: string; // Amazon専用アフィリエイトURL（未設定時はASINまたは検索リンク）
 }
 
 export interface AuthorProfile {

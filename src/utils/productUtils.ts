@@ -67,15 +67,16 @@ export interface MallLinkInfo {
 }
 
 export interface ThreeMallLinks {
-  yahoo: MallLinkInfo;
+  yahoo?: MallLinkInfo;
   amazon: MallLinkInfo;
   rakuten: MallLinkInfo;
   ordered: MallLinkInfo[];
 }
 
 /**
- * 楽天・Amazon・Yahoo!ショッピングの3モール比較リンクを生成する関数
- * 表示順は指示に基づきYahoo!ショッピングを最優先位置に配置
+ * 楽天・Amazon・Yahoo!ショッピングのモール比較リンクを生成する関数
+ * Yahooボタンは正式なアフィリエイトリンク(yahooAffiliateUrl)が存在する場合のみ生成・表示。
+ * 未設定時はボタン自体を完全非表示にする。
  */
 export function getMallLinks(article: Partial<RakutenProductArticle>): ThreeMallLinks {
   const rawTitle = article.productName || article.title || 'コスメ';
@@ -90,25 +91,13 @@ export function getMallLinks(article: Partial<RakutenProductArticle>): ThreeMall
 
   // Amazon アソシエイトリンク（タグ: mattan0290c-22）
   const asin = (article as any)?.asin;
-  const amazonUrl = asin
+  const amazonAffiliateUrl = (article as any)?.amazonAffiliateUrl;
+  const amazonUrl = amazonAffiliateUrl || (asin
     ? `https://www.amazon.co.jp/dp/${asin}?tag=mattan0290c-22`
-    : `https://www.amazon.co.jp/s?k=${encodedKeyword}&tag=mattan0290c-22`;
-
-  // Yahoo!ショッピング 検索アフィリエイト導線
-  const yahooUrl = `https://shopping.yahoo.co.jp/search?p=${encodedKeyword}`;
+    : `https://www.amazon.co.jp/s?k=${encodedKeyword}&tag=mattan0290c-22`);
 
   // 楽天市場 アフィリエイトリンク
   const rakutenUrl = getCleanAffiliateLink(article as RakutenProductArticle);
-
-  const yahoo: MallLinkInfo = {
-    mall: 'yahoo',
-    name: 'Yahoo!ショッピング',
-    url: yahooUrl,
-    badge: 'PayPayポイント還元',
-    priceNote: '送料無料条件・付与ポイントは各出店ストアにより異なります',
-    ctaText: 'Yahoo!ショッピングで見る',
-    buttonColor: 'bg-[#ff0033] hover:bg-[#e6002e] text-white'
-  };
 
   const amazon: MallLinkInfo = {
     mall: 'amazon',
@@ -130,11 +119,32 @@ export function getMallLinks(article: Partial<RakutenProductArticle>): ThreeMall
     buttonColor: 'bg-[#bf0000] hover:bg-[#a60000] text-white'
   };
 
-  // 表示順はYahoo!ショッピングを最優先（指示通り）
+  const ordered: MallLinkInfo[] = [];
+
+  // Yahoo!ショッピング: 正式なアフィリエイトリンク(yahooAffiliateUrl)が登録されている場合のみ表示
+  let yahoo: MallLinkInfo | undefined = undefined;
+  const yahooAffiliateUrl = (article as any)?.yahooAffiliateUrl;
+  if (yahooAffiliateUrl && typeof yahooAffiliateUrl === 'string' && yahooAffiliateUrl.trim().length > 0) {
+    yahoo = {
+      mall: 'yahoo',
+      name: 'Yahoo!ショッピング',
+      url: yahooAffiliateUrl.trim(),
+      badge: 'PayPayポイント還元',
+      priceNote: '送料無料条件・付与ポイントは各出店ストアにより異なります',
+      ctaText: 'Yahoo!ショッピングで見る',
+      buttonColor: 'bg-[#ff0033] hover:bg-[#e6002e] text-white'
+    };
+    ordered.push(yahoo);
+  }
+
+  // 楽天・Amazonを追加
+  ordered.push(amazon);
+  ordered.push(rakuten);
+
   return {
     yahoo,
     amazon,
     rakuten,
-    ordered: [yahoo, amazon, rakuten]
+    ordered
   };
 }

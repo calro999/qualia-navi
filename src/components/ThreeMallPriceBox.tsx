@@ -71,8 +71,8 @@ export function ThreeMallPriceBox({ article, variant = 'full', className = '' }:
         </div>
       </div>
 
-      {/* 3モールボタン（Yahoo優先表示） */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {/* モール価格比較ボタン（Yahooはアフィリ登録時のみ表示、Amazon・楽天は常時表示） */}
+      <div className={`grid grid-cols-1 ${mallLinks.ordered.length === 3 ? 'md:grid-cols-3' : 'md:grid-cols-2'} gap-4`}>
         {mallLinks.ordered.map((m) => (
           <div
             key={m.mall}

@@ -194,7 +194,7 @@ const prBannerHtml = `
   </div>
 `;
 
-// 3モール価格比較ボックスHTML生成関数（Yahoo!ショッピング最優先）
+// 価格比較ボックスHTML生成関数（Yahooアフィリ登録時のみYahoo表示、Amazon・楽天は常時表示）
 function buildThreeMallPriceBoxHtml(item, checkDate = '2026年11月調査') {
   const rawTitle = item.productName || item.title || 'コスメ';
   const cleanKeyword = rawTitle
@@ -206,27 +206,20 @@ function buildThreeMallPriceBoxHtml(item, checkDate = '2026年11月調査') {
   const encoded = encodeURIComponent(cleanKeyword);
 
   const asin = item.asin;
-  const amazonUrl = asin
+  const amazonAffiliateUrl = item.amazonAffiliateUrl;
+  const amazonUrl = amazonAffiliateUrl || (asin
     ? `https://www.amazon.co.jp/dp/${asin}?tag=mattan0290c-22`
-    : `https://www.amazon.co.jp/s?k=${encoded}&tag=mattan0290c-22`;
-  const yahooUrl = `https://shopping.yahoo.co.jp/search?p=${encoded}`;
+    : `https://www.amazon.co.jp/s?k=${encoded}&tag=mattan0290c-22`);
+  
+  // YahooアフィリエイトURL（yahoo.jp/短縮リンク等の正式リンクが登録されている場合のみボタン生成）
+  const yahooAffiliateUrl = item.yahooAffiliateUrl && typeof item.yahooAffiliateUrl === 'string' && item.yahooAffiliateUrl.trim().length > 0
+    ? item.yahooAffiliateUrl.trim()
+    : null;
+
   const rakutenUrl = item.affiliateLink || item.affiliateUrl || `https://hb.afl.rakuten.co.jp/hgc/g00uq6dn.j9rug80d.g00uq6dn.j9ruh5c8/?pc=${encodeURIComponent('https://search.rakuten.co.jp/search/mall/' + cleanKeyword + '/')}`;
   const refPrice = item.rakutenPrice || item.price || 'オープン価格';
 
-  return `
-    <div style="background:#fff;border:2px solid #fda4af;border-radius:20px;padding:20px;margin:24px 0;box-shadow:0 4px 14px rgba(225,29,72,0.06);">
-      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:14px;border-bottom:1px solid #ffe4e6;padding-bottom:12px;">
-        <div>
-          <span style="display:inline-block;background:#e11d48;color:#fff;font-size:11px;font-weight:800;padding:3px 10px;border-radius:9999px;margin-bottom:6px;">主要3モール価格・在庫比較</span>
-          <h3 style="font-size:1.1rem;font-weight:900;color:#0f172a;margin:0;">${escapeHtml(rawTitle)}</h3>
-        </div>
-        <div style="text-align:right;">
-          <div style="font-size:0.75rem;color:#64748b;font-weight:700;">参考価格（税込）</div>
-          <div style="font-size:1.2rem;font-weight:900;color:#e11d48;">${escapeHtml(String(refPrice))}</div>
-          <div style="font-size:0.7rem;color:#94a3b8;margin-top:2px;">確認日: ${checkDate}</div>
-        </div>
-      </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));gap:12px;margin-bottom:14px;">
+  const yahooCardHtml = yahooAffiliateUrl ? `
         <div style="background:#fef2f2;border:1.5px solid #ff0033;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;">
           <div>
             <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
@@ -235,8 +228,10 @@ function buildThreeMallPriceBoxHtml(item, checkDate = '2026年11月調査') {
             </div>
             <p style="font-size:0.75rem;color:#64748b;margin:0;line-height:1.4;">送料無料ライン・付与ポイントは各出店ストアにより異なります</p>
           </div>
-          <a href="${yahooUrl}" target="_blank" rel="nofollow sponsored noopener" style="display:block;text-align:center;background:#ff0033;color:#fff;font-weight:800;font-size:0.85rem;padding:9px;border-radius:8px;text-decoration:none;">Yahoo!で最新価格を見る ❯</a>
-        </div>
+          <a href="${yahooAffiliateUrl}" target="_blank" rel="nofollow sponsored noopener" style="display:block;text-align:center;background:#ff0033;color:#fff;font-weight:800;font-size:0.85rem;padding:9px;border-radius:8px;text-decoration:none;">Yahoo!で最新価格を見る ❯</a>
+        </div>` : '';
+
+  const amazonCardHtml = `
         <div style="background:#fffbeb;border:1.5px solid #ff9900;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;">
           <div>
             <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
@@ -246,7 +241,9 @@ function buildThreeMallPriceBoxHtml(item, checkDate = '2026年11月調査') {
             <p style="font-size:0.75rem;color:#64748b;margin:0;line-height:1.4;">通常配送2,000円以上またはPrime会員で送料無料</p>
           </div>
           <a href="${amazonUrl}" target="_blank" rel="nofollow sponsored noopener" style="display:block;text-align:center;background:#ff9900;color:#0f172a;font-weight:900;font-size:0.85rem;padding:9px;border-radius:8px;text-decoration:none;">Amazonで最新価格を見る ❯</a>
-        </div>
+        </div>`;
+
+  const rakutenCardHtml = `
         <div style="background:#fff1f2;border:1.5px solid #bf0000;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;">
           <div>
             <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
@@ -256,7 +253,25 @@ function buildThreeMallPriceBoxHtml(item, checkDate = '2026年11月調査') {
             <p style="font-size:0.75rem;color:#64748b;margin:0;line-height:1.4;">3,980円以上購入で送料無料ライン対象店舗多数</p>
           </div>
           <a href="${rakutenUrl}" target="_blank" rel="nofollow sponsored noopener" style="display:block;text-align:center;background:#bf0000;color:#fff;font-weight:800;font-size:0.85rem;padding:9px;border-radius:8px;text-decoration:none;">楽天市場で最新価格を見る ❯</a>
+        </div>`;
+
+  return `
+    <div style="background:#fff;border:2px solid #fda4af;border-radius:20px;padding:20px;margin:24px 0;box-shadow:0 4px 14px rgba(225,29,72,0.06);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:14px;border-bottom:1px solid #ffe4e6;padding-bottom:12px;">
+        <div>
+          <span style="display:inline-block;background:#e11d48;color:#fff;font-size:11px;font-weight:800;padding:3px 10px;border-radius:9999px;margin-bottom:6px;">主要モール価格・在庫比較</span>
+          <h3 style="font-size:1.1rem;font-weight:900;color:#0f172a;margin:0;">${escapeHtml(rawTitle)}</h3>
         </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.75rem;color:#64748b;font-weight:700;">参考価格（税込）</div>
+          <div style="font-size:1.2rem;font-weight:900;color:#e11d48;">${escapeHtml(String(refPrice))}</div>
+          <div style="font-size:0.7rem;color:#94a3b8;margin-top:2px;">確認日: ${checkDate}</div>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));gap:12px;margin-bottom:14px;">
+        ${yahooCardHtml}
+        ${amazonCardHtml}
+        ${rakutenCardHtml}
       </div>
       <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:10px 12px;font-size:0.72rem;color:#64748b;line-height:1.5;">
         <strong style="color:#334155;">※価格・送料・ポイント付与に関する重要事項（有利誤認防止）:</strong> 表記価格は調査日時点の目安です。モール内の出店ストアや開催セールによって実売価格、送料（無料ラインの有無）、ポイント還元率が大きく異なります。「実質最安値」をお探しの際は、送料・獲得予定ポイント・クーポンの適用有無を各ショップの詳細画面にて必ず比較・ご確認ください。

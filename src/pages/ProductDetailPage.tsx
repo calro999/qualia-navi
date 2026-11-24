@@ -661,12 +661,12 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
             </div>
           </div>
 
-          {/* Pros & Cons Section */}
+          {/* Pros & Savvy Solution Tips Section */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
             <div className="bg-rose-50/50 p-6 rounded-2xl border border-rose-100">
               <h3 className="text-rose-700 font-bold mb-4 flex items-center gap-2">
                 <span className="w-6 h-6 rounded-full bg-rose-100 flex items-center justify-center text-rose-600 text-sm">✓</span>
-                編集部が感じたメリット (Pros)
+                編集部が実感した際立つ魅力・推しポイント
               </h3>
               <ul className="space-y-2">
                 {article.pros?.map((pro: string, i: number) => (
@@ -677,15 +677,15 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
                 ))}
               </ul>
             </div>
-            <div className="bg-blue-50/50 p-6 rounded-2xl border border-blue-100">
-              <h3 className="text-blue-700 font-bold mb-4 flex items-center gap-2">
-                <span className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 text-sm">△</span>
-                気になるデメリット (Cons)
+            <div className="bg-emerald-50/50 p-6 rounded-2xl border border-emerald-100">
+              <h3 className="text-emerald-800 font-bold mb-4 flex items-center gap-2">
+                <span className="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 text-sm">★</span>
+                賢く満足度を最大化するプロの使いこなし技
               </h3>
               <ul className="space-y-2">
                 {article.cons?.map((con: string, i: number) => (
                   <li key={i} className="text-sm text-slate-700 flex items-start gap-2">
-                    <span className="text-blue-500 mt-1">•</span>
+                    <span className="text-emerald-500 mt-1">•</span>
                     <span>{con}</span>
                   </li>
                 ))}

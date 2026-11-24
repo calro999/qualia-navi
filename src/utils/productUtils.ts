@@ -55,3 +55,86 @@ export function deduplicateArticles(articles: RakutenProductArticle[]): RakutenP
 
   return uniqueArticles;
 }
+
+export interface MallLinkInfo {
+  mall: 'yahoo' | 'amazon' | 'rakuten';
+  name: string;
+  url: string;
+  badge: string;
+  priceNote: string;
+  ctaText: string;
+  buttonColor: string;
+}
+
+export interface ThreeMallLinks {
+  yahoo: MallLinkInfo;
+  amazon: MallLinkInfo;
+  rakuten: MallLinkInfo;
+  ordered: MallLinkInfo[];
+}
+
+/**
+ * 楽天・Amazon・Yahoo!ショッピングの3モール比較リンクを生成する関数
+ * 表示順は指示に基づきYahoo!ショッピングを最優先位置に配置
+ */
+export function getMallLinks(article: Partial<RakutenProductArticle>): ThreeMallLinks {
+  const rawTitle = article.productName || article.title || 'コスメ';
+  const cleanKeyword = rawTitle
+    .replace(/【.*?】/g, ' ')
+    .replace(/\[.*?\]/g, ' ')
+    .replace(/(最新|限定|正規品|公式|徹底検証|口コミ|送料無料|評判|最安値)/g, ' ')
+    .trim()
+    .split(/\s+/)[0] || rawTitle.slice(0, 20);
+
+  const encodedKeyword = encodeURIComponent(cleanKeyword);
+
+  // Amazon アソシエイトリンク（タグ: mattan0290c-22）
+  const asin = (article as any)?.asin;
+  const amazonUrl = asin
+    ? `https://www.amazon.co.jp/dp/${asin}?tag=mattan0290c-22`
+    : `https://www.amazon.co.jp/s?k=${encodedKeyword}&tag=mattan0290c-22`;
+
+  // Yahoo!ショッピング 検索アフィリエイト導線
+  const yahooUrl = `https://shopping.yahoo.co.jp/search?p=${encodedKeyword}`;
+
+  // 楽天市場 アフィリエイトリンク
+  const rakutenUrl = getCleanAffiliateLink(article as RakutenProductArticle);
+
+  const yahoo: MallLinkInfo = {
+    mall: 'yahoo',
+    name: 'Yahoo!ショッピング',
+    url: yahooUrl,
+    badge: 'PayPayポイント還元',
+    priceNote: '送料無料条件・付与ポイントは各出店ストアにより異なります',
+    ctaText: 'Yahoo!ショッピングで見る',
+    buttonColor: 'bg-[#ff0033] hover:bg-[#e6002e] text-white'
+  };
+
+  const amazon: MallLinkInfo = {
+    mall: 'amazon',
+    name: 'Amazon',
+    url: amazonUrl,
+    badge: 'プライム翌日配送対象あり',
+    priceNote: '通常配送2,000円以上またはPrime会員で送料無料',
+    ctaText: 'Amazonで最新価格を見る',
+    buttonColor: 'bg-[#ff9900] hover:bg-[#e68a00] text-slate-900 font-extrabold'
+  };
+
+  const rakuten: MallLinkInfo = {
+    mall: 'rakuten',
+    name: '楽天市場',
+    url: rakutenUrl,
+    badge: '楽天ポイント最大16倍',
+    priceNote: '3,980円以上購入で送料無料ライン対象店舗多数',
+    ctaText: '楽天市場で最安値をチェック',
+    buttonColor: 'bg-[#bf0000] hover:bg-[#a60000] text-white'
+  };
+
+  // 表示順はYahoo!ショッピングを最優先（指示通り）
+  return {
+    yahoo,
+    amazon,
+    rakuten,
+    ordered: [yahoo, amazon, rakuten]
+  };
+}

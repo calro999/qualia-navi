@@ -195,18 +195,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-5</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-6</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-7</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -220,12 +208,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-9</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-10</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -255,18 +237,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-15</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-16</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-17</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -291,31 +261,7 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-21</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-22</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-23</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-24</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-25</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -381,19 +327,7 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-36</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-37</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-38</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -412,12 +346,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-41</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-42</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -561,18 +489,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-66</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-67</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-68</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -586,12 +502,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-70</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-71</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -622,12 +532,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-76</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-77</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -670,12 +574,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-84</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-85</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -927,18 +825,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-127</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-128</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-129</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -988,12 +874,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-137</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-138</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -1089,19 +969,7 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-154</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-155</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-156</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -1233,12 +1101,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-178</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-179</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1275,12 +1137,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-185</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-186</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1288,18 +1144,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-187</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-188</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-189</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -1359,42 +1203,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mass-199</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-skincare-serum</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-makeup-base</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-body-uv</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-skincare-cleansing</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-body-odor</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-lip-makeup</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1407,19 +1215,7 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-face-powder</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-cleansing-balm</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-vitaminc</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -1437,31 +1233,7 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-mascara</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-liquid-foundation</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-eyeshadow</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-high-end-skincare</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-hair-oil</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -1485,18 +1257,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-lip-plumper</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-hair-brush</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-enzyme-powder</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -1504,12 +1264,6 @@
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/comparisons/comp-acne-patch</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/comparisons/comp-shampoo</loc>
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
@@ -3847,24 +3601,6 @@
     <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-shiseido</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-takami</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://qualia-navi.vercel.app/articles/autodiscover-dior</loc>
-    <lastmod>2026-11-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://qualia-navi.vercel.app/articles/art-winter-b78-msr-10-ox10009955</loc>

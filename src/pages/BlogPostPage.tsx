@@ -13,6 +13,8 @@ import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft, Star, ArrowRight } 
 import { RakutenBeginnerGuideBanner } from '../components/RakutenBeginnerGuideBanner';
 import { NextActionGuide } from '../components/NextActionGuide';
 import { ComplianceNotice } from '../components/ComplianceNotice';
+import { PrNotice } from '../components/PrNotice';
+import { ThreeMallPriceBox } from '../components/ThreeMallPriceBox';
 
 interface BlogPostPageProps {
   postId: string;
@@ -136,6 +138,9 @@ export function BlogPostPage({ postId, onNavigate }: BlogPostPageProps) {
               {post.title}
             </span>
           </nav>
+
+          {/* PR Disclosure Notice */}
+          <PrNotice className="mb-4" />
 
           {/* Header */}
           <div className="space-y-4">

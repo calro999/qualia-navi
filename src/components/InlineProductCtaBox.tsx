@@ -189,7 +189,7 @@ export function InlineProductCtaBox({ article, variant = 'mid' }: InlineProductC
           <div className="pt-1 space-y-2.5">
             <div className="flex items-baseline justify-between flex-wrap gap-2">
               <span className="text-xs text-slate-600 font-bold">
-                楽天市場 参考最安値: <strong className="text-lg sm:text-xl font-black text-rose-600 ml-1">{price}</strong>
+                楽天市場 各モール参考価格: <strong className="text-lg sm:text-xl font-black text-rose-600 ml-1">{price}</strong>
               </span>
               <span className="text-[11px] text-rose-600 font-extrabold">
                 {promo.subText}
@@ -203,7 +203,7 @@ export function InlineProductCtaBox({ article, variant = 'mid' }: InlineProductC
               className="w-full py-4 px-6 bg-gradient-to-r from-red-600 via-rose-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white font-black text-sm sm:text-base rounded-2xl shadow-lg shadow-rose-200 hover:shadow-xl transition-all flex items-center justify-center gap-2.5 transform hover:-translate-y-0.5"
             >
               <ShoppingCart className="w-5 h-5" />
-              <span>{article.ctaTitle || '楽天市場で最安値・口コミ・在庫をチェックする 👉'}</span>
+              <span>{article.ctaTitle || '主要モールで最新価格・在庫・口コミをチェックする 👉'}</span>
               <ExternalLink className="w-4 h-4" />
             </a>
           </div>

@@ -194,9 +194,10 @@ export default function App() {
         本文へスキップ
       </a>
 
-      {/* 景品表示法・ステマ規制対応 PR / アフィリエイト広告開示バー */}
-      <div className="bg-rose-50/90 border-b border-rose-100 text-slate-500 text-[11px] py-1.5 px-4 text-center leading-relaxed">
-        <span>【PR】当サイトは楽天市場アフィリエイトプログラムに参加しており、適格販売により収入を得ています。掲載している商品価格・ポイント還元率・在庫状況等は記事作成・更新時点のものであり、各ショップの販売状況によって変動する場合があります。最新の正確な情報につきましては各楽天市場ページにてご確認ください。</span>
+      {/* 景品表示法・ステマ規制対応 PR / 3モールアフィリエイト広告開示バー */}
+      <div className="bg-rose-50/90 border-b border-rose-200 text-slate-600 text-[11px] py-1.5 px-4 text-center leading-relaxed">
+        <span className="font-extrabold text-rose-700 mr-1.5">【PR・広告掲載】</span>
+        <span>本サイトは楽天市場、Amazonアソシエイト、Yahoo!ショッピング等のアフィリエイトプログラムに参加しており、適格販売により収入を得ています。掲載価格・ポイント倍率・送料等の情報は調査日時点の参考情報であり、各販売モールにて随時変動します。</span>
       </div>
 
       {/* 読了プログレスバー */}

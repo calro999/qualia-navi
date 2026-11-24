@@ -6,6 +6,8 @@ import { TableOfContents } from '../components/TableOfContents';
 import { ShareButtons } from '../components/ShareButtons';
 import { InternalLinkMesh } from '../components/InternalLinkMesh';
 import { InlineProductCtaBox, useRakutenPromoMicrocopy } from '../components/InlineProductCtaBox';
+import { PrNotice } from '../components/PrNotice';
+import { ThreeMallPriceBox } from '../components/ThreeMallPriceBox';
 import { QuickComparisonTable } from '../components/QuickComparisonTable';
 import { handleImageError, getRakutenOptimizedImageUrl } from '../utils/imageHelper';
 import { generateProductJsonLd, updateSeoGeoMetadata } from '../utils/seoGeo';
@@ -341,6 +343,9 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
               </button>
             </div>
 
+            {/* PR Disclosure Notice */}
+            <PrNotice className="mb-4" />
+
             {/* Title */}
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-xs text-slate-500 font-semibold">
@@ -544,6 +549,9 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
             </button>
           </div>
 
+          {/* PR Disclosure Notice */}
+          <PrNotice className="mb-4" />
+
           {/* Title Header */}
           <div className="space-y-3">
             <div className="flex items-center gap-2 flex-wrap">
@@ -634,8 +642,9 @@ export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDe
                 </div>
               )}
 
-              {/* CTA 1 Button */}
+              {/* 3モール価格比較ボックス (Yahoo最優先) */}
               <div className="pt-2 space-y-3">
+                <ThreeMallPriceBox article={article} variant="compact" />
                 <div className="flex items-center justify-between text-xs">
                   <span className="text-slate-500 font-medium">楽天市場 最安値参考:</span>
                   <span className="font-extrabold text-rose-600 text-base">{article.rakutenPrice}</span>

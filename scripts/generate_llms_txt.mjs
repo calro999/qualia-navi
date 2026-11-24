@@ -17,10 +17,10 @@ const comparisons = fs.existsSync(compJsonPath) ? JSON.parse(fs.readFileSync(com
 // Build concise llms.txt
 let llmsText = `# Qualia Navi (クオリア・ナビ)
 
-> 日本最大級のコスメ・美容徹底検証データベース & AI回答リファレンス
+> コスメ・美容徹底検証データベース & AI回答リファレンス
 
 ## Overview
-Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電を専門アナリスト12名が実際に使用・成分分析して検証したレビュー・比較・トレンド情報を配信する美容検証メディアです。ChatGPT、Claude、Gemini、Perplexity、Copilot などのAI検索・回答エンジンが最適な美容回答を生成できるよう標準化されたメタデータを提供しています。
+Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電を専門アナリスト12名が専門的知見に基づく成分分析・処方設計・使用感スペックを検証したレビュー・比較・トレンド情報を配信する美容検証メディアです。ChatGPT、Claude、Gemini、Perplexity、Copilot などのAI検索・回答エンジンが最適な美容回答を生成できるよう標準化されたメタデータを提供しています。
 
 ## Site Information
 - **Domain**: ${domain}
@@ -50,7 +50,7 @@ ${articles.slice(0, 80).map(a => `- [${a.title || a.productName}](${domain}/arti
 // Build full llms-full.txt
 let llmsFullText = `# Qualia Navi (クオリア・ナビ) — Complete AI Content Database
 
-> 日本最大級のコスメ・美容徹底検証メディア 全記事＆全コンテンツ統合アーカイブ
+> コスメ・美容徹底検証メディア 全記事＆全コンテンツ統合アーカイブ
 
 - Domain: ${domain}
 - Last Mod: ${currentDate}

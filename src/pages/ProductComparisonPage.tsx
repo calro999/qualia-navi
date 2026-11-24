@@ -12,6 +12,8 @@ import { getCleanAffiliateLink } from '../utils/productUtils';
 import { ShoppingCart, ExternalLink, ShieldCheck, ArrowLeft, Trophy, ArrowRight, Star } from 'lucide-react';
 import { RakutenBeginnerGuideBanner } from '../components/RakutenBeginnerGuideBanner';
 import { ComplianceNotice } from '../components/ComplianceNotice';
+import { PrNotice } from '../components/PrNotice';
+import { ThreeMallPriceBox } from '../components/ThreeMallPriceBox';
 import { StickyMobileCtaBar } from '../components/StickyMobileCtaBar';
 
 interface ProductComparisonPageProps {

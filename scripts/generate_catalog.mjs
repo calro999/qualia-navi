@@ -480,12 +480,21 @@ if (fs.existsSync(dataTsPath)) {
       if (fs.existsSync(mapPath)) {
         const affiliateMap = JSON.parse(fs.readFileSync(mapPath, 'utf8'));
         blogs.forEach((b) => {
-          const pathKey = `/features/${b.slug || b.id}`;
-          const altKey = `/features/feat-${b.slug || b.id}`;
-          const altKey2 = `/features/${(b.slug || b.id).replace('feat-', '')}`;
-          const foundUrl = affiliateMap[pathKey] || affiliateMap[altKey] || affiliateMap[altKey2];
-          if (foundUrl) {
-            b.yahooAffiliateUrl = foundUrl;
+          const keys = [
+            `/features/${b.slug}`,
+            `/features/${b.id}`,
+            `/features/feat-${b.slug}`,
+            `/features/blog-${b.slug}`,
+            `/features/${(b.slug || '').replace('feat-', '')}`,
+            `/features/${(b.slug || '').replace('blog-', '')}`,
+            `/features/${(b.id || '').replace('feat-', '')}`,
+            `/features/${(b.id || '').replace('blog-', '')}`
+          ];
+          for (const k of keys) {
+            if (affiliateMap[k]) {
+              b.yahooAffiliateUrl = affiliateMap[k];
+              break;
+            }
           }
         });
       }

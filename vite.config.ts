@@ -20,6 +20,7 @@ export default defineConfig(() => {
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
     build: {
+      emptyOutDir: false,
       cssCodeSplit: true,
       chunkSizeWarningLimit: 3000,
       rollupOptions: {

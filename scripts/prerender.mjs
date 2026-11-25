@@ -18,6 +18,11 @@ const templateHtml = fs.readFileSync(templateHtmlPath, 'utf8');
 const articlesJsonPath = path.join(projectRoot, 'src', 'data', 'articles.json');
 const blogsJsonPath = path.join(projectRoot, 'public', 'data', 'blogs.json');
 const comparisonsJsonPath = path.join(projectRoot, 'public', 'data', 'comparisons.json');
+const yahooAffiliateMapPath = path.join(projectRoot, 'src', 'data', 'yahooAffiliateMap.json');
+
+const yahooAffiliateMap = fs.existsSync(yahooAffiliateMapPath)
+  ? JSON.parse(fs.readFileSync(yahooAffiliateMapPath, 'utf8'))
+  : {};
 
 const articles = fs.existsSync(articlesJsonPath)
   ? JSON.parse(fs.readFileSync(articlesJsonPath, 'utf8'))
@@ -28,6 +33,25 @@ const blogs = fs.existsSync(blogsJsonPath)
 const comparisons = fs.existsSync(comparisonsJsonPath)
   ? JSON.parse(fs.readFileSync(comparisonsJsonPath, 'utf8'))
   : [];
+
+// 各記事・ブログへ明示的にマップのyahooAffiliateUrlを付与（重複安全）
+const articlesMap = new Map(articles.map(a => [a.id, a]));
+articles.forEach(a => {
+  const mapUrl = yahooAffiliateMap[`/articles/${a.id}`];
+  if (mapUrl) {
+    a.yahooAffiliateUrl = mapUrl;
+  }
+});
+
+blogs.forEach(b => {
+  const pathKey = `/features/${b.slug || b.id}`;
+  const altKey = `/features/feat-${b.slug || b.id}`;
+  const altKey2 = `/features/${(b.slug || b.id).replace('feat-', '')}`;
+  const mapUrl = yahooAffiliateMap[pathKey] || yahooAffiliateMap[altKey] || yahooAffiliateMap[altKey2];
+  if (mapUrl) {
+    b.yahooAffiliateUrl = mapUrl;
+  }
+});
 
 function escapeHtml(str) {
   if (!str) return '';
@@ -591,6 +615,19 @@ blogs.forEach((blog) => {
   const image = normalizeImageUrl(blog.coverImage);
   const parsedBody = markdownToSemanticHtml(blog.contentMarkdown || '');
 
+  // 特集ページ（/features/）ではランキング1位（主題商品）のデータまたは特集自体のyahooAffiliateUrlを渡す
+  let featurePriceBoxTarget = blog;
+  if (Array.isArray(blog.recommendedItemCodes) && blog.recommendedItemCodes.length > 0) {
+    const rank1Code = blog.recommendedItemCodes[0];
+    const rank1Art = articles.find(a => a.id === rank1Code || a.itemCode === rank1Code);
+    if (rank1Art) {
+      featurePriceBoxTarget = {
+        ...rank1Art,
+        yahooAffiliateUrl: blog.yahooAffiliateUrl || rank1Art.yahooAffiliateUrl
+      };
+    }
+  }
+
   const bodyHtml = `
     <div style="min-height:100vh;background-color:#fdfaf8;font-family:sans-serif;color:#0f172a;padding:24px 16px;">
       <article style="max-width:860px;margin:0 auto;background:#fff;padding:32px 24px;border-radius:24px;border:1px solid #ffe4e6;">
@@ -600,7 +637,7 @@ blogs.forEach((blog) => {
         ${prBannerHtml}
         <h1 style="font-size:1.8rem;line-height:1.4;color:#0f172a;font-weight:900;margin-bottom:12px;margin-top:16px;">${title}</h1>
         <p style="color:#475569;font-size:1rem;line-height:1.7;margin-bottom:24px;">${escapeHtml(blog.subtitle || blog.introText || '')}</p>
-        ${buildThreeMallPriceBoxHtml(blog)}
+        ${buildThreeMallPriceBoxHtml(featurePriceBoxTarget)}
         <div class="blog-body" style="line-height:1.85;color:#334155;">
           ${parsedBody}
         </div>

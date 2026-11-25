@@ -413,6 +413,9 @@ articles.forEach(art => {
     reviewerRole: art.reviewerRole || '専属コスメアナリスト',
     ctaTitle: art.ctaTitle || '楽天市場で最安値・在庫をチェックする 👉',
     shopName,
+    yahooAffiliateUrl: art.yahooAffiliateUrl,
+    amazonAffiliateUrl: art.amazonAffiliateUrl,
+    asin: art.asin,
     isHallOfFame: !!art.isHallOfFame || (starRating >= 4.75 && reviewCount >= 120),
     isContentArticle,
     createdAt: art.createdAt || art.date || '2026-10-15'
@@ -471,6 +474,22 @@ if (fs.existsSync(dataTsPath)) {
     try {
       const blogs = vm.runInNewContext(`(${blogCode})`);
       const comparisons = vm.runInNewContext(`(${compCode})`);
+
+      // yahooAffiliateMap.json から特集・記事へのリンク適用
+      const mapPath = path.join(projectRoot, 'src', 'data', 'yahooAffiliateMap.json');
+      if (fs.existsSync(mapPath)) {
+        const affiliateMap = JSON.parse(fs.readFileSync(mapPath, 'utf8'));
+        blogs.forEach((b) => {
+          const pathKey = `/features/${b.slug || b.id}`;
+          const altKey = `/features/feat-${b.slug || b.id}`;
+          const altKey2 = `/features/${(b.slug || b.id).replace('feat-', '')}`;
+          const foundUrl = affiliateMap[pathKey] || affiliateMap[altKey] || affiliateMap[altKey2];
+          if (foundUrl) {
+            b.yahooAffiliateUrl = foundUrl;
+          }
+        });
+      }
+
       fs.writeFileSync(path.join(publicDataDir, 'blogs.json'), JSON.stringify(blogs), 'utf8');
       fs.writeFileSync(path.join(publicDataDir, 'comparisons.json'), JSON.stringify(comparisons), 'utf8');
       console.log(`✅ [Catalog Generator] 特集ブログ ${blogs.length} 件・VS比較 ${comparisons.length} 件を public/data/ に完全出力完了！`);

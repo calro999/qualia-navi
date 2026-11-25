@@ -8,7 +8,7 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 ## Site Information
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
-- **Last Mod**: 2026-11-24
+- **Last Mod**: 2026-11-25
 - **Total Product & Feature Articles**: 3638 件
 - **Total Special Feature Guides**: 388 件
 - **Total VS Comparisons**: 191 件

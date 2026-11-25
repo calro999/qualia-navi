@@ -53,7 +53,8 @@ const REVERSE_FEATURE_ALIASES = {
   'feat-winter-microneedle-hyaluron-patch-wrinkle-repair-2026': ['/features/feat-winter-microneedle-patch-eye-care-2026', '/features/winter-microneedle-patch-eye-care-2026'],
   'feat-winter-micro-needle-patch-hyaluronic-acid-anti-wrinkle-2026': ['/features/feat-winter-microneedle-patch-under-eye-care-2026', '/features/winter-microneedle-patch-under-eye-care-2026'],
   'feat-winter-hand-cream-nail-oil-repair-2026': ['/features/feat-winter-hand-cream-drugstore-budget-2026', '/features/winter-hand-cream-drugstore-budget-2026'],
-  'feat-winter-medicinal-hand-cream-repair-moist-balm-2026': ['/features/feat-winter-hand-cream-medicated-care-2026', '/features/winter-hand-cream-medicated-care-2026']
+  'feat-winter-medicinal-hand-cream-repair-moist-balm-2026': ['/features/feat-winter-hand-cream-medicated-care-2026', '/features/winter-hand-cream-medicated-care-2026'],
+  'feat-winter-hydrating-tone-up-cc-serum-bb-cream-2026': ['/features/feat-winter-hydrating-tone-up-cc-serum-bb-2026', '/features/winter-hydrating-tone-up-cc-serum-bb-2026']
 };
 
 blogs.forEach(b => {
@@ -713,7 +714,8 @@ blogs.forEach((blog) => {
     'feat-winter-microneedle-hyaluron-patch-wrinkle-repair-2026': ['feat-winter-microneedle-patch-eye-care-2026', 'winter-microneedle-patch-eye-care-2026'],
     'feat-winter-micro-needle-patch-hyaluronic-acid-anti-wrinkle-2026': ['feat-winter-microneedle-patch-under-eye-care-2026', 'winter-microneedle-patch-under-eye-care-2026'],
     'feat-winter-hand-cream-nail-oil-repair-2026': ['feat-winter-hand-cream-drugstore-budget-2026', 'winter-hand-cream-drugstore-budget-2026'],
-    'feat-winter-medicinal-hand-cream-repair-moist-balm-2026': ['feat-winter-hand-cream-medicated-care-2026', 'winter-hand-cream-medicated-care-2026']
+    'feat-winter-medicinal-hand-cream-repair-moist-balm-2026': ['feat-winter-hand-cream-medicated-care-2026', 'winter-hand-cream-medicated-care-2026'],
+    'feat-winter-hydrating-tone-up-cc-serum-bb-cream-2026': ['feat-winter-hydrating-tone-up-cc-serum-bb-2026', 'winter-hydrating-tone-up-cc-serum-bb-2026']
   };
 
   const aliases = FEATURE_ALIASES[blog.id] || [];

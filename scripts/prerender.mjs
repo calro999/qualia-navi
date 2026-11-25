@@ -43,11 +43,34 @@ articles.forEach(a => {
   }
 });
 
+const REVERSE_FEATURE_ALIASES = {
+  'feat-winter-holiday-coffret-makeup-collection-2026': ['/features/feat-winter-holiday-coffret-gift-guide-2026', '/features/winter-holiday-coffret-gift-guide-2026'],
+  'feat-winter-holiday-coffret-makeup-kit-2026': ['/features/feat-winter-holiday-makeup-coffret-2026', '/features/winter-holiday-makeup-coffret-2026'],
+  'feat-winter-hydrating-scalp-lotion-serum-relief-2026': ['/features/feat-winter-dry-scalp-care-moisturizing-2026', '/features/winter-dry-scalp-care-moisturizing-2026'],
+  'feat-winter-medicinal-scalp-moisture-lotion-ceramide-2026': ['/features/feat-winter-scalp-care-dry-itchy-2026', '/features/winter-scalp-care-dry-itchy-2026'],
+  'feat-winter-neck-decollete-firming-cream-care-2026': ['/features/feat-winter-neck-decollete-firming-care-2026', '/features/winter-neck-decollete-firming-care-2026'],
+  'feat-winter-neck-decollete-wrinkle-firming-cream-2026': ['/features/feat-winter-neck-decollete-firming-cream-2026', '/features/winter-neck-decollete-firming-cream-2026'],
+  'feat-winter-microneedle-hyaluron-patch-wrinkle-repair-2026': ['/features/feat-winter-microneedle-patch-eye-care-2026', '/features/winter-microneedle-patch-eye-care-2026'],
+  'feat-winter-micro-needle-patch-hyaluronic-acid-anti-wrinkle-2026': ['/features/feat-winter-microneedle-patch-under-eye-care-2026', '/features/winter-microneedle-patch-under-eye-care-2026'],
+  'feat-winter-hand-cream-nail-oil-repair-2026': ['/features/feat-winter-hand-cream-drugstore-budget-2026', '/features/winter-hand-cream-drugstore-budget-2026'],
+  'feat-winter-medicinal-hand-cream-repair-moist-balm-2026': ['/features/feat-winter-hand-cream-medicated-care-2026', '/features/winter-hand-cream-medicated-care-2026']
+};
+
 blogs.forEach(b => {
   const pathKey = `/features/${b.slug || b.id}`;
   const altKey = `/features/feat-${b.slug || b.id}`;
   const altKey2 = `/features/${(b.slug || b.id).replace('feat-', '')}`;
-  const mapUrl = yahooAffiliateMap[pathKey] || yahooAffiliateMap[altKey] || yahooAffiliateMap[altKey2];
+  let mapUrl = yahooAffiliateMap[pathKey] || yahooAffiliateMap[altKey] || yahooAffiliateMap[altKey2];
+  
+  if (!mapUrl && REVERSE_FEATURE_ALIASES[b.id]) {
+    for (const aliasKey of REVERSE_FEATURE_ALIASES[b.id]) {
+      if (yahooAffiliateMap[aliasKey]) {
+        mapUrl = yahooAffiliateMap[aliasKey];
+        break;
+      }
+    }
+  }
+
   if (mapUrl) {
     b.yahooAffiliateUrl = mapUrl;
   }
@@ -678,6 +701,27 @@ blogs.forEach((blog) => {
     writeRouteFiles(['blogs', blog.slug], customHtml);
     writeRouteFiles(['blog', blog.slug], customHtml);
   }
+
+  // 特集エイリアスマッピング（Yahooアフィリ指示ファイル記載の別名スラッグ対応）
+  const FEATURE_ALIASES = {
+    'feat-winter-holiday-coffret-makeup-collection-2026': ['feat-winter-holiday-coffret-gift-guide-2026', 'winter-holiday-coffret-gift-guide-2026'],
+    'feat-winter-holiday-coffret-makeup-kit-2026': ['feat-winter-holiday-makeup-coffret-2026', 'winter-holiday-makeup-coffret-2026'],
+    'feat-winter-hydrating-scalp-lotion-serum-relief-2026': ['feat-winter-dry-scalp-care-moisturizing-2026', 'winter-dry-scalp-care-moisturizing-2026'],
+    'feat-winter-medicinal-scalp-moisture-lotion-ceramide-2026': ['feat-winter-scalp-care-dry-itchy-2026', 'winter-scalp-care-dry-itchy-2026'],
+    'feat-winter-neck-decollete-firming-cream-care-2026': ['feat-winter-neck-decollete-firming-care-2026', 'winter-neck-decollete-firming-care-2026'],
+    'feat-winter-neck-decollete-wrinkle-firming-cream-2026': ['feat-winter-neck-decollete-firming-cream-2026', 'winter-neck-decollete-firming-cream-2026'],
+    'feat-winter-microneedle-hyaluron-patch-wrinkle-repair-2026': ['feat-winter-microneedle-patch-eye-care-2026', 'winter-microneedle-patch-eye-care-2026'],
+    'feat-winter-micro-needle-patch-hyaluronic-acid-anti-wrinkle-2026': ['feat-winter-microneedle-patch-under-eye-care-2026', 'winter-microneedle-patch-under-eye-care-2026'],
+    'feat-winter-hand-cream-nail-oil-repair-2026': ['feat-winter-hand-cream-drugstore-budget-2026', 'winter-hand-cream-drugstore-budget-2026'],
+    'feat-winter-medicinal-hand-cream-repair-moist-balm-2026': ['feat-winter-hand-cream-medicated-care-2026', 'winter-hand-cream-medicated-care-2026']
+  };
+
+  const aliases = FEATURE_ALIASES[blog.id] || [];
+  aliases.forEach(aliasSlug => {
+    writeRouteFiles(['features', aliasSlug], customHtml);
+    writeRouteFiles(['blogs', aliasSlug], customHtml);
+    writeRouteFiles(['blog', aliasSlug], customHtml);
+  });
 
   prerenderedCount++;
 });

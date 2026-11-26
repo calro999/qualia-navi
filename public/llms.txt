@@ -8,7 +8,7 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 ## Site Information
 - **Domain**: https://qualia-navi.vercel.app
 - **Sitemap**: https://qualia-navi.vercel.app/sitemap.xml
-- **Last Mod**: 2026-11-25
+- **Last Mod**: 2026-11-26
 - **Total Product & Feature Articles**: 3638 件
 - **Total Special Feature Guides**: 388 件
 - **Total VS Comparisons**: 191 件
@@ -16,7 +16,7 @@ Qualia Navi は、プチプラ・デパコス・韓国コスメ・美容家電�
 ## Main Content Direct Links
 
 ### 1. Special Feature Blogs (特集・10選ガイド 全388件)
-- [【2026年11月最新・総まとめ】全24ジャンル別コスメ人気ランキング総合ハブ（計556アイテム毎日更新）](https://qualia-navi.vercel.app/features/feat-2026-11-monthly-cosme-grand-hub): 2026年11月の口紅・チーク・アイシャドウ・下地・ファンデ・化粧水・美容液・美容家電まで全24ジャンルのstarRatingランキングと新着アイテムを毎日更新で集約。
+- [【2026年11月最新・総まとめ】全24ジャンル別コスメ人気ランキング総合ハブ（計559アイテム毎日更新）](https://qualia-navi.vercel.app/features/feat-2026-11-monthly-cosme-grand-hub): 2026年11月の口紅・チーク・アイシャドウ・下地・ファンデ・化粧水・美容液・美容家電まで全24ジャンルのstarRatingランキングと新着アイテムを毎日更新で集約。
 - [【2026年11月最新】口紅・リップスティックおすすめ人気ランキング＆徹底レビュー【毎日更新】](https://qualia-navi.vercel.app/features/feat-2026-11-lipstick): 木枯らしと暖房の始動で一気に水分が奪われ、ホリデーイベントや限定コフレへの注目も高まる11月。楽天市場の最新評価・レビュー実績データと実使用目線の検証をもとに、2026年11月に本
 - [【2026年11月最新】リップティント・プランパー・グロスおすすめ人気ランキング＆徹底レビュー【毎日更新】](https://qualia-navi.vercel.app/features/feat-2026-11-lip-tint): 木枯らしと暖房の始動で一気に水分が奪われ、ホリデーイベントや限定コフレへの注目も高まる11月。楽天市場の最新評価・レビュー実績データと実使用目線の検証をもとに、2026年11月に本
 - [【2026年11月最新】アイシャドウ・パレットおすすめ人気ランキング＆徹底レビュー【毎日更新】](https://qualia-navi.vercel.app/features/feat-2026-11-eyeshadow): 木枯らしと暖房の始動で一気に水分が奪われ、ホリデーイベントや限定コフレへの注目も高まる11月。楽天市場の最新評価・レビュー実績データと実使用目線の検証をもとに、2026年11月に本

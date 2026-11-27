@@ -1,5 +1,7 @@
 import React from 'react';
 import { INITIAL_COMPARISONS, INITIAL_ARTICLES } from '../data';
+import yahooAffiliateMapRaw from '../data/yahooAffiliateMap.json';
+const yahooAffiliateMap: Record<string, string> = yahooAffiliateMapRaw;
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
 import { TableOfContents } from '../components/TableOfContents';
 import { ShareButtons } from '../components/ShareButtons';
@@ -30,7 +32,10 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
     const found = INITIAL_ARTICLES.find(
       (a) => a.itemCode === comparison.productItemCodeA || a.id === comparison.productItemCodeA
     );
-    if (found) return found;
+    if (found) {
+      const yahooUrl = yahooAffiliateMap[`/comparisons/${comparison.id}#itemA`];
+      return yahooUrl ? { ...found, yahooAffiliateUrl: yahooUrl } : found;
+    }
 
     // カタログに未登録だった場合のスマートフォールバック（無関係な商品へのすり替わりを防止）
     const titleParts = comparison.title.replace(/^【.*?】/, '').split(/\s+vs\s+/i);
@@ -44,7 +49,8 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
       rating: 4.8,
       category: 'skincare',
       introText: comparison.subtitle,
-      affiliateLink: `https://hb.afl.rakuten.co.jp/hgc/g00s54yn.j9rug64b.g00s54yn.j9ruh971/?pc=${encodeURIComponent('https://search.rakuten.co.jp/search/mall/' + inferredName)}`
+      affiliateLink: `https://hb.afl.rakuten.co.jp/hgc/g00s54yn.j9rug64b.g00s54yn.j9ruh971/?pc=${encodeURIComponent('https://search.rakuten.co.jp/search/mall/' + inferredName)}`,
+      yahooAffiliateUrl: yahooAffiliateMap[`/comparisons/${comparison.id}#itemA`] || undefined
     } as any;
   }, [comparison]);
 
@@ -53,7 +59,10 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
     const found = INITIAL_ARTICLES.find(
       (a) => a.itemCode === comparison.productItemCodeB || a.id === comparison.productItemCodeB
     );
-    if (found) return found;
+    if (found) {
+      const yahooUrl = yahooAffiliateMap[`/comparisons/${comparison.id}#itemB`];
+      return yahooUrl ? { ...found, yahooAffiliateUrl: yahooUrl } : found;
+    }
 
     // カタログに未登録だった場合のスマートフォールバック（無関係な商品へのすり替わりを防止）
     const titleParts = comparison.title.replace(/^【.*?】/, '').split(/\s+vs\s+/i);
@@ -210,6 +219,16 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
                   <span>楽天市場で最安値・在庫を見る</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
+                {itemA.yahooAffiliateUrl && (
+                  <a
+                    href={itemA.yahooAffiliateUrl}
+                    target="_blank"
+                    rel="nofollow sponsored noopener"
+                    className="w-full py-2.5 px-4 bg-[#ff0033] hover:bg-[#d6002b] text-white font-extrabold text-xs rounded-xl flex items-center justify-center gap-1.5 shadow-sm transition"
+                  >
+                    <span>Yahoo!で最新価格を見る ❯</span>
+                  </a>
+                )}
                 <button
                   onClick={() => onNavigate(`/articles/${itemA.id}`)}
                   className="w-full py-2 text-[11px] font-bold text-slate-600 hover:text-rose-600 bg-slate-50 hover:bg-rose-50 rounded-xl flex items-center justify-center gap-1 transition cursor-pointer"
@@ -267,6 +286,16 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
                   <span>楽天市場で最安値・在庫を見る</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
+                {itemB.yahooAffiliateUrl && (
+                  <a
+                    href={itemB.yahooAffiliateUrl}
+                    target="_blank"
+                    rel="nofollow sponsored noopener"
+                    className="w-full py-2.5 px-4 bg-[#ff0033] hover:bg-[#d6002b] text-white font-extrabold text-xs rounded-xl flex items-center justify-center gap-1.5 shadow-sm transition"
+                  >
+                    <span>Yahoo!で最新価格を見る ❯</span>
+                  </a>
+                )}
                 <button
                   onClick={() => onNavigate(`/articles/${itemB.id}`)}
                   className="w-full py-2 text-[11px] font-bold text-slate-600 hover:text-indigo-600 bg-slate-50 hover:bg-indigo-50 rounded-xl flex items-center justify-center gap-1 transition cursor-pointer"

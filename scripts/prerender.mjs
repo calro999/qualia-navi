@@ -579,6 +579,40 @@ comparisons.forEach((comp) => {
       </section>`
     : '';
 
+  // 比較対象の2商品（itemA / itemB）を特定
+  const rawArtA = articlesMap.get(comp.productItemCodeA);
+  const rawArtB = articlesMap.get(comp.productItemCodeB);
+  const titleParts = comp.title.replace(/^【.*?】/, "").split(/\s+vs\s+/i);
+  const inferredNameA = titleParts[0]?.trim() || "注目コスメA";
+  const inferredNameB = titleParts[1]?.split(/\s+/)[0]?.trim() || "注目コスメB";
+
+  const compArtA = {
+    ...(rawArtA || {}),
+    id: comp.productItemCodeA,
+    title: rawArtA?.title || inferredNameA,
+    productName: rawArtA?.productName || inferredNameA,
+    yahooAffiliateUrl: yahooAffiliateMap[`/comparisons/${comp.id}#itemA`] || null
+  };
+  const compArtB = {
+    ...(rawArtB || {}),
+    id: comp.productItemCodeB,
+    title: rawArtB?.title || inferredNameB,
+    productName: rawArtB?.productName || inferredNameB,
+    yahooAffiliateUrl: yahooAffiliateMap[`/comparisons/${comp.id}#itemB`] || null
+  };
+
+  const compPriceBoxesHtml = `
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:16px;margin:24px 0;">
+      <div>
+        <div style="font-size:0.85rem;font-weight:900;color:#e11d48;margin-bottom:6px;">【ENTRY A】 ${escapeHtml(compArtA.productName || compArtA.title)}</div>
+        ${buildThreeMallPriceBoxHtml(compArtA)}
+      </div>
+      <div>
+        <div style="font-size:0.85rem;font-weight:900;color:#4f46e5;margin-bottom:6px;">【ENTRY B】 ${escapeHtml(compArtB.productName || compArtB.title)}</div>
+        ${buildThreeMallPriceBoxHtml(compArtB)}
+      </div>
+    </div>`;
+
   const bodyHtml = `
     <div style="min-height:100vh;background-color:#fdfaf8;font-family:sans-serif;color:#0f172a;padding:24px 16px;">
       <article style="max-width:860px;margin:0 auto;background:#fff;padding:32px 24px;border-radius:24px;border:1px solid #ffe4e6;">
@@ -588,7 +622,7 @@ comparisons.forEach((comp) => {
         ${prBannerHtml}
         <h1 style="font-size:1.8rem;line-height:1.4;color:#0f172a;font-weight:900;margin-bottom:12px;margin-top:16px;">${title}</h1>
         <p style="color:#475569;font-size:1rem;line-height:1.7;margin-bottom:20px;">${escapeHtml(comp.subtitle || '')}</p>
-        ${buildThreeMallPriceBoxHtml(comp)}
+        ${compPriceBoxesHtml}
         <div style="background:#0f172a;color:#fff;padding:20px;border-radius:16px;margin-bottom:24px;">
           <strong style="color:#fcd34d;display:block;margin-bottom:6px;">対決結論 (VERDICT)</strong>
           <p style="margin:0;line-height:1.7;">${escapeHtml(comp.verdictSummary || '')}</p>

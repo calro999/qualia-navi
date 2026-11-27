@@ -3,14 +3,14 @@
 > コスメ・美容徹底検証メディア 全記事＆全コンテンツ統合アーカイブ
 
 - Domain: https://qualia-navi.vercel.app
-- Last Mod: 2026-11-26
+- Last Mod: 2026-11-27
 - Format: Markdown (Optimized for LLM Context Windows & Retrieval Augmented Generation)
 
 ---
 
 ## 1. 特集ブログ・10選ガイド (Special Feature Guides: 388件)
 
-### 【2026年11月最新・総まとめ】全24ジャンル別コスメ人気ランキング総合ハブ（計559アイテム毎日更新）
+### 【2026年11月最新・総まとめ】全24ジャンル別コスメ人気ランキング総合ハブ（計568アイテム毎日更新）
 - **URL**: https://qualia-navi.vercel.app/features/feat-2026-11-monthly-cosme-grand-hub
 - **Author**: 橘 えりか (Qualia Navi コスメ＆美容編集長)
 - **Summary**: 2026年11月の口紅・チーク・アイシャドウ・下地・ファンデ・化粧水・美容液・美容家電まで全24ジャンルのstarRatingランキングと新着アイテムを毎日更新で集約。

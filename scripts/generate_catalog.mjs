@@ -14,6 +14,8 @@ if (!fs.existsSync(articlesJsonPath)) {
 
 const articles = JSON.parse(fs.readFileSync(articlesJsonPath, 'utf8'));
 
+const yahooMapPath = path.join(projectRoot, 'src', 'data', 'yahooAffiliateMap.json');
+const yahooAffiliateMap = fs.existsSync(yahooMapPath) ? JSON.parse(fs.readFileSync(yahooMapPath, 'utf8')) : {};
 const a8MapPath = path.join(projectRoot, 'src', 'data', 'a8AffiliateMap.json');
 const a8AffiliateMap = fs.existsSync(a8MapPath) ? JSON.parse(fs.readFileSync(a8MapPath, 'utf8')) : {};
 
@@ -416,7 +418,7 @@ articles.forEach(art => {
     reviewerRole: art.reviewerRole || '専属コスメアナリスト',
     ctaTitle: art.ctaTitle || '楽天市場で最安値・在庫をチェックする 👉',
     shopName,
-    yahooAffiliateUrl: art.yahooAffiliateUrl,
+    yahooAffiliateUrl: yahooAffiliateMap[`/articles/${id}`] || art.yahooAffiliateUrl,
     a8AffiliateUrl: a8AffiliateMap[`/articles/${id}`]?.url || art.a8AffiliateUrl,
     a8Pixel: a8AffiliateMap[`/articles/${id}`]?.pixel || art.a8Pixel,
     a8CtaText: a8AffiliateMap[`/articles/${id}`]?.ctaText || art.a8CtaText,

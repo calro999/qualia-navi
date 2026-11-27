@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { RakutenProductArticle } from '../types';
+import a8AffiliateMapRaw from '../data/a8AffiliateMap.json';
+const a8AffiliateMap: Record<string, { url: string; pixel: string; name?: string; ctaText?: string }> = a8AffiliateMapRaw;
 import { AUTHOR_PROFILES, INITIAL_COMPARISONS, INITIAL_BLOG_POSTS } from '../data';
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
 import { TableOfContents } from '../components/TableOfContents';
@@ -169,24 +171,29 @@ function inlineMarkdown(text: string): string {
 
 export function ProductDetailPage({ articleId, articles, onNavigate }: ProductDetailPageProps) {
   const catalogArticle = articles.find((a) => a.id === articleId || a.itemCode === articleId);
-  const [article, setArticle] = useState<RakutenProductArticle | null>(catalogArticle || null);
+  const initialA8 = a8AffiliateMap[`/articles/${articleId}`];
+  const initialArticle = catalogArticle && initialA8 ? { ...catalogArticle, a8AffiliateUrl: initialA8.url, a8Pixel: initialA8.pixel, a8CtaText: initialA8.ctaText } : (catalogArticle || null);
+  const [article, setArticle] = useState<RakutenProductArticle | null>(initialArticle);
   const [isLoading, setIsLoading] = useState<boolean>(!catalogArticle || !(catalogArticle.reviewBody || catalogArticle.content));
   const [favorited, setFavorited] = useState(false);
   const promo = useRakutenPromoMicrocopy();
 
   useEffect(() => {
     const current = articles.find((a) => a.id === articleId || a.itemCode === articleId);
+    const a8 = a8AffiliateMap[`/articles/${articleId}`];
+    const enrich = (art: RakutenProductArticle) => a8 ? { ...art, a8AffiliateUrl: a8.url, a8Pixel: a8.pixel, a8CtaText: a8.ctaText } : art;
+
     if (current && (current.reviewBody || current.content)) {
-      setArticle(current);
+      setArticle(enrich(current));
       setIsLoading(false);
     } else {
-      if (current) setArticle(current);
+      if (current) setArticle(enrich(current));
       setIsLoading(true);
       fetch(`/data/articles/${articleId}.json`)
         .then(res => res.ok ? res.json() : null)
         .then(data => {
           if (data) {
-            setArticle(data);
+            setArticle(enrich(data));
           }
         })
         .catch(() => {

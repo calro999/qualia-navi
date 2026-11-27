@@ -57,7 +57,8 @@ export function deduplicateArticles(articles: RakutenProductArticle[]): RakutenP
 }
 
 export interface MallLinkInfo {
-  mall: 'yahoo' | 'amazon' | 'rakuten';
+  mall: 'official' | 'yahoo' | 'amazon' | 'rakuten';
+  pixelUrl?: string;
   name: string;
   url: string;
   badge: string;
@@ -67,6 +68,7 @@ export interface MallLinkInfo {
 }
 
 export interface ThreeMallLinks {
+  official?: MallLinkInfo;
   yahoo?: MallLinkInfo;
   amazon: MallLinkInfo;
   rakuten: MallLinkInfo;
@@ -121,6 +123,25 @@ export function getMallLinks(article: Partial<RakutenProductArticle>): ThreeMall
 
   const ordered: MallLinkInfo[] = [];
 
+  // メーカー公式サイト (A8.net): 正式なアフィリエイトリンク(a8AffiliateUrl)が登録されている場合のみ表示
+  let official: MallLinkInfo | undefined = undefined;
+  const a8AffiliateUrl = (article as any)?.a8AffiliateUrl;
+  if (a8AffiliateUrl && typeof a8AffiliateUrl === "string" && a8AffiliateUrl.trim().length > 0) {
+    const pixelUrl = (article as any)?.a8Pixel;
+    const ctaText = (article as any)?.a8CtaText || "公式サイトで見る";
+    official = {
+      mall: "official",
+      name: "メーカー公式サイト",
+      url: a8AffiliateUrl.trim(),
+      pixelUrl,
+      badge: "公式限定特典",
+      priceNote: "正規品保証・公式限定キャンペーン・初回特典あり",
+      ctaText,
+      buttonColor: "bg-[#16a34a] hover:bg-[#15803d] text-white"
+    };
+    ordered.push(official);
+  }
+
   // Yahoo!ショッピング: 正式なアフィリエイトリンク(yahooAffiliateUrl)が登録されている場合のみ表示
   let yahoo: MallLinkInfo | undefined = undefined;
   const yahooAffiliateUrl = (article as any)?.yahooAffiliateUrl;
@@ -142,6 +163,7 @@ export function getMallLinks(article: Partial<RakutenProductArticle>): ThreeMall
   ordered.push(rakuten);
 
   return {
+    official,
     yahoo,
     amazon,
     rakuten,

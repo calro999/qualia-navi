@@ -14,6 +14,9 @@ if (!fs.existsSync(articlesJsonPath)) {
 
 const articles = JSON.parse(fs.readFileSync(articlesJsonPath, 'utf8'));
 
+const a8MapPath = path.join(projectRoot, 'src', 'data', 'a8AffiliateMap.json');
+const a8AffiliateMap = fs.existsSync(a8MapPath) ? JSON.parse(fs.readFileSync(a8MapPath, 'utf8')) : {};
+
 const VALID_CATEGORIES = new Set([
   'skincare',
   'suncare',
@@ -414,6 +417,9 @@ articles.forEach(art => {
     ctaTitle: art.ctaTitle || '楽天市場で最安値・在庫をチェックする 👉',
     shopName,
     yahooAffiliateUrl: art.yahooAffiliateUrl,
+    a8AffiliateUrl: a8AffiliateMap[`/articles/${id}`]?.url || art.a8AffiliateUrl,
+    a8Pixel: a8AffiliateMap[`/articles/${id}`]?.pixel || art.a8Pixel,
+    a8CtaText: a8AffiliateMap[`/articles/${id}`]?.ctaText || art.a8CtaText,
     amazonAffiliateUrl: art.amazonAffiliateUrl,
     asin: art.asin,
     isHallOfFame: !!art.isHallOfFame || (starRating >= 4.75 && reviewCount >= 120),
@@ -493,6 +499,14 @@ if (fs.existsSync(dataTsPath)) {
           for (const k of keys) {
             if (affiliateMap[k]) {
               b.yahooAffiliateUrl = affiliateMap[k];
+              break;
+            }
+          }
+          for (const k of keys) {
+            if (a8AffiliateMap[k]) {
+              b.a8AffiliateUrl = a8AffiliateMap[k].url;
+              b.a8Pixel = a8AffiliateMap[k].pixel;
+              b.a8CtaText = a8AffiliateMap[k].ctaText;
               break;
             }
           }

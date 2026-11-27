@@ -39,6 +39,7 @@ export function ThreeMallPriceBox({ article, variant = 'full', className = '' }:
             >
               <span>{m.name}</span>
               <ExternalLink className="w-3.5 h-3.5 opacity-90" />
+              {m.pixelUrl && <img border="0" width="1" height="1" src={m.pixelUrl} alt="" className="hidden" />}
             </a>
           ))}
         </div>
@@ -72,7 +73,7 @@ export function ThreeMallPriceBox({ article, variant = 'full', className = '' }:
       </div>
 
       {/* モール価格比較ボタン（Yahooはアフィリ登録時のみ表示、Amazon・楽天は常時表示） */}
-      <div className={`grid grid-cols-1 ${mallLinks.ordered.length === 3 ? 'md:grid-cols-3' : 'md:grid-cols-2'} gap-4`}>
+      <div className={`grid grid-cols-1 ${mallLinks.ordered.length >= 4 ? 'md:grid-cols-4' : mallLinks.ordered.length === 3 ? 'md:grid-cols-3' : 'md:grid-cols-2'} gap-4`}>
         {mallLinks.ordered.map((m) => (
           <div
             key={m.mall}
@@ -100,6 +101,7 @@ export function ThreeMallPriceBox({ article, variant = 'full', className = '' }:
               <span>{m.ctaText}</span>
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
+            {m.pixelUrl && <img border="0" width="1" height="1" src={m.pixelUrl} alt="" className="hidden" />}
           </div>
         ))}
       </div>

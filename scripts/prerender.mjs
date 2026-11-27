@@ -19,9 +19,13 @@ const articlesJsonPath = path.join(projectRoot, 'src', 'data', 'articles.json');
 const blogsJsonPath = path.join(projectRoot, 'public', 'data', 'blogs.json');
 const comparisonsJsonPath = path.join(projectRoot, 'public', 'data', 'comparisons.json');
 const yahooAffiliateMapPath = path.join(projectRoot, 'src', 'data', 'yahooAffiliateMap.json');
+const a8AffiliateMapPath = path.join(projectRoot, 'src', 'data', 'a8AffiliateMap.json');
 
 const yahooAffiliateMap = fs.existsSync(yahooAffiliateMapPath)
   ? JSON.parse(fs.readFileSync(yahooAffiliateMapPath, 'utf8'))
+  : {};
+const a8AffiliateMap = fs.existsSync(a8AffiliateMapPath)
+  ? JSON.parse(fs.readFileSync(a8AffiliateMapPath, 'utf8'))
   : {};
 
 const articles = fs.existsSync(articlesJsonPath)
@@ -40,6 +44,12 @@ articles.forEach(a => {
   const mapUrl = yahooAffiliateMap[`/articles/${a.id}`];
   if (mapUrl) {
     a.yahooAffiliateUrl = mapUrl;
+  }
+  const a8 = a8AffiliateMap[`/articles/${a.id}`];
+  if (a8) {
+    a.a8AffiliateUrl = a8.url;
+    a.a8Pixel = a8.pixel;
+    a.a8CtaText = a8.ctaText || "公式サイトで見る";
   }
 });
 
@@ -74,6 +84,12 @@ blogs.forEach(b => {
 
   if (mapUrl) {
     b.yahooAffiliateUrl = mapUrl;
+  }
+  const a8 = a8AffiliateMap[`/features/${b.slug || b.id}`] || a8AffiliateMap[`/features/${b.id}`];
+  if (a8) {
+    b.a8AffiliateUrl = a8.url;
+    b.a8Pixel = a8.pixel;
+    b.a8CtaText = a8.ctaText || "公式サイトで見る";
   }
 });
 
@@ -267,6 +283,25 @@ function buildThreeMallPriceBoxHtml(item, checkDate = '2026年11月調査') {
   const rakutenUrl = item.affiliateLink || item.affiliateUrl || `https://hb.afl.rakuten.co.jp/hgc/g00uq6dn.j9rug80d.g00uq6dn.j9ruh5c8/?pc=${encodeURIComponent('https://search.rakuten.co.jp/search/mall/' + cleanKeyword + '/')}`;
   const refPrice = item.rakutenPrice || item.price || 'オープン価格';
 
+  const a8AffiliateUrl = item.a8AffiliateUrl && typeof item.a8AffiliateUrl === "string" && item.a8AffiliateUrl.trim().length > 0
+    ? item.a8AffiliateUrl.trim()
+    : null;
+  const a8Pixel = item.a8Pixel || null;
+  const a8CtaText = item.a8CtaText || "公式サイトで見る";
+
+  const officialCardHtml = a8AffiliateUrl ? `
+        <div style="background:#f0fdf4;border:1.5px solid #16a34a;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;">
+          <div>
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+              <strong style="color:#0f172a;font-size:0.9rem;">メーカー公式サイト</strong>
+              <span style="background:#dcfce7;color:#166534;font-size:10px;font-weight:800;padding:2px 6px;border-radius:6px;">公式限定特典</span>
+            </div>
+            <p style="font-size:0.75rem;color:#64748b;margin:0;line-height:1.4;">正規品保証・公式限定キャンペーン・初回特典あり</p>
+          </div>
+          <a href="${a8AffiliateUrl}" target="_blank" rel="nofollow sponsored noopener" style="display:block;text-align:center;background:#16a34a;color:#fff;font-weight:800;font-size:0.85rem;padding:9px;border-radius:8px;text-decoration:none;">${escapeHtml(a8CtaText)} ❯</a>
+          ${a8Pixel ? `<img border="0" width="1" height="1" src="${a8Pixel}" alt="" style="display:none;" />` : ""}
+        </div>` : "";
+
   const yahooCardHtml = yahooAffiliateUrl ? `
         <div style="background:#fef2f2;border:1.5px solid #ff0033;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;">
           <div>
@@ -277,7 +312,7 @@ function buildThreeMallPriceBoxHtml(item, checkDate = '2026年11月調査') {
             <p style="font-size:0.75rem;color:#64748b;margin:0;line-height:1.4;">送料無料ライン・付与ポイントは各出店ストアにより異なります</p>
           </div>
           <a href="${yahooAffiliateUrl}" target="_blank" rel="nofollow sponsored noopener" style="display:block;text-align:center;background:#ff0033;color:#fff;font-weight:800;font-size:0.85rem;padding:9px;border-radius:8px;text-decoration:none;">Yahoo!で最新価格を見る ❯</a>
-        </div>` : '';
+        </div>` : "";
 
   const amazonCardHtml = `
         <div style="background:#fffbeb;border:1.5px solid #ff9900;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;gap:8px;">
@@ -317,6 +352,7 @@ function buildThreeMallPriceBoxHtml(item, checkDate = '2026年11月調査') {
         </div>
       </div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));gap:12px;margin-bottom:14px;">
+        ${officialCardHtml}
         ${yahooCardHtml}
         ${amazonCardHtml}
         ${rakutenCardHtml}
@@ -586,19 +622,28 @@ comparisons.forEach((comp) => {
   const inferredNameA = titleParts[0]?.trim() || "注目コスメA";
   const inferredNameB = titleParts[1]?.split(/\s+/)[0]?.trim() || "注目コスメB";
 
+  const a8A = a8AffiliateMap[`/comparisons/${comp.id}#itemA`];
+  const a8B = a8AffiliateMap[`/comparisons/${comp.id}#itemB`];
+
   const compArtA = {
     ...(rawArtA || {}),
     id: comp.productItemCodeA,
     title: rawArtA?.title || inferredNameA,
     productName: rawArtA?.productName || inferredNameA,
-    yahooAffiliateUrl: yahooAffiliateMap[`/comparisons/${comp.id}#itemA`] || null
+    yahooAffiliateUrl: yahooAffiliateMap[`/comparisons/${comp.id}#itemA`] || null,
+    a8AffiliateUrl: a8A ? a8A.url : (rawArtA?.a8AffiliateUrl || null),
+    a8Pixel: a8A ? a8A.pixel : (rawArtA?.a8Pixel || null),
+    a8CtaText: a8A ? a8A.ctaText : (rawArtA?.a8CtaText || "公式サイトで見る")
   };
   const compArtB = {
     ...(rawArtB || {}),
     id: comp.productItemCodeB,
     title: rawArtB?.title || inferredNameB,
     productName: rawArtB?.productName || inferredNameB,
-    yahooAffiliateUrl: yahooAffiliateMap[`/comparisons/${comp.id}#itemB`] || null
+    yahooAffiliateUrl: yahooAffiliateMap[`/comparisons/${comp.id}#itemB`] || null,
+    a8AffiliateUrl: a8B ? a8B.url : (rawArtB?.a8AffiliateUrl || null),
+    a8Pixel: a8B ? a8B.pixel : (rawArtB?.a8Pixel || null),
+    a8CtaText: a8B ? a8B.ctaText : (rawArtB?.a8CtaText || "公式サイトで見る")
   };
 
   const compPriceBoxesHtml = `
@@ -681,7 +726,17 @@ blogs.forEach((blog) => {
     if (rank1Art) {
       featurePriceBoxTarget = {
         ...rank1Art,
-        yahooAffiliateUrl: blog.yahooAffiliateUrl || rank1Art.yahooAffiliateUrl
+        yahooAffiliateUrl: blog.yahooAffiliateUrl || rank1Art.yahooAffiliateUrl,
+        a8AffiliateUrl: blog.a8AffiliateUrl || rank1Art.a8AffiliateUrl || null,
+        a8Pixel: blog.a8Pixel || rank1Art.a8Pixel || null,
+        a8CtaText: blog.a8CtaText || rank1Art.a8CtaText || "公式サイトで見る"
+      };
+    } else {
+      featurePriceBoxTarget = {
+        ...blog,
+        a8AffiliateUrl: blog.a8AffiliateUrl || null,
+        a8Pixel: blog.a8Pixel || null,
+        a8CtaText: blog.a8CtaText || "公式サイトで見る"
       };
     }
   }

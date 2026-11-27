@@ -1,6 +1,8 @@
 import React from 'react';
 import { INITIAL_COMPARISONS, INITIAL_ARTICLES } from '../data';
 import yahooAffiliateMapRaw from '../data/yahooAffiliateMap.json';
+import a8AffiliateMapRaw from '../data/a8AffiliateMap.json';
+const a8AffiliateMap: Record<string, { url: string; pixel: string; name?: string; ctaText?: string }> = a8AffiliateMapRaw;
 const yahooAffiliateMap: Record<string, string> = yahooAffiliateMapRaw;
 import { MarkdownRenderer } from '../components/MarkdownRenderer';
 import { TableOfContents } from '../components/TableOfContents';
@@ -34,7 +36,12 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
     );
     if (found) {
       const yahooUrl = yahooAffiliateMap[`/comparisons/${comparison.id}#itemA`];
-      return yahooUrl ? { ...found, yahooAffiliateUrl: yahooUrl } : found;
+      const a8 = a8AffiliateMap[`/comparisons/${comparison.id}#itemA`];
+      return {
+        ...found,
+        ...(yahooUrl ? { yahooAffiliateUrl: yahooUrl } : {}),
+        ...(a8 ? { a8AffiliateUrl: a8.url, a8Pixel: a8.pixel, a8CtaText: a8.ctaText } : {})
+      };
     }
 
     // カタログに未登録だった場合のスマートフォールバック（無関係な商品へのすり替わりを防止）
@@ -50,7 +57,10 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
       category: 'skincare',
       introText: comparison.subtitle,
       affiliateLink: `https://hb.afl.rakuten.co.jp/hgc/g00s54yn.j9rug64b.g00s54yn.j9ruh971/?pc=${encodeURIComponent('https://search.rakuten.co.jp/search/mall/' + inferredName)}`,
-      yahooAffiliateUrl: yahooAffiliateMap[`/comparisons/${comparison.id}#itemA`] || undefined
+      yahooAffiliateUrl: yahooAffiliateMap[`/comparisons/${comparison.id}#itemA`] || undefined,
+      a8AffiliateUrl: a8AffiliateMap[`/comparisons/${comparison.id}#itemA`]?.url,
+      a8Pixel: a8AffiliateMap[`/comparisons/${comparison.id}#itemA`]?.pixel,
+      a8CtaText: a8AffiliateMap[`/comparisons/${comparison.id}#itemA`]?.ctaText
     } as any;
   }, [comparison]);
 
@@ -61,7 +71,12 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
     );
     if (found) {
       const yahooUrl = yahooAffiliateMap[`/comparisons/${comparison.id}#itemB`];
-      return yahooUrl ? { ...found, yahooAffiliateUrl: yahooUrl } : found;
+      const a8 = a8AffiliateMap[`/comparisons/${comparison.id}#itemB`];
+      return {
+        ...found,
+        ...(yahooUrl ? { yahooAffiliateUrl: yahooUrl } : {}),
+        ...(a8 ? { a8AffiliateUrl: a8.url, a8Pixel: a8.pixel, a8CtaText: a8.ctaText } : {})
+      };
     }
 
     // カタログに未登録だった場合のスマートフォールバック（無関係な商品へのすり替わりを防止）
@@ -219,6 +234,17 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
                   <span>楽天市場で最安値・在庫を見る</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
+                {itemA.a8AffiliateUrl && (
+                  <a
+                    href={itemA.a8AffiliateUrl}
+                    target="_blank"
+                    rel="nofollow sponsored noopener"
+                    className="w-full py-2.5 px-4 bg-[#16a34a] hover:bg-[#15803d] text-white font-extrabold text-xs rounded-xl flex items-center justify-center gap-1.5 shadow-sm transition relative"
+                  >
+                    <span>{itemA.a8CtaText || "公式サイトで見る"} ❯</span>
+                    {itemA.a8Pixel && <img border="0" width="1" height="1" src={itemA.a8Pixel} alt="" className="hidden" />}
+                  </a>
+                )}
                 {itemA.yahooAffiliateUrl && (
                   <a
                     href={itemA.yahooAffiliateUrl}
@@ -286,6 +312,17 @@ export function ProductComparisonPage({ compareId, onNavigate }: ProductComparis
                   <span>楽天市場で最安値・在庫を見る</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
+                {itemB.a8AffiliateUrl && (
+                  <a
+                    href={itemB.a8AffiliateUrl}
+                    target="_blank"
+                    rel="nofollow sponsored noopener"
+                    className="w-full py-2.5 px-4 bg-[#16a34a] hover:bg-[#15803d] text-white font-extrabold text-xs rounded-xl flex items-center justify-center gap-1.5 shadow-sm transition relative"
+                  >
+                    <span>{itemB.a8CtaText || "公式サイトで見る"} ❯</span>
+                    {itemB.a8Pixel && <img border="0" width="1" height="1" src={itemB.a8Pixel} alt="" className="hidden" />}
+                  </a>
+                )}
                 {itemB.yahooAffiliateUrl && (
                   <a
                     href={itemB.yahooAffiliateUrl}
